@@ -1,0 +1,1264 @@
+NNP   NNP   NNP   PMS   NNP   PMP   
+DTC   NNP   NNP   PMP   
+CDB   PMP   
+PRL   DTC   NNC   CCB   NNC   PMP   
+DTC   NNC   CCT   NNC   QOT   PMP   
+DTC   CDB   PRS   NNC   PMP   
+JJC   PRO   PRO   PMS   PMP   
+RBQ   RBI   VBW   DTC   PRI   CCT   PRI   NNC   PMQ   
+VBAF   PRP   PMS   QOT   PMP   
+RBF   NNC   DTC   PRSP   NNC   PMP   
+PRI   NNC   VBH   VBTR   CCP   NNC   DTC   JJD   PRL   PMP   
+VBS   PRP   RBW   CCB   DTCP   NNC   PMP   
+PRC   RBI   DTC   CDB   PRS   NNC   PMS   PMP   
+RBF   JJD   CCT   JJD   NNC   PRP   DTC   NNC   PMP   
+JJCS   NNC   PRO   JJCC   CCP   RBK   VBW   CCT   NNC   PMP   
+JJCS   PRS   RBW   VBTS   CCT   NNC   CCB   NNC   PMP   
+JJD   PRS   PRP   CCB   VBW   PMP   
+VBS   PRS   VBW   CCR   JJD   RBI   PRS   VBAF   PMP   
+NNC   PRO   PMP   
+VBTF   PRS   DTC   PRSP   NNC   CCT   NNC   PRS   PMP   
+CDB   PMP   
+RBI   VBTS   PRS   VBW   PMP   
+VBH   RBK   RBQ   VBTS   CCT   NNC   CCB   PRSP   NNC   PMP   
+NNC   CCT   NNC   PRO   CCT   CCT   PRSP   PMP   
+VBTS   PRO   PMS   PMP   
+RBT   RBI   PMC   CCT   PME   
+VBOF   PRS   PRS   CCB   PRI   NNC   PMP   
+PRQ   PME   
+VBOF   PRS   PRS   CCB   PRI   NNC   PMP   
+RBD   PRS   RBD   CCP   CCT   VBOF   CCB   NNC   PMP   
+VBOF   PRS   DTC   PRSP   DTCP   NNC   PMP   
+PRL   DTC   JJCS   NNC   PRS   CCP   VBTS   PRS   RBW   PMP   
+CCT   RBF   PRS   PRO   NNC   PMP   
+CCT   PMC   PRQ   DTC   VBTR   PRS   PRL   PMQ   
+VBAF   RBI   PRS   CCT   PRSP   PMS   PMP   
+RBF   RBT   PMP   
+VBOF   PRS   RBI   JJD   PRS   CCB   PRI   NNC   PMP   
+PRO   DTC   NNC   CCP   RBF   JJD   DTC   NNC   PMP   
+JJCS   JJD   DTC   NNC   CCA   JJCS   RBI   DTC   NNC   PMP   
+JJCS   CCB   NNC   PRS   PMP   
+PRI   NNC   DTC   VBS   PRS   PMP   
+VBOF   PRS   PRS   CCB   PRI   NNC   PMP   
+RBI   VBTS   PRS   PMP   
+VBTS   PRS   PRO   JJD   CCA   CCA   PRS   VBTS   PMP   
+RBF   PME   
+RBJ   RBI   DTC   NNC   PRO   PMP   
+VBOF   PRS   PRS   CCB   PRI   PMP   
+CCA   VBTS   RBI   PRS   PMP   
+VBAF   DTC   PRSP   NNC   CCP   JJD   DTC   NNC   PMP   
+VBH   DTCP   NNC   PRS   PMP   
+RBI   VBTS   RBI   RBI   RBW   PRS   PMP   
+JJCS   RBI   PRO   PMP   
+PRI   NNC   RBD   RBD   RBD   DTC   VBS   PRS   PMP   
+JJD   RBI   DTC   NNC   PRS   RBW   PMP   
+CCA   NNC   PRS   VBTS   PMS   PMP   
+PRO   DTC   NNC   PMP   
+RBL   NNC   DTC   NNC   VBS   PRS   PMP   
+PRC   RBT   DTC   VBS   PRS   PMP   
+PRQ   PMQ   
+CCR   PMC   JJCS   CCB   NNC   PRS   PMP   
+RBT   RBI   RBT   PMP   
+JJCS   CCP   NNC   RBI   DTC   VBTS   PRS   CCT   PRSP   PMP   
+VBAF   PRS   CCT   VBOF   DTC   NNC   PMS   PMP   
+RBF   RBI   JJCS   RBI   PMC   VBOF   PRS   PME   
+VBTR   CCP   PRS   PMP   
+PRC   PRS   JJD   DTC   JJD   NNC   PMP   
+CDB   PMP   
+PRQ   DTC   NNC   CCP   PRO   PMQ   
+RBF   PRO   PRI   NNC   PMP   
+VBTR   PRO   PMP   
+NNC   PRO   PMP   
+PRO   DTC   NNC   PRS   PMP   
+VBTR   PRS   CCP   VBW   PRS   JJD   PRS   PMP   
+RBI   VBTS   PRS   PMS   PMP   
+PRQ   PME   
+JJD   PRS   RBL   RBL   NNC   PMQ   
+RBT   PMP   
+QOT   VBAF   PRS   CCP   JJD   JJD   PMP   
+RBJ   PME   
+JJD   PMP   
+CCA   VBTS   RBI   PRS   PMS   PMP   
+CCR   PRC   PMC   JJD   PRS   RBI   CCT   NNC   PME   
+PRQ   NNC   PRS   JJD   PMQ   
+JJD   PRS   VBOF   DTC   NNC   CCR   RBI   PRS   PRL   PMP   
+CCA   VBTS   PRS   PRS   CCB   JJD   PMS   PMP   
+JJD   PRS   RBI   CCT   JJD   NNC   PMQ   
+CCT   RBF   PRS   VBAF   PMP   
+CCA   RBM   JJD   DTC   VBTR   PRS   PMP   
+JJD   PMP   
+JJD   DTCP   NNC   PMP   
+JJD   PRS   NNC   PMC   PRQ   PRS   RBI   JJD   PMQ   
+PRQ   RBI   DTC   QOT   PMQ   
+PRQ   PRS   VBS   VBOF   DTC   NNC   PRS   PMQ   
+RBT   PMP   
+CCA   CCA   CCP   RBI   NNC   PMP   
+RBM   VBTS   DTC   JJD   NNC   CCT   NNC   CCP   PRO   PMP   
+VBOF   PRS   PMQ   
+JJD   NNC   PME   
+RBW   CCP   RBI   VBTR   DTC   PRSP   NNC   PMS   PMP   
+CCT   PRQ   CCT   NNC   PRS   PRS   VBTF   PMQ   
+CCT   PRQ   PMP   
+JJD   RBL   RBL   PRS   PMP   
+CCA   RBD   RBD   CCB   JJD   NNC   PMS   PMP   
+RBF   RBT   PME   
+JJCS   RBI   RBI   CCB   NNC   PRS   PME   
+CCA   CCT   RBI   JJD   PRS   VBTS   PMS   PMP   
+JJD   RBL   RBL   PRS   PMC   RBF   JJD   VBW   PMP   
+CDB   PMP   
+RBF   PRS   PRC   VBTS   PRL   PMP   
+NNP   CDB   PMP   
+NNC   VBTF   PRS   PRO   QOT   PMP   
+PRC   DTC   NNC   PMP   
+JJD   RBB   RBB   NNC   CCB   NNP   NNPA   CDB   PMP   
+CCA   RBW   VBTS   RBI   DTC   PRI   CCT   PRSP   PMP   
+JJD   CCT   DTCP   NNC   DTC   NNC   PMP   
+RBS   RBI   DTC   NNC   PRS   PMQ   
+PRQ   DTCP   NNC   DTC   VBS   PRS   PMQ   
+VBTR   RBI   PRS   CCB   DTCP   NNC   PMQ   
+PRQ   NNC   CCP   PRS   PMQ   
+PRQ   DTC   PRSP   DTCP   NNC   PMQ   
+PRQ   DTC   NNC   PRS   PMQ   
+PRQ   DTC   NNC   CCB   PRSP   NNC   PMQ   
+VBH   JJD   PRS   NNC   CCP   VBTR   CCB   CDB   NNC   PMP   
+VBS   PRS   VBTF   CCT   PRSP   PMS   QOT   PMP   
+RBT   PMC   JJCS   CCB   NNC   CCP   PRO   PME   
+CCR   VBTF   PRP   PMS   QOT   PMP   
+DTC   NNP   NNPA   CDB   DTC   NNC   VBOL   PRS   PMP   
+PRC   RBT   PRP   PMP   
+RBF   RBI   PRP   VBS   VBOF   PMP   
+VBS   PRS   VBW   VBTF   PMS   PMP   
+JJD   DTC   VBW   DTC   PRI   NNC   PMP   
+RBF   PRI   LM   VBH   NNC   PMP   
+CCT   RBF   PRS   RBT   RBK   VBTF   PRS   PRO   PMP   
+JJD   VBTR   RBI   PRS   CCT   PRSP   NNC   PMP   
+RBK   RBW   JJD   DTC   NNC   CCB   JJD   NNC   PMP   
+RBK   RBW   RBI   JJCS   PRS   PMP   
+VBTR   RBI   PRS   RBR   RBR   NNC   CCB   PRSP   NNC   PMP   
+VBTF   RBI   RBT   PRS   CCT   PRQ   JJCC   JJD   NNC   PMP   
+CCT   VBOB   PRS   VBW   PRO   CCT   PRSP   PMP   
+VBW   PRS   RBM   RBJ   JJC   PRS   PRS   PMP   
+JJD   JJC   RBM   PRS   CCB   NNC   PMP   
+VBTR   RBI   RBM   PRS   PMP   
+CDB   PMP   
+RBT   PMP   
+RBT   PRO   PMP   
+RBJ   PME   
+JJD   RBI   PMP   
+CCT   VBTS   CCB   JJD   NNC   PMS   PMP   
+CCR   PRC   PMC   VBTR   RBI   PRP   CCB   DTCP   NNC   PMQ   
+VBS   VBTR   PRP   PMP   
+CCT   JJD   DTC   VBTS   PRS   NNC   PMS   PMP   
+RBT   PME   
+RBT   PME   
+RBF   RBI   PMQ   
+RBI   VBH   JJD   NNC   RBL   RBL   JJD   NNC   PMP   
+CCT   RBF   JJD   DTC   DTCP   NNC   PMP   
+VBTS   DTC   DTCP   PRO   CCT   NNC   CCB   NNC   PMP   
+VBTF   PRO   DTC   JJD   NNC   PMP   
+VBTF   PRO   CCB   DTCP   NNC   PRO   PMP   
+NNC   DTC   VBS   PMP   
+QOT   VBTS   CCB   JJD   NNC   CCT   PRSP   PMC   RBW   PMP   
+JJCS   NNC   CCT   JJCS   PMP   
+RBK   PRI   NNC   RBJ   VBTF   PRP   PMP   
+RBT   VBW   PRO   CCT   PRSP   PMP   
+RBK   RBW   RBF   RBI   JJD   CCP   VBOB   DTC   NNC   PMP   
+VBH   VBW   PRS   NNC   CCP   JJN   JJD   DTC   JJD   PMP   
+VBOF   PRS   DTC   JJN   JJD   CCP   NNC   PMP   
+QOT   DTC   NNC   PRS   CCT   PRSP   PMC   QOT   PMP   
+RBF   VBAF   CCP   CCT   PRS   VBTR   PMP   
+DTCP   NNC   PME   
+VBAF   PRP   CCT   DTCP   NNC   PMP   
+VBTR   PRS   QOT   PMP   
+RBI   JJCS   PRS   VBRF   DTC   NNC   CCP   PRO   PMP   
+JJD   RBI   RBT   DTC   NNC   VBTR   PRS   PRL   PMP   
+CDB   PMP   
+RBJ   PME   
+VBS   PRS   DTC   NNC   CCB   NNC   PMP   
+RBS   PMC   VBOF   PRP   DTC   NNC   CCB   NNC   PMP   
+CCT   VBS   VBAF   PMP   
+VBAF   CCB   PRQ   PMQ   
+VBAF   CCP   VBAF   DTC   NNC   PMP   
+CCA   VBTS   PRS   CCT   PRSP   PMS   PMP   
+VBW   PRS   RBL   PRSP   NNC   RBI   RBI   PRS   PME   
+RBT   RBI   PMP   
+JJD   CCA   JJCS   CCB   NNP   PMP   
+CCA   VBW   PRS   CCP   DTC   NNC   RBW   VBS   PRS   PMP   
+CCT   RBF   VBAF   DTC   JJD   NNC   PMP   
+CDB   PMP   
+RBD   PRS   PRS   RBD   PMP   
+VBTR   CCB   NNC   DTC   PRI   CCB   VBW   PRO   PMP   
+CCT   CCP   DTCP   NNC   CCP   VBH   NNC   PMQ   
+RBT   PMP   
+CCT   CCP   DTCP   NNC   CCP   VBH   NNC   PMP   
+CCR   PRC   PMC   PRQ   DTC   NNC   CCB   DTCP   NNC   PMQ   
+RBF   PRS   VBW   PMP   
+PRQ   DTC   NNC   CCB   DTCP   NNC   PMQ   
+RBJ   PME   
+RBF   PRS   VBTR   CCT   PRSP   PME   
+JJD   DTC   DTCP   NNC   PMP   
+RBF   PRP   PRC   VBW   PMP   
+RBF   PRS   VBAF   PMP   
+CCA   PRS   PMC   VBTR   PRS   CCP   DTC   DTCP   NNC   PMP   
+RBF   PME   
+RBF   PME   
+RBF   PRS   VBTR   PRI   PMP   
+JJD   RBI   DTC   VBTS   PRS   CCT   PRSP   PMP   
+CCA   PRS   PMC   JJD   PRS   CCT   DTCP   JJD   NNC   PMP   
+VBTR   PRS   PRS   CCA   JJCS   CCP   VBTS   PMP   
+DTCP   JJD   NNC   PME   
+VBTR   PRS   JJC   JJC   NNC   PMP   
+JJC   JJD   PRS   PMP   
+CCT   RBF   NNC   PRS   VBTS   PMS   PMP   
+VBTR   PRS   DTC   PRI   PMC   VBTR   PRS   DTC   PRI   PME   
+RBT   CCB   JJCS   JJCS   JJCS   RBI   PRS   PMP   
+VBTS   PRS   CCT   NNC   DTC   PRSP   NNC   CCP   NNC   PMP   
+PRQ   RBF   RBI   PRS   JJD   CCB   NNC   PMP   
+PRQ   RBF   RBI   PRS   JJD   CCT   PRI   NNC   PMP   
+PRQ   RBN   RBI   PRS   VBTS   PMP   
+PRQ   RBN   PRS   JJD   VBTR   CCT   VBAF   PMP   
+JJD   NNC   PRS   PME   
+JJD   NNC   PRS   PME   
+CCT   RBF   PRS   NNC   PMC   PRI   PRS   NNC   PME   
+PRQ   PMQ   
+PRI   NNC   PME   
+VBTR   RBI   RBW   CCT   NNC   DTC   JJD   NNC   PMP   
+VBTS   PRS   PMC   CCA   PRSP   VBTS   PMS   PMP   
+PRL   PMC   PRL   DTC   PRSP   NNC   PMP   
+VBW   PRS   CCT   PRSP   NNC   PMS   QOT   PMP   
+CCA   RBF   PRO   JJD   PME   
+RBF   RBI   PRS   VBW   RBI   PMP   
+RBD   PRS   RBD   PMP   
+RBW   RBI   PMP   
+VBOF   PRS   DTC   PRSP   DTCP   NNC   PMP   
+VBTS   PRS   PRS   CCA   VBTS   PMP   
+VBTS   PRS   NNC   PRS   PMP   
+CDB   PMP   
+JJD   PRS   RBD   RBD   DTC   NNC   CCP   PRO   PMP   
+RBT   JJD   NNC   PRO   CCB   NNC   PMP   
+RBD   PRS   RBD   DTC   PRSP   DTCP   NNC   PMP   
+RBT   RBI   PME   
+JJCS   PRS   PME   
+VBAF   CCB   JJN   NNC   DTC   JJD   PRS   NNC   PMP   
+RBJ   PME   
+VBTP   PRS   RBI   PMP   
+RBS   PRS   RBI   PMP   
+JJD   RBI   PRI   DTC   DTCP   NNC   PRS   PMP   
+DTC   NNC   PRS   PME   
+RBT   RBI   PMP   
+QOT   DTC   RBD   RBD   RBD   CCB   NNC   PMP   
+CCA   VBTS   RBI   PRS   JJD   CCB   NNC   PMP   
+NNC   PRS   NNC   RBI   CCB   NNC   PMP   
+QOT   VBTS   RBI   PRS   PMP   
+RBS   PRS   RBI   VBW   PRS   PMC   CCT   PMP   
+RBF   NNC   CCT   PRSP   NNC   PMP   
+CCA   CCA   RBF   VBTR   CCB   NNC   DTC   DTCP   NNC   PMP   
+QOT   DTC   NNC   CCB   JJD   NNC   PMC   QOT   PMP   
+RBF   PRS   NNC   PMP   
+QOT   DTC   RBD   RBD   RBD   CCB   NNC   PMP   
+RBS   PRS   PRS   PMP   
+RBF   PRS   RBI   NNC   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJCS   RBI   CCB   NNC   CCP   PRO   PMP   
+VBTF   PRS   PRS   CCB   NNC   CCT   NNC   PMP   
+JJCS   RBI   CCR   PRL   CCT   PRSP   PMP   
+RBF   RBI   JJD   PRL   PMP   
+CCT   VBOL   PRS   PMP   
+CCT   VBAF   PRS   PMP   
+JJD   RBI   RBI   PRS   RBW   VBAF   PMP   
+RBI   RBF   PRS   VBW   RBR   RBR   JJD   NNC   PMP   
+DTC   NNC   PMQ   
+VBTF   RBI   RBI   PRS   CCT   VBTR   PRS   RBI   PRS   PME   
+RBF   PRS   VBS   JJD   CCT   PRSP   PMP   
+RBF   NNC   VBS   VBOF   DTC   DTCP   NNC   PMP   
+VBS   RBI   VBOF   CCA   VBOF   DTC   DTCP   PRO   PMP   
+QOT   VBTS   PRS   CCT   PRSP   PRI   NNC   PMC   QOT   PMP   
+VBTS   RBI   PRS   PMS   PMP   
+RBF   PRS   JJD   VBAF   RBW   PME   
+VBTS   PRS   DTC   PRSP   NNC   CCA   VBTR   PMP   
+RBF   VBW   PRS   VBAF   PME   
+DTC   NNC   CCB   DTCP   NNC   PME   
+CCT   JJCS   PRS   RBI   CCT   VBW   VBOF   PRS   PMP   
+CDB   PMP   
+RBD   PRS   RBD   DTC   DTCP   NNC   CCP   NNC   PMP   
+VBH   CDB   PRS   NNC   CCP   NNC   PMP   
+VBH   JJN   JJD   CCP   NNC   RBI   PRS   PMP   
+RBF   JJD   PME   
+RBI   VBTR   PRP   CCB   DTCP   PRO   PMP   
+NNC   PRS   RBF   RBI   PRS   VBTF   RBI   PMP   
+RBS   PMP   
+QOT   DTC   VBW   PRS   CCT   NNC   PMP   
+CCT   RBF   PRO   VBAF   PMP   
+RBS   PMP   
+QOT   VBTS   PRS   PMP   
+VBAF   DTC   NNC   PMP   
+CCT   RBF   CCR   VBH   NNC   PRS   PMP   
+VBTS   JJD   PRS   PMP   
+QOT   VBTS   PRS   CCT   NNC   PMP   
+RBS   PRS   VBW   PRS   PMP   
+VBOF   PRS   VBAF   PMP   
+VBTS   PRS   CCT   NNC   CCB   NNC   PMP   
+VBTS   PRS   JJD   PMC   JJD   PMC   JJD   DTC   NNC   PMP   
+RBF   PRS   VBW   DTC   JJD   CCP   NNC   PRO   PMP   
+RBT   PMC   VBH   PRS   PMP   
+QOT   VBW   CCB   NNC   CCT   PRSP   PMP   
+NNC   PRS   RBI   RBF   PRS   PRO   VBTS   PMP   
+RBF   RBI   JJD   PRO   PMP   
+CCT   PRS   PMC   VBTS   JJCC   RBI   PRS   PMP   
+VBOF   PRS   VBAF   PMP   
+VBOF   PRS   RBI   DTC   NNC   PMP   
+RBF   PRS   RBI   PMP   
+CCT   DTC   NNC   PMP   
+PRI   PRS   NNC   PMP   
+CCT   DTC   DTCP   NNC   PMP   
+JJCS   RBI   PRP   PMP   
+RBK   RBF   PMC   PRQ   RBI   DTC   VBTF   CCT   PRSP   PMQ   
+PRS   PMC   VBW   PRS   RBI   PMP   
+RBR   RBI   RBR   JJD   NNC   PMC   RBF   PRS   VBTR   PMP   
+VBH   DTCP   NNC   PRS   PMP   
+CCA   VBTS   RBI   PRS   PMS   PMP   
+VBTS   PRS   VBAF   PMP   
+VBAF   PRS   RBI   PMP   
+CDB   PMP   
+PRI   NNC   DTC   JJD   CCT   CDB   NNC   PMP   
+RBJ   PME   
+PRL   DTC   JJN   JJD   PMP   
+VBTS   CCB   JJD   NNC   DTC   PRSP   NNC   PMS   PMP   
+JJD   PRP   DTC   PRI   CCB   NNC   PMP   
+VBAF   PRS   CCT   PRSP   CCT   VBW   PRS   JJD   PMP   
+VBTR   CCB   VBW   DTC   JJD   NNC   PMP   
+QOT   VBW   CCT   PRSP   CCB   NNC   PMP   
+VBTR   PRS   PMP   
+RBF   PRS   PRO   RBI   VBOF   PMP   
+QOT   VBAF   DTC   JJD   NNC   CCP   VBTR   PMP   
+JJD   PRS   CCT   JJD   CCA   RBF   RBI   PRS   JJD   PMP   
+CCR   PRC   PMP   
+VBTR   PRS   CCT   PRSP   VBAF   PMP   
+RBB   RBB   PRSP   JJD   DTC   NNC   PMP   
+RBT   PME   
+VBAF   PRS   RBW   PMP   
+VBTR   PRS   PRO   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+JJD   PRS   PMC   RBF   PRS   CCP   RBI   PMP   
+RBJ   PME   
+RBJ   PME   
+QOT   VBAF   DTC   NNC   PMP   
+JJC   JJD   PRS   CCA   CCT   VBTR   PMP   
+RBF   PRS   VBTR   DTC   PRI   NNC   PMP   
+RBF   NNC   DTC   PRSP   NNC   PMP   
+RBK   VBTF   PRS   PMP   
+VBTF   NNC   PRS   PRO   PMP   
+QOT   DTC   JJD   PRS   VBTR   PMC   QOT   PMP   
+RBT   RBI   PRS   VBW   PMQ   
+QOT   RBD   RBD   CCB   JJD   NNC   PMP   
+VBTR   PRS   CCT   PRSP   VBW   PRS   PMP   
+CCT   VBTR   DTC   JJD   NNC   PMP   
+JJCS   CCB   NNC   PMP   
+CCT   PRQ   VBW   DTC   NNC   PMQ   
+NNP   PMP   
+VBOB   PRS   VBW   DTC   NNC   PRS   CCT   PRSP   PMP   
+QOT   VBTS   PRS   PMC   QOT   PMP   
+VBTR   PRS   CCT   PRSP   VBOF   PRS   PRS   PMP   
+QOT   RBD   RBD   CCB   NNC   PMP   
+NNP   PMC   CCT   PRQ   RBS   RBI   PRP   VBTR   PMQ   
+CCT   PRI   PMP   
+QOT   DTC   JJCS   NNC   CCB   NNC   PMP   
+CCT   PRI   PMQ   
+CCT   PRI   CCB   PRO   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+CCT   PRI   CCB   PRO   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCA   VBTR   RBI   CCT   PRSP   DTC   DTCP   NNC   PMQ   
+RBT   PMC   RBT   PMP   
+QOT   VBTS   CCT   PRSP   CCB   NNC   PMP   
+RBW   PRP   VBTR   PMP   
+RBF   PRS   VBTR   DTC   NNC   CCB   NNC   PMP   
+VBTS   DTC   JJD   NNC   CCT   PRC   NNC   PMP   
+PRP   PMP   
+QOT   DTC   RBD   RBD   RBD   CCB   JJD   NNC   PMP   
+RBT   PMP   
+CDB   CCT   PRI   PMC   CCT   NNC   JJD   DTC   NNC   PMP   
+RBJ   PMC   DTC   PRSP   NNC   CCB   NNC   PMQ   
+VBW   PRS   DTC   PRSP   NNC   CCB   NNC   PMP   
+VBTF   PRS   PRO   PMP   
+PRQ   PRO   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBJ   PME   
+RBJ   PME   
+RBJ   PME   
+RBJ   PME   
+CCA   VBW   PRS   RBK   RBQ   PRS   RBD   RBD   RBD   PMP   
+VBTS   DTC   JJD   NNC   PMP   
+VBTR   PRS   DTC   RBF   NNC   CCB   NNC   PMP   
+CCA   JJC   VBTR   RBI   RBI   PRS   PMS   PMP   
+RBF   RBI   PRS   VBTF   PRL   PMP   
+QOT   VBTS   PRS   CCT   NNC   PMP   
+VBTF   RBI   PRS   PME   
+RBF   PRS   VBAF   PMP   
+RBF   PRS   VBAF   PMC   VBTF   PRS   NNC   PME   
+NNC   CCB   PRQ   PMQ   
+CCB   PMC   CCB   NNC   PME   
+CCT   RBF   RBI   VBTF   PRL   PME   
+RBF   JJD   PMP   
+QOT   DTC   VBW   CCB   NNC   CCT   PRSP   PMP   
+RBF   PRS   RBI   JJD   DTC   PRSP   NNC   PMP   
+JJCS   PRS   RBI   PMP   
+RBJ   PME   
+CCT   VBTS   PRS   RBI   PMP   
+RBF   RBI   NNC   PRL   RBL   RBL   PMP   
+CCR   PRC   PMC   VBTF   PRS   DTC   PRSP   NNC   PMP   
+QOT   VBAF   CCT   PRSP   DTC   NNC   PMP   
+PRO   DTC   JJCS   PMP   
+PRS   PMP   
+RBT   PRS   VBOF   DTC   NNC   PRS   CCT   PRQ   PMP   
+RBF   PRS   VBW   VBAF   PRL   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMC   QOT   PMP   
+RBJ   PME   
+RBJ   PME   
+VBTR   PRS   PRS   CCT   NNC   PMP   
+VBTF   PRS   DTC   JJD   NNC   PRO   PMP   
+VBTF   PRS   PRS   CCB   NNC   RBW   PMP   
+RBI   VBW   DTC   PRSP   NNC   CCT   PRSP   NNC   PMP   
+JJD   RBI   CCR   PRS   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+RBF   VBOF   CCB   NNC   DTC   PRI   PMP   
+CCA   NNC   PRS   VBS   CCP   PRS   VBAF   PMP   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+RBF   PMP   
+QOT   VBW   CCB   NNC   PMP   
+NNC   VBW   PRS   PRS   VBAF   NNC   CCB   PRI   NNC   PMP   
+CCT   NNC   PRS   JJD   DTC   NNC   RBW   PMP   
+VBTR   PRS   NNC   PRS   PMP   
+QOT   RBD   RBD   CCB   NNC   PMP   
+RBM   PRS   VBH   JJD   NNC   PMP   
+RBT   RBI   JJD   DTC   NNC   PMP   
+CDB   PMP   
+RBJ   PME   
+RBJ   PME   
+VBH   PRI   NNC   VBTR   CCT   PRSP   PME   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJD   RBI   DTC   NNC   PRS   PMP   
+RBB   RBB   NNC   PRO   PMP   
+QOT   VBW   CCT   PRSP   CCB   JJD   CCP   NNC   PMP   
+CCT   CCT   NNC   RBJ   RBF   VBTR   PRL   PMP   
+RBT   PMQ   
+VBAF   PRS   PMP   
+QOT   DTC   NNC   CCT   PRSP   CCB   JJD   CCP   NNC   PMP   
+VBAF   DTC   JJD   NNC   PMP   
+JJCC   JJD   PRO   JJC   NNC   CCT   NNC   PMP   
+QOT   VBTS   PRS   PMP   
+CCT   RBF   PRS   VBTS   CCB   JJD   CCP   NNC   PMP   
+RBF   VBTR   DTC   DTCP   JJD   CCT   DTCP   NNC   RBI   PMP   
+RBT   RBI   RBI   JJCS   DTC   NNC   PRS   CCT   PRSP   PMQ   
+QOT   VBW   PRS   CCT   JJD   NNC   PMP   
+PRQ   DTC   VBS   VBTF   CCB   QOT   PMQ   
+CCT   VBTR   PRS   CCT   NNC   PRS   PME   
+NNC   PRS   CCP   PRS   PMP   
+JJD   VBTF   PRS   RBI   PRS   PME   
+VBTR   PRS   PMP   
+CCT   PRQ   NNC   PRO   CCT   PRSP   PMQ   
+CCA   VBAF   DTC   JJD   NNC   PMP   
+RBT   RBI   JJD   DTC   NNC   PMP   
+CDB   PMP   
+PRI   NNC   RBI   DTC   JJD   CCT   JJD   CCP   NNC   PMP   
+PRQ   DTC   VBTR   PRS   PRL   PMQ   
+VBTR   PRS   PMP   
+QOT   VBAF   DTC   NNC   CCP   CCT   VBTR   PMP   
+RBI   PRS   VBTR   PMQ   
+QOT   VBW   CCT   PRSP   CCB   JJD   NNC   PMP   
+CCT   VBW   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCT   VBW   CCT   PRQ   PMQ   
+CCT   VBW   CCT   PRSP   VBTR   PMP   
+QOT   VBTS   CCB   NNC   CCP   JJD   DTC   NNC   PMP   
+PRQ   VBTR   PMQ   
+DTC   VBTR   NNC   PME   
+VBAF   DTC   JJD   NNC   CCP   VBTR   PMP   
+RBT   RBI   JJCS   RBI   JJD   DTC   NNC   PMP   
+CDB   PMP   
+DTC   CCT   NNC   RBI   DTC   CDB   CCP   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   CCT   PRSP   PMP   
+JJD   RBI   DTC   NNC   PRP   PMP   
+CDB   CCA   CDB   LM   CDB   PMP   
+CDB   CCA   CDB   LM   CDB   PMP   
+CDB   CCA   CDB   LM   CDB   PMP   
+RBS   RBS   PMP   
+CDB   CCA   CDB   LM   CDB   CDB   PMP   
+CDB   CDB   CCA   CDB   LM   CDB   CDB   PMP   
+RBN   PRS   NNC   CCT   VBOF   PRO   RBW   PMP   
+CDB   CDB   CCA   CDB   LM   CDB   CDB   PMP   
+RBJ   PME   
+CDB   NNC   PRQ   PMQ   
+RBJ   PMQ   
+PRL   PRS   RBI   PMQ   
+CDB   CCA   CDB   LM   CDB   PMP   
+CDB   CDB   NNC   PRQ   PMQ   
+VBAF   DTC   NNC   PMS   PMP   
+JJD   PRS   CCT   NNC   PMP   
+RBF   PRS   NNC   VBAF   PMP   
+JJD   NNC   PRS   PMP   
+DTC   JJN   NNC   RBI   PMC   RBJ   PME   
+VBTS   PRS   CCP   CDB   CDB   NNC   PMP   
+CDB   PRQ   PMQ   
+VBTS   CCB   NNC   CCP   RBF   PRS   RBD   RBD   PMS   PMP   
+DTCP   NNC   PMQ   
+RBF   PMC   JJD   CCP   NNC   CCP   VBTR   PMP   
+DTCP   NNC   PMQ   
+RBF   PMP   
+CCT   JJD   NNC   PRS   PMC   RBF   PRS   NNC   VBW   PMP   
+RBJ   PME   
+DTCP   NNC   PMQ   
+PRO   RBI   PMP   
+DTCP   NNC   PMP   
+CCA   PRQ   VBTR   PRS   CCT   CDB   CDB   NNC   PMQ   
+DTC   VBTR   PRS   CCT   PRSP   PMQ   
+RBT   PMP   
+RBF   PMP   
+PRS   DTC   NNC   CCT   PRSP   PMP   
+PRS   DTC   NNC   CCB   DTCP   NNC   PMQ   
+RBT   PMP   
+CCT   VBH   JJD   CCP   PRS   PRI   NNC   PMP   
+RBF   VBTR   DTCP   NNC   PMP   
+QOT   PRP   PMP   
+JJD   PRO   PMP   
+CCA   PRQ   VBW   PRS   CCT   NNC   CCT   DTCP   NNC   PMQ   
+VBTR   JJD   PRS   PMP   
+QOT   VBW   CCB   JJD   NNC   CCT   PRSP   NNC   PMP   
+CCT   VBH   DTCP   NNC   RBI   PRS   PMS   PMP   
+PRQ   VBW   CCB   DTCP   NNC   PMQ   
+PRQ   RBI   PRP   PMQ   
+QOT   VBW   CCB   NNC   CCP   JJD   DTC   NNC   PMP   
+RBF   PRS   VBW   PMP   
+RBF   PRI   PMP   
+PRC   RBI   PMQ   
+RBT   PMP   
+RBT   RBI   PRQ   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBJ   PRQ   VBTR   PRS   CCT   PRSP   PMQ   
+PRS   DTC   NNC   PRP   PMP   
+VBTR   PRS   PRP   CCA   VBTR   RBI   RBW   PMP   
+QOT   VBW   CCB   NNC   PMP   
+JJD   PRO   PMP   
+CCT   JJD   NNC   PRS   PME   
+RBF   RBI   RBI   JJD   DTC   JJD   NNC   PMP   
+CCT   RBF   PRS   RBI   VBW   DTC   DTCP   NNC   PME   
+PRQ   RBI   DTC   VBS   VBTF   PRO   PMQ   
+PRO   RBI   RBI   PMQ   
+JJD   RBI   PRO   PME   
+JJD   PRO   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMP   
+JJC   JJD   PRO   CCT   RBF   RBI   RBT   JJD   PMP   
+VBH   PRS   PRI   NNC   CCP   VBTR   PRS   RBW   PMP   
+QOT   VBTS   RBI   CCB   JJD   NNC   PMP   
+VBH   PRS   JJN   NNC   CCP   VBTR   PRS   RBW   PMP   
+CCR   VBTR   PRS   RBI   CCA   DTC   JJD   CCP   NNC   PMP   
+RBF   JJD   PMP   
+RBT   RBI   JJCS   CCB   NNC   PMP   
+CDB   PMP   
+JJD   DTC   CDB   NNC   PMP   
+JJCS   PRO   CCT   PRI   PMP   
+CCT   VBTS   RBI   RBI   PRS   CCT   PRSP   NNC   PMS   PMP   
+DTC   NNC   RBM   CCB   NNC   PRO   PMP   
+VBH   NNC   CCT   PRQ   DTC   PRSP   NNC   PMP   
+JJCS   NNC   PRO   PMP   
+RBT   RBI   JJD   CCR   JJD   PRO   PMP   
+RBS   RBS   PMP   
+PRQ   PRS   VBOF   DTC   PRO   NNC   PMQ   
+PRO   DTC   NNC   PMP   
+QOT   VBAF   DTC   NNC   PMP   
+RBS   RBS   PMP   
+PRQ   NNC   PMQ   
+CCP   VBOF   DTC   PRSP   NNC   PMP   
+RBS   RBS   PMP   
+CCA   RBW   PRS   VBTS   DTC   NNC   PMP   
+CCT   PRQ   PRS   VBTS   RBW   PMQ   
+PRO   DTC   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBF   PRS   VBW   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBF   VBS   VBOF   PMP   
+QOT   VBW   CCB   NNC   PMP   
+DTC   NNC   LM   NNC   PMP   
+RBS   RBS   PMP   
+CCA   VBOF   PRS   DTC   PRSP   NNC   PMP   
+JJCS   CCB   NNC   PRS   PMP   
+RBW   VBH   NNC   PRO   PMP   
+CCA   VBTS   RBI   DTC   NNC   RBW   RBW   PMQ   
+RBF   VBTR   DTC   NNC   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+PRO   RBI   DTC   JJD   CCP   NNC   PME   
+RBI   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+VBTR   PRS   PRO   CCA   VBTR   JJN   PME   
+JJD   PRO   PME   
+RBF   JJD   PRL   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+PRI   NNC   CCP   DTC   VBAF   CCT   VBTR   PRP   PMP   
+PRI   NNC   PMQ   
+RBT   PMP   
+JJN   NNC   PMP   
+JJN   NNC   PME   
+RBS   RBS   PMP   
+CCA   RBW   PRS   VBTS   DTC   PRSP   NNC   PMP   
+VBS   PRS   VBOF   DTC   PRSP   NNC   PMS   PMP   
+JJD   PRS   RBI   VBS   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+CCT   RBT   PRI   VBW   JJD   CCA   RBT   DTC   PRI   PMP   
+VBTS   DTC   JJD   NNC   PMS   PMP   
+RBF   RBI   PRO   VBW   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+DTC   VBW   DTC   JJCS   PRS   CCT   NNC   PMP   
+JJCS   RBI   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJCS   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBS   RBS   PMP   
+CCA   VBOF   PRS   DTC   PRSP   NNC   PMP   
+DTC   NNC   PRO   PMP   
+CCT   PRS   RBI   CCT   NNC   PRS   DTC   RBF   JJD   PMP   
+PRS   RBI   DTC   RBT   PRS   VBW   NNC   PMP   
+CCT   JJCS   RBI   RBT   CCB   PRSP   NNC   PMP   
+RBF   NNC   RBB   RBB   CDB   PMP   
+CDB   PMP   
+JJN   NNC   CCP   JJCC   JJD   DTC   CDB   CCP   NNC   PMP   
+PRO   PME   
+PRL   DTC   PRI   NNC   PME   
+JJD   CCT   NNC   DTC   JJD   NNC   CCP   JJC   VBTR   PMP   
+JJCS   RBI   CCB   PRSP   JJD   PME   
+PRQ   PRS   RBL   PMQ   
+QOT   VBW   CCT   PRPS   CCB   JJD   NNC   PMP   
+PRQ   DTC   JJD   NNC   PRO   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+PRQ   VBTR   PRS   PRL   PMQ   
+NNC   PRS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+PRQ   DTC   NNC   PMQ   
+PRO   DTC   RBT   JJD   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMP   
+CCT   NNC   PMC   PRI   RBT   CCP   NNC   PME   
+JJCS   PRO   NNC   PRP   PMP   
+VBH   DTCP   NNC   RBI   PRL   PMQ   
+RBF   PRS   DTC   JJD   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBJ   PME   
+QOT   PMS   JJD   DTC   JJD   NNC   PMS   PMP   
+CCA   DTCP   NNC   PMQ   
+RBF   PRS   DTC   JJD   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCA   DTCP   NNC   CCA   DTCP   NNC   CCA   DTCP   NNC   PMQ   
+RBF   RBI   PRS   DTC   JJD   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCT   NNC   PRP   PME   
+RBT   PMP   
+CCT   RBF   PRS   NNC   PMP   
+RBT   RBI   JJCS   JJCS   JJCS   PRS   CCT   DTCP   NNC   PMP   
+JJCS   CCB   NNC   CCT   VBW   PMP   
+RBF   PRS   VBTR   DTC   PRSP   NNC   PMP   
+CCT   VBTR   RBI   PRS   DTC   DTCP   NNC   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+PRQ   PRC   PMQ   
+CCA   PRC   RBI   DTC   PRI   NNC   CCP   JJD   NNC   PMP   
+PRQ   PRC   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+CCR   JJD   DTC   NNC   CCB   DTCP   NNC   PMP   
+VBH   NNC   PRS   PMP   
+CCP   VBTF   CCP   JJD   NNC   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMC   QOT   PMP   
+RBT   PMP   
+VBTF   CCT   VBW   PMQ   
+RBF   PMP   
+JJCS   PRO   PMP   
+CCT   VBTF   CCT   NNC   CCP   VBAF   CCB   DTCP   NNC   PMP   
+RBD   RBD   DTC   NNC   PMP   
+CCT   PRS   PMC   RBL   PRS   CCT   JJD   PME   
+NNC   PRS   PME   
+VBTF   PRS   CCT   PRSP   DTC   PRSP   NNC   PME   
+RBI   PMQ   
+QOT   VBW   CCB   NNC   PMP   
+RBJ   PME   
+CCT   NNC   PRS   PMP   
+RBF   RBI   RBT   JJD   PMC   JJCS   PRO   PMP   
+VB   JJN   PRS   NNC   PMP   
+CCT   RBF   JJD   PMP   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+RBF   JJD   PMP   
+QOT   VBW   CCB   NNC   PMP   
+VBH   RBI   PRS   PRI   NNC   PMP   
+RBF   PRP   VBTR   DTC   DTCP   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+PRQ   PRC   PME   
+PRO   RBI   RBI   DTC   JJCS   PME   
+CCR   JJD   RBI   DTC   DTCP   NNC   PMP   
+PRQ   VBS   VBOF   PRO   PMS   QOT   PMQ   
+DTCP   NNC   CCT   NNC   PMP   
+DTC   JJCS   CCT   PRI   CCB   NNC   PMP   
+RBF   JJD   DTC   DTCP   PRO   PMP   
+RBD   RBD   CCB   NNC   DTC   PRI   NNC   PMP   
+RBD   RBD   CCB   NNC   PRO   DTC   PRI   NNC   PMP   
+DTCP   NNC   CCP   RBF   NNC   DTC   VBTR   PRP   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+CCT   RBT   VBW   DTC   DTCP   JJD   CCP   NNC   PMP   
+PRQ   VBS   VBOF   PRS   QOT   PMQ   
+QOT   VBAF   DTC   JJD   NNC   PMC   QOT   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+DTC   NNC   DTC   JJD   RBB   RBB   PRSP   PMP   
+RBF   PRO   VBTR   PMP   
+CCT   PRQ   VBS   VBTF   PRS   QOT   PMQ   
+PRO   DTC   VBS   VBOF   PRO   PMS   QOT   PMP   
+VBTR   RBI   CCT   JJD   CCP   NNC   DTC   PRSP   NNC   PMQ   
+RBT   PMP   
+JJD   RBI   DTC   PRSP   NNC   PMP   
+PRO   DTC   CDB   PRS   NNC   CCB   NNC   PMP   
+CCT   VBOF   PRS   DTC   PRSP   NNC   PMS   PMP   
+PRQ   DTC   VBW   PRS   VBOF   PRS   RBW   PMQ   
+QOT   VBW   PRS   PMP   
+DTC   NNC   NNP   PMP   
+QOT   VBW   CCT   PRSP   CCB   NNC   PMP   
+JJD   DTC   NNC   PRL   PMP   
+CDB   PMP   
+RBI   DTC   NNP   DTC   CDB   NNC   PMP   
+RBF   JJD   NNC   DTC   NNP   PME   
+JJCS   NNC   DTC   VBW   PRL   RBL   RBL   NNC   PMP   
+CCA   CCA   PRP   VBTF   RBI   RBL   RBL   CCB   NNC   PMP   
+RBW   LM   DTC   DTCP   RBL   NNP   CCA   NNP   PMP   
+RBW   LM   DTC   DTCP   RBL   NNP   NNP   PMP   
+RBW   LM   DTC   DTCP   RBL   NNP   NNP   PMP   
+RBT   RBI   JJD   PRO   PMP   
+CDB   PMP   
+RBF   PRS   RBT   VBTR   CCB   NNC   PMP   
+VBW   PRP   JJCS   CCP   DTC   VBTR   PRP   PMP   
+RBI   VBOF   PRS   PRP   VBAF   PMP   
+VBS   PRP   DTC   DTCP   NNC   PMS   PRL   PRP   VBTR   PMP   
+RBF   PRO   VBS   PMP   
+VBW   PRS   VBTR   PRS   CCT   PRSP   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   CCT   NNC   PMP   
+RBS   RBS   PMP   
+QOT   DTC   VBW   RBI   CCB   NNC   PMP   
+PRQ   NNC   RBI   PRO   VBTR   PRS   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+CCT   NNP   PMS   CCT   NNP   PMP   
+QOT   VBAF   DTC   NNC   PMP   
+RBJ   PME   
+RBK   PRC   RBF   NNC   CCT   NNP   PMQ   
+PRO   DTC   NNC   PMP   
+RBF   NNC   CCT   DTCP   NNC   PMP   
+JJD   DTC   NNP   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+VBTR   PRS   CCT   PRSP   NNC   PMP   
+VBOF   PRS   DTC   PRSP   NNC   PMP   
+QOT   VBW   PRS   PMC   QOT   PMP   
+JJD   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+PRQ   RBI   DTC   VBTF   PRS   PRL   PMQ   
+VBTR   PRS   CCT   PRI   NNC   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBJ   PME   
+QOT   VBAF   DTC   NNC   PMP   
+CCA   PRI   PRP   VBAF   PMP   
+PRQ   DTC   DTCP   NNC   PMQ   
+QOT   VBTS   CCT   NNC   DTC   JJD   NNC   PMP   
+JJC   JJD   CCT   NNC   PMP   
+JJD   RBI   CCT   NNC   CCB   DTCP   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+JJD   PRS   VBRF   CCB   JJD   NNC   PMS   PMP   
+JJD   PRS   NNC   PMP   
+JJCC   PRS   RBI   CCB   NNC   PMP   
+QOT   VBTS   PRS   CCT   NNC   PMC   QOT   PMP   
+CCT   JJCC   JJD   RBI   PRS   JJC   NNC   CCB   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+VBAF   DTC   JJD   NNC   PMP   
+VBW   PRS   CCB   JJCC   JJD   RBI   JJC   PRI   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+QOT   RBW   VBTS   DTC   NNC   PMP   
+CCT   JJD   PRS   CCA   RBL   RBL   PRI   NNC   PMP   
+RBF   VBAF   DTC   JJD   NNC   PMP   
+RBT   PRS   PMP   
+RBJ   PME   
+VBTR   PRS   JJD   PMP   
+CCT   PRQ   RBW   JJD   DTC   NNC   PRS   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+VBTR   PRS   DTC   PRI   CCB   PRO   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+CCA   PRI   PRP   VBAF   PMP   
+CDB   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   RBI   CCB   NNC   PMP   
+PRQ   DTC   DTCP   NNC   PMQ   
+QOT   RBD   RBD   RBD   CCB   JJD   NNC   PMP   
+RBW   VBH   JJD   VBAF   NNC   DTC   NNC   PMS   PMP   
+DTCP   NNC   PMQ   
+CCT   NNC   PRS   VBH   CDB   CCT   CDB   PMP   
+CCR   PRQ   NNC   CCP   RBW   VBW   PRS   PRP   PMP   
+CCT   RBF   JJD   RBK   RBQ   PRP   VBW   PMP   
+VBTR   PRP   CCB   NNC   PMP   
+RBF   PRP   NNC   RBI   JJCS   PRP   VBTR   PMP   
+RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBS   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CDB   PMP   
+VBAF   DTC   JJD   NNC   CCT   JJN   JJD   CCP   NNC   PMP   
+CCA   VBTR   RBI   PRS   NNC   DTC   JJD   CCP   NNC   PMP   
+CCT   JJN   JJD   CCP   NNC   JJC   PRO   PMP   
+RBS   RBS   PMP   
+QOT   VBTS   PRS   CCT   NNC   PMP   
+RBS   RBS   PMC   RBS   RBS   PMC   RBS   RBS   PMP   
+QOT   VBS   CCB   NNC   PMP   
+PRQ   PRP   PMQ   
+QOT   VBTS   CCB   JJD   NNC   PMP   
+PRQ   PRP   PMC   PRQ   PRP   PMC   PRQ   PRP   PMP   
+QOT   VBW   RBI   CCB   NNC   PMP   
+VBW   NNC   PRS   VBW   PRP   PMC   JJD   PRS   PMP   
+QOT   VBW   PRS   PMP   
+JJD   PRS   PMC   JJD   PRS   PMC   JJD   PRS   PMP   
+QOT   VBAF   DTC   NNC   PMP   
+JJD   NNC   PMP   
+QOT   VBTS   PRS   PMP   
+JJD   PRI   CCA   JJCS   CCA   JCJS   PMP   
+JJD   CCT   NNC   DTC   DTCP   NNC   PMP   
+CDB   PMP   
+RBS   RBS   PMP   
+QOT   VBTS   PRSP   PMP   
+PRI   NNC   PRO   CCB   DTCP   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   DTCP   NNC   PMP   
+VBTS   PRP   CCB   JJD   NNC   PMP   
+JJD   PRP   PRI   CCB   PRSP   NNC   PMP   
+PRQ   PRP   PMQ   
+QOT   VBTR   NNC   PRS   CCT   PRSP   PMP   
+DTCP   NNC   PRP   PMP   
+QOT   VBW   CCB   DTCP   NNC   PMP   
+RBJ   PME   
+QOT   VBTS   CCB   JJD   NNC   PMP   
+CCA   JJCS   VBAF   DTC   PRSP   NNC   PMP   
+RBT   RBI   VBW   PRS   PMP   
+QOT   VBTS   PRS   CCT   NNC   PMC   QOT   PMP   
+CDB   PMP   
+RBW   VBAF   DTC   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBS   RBS   PMP   
+PRL   PRS   PMP   
+RBL   RBL   CCB   NNC   CCB   NNC   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+PRQ   PRS   PMQ   
+QOT   VBTS   CCB   JJD   NNC   PMP   
+DTC   NNC   PRS   PMP   
+PRI   PRS   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBS   PMC   VBAF   PRP   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJCS   PRS   VBTR   PMP   
+RBF   PRS   RBT   VBW   CCT   PRSP   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBF   RBI   PRS   JJD   PMP   
+RBJ   PME   
+RBS   PRS   RBI   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+CCT   RBW   RBD   RBD   RBD   PMC   VBTS   PRS   PMS   PMP   
+PRQ   DTC   VBS   VBOF   PRO   PMS   QOT   PMQ   
+RBF   PRS   RBL   PMP   
+PRQ   VBTR   PRS   PMQ   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+VBTR   PRS   DTC   DTCP   NNC   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+PRQ   DTC   VBS   VBOF   PRS   QOT   PMQ   
+DTC   DTCP   NNC   PMP   
+VBH   DTCP   NNC   PRP   CCA   VBTR   PMP   
+JJCS   RBI   PRP   JJD   PME   
+VBTR   RBI   PRP   CCB   DTCP   NNC   PMP   
+PRL   RBI   PRP   NNC   PMP   
+VBTR   PRS   RBI   CCB   DTCP   NNC   PMQ   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+RBF   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+VBTR   PRS   CCB   DTCP   NNC   PMP   
+PRQ   RBI   VBS   VBOF   PRS   QOT   PMQ   
+PRI   NNC   PRO   CCP   JJCS   CCP   VBTR   PMP   
+QOT   VBW   CCB   NNC   PMP   
+VBTR   PRO   CCB   QOT   PMP   
+NNC   CCB   DTCP   NNC   PMQ   
+PRO   RBI   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCA   RBF   PRS   VBS   PMP   
+CCA   PRS   RBI   PMC   RBF   PRS   RBI   PRS   VBS   PMP   
+VBTF   JJD   PRS   RBB   RBB   PRSP   CCT   JJD   NNC   PMP   
+JJD   PRS   CCB   VBTR   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJD   PRO   PMP   
+QOT   VBW   CCB   NNC   PMP   
+VBTF   CCT   NNP   DTC   PRI   CCB   NNC   CCB   NNC   PMP   
+RBJ   PME   
+RBF   PRO   NNP   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBM   JJCS   VBTS   DTC   NNC   PMS   PMP   
+CCT   JJD   NNC   PMQ   
+RBT   PMP   
+VBH   DTCP   VBTR   RBI   CCT   NNC   PRO   PMQ   
+RBN   PMP   
+PRO   PMC   PRO   DTC   VBS   PRS   PME   
+RBJ   PMC   DTCP   NNC   PMQ   
+RBN   PMP   
+RBN   PRI   JJD   PMP   
+QOT   DTC   NNC   CCB   NNC   PMP   
+CCT   VBTS   CCB   NNC   DTC   PRSP   VBTR   PMS   PMP   
+RBN   VBTR   CCT   PRSP   NNC   PMP   
+RBI   JJC   JJD   RBI   RBI   PMP   
+VBW   PRS   DTC   DTCP   NNC   CCP   VBW   CCT   PRI   PMP   
+CCA   VBOF   PRS   PME   
+VBTR   PRS   RBI   PRL   DTC   DTCP   NNC   PMQ   
+RBF   PRS   VBTR   CCB   NNC   PMP   
+RBF   NNC   CCT   PRSP   DTC   NNC   PMP   
+RBF   VBTR   CCT   PRSP   DTC   DTCP   NNC   PMP   
+CCA   PRO   DTC   JJD   PME   
+CCT   JJD   DTC   NNC   PRS   PMP   
+RBI   JJD   RBK   VBTR   PRS   PRS   PME   
+VBTR   PRS   CCT   PRSP   CCB   DTCP   NNC   CCP   JJD   PMP   
+RBT   RBI   PMC   JJD   PRS   PRS   PME   
+RBT   PMC   VBS   PRS   PMP   
+CCT   RBF   PRS   PRC   NNC   PMP   
+QOT   VBAF   DTC   JJD   NNC   PMC   QOT   PMP   
+DTC   DTCP   VBTS   PRS   RBI   DTC   JJD   PRS   PMP   
+QOT   VBTS   CCB   NNC   PMP   
+RBF   CCB   NNC   DTC   DTCP   NNC   CCT   VBW   PMP   
+CCR   VBS   PRS   CCB   NNC   PMC   VBTF   PRS   PRS   PME   
+PRQ   DTC   VBS   VBOF   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+VBS   PRS   VBW   JJC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+VBTF   RBI   PRS   RBD   RBD   CCA   RBN   PRS   VBTF   PMP   
+JJD   CCB   DTCP   RBF   DTC   DTCP   NNC   PMP   
+CCT   VBW   PRS   CCB   JJC   JJCC   JJD   NNC   PMP   
+VBAF   DTC   JJD   NNC   CCB   VBAF   CCP   NNC   PMP   
+JJCC   VBW   VBAF   CCT   JJD   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+PRQ   DTC   NNC   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+QOT   VBW   CCB   NNC   PMP   
+JJD   PRP   RBK   NNP   CCT   DTCP   NNC   CCT   RBW   PMP   
+RBI   JJCS   NNC   DTC   NNP   PME   
+JJCS   PRS   RBW   CCT   NNC   PMP   
+RBI   VBTR   CCB   JJD   NNC   DTC   NNC   PMP   
+RBJ   PME   
+VBTF   PRS   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+NNC   PRS   PRO   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBT   RBI   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCT   VBTF   PRS   PME   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBT   RBI   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBI   RBF   PRS   JJD   PME   
+VBH   PMP   
+RBP   RBP   NNC   CCB   NNC   PMP   
+QOT   VBW   CCB   NNC   PMC   QOT   PMP   
+RBW   LM   VBTS   PRS   PMS   PMP   
+VBOF   PRS   CCA   VBOF   RBW   DTC   DTCP   NNC   PMP   
+JJCS   PRP   CCT   NNC   PRS   PMC   JJD   PRP   PMP   
+QOT   VBTS   PRS   CCT   PRSP   PMP   
+RBN   VBTS   CCT   PRSP   CCA   RBN   PRP   VBTS   PRI   PMP   
+JJC   PRP   CCB   PRSP   NNC   RBW   PMP   
+CCA   JJD   RBI   DTC   DTCP   NNC   PMP   
+JJD   PRP   CCT   RBN   NNC   PMP   
+QOT   VBTS   RBI   PRS   CCT   PRSP   PMP   
+RBN   PRI   JJD   VBW   RBB   RBB   PRSP   PMP   
+CCR   PRS   DTC   VBTS   PRS   CCT   NNC   PMP   
+CCR   PRSP   NNC   PRO   PMP   
+CCA   VBAF   PRS   CCT   NNC   PMP   
+RBS   PMP   
+QOT   VBW   PRS   PMP   
+RBS   PMP   
+QOT   VBW   CCB   NNC   PMP   
+RBF   JJD   CCB   NNC   DTC   JJCS   CCB   DTCP   NNC   PMP   
+RBF   JJD   CCB   NNC   DTC   JJCS   CCB   DTCP   NNC   PMP   
+QOT   VBTS   CCB   JJD   NNC   CCT   VBW   PMP   
+DTC   NNC   VBTS   PRS   CCT   PRSP   NNC   PMP   
+QOT   VBW   CCB   JJD   NNC   CCT   VBW   PMP   
+JJD   RBI   CCB   DTCP   NNC   DTC   NNC   PRO   PMP   
+QOT   VBW   CCB   NNC   PMP   
+CCT   RBF   PRS   PRO   VBS   VBW   PMP   
+VBTF   PRS   NNC   DTC   PRSP   JJD   PMP   
+VBTF   PRS   DTC   NNC   PRS   PMP   
+VBTF   PRS   DTC   NNC   PRS   PMP   
+QOT   VBTS   CCB   JJD   NNC   CCT   VBW   PMP   
+CDB   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   NNC   CCB   NNC   CCB   NNC   PMP   
+PRQ   VBTR   PRS   PRL   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+VBTR   PRS   DTC   DTCP   NNC   PMC   JJN   PRI   NNC   PMP   
+QOT   VBW   CCB   NNC   CCB   NNC   CCB   NNC   PMP   
+VBTR   PRP   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+PRQ   VBTR   PRP   PMQ   
+QOT   VBW   CCB   NNC   CCB   NNC   PMP   
+RBL   RBI   RBI   PRP   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBF   PRP   DTC   JJD   PMP   
+QOT   VBTS   CCB   NNC   CCB   NNC   PMP   
+JJD   CCP   PRO   PMP   
+RBF   RBI   PRP   NNC   CCT   PRSP   RBL   PMQ   
+RBF   VBW   DTC   PRI   CCT   PRSP   RBL   PMP   
+QOT   VBW   CCB   NNC   CCB   NNC   PMP   
+VBTR   RBI   PRP   DTC   DTCP   CDB   NNC   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBF   RBI   RBT   PRP   VBTR   PMP   
+QOT   VBW   CCB   NNC   CCB   NNC   PMP   
+VBTR   PRP   CCT   NNC   CCB   NNC   CCT   VBTR   RBI   PMP   
+DTC   DTCP   NNC   RBI   DTC   JJD   CCB   PRSP   VBTR   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+CCA   VBTR   PRP   RBK   VBH   VBAF   PRO   CCT   PRPS   PMP   
+JJD   PRP   PMP   
+QOT   VBW   CCB   NNC   CCB   NNC   PMP   
+CDB   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+RBS   RBS   PMP   
+QOT   VBW   CCB   VBTR   PMP   
+PRQ   PRS   VBTR   PRO   PMQ   
+QOT   VBW   CCB   JJD   NNC   PMP   
+JJD   NNC   PRO   CCT   NNC   PMP   
+QOT   VBW   CCB   VBTR   PMP   
+VBTF   PRO   CCT   PRI   VBW   PMP   
+PRS   PMP   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+CDB   PMP   
+RBJ   PME   
+DTC   NNC   RBT   CCB   PRO   DTCP   NNC   PMP   
+QOT   VBTS   PRS   CCT   JJD   NNC   PMC   QOT   PMP   
+DTC   PRSP   NNC   NNC   PMP   
+QOT   VBW   PRS   CCT   PRSP   PMP   
+PRQ   PMQ   
+CCR   VBH   RBD   RBD   RBD   CCT   NNC   PMP   
+RBF   PRS   NNC   RBK   PRC   NNC   DTC   NNC   PMP   
+QOT   VBTS   PRS   CCT   PRSP   NNC   PMP   
+RBF   PRS   NNC   VBTS   RBI   VBTS   PMP   
+JJD   RBL   PRSP   DTC   JJN   PRS   CCB   NNC   PMP   
+VBTR   RBI   PRS   PMC   VBAF   PRP   CCB   PRI   NNC   PMP   
+CCT   VBTS   RBI   RBI   PRP   VBAF   PMP   
+JJD   PRS   RBI   RBI   PMC   PRQ   PMQ   
+QOT   DTC   VBW   PRS   CCT   PRSP   PMP   
+CCT   RBF   PRS   VBTS   DTC   NNC   PRS   PMP   
+VBTS   RBI   PRS   CCT   PRSP   PMS   PMP   
+JJD   RBI   RBM   RBB   RBB   NNC   DTC   NNC   PMP   
+JJD   RBI   PRS   PMP   
+VBTS   PRS   PMP   
+VBTS   RBI   PRS   RBL   RBL   PRS   PMP   
+RBT   RBI   PMP   
+JJD   DTC   NNC   PMP   
+QOT   VBTS   PRS   PMP   
+RBT   PRO   PMP   
+JJD   CCB   RBW   CCT   PRSP   DTC   NNC   PMP   
+VBW   CCT   PRI   NNC   CCB   NNC   PMP   
+RBN   PRI   VBW   PMP   
+RBN   PRI   VBW   PMP   
+CCT   VBH   RBK   RBQ   VBTR   RBI   RBI   CCT   NNC   PMP   
+JJD   DTC   NNC   PMP   
+CCR   VBH   VBTR   PRO   PRI   NNC   RBK   RBQ   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMC   QOT   PMP   
+RBT   PMP   
+QOT   VBW   PRS   CT   JJD   NNC   PMC   QOT   PMP   
+VBTR   PRS   PMP   
+CCR   RBR   PRS   RBR   PRSP   NNC   PMP   
+QOT   VBW   PRS   PMC   QOT   PMP   
+JJD   PRS   CCT   PRSP   PMP   
+NNC   PRS   VBH   NNC   PRS   JJN   JJD   NNC   PMP   
+NNC   RBI   DTC   JJD   PRS   PMP   
+RBF   JJD   CCB   NNC   DTC   JJCS   PMP   
+CDB   PMP   
+VBTR   DTC   DTCP   NNC   CCT   DTCP   NNC   CCP   NNC   PMP   
+CCT   RBF   PRP   VBW   RBK   RBQ   DTC   PRSP   VBTR   PMP   
+RBI   VBTR   PRP   CCA   JJD   PMP   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+CCA   VBTS   PRS   PMS   PMP   
+JJD   PRO   PMP   
+JJD   PRO   PMP   
+QOT   VBTS   PRS   CCT   JJD   NNC   PMC   QOT   PMP   
+VBTR   PRS   PMP   
+VBTR   PRP   DTC   NNC   PRO   PMC   CCA   VBTR   PRS   PMP   
+QOT   VBTS   CCB   JJD   NNC   PMC   QOT   PMP   
+RBF   PRS   PRS   VBW   PMP   
+PRS   RBI   PMP   
+JJC   SPRO   RBB   RBB   PRSP   PMP   
+QOT   VBTS   PRS   CCT   PRSP   PMC   QOT   PMP   
+VBTR   PRS   CCT   NNC   CCP   PRO   PMP   
+QOT   VBW   CCB   JJD   NNC   PMP   
+VBOF   PRS   PRS   CCB   VBW   PMP   
+CCA   VBTS   PRS   RBK   RBQ   DTC   PRSP   VBTR   PME   
+VBOF   PRS   DTC   NNC   RBW   CCT   PRSP   DTCP   NNC   PMP   
+JJD   PRS   VBAF   PMP   
+JJCC   PRO   CCB   PRI   NNC   PMP   
+RBF   RBI   RBI   VBOF   DTC   NNC   CCP   PRO   PMP   
+JJD   PRO   CCT   NNC   PMC   JJC   JJC   PRI   NNC   PMP   
+CCA   RBF   RBI   PRP   VBW   DTC   PRSP   VBTR   PMP   
+QOT   VBW   CCB   JJD   NNC   PMC   QOT   PMP   
+RBF   PRP   VBW   PMP   
+QOT   VBAF   PRS   PMP   
+RBT   RBI   PMP   
+QOT   VBAF   PRS   PMP   
+CCA   VBTS   CCB   JJD   NNC   PMS   PMP   
+CCT   JJD   DTC   DTCP   NNC   PMP   
+CCT   CCT   CCT   NNC   VBS   VBAF   PMP   
+VBAF   RBI   PRS   PMP   
+JJD   PRS   CCB   JJD   PMP   
+JJD   CCB   NNC   DTC   NNC   CCT   NNC   PMP   
+JJD   PRS   RBP   RBP   NNC   CCP   PRO   CCB   NNC   PMP   
+CCT   PRQ   JJD   RBI   RBI   DTC   NNC   PRS   PMP   
+VBS   PRS   VBAF   CCT   PRSP   NNC   PMP   
+PRQ   NNC   PMQ   
+JJC   CCT   DTCP   NNC   RBI   DTC   DTCP   NNC   PRS   PMP   
+RBJ   PME   
+VBTR   PRS   RBI   RBI   DTC   DTCP   NNC   PME   
+CCA   VBAF   RBI   RBI   PRS   PMP   
+RBJ   PME   
+JJD   RBI   PRO   PMP   
+QOT   VBTS   PRS   PMP   
+JJD   DTC   DTCP   NNC   PMP   
+RBI   VBTS   PRS   CCB   PRI   NNC   PMP   
+VBH   DTCP   NNC   PRS   CCP   RBF   PRS   VBW   PMP   
+CCT   RBF   PRS   VBAF   PMP   
+VBTS   PRS   PMS   PMP   
+JJCS   PRL   CCB   VBTR   PRSP   PMP   
+CCA   VBTS   PRS   PMP   
+CCT   VBH   NNC   CCP   JJD   CCT   PRSP   NNC   PMS   PMP   
+RBL   PRS   RBI   CCT   NNC   CCP   VBTR   PRS   PMQ   
+RBW   JJD   DTC   JJD   NNC   PMP   
+CCA   VBTS   PRS   CCP   JJC   VBTR   PMS   PMP   
+CCR   RBI   CCT   NNC   PMQ   
+RBW   RBI   RBI   JJD   DTC   JJD   NNC   PMP   
+RBJ   PME   
+VBH   NNC   PRS   PMP   
+QOT   VBTS   PRS   CCT   PRSP   PMC   QOT   PMP   
+CCT   VBAF   PRS   PMS   PMP   
+VBS   PRS   VBAF   RBW   PMP   
+VBS   PRS   VBOF   DTC   PRO   NNC   PMP   
+VBTF   PRP   PRS   PRL   PMP   
+VBAF   PRS   RBW   CCB   NNC   PMP   
+CCT   RBF   PRS   VBW   PMP   
+VBTS   PRS   DTC   NNC   PMP   
+CDB   PMP   
+CCA   VBTS   PRS   PRS   VBTS   PMS   PMP   
+RBF   PRS   RBI   VBTR   PMQ   
+QOT   VBW   PRS   PMP   
+RBF   PRL   DTC   JJD   NNC   PME   
+RBT   PME   
+RBT   PME   
+PRO   RBI   DTC   NNC   CCT   RBF   PRO   DTC   NNC   PMP   
+RBD   PRS   RBD   RBL   RBL   NNC   PMP   
+RBF   PRS   VBTS   PRI   CCT   VBTS   PMP   
+CCT   RBW   CCP   RBI   VBAF   DTC   JJD   NNC   PMS   PMP   
+PMC   RBT   RBI   PMP   
+RBN   PRS   JJD   VBTF   CCT   VBOF   PRS   PRL   PMP   
+PRL   PRS   JJD   NNC   PMP   
+JJD   RBI   DTC   NNC   PRS   PMQ   
+RBM   PRS   RBI   RBF   PRS   PRO   RBD   RBD   RBD   PMQ   
+RBW   PMC   VBAF   PRS   RBI   PMP   
+VBS   PRS   VBAF   PME   
+QOT   VBTS   PRS   PMC   QOT   PMP   
+PRQ   RBI   NNC   PRO   PME   
+JJD   PRS   RBI   RBW   CCT   DTCP   NNC   PME   
+VBTS   PRS   DTC   DTCP   NNC   PRS   CCA   VBTS   PMP   
+VBTS   PRS   CCT   PRSP   PMS   PMP   
+VBW   PRS   RBI   PMP   
+PRQ   PRS   VBTS   PMQ   
+PRS   RBI   PMC   VBTR   RBI   PRS   RBW   PMP   
+CCA   JJD   DTC   NNC   PMS   PMP   
+VBTS   PRS   CCP   VBH   VBTR   RBK   RBQ   RBF   PMP   
+JJD   DTC   PRSP   NNC   CCP   CCT   VBTS   CCT   JJCS   PMP   
+VBH   PRS   NNC   PRS   PMP   
+CCA   VBAF   PRS   CCP   JJD   DTC   NNC   PMP   
+JJD   RBI   PS   VBTS   PMP   
+VBTS   PRS   RBD   RBD   PRS   RBD   PMP   
+JJD   RBI   JJD   NNC   PMC   VBTS   PRS   PMP   
+JJD   PRS   RBT   PME   
+CCT   JJD   PRS   VBAF   PMS   PMP   
+JJCC   VBW   RBI   PRS   RBW   NNC   PMP   
+CCT   VBTS   PRS   CCT   PRSP   PMS   PMP   
+RBW   NNC   PMC   VBH   PRI   NNC   RBI   PMP   
+CCT   RBF   PRS   VBTS   DTC   PRSP   NNC   PMP   
+VBTS   PRS   CCT   PRSP   PMS   PMP   
+DTC   PRS   JJD   DTC   PRS   RBF   JJD   PMP   
+RBT   RBI   PMP   
+JJC   PRO   JJC   RBR   RBR   NNC   PMP   
+VBTR   DTC   PRI   CCB   NNC   PMP   
+RBT   RBI   PMP   
+JJC   PRO   JJC   RBR   RBR   NNC   PMP   
+RBT   RBI   PMP   
+VBTF   PRS   DTC   DTCP   NNC   CCT   NNC   PMP   
+JJCC   JJD   CCP   PRO   PMP   
+CCA   RBW   RBI   PMC   VBTF   PRS   CCB   PRI   NNC   PMP   
+CCA   RBW   PRS   VBAF   PMP   
+CCA   RBW   PRS   VBAF   PMP   
+RBW   LM   RBW   PRS   VBTS   JJD   PMS   PMP   
+RBW   NNC   PMC   VBW   PRS   PMC   RBF   PRS   VBTF   PMP   
+RBF   PRS   VBTF   PMP   
+CCT   JJD   PRS   PMP   
+RBM   VBW   PRO   CCR   RBI   CCT   NNC   PMP   
+RBF   PRS   VBTF   PMP   
+RBT   CCP   RBN   PRP   NNC   RBB   RBB   JJN   NNC   PMP   
+RBW   NNC   PRO   PMC   RBF   PRS   PRS   JJD   VBAF   PMP   
+RBD   PRS   RBD   CCT   PRSP   PMP   
+VBTS   RBI   PRS   CCT   PRSP   PMS   PMP   
+RBJ   PME   
+PRL   PRS   RBI   PMP   
+CCA   VBTS   PRS   PRS   CCT   NNC   PMP   
+CCT   JJD   RBI   RBI   PRS   PMP   
+JJD   PRS   PMP   
+VBTF   PRS   PMP   
+RBF   PRS   VBAF   PMP   
+VBTR   PRS   PMP   
+JJCS   PRO   PMP   
+RBF   PRS   VBW   DTC   NNC   PRO   PMP   
+JJCS   PRO   PMP   
+RBF   PRS   VBAF   PMP   
+RBF   JJD   DTC   DTCP   JJD   NNC   CCB   NNC   PMP   
+RBF   PRS   VBAF   PMP   
+JJC   VBTS   PRS   CCB   NNC   PMP   
+CCT   VBTS   PRS   RBW   PMS   PMP   
+VBTF   JJD   PRO   PMC   VBW   PRS   PMP   
+VBTF   RBI   PRS   CCT   DTCP   NNC   PMP   
+VBTF   CCB   NNC   CCT   PRSP   DTC   PRI   CCB   NNC   PMP   
+RBF   PRS   VBAF   PMP   
+VBTF   RBT   JJD   PRO   PME   
+PRL   RBI   PMP   
+VBOF   PRS   RBI   PRS   VBAF   RBI   CCP   JJD   PMP   
+CCA   JJD   PRS   CCR   JJD   PRS   PMP   
+VBTS   RBI   PRS   PMS   PMP   
+CCA   JJCS   PRS   PME   
+CCA   RBN   PRS   JJD   PMP   
+JJD   PRS   CCR   RBF   PRS   CCP   RBI   VBAF   PMP   
+VBTS   PRS   PMS   PMP   
+PRQ   PMC   RBW   PRL   CCP   RBI   PMP   
+JJC   VBTR   RBI   PRS   PMC   CCA   CCA   PRS   VBAF   PMP   
+VBAF   PRS   CCB   PRI   PMP   
+RBF   PRS   VBW   PMP   
+JJD   PRS   VBTS   RBN   NNC   PMP   
+RBF   PRS   VBAF   PMP   
+VBW   PRS   JJD   JJC   JJC   NNC   CCB   PRI   NNC   PMP   
+RBN   RBI   NNC   RBP   RBP   NNC   PMP   
+CDB   PMP   
+JJD   RBI   PRO   PMP   
+JJD   PRS   CCT   VBTS   PRS   CCT   PRSP   PMS   QOT   PMP   
+RBW   JJC   JJD   RBI   DTC   NNC   PRS   PMP   
+CCT   RBT   RBI   PMC   RBF   RBI   RBT   PMP   
+CCT   JJN   NNC   JJD   CCP   NNC   PMP   
+CCT   VBH   PRI   RBI   RBF   NNC   PMP   
+RBF   PRS   PRO   VBW   CCT   NNC   PMP   
+RBI   VBTR   PRS   CCT   PRSP   NNC   PMS   PMP   
+PRQ   RBI   RBI   DTC   VBTS   CCT   PRSP   NNC   PMQ   
+RBM   VBOF   RBI   CCB   NNC   DTC   NNC   PMP   
+RBM   RBF   PME   
+PRL   RBW   DTC   JJN   JJD   NNC   PMP   
+RBB   RBB   PRSP   CCP   VBTR   RBI   CCT   JJD   NNC   PMP   
+VBOF   PRP   DTC   NNC   PMP   
+CCA   VBW   PRS   RBK   RBQ   VBTR   DTC   PRI   PMP   
+RBI   VBW   JJD   VBW   PRP   PME   
