@@ -1,14 +1,10 @@
-package test;
+package old;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-
-import corpus.building.LemmaCorpusBuilder;
-import models.Lemma;
-import models.Word;
 
 public class Main {
 	

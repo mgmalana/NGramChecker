@@ -1,11 +1,8 @@
-package corpus.building;
+package old;
 
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import models.Lemma;
-import models.Word;
 
 public class LemmaCorpusBuilder {
 
