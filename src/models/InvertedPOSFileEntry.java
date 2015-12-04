@@ -1,15 +1,17 @@
 package models;
 
-public class InvertedFileEntry {
+public class InvertedPOSFileEntry {
 
 	String pos;
+	String lemma;
 	String surfaceWord;
-	String sentenceNumber;
-	String wordNumber;
+	int sentenceNumber;
+	int wordNumber;
 
-	public InvertedFileEntry(String pos, String surfaceWord, String sentenceNumber, String wordNumber) {
+	public InvertedPOSFileEntry(String pos, String lemma, String surfaceWord, int sentenceNumber, int wordNumber) {
 		super();
 		this.pos = pos;
+		this.lemma = lemma;
 		this.surfaceWord = surfaceWord;
 		this.sentenceNumber = sentenceNumber;
 		this.wordNumber = wordNumber;
@@ -23,6 +25,14 @@ public class InvertedFileEntry {
 		this.pos = pos;
 	}
 
+	public String getLemma() {
+		return lemma;
+	}
+
+	public void setLemma(String lemma) {
+		this.lemma = lemma;
+	}
+
 	public String getSurfaceWord() {
 		return surfaceWord;
 	}
@@ -31,19 +41,19 @@ public class InvertedFileEntry {
 		this.surfaceWord = surfaceWord;
 	}
 
-	public String getSentenceNumber() {
+	public int getSentenceNumber() {
 		return sentenceNumber;
 	}
 
-	public void setSentenceNumber(String sentenceNumber) {
+	public void setSentenceNumber(int sentenceNumber) {
 		this.sentenceNumber = sentenceNumber;
 	}
 
-	public String getWordNumber() {
+	public int getWordNumber() {
 		return wordNumber;
 	}
 
-	public void setWordNumber(String wordNumber) {
+	public void setWordNumber(int wordNumber) {
 		this.wordNumber = wordNumber;
 	}
 

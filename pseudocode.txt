@@ -1,0 +1,40 @@
+
+Use Tree-PCFG like structure for storing the training sets.	
+
+Pre-procesing required for both training and testing. 
+Expanding contractions
+
+Saving all possible tags of a word. Do not consider words with multiple POS tags 
+for frequency threshold of POS generalization.
+
+Pseudocode below still does not consider deletion of tokens as suggestion.
+Handle this type of invalid sentence:  Sina Michael at Justin at Martee ay umalis.
+Irregular sequence of POS : Mabait Martee si
+
+
+Ignoring proper nouns
+
+
+for(Ngram size 7 --> 2){
+	for each token{
+		Assuming that only one or two tokens are incorrect in an n-gram comparison.
+		
+		compare lemma inputToken with tokenInCorpus()
+		if(unknown lemma and POS)
+			compute edit distance with possible suggestion
+			determine threshold of edit distance
+			check for potential merging of tokens (ex. 'anu ano' should be 'anu-ano')
+		if(same lemma different POS)
+			output suggest change of word usage
+		else if(different lemma same POS)
+			do you change it?
+		else if(different lemma unknown/different POS)
+			rank suggestions based on other tokens
+		else if (different lemma that requires merge tokens[0] and tokens[1] )
+			define scenarios that require merge ex. 'pagkaing' or 'pagkain ng'
+			define common mistakes 
+		else if (missing word) 
+		
+		else if (should delete extra word)
+	}
+}
