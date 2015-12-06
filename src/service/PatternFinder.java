@@ -62,6 +62,12 @@ public class PatternFinder {
 				j += 1;
 			}
 			// add others
+			// how to represent "words followed by commas, periods and other
+			// symbols", "words preceded by quotations", "words with -ng
+			// suffix", "tagging of the phrase 'mas masaya'"
+			// use of regex pre-POS tagging stage to correct unnecessary spaces
+			// between symbols. Use of underscore to tag 'masayang' or 'masaya
+			// na'
 		}
 
 		// substitution
