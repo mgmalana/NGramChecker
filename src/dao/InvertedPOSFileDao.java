@@ -11,9 +11,11 @@ import models.InvertedPOSFileEntry;
 public class InvertedPOSFileDao {
 
 	private static HashMap<String, InvertedPOSFile> invertedFiles;
+	private static HashMap<Integer, Integer> sentenceLength;
 
 	public InvertedPOSFileDao() {
 		invertedFiles = new HashMap<>();
+		sentenceLength = new HashMap<>();
 	}
 
 	public void add(String lemma, String word, String pos, int sentenceNumber, int wordNumber) {
@@ -45,6 +47,27 @@ public class InvertedPOSFileDao {
 
 	public InvertedPOSFile get(String pos) {
 		return invertedFiles.get(pos);
+	}
+
+	public InvertedPOSFileEntry get(int sentenceNumber, int wordNumber) {
+		Iterator it = invertedFiles.entrySet().iterator();
+		while (it.hasNext()) {
+			Map.Entry pair = (Map.Entry) it.next();
+			InvertedPOSFile invertedFile = (InvertedPOSFile) pair.getValue();
+			for (InvertedPOSFileEntry e : invertedFile.getIfEntries()) {
+				if (e.getSentenceNumber() == sentenceNumber && e.getWordNumber() == wordNumber)
+					return e;
+			}
+		}
+		return null;
+	}
+
+	public void saveSentenceLength(int sentenceNumber, int length) {
+		sentenceLength.put(sentenceNumber, length);
+	}
+
+	public int getLength(int sentenceNumber) {
+		return sentenceLength.get(sentenceNumber);
 	}
 
 }

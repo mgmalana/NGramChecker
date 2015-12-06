@@ -21,6 +21,10 @@ public class Main {
 	static String lemmaI2 = "<_> sayaw ang babae ng tango .";
 	static String posI2 = "<_> ? DTC NNC CCB NNC .";
 
+	static String sentenceI3 = "nang tango";
+	static String lemmaI3 = "nang tango";
+	static String posI3 = "CCC NNC";
+
 	// Make rules for 5-grams.
 
 	static InvertedPOSFileDao ifDao = new InvertedPOSFileDao();
@@ -48,6 +52,7 @@ public class Main {
 		for (int i = 0; i < arrLem.length; i++) {
 			ifDao.add(arrLem[i], arrSen[i], arrPOS[i], sentenceNumber, i);
 		}
+		ifDao.saveSentenceLength(sentenceNumber, arrPOS.length);
 	}
 
 }
