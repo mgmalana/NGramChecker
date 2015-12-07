@@ -1,6 +1,10 @@
 package runnable;
 
+import java.sql.SQLException;
+
 import dao.InvertedPOSFileDao;
+import dao.RevisedPOSIFDao;
+import dao.SentenceDao;
 import service.PatternFinder;
 
 public class Main {
@@ -28,29 +32,34 @@ public class Main {
 	// Make rules for 5-grams.
 
 	static InvertedPOSFileDao ifDao = new InvertedPOSFileDao();
+	static RevisedPOSIFDao invertedFileDao = new RevisedPOSIFDao();
 	static PatternFinder patternFinder = new PatternFinder();
+	static SentenceDao sentenceDao = new SentenceDao();
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		String[] arrSen = sentence1.split(" ");
 		String[] arrLem = lemma1.split(" ");
 		String[] arrPOS = pos1.split(" ");
-		addToInvertedFile(arrSen, arrLem, arrPOS, 1);
+		int i = sentenceDao.add(sentence1, lemma1, pos1);
+		addToInvertedFile(arrSen, arrLem, arrPOS, i);
 
 		arrSen = sentence2.split(" ");
 		arrLem = lemma2.split(" ");
 		arrPOS = pos2.split(" ");
-
-		addToInvertedFile(arrSen, arrLem, arrPOS, 2);
+		i = sentenceDao.add(sentence2, lemma2, pos2);
+		addToInvertedFile(arrSen, arrLem, arrPOS, i);
 
 		// ifDao.displayDatabase();
 
 		patternFinder.findSimilarPatternsPOSLevel(sentenceI.split(" "), lemmaI.split(" "), posI.split(" "));
 	}
 
-	private static void addToInvertedFile(String[] arrSen, String[] arrLem, String[] arrPOS, int sentenceNumber) {
+	private static void addToInvertedFile(String[] arrSen, String[] arrLem, String[] arrPOS, int sentenceNumber)
+			throws SQLException {
 
 		for (int i = 0; i < arrLem.length; i++) {
 			ifDao.add(arrLem[i], arrSen[i], arrPOS[i], sentenceNumber, i);
+			invertedFileDao.add(arrLem[i], arrSen[i], arrPOS[i], sentenceNumber, i);
 		}
 		ifDao.saveSentenceLength(sentenceNumber, arrPOS.length);
 	}
