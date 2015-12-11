@@ -1,5 +1,6 @@
 package service;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -7,24 +8,27 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import dao.InvertedPOSFileDao;
+import dao.InvertedFilesDao;
+import dao.SentenceDao;
 import models.Action;
 import models.ErrorWeight;
 import models.InvertedPOSFile;
 import models.InvertedPOSFileEntry;
 import models.NGram;
+import models.Sentence;
 
 public class PatternFinder {
 
-	InvertedPOSFileDao ifDao = new InvertedPOSFileDao();
+	InvertedFilesDao ifDao = new InvertedFilesDao();
+	SentenceDao sentenceDao = new SentenceDao();
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	public void findSimilarPatternsPOSLevel(String[] arrSen, String[] arrLem, String[] arrPOS) {
+	public void findSimilarPatternsPOSLevel(String[] arrSen, String[] arrLem, String[] arrPOS) throws SQLException {
 		List<NGram> candidateNGrams = getCandidateNGrams(arrPOS);
 
 		System.out.println("Input to Correct: ");
-		for (String s : arrSen)
-			System.out.print(s + " ");
+		for (int i = 0; i < arrSen.length; i++)
+			System.out.print(arrSen[i] + " " + arrPOS[i] + " ");
 		System.out.println();
 		System.out.println("Candidate NGrams: ");
 		for (NGram n : candidateNGrams) {
@@ -34,10 +38,14 @@ public class PatternFinder {
 		Map<Integer, ErrorWeight> errorWeights = new HashMap<>();
 		for (NGram n : candidateNGrams) {
 			ErrorWeight ew = computeErrorWeight(n.getTokens(), arrSen, arrLem, arrPOS);
-			System.out.println("Diff Lemma Possible Change: ");
-			System.out.println(ew.getActionsForSubstituteDiffLemma().size());
-			for (Action a : ew.getActionsForSubstituteDiffLemma())
-				System.out.println(a.getPossibleChange());
+			if (ew.getActionsForSubstituteDiffLemma().size() <= 1) {
+				System.out.println("Diff Lemma Possible Change: ");
+				System.out.println(ew.getActionsForSubstituteDiffLemma().size());
+				for (Action a : ew.getActionsForSubstituteDiffLemma()) {
+					String wordToBeChanged = arrSen[a.getTokensAffected()[0]];
+					System.out.println(wordToBeChanged + " ->  " + a.getPossibleChange());
+				}
+			}
 		}
 		// FIX ERROR WEIGHT LATER
 
@@ -53,11 +61,11 @@ public class PatternFinder {
 				i += 1;
 				j += 1;
 			} else if (ngram[i].getLemma().equals(arrLem[j])) {
+				errorWeight.addNSubstituteSameLemma(new Action(new int[] { i }, ngram[i].getSurfaceWord()));
 				i += 1;
 				j += 1;
-				errorWeight.addNSubstituteSameLemma(new Action(new int[] { i }, arrSen[j]));
 			} else if (!ngram[i].getLemma().equals(arrLem[j])) {
-				errorWeight.addNSubstituteDiffLemma(new Action(new int[] { i }, arrSen[j]));
+				errorWeight.addNSubstituteDiffLemma(new Action(new int[] { i }, ngram[i].getPos()));
 				i += 1;
 				j += 1;
 			}
@@ -81,7 +89,7 @@ public class PatternFinder {
 	}
 
 	@SuppressWarnings({ "unchecked", "rawtypes" })
-	private List<NGram> getCandidateNGrams(String[] arrPOS) {
+	private List<NGram> getCandidateNGrams(String[] arrPOS) throws SQLException {
 		Map<Integer, LinkedList<InvertedPOSFileEntry>> possibleMatches = new HashMap<>();
 		for (String pos : arrPOS) {
 			InvertedPOSFile f = ifDao.get(pos);
@@ -121,8 +129,9 @@ public class PatternFinder {
 
 	private List<NGram> filterNGrams(List<NGram> ngrams, String[] arrPOS) {
 		List<NGram> newList = new ArrayList<>();
-		int numFound = 0;
+
 		for (NGram n : ngrams) {
+			int numFound = 0;
 			for (int i = 0; i < arrPOS.length; i++) {
 				String pos = arrPOS[i];
 				for (InvertedPOSFileEntry e : n.getTokens()) {
@@ -139,7 +148,7 @@ public class PatternFinder {
 		return newList;
 	}
 
-	private List<NGram> getCompleteNGrams(List<InvertedPOSFileEntry> list, int ngramSize) {
+	private List<NGram> getCompleteNGrams(List<InvertedPOSFileEntry> list, int ngramSize) throws SQLException {
 		List<NGram> ngrams = new ArrayList<>();
 
 		if (list.size() == 0) {
@@ -163,18 +172,25 @@ public class PatternFinder {
 	// fetch and split them to get the n-grams rather than fetching each token
 	// from the inverted file.
 	private List<NGram> getNGrams(List<NGram> ngrams, int sentenceNumber, int wordNumber, int wordNumber2,
-			int ngramSize) {
-		int end = ifDao.getLength(sentenceNumber);
-		for (int i = 0; i + ngramSize - 1 < end; i++) {
+			int ngramSize) throws SQLException {
+		Sentence sentence = sentenceDao.get(sentenceNumber);
+		String[] words = sentence.getSentence().split(" ");
+		String[] lemmas = sentence.getLemmas().split(" ");
+		String[] tags = sentence.getPosTags().split(" ");
+
+		for (int i = 0; i + ngramSize - 1 < words.length; i++) {
 			if (wordNumber >= i && wordNumber2 >= i && (wordNumber < i + ngramSize || wordNumber2 < i + ngramSize)) {
 				List<InvertedPOSFileEntry> ngram = new ArrayList<>();
-				for (int j = i; j < i + ngramSize; j++)
-					ngram.add(ifDao.get(sentenceNumber, j));
+				for (int j = i; j < i + ngramSize; j++) {
+					InvertedPOSFileEntry e = new InvertedPOSFileEntry(tags[j], lemmas[j], words[j], sentenceNumber, j);
+					ngram.add(e);
+				}
 				if (!contains(ngrams, ngram)) {
 					ngrams.add(new NGram(ngram.toArray(new InvertedPOSFileEntry[ngram.size()])));
 				}
 			}
 		}
+
 		return ngrams;
 
 	}

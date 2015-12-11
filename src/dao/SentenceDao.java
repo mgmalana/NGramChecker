@@ -18,21 +18,21 @@ public class SentenceDao {
 
 	public Integer add(String sentence, String lemmas, String posTags) throws SQLException {
 
-		int idIfExists = exists(sentence, posTags);
+		// int idIfExists = exists(sentence, posTags);
 
-		if (idIfExists == -1) {
-			String query = "INSERT INTO sentence (sentence, lemmas, posTags, sentenceWordLength) VALUES (?, ?, ?, ?)";
-			PreparedStatement ps = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
-			ps.setString(1, sentence);
-			ps.setString(2, lemmas);
-			ps.setString(3, posTags);
-			ps.setInt(4, SentenceLengthMeasure.getSentenceWordLength(sentence, lemmas, posTags));
-			ps.executeUpdate();
-			ResultSet rs = ps.getGeneratedKeys();
-			rs.next();
-			return rs.getInt(1);
-		} else
-			return idIfExists;
+		// if (idIfExists == -1) {
+		String query = "INSERT INTO sentence (sentence, lemmas, posTags, sentenceWordLength) VALUES (?, ?, ?, ?)";
+		PreparedStatement ps = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+		ps.setString(1, sentence);
+		ps.setString(2, lemmas);
+		ps.setString(3, posTags);
+		ps.setInt(4, SentenceLengthMeasure.getSentenceWordLength(sentence, lemmas, posTags));
+		ps.executeUpdate();
+		ResultSet rs = ps.getGeneratedKeys();
+		rs.next();
+		return rs.getInt(1);
+		// } else
+		// return idIfExists;
 	}
 
 	public int exists(String sentence, String posTags) throws SQLException {
@@ -57,6 +57,37 @@ public class SentenceDao {
 			String lemmas = rs.getString(2);
 			String posTags = rs.getString(3);
 			Sentence s = new Sentence(sentenceNumber, sentence, lemmas, posTags);
+			return s;
+		}
+		return null;
+	}
+
+	public Sentence getFirst() throws SQLException {
+		String query = "SELECT id, sentence, lemmas ,posTags FROM sentence ORDER BY id LIMIT 1";
+		PreparedStatement ps = conn.prepareStatement(query);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			int id = rs.getInt(1);
+			String sentence = rs.getString(2);
+			String lemmas = rs.getString(3);
+			String posTags = rs.getString(4);
+			Sentence s = new Sentence(id, sentence, lemmas, posTags);
+			return s;
+		}
+		return null;
+	}
+
+	public Sentence getNextAfter(int sentenceNumber) throws SQLException {
+		String query = "SELECT id, sentence, lemmas ,posTags FROM sentence WHERE id > ? ORDER BY id LIMIT 1";
+		PreparedStatement ps = conn.prepareStatement(query);
+		ps.setInt(1, sentenceNumber);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			int id = rs.getInt(1);
+			String sentence = rs.getString(2);
+			String lemmas = rs.getString(3);
+			String posTags = rs.getString(4);
+			Sentence s = new Sentence(id, sentence, lemmas, posTags);
 			return s;
 		}
 		return null;

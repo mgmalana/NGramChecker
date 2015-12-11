@@ -30,19 +30,19 @@ public class SplitToTrainAndTest {
 		FileWriter trainLemmasWriter = new FileWriter(trainLemmas.getName(), true);
 		BufferedWriter trainLemmasBWriter = new BufferedWriter(trainLemmasWriter);
 
-		FileWriter trainSentencesWriter = new FileWriter(trainLemmas.getName(), true);
+		FileWriter trainSentencesWriter = new FileWriter(trainSentences.getName(), true);
 		BufferedWriter trainSentencesBWriter = new BufferedWriter(trainSentencesWriter);
 
-		FileWriter trainTagsWriter = new FileWriter(trainLemmas.getName(), true);
+		FileWriter trainTagsWriter = new FileWriter(trainTags.getName(), true);
 		BufferedWriter trainTagsBWriter = new BufferedWriter(trainTagsWriter);
 
-		FileWriter testLemmasWriter = new FileWriter(trainLemmas.getName(), true);
+		FileWriter testLemmasWriter = new FileWriter(testLemmas.getName(), true);
 		BufferedWriter testLemmasBWriter = new BufferedWriter(testLemmasWriter);
 
-		FileWriter testSentencesWriter = new FileWriter(trainLemmas.getName(), true);
+		FileWriter testSentencesWriter = new FileWriter(testSentences.getName(), true);
 		BufferedWriter testSentencesBWriter = new BufferedWriter(testSentencesWriter);
 
-		FileWriter testTagsWriter = new FileWriter(trainLemmas.getName(), true);
+		FileWriter testTagsWriter = new FileWriter(testTags.getName(), true);
 		BufferedWriter testTagsBWriter = new BufferedWriter(testTagsWriter);
 
 		String lemma, sentence, tag;
@@ -55,16 +55,30 @@ public class SplitToTrainAndTest {
 		while ((lemma = sourceLemmasReader.readLine()) != null) {
 			sentence = sourceSentencesReader.readLine();
 			tag = sourceTagsReader.readLine();
+			lemma = lemma.replace("   ", " ").trim();
+			sentence = sentence.replace("   ", " ").trim();
+			tag = tag.replace("   ", " ").trim();
+
 			if (i % 5 == 0) {
+				System.out.println("Test");
 				testLemmasBWriter.write(lemma + "\n");
 				testSentencesBWriter.write(sentence + "\n");
 				testTagsBWriter.write(tag + "\n");
 			} else {
+				System.out.println("Train");
 				trainLemmasBWriter.write(lemma + "\n");
 				trainSentencesBWriter.write(sentence + "\n");
 				trainTagsBWriter.write(tag + "\n");
 			}
+			i++;
 		}
+
+		trainLemmasBWriter.close();
+		trainSentencesBWriter.close();
+		trainTagsBWriter.close();
+		testLemmasBWriter.close();
+		testSentencesBWriter.close();
+		testTagsBWriter.close();
 	}
 
 	private static void createFile(File file) throws IOException {
