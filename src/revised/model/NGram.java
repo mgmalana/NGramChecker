@@ -6,7 +6,9 @@ public class NGram {
 	int ngramSize;
 	String[] words;
 	String[] lemmas;
+	String[] pos;
 	int posID;
+	Boolean[] isPOSGeneralized;
 
 	public NGram(int id, int ngramSize, String[] words, String[] lemmas, int posID) {
 		super();
@@ -15,6 +17,15 @@ public class NGram {
 		this.words = words;
 		this.lemmas = lemmas;
 		this.posID = posID;
+	}
+
+	public NGram(int id, int ngramSize, String[] words, String[] lemmas, String[] pos) {
+		super();
+		this.id = id;
+		this.ngramSize = ngramSize;
+		this.words = words;
+		this.lemmas = lemmas;
+		this.pos = pos;
 	}
 
 	public int getId() {
@@ -55,6 +66,22 @@ public class NGram {
 
 	public void setPosID(int posID) {
 		this.posID = posID;
+	}
+
+	public String[] getPos() {
+		return pos;
+	}
+
+	public void setPos(String[] pos) {
+		this.pos = pos;
+	}
+
+	public Boolean[] getIsPOSGeneralized() {
+		return isPOSGeneralized;
+	}
+
+	public void setIsPOSGeneralized(Boolean[] isPOSGeneralized) {
+		this.isPOSGeneralized = isPOSGeneralized;
 	}
 
 }

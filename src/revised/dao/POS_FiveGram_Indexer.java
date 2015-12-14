@@ -17,4 +17,10 @@ public class POS_FiveGram_Indexer extends POS_NGram_Indexer {
 		String query = "INSERT INTO pos_fivegram_index (pos, fivegramID) VALUES (?, ?)";
 		add(pos, fivegramID, query);
 	}
+
+	@Override
+	public Integer[] getInstances(String pos) throws SQLException {
+		String query = "SELECT fivegramID FROM pos_fivegram_index WHERE pos = ?";
+		return getInstances(pos, query);
+	}
 }

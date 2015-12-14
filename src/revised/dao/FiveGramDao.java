@@ -1,6 +1,7 @@
 package revised.dao;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
 
 import revised.dao.abstractClass.NGramDao;
@@ -39,5 +40,23 @@ public class FiveGramDao extends NGramDao {
 				+ "ON F.posID = B.id";
 		int ngramSize = 5;
 		return getSimilarNGrams(frequencyAtLeast, offset, query, ngramSize);
+	}
+
+	@Override
+	public void setIsPOSGeneralized(int ngramID, String isPOSGeneralized) throws SQLException {
+		String query = "UPDATE fivegram SET isPOSGeneralized = ? WHERE id = ?";
+		setIsPOSGeneralized(ngramID, isPOSGeneralized, query);
+	}
+
+	@Override
+	public String[] getPOS(int posID) throws SQLException {
+		String query = "SELECT pos FROM fivegram_pos_frequency WHERE id = ?";
+		return getPOS(posID, query);
+	}
+
+	@Override
+	public void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException {
+		String query = "UPDATE fivegram SET isPOSGeneralized = ? WHERE id = ?";
+		setIsPOSGeneralizedBatch(generalizationMap, query);
 	}
 }

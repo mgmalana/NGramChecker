@@ -6,7 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import revised.dao.DatabaseConnector;
 import revised.model.NGram;
@@ -80,7 +83,8 @@ public abstract class NGramDao {
 			String[] words = rs.getString(2).split(" ");
 			String[] lemmas = rs.getString(3).split(" ");
 			int posID = rs.getInt(4);
-			ngrams.add(new NGram(id, ngramSize, words, lemmas, posID));
+			String[] pos = getPOS(posID);
+			ngrams.add(new NGram(id, ngramSize, words, lemmas, pos));
 		}
 		if (ngrams.size() > 0)
 			return ngrams;
@@ -89,4 +93,49 @@ public abstract class NGramDao {
 	}
 
 	public abstract List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException;
+
+	public abstract void setIsPOSGeneralized(int ngramID, String isPOSGeneralized) throws SQLException;
+
+	protected void setIsPOSGeneralized(int ngramID, String isPOSGeneralized, String query) throws SQLException {
+		PreparedStatement ps = conn.prepareStatement(query);
+		System.out.println("Query " + query);
+		System.out.println("Saving: " + ngramID + " " + isPOSGeneralized);
+		ps.setString(1, isPOSGeneralized);
+		ps.setInt(2, ngramID);
+		int i = ps.executeUpdate();
+
+		System.out.println("i = " + i);
+	}
+
+	public abstract String[] getPOS(int posID) throws SQLException;
+
+	protected String[] getPOS(int posID, String query) throws SQLException {
+		PreparedStatement ps = conn.prepareStatement(query);
+		ps.setInt(1, posID);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			return rs.getString(1).split(" ");
+		}
+		return null;
+	}
+
+	public abstract void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException;
+
+	protected void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap, String query)
+			throws SQLException {
+		conn.setAutoCommit(false);
+		PreparedStatement ps = conn.prepareStatement(query);
+		Iterator it = generalizationMap.entrySet().iterator();
+		System.out.println("Query: " + query);
+		while (it.hasNext()) {
+			Map.Entry pair = (Map.Entry) it.next();
+			ps.setString(1, (String) pair.getValue());
+			ps.setInt(2, (int) pair.getKey());
+			ps.addBatch();
+			System.out.println(pair.getKey() + " = " + pair.getValue());
+			it.remove(); // avoids a ConcurrentModificationException
+		}
+		ps.executeBatch();
+		conn.commit();
+	}
 }
