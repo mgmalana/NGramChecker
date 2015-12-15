@@ -35,8 +35,8 @@ public class FiveGramDao extends NGramDao {
 
 	@Override
 	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException {
-		String query = "SELECT F.* FROM fivegram F INNER JOIN "
-				+ "(SELECT id FROM fivegram_pos_frequency WHERE frequency >= ? LIMIT 1 OFFSET ?) B "
+		String query = "SELECT F.id, words, lemmas, pos FROM fivegram F INNER JOIN "
+				+ "(SELECT id, pos FROM fivegram_pos_frequency WHERE frequency >= ? LIMIT 1 OFFSET ?) B "
 				+ "ON F.posID = B.id";
 		int ngramSize = 5;
 		return getSimilarNGrams(frequencyAtLeast, offset, query, ngramSize);
@@ -58,5 +58,12 @@ public class FiveGramDao extends NGramDao {
 	public void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException {
 		String query = "UPDATE fivegram SET isPOSGeneralized = ? WHERE id = ?";
 		setIsPOSGeneralizedBatch(generalizationMap, query);
+	}
+
+	@Override
+	public NGram get(int id) throws SQLException {
+		String query = "SELECT words, lemmas, pos, isPOSGeneralized FROM fivegram f INNER JOIN fivegram_pos_frequency p ON f.posID = p.id"
+				+ " WHERE f.id = ?";
+		return get(5, id, query);
 	}
 }

@@ -13,6 +13,7 @@ import java.util.Map;
 
 import revised.dao.DatabaseConnector;
 import revised.model.NGram;
+import revised.util.ArrayToStringConverter;
 
 public abstract class NGramDao {
 
@@ -36,6 +37,24 @@ public abstract class NGramDao {
 	}
 
 	public abstract int add(String words, String lemmas, String pos) throws SQLException;
+
+	public abstract NGram get(int id) throws SQLException;
+
+	protected NGram get(int ngramSize, int id, String query) throws SQLException {
+		PreparedStatement ps = conn.prepareStatement(query);
+		ps.setInt(1, id);
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			String[] words = rs.getString(1).split(" ");
+			String[] lemmas = rs.getString(2).split(" ");
+			String[] pos = rs.getString(3).split(" ");
+			Boolean[] isPOSGeneralized = null;
+			if (rs.getString(4) != null)
+				isPOSGeneralized = ArrayToStringConverter.stringToBoolArr(rs.getString(4));
+			return new NGram(id, ngramSize, words, lemmas, pos, isPOSGeneralized);
+		}
+		return null;
+	}
 
 	protected int incrementPOSFrequency(String pos, String updateQuery, String insertQuery) throws SQLException {
 		int id = getID(pos);
@@ -70,7 +89,7 @@ public abstract class NGramDao {
 
 	protected abstract int getID(String pos) throws SQLException;
 
-	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset, String query, int ngramSize)
+	protected List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset, String query, int ngramSize)
 			throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setInt(1, frequencyAtLeast);
@@ -82,8 +101,7 @@ public abstract class NGramDao {
 			int id = rs.getInt(1);
 			String[] words = rs.getString(2).split(" ");
 			String[] lemmas = rs.getString(3).split(" ");
-			int posID = rs.getInt(4);
-			String[] pos = getPOS(posID);
+			String[] pos = rs.getString(4).split(" ");
 			ngrams.add(new NGram(id, ngramSize, words, lemmas, pos));
 		}
 		if (ngrams.size() > 0)
@@ -121,6 +139,7 @@ public abstract class NGramDao {
 
 	public abstract void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException;
 
+	@SuppressWarnings("rawtypes")
 	protected void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap, String query)
 			throws SQLException {
 		conn.setAutoCommit(false);

@@ -28,6 +28,16 @@ public class NGram {
 		this.pos = pos;
 	}
 
+	public NGram(int id, int ngramSize, String[] words, String[] lemmas, String[] pos, Boolean[] isPOSGeneralized) {
+		super();
+		this.id = id;
+		this.ngramSize = ngramSize;
+		this.words = words;
+		this.lemmas = lemmas;
+		this.pos = pos;
+		this.isPOSGeneralized = isPOSGeneralized;
+	}
+
 	public int getId() {
 		return id;
 	}

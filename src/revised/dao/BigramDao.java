@@ -35,8 +35,8 @@ public class BigramDao extends NGramDao {
 
 	@Override
 	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException {
-		String query = "SELECT F.* FROM bigram F INNER JOIN "
-				+ "(SELECT id FROM bigram_pos_frequency WHERE frequency >= ? LIMIT 1 OFFSET ?) B "
+		String query = "SELECT F.id, words, lemmas, pos FROM bigram F INNER JOIN "
+				+ "(SELECT id, pos FROM bigram_pos_frequency WHERE frequency >= ? LIMIT 1 OFFSET ?) B "
 				+ "ON F.posID = B.id";
 		int ngramSize = 5;
 		return getSimilarNGrams(frequencyAtLeast, offset, query, ngramSize);
@@ -58,6 +58,13 @@ public class BigramDao extends NGramDao {
 	public void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException {
 		String query = "UPDATE bigram SET isPOSGeneralized = ? WHERE id = ?";
 		setIsPOSGeneralizedBatch(generalizationMap, query);
+	}
+
+	@Override
+	public NGram get(int id) throws SQLException {
+		String query = "SELECT words, lemmas, pos, isPOSGeneralized FROM bigram f INNER JOIN bigram_pos_frequency p ON f.posID = p.id"
+				+ "WHERE f.id = ?";
+		return get(2, id, query);
 	}
 
 }
