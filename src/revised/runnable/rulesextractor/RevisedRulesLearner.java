@@ -2,28 +2,25 @@ package revised.runnable.rulesextractor;
 
 import java.sql.SQLException;
 
-import revised.dao.BigramDao;
-import revised.dao.FiveGramDao;
+import revised.dao.DaoManager;
 
 public class RevisedRulesLearner {
-	static FiveGramDao fivegramDao = new FiveGramDao();
-	static BigramDao bigramDao = new BigramDao();
 	static RulesGeneralizationService rgService = new RulesGeneralizationService();
 
 	public static void main(String[] args) throws SQLException {
 
-		getSimilarFiveGrams();
+		// getSimilarFiveGrams();
 		System.out.println("--------------------------------\n");
-		// getSimilarBigrams();
+		getSimilarBigrams();
 	}
 
 	private static void getSimilarBigrams() throws SQLException {
 		int ngramSize = 2;
-		rgService.generalize(ngramSize, bigramDao);
+		rgService.generalize(ngramSize, DaoManager.getNGramDao(ngramSize));
 	}
 
 	private static void getSimilarFiveGrams() throws SQLException {
 		int ngramSize = 5;
-		rgService.generalize(ngramSize, fivegramDao);
+		rgService.generalize(ngramSize, DaoManager.getNGramDao(ngramSize));
 	}
 }

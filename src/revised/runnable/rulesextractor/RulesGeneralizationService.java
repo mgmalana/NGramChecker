@@ -45,7 +45,7 @@ public class RulesGeneralizationService {
 					else
 						rule.append(n.getWords()[i] + " ");
 				}
-				rules.add(rule.toString());
+				rules.add(rule.toString().trim());
 			}
 
 			offset++;
@@ -54,5 +54,6 @@ public class RulesGeneralizationService {
 
 		for (String rule : rules)
 			System.out.println(rule);
+		System.out.println(rules.size());
 	}
 }

@@ -17,10 +17,16 @@ public abstract class POS_NGram_Indexer {
 		conn = DatabaseConnector.getConnection();
 	}
 
-	public void add(String pos, int ngramID, String query) throws SQLException {
+	public abstract void add(String[] pos, int ngramID) throws SQLException;
+
+	protected void add(String[] pos, int ngramID, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
-		ps.setString(1, pos);
-		ps.setInt(2, ngramID);
+		for (String p : pos) {
+			ps.setString(1, p);
+			ps.setInt(2, ngramID);
+			ps.addBatch();
+		}
+		ps.executeBatch();
 		ps.executeUpdate();
 	}
 

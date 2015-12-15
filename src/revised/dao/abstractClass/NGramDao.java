@@ -116,13 +116,9 @@ public abstract class NGramDao {
 
 	protected void setIsPOSGeneralized(int ngramID, String isPOSGeneralized, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
-		System.out.println("Query " + query);
-		System.out.println("Saving: " + ngramID + " " + isPOSGeneralized);
 		ps.setString(1, isPOSGeneralized);
 		ps.setInt(2, ngramID);
-		int i = ps.executeUpdate();
-
-		System.out.println("i = " + i);
+		ps.executeUpdate();
 	}
 
 	public abstract String[] getPOS(int posID) throws SQLException;
@@ -145,13 +141,11 @@ public abstract class NGramDao {
 		conn.setAutoCommit(false);
 		PreparedStatement ps = conn.prepareStatement(query);
 		Iterator it = generalizationMap.entrySet().iterator();
-		System.out.println("Query: " + query);
 		while (it.hasNext()) {
 			Map.Entry pair = (Map.Entry) it.next();
 			ps.setString(1, (String) pair.getValue());
 			ps.setInt(2, (int) pair.getKey());
 			ps.addBatch();
-			System.out.println(pair.getKey() + " = " + pair.getValue());
 			it.remove(); // avoids a ConcurrentModificationException
 		}
 		ps.executeBatch();

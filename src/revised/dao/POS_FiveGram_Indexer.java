@@ -13,7 +13,8 @@ public class POS_FiveGram_Indexer extends POS_NGram_Indexer {
 		conn = DatabaseConnector.getConnection();
 	}
 
-	public void add(String pos, int fivegramID) throws SQLException {
+	@Override
+	public void add(String[] pos, int fivegramID) throws SQLException {
 		String query = "INSERT INTO pos_fivegram_index (pos, fivegramID) VALUES (?, ?)";
 		add(pos, fivegramID, query);
 	}

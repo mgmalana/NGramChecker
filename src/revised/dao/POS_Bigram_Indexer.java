@@ -12,7 +12,8 @@ public class POS_Bigram_Indexer extends POS_NGram_Indexer {
 		conn = DatabaseConnector.getConnection();
 	}
 
-	public void add(String pos, int bigramID) throws SQLException {
+	@Override
+	public void add(String[] pos, int bigramID) throws SQLException {
 		String query = "INSERT INTO pos_bigram_index (pos, bigramID) VALUES (?, ?)";
 		add(pos, bigramID, query);
 	}
