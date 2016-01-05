@@ -7,8 +7,9 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Arrays;
 
-import revised.dao.abstractClass.NGramDao;
-import revised.dao.abstractClass.POS_NGram_Indexer;
+import revised.dao.DaoManager;
+import revised.dao.NGramDao;
+import revised.dao.POS_NGram_Indexer;
 import revised.util.ArrayToStringConverter;
 
 public class NGramPopulator {
@@ -20,16 +21,27 @@ public class NGramPopulator {
 	POS_NGram_Indexer indexer;
 	int ngramSize;
 
-	public NGramPopulator(int ngramSize, NGramDao ngramDao, POS_NGram_Indexer indexer) throws FileNotFoundException {
+	public NGramPopulator(int ngramSize) throws FileNotFoundException {
 		sourceLemmasReader = new BufferedReader(new FileReader("train_lemmas.txt"));
 		sourceSentencesReader = new BufferedReader(new FileReader("train_sentences.txt"));
 		sourceTagsReader = new BufferedReader(new FileReader("train_tags.txt"));
-		this.ngramDao = ngramDao;
-		this.indexer = indexer;
+		this.ngramDao = DaoManager.getNGramDao(ngramSize);
+		this.indexer = DaoManager.getIndexer(ngramSize);
 		this.ngramSize = ngramSize;
 	}
 
+	public static void main(String[] args) throws SQLException, IOException {
+
+		for (int i = 3; i <= 7; i++) {
+			System.out.println("Populating " + i + "-gram");
+			NGramPopulator n = new NGramPopulator(i);
+			n.saveNGramsAndPOS();
+		}
+	}
+
 	public void saveNGramsAndPOS() throws SQLException, IOException {
+		ngramDao.clearDatabase();
+
 		String l, s, p;
 
 		while ((l = sourceLemmasReader.readLine()) != null) {

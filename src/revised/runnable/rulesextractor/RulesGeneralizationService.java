@@ -5,13 +5,16 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-import revised.dao.abstractClass.NGramDao;
+import revised.dao.DaoManager;
+import revised.dao.NGramDao;
 import revised.model.NGram;
 import revised.util.ArrayToStringConverter;
 
 public class RulesGeneralizationService {
 
-	public void generalize(int ngramSize, NGramDao ngramDao) throws SQLException {
+	public void generalize(int ngramSize) throws SQLException {
+
+		NGramDao ngramDao = DaoManager.getNGramDao(ngramSize);
 
 		int offset = 0;
 		List<NGram> ngrams = ngramDao.getSimilarNGrams(2, offset);

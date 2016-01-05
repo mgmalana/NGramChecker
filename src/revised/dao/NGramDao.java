@@ -1,4 +1,4 @@
-package revised.dao.abstractClass;
+package revised.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,19 +11,43 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import revised.dao.DatabaseConnector;
 import revised.model.NGram;
 import revised.util.ArrayToStringConverter;
 
-public abstract class NGramDao {
+public class NGramDao {
 
 	Connection conn;
+	private int ngramSize;
+	private String ngramTable;
+	private String ngramFrequencyTable;
+	private String ngramIndexTable;
 
-	public NGramDao() {
+	public NGramDao(int ngramSize, String ngramTable, String ngramFrequencyTable, String ngramIndexTable) {
 		conn = DatabaseConnector.getConnection();
+		this.ngramSize = ngramSize;
+		this.ngramTable = ngramTable;
+		this.ngramFrequencyTable = ngramFrequencyTable;
+		this.ngramIndexTable = ngramIndexTable;
 	}
 
-	protected int add(String query, String words, String lemmas, String pos) throws SQLException {
+	public void clearDatabase() throws SQLException {
+		String query1 = "DELETE FROM " + ngramTable;
+		String query2 = "DELETE FROM " + ngramFrequencyTable;
+		String query3 = "DELETE FROM " + ngramIndexTable;
+
+		PreparedStatement ps = conn.prepareStatement(query1);
+		ps.executeUpdate();
+
+		ps = conn.prepareStatement(query2);
+		ps.executeUpdate();
+
+		ps = conn.prepareStatement(query3);
+		ps.executeUpdate();
+	}
+
+	public int add(String words, String lemmas, String pos) throws SQLException {
+		String query = "INSERT INTO " + ngramTable + " (words, lemmas, posID) VALUES (?, ?, ?)";
+
 		int posID = incrementPOSFrequency(pos);
 
 		PreparedStatement ps = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
@@ -36,11 +60,10 @@ public abstract class NGramDao {
 		return rs.getInt(1);
 	}
 
-	public abstract int add(String words, String lemmas, String pos) throws SQLException;
+	public NGram get(int id) throws SQLException {
+		String query = "SELECT words, lemmas, pos, isPOSGeneralized FROM " + ngramTable + " f INNER JOIN "
+				+ ngramFrequencyTable + " p ON f.posID = p.id WHERE f.id = ?";
 
-	public abstract NGram get(int id) throws SQLException;
-
-	protected NGram get(int ngramSize, int id, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setInt(1, id);
 		ResultSet rs = ps.executeQuery();
@@ -56,7 +79,10 @@ public abstract class NGramDao {
 		return null;
 	}
 
-	protected int incrementPOSFrequency(String pos, String updateQuery, String insertQuery) throws SQLException {
+	public int incrementPOSFrequency(String pos) throws SQLException {
+		String updateQuery = "UPDATE " + ngramFrequencyTable + " SET frequency = frequency + 1 WHERE id = ?";
+		String insertQuery = "INSERT INTO " + ngramFrequencyTable + " (pos) VALUES (?)";
+
 		int id = getID(pos);
 
 		PreparedStatement ps;
@@ -75,9 +101,9 @@ public abstract class NGramDao {
 		return id;
 	}
 
-	protected abstract int incrementPOSFrequency(String pos) throws SQLException;
+	public int getID(String pos) throws SQLException {
+		String query = "SELECT id FROM " + ngramFrequencyTable + " WHERE pos = ?";
 
-	protected int getID(String pos, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setString(1, pos);
 		ResultSet rs = ps.executeQuery();
@@ -87,10 +113,10 @@ public abstract class NGramDao {
 		return -1;
 	}
 
-	protected abstract int getID(String pos) throws SQLException;
+	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException {
+		String query = "SELECT F.id, words, lemmas, pos FROM " + ngramTable + " F INNER JOIN " + "(SELECT id, pos FROM "
+				+ ngramFrequencyTable + " WHERE frequency >= ? LIMIT 1 OFFSET ?) B " + "ON F.posID = B.id";
 
-	protected List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset, String query, int ngramSize)
-			throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setInt(1, frequencyAtLeast);
 		ps.setInt(2, offset);
@@ -110,20 +136,18 @@ public abstract class NGramDao {
 			return null;
 	}
 
-	public abstract List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException;
+	public void setIsPOSGeneralized(int ngramID, String isPOSGeneralized) throws SQLException {
+		String query = "UPDATE " + ngramTable + " SET isPOSGeneralized = ? WHERE id = ?";
 
-	public abstract void setIsPOSGeneralized(int ngramID, String isPOSGeneralized) throws SQLException;
-
-	protected void setIsPOSGeneralized(int ngramID, String isPOSGeneralized, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setString(1, isPOSGeneralized);
 		ps.setInt(2, ngramID);
 		ps.executeUpdate();
 	}
 
-	public abstract String[] getPOS(int posID) throws SQLException;
+	public String[] getPOS(int posID) throws SQLException {
+		String query = "SELECT pos FROM " + ngramFrequencyTable + " WHERE id = ?";
 
-	protected String[] getPOS(int posID, String query) throws SQLException {
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setInt(1, posID);
 		ResultSet rs = ps.executeQuery();
@@ -133,11 +157,10 @@ public abstract class NGramDao {
 		return null;
 	}
 
-	public abstract void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException;
-
 	@SuppressWarnings("rawtypes")
-	protected void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap, String query)
-			throws SQLException {
+	public void setIsPOSGeneralizedBatch(HashMap<Integer, String> generalizationMap) throws SQLException {
+		String query = "UPDATE " + ngramTable + " SET isPOSGeneralized = ? WHERE id = ?";
+
 		conn.setAutoCommit(false);
 		PreparedStatement ps = conn.prepareStatement(query);
 		Iterator it = generalizationMap.entrySet().iterator();
@@ -150,5 +173,6 @@ public abstract class NGramDao {
 		}
 		ps.executeBatch();
 		conn.commit();
+		conn.setAutoCommit(true);
 	}
 }

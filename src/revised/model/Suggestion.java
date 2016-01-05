@@ -2,30 +2,35 @@ package revised.model;
 
 public class Suggestion {
 
-	private int[] tokensAffected;
-	private String suggestion;
+	private SuggestionToken[] suggestions;
+	private SuggestionType suggestionType;
 	private double editDistance;
 
-	public Suggestion(int[] tokensAffected, String suggestion, double editDistance) {
-		this.tokensAffected = tokensAffected;
-		this.suggestion = suggestion;
+	public Suggestion(double editDistance) {
 		this.editDistance = editDistance;
 	}
 
-	public int[] getTokensAffected() {
-		return tokensAffected;
+	public Suggestion(SuggestionToken[] suggestions, SuggestionType suggestionType, double editDistance) {
+		super();
+		this.suggestions = suggestions;
+		this.suggestionType = suggestionType;
+		this.editDistance = editDistance;
 	}
 
-	public void setTokensAffected(int[] tokensAffected) {
-		this.tokensAffected = tokensAffected;
+	public SuggestionToken[] getSuggestions() {
+		return suggestions;
 	}
 
-	public String getSuggestion() {
-		return suggestion;
+	public void setSuggestions(SuggestionToken[] suggestions) {
+		this.suggestions = suggestions;
 	}
 
-	public void setSuggestion(String suggestion) {
-		this.suggestion = suggestion;
+	public SuggestionType getSuggestionType() {
+		return suggestionType;
+	}
+
+	public void setSuggestionType(SuggestionType suggestionType) {
+		this.suggestionType = suggestionType;
 	}
 
 	public double getEditDistance() {
