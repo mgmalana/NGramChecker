@@ -8,6 +8,7 @@ import revised.model.NGram;
 import revised.model.Suggestion;
 import revised.model.SuggestionToken;
 import revised.model.SuggestionType;
+import revised.util.ArrayToStringConverter;
 
 public class SubstitutionService {
 
@@ -52,19 +53,19 @@ public class SubstitutionService {
 			if (editDistance == 0) {
 				suggestions.add(new Suggestion(0));
 				return suggestions;
-			}
+			} else if (editDistance <= 1)
+				System.out
+						.println(ArrayToStringConverter.convert(nWords) + " : " + ArrayToStringConverter.convert(nPOS));
 		}
 		return suggestions;
 
 	}
 
-	private static boolean withinSpellingEditDistance(String string, String string2) {
-		int distance = EditDistanceService.computeLevenshteinDistance(string, string2);
-		System.out.println(string + " , " + string2 + " - " + distance);
-
-		if (distance == 3)
+	private static boolean withinSpellingEditDistance(String corpusWord, String input) {
+		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
+		if (distance <= 2) {
 			return true;
-		else
+		} else
 			return false;
 	}
 }

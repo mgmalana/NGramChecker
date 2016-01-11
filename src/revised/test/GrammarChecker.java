@@ -20,7 +20,7 @@ public class GrammarChecker {
 	String pos2 = "QOT VBW NNC PMC";
 
 	// Correct is QOT VBW CCB NNC PMC = delete 'na'
-	// Substitution
+	// Deletion
 	String word3 = "QOT sabi na ng hari ,";
 	String lemma3 = "QOT sabi na ng hari ,";
 	String pos3 = "QOT VBW CCP CCB NNC PMC";
