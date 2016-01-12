@@ -136,6 +136,14 @@ public class NGramDao {
 			return null;
 	}
 
+	public List<NGram> getGeneralizedNGrams() {
+		String query = "SELECT id, words, lemmas, pos FROM " + ngramTable + " WHERE isPOSGeneralized LIKE '%true%'";
+
+		List<NGram> ngrams = new ArrayList<>();
+
+		return ngrams;
+	}
+
 	public void setIsPOSGeneralized(int ngramID, String isPOSGeneralized) throws SQLException {
 		String query = "UPDATE " + ngramTable + " SET isPOSGeneralized = ? WHERE id = ?";
 

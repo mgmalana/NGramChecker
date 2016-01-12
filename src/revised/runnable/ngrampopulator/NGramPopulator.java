@@ -32,7 +32,7 @@ public class NGramPopulator {
 
 	public static void main(String[] args) throws SQLException, IOException {
 
-		for (int i = 3; i <= 7; i++) {
+		for (int i = 2; i <= 7; i++) {
 			System.out.println("Populating " + i + "-gram");
 			NGramPopulator n = new NGramPopulator(i);
 			n.saveNGramsAndPOS();

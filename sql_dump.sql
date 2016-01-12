@@ -32,7 +32,7 @@ CREATE TABLE `bigram` (
   `isPOSGeneralized` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `posID_idx` (`posID`)
-) ENGINE=InnoDB AUTO_INCREMENT=5334 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13321 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -47,7 +47,7 @@ CREATE TABLE `bigram_pos_frequency` (
   `pos` varchar(200) NOT NULL,
   `frequency` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=679 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2036 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,7 +66,7 @@ CREATE TABLE `fivegram` (
   PRIMARY KEY (`id`),
   KEY `posID_fivegramidx` (`posID`),
   CONSTRAINT `posID` FOREIGN KEY (`posID`) REFERENCES `fivegram_pos_frequency` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=3134 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6172 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -81,7 +81,39 @@ CREATE TABLE `fivegram_pos_frequency` (
   `pos` varchar(200) NOT NULL,
   `frequency` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1418 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4070 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `fourgram`
+--
+
+DROP TABLE IF EXISTS `fourgram`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `fourgram` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `words` varchar(200) NOT NULL,
+  `lemmas` varchar(200) NOT NULL,
+  `posID` int(11) NOT NULL,
+  `isPOSGeneralized` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4488 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `fourgram_pos_frequency`
+--
+
+DROP TABLE IF EXISTS `fourgram_pos_frequency`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `fourgram_pos_frequency` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(200) NOT NULL,
+  `frequency` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3371 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -94,9 +126,9 @@ DROP TABLE IF EXISTS `pos_bigram_index`;
 CREATE TABLE `pos_bigram_index` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `pos` varchar(45) NOT NULL,
-  `bigramID` int(11) NOT NULL,
+  `ngramID` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10666 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=30631 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -109,44 +141,165 @@ DROP TABLE IF EXISTS `pos_fivegram_index`;
 CREATE TABLE `pos_fivegram_index` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `pos` varchar(30) NOT NULL,
-  `fivegramID` int(11) NOT NULL,
+  `ngramID` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15663 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=32372 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `sentence`
+-- Table structure for table `pos_fourgram_index`
 --
 
-DROP TABLE IF EXISTS `sentence`;
+DROP TABLE IF EXISTS `pos_fourgram_index`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `sentence` (
+CREATE TABLE `pos_fourgram_index` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `sentence` varchar(500) NOT NULL,
-  `lemmas` varchar(500) NOT NULL,
-  `posTags` varchar(500) NOT NULL,
-  `sentenceWordLength` int(11) NOT NULL,
+  `pos` varchar(45) NOT NULL,
+  `ngramID` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1021 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=22431 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `tokens`
+-- Table structure for table `pos_sevengram_index`
 --
 
-DROP TABLE IF EXISTS `tokens`;
+DROP TABLE IF EXISTS `pos_sevengram_index`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `tokens` (
+CREATE TABLE `pos_sevengram_index` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `surfaceWord` varchar(100) NOT NULL,
-  `lemma` varchar(100) DEFAULT NULL,
-  `pos` varchar(100) DEFAULT NULL,
-  `sentenceNumber` int(11) NOT NULL,
-  `wordNumber` int(11) NOT NULL,
+  `pos` varchar(20) NOT NULL,
+  `ngramID` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7066 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4177 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `pos_sixgram_index`
+--
+
+DROP TABLE IF EXISTS `pos_sixgram_index`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pos_sixgram_index` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(20) NOT NULL,
+  `ngramID` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6616 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `pos_trigram_index`
+--
+
+DROP TABLE IF EXISTS `pos_trigram_index`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pos_trigram_index` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(20) NOT NULL,
+  `ngramID` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12297 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sevengram`
+--
+
+DROP TABLE IF EXISTS `sevengram`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sevengram` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `words` varchar(200) NOT NULL,
+  `lemmas` varchar(200) NOT NULL,
+  `posID` int(11) NOT NULL,
+  `isPOSGeneralized` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=523 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sevengram_pos_frequency`
+--
+
+DROP TABLE IF EXISTS `sevengram_pos_frequency`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sevengram_pos_frequency` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(200) NOT NULL,
+  `frequency` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=505 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sixgram`
+--
+
+DROP TABLE IF EXISTS `sixgram`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sixgram` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `words` varchar(200) NOT NULL,
+  `lemmas` varchar(200) NOT NULL,
+  `posID` int(11) NOT NULL,
+  `isPOSGeneralized` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=946 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sixgram_pos_frequency`
+--
+
+DROP TABLE IF EXISTS `sixgram_pos_frequency`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sixgram_pos_frequency` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(200) NOT NULL,
+  `frequency` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=888 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `trigram`
+--
+
+DROP TABLE IF EXISTS `trigram`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `trigram` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `words` varchar(200) NOT NULL,
+  `lemmas` varchar(200) NOT NULL,
+  `posID` int(11) NOT NULL,
+  `isPOSGeneralized` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3075 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `trigram_pos_frequency`
+--
+
+DROP TABLE IF EXISTS `trigram_pos_frequency`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `trigram_pos_frequency` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pos` varchar(200) NOT NULL,
+  `frequency` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1540 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -162,4 +315,4 @@ CREATE TABLE `tokens` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2015-12-15 11:10:22
+-- Dump completed on 2016-01-12 15:31:03
