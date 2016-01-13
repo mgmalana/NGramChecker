@@ -40,7 +40,10 @@ public class SubstitutionService {
 						editDistance += 0.1;
 					else if (withinSpellingEditDistance(nWords[i], wArr[i]))
 						editDistance += 0.2;
-					else if (nPOS[i].equals(pArr[i]))
+					else if (isPOSGeneralized != null && isPOSGeneralized[i]
+							&& hasCloseWordFromDictionary(wArr[i], nPOS[i])) {
+						editDistance += 0.3;
+					} else if (nPOS[i].equals(pArr[i]))
 						editDistance += 0.9;
 					else
 						editDistance += 1;
@@ -59,6 +62,11 @@ public class SubstitutionService {
 		}
 		return suggestions;
 
+	}
+
+	private boolean hasCloseWordFromDictionary(String mispelledWord, String expectedPOS) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	private static boolean withinSpellingEditDistance(String corpusWord, String input) {

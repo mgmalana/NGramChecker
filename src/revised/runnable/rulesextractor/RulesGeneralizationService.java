@@ -34,11 +34,11 @@ public class RulesGeneralizationService {
 			for (NGram n : ngrams) {
 				n.setIsPOSGeneralized(isPOSGeneralized);
 				generalizationMap.put(n.getId(), ArrayToStringConverter.convert(isPOSGeneralized));
-				System.out.println(ArrayToStringConverter.convert(n.getWords()));
+				// System.out.println(ArrayToStringConverter.convert(n.getWords()));
 			}
 			ngramDao.setIsPOSGeneralizedBatch(generalizationMap);
-			System.out.println(ArrayToStringConverter.convert(isPOSGeneralized));
-			System.out.println("---------------------------------------------");
+			// System.out.println(ArrayToStringConverter.convert(isPOSGeneralized));
+			// System.out.println("---------------------------------------------");
 
 			for (NGram n : ngrams) {
 				StringBuilder rule = new StringBuilder();

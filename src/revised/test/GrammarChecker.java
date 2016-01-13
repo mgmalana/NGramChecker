@@ -3,27 +3,13 @@ package revised.test;
 import java.sql.SQLException;
 import java.util.List;
 
+import revised.model.Input;
 import revised.model.Suggestion;
 import revised.model.SuggestionToken;
 
 public class GrammarChecker {
-	// Correct is QOT VBW CCB NNC PMC = 'ng' instead of 'nang'
-	// Substitution
-	String word = "QOT sabi nang hari ,";
-	String lemma = "QOT sabi nang hari ,";
-	String pos = "QOT VBW CCP NNC PMC";
 
-	// Correct is QOT VBW NNC PMC = add 'ng'
-	// Addition
-	String word2 = "QOT sabi hari ,";
-	String lemma2 = "QOT sabi hari ,";
-	String pos2 = "QOT VBW NNC PMC";
-
-	// Correct is QOT VBW CCB NNC PMC = delete 'na'
-	// Deletion
-	String word3 = "QOT sabi na ng hari ,";
-	String lemma3 = "QOT sabi na ng hari ,";
-	String pos3 = "QOT VBW CCP CCB NNC PMC";
+	TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
 
 	SubstitutionService substitutionService;
 	DeletionService deletionService;
@@ -49,9 +35,11 @@ public class GrammarChecker {
 	}
 
 	private void testInsertion() throws SQLException {
-		String[] wArr = word2.split(" ");
-		String[] lArr = lemma2.split(" ");
-		String[] pArr = pos2.split(" ");
+		Input testError = testErrorsProvider.getTestErrors().get(0);
+		String[] wArr = testError.getWords();
+		String[] lArr = testError.getLemmas();
+		String[] pArr = testError.getPos();
+
 		List<Suggestion> suggestionsIns = insertionService.computeInsertion(wArr, lArr, pArr);
 		for (Suggestion s : suggestionsIns) {
 			if (s.getEditDistance() == 1) {
@@ -69,9 +57,10 @@ public class GrammarChecker {
 	}
 
 	private void testSubstitution() throws SQLException {
-		String[] wArr = word.split(" ");
-		String[] lArr = lemma.split(" ");
-		String[] pArr = pos.split(" ");
+		Input testError = testErrorsProvider.getTestErrors().get(0);
+		String[] wArr = testError.getWords();
+		String[] lArr = testError.getLemmas();
+		String[] pArr = testError.getPos();
 
 		List<Suggestion> suggestionsSub = substitutionService.computeSubstitution(wArr, lArr, pArr);
 		for (Suggestion s : suggestionsSub) {
@@ -86,15 +75,12 @@ public class GrammarChecker {
 	}
 
 	public void testDeletion() throws SQLException {
-		String[] wArr = word3.split(" ");
-		String[] lArr = lemma3.split(" ");
-		String[] pArr = pos3.split(" ");
+		Input testError = testErrorsProvider.getTestErrors().get(2);
+		String[] wArr = testError.getWords();
+		String[] lArr = testError.getLemmas();
+		String[] pArr = testError.getPos();
+
 		List<Suggestion> suggestionsDel = deletionService.computeDeletion(wArr, lArr, pArr);
-		// System.out.println("Candidates for Deletion ");
-		// for (NGram n : candidateDelNGrams)
-		// System.out.println(
-		// ArrayToStringConverter.convert(n.getWords()) + " " +
-		// ArrayToStringConverter.convert(n.getPos()));
 		for (Suggestion s : suggestionsDel) {
 			if (s.getEditDistance() == 1) {
 				for (int i = 0; i < s.getSuggestions().length; i++) {
