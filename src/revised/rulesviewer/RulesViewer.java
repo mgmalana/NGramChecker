@@ -1,5 +1,9 @@
 package revised.rulesviewer;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -12,20 +16,39 @@ import revised.util.ArrayToStringConverter;
 
 public class RulesViewer {
 
-	public static void main(String[] args) throws SQLException {
-		for (int i = 5; i <= 7; i++) {
+	public static void main(String[] args) throws SQLException, IOException {
+		for (int i = 2; i <= 7; i++) {
 			NGramDao ngramDao = DaoManager.getNGramDao(i);
 
 			HashMap<Integer, NGram> generalizedNGrams = ngramDao.getGeneralizedNGrams();
-
+			writeToFile(generalizedNGrams, "rules/rules-" + i + ".csv");
 			Iterator it = generalizedNGrams.entrySet().iterator();
 			while (it.hasNext()) {
 				Map.Entry pair = (Map.Entry) it.next();
 				NGram n = (NGram) pair.getValue();
-				System.out.println(getRule(n) + " ||| " + ArrayToStringConverter.convert(n.getWords()) + " | "
+				System.out.println(getRule(n) + " | " + ArrayToStringConverter.convert(n.getWords()) + " | "
 						+ ArrayToStringConverter.convert(n.getIsPOSGeneralized()));
 			}
 		}
+	}
+
+	private static void writeToFile(HashMap<Integer, NGram> generalizedNGrams, String filename) throws IOException {
+		File file = new File(filename);
+		if (file.exists())
+			file.delete();
+
+		file.createNewFile();
+
+		FileWriter fileWriter = new FileWriter(file, true);
+		BufferedWriter bufferWriter = new BufferedWriter(fileWriter);
+		Iterator it = generalizedNGrams.entrySet().iterator();
+		while (it.hasNext()) {
+			Map.Entry pair = (Map.Entry) it.next();
+			NGram n = (NGram) pair.getValue();
+			bufferWriter.write(getRule(n) + " | " + ArrayToStringConverter.convert(n.getWords()) + " | "
+					+ ArrayToStringConverter.convert(n.getIsPOSGeneralized()) + "\n");
+		}
+		bufferWriter.close();
 	}
 
 	private static String getRule(NGram n) {

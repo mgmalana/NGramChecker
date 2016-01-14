@@ -138,22 +138,23 @@ public class NGramDao {
 
 	public HashMap<Integer, NGram> getGeneralizedNGrams() throws SQLException {
 		String query = "SELECT F.id, words, lemmas, pos, isPOSGeneralized, posID FROM " + ngramTable + " F INNER JOIN "
-				+ "(SELECT id, pos FROM " + ngramFrequencyTable + ") A WHERE isPOSGeneralized LIKE '%true%'";
+				+ "(SELECT id, pos FROM " + ngramFrequencyTable
+				+ ") A ON F.posID = A.id WHERE isPOSGeneralized LIKE '%true%'";
 		PreparedStatement ps = conn.prepareStatement(query);
 		ResultSet rs = ps.executeQuery();
 
 		HashMap<Integer, NGram> ngrams = new HashMap<>();
 		while (rs.next()) {
-			if (ngrams.get(rs.getInt(6)) != null)
-				continue;
-			int id = rs.getInt(1);
-			String[] words = rs.getString(2).split(" ");
-			String[] lemmas = rs.getString(3).split(" ");
-			String[] pos = rs.getString(4).split(" ");
-			Boolean[] isPOSGeneralized = null;
-			if (rs.getString(5) != null)
-				isPOSGeneralized = ArrayToStringConverter.stringToBoolArr(rs.getString(5));
-			ngrams.put(rs.getInt(6), new NGram(id, ngramSize, words, lemmas, pos, isPOSGeneralized));
+			if (ngrams.get(rs.getInt(6)) == null) {
+				int id = rs.getInt(1);
+				String[] words = rs.getString(2).split(" ");
+				String[] lemmas = rs.getString(3).split(" ");
+				String[] pos = rs.getString(4).split(" ");
+				Boolean[] isPOSGeneralized = null;
+				if (rs.getString(5) != null)
+					isPOSGeneralized = ArrayToStringConverter.stringToBoolArr(rs.getString(5));
+				ngrams.put(rs.getInt(6), new NGram(id, ngramSize, words, lemmas, pos, isPOSGeneralized));
+			}
 		}
 
 		return ngrams;
