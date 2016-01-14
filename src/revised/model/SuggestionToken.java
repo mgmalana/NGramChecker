@@ -6,15 +6,22 @@ public class SuggestionToken {
 	private String pos;
 	private int index; // for addition this will be the index of where the token
 						// should be inserted
-	private boolean isWord;
+	private boolean isPOSGeneralized;
+	private double editDistance;
 
-	public SuggestionToken(String text, int index, boolean isWord) {
+	public SuggestionToken(String word, int index, double editDistance) {
 		this.index = index;
-		if (isWord)
-			this.word = text;
-		else
-			this.pos = text;
-		this.isWord = isWord;
+		this.word = word;
+		this.isPOSGeneralized = false;
+		this.editDistance = editDistance;
+	}
+
+	public SuggestionToken(String word, int index, double editDistance, String pos) {
+		this.index = index;
+		this.word = word;
+		this.pos = pos;
+		this.isPOSGeneralized = true;
+		this.editDistance = editDistance;
 	}
 
 	public String getWord() {
@@ -41,11 +48,19 @@ public class SuggestionToken {
 		this.index = index;
 	}
 
-	public boolean isWord() {
-		return isWord;
+	public boolean isPOSGeneralized() {
+		return isPOSGeneralized;
 	}
 
-	public void setWord(boolean isWord) {
-		this.isWord = isWord;
+	public void setPOSGeneralized(boolean isPOSGeneralized) {
+		this.isPOSGeneralized = isPOSGeneralized;
+	}
+
+	public double getEditDistance() {
+		return editDistance;
+	}
+
+	public void setEditDistance(double editDistance) {
+		this.editDistance = editDistance;
 	}
 }

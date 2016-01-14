@@ -40,11 +40,11 @@ public class DeletionService {
 					j++;
 				} else if (isPOSGeneralized != null && isPOSGeneralized[j] == true && i + 1 != pArr.length
 						&& nPOS[j].equals(pArr[i + 1])) {
-					suggestionToken = new SuggestionToken(pArr[i], i, false);
+					suggestionToken = new SuggestionToken(wArr[i], i, 1, pArr[i]);
 					i++;
 					editDistance++;
 				} else if (i + 1 != pArr.length && nWords[j].equals(wArr[i + 1])) {
-					suggestionToken = new SuggestionToken(wArr[i], i, true);
+					suggestionToken = new SuggestionToken(wArr[i], i, 1);
 					i++;
 					editDistance++;
 				} else {

@@ -8,7 +8,6 @@ import revised.model.NGram;
 import revised.model.Suggestion;
 import revised.model.SuggestionToken;
 import revised.model.SuggestionType;
-import revised.util.ArrayToStringConverter;
 
 public class SubstitutionService {
 
@@ -47,7 +46,11 @@ public class SubstitutionService {
 						editDistance += 0.9;
 					else
 						editDistance += 1;
-					replacements.add(new SuggestionToken(nWords[i], i, true));
+
+					if (isPOSGeneralized != null && isPOSGeneralized[i] == true)
+						replacements.add(new SuggestionToken(nWords[i], i, editDistance, nPOS[i]));
+					else
+						replacements.add(new SuggestionToken(nWords[i], i, editDistance));
 				}
 			}
 			SuggestionToken[] replacementWords = replacements.toArray(new SuggestionToken[replacements.size()]);
@@ -56,9 +59,7 @@ public class SubstitutionService {
 			if (editDistance == 0) {
 				suggestions.add(new Suggestion(0));
 				return suggestions;
-			} else if (editDistance <= 1)
-				System.out
-						.println(ArrayToStringConverter.convert(nWords) + " : " + ArrayToStringConverter.convert(nPOS));
+			}
 		}
 		return suggestions;
 

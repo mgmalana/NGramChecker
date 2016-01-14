@@ -5,6 +5,8 @@ public class DaoManager {
 	public static NGramDao getNGramDao(int ngramSize) {
 
 		switch (ngramSize) {
+		case 1:
+			return new NGramDao(1, "unigram", "unigram_pos_frequency", "pos_unigram_index");
 		case 2:
 			return new NGramDao(2, "bigram", "bigram_pos_frequency", "pos_bigram_index");
 		case 3:
@@ -24,6 +26,8 @@ public class DaoManager {
 
 	public static POS_NGram_Indexer getIndexer(int ngramSize) {
 		switch (ngramSize) {
+		case 1:
+			return new POS_NGram_Indexer("pos_unigram_index");
 		case 2:
 			return new POS_NGram_Indexer("pos_bigram_index");
 		case 3:

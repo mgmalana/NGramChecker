@@ -1,11 +1,17 @@
 package revised.test;
 
+import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import revised.model.Input;
 import revised.model.Suggestion;
 import revised.model.SuggestionToken;
+import revised.util.ArrayToStringConverter;
+import revised.util.FileManager;
 
 public class GrammarChecker {
 
@@ -21,17 +27,85 @@ public class GrammarChecker {
 		insertionService = new InsertionService();
 	}
 
-	public static void main(String[] args) throws SQLException {
+	public static void main(String[] args) throws SQLException, IOException {
 		GrammarChecker grammarChecker = new GrammarChecker();
 		grammarChecker.checkGrammar();
 	}
 
-	public void checkGrammar() throws SQLException {
-		testSubstitution();
+	public void checkGrammar() throws SQLException, IOException {
 
-		testInsertion();
+		testGrammarCheck();
 
-		testDeletion();
+		// testSubstitution();
+		//
+		// testInsertion();
+		//
+		// testDeletion();
+	}
+
+	private void testGrammarCheck() throws SQLException, IOException {
+		Input testError = testErrorsProvider.getTestErrors().get(6);
+		FileManager fileManager = new FileManager("results- distance less than 3.txt");
+		System.out.println("Writing suggestions to file");
+		fileManager.createFile();
+		fileManager.writeToFile(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+		for (int ngramSize = 7; ngramSize >= 2; ngramSize--) {
+			System.out.println("N-gram = " + ngramSize);
+			fileManager.writeToFile("N-gram = " + ngramSize);
+			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
+				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
+				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
+				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
+
+				fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
+				List<Suggestion> suggestionIns = null;
+				List<Suggestion> suggestionsSub = null;
+				List<Suggestion> suggestionsDel = null;
+				if (ngramSize <= 6)
+					suggestionIns = insertionService.computeInsertion(wArr, lArr, pArr);
+				suggestionsSub = sortSuggestions(substitutionService.computeSubstitution(wArr, lArr, pArr));
+				if (ngramSize >= 3)
+					suggestionsDel = deletionService.computeDeletion(wArr, lArr, pArr);
+
+				for (Suggestion s : suggestionsSub) {
+					String[] arrSugg = new String[wArr.length];
+					System.arraycopy(wArr, 0, arrSugg, 0, wArr.length);
+					if (s.getEditDistance() <= 3) {
+						fileManager.writeToFile(Double.toString(s.getEditDistance()));
+						if (s.getEditDistance() > 0)
+							for (SuggestionToken sugg : s.getSuggestions()) {
+								if (sugg.isPOSGeneralized() == false) {
+									fileManager
+											.writeToFile("Replace " + sugg.getWord() + " in " + arrSugg[sugg.getIndex()]
+													+ ". " + " Edit Distance: " + sugg.getEditDistance());
+									arrSugg[sugg.getIndex()] = sugg.getWord();
+								} else {
+									fileManager.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")"
+											+ " in " + arrSugg[sugg.getIndex()] + ". " + " Edit Distance: "
+											+ sugg.getEditDistance());
+									arrSugg[sugg.getIndex()] = sugg.getPos();
+								}
+							}
+						fileManager.writeToFile(ArrayToStringConverter.convert(arrSugg));
+					}
+				}
+				fileManager.writeToFile("------------------------------------------");
+			}
+		}
+	}
+
+	private List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
+		if (suggestions.size() > 0) {
+			Collections.sort(suggestions, new Comparator<Suggestion>() {
+				@Override
+				public int compare(final Suggestion object1, final Suggestion object2) {
+					return object1.getEditDistance() < object2.getEditDistance() ? -1
+							: object1.getEditDistance() > object2.getEditDistance() ? 1 : 0;
+				}
+			});
+		}
+		return suggestions;
 	}
 
 	private void testInsertion() throws SQLException {
@@ -46,7 +120,7 @@ public class GrammarChecker {
 				for (int i = 0; i < s.getSuggestions().length; i++) {
 
 					SuggestionToken sugg = s.getSuggestions()[i];
-					if (sugg.isWord() == true)
+					if (sugg.isPOSGeneralized() == false)
 						System.out.println("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()] + ". ");
 					else
 						System.out.println("Insert " + sugg.getPos() + " in before " + wArr[sugg.getIndex()] + ". ");

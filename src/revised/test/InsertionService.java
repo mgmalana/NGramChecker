@@ -39,12 +39,12 @@ public class InsertionService {
 					j++;
 				} else if (isPOSGeneralized != null && j + 1 != nPOS.length && isPOSGeneralized[j + 1] == true
 						&& nPOS[j + 1].equals(pArr[i])) {
-					suggestionToken = new SuggestionToken(nPOS[j], i, false);
+					suggestionToken = new SuggestionToken(nWords[j], i, 1, nPOS[j]);
 					i++;
 					j += 2;
 					editDistance++;
 				} else if (j + 1 != nWords.length && nWords[j + 1].equals(wArr[i])) {
-					suggestionToken = new SuggestionToken(nWords[j], i, true);
+					suggestionToken = new SuggestionToken(nWords[j], i, 1, nPOS[j]);
 					i++;
 					j += 2;
 					editDistance++;

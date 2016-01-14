@@ -1,0 +1,3660 @@
+Full: subalit naketa ku 3
+N-gram = 7
+N-gram = 6
+N-gram = 5
+N-gram = 4
+N-gram = 3
+subalit naketa ku
+0.4
+TReplace VBTS(nakita) in naketa.  Edit Distance: 0.2
+TReplace PRS(ko) in ku.  Edit Distance: 0.4
+subalit VBTS PRS
+1.2
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(ko) in ku.  Edit Distance: 1.2
+subalit RBF PRS
+1.2
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(ko) in ku.  Edit Distance: 1.2
+subalit RBF PRS
+1.2
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(ako) in ku.  Edit Distance: 1.2
+subalit RBF PRS
+1.2
+TReplace VBOF(hintayin) in naketa.  Edit Distance: 1.0
+TReplace PRS(ako) in ku.  Edit Distance: 1.2
+subalit VBOF PRS
+1.2
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.0
+TReplace PRS(ko) in ku.  Edit Distance: 1.2
+subalit VBTS PRS
+2.0
+TReplace JJD(ganang) in naketa.  Edit Distance: 1.0
+TReplace NNC(sarili) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace NNC(kamatayan) in naketa.  Edit Distance: 1.0
+TReplace PRO(ito) in ku.  Edit Distance: 2.0
+subalit NNC PRO
+2.0
+TReplace JJD(buong) in naketa.  Edit Distance: 1.0
+TReplace NNC(mundo) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace CCT(sa) in naketa.  Edit Distance: 1.0
+TReplace NNC(kamalasan) in ku.  Edit Distance: 2.0
+subalit CCT NNC
+2.0
+TReplace JJD(ibang) in naketa.  Edit Distance: 1.0
+TReplace NNC(planeta) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace NNC(planetang) in naketa.  Edit Distance: 1.0
+TReplace PRO('yon) in ku.  Edit Distance: 2.0
+subalit NNC PRO
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(papuri) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+TReplace NNC(prinsipe) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace RBF(wala) in naketa.  Edit Distance: 1.0
+TReplace PRS(akong) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+TReplace JJD(dating) in naketa.  Edit Distance: 1.0
+TReplace NNC(oras) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(babae) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(siya) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+TReplace JJD(seryosong) in naketa.  Edit Distance: 1.0
+TReplace NNC(tao) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(bilang) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace JJD(seryosong) in naketa.  Edit Distance: 1.0
+TReplace NNC(tao) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+TReplace NNC(prinsipe) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(niya) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(ekspres) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+TReplace NNC(prinsipe) in ku.  Edit Distance: 2.0
+subalit JJD NNC
+2.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(siya) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+TReplace CCT(ng) in naketa.  Edit Distance: 1.0
+TReplace NNC(puso) in ku.  Edit Distance: 2.0
+subalit CCT NNC
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(repolyo) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(siya) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+TReplace VBOF(nilakasan) in naketa.  Edit Distance: 1.0
+TReplace PRS(niya) in ku.  Edit Distance: 2.0
+subalit VBOF PRS
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(ahas) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(disyerto) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.0
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.0
+TReplace PRS(niya) in ku.  Edit Distance: 2.0
+subalit VBTS PRS
+2.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+TReplace PRS(niya) in ku.  Edit Distance: 2.0
+subalit RBF PRS
+2.0
+Replace mga in naketa.  Edit Distance: 1.0
+TReplace NNC(bituin) in ku.  Edit Distance: 2.0
+subalit mga NNC
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(makina) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa NNC ng
+2.1
+Replace parang in subalit.  Edit Distance: 0.9
+Replace tinamaan in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+parang tinamaan ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kamalasan in naketa.  Edit Distance: 1.9
+Replace e in ku.  Edit Distance: 2.1
+sa kamalasan e
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace VBTS(ipinagpatuloy) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+Ngunit VBTS ng
+2.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace ano'ng in naketa.  Edit Distance: 1.1
+Replace kuwento in ku.  Edit Distance: 2.1
+pero ano'ng kuwento
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace JJD(sumunod) in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+sa JJD na
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace Para in subalit.  Edit Distance: 0.9
+Replace makalimot in naketa.  Edit Distance: 1.9
+Replace sa in ku.  Edit Distance: 2.1
+Para makalimot sa
+2.1
+Replace Para in subalit.  Edit Distance: 0.9
+Replace makalimot in naketa.  Edit Distance: 1.9
+Replace sa in ku.  Edit Distance: 2.1
+Para makalimot sa
+2.1
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace iiyak in naketa.  Edit Distance: 1.9
+Replace ka in ku.  Edit Distance: 2.1
+Pero iiyak ka
+2.1
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace saan in naketa.  Edit Distance: 1.9
+Replace sa in ku.  Edit Distance: 2.1
+Pero saan sa
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.9
+TReplace PRS(mo) in ku.  Edit Distance: 2.1
+sa NNC PRS
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(rosas) in naketa.  Edit Distance: 1.9
+TReplace PRS(ko) in ku.  Edit Distance: 2.1
+sa NNC PRS
+2.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace walang in naketa.  Edit Distance: 1.1
+Replace saysay in ku.  Edit Distance: 2.1
+pero walang saysay
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace hindi in naketa.  Edit Distance: 1.1
+Replace naman in ku.  Edit Distance: 2.1
+pero hindi naman
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.9
+Replace pa in ku.  Edit Distance: 2.1
+Ngunit VBTS pa
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace VBTS(idinugtong) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+Ngunit VBTS ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(lupa) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa NNC ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa PRSP ,
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(tingin) in naketa.  Edit Distance: 1.9
+TReplace PRS(ko) in ku.  Edit Distance: 2.1
+sa NNC PRS
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace VBTS(nagsimula) in naketa.  Edit Distance: 1.9
+Replace pa in ku.  Edit Distance: 2.1
+Ngunit VBTS pa
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace may in naketa.  Edit Distance: 1.9
+Replace kung in ku.  Edit Distance: 2.1
+Ngunit may kung
+2.1
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+Sa NNC ,
+2.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace hindi in naketa.  Edit Distance: 1.1
+Replace nila in ku.  Edit Distance: 2.1
+pero hindi nila
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace hihingin in naketa.  Edit Distance: 1.9
+Replace sa in ku.  Edit Distance: 2.1
+Ngunit hihingin sa
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa PRSP ,
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(eksplorer) in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+sa NNC na
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(tubig) in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+sa NNC na
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace ikaw in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+Ngunit ikaw ,
+2.1
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace pamamagitan in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+Sa pamamagitan ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace JJD(nalalapit) in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+sa JJD na
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(lugar) in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+sa NNC na
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa PRSP ,
+2.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace hindi in naketa.  Edit Distance: 1.1
+Replace ito in ku.  Edit Distance: 2.1
+pero hindi ito
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace muli in naketa.  Edit Distance: 1.9
+Replace na in ku.  Edit Distance: 2.1
+Ngunit muli na
+2.1
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace Lupa in naketa.  Edit Distance: 1.9
+Replace – in ku.  Edit Distance: 2.1
+Sa Lupa –
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(kawalan) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa NNC ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace ikaw in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+Ngunit ikaw ,
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(piling) in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa NNC ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa NNC ,
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace para in subalit.  Edit Distance: 0.9
+Replace makita in naketa.  Edit Distance: 1.1
+Replace kitang in ku.  Edit Distance: 2.1
+para makita kitang
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace malayo in naketa.  Edit Distance: 1.9
+Replace at in ku.  Edit Distance: 2.1
+sa malayo at
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace balisa in naketa.  Edit Distance: 1.9
+Replace pa in ku.  Edit Distance: 2.1
+Ngunit balisa pa
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace ano in naketa.  Edit Distance: 1.9
+Replace po in ku.  Edit Distance: 2.1
+sa ano po
+2.1
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace lahat in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+Sa lahat ng
+2.1
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace lahat in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+Sa lahat ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanya in naketa.  Edit Distance: 1.9
+Replace ng in ku.  Edit Distance: 2.1
+sa kanya ng
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+Replace lahat in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa lahat ,
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+Replace : in ku.  Edit Distance: 2.1
+sa PRSP :
+2.1
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(sarili) in naketa.  Edit Distance: 1.9
+Replace , in ku.  Edit Distance: 2.1
+sa NNC ,
+2.2
+Replace Ang in subalit.  Edit Distance: 1.0
+TReplace NNC(sabi) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+Ang NNC CCT
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+Replace sumagot in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT sumagot sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace PRI(sinuman) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang PRI sa
+2.2
+Replace Hinding-hindi in subalit.  Edit Distance: 1.0
+Replace nakakaintindi in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Hinding-hindi nakakaintindi sa
+2.2
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+PRS PRS sa
+2.2
+Replace kung in subalit.  Edit Distance: 1.0
+Replace mawawala in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+kung mawawala sa
+2.2
+Replace aking in subalit.  Edit Distance: 1.0
+Replace sarili in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+aking sarili sa
+2.2
+Replace anong in subalit.  Edit Distance: 1.0
+Replace nasira in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+anong nasira sa
+2.2
+Replace ito in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ito para sa
+2.2
+Replace sa in subalit.  Edit Distance: 1.0
+Replace akin in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+sa akin sa
+2.2
+Replace tagahangang in subalit.  Edit Distance: 1.0
+Replace dumadalaw in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+tagahangang dumadalaw sa
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBW(sagot) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBW sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace NNC(payo) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ang NNC CCT
+2.2
+TReplace VBTR(nangangaso) in subalit.  Edit Distance: 1.0
+Replace ba in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR ba sa
+2.2
+TReplace RBI(naman) in subalit.  Edit Distance: 1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+Replace kaysa in subalit.  Edit Distance: 1.0
+Replace dalaw in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+kaysa dalaw sa
+2.2
+Replace Walang in subalit.  Edit Distance: 1.0
+Replace nagbabago in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Walang nagbabago sa
+2.2
+TReplace NNC(paghanga) in subalit.  Edit Distance: 1.0
+TReplace PRS(mo) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRS CCT
+2.2
+TReplace VBW(tanong) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW PRS sa
+2.2
+Replace na in subalit.  Edit Distance: 1.0
+Replace maiiba in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+na maiiba sa
+2.2
+Replace Walang in subalit.  Edit Distance: 1.0
+Replace ipinaaalaala in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Walang ipinaaalaala sa
+2.2
+TReplace NNC(kuwento) in subalit.  Edit Distance: 1.0
+TReplace PRO(nito) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRO CCT
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+Replace nakatira in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang nakatira sa
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBW(tanong) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBW sa
+2.2
+TReplace VBTS(ibinigay) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+munting prinsipe CCT
+2.2
+Replace makabubuting in subalit.  Edit Distance: 1.0
+Replace bumalik in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+makabubuting bumalik sa
+2.2
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+TReplace RBI(rin) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+PRS RBI sa
+2.2
+Replace pag in subalit.  Edit Distance: 1.0
+Replace Huwebes in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+pag Huwebes sa
+2.2
+Replace mga in subalit.  Edit Distance: 1.0
+TReplace NNC(babae) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+mga NNC CCT
+2.2
+Replace ako in subalit.  Edit Distance: 1.0
+Replace hanggang in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ako hanggang sa
+2.2
+TReplace JJD(Kulang) in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+JJD ako CCT
+2.2
+Replace Malayung-malayo in subalit.  Edit Distance: 1.0
+Replace kayo in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Malayung-malayo kayo sa
+2.2
+TReplace VBTR(ginagawa) in subalit.  Edit Distance: 1.0
+TReplace PRS(mo) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace NNC(may-ari) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ang NNC CCT
+2.2
+TReplace RBI(pa) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+TReplace VBTS(ikinanlong) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+munting prinsipe CCT
+2.2
+TReplace VBAF(bumalik) in subalit.  Edit Distance: 1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+VBAF PRS CCT
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace PRI(lahat) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang PRI sa
+2.2
+TReplace VBTR(ginagawa) in subalit.  Edit Distance: 1.0
+TReplace PRS(mo) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+TReplace VBTS(inaksaya) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace mong in subalit.  Edit Distance: 1.0
+Replace sabihin in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+mong sabihin sa
+2.2
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+TReplace PRS(ako) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+Replace siyempre in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+siyempre ako sa
+2.2
+Replace sila in subalit.  Edit Distance: 1.0
+Replace kuntento in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+sila kuntento sa
+2.2
+TReplace VBW(sana) in subalit.  Edit Distance: 1.0
+Replace ito in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW ito sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace PRI(sinuman) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang PRI sa
+2.2
+Replace mga in subalit.  Edit Distance: 1.0
+Replace ito in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+mga ito sa
+2.2
+Replace umagaw in subalit.  Edit Distance: 1.0
+Replace ito in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+umagaw ito sa
+2.2
+TReplace VBW(makatulong) in subalit.  Edit Distance: 1.0
+Replace ito in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW ito sa
+2.2
+TReplace NNC(pagtitipid) in subalit.  Edit Distance: 1.0
+TReplace PRO(ito) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRO CCT
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace NNC(sabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRS CCT
+2.2
+TReplace VBW(sabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW PRS sa
+2.2
+Replace pinakagusto in subalit.  Edit Distance: 1.0
+Replace ko in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+pinakagusto ko sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+TReplace RBI(lamang) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+PRS RBI sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(mo) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBW(tanong) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW PRS sa
+2.2
+Replace nang in subalit.  Edit Distance: 1.0
+Replace lagi in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+nang lagi sa
+2.2
+Replace pa in subalit.  Edit Distance: 1.0
+Replace rin in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+pa rin sa
+2.2
+Replace ako in subalit.  Edit Distance: 1.0
+Replace naniniwala in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ako naniniwala sa
+2.2
+TReplace JJD(Nahabag) in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+JJD ako CCT
+2.2
+TReplace JJD(abala) in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+JJD ako CCT
+2.2
+Replace mga in subalit.  Edit Distance: 1.0
+TReplace NNC(tao) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+mga NNC CCT
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTS(Pinagalaw) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace siya in subalit.  Edit Distance: 1.0
+Replace nakakatingin in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+siya nakakatingin sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTR(Nauuhaw) in subalit.  Edit Distance: 1.0
+TReplace PRS(ako) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+Replace galing in subalit.  Edit Distance: 1.0
+Replace ka in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+galing ka sa
+2.2
+TReplace RBI(na) in subalit.  Edit Distance: 1.0
+Replace ngayon in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI ngayon sa
+2.2
+Replace Ilalarawan in subalit.  Edit Distance: 1.0
+Replace mo in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Ilalarawan mo sa
+2.2
+Replace timba in subalit.  Edit Distance: 1.0
+Replace hanggang in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+timba hanggang sa
+2.2
+TReplace VBW(Masasabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW PRS sa
+2.2
+Replace Mga in subalit.  Edit Distance: 1.0
+TReplace NNC(libro) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+Mga NNC CCT
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace NNC(buhangin) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ang NNC CCT
+2.2
+Replace ako in subalit.  Edit Distance: 1.0
+Replace , in naketa.  Edit Distance: 2.0
+Replace o in ku.  Edit Distance: 2.2
+ako , o
+2.2
+Replace Walang in subalit.  Edit Distance: 1.0
+TReplace NNC(tigre) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Walang NNC sa
+2.2
+TReplace VBTR(Nanganganib) in subalit.  Edit Distance: 1.0
+Replace ba in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR ba sa
+2.2
+Replace na in subalit.  Edit Distance: 1.0
+Replace nabuo in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+na nabuo sa
+2.2
+Replace ng in subalit.  Edit Distance: 1.0
+TReplace NNC(garapon) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ng NNC CCT
+2.2
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+TReplace RBI(ba) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+PRS RBI sa
+2.2
+Replace kasi in subalit.  Edit Distance: 1.0
+Replace dito in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+kasi dito sa
+2.2
+Replace dapat in subalit.  Edit Distance: 1.0
+Replace nakinig in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+dapat nakinig sa
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBW(sagot) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBW sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTS(ipinagtapat) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace nakitang in subalit.  Edit Distance: 1.0
+Replace sinuman in naketa.  Edit Distance: 2.0
+Replace o in ku.  Edit Distance: 2.2
+nakitang sinuman o
+2.2
+TReplace VBTR(naniniwala) in subalit.  Edit Distance: 1.0
+TReplace PRS(ka) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+munting prinsipe CCT
+2.2
+TReplace VBW(sabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBW PRS sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace Lupa in subalit.  Edit Distance: 1.0
+Replace – in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Lupa – sa
+2.2
+TReplace RBI(naman) in subalit.  Edit Distance: 1.0
+Replace ngayon in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI ngayon sa
+2.2
+TReplace VBTS(Nagtaka) in subalit.  Edit Distance: 1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace walang in subalit.  Edit Distance: 1.0
+TReplace NNC(tao) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+walang NNC sa
+2.2
+Replace Walang in subalit.  Edit Distance: 1.0
+TReplace NNC(tao) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Walang NNC sa
+2.2
+TReplace VBTS(Sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTR(Itinatanong) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+Replace ng in subalit.  Edit Distance: 1.0
+TReplace NNC(bulaklak) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ng NNC CCT
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBTS(nagtanong) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBTS sa
+2.2
+Replace Medyo in subalit.  Edit Distance: 1.0
+Replace nakapangungulila in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Medyo nakapangungulila sa
+2.2
+Replace Nakapangungulila in subalit.  Edit Distance: 1.0
+Replace rin in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Nakapangungulila rin sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+Replace dadalaw in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang dadalaw sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTS(Sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+Replace nakatira in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang nakatira sa
+2.2
+TReplace VBAF(Lumapit) in subalit.  Edit Distance: 1.0
+TReplace PRS(ka) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+VBAF PRS CCT
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBW(sabi) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBW sa
+2.2
+TReplace JJD(Galing) in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+JJD ako CCT
+2.2
+Replace dahil in subalit.  Edit Distance: 1.0
+Replace lamang in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+dahil lamang sa
+2.2
+Replace may in subalit.  Edit Distance: 1.0
+Replace anim in naketa.  Edit Distance: 2.0
+Replace o in ku.  Edit Distance: 2.2
+may anim o
+2.2
+Replace siyang in subalit.  Edit Distance: 1.0
+Replace nakakawala in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+siyang nakakawala sa
+2.2
+TReplace RBI(lamang) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+TReplace PRS(ako) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+PRS PRS sa
+2.2
+TReplace VBTR(Iniuutos) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTR PRS sa
+2.2
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+munting prinsipe CCT
+2.2
+TReplace NNC(pagtatanong) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRS CCT
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace Sir in subalit.  Edit Distance: 1.0
+Replace , in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+Sir , sa
+2.2
+TReplace RBI(din) in subalit.  Edit Distance: 1.0
+TReplace PRS(ako) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+RBI PRS sa
+2.2
+Replace ng in subalit.  Edit Distance: 1.0
+TReplace NNC(inumin) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ng NNC CCT
+2.2
+Replace QOT in subalit.  Edit Distance: 1.0
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+QOT VBTS sa
+2.2
+Replace lahat in subalit.  Edit Distance: 1.0
+Replace , in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+lahat , sa
+2.2
+TReplace NNC(tanong) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+NNC PRS CCT
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace ito in subalit.  Edit Distance: 1.0
+Replace maitatali in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ito maitatali sa
+2.2
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+TReplace PRS(niya) in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+VBTS PRS sa
+2.2
+Replace ang in subalit.  Edit Distance: 1.0
+Replace nangyari in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+ang nangyari sa
+2.2
+Replace ng in subalit.  Edit Distance: 1.0
+TReplace NNC(hari) in naketa.  Edit Distance: 2.0
+TReplace CCT(sa) in ku.  Edit Distance: 2.2
+ng NNC CCT
+2.2
+Replace puwedeng in subalit.  Edit Distance: 1.0
+Replace makipaglaro in naketa.  Edit Distance: 2.0
+Replace sa in ku.  Edit Distance: 2.2
+puwedeng makipaglaro sa
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace pagkatapos in naketa.  Edit Distance: 1.9
+Replace makapag-isip in ku.  Edit Distance: 2.9
+Ngunit pagkatapos makapag-isip
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace libro'y in naketa.  Edit Distance: 1.9
+Replace QOT in ku.  Edit Distance: 2.9
+sa libro'y QOT
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa PRSP ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace isang in naketa.  Edit Distance: 1.9
+TReplace NNC(sombrero) in ku.  Edit Distance: 2.9
+sa isang NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(lugar) in naketa.  Edit Distance: 1.9
+TReplace PRS(niya) in ku.  Edit Distance: 2.9
+sa NNC PRS
+2.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.9
+TReplace PRS(ko'y) in ku.  Edit Distance: 2.9
+Sa NNC PRS
+2.9
+Replace para in subalit.  Edit Distance: 0.9
+Replace sa in naketa.  Edit Distance: 1.9
+Replace akin in ku.  Edit Distance: 2.9
+para sa akin
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace Lupa in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa Lupa ang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace , in naketa.  Edit Distance: 1.9
+Replace Ano in ku.  Edit Distance: 2.9
+Pero , Ano
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+TReplace NNC(pamumuhay) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa PRSP ang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+TReplace JJD(kulay-ginto) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+Pero JJD ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace aking in naketa.  Edit Distance: 1.9
+Replace ikinahihiya in ku.  Edit Distance: 2.9
+sa aking ikinahihiya
+2.9
+Replace para in subalit.  Edit Distance: 0.9
+Replace tingnan in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+para tingnan ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace negosyante in naketa.  Edit Distance: 1.9
+Replace naman in ku.  Edit Distance: 2.9
+sa negosyante naman
+2.9
+Replace para in subalit.  Edit Distance: 0.9
+Replace sindihan in naketa.  Edit Distance: 1.9
+Replace ito in ku.  Edit Distance: 2.9
+para sindihan ito
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace limandaang in naketa.  Edit Distance: 1.9
+Replace milyong in ku.  Edit Distance: 2.9
+sa limandaang milyong
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace may in naketa.  Edit Distance: 1.9
+Replace nakita in ku.  Edit Distance: 2.9
+Pero may nakita
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+TReplace NNC(sarili) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace may in naketa.  Edit Distance: 1.9
+Replace mga in ku.  Edit Distance: 2.9
+Ngunit may mga
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('king) in naketa.  Edit Distance: 1.9
+TReplace NNC(rosas) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+TReplace NNC(taas) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+TReplace NNC(sarili) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace kahit in subalit.  Edit Distance: 0.9
+Replace paano in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+kahit paano ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace ilang in naketa.  Edit Distance: 1.9
+Replace mas in ku.  Edit Distance: 2.9
+sa ilang mas
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace ipagpaumanhin in naketa.  Edit Distance: 1.9
+Replace n'yo in ku.  Edit Distance: 2.9
+Ngunit ipagpaumanhin n'yo
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanilang) in naketa.  Edit Distance: 1.9
+Replace kinaroroonan in ku.  Edit Distance: 2.9
+sa PRSP kinaroroonan
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+Replace kinaroroonan in ku.  Edit Distance: 2.9
+sa PRSP kinaroroonan
+2.9
+Replace habang in subalit.  Edit Distance: 0.9
+Replace nag-uusap in naketa.  Edit Distance: 1.9
+Replace tayo in ku.  Edit Distance: 2.9
+habang nag-uusap tayo
+2.9
+Replace Dahil in subalit.  Edit Distance: 0.9
+Replace maaaring in naketa.  Edit Distance: 1.9
+Replace kapwa in ku.  Edit Distance: 2.9
+Dahil maaaring kapwa
+2.9
+Replace para in subalit.  Edit Distance: 0.9
+Replace akong in naketa.  Edit Distance: 1.9
+Replace nangangaral in ku.  Edit Distance: 2.9
+para akong nangangaral
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+TReplace NNC(sarili) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace siya in naketa.  Edit Distance: 1.9
+Replace lamang in ku.  Edit Distance: 2.9
+Pero siya lamang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace napakaliit in naketa.  Edit Distance: 1.9
+Replace lang in ku.  Edit Distance: 2.9
+Pero napakaliit lang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace kailangang in naketa.  Edit Distance: 1.9
+Replace maghintay in ku.  Edit Distance: 2.9
+Pero kailangang maghintay
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(mesa) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa NNC ang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace hindi in naketa.  Edit Distance: 1.9
+Replace sumagot in ku.  Edit Distance: 2.9
+Pero hindi sumagot
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa PRSP ang
+2.9
+Replace Kahit in subalit.  Edit Distance: 0.9
+Replace na in naketa.  Edit Distance: 1.9
+Replace mga in ku.  Edit Distance: 2.9
+Kahit na mga
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace mga in naketa.  Edit Distance: 1.9
+Replace seryosong in ku.  Edit Distance: 2.9
+sa mga seryosong
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace heograpo in naketa.  Edit Distance: 1.9
+Replace kayo in ku.  Edit Distance: 2.9
+Pero heograpo kayo
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace pinakikiharapan in naketa.  Edit Distance: 1.9
+Replace naman in ku.  Edit Distance: 2.9
+Pero pinakikiharapan naman
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace walang in naketa.  Edit Distance: 1.9
+Replace habag in ku.  Edit Distance: 2.9
+Pero walang habag
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(hangin) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa NNC ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace isang in naketa.  Edit Distance: 1.9
+TReplace NNC(bituin) in ku.  Edit Distance: 2.9
+sa isang NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(galit) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa NNC ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa PRSP ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanyang in naketa.  Edit Distance: 1.9
+Replace mga in ku.  Edit Distance: 2.9
+sa kanyang mga
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+TReplace NNC(sarili) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace walang in naketa.  Edit Distance: 1.9
+Replace nakaaalam in ku.  Edit Distance: 2.9
+Pero walang nakaaalam
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+TReplace JJD(bulag) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+Pero JJD ang
+2.9
+Replace ng in subalit.  Edit Distance: 0.9
+Replace puso in naketa.  Edit Distance: 1.9
+Replace kailangang in ku.  Edit Distance: 2.9
+ng puso kailangang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace bakit in naketa.  Edit Distance: 1.9
+Replace mabigat in ku.  Edit Distance: 2.9
+Pero bakit mabigat
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace puwedeng in naketa.  Edit Distance: 1.9
+Replace mabuhay in ku.  Edit Distance: 2.9
+Pero puwedeng mabuhay
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+TReplace NNC(planeta) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace ano'ng in naketa.  Edit Distance: 1.9
+Replace ibig in ku.  Edit Distance: 2.9
+Pero ano'ng ibig
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace may in naketa.  Edit Distance: 1.9
+Replace tanong in ku.  Edit Distance: 2.9
+Ngunit may tanong
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+TReplace NNC(isipan) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace tumigil in naketa.  Edit Distance: 1.9
+Replace siya in ku.  Edit Distance: 2.9
+Ngunit tumigil siya
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace akin in naketa.  Edit Distance: 1.9
+Replace isang in ku.  Edit Distance: 2.9
+sa akin isang
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace hindi in naketa.  Edit Distance: 1.9
+Replace dahil in ku.  Edit Distance: 2.9
+Ngunit hindi dahil
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+TReplace NNC(sarili) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa NNC ang
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace ang in naketa.  Edit Distance: 1.9
+Replace mga in ku.  Edit Distance: 2.9
+Pero ang mga
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace JJD(malumanay) in naketa.  Edit Distance: 1.9
+TReplace PRS(siyang) in ku.  Edit Distance: 2.9
+Ngunit JJD PRS
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace mas in naketa.  Edit Distance: 1.9
+Replace malakas in ku.  Edit Distance: 2.9
+Ngunit mas malakas
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace unang in naketa.  Edit Distance: 1.9
+Replace asteroid in ku.  Edit Distance: 2.9
+sa unang asteroid
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace akin in naketa.  Edit Distance: 1.9
+Replace para in ku.  Edit Distance: 2.9
+sa akin para
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+TReplace JJD(balisa) in naketa.  Edit Distance: 1.9
+TReplace PRS(siya) in ku.  Edit Distance: 2.9
+Ngunit JJD PRS
+2.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.9
+TReplace PRS(ko'y) in ku.  Edit Distance: 2.9
+Sa NNC PRS
+2.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace walang in naketa.  Edit Distance: 1.9
+Replace nakaaalam in ku.  Edit Distance: 2.9
+Pero walang nakaaalam
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace iyong in naketa.  Edit Distance: 1.9
+Replace maupo in ku.  Edit Distance: 2.9
+sa iyong maupo
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace nagtataka in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+Ngunit nagtataka ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace isang in naketa.  Edit Distance: 1.9
+Replace mataas in ku.  Edit Distance: 2.9
+sa isang mataas
+2.9
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace ano in naketa.  Edit Distance: 1.9
+Replace makapaghahari in ku.  Edit Distance: 2.9
+Sa ano makapaghahari
+2.9
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace isang in naketa.  Edit Distance: 1.9
+Replace mataas in ku.  Edit Distance: 2.9
+Sa isang mataas
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa PRSP ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNC(imahinasyon) in naketa.  Edit Distance: 1.9
+Replace ang in ku.  Edit Distance: 2.9
+sa NNC ang
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace katwiran in naketa.  Edit Distance: 1.9
+Replace nakasalalay in ku.  Edit Distance: 2.9
+sa katwiran nakasalalay
+2.9
+Replace Sa in subalit.  Edit Distance: 0.9
+Replace totoo in naketa.  Edit Distance: 1.9
+Replace lang in ku.  Edit Distance: 2.9
+Sa totoo lang
+2.9
+Replace Parang in subalit.  Edit Distance: 0.9
+Replace limandaang in naketa.  Edit Distance: 1.9
+Replace milyong in ku.  Edit Distance: 2.9
+Parang limandaang milyong
+2.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace may in naketa.  Edit Distance: 1.9
+Replace isa in ku.  Edit Distance: 2.9
+Ngunit may isa
+2.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+TReplace NNC(planeta) in ku.  Edit Distance: 2.9
+sa PRSP NNC
+3.0
+TReplace NNC(sabi) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(libro'y) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+Replace sumagot in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace kanya in ku.  Edit Distance: 3.0
+sumagot sa kanya
+3.0
+Replace sinuman in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace isang in ku.  Edit Distance: 3.0
+sinuman sa isang
+3.0
+TReplace NNC(sarili) in subalit.  Edit Distance: 1.0
+TReplace PRS(ko) in naketa.  Edit Distance: 2.0
+TReplace CCT(kahit) in ku.  Edit Distance: 3.0
+NNC PRS CCT
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(kahit) in naketa.  Edit Distance: 2.0
+TReplace PRQ(saan) in ku.  Edit Distance: 3.0
+PRS CCT PRQ
+3.0
+TReplace JJD(nakakaintindi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(ganang) in ku.  Edit Distance: 3.0
+JJD sa JJD
+3.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(gabi) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace VBW(mawawala) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(gabi) in ku.  Edit Distance: 3.0
+VBW sa NNC
+3.0
+TReplace NNC(sarili) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(lugar) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+TReplace VBTS(nasira) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(makina) in ku.  Edit Distance: 3.0
+VBTS sa NNC
+3.0
+TReplace NNC(Buhay) in subalit.  Edit Distance: 1.0
+TReplace CCT(o) in naketa.  Edit Distance: 2.0
+TReplace NNC(kamatayan) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+TReplace NNC(kamatayan) in subalit.  Edit Distance: 1.0
+TReplace PRO(ito) in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+NNC PRO CCT
+3.0
+Replace akin in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace buong in ku.  Edit Distance: 3.0
+akin sa buong
+3.0
+TReplace VBTR(dumadalaw) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+VBTR sa PRSP
+3.0
+Replace bumangon in subalit.  Edit Distance: 1.0
+Replace na in naketa.  Edit Distance: 2.0
+Replace parang in ku.  Edit Distance: 3.0
+bumangon na parang
+3.0
+Replace Makikita in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace Lupa in ku.  Edit Distance: 3.0
+Makikita sa Lupa
+3.0
+Replace na in subalit.  Edit Distance: 1.0
+Replace parang in naketa.  Edit Distance: 2.0
+Replace tinamaan in ku.  Edit Distance: 3.0
+na parang tinamaan
+3.0
+TReplace VBW(sagot) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+3.0
+TReplace NNC(payo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace RBI(ba) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(planetang) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace NNC(dalaw) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(hari) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+Replace mga in subalit.  Edit Distance: 1.0
+Replace hambog in naketa.  Edit Distance: 2.0
+Replace kundi in ku.  Edit Distance: 3.0
+mga hambog kundi
+3.0
+TReplace JJD(hambog) in subalit.  Edit Distance: 1.0
+TReplace CCT(kundi) in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+JJD CCT mga
+3.0
+TReplace VBTR(nagbabago) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+VBTR sa PRSP
+3.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(munting) in ku.  Edit Distance: 3.0
+PRS sa JJD
+3.0
+Replace maiiba in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace lahat in ku.  Edit Distance: 3.0
+maiiba sa lahat
+3.0
+TReplace VBTR(ipinaaalaala) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+VBTR sa PRSP
+3.0
+TReplace PRO(nito) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP('yo) in ku.  Edit Distance: 3.0
+PRO sa PRSP
+3.0
+TReplace JJD(nakatira) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(sumunod) in ku.  Edit Distance: 3.0
+JJD sa JJD
+3.0
+Replace lasenggo in subalit.  Edit Distance: 1.0
+Replace na in naketa.  Edit Distance: 2.0
+Replace parang in ku.  Edit Distance: 3.0
+lasenggo na parang
+3.0
+Replace na in subalit.  Edit Distance: 1.0
+Replace parang in naketa.  Edit Distance: 2.0
+Replace nagluluksa in ku.  Edit Distance: 3.0
+na parang nagluluksa
+3.0
+TReplace VBW(tanong) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+3.0
+Replace makalimot in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace ano in ku.  Edit Distance: 3.0
+makalimot sa ano
+3.0
+TReplace VBW(makalimot) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+3.0
+Replace mga in subalit.  Edit Distance: 1.0
+TReplace NNC(tao) in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+mga NNC CCT
+3.0
+TReplace NNC(tao) in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+TReplace VBW(makipagkilala) in ku.  Edit Distance: 3.0
+NNC para VBW
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP('yo) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace VBAF(Tumungo) in subalit.  Edit Distance: 1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+VBAF PRS CCT
+3.0
+Replace siya in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace tingnan in ku.  Edit Distance: 3.0
+siya para tingnan
+3.0
+Replace Ang in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace negosyante in ku.  Edit Distance: 3.0
+Ang sa negosyante
+3.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+Replace bumalik in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace dating in ku.  Edit Distance: 3.0
+bumalik sa dating
+3.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(langit) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+Replace akong in subalit.  Edit Distance: 1.0
+Replace panahon in naketa.  Edit Distance: 2.0
+Replace para in ku.  Edit Distance: 3.0
+akong panahon para
+3.0
+Replace Huwebes in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+Huwebes sa mga
+3.0
+Replace panahon in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace sindihan in ku.  Edit Distance: 3.0
+panahon para sindihan
+3.0
+Replace babae in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace nayon in ku.  Edit Distance: 3.0
+babae sa nayon
+3.0
+TReplace RBW(hanggang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(ubasan) in ku.  Edit Distance: 3.0
+RBW sa NNC
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(eksersays) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+Replace saan in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace palagay in ku.  Edit Distance: 3.0
+saan sa palagay
+3.0
+Replace kayo in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace rosas in ku.  Edit Distance: 3.0
+kayo sa rosas
+3.0
+Replace mo in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace limandaang in ku.  Edit Distance: 3.0
+mo sa limandaang
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace NNC(may-ari) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+Replace Maganda in subalit.  Edit Distance: 1.0
+Replace kayo in naketa.  Edit Distance: 2.0
+Replace pero in ku.  Edit Distance: 3.0
+Maganda kayo pero
+3.0
+Replace kayo in subalit.  Edit Distance: 1.0
+Replace pero in naketa.  Edit Distance: 2.0
+Replace walang in ku.  Edit Distance: 3.0
+kayo pero walang
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(pantabing) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(alamid) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRI(lahat) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+PRI sa PRSP
+3.0
+TReplace JJD(Mahilig) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+JJD CCT mga
+3.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP('king) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+munting prinsipe CCT
+3.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+TReplace VBW(matandaan) in ku.  Edit Distance: 3.0
+NNC para VBW
+3.0
+TReplace VBTF(sabihin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+VBTF sa PRSP
+3.0
+Replace matulain in subalit.  Edit Distance: 1.0
+Replace ito in naketa.  Edit Distance: 2.0
+Replace pero in ku.  Edit Distance: 3.0
+matulain ito pero
+3.0
+Replace ito in subalit.  Edit Distance: 1.0
+Replace pero in naketa.  Edit Distance: 2.0
+Replace hindi in ku.  Edit Distance: 3.0
+ito pero hindi
+3.0
+Replace munting in subalit.  Edit Distance: 1.0
+Replace prinsipe in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+munting prinsipe CCT
+3.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+TReplace VBW(matandaan) in ku.  Edit Distance: 3.0
+NNC para VBW
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace May in subalit.  Edit Distance: 1.0
+Replace kahulugan in naketa.  Edit Distance: 2.0
+Replace kahit in ku.  Edit Distance: 3.0
+May kahulugan kahit
+3.0
+Replace kahulugan in subalit.  Edit Distance: 1.0
+Replace kahit in naketa.  Edit Distance: 2.0
+Replace paano in ku.  Edit Distance: 3.0
+kahulugan kahit paano
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace PRQ(ilang) in ku.  Edit Distance: 3.0
+PRS CCT PRQ
+3.0
+TReplace NNC(kuntento) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanilang) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace PRO(ito) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRO sa PRSP
+3.0
+TReplace PRI(sinuman) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+PRI sa PRSP
+3.0
+Replace ito in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(lupa) in ku.  Edit Distance: 3.0
+ito sa NNC
+3.0
+Replace ito in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace kanila in ku.  Edit Distance: 3.0
+ito sa kanila
+3.0
+Replace Nakasasawang in subalit.  Edit Distance: 1.0
+Replace trabaho in naketa.  Edit Distance: 2.0
+Replace pero in ku.  Edit Distance: 3.0
+Nakasasawang trabaho pero
+3.0
+Replace ang in subalit.  Edit Distance: 1.0
+Replace lumipas in naketa.  Edit Distance: 2.0
+Replace habang in ku.  Edit Distance: 3.0
+ang lumipas habang
+3.0
+Replace trabaho in subalit.  Edit Distance: 1.0
+Replace pero in naketa.  Edit Distance: 2.0
+Replace napakadali in ku.  Edit Distance: 3.0
+trabaho pero napakadali
+3.0
+Replace lumipas in subalit.  Edit Distance: 1.0
+Replace habang in naketa.  Edit Distance: 2.0
+Replace nag-uusap in ku.  Edit Distance: 3.0
+lumipas habang nag-uusap
+3.0
+TReplace PRO(ito) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRO sa PRSP
+3.0
+Replace ito in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(panahon) in ku.  Edit Distance: 3.0
+ito sa NNC
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(munting) in ku.  Edit Distance: 3.0
+PRS sa JJD
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace lumabas in subalit.  Edit Distance: 1.0
+Replace na in naketa.  Edit Distance: 2.0
+Replace para in ku.  Edit Distance: 3.0
+lumabas na para
+3.0
+Replace na in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace akong in ku.  Edit Distance: 3.0
+na para akong
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(buhay) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace RBI(lamang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(tingin) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace JJD(Naupo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(mesa) in ku.  Edit Distance: 3.0
+JJD sa NNC
+3.0
+TReplace RBW(lagi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+RBW sa PRSP
+3.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(katahimikan) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+TReplace VBTR(naniniwala) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP('yo) in ku.  Edit Distance: 3.0
+VBTR sa PRSP
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace ako in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+ako sa mga
+3.0
+Replace ng in subalit.  Edit Distance: 1.0
+TReplace NNC(heograpo) in naketa.  Edit Distance: 2.0
+TReplace CCT(para) in ku.  Edit Distance: 3.0
+ng NNC CCT
+3.0
+TReplace NNC(heograpo) in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+TReplace VBW(magpagala-gala) in ku.  Edit Distance: 3.0
+NNC para VBW
+3.0
+Replace tao in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+tao sa mga
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(munting) in ku.  Edit Distance: 3.0
+PRS sa JJD
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(hangin) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+Replace nakakatingin in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace isang in ku.  Edit Distance: 3.0
+nakakatingin sa isang
+3.0
+Replace Pupuntahan in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace Makita in ku.  Edit Distance: 3.0
+Pupuntahan para Makita
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace hihingin in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace eksplorer in ku.  Edit Distance: 3.0
+hihingin sa eksplorer
+3.0
+Replace ibang in subalit.  Edit Distance: 1.0
+Replace ginagawa in naketa.  Edit Distance: 2.0
+Replace kundi in ku.  Edit Distance: 3.0
+ibang ginagawa kundi
+3.0
+Replace ginagawa in subalit.  Edit Distance: 1.0
+Replace kundi in naketa.  Edit Distance: 2.0
+Replace magbilang in ku.  Edit Distance: 3.0
+ginagawa kundi magbilang
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(tubig) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(malayo) in ku.  Edit Distance: 3.0
+PRS sa JJD
+3.0
+TReplace RBW(ngayon) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(galit) in ku.  Edit Distance: 3.0
+RBW sa NNC
+3.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace RBW(hanggang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+RBW sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace NNC(libro) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(heograpiya) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+TReplace NNC(buhangin) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(pagbubukanliwayway) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+Replace Medyo in subalit.  Edit Distance: 1.0
+Replace parang in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+Medyo parang mga
+3.0
+TReplace NNC(tigre) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+Replace ba in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace nalalapit in ku.  Edit Distance: 3.0
+ba sa nalalapit
+3.0
+TReplace JJD(nabuo) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+JJD sa PRSP
+3.0
+TReplace NNC(garapon) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(gabi) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+TReplace RBI(ba) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(lugar) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+Replace dito in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace 'yo in ku.  Edit Distance: 3.0
+dito sa 'yo
+3.0
+TReplace JJD(nakinig) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+JJD sa PRSP
+3.0
+TReplace VBW(sagot) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace ang in subalit.  Edit Distance: 1.0
+TReplace NNC(araw) in naketa.  Edit Distance: 2.0
+TReplace CCT(pero) in ku.  Edit Distance: 3.0
+ang NNC CCT
+3.0
+Replace araw in subalit.  Edit Distance: 1.0
+Replace pero in naketa.  Edit Distance: 2.0
+Replace hindi in ku.  Edit Distance: 3.0
+araw pero hindi
+3.0
+Replace sinuman in subalit.  Edit Distance: 1.0
+Replace o in naketa.  Edit Distance: 2.0
+Replace narinig in ku.  Edit Distance: 3.0
+sinuman o narinig
+3.0
+Replace ibang in subalit.  Edit Distance: 1.0
+Replace gagawin in naketa.  Edit Distance: 2.0
+Replace kundi in ku.  Edit Distance: 3.0
+ibang gagawin kundi
+3.0
+Replace gagawin in subalit.  Edit Distance: 1.0
+Replace kundi in naketa.  Edit Distance: 2.0
+Replace hintayin in ku.  Edit Distance: 3.0
+gagawin kundi hintayin
+3.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+TReplace NNC(pagbabakasakali) in ku.  Edit Distance: 3.0
+NNC CCT NNC
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(bulaklak) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(wakas) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+Replace – in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace Afrika in ku.  Edit Distance: 3.0
+– sa Afrika
+3.0
+Replace ngayon in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+ngayon sa mga
+3.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(kawalan) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+Replace tao in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace Lupa in ku.  Edit Distance: 3.0
+tao sa Lupa
+3.0
+Replace tao in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+tao sa mga
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(aking) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace NNC(bulaklak) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace VBTS(nagtanong) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(wakas) in ku.  Edit Distance: 3.0
+VBTS sa NNC
+3.0
+TReplace JJD(nakapangungulila) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(disyerto) in ku.  Edit Distance: 3.0
+JJD sa NNC
+3.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(piling) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+TReplace VBTF(dadalaw) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+VBTF sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(wakas) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace nakatira in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace unang in ku.  Edit Distance: 3.0
+nakatira sa unang
+3.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace akin in subalit.  Edit Distance: 1.0
+Replace para in naketa.  Edit Distance: 2.0
+Replace makita in ku.  Edit Distance: 3.0
+akin para makita
+3.0
+TReplace VBW(sabi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace JJD(malayo) in ku.  Edit Distance: 3.0
+PRS sa JJD
+3.0
+TReplace RBI(lamang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(kasiyahan) in ku.  Edit Distance: 3.0
+RBI sa NNC
+3.0
+Replace anim in subalit.  Edit Distance: 1.0
+Replace o in naketa.  Edit Distance: 2.0
+Replace pito in ku.  Edit Distance: 3.0
+anim o pito
+3.0
+Replace nakakawala in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace akin in ku.  Edit Distance: 3.0
+nakakawala sa akin
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(kamay) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(iyong) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+Replace prinsipe in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace isang in ku.  Edit Distance: 3.0
+prinsipe sa isang
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(inyo) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(pagbabakasakali) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+Replace , in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace ano in ku.  Edit Distance: 3.0
+, sa ano
+3.0
+Replace ako in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace mga in ku.  Edit Distance: 3.0
+ako sa mga
+3.0
+TReplace NNC(inumin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(akin) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+VBTS sa PRSP
+3.0
+TReplace JJD(Kulang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(imahinasyon) in ku.  Edit Distance: 3.0
+JJD sa NNC
+3.0
+Replace Una in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace lahat in ku.  Edit Distance: 3.0
+Una sa lahat
+3.0
+Replace , in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+Replace katwiran in ku.  Edit Distance: 3.0
+, sa katwiran
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace JJD(malungkot) in subalit.  Edit Distance: 1.0
+Replace ako in naketa.  Edit Distance: 2.0
+TReplace CCT(ngunit) in ku.  Edit Distance: 3.0
+JJD ako CCT
+3.0
+Replace ako in subalit.  Edit Distance: 1.0
+Replace ngunit in naketa.  Edit Distance: 2.0
+Replace sinabi in ku.  Edit Distance: 3.0
+ako ngunit sinabi
+3.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanila) in ku.  Edit Distance: 3.0
+PRS sa PRSP
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(sarili) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace VBW(maitatali) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(tupa) in ku.  Edit Distance: 3.0
+VBW sa NNC
+3.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace NNC(hari) in ku.  Edit Distance: 3.0
+PRS sa NNC
+3.0
+TReplace VBTS(nangyari) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanyang) in ku.  Edit Distance: 3.0
+VBTS sa PRSP
+3.0
+TReplace NNC(hari) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP(kanya) in ku.  Edit Distance: 3.0
+NNC sa PRSP
+3.0
+TReplace VBW(makipaglaro) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+TReplace PRSP('yo) in ku.  Edit Distance: 3.0
+VBW sa PRSP
+------------------------------------------
+N-gram = 2
+subalit naketa
+0.2
+TReplace VBTS(nakita) in naketa.  Edit Distance: 0.2
+subalit VBTS
+1.0
+TReplace PRS(ikaw) in naketa.  Edit Distance: 1.0
+subalit PRS
+1.0
+TReplace NNC(libro'y) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace VBTF(hihingin) in naketa.  Edit Distance: 1.0
+subalit VBTF
+1.0
+TReplace NNC(eksplorer) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace JJD(ganang) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace PRS(ikaw) in naketa.  Edit Distance: 1.0
+subalit PRS
+1.0
+TReplace CDB(unang) in naketa.  Edit Distance: 1.0
+subalit CDB
+1.0
+TReplace JJD(malayo) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace NNC(gabi) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(walang) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace NNC(lugar) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(makina) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(kamatayan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace JJD(malayo) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 1.0
+subalit CCT
+1.0
+TReplace VBOF(tinamaan) in naketa.  Edit Distance: 1.0
+subalit VBOF
+1.0
+TReplace NNC(heograpiya) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace RBT(puwedeng) in naketa.  Edit Distance: 1.0
+subalit RBT
+1.0
+TReplace VBTR(nagtataka) in naketa.  Edit Distance: 1.0
+subalit VBTR
+1.0
+TReplace PRQ(ano) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace NNC(panahon) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace PRQ(ano'ng) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace PRQ(ano) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace JJD(nalalapit) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace VBOF(nilakasan) in naketa.  Edit Distance: 1.0
+subalit VBOF
+1.0
+TReplace VBTS(nagsimula) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace NNC(katwiran) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace VBOF(tingnan) in naketa.  Edit Distance: 1.0
+subalit VBOF
+1.0
+Replace may in naketa.  Edit Distance: 1.0
+subalit may
+1.0
+TReplace NNC(hari) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(katahimikan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(pagbabakasakali) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(langit) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace PRQ(saan) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace PRQ(saan) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(gabi) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(disyerto) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(piling) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(tubig) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 1.0
+subalit CCT
+1.0
+TReplace NNC(kamalasan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace JJD(bulag) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace CCT(pamamagitan) in naketa.  Edit Distance: 1.0
+subalit CCT
+1.0
+TReplace CCT(ng) in naketa.  Edit Distance: 1.0
+subalit CCT
+1.0
+TReplace NNC(puso) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(pagbubukanliwayway) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(hari) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace PRQ(bakit) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace NNC(palagay) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace CDB(pito) in naketa.  Edit Distance: 1.0
+subalit CDB
+1.0
+TReplace RBF(walang) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace JJD(munting) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace JJN(isang) in naketa.  Edit Distance: 1.0
+subalit JJN
+1.0
+TReplace PRQ(ano'ng) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace JJN(isang) in naketa.  Edit Distance: 1.0
+subalit JJN
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace PRQ(ilang) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace NNC(pagbabakasakali) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace may in naketa.  Edit Distance: 1.0
+subalit may
+1.0
+TReplace JJD(sumunod) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace NNC(lugar) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace VBTR(nagluluksa) in naketa.  Edit Distance: 1.0
+subalit VBTR
+1.0
+TReplace VBTS(idinugtong) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace PRQ(ano) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace NNC(imahinasyon) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(lupa) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(negosyante) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace VBTS(narinig) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace RBW(muli) in naketa.  Edit Distance: 1.0
+subalit RBW
+1.0
+TReplace NNC(sarili) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace VBOF(sindihan) in naketa.  Edit Distance: 1.0
+subalit VBOF
+1.0
+TReplace PRS(akong) in naketa.  Edit Distance: 1.0
+subalit PRS
+1.0
+TReplace VBOF(hintayin) in naketa.  Edit Distance: 1.0
+subalit VBOF
+1.0
+TReplace NNC(eksersays) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace JJD(seryosong) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace RBW(pagkatapos) in naketa.  Edit Distance: 1.0
+subalit RBW
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace CDB(limandaang) in naketa.  Edit Distance: 1.0
+subalit CDB
+1.0
+Replace may in naketa.  Edit Distance: 1.0
+subalit may
+1.0
+TReplace JJD(malumanay) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+Replace may in naketa.  Edit Distance: 1.0
+subalit may
+1.0
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace RBF(walang) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace JJD(seryosong) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace NNC(hangin) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace JJD(buong) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace JJD(balisa) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace NNC(kasiyahan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace VBAF(magbilang) in naketa.  Edit Distance: 1.0
+subalit VBAF
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace JJD(ibang) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace NNC(planetang) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(galit) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(kamay) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace JJD(balisa) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace PRQ(paano) in naketa.  Edit Distance: 1.0
+subalit PRQ
+1.0
+TReplace VBTS(ipinagpatuloy) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace JJD(kulay-ginto) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace RBF(wala) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace VBTR(nag-uusap) in naketa.  Edit Distance: 1.0
+subalit VBTR
+1.0
+TReplace VBTS(sinabi) in naketa.  Edit Distance: 1.0
+subalit VBTS
+1.0
+TReplace RBT(maaaring) in naketa.  Edit Distance: 1.0
+subalit RBT
+1.0
+TReplace RBT(totoo) in naketa.  Edit Distance: 1.0
+subalit RBT
+1.0
+TReplace JJN(limandaang) in naketa.  Edit Distance: 1.0
+subalit JJN
+1.0
+TReplace NNC(gabi) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace may in naketa.  Edit Distance: 1.0
+subalit may
+1.0
+TReplace VBAF(tumigil) in naketa.  Edit Distance: 1.0
+subalit VBAF
+1.0
+TReplace JJD(dating) in naketa.  Edit Distance: 1.0
+subalit JJD
+1.0
+TReplace NNC(buhay) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(tupa) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+Replace mga in naketa.  Edit Distance: 1.0
+subalit mga
+1.0
+TReplace RBW(nayon) in naketa.  Edit Distance: 1.0
+subalit RBW
+1.0
+TReplace PRS(siya) in naketa.  Edit Distance: 1.0
+subalit PRS
+1.0
+TReplace NNC(tingin) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(ubasan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace VBTF(iiyak) in naketa.  Edit Distance: 1.0
+subalit VBTF
+1.0
+TReplace NNC(mesa) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(rosas) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(bulaklak) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace NNC(pantabing) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(wakas) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(alamid) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(kawalan) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace NNC(heograpo) in naketa.  Edit Distance: 1.0
+subalit NNC
+1.0
+TReplace RBF(hindi) in naketa.  Edit Distance: 1.0
+subalit RBF
+1.0
+TReplace VBTR(pinakikiharapan) in naketa.  Edit Distance: 1.0
+subalit VBTR
+1.1
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(Makita) in naketa.  Edit Distance: 1.1
+para VBW
+1.1
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(makita) in naketa.  Edit Distance: 1.1
+para VBW
+1.1
+Replace pero in subalit.  Edit Distance: 0.1
+TReplace JJCS(napakadali) in naketa.  Edit Distance: 1.1
+pero JJCS
+1.1
+Replace pero in subalit.  Edit Distance: 0.1
+Replace walang in naketa.  Edit Distance: 1.1
+pero walang
+1.9
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(matandaan) in naketa.  Edit Distance: 1.9
+para VBW
+1.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace ang in naketa.  Edit Distance: 1.9
+Pero ang
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRI(isang) in naketa.  Edit Distance: 1.9
+sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(matandaan) in naketa.  Edit Distance: 1.9
+para VBW
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanilang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace , in naketa.  Edit Distance: 1.9
+Pero ,
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+Replace kanila in naketa.  Edit Distance: 1.9
+sa kanila
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(iyong) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(inyo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace PRI(lahat) in naketa.  Edit Distance: 1.9
+Sa PRI
+1.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace PRI(lahat) in naketa.  Edit Distance: 1.9
+Sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace PRI(lahat) in naketa.  Edit Distance: 1.9
+Sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRI(lahat) in naketa.  Edit Distance: 1.9
+sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('yo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Sa in subalit.  Edit Distance: 0.9
+TReplace NNP(Lupa) in naketa.  Edit Distance: 1.9
+Sa NNP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNP(Afrika) in naketa.  Edit Distance: 1.9
+sa NNP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNP(Lupa) in naketa.  Edit Distance: 1.9
+sa NNP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace mas in naketa.  Edit Distance: 1.9
+Ngunit mas
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('yo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Ngunit in subalit.  Edit Distance: 0.9
+Replace ipagpaumanhin in naketa.  Edit Distance: 1.9
+Ngunit ipagpaumanhin
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Para in subalit.  Edit Distance: 0.9
+TReplace VBW(makalimot) in naketa.  Edit Distance: 1.9
+Para VBW
+1.9
+Replace Para in subalit.  Edit Distance: 0.9
+TReplace VBW(makalimot) in naketa.  Edit Distance: 1.9
+Para VBW
+1.9
+Replace Para in subalit.  Edit Distance: 0.9
+TReplace VBW(makalimot) in naketa.  Edit Distance: 1.9
+Para VBW
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Pero in subalit.  Edit Distance: 0.9
+Replace kailangang in naketa.  Edit Distance: 1.9
+Pero kailangang
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('yo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Kahit in subalit.  Edit Distance: 0.9
+Replace na in naketa.  Edit Distance: 1.9
+Kahit na
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('yo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRI(isang) in naketa.  Edit Distance: 1.9
+sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace NNP(Lupa) in naketa.  Edit Distance: 1.9
+sa NNP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRI(lahat) in naketa.  Edit Distance: 1.9
+sa PRI
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(aking) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(makipagkilala) in naketa.  Edit Distance: 1.9
+para VBW
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('yo) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanyang) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace Pero in subalit.  Edit Distance: 0.9
+TReplace JJCS(napakaliit) in naketa.  Edit Distance: 1.9
+Pero JJCS
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(akin) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanila) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace para in subalit.  Edit Distance: 0.9
+TReplace VBW(magpagala-gala) in naketa.  Edit Distance: 1.9
+para VBW
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP(kanya) in naketa.  Edit Distance: 1.9
+sa PRSP
+1.9
+Replace sa in subalit.  Edit Distance: 0.9
+TReplace PRSP('king) in naketa.  Edit Distance: 1.9
+sa PRSP
+2.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace NNC(sabi) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace PRI(sinuman) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRI CCT
+2.0
+TReplace VBTF(dadalaw) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+VBTF CCT
+2.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace VBTF(Pupuntahan) in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+VBTF CCT
+2.0
+TReplace VBTF(hihingin) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+VBTF CCT
+2.0
+TReplace JJD(nakakaintindi) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+JJD CCT
+2.0
+TReplace JJD(nakatira) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+JJD CCT
+2.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace VBW(mawawala) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBW sa
+2.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+Replace akin in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+akin CCT
+2.0
+TReplace VBW(sabi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBW sa
+2.0
+TReplace NNC(sarili) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace VBTS(nasira) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBTS sa
+2.0
+TReplace NNC(Buhay) in subalit.  Edit Distance: 1.0
+TReplace CCT(o) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace NNC(kuntento) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace PRO(ito) in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+PRO CCT
+2.0
+TReplace PRI(sinuman) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRI CCT
+2.0
+Replace na in subalit.  Edit Distance: 1.0
+TReplace CCT(parang) in naketa.  Edit Distance: 2.0
+na CCT
+2.0
+TReplace NNC(libro) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRO(ito) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRO CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRO(ito) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRO CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+Replace , in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+, CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace RBI(ba) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBI sa
+2.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace VBTS(sinabi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBTS sa
+2.0
+TReplace VBW(sagot) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBW sa
+2.0
+TReplace CDB(Una) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+CDB CCT
+2.0
+Replace , in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+, CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+TReplace CCT(para) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace RBW(lagi) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBW sa
+2.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBI sa
+2.0
+TReplace PRS(ka) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace NNC(prinsipe) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBI sa
+2.0
+TReplace NNC(hari) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+Replace – in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+– sa
+2.0
+TReplace NNC(tao) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace NNC(tao) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace NNC(tao) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace VBAF(sumagot) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+VBAF CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(kahit) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+Replace saan in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+saan sa
+2.0
+TReplace PRS(siya) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace VBTS(nagtanong) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBTS sa
+2.0
+TReplace JJD(nakapangungulila) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+JJD CCT
+2.0
+TReplace RBI(rin) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBI sa
+2.0
+TReplace PRS(ko) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(ako) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace PRS(niya) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRS CCT
+2.0
+TReplace RBW(hanggang) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+RBW sa
+2.0
+TReplace PRI(lahat) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+PRI CCT
+2.0
+TReplace JJD(Mahilig) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+JJD CCT
+2.0
+TReplace VBTR(dumadalaw) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+VBTR CCT
+2.0
+TReplace VBW(sagot) in subalit.  Edit Distance: 1.0
+Replace sa in naketa.  Edit Distance: 2.0
+VBW sa
+2.0
+TReplace VBTF(sabihin) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+VBTF CCT
+2.0
+TReplace NNC(payo) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace NNC(buhangin) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace NNC(dalaw) in subalit.  Edit Distance: 1.0
+TReplace CCT(sa) in naketa.  Edit Distance: 2.0
+NNC CCT
+2.0
+TReplace JJD(hambog) in subalit.  Edit Distance: 1.0
+TReplace CCT(kundi) in naketa.  Edit Distance: 2.0
+JJD CCT
+2.0
+TReplace CDB(anim) in subalit.  Edit Distance: 1.0
+TReplace CCT(o) in naketa.  Edit Distance: 2.0
+CDB CCT
+2.0
+Replace Medyo in subalit.  Edit Distance: 1.0
+Replace parang in naketa.  Edit Distance: 2.0
+Medyo parang
+2.0
+TReplace PRS(mo) in subalit.  Edit Distance: 1.0
+TReplace C
