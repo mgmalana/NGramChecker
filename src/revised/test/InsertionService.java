@@ -56,9 +56,9 @@ public class InsertionService {
 			}
 			if (i != pArr.length || j != nPOS.length)
 				editDistance++;
-
-			suggestions.add(
-					new Suggestion(new SuggestionToken[] { suggestionToken }, SuggestionType.INSERTION, editDistance));
+			if (suggestionToken != null)
+				suggestions.add(new Suggestion(new SuggestionToken[] { suggestionToken }, SuggestionType.INSERTION,
+						editDistance));
 		}
 		return suggestions;
 	}

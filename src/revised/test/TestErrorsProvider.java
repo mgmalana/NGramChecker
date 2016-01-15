@@ -34,6 +34,18 @@ public class TestErrorsProvider {
 
 		testErrors.add(new Input("subalit naketa ku", "pero ? ?", "CCT ? ?"));
 
+		testErrors.add(new Input("kana ang damit", "? ang damit", "? DTC NNC"));
+
+		// Correct nanalo ng premyo - VBTS CCB NNC
+		testErrors.add(new Input("nanalo premyo", "panalo premyo", "VBTS NNC"));
+
+		// Correct materyal para sa - NNC CCT CCT
+		testErrors.add(new Input("materyal para na sa", "materyal para na sa", "NNC CCT CCP CCT"));
+
+		testErrors.add(new Input("tinaka ko sa", "taka ko sa", "? PRS CCT"));
+
+		// Correct para sa bata
+		testErrors.add(new Input("para kay bata", "para sa bata", "RBB RBB NNC"));
 	}
 
 	public List<Input> getTestErrors() {

@@ -34,17 +34,17 @@ public class GrammarChecker {
 
 	public void checkGrammar() throws SQLException, IOException {
 
-		testGrammarCheck();
+		// testGrammarCheckSub();
 
 		// testSubstitution();
 		//
-		// testInsertion();
+		testInsertion();
 		//
 		// testDeletion();
 	}
 
-	private void testGrammarCheck() throws SQLException, IOException {
-		Input testError = testErrorsProvider.getTestErrors().get(6);
+	private void testGrammarCheckSub() throws SQLException, IOException {
+		Input testError = testErrorsProvider.getTestErrors().get(11);
 		FileManager fileManager = new FileManager("results- distance less than 3.txt");
 		System.out.println("Writing suggestions to file");
 		fileManager.createFile();
@@ -57,7 +57,7 @@ public class GrammarChecker {
 				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
 				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
 				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
-
+				System.out.println(ArrayToStringConverter.convert(wArr));
 				fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
 				List<Suggestion> suggestionIns = null;
 				List<Suggestion> suggestionsSub = null;
@@ -93,6 +93,7 @@ public class GrammarChecker {
 				fileManager.writeToFile("------------------------------------------");
 			}
 		}
+		fileManager.close();
 	}
 
 	private List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
@@ -108,26 +109,38 @@ public class GrammarChecker {
 		return suggestions;
 	}
 
-	private void testInsertion() throws SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(0);
+	private void testInsertion() throws SQLException, IOException {
+		Input testError = testErrorsProvider.getTestErrors().get(8);
 		String[] wArr = testError.getWords();
 		String[] lArr = testError.getLemmas();
 		String[] pArr = testError.getPos();
 
+		FileManager fileManager = new FileManager("results- distance less than 3.txt");
+		System.out.println("Writing suggestions to file");
+		fileManager.createFile();
+		fileManager.writeToFile(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+		fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
 		List<Suggestion> suggestionsIns = insertionService.computeInsertion(wArr, lArr, pArr);
 		for (Suggestion s : suggestionsIns) {
 			if (s.getEditDistance() == 1) {
 				for (int i = 0; i < s.getSuggestions().length; i++) {
 
 					SuggestionToken sugg = s.getSuggestions()[i];
-					if (sugg.isPOSGeneralized() == false)
+					if (sugg.isPOSGeneralized() == false) {
 						System.out.println("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()] + ". ");
-					else
+						fileManager
+								.writeToFile("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()] + ". ");
+					} else {
 						System.out.println("Insert " + sugg.getPos() + " in before " + wArr[sugg.getIndex()] + ". ");
+						fileManager.writeToFile("Insert " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in before "
+								+ wArr[sugg.getIndex()] + ". ");
+					}
 				}
 			}
 		}
 		System.out.println("--------------------------");
+		fileManager.close();
 	}
 
 	private void testSubstitution() throws SQLException {
@@ -149,7 +162,7 @@ public class GrammarChecker {
 	}
 
 	public void testDeletion() throws SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(2);
+		Input testError = testErrorsProvider.getTestErrors().get(9);
 		String[] wArr = testError.getWords();
 		String[] lArr = testError.getLemmas();
 		String[] pArr = testError.getPos();
