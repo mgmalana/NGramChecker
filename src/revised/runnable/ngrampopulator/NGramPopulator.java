@@ -11,6 +11,7 @@ import revised.dao.DaoManager;
 import revised.dao.NGramDao;
 import revised.dao.POS_NGram_Indexer;
 import revised.util.ArrayToStringConverter;
+import revised.util.Constants;
 
 public class NGramPopulator {
 	BufferedReader sourceLemmasReader;
@@ -22,9 +23,9 @@ public class NGramPopulator {
 	int ngramSize;
 
 	public NGramPopulator(int ngramSize) throws FileNotFoundException {
-		sourceLemmasReader = new BufferedReader(new FileReader("train_lemmas.txt"));
-		sourceSentencesReader = new BufferedReader(new FileReader("train_sentences.txt"));
-		sourceTagsReader = new BufferedReader(new FileReader("train_tags.txt"));
+		sourceSentencesReader = new BufferedReader(new FileReader(Constants.TRAINING_SENTENCES));
+		sourceLemmasReader = new BufferedReader(new FileReader(Constants.TRAINING_LEMMAS));
+		sourceTagsReader = new BufferedReader(new FileReader(Constants.TRAINING_TAGS));
 		this.ngramDao = DaoManager.getNGramDao(ngramSize);
 		this.indexer = DaoManager.getIndexer(ngramSize);
 		this.ngramSize = ngramSize;

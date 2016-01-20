@@ -17,40 +17,41 @@ public class SubstitutionService {
 		candidateNGramService = CandidateNGramsService.getInstance();
 	}
 
-	public List<Suggestion> computeSubstitution(String[] wArr, String[] lArr, String[] pArr) throws SQLException {
-		List<NGram> candidateSubNGrams = candidateNGramService.getCandidateNGrams(pArr, pArr.length);
-
+	public List<Suggestion> computeSubstitution(String[] inputWords, String[] inputLemmas, String[] inputPOS)
+			throws SQLException {
+		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length);
+		System.out.println("Candidate N-grams Size: " + candidateRuleNGrams.size());
 		List<Suggestion> suggestions = new ArrayList<>();
-		for (NGram n : candidateSubNGrams) {
-			String[] nPOS = n.getPos();
-			String[] nWords = n.getWords();
-			String[] nLemmas = n.getLemmas();
-			Boolean[] isPOSGeneralized = n.getIsPOSGeneralized();
+		for (NGram rule : candidateRuleNGrams) {
+			String[] rulePOS = rule.getPos();
+			String[] ruleWords = rule.getWords();
+			String[] ruleLemmas = rule.getLemmas();
+			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
 
 			double editDistance = 0;
 			List<SuggestionToken> replacements = new ArrayList<>();
-			for (int i = 0; i < nPOS.length; i++) {
-				if (isPOSGeneralized != null && isPOSGeneralized[i] == true && nPOS[i].equals(pArr[i]))
+			for (int i = 0; i < rulePOS.length; i++) {
+				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true && rulePOS[i].equals(inputPOS[i]))
 					;
-				else if (nWords[i].equals(wArr[i]))
+				else if (ruleWords[i].equals(inputWords[i]))
 					;
 				else {
-					if (nLemmas[i].equals(lArr[i]))
+					if (ruleLemmas[i].equals(inputLemmas[i]))
 						editDistance += 0.1;
-					else if (withinSpellingEditDistance(nWords[i], wArr[i]))
+					else if (withinSpellingEditDistance(ruleWords[i], inputWords[i]))
 						editDistance += 0.2;
-					else if (isPOSGeneralized != null && isPOSGeneralized[i]
-							&& hasCloseWordFromDictionary(wArr[i], nPOS[i])) {
+					else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i]
+							&& hasCloseWordFromDictionary(inputWords[i], rulePOS[i])) {
 						editDistance += 0.3;
-					} else if (nPOS[i].equals(pArr[i]))
+					} else if (rulePOS[i].equals(inputPOS[i]))
 						editDistance += 0.9;
 					else
 						editDistance += 1;
 
-					if (isPOSGeneralized != null && isPOSGeneralized[i] == true)
-						replacements.add(new SuggestionToken(nWords[i], i, editDistance, nPOS[i]));
+					if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true)
+						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance, rulePOS[i]));
 					else
-						replacements.add(new SuggestionToken(nWords[i], i, editDistance));
+						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance));
 				}
 			}
 			SuggestionToken[] replacementWords = replacements.toArray(new SuggestionToken[replacements.size()]);
@@ -72,9 +73,13 @@ public class SubstitutionService {
 
 	private static boolean withinSpellingEditDistance(String corpusWord, String input) {
 		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
-		if (distance <= 2) {
+		if (distance <= 1 && input.length() <= 4)
 			return true;
-		} else
+		else if (distance <= 2 && input.length() <= 12)
+			return true;
+		else if (distance <= 3 && input.length() > 12)
+			return true;
+		else
 			return false;
 	}
 }

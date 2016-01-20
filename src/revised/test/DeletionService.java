@@ -16,35 +16,35 @@ public class DeletionService {
 		candidateNGramService = CandidateNGramsService.getInstance();
 	}
 
-	public List<Suggestion> computeDeletion(String[] wArr, String[] lArr, String[] pArr) throws SQLException {
+	public List<Suggestion> computeDeletion(String[] inputWords, String[] inputLemmas, String[] inputPOS) throws SQLException {
 
-		List<NGram> candidateDelNGrams = candidateNGramService.getCandidateNGrams(pArr, pArr.length - 1);
+		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length - 1);
 
 		List<Suggestion> suggestions = new ArrayList<>();
-		for (NGram n : candidateDelNGrams) {
+		for (NGram rule : candidateRuleNGrams) {
 
 			int editDistance = 0;
 			int i = 0, j = 0;
-			String[] nPOS = n.getPos();
-			String[] nWords = n.getWords();
-			Boolean[] isPOSGeneralized = n.getIsPOSGeneralized();
+			String[] rulePOS = rule.getPos();
+			String[] ruleWords = rule.getWords();
+			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
 
 			SuggestionToken suggestionToken = null;
 
-			while (i != pArr.length && j != nPOS.length) {
-				if (isPOSGeneralized != null && isPOSGeneralized[j] == true && nPOS[j].equals(pArr[i])) {
+			while (i != inputPOS.length && j != rulePOS.length) {
+				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && rulePOS[j].equals(inputPOS[i])) {
 					i++;
 					j++;
-				} else if (nWords[j].equals(wArr[i])) {
+				} else if (ruleWords[j].equals(inputWords[i])) {
 					i++;
 					j++;
-				} else if (isPOSGeneralized != null && isPOSGeneralized[j] == true && i + 1 != pArr.length
-						&& nPOS[j].equals(pArr[i + 1])) {
-					suggestionToken = new SuggestionToken(wArr[i], i, 1, pArr[i]);
+				} else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && i + 1 != inputPOS.length
+						&& rulePOS[j].equals(inputPOS[i + 1])) {
+					suggestionToken = new SuggestionToken(inputWords[i], i, 1, inputPOS[i]);
 					i++;
 					editDistance++;
-				} else if (i + 1 != pArr.length && nWords[j].equals(wArr[i + 1])) {
-					suggestionToken = new SuggestionToken(wArr[i], i, 1);
+				} else if (i + 1 != inputPOS.length && ruleWords[j].equals(inputWords[i + 1])) {
+					suggestionToken = new SuggestionToken(inputWords[i], i, 1);
 					i++;
 					editDistance++;
 				} else {
@@ -53,7 +53,7 @@ public class DeletionService {
 					editDistance++;
 				}
 			}
-			if (i != pArr.length || j != nPOS.length)
+			if (i != inputPOS.length || j != rulePOS.length)
 				editDistance++;
 
 			suggestions.add(

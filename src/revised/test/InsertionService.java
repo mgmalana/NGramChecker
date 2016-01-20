@@ -16,35 +16,35 @@ public class InsertionService {
 		candidateNGramService = CandidateNGramsService.getInstance();
 	}
 
-	public List<Suggestion> computeInsertion(String[] wArr, String[] lArr, String[] pArr) throws SQLException {
-		List<NGram> candidateInsNGrams = candidateNGramService.getCandidateNGrams(pArr, pArr.length + 1);
+	public List<Suggestion> computeInsertion(String[] inputWords, String[] inputLemmas, String[] inputPOS) throws SQLException {
+		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length + 1);
 
 		List<Suggestion> suggestions = new ArrayList<>();
-		for (NGram n : candidateInsNGrams) {
+		for (NGram rule : candidateRuleNGrams) {
 
 			int editDistance = 0;
 			int i = 0, j = 0;
-			String[] nPOS = n.getPos();
-			String[] nWords = n.getWords();
-			Boolean[] isPOSGeneralized = n.getIsPOSGeneralized();
+			String[] rulePOS = rule.getPos();
+			String[] ruleWords = rule.getWords();
+			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
 
 			SuggestionToken suggestionToken = null;
 
-			while (i != pArr.length && j != nPOS.length) {
-				if (isPOSGeneralized != null && isPOSGeneralized[j] == true && nPOS[j].equals(pArr[i])) {
+			while (i != inputPOS.length && j != rulePOS.length) {
+				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && rulePOS[j].equals(inputPOS[i])) {
 					i++;
 					j++;
-				} else if (nWords[j].equals(wArr[i])) {
+				} else if (ruleWords[j].equals(inputWords[i])) {
 					i++;
 					j++;
-				} else if (isPOSGeneralized != null && j + 1 != nPOS.length && isPOSGeneralized[j + 1] == true
-						&& nPOS[j + 1].equals(pArr[i])) {
-					suggestionToken = new SuggestionToken(nWords[j], i, 1, nPOS[j]);
+				} else if (ruleIsPOSGeneralized != null && j + 1 != rulePOS.length && ruleIsPOSGeneralized[j + 1] == true
+						&& rulePOS[j + 1].equals(inputPOS[i])) {
+					suggestionToken = new SuggestionToken(ruleWords[j], i, 1, rulePOS[j]);
 					i++;
 					j += 2;
 					editDistance++;
-				} else if (j + 1 != nWords.length && nWords[j + 1].equals(wArr[i])) {
-					suggestionToken = new SuggestionToken(nWords[j], i, 1, nPOS[j]);
+				} else if (j + 1 != ruleWords.length && ruleWords[j + 1].equals(inputWords[i])) {
+					suggestionToken = new SuggestionToken(ruleWords[j], i, 1, rulePOS[j]);
 					i++;
 					j += 2;
 					editDistance++;
@@ -54,7 +54,7 @@ public class InsertionService {
 					editDistance++;
 				}
 			}
-			if (i != pArr.length || j != nPOS.length)
+			if (i != inputPOS.length || j != rulePOS.length)
 				editDistance++;
 			if (suggestionToken != null)
 				suggestions.add(new Suggestion(new SuggestionToken[] { suggestionToken }, SuggestionType.INSERTION,

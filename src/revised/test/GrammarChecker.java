@@ -34,20 +34,22 @@ public class GrammarChecker {
 
 	public void checkGrammar() throws SQLException, IOException {
 
-		// testGrammarCheckSub();
+		testGrammarCheckSub();
 
 		// testSubstitution();
 		//
-		testInsertion();
+		// testInsertion();
 		//
 		// testDeletion();
 	}
 
 	private void testGrammarCheckSub() throws SQLException, IOException {
-		Input testError = testErrorsProvider.getTestErrors().get(11);
+		Input testError = testErrorsProvider.getTestErrors().get(5);
 		FileManager fileManager = new FileManager("results- distance less than 3.txt");
 		System.out.println("Writing suggestions to file");
 		fileManager.createFile();
+		System.out.println(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
 		fileManager.writeToFile(
 				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
 		for (int ngramSize = 7; ngramSize >= 2; ngramSize--) {
@@ -110,7 +112,7 @@ public class GrammarChecker {
 	}
 
 	private void testInsertion() throws SQLException, IOException {
-		Input testError = testErrorsProvider.getTestErrors().get(8);
+		Input testError = testErrorsProvider.getTestErrors().get(3);
 		String[] wArr = testError.getWords();
 		String[] lArr = testError.getLemmas();
 		String[] pArr = testError.getPos();
@@ -143,7 +145,7 @@ public class GrammarChecker {
 		fileManager.close();
 	}
 
-	private void testSubstitution() throws SQLException {
+	private void testSubstitution() throws SQLException, IOException {
 		Input testError = testErrorsProvider.getTestErrors().get(0);
 		String[] wArr = testError.getWords();
 		String[] lArr = testError.getLemmas();
@@ -161,7 +163,7 @@ public class GrammarChecker {
 		System.out.println("--------------------------");
 	}
 
-	public void testDeletion() throws SQLException {
+	public void testDeletion() throws SQLException, IOException {
 		Input testError = testErrorsProvider.getTestErrors().get(9);
 		String[] wArr = testError.getWords();
 		String[] lArr = testError.getLemmas();

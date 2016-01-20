@@ -46,7 +46,6 @@ public class CandidateNGramsService {
 		Iterator<Map.Entry<Integer, Integer>> iter = instancesFrequency.entrySet().iterator();
 		while (iter.hasNext()) {
 			Map.Entry<Integer, Integer> entry = iter.next();
-
 			if (entry.getValue() >= uniquePOS.length - 2) {
 				int id = entry.getKey();
 				candidateNGrams.add(ngramDao.get(id));
