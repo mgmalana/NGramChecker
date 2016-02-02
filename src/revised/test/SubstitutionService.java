@@ -37,12 +37,12 @@ public class SubstitutionService {
 					;
 				else {
 					if (ruleLemmas[i].equals(inputLemmas[i]))
-						editDistance += 0.1;
+						editDistance += 0.4;
 					else if (withinSpellingEditDistance(ruleWords[i], inputWords[i]))
-						editDistance += 0.2;
+						editDistance += 0.45;
 					else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i]
 							&& hasCloseWordFromDictionary(inputWords[i], rulePOS[i])) {
-						editDistance += 0.3;
+						editDistance += 0.5;
 					} else if (rulePOS[i].equals(inputPOS[i]))
 						editDistance += 0.9;
 					else
