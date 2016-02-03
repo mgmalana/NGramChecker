@@ -44,7 +44,7 @@ public class SubstitutionService {
 							&& hasCloseWordFromDictionary(inputWords[i], rulePOS[i])) {
 						editDistance += 0.5;
 					} else if (rulePOS[i].equals(inputPOS[i]))
-						editDistance += 0.9;
+						editDistance += 0.8;
 					else
 						editDistance += 1;
 
