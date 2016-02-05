@@ -17,7 +17,7 @@ import revised.util.ArrayToStringConverter;
 public class RulesViewer {
 
 	public static void main(String[] args) throws SQLException, IOException {
-		for (int i = 2; i <= 7; i++) {
+		for (int i = 2; i <= 3; i++) {
 			NGramDao ngramDao = DaoManager.getNGramDao(i);
 
 			HashMap<Integer, NGram> generalizedNGrams = ngramDao.getGeneralizedNGrams();

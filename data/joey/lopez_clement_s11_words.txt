@@ -1,0 +1,78 @@
+Ang pag-publish ay proseso ng produksyon at pagpapakalat ng panitikan o impormasyon - ang aktibidad sa pagawa ng impormasyon na pwede sa paniningin ng publiko .
+Sa ibang usapin ang_mga manunulat ay pwede maging sarili nilang publisher .
+Pinagkasanayan , ang termino ay tumutukoy sa pamamahagi ng naka-print na gawa katulad_ng aklat at dyaryo .
+Sa pagdating ng digital na information system at internet , ang pagtingin ng publishers ay lalong lumawak , pinagsama mo pa electronic na version ng aklat at dyaryo , katulad sa mga websites , blogs , laro , at ang like .
+Kasama sa paglalathala ang_mga yugto ng ang pag-unlad , copyediting acquisition , graphic na disenyo , produksyon - pag-print ( at elektronikong katumbas nito ) , at marketing at pamamahagi ng_mga pahayagan , magasin , libro , pampanitikang akda , musikal na akda , software at iba pang mga gawa na pagharap sa impormasyon , kabilang ang electronic media .
+Mahalaga rin ang paglalathala bilang isang legal na konsepto : ( 1 ) bilang ang proseso ng pagbibigay pormal na paunawa sa mundo ng isang makabuluhang intensyon , halimbawa , mag-asawa o ipasok ang bangkarota ; ( 2 ) bilang mahalaga precondition ng mag-claim ng paninirang-puri ; iyon ay , ang pinaghihinalaang libelo dapat na-publish , at ( 3 ) para_sa mga layunin ng copyright , kung saan mayroong isang pagkakaiba sa proteksyon ng - publish at hindi nai-publish na mga gawa .
+Mga aklat at magasin publishers naggagastos ng maraming oras sa pagbili ng commissioning na kopya .
+Sa maliit na press , possibleng mabuhay na umasa sa nacommission na material .
+Ngunit sa pagtaas ng aktibidad , ang pangangailangan para_sa mga gawa ay maaaring madaig itinatag ng lupon ng publisher ng ??manunulat .
+Ang manunulat ay minsan nagbibigay ng query na sulat o panukala .
+Ang karamihan ng_mga hindi hinihinging mga pagsusumite ay mula_sa mga nakaraang hindi nai-publish na may-akda .
+Kapag hinihingi ang ganoong manuskrito , dapat mapunta ang_mga ito sa tumpok ng reserba , kung saan daraanan ito ng_mga acquisitions editor upang matukoy ang_mga manuskritong may sapat na kalidad o potensyal na kumita na maaaring ibigay sa editorial staff . 
+Madalas na kinakatawan ang_mga kilalang may-akda sa_pamamagitan_ng isang ahente sa pampanitikan upang i-market ang kanilang mga trabaho sa mga publisher at makipag-ayos ng_mga kontrata .
+Sa pagtanggap ang trabaho , ang_mga commissioning editor makipag-ayos ng pagbili ng_mga karapatan sa intelektwal na ari-arian at sumasang-ayon sa antas ng royalty .
+Ibinebenta ng_mga may-akda ng tradisyonal na naka-print na materyales ang eksklusibong teritoryal na mga intelektwal na karapatang-ari na tumutugma sa listahan ng_mga bansa kung saan iminungkahi ang pamamahagi ( ie tumutugma ang_mga karapatan sa legal na sistema kung saan ipinatutupad ang proteksyon sa karapatang-ari ) . 
+Sa kaso ng_mga aklat , ang_mga publisher at manunulat ay dapat ding sumasang-ayon sa nilayong mga format ng publication - masa-market paperback , " kalakalan " paperback at hardback ang pinakakaraniwang mga pagpipilian .
+Ang sitwasyon ay bahagyang mas kumplikado kung ang electronic-format na gagamitin .
+Kung ang pamamahagi ay sa_pamamagitan_ng CD-ROM o iba pang mga pisikal na media , walang dahilan upang tratuhin ang anyong ito na iba mula_sa isang naka-papel , at isang katanggap-tanggap na diskarte ang isang pambansang copyright .
+Ngunit ang posibilidad ng Internet download nang walang kakayahang paghigpitan ang pisikal na pamamahagi sa_loob ng bansa ay karaniwang nagpapahiwatig ng legal na problema na kadalasang nalulutas sa_pamamagitan_ng pagbebenta ng karapatan sa wika o pagsasalin sa halip na pambansang karapatan .
+Kaya , medyo bukas ang access sa Internet sa buong European Union dahil_sa mga batas na ipinagbabawal ang diskriminasyon batay_sa nasyonalidad , ngunit ang katotohanan ng publication sa , halimbawa , Pransya , nililimitahan ang target market sa mga taong nakakabasa ng Pranses .
+Matapos magkasundo sa saklaw ng publikasyon at ng_mga format , dapat namang sumang-ayon ang_mga partido sa isang kasunduan ng libro sa halaga ng royalty , ang porsyento ng gross retail na presyo na ibabayad sa may-akda , at ang paunang bayad .
+Mahirap ito dahil dapat tantyahin ng publisher ang potensyal na mga benta sa bawat merkado at balansehin ang inaasahang kita laban_sa mga gastos sa produksyon .
+Kadalasang sumasaklaw ang_mga royalty sa_pagitan ng 10 - 12 % ng inirerekumendang retail na presyo .
+Karaniwang 1/3 ng unang naka-print run ang kabuuang royalties .
+Halimbawa , kung ang isang libro ay may print run na 5000 kopya at ibebenta sa $ 14.95 at nakatatanggap ang may-akda ng 10 % royalties , ang kabuung pwedeng ibayad sa may-akda kung mabebenta ang lahat ng_mga kopya ay $ 7475 ( 10 % x $ 14,95 x 50 ).00
+Ang advance sa halimbawang ito ay humigit-kumulang na $ 2490 .
+Malaki ang kaibahan ng_mga advance sa_pagitan ng_mga libro , may mga malalaking advance ang_mga kilalang may-akda .
+Kapag napagkasunduan na ang isang pinal na teksto , susunod na ang disenyo .
+Ito ay maaaring isama ang likhang sining na kinomisyon o kumpirmasyon ng layout .
+Sa pag-publish , ang salitang " art " din ay nagpapahiwatig ng_mga litrato .
+Inihahanda ng prosesong ito ang gawain para_sa pag-print sa_pamamagitan_ng proseso tulad_ng pampalimbagan , komposisyon ng dust jacket , pagtutukoy ng kalidad ng papel , may-bisang paraan ng pambalot , at pagwawasto .
+Ang_mga gawain ng pampalimbagan , layout ng pahina , ang produksyon ng_mga negatibo , plates mula_sa mga negatibo at , para_sa mga hardbacks , paghahanda ng_mga brasses para_sa gulugod alamat at imprint ay nakakompyuter na lahat ngayon . 
+Malaki ang pagbabago ng prepress computerization sa huling dalawampung taon ng ika-20 siglo .
+Kung ang trabaho ay ibahagi ang electronic , ang panghuling mga file ay nai-save bilang mga format na naaangkop sa target operating system ng hardware na ginagamit para_sa pagbabasa .
+Nasasali dito ang PDF files .
+Ang publisher ang karaniwang kumokontrol sa advertising at iba pang mga gawain sa marketing , ngunit maaaring subcontract sa iba't_ibang mga aspeto ng proseso ng inilarawan sa_itaas .
+Sa mas maliit na mga kumpanya , maaaring gawin ang pag-edit , pagwawasto at layout sa_pamamagitan_ng mga freelancers .
+Nakatuon ang in-house mga salespeople ay mabilis na papalitan sa_pamamagitan_ng pinasadyang mga kumpanya na pangasiwaan ang_mga benta sa bookshops , namamakyaw at mga tindahan ng chain para_sa may bayad .
+Lumalago ang trend na ito bilang retail chain ng libro at nagawang sentralisado ng_mga supermarket ang kanilang pagbili . 
+Kung ang buong proseso hanggang sa yugto ng pag-print ay isinasagawa sa_pamamagitan_ng isang panlabas na kumpanya o mga indibidwal , at pagkatapos ay ibinebenta sa kumpanyang naglalathala , tinatawag itong book packaging .
+Ito ay isang pangkaraniwang diskarte sa_pagitan ng_mga mas maliit na mga publisher sa iba't_ibang mga teritoryal na mga merkado kung saan ang kumpanya na unang pagbili ang_mga karapatan sa intelektwal na ari-arian pagkatapos ay nagbebenta ng isang pakete sa iba pang mga publisher at nakakakuha ng isang agarang return sa kapital na pinuhunan . 
+Sa katunayan , ang unang publisher ay madalas maglimbag ng sapat na kopya para_sa lahat ng_mga merkado at sa gayong paraan makuha ang maximum na dami ng kahusayan sa naka-print_run para_sa lahat .
+Pinapalaki ng ilang mga negosyo ang kanilang mga margin ng kita sa_pamamagitan_ng vertical integration ; ang paglalathala ng libro ay hindi isa sa kanila .
+Bagamat madalas pa ring nagmamay-ari ang_mga kumpanya ng pahayagan at magasin ng sarili nilang printing press at binderies , bihirang may ganoon ang_mga publisher ng libro . 
+Katulad nito , karaniwang nagbebenta ang kalakaran ng natapos na produkto sa_pamamagitan_ng isang distributor na nag-iimbak at namamahagi ng_mga paninda ng publisher para_sa isang porsyento ng bayad o nagbebenta ng sale o batayan ng return . 
+Samakatuwid nakapagbigay ang pag-usbong ng Internet ng isang kawili-wiling tanong na humahamon sa mga publisher , distributor at mga tagatingi .
+Noong 2005 , inihayag ng Amazon.com ang pagbili nito sa Booksurge at selfsanepublishing , na isang pangunahing operasyon ng print_on_demand .
+Maaaring nilalayon ito bilang isang paunang paglipat patungo_sa pagtaguyod ng isang Amazon imprint .
+Isa sa pinakamalaking chain ng nagtitinda ng_mga aklat ang Barnes & Noble , na mayroon nang sarili nitong matagumpay na imprint na may parehong mga bagong pamagat at klasiko — hardback edition ng_mga out-of-print na dating pinakamahusay na nagbebenta .
+Katulad nito , ang Ingram Industries, na siyang punong kumpanya ng Ingram Book Group ( Isang nangungunang wholesaler ng libro ng US ) , ang mayroon na ngayong sarili nitong dibisyon ng print-on-demand na tinatawag na Lightning Source .
+Sa mga publisher , kamakailang inihayag ng Simon & Schuster na magsisimula itong magbenta ng_mga backlist na titulo nito direkta sa mga konsumer sa_pamamagitan_ng website nito . 
+Halos ganap na direct-to-retail ang_mga book club , at may magkahalong diskarte ang_mga maliliit na publisher upang makabenta sa lahat ng mayroong outlet - hindi mahalaga ang kanilang output kumpara_sa mga pangunahing nagbebenta ng libro , kaya wala masyadong naidudulot na pagbabanta ang nawalang kita sa tradisyonal na magkatulong na relasyon sa_pagitan ng apat na aktibidad ng pag-print , paglimbag , pamamahagi at retail .  
+Nagpapahiwatig ng isang rebolusyon ang pag-unlad ng printing press para_sa pakikipag-ugnayan ng pinakabagong pagpapalagay at mga resulta ng pananaliksik sa pang-akademikong komunidad at nakapunan kung ano ang personal na magagawa ng iskolar .
+Subalit nakapagdulot ng isang hamon ang pagpapabuti na ito sa kahusayan ng komunikasyon para_sa mga aklatan kung saan kinailangan nilang tanggapin ang bigat at dami ng panitikan .
+Upang maunawaan ang laki ng problema , maaaring ipakita na halos dalawang siglo ang nakalipas na dumodoble kada labinlimang taon ang bilang ng_mga siyentipikong papel na inilalathala taon-taun . 
+Ngayon , dumoble ang bilang ng_mga nailimbag na mga papel kada sampung taon . 
+Maaari na ngayong magpatakbo ang modernong akademya ng_mga electronic journal at ipamahagi ang_mga akademikong mga materyales nang hindi nangangailangan ng_mga publisher .
+Hindi nakakagulat na tinuturing ng_mga publisher ang pagsisiwalat na ito bilang isang seryosong banta sa kanilang negosyo .
+Sa katotohanan , matagal nang nagkakatunggali ang_mga interes ng_mga iskolar at publisher .
+Ngayon , malaking bahagi ang paglilimbag ng_mga pang-akademikong jornal at mga teksbuk ng internasyonal na industriya .
+Nakalista ang pagbabahagi ng_mga pangunahing kompanyang naglilimbag sa pambansang palitan ng stock at dapat matugunan ng_mga patakaran sa pamamahala ang_mga inaasahang dibidendo ng_mga internasyonal na shareholders .
+Sinasabi ng_mga kritiko na ang_mga istandardisadong akawnting na ito at mga patakarang para_sa kita ay lumalantad na at lalong nawawala sa kasalukuyan ang pagtuon sa pagiging mapagbigay . 
+Kung ihahambing sa komersyal na modelo , mayroong paglilimbag na hindi para_sa kita , kung saan maaaring ispesipikong organisado ang organisasyon para_sa layunin ng paglalathala , tulad ng sa university press , o siyang isa sa mga ginagawa ng isang organisasyon tulad_ng medikal na kawanggawa , na itinatag para makamit ang_mga tiyak na praktikal na layunin . 
+Isang alternatibong diskarte sa corporate modelo ang open access , ang online na pamamahagi ng_mga indibidwal na artikulo at pang-akademikong jornal nang walang bayad sa mga mambabasa at mga aklatan .
+Isang medyo kaugnay na pag-unlad ang open source-publish , na isang pagsali sa isang grupo sa pag-edit , gaya_ng naipapakita ng iba't_ibang mga proyekto sa wiki , tulad_ng Wikipedia , Wikiversity , at Citizendium .
+Kung tutuusin , naglilimbag ang radyo , telebisyon , sinehan , VCDs at DVD , sistema ng musika , laro , computer hardware at mobile telephony ng impormasyon sa kanilang mga tagasubaybay .
+Sa katunayan , kadalasang may kasama ang marketing ng isang pangunahing pelikula ng pagsasanobela , isang graphic novel o bersyon sa komiks , album ng soundtrack , isang laro , modelo , laruan at walang katapusang publikasyon na pangpromosyon .
+May isang buong dibisyon ang ilan sa mga pangunahing mga publisher na nakatuon sa isang solong prangkisa .
+May eksklusibong karapatan ang Ballantine Del Rey Lucasbooks sa Star Wars sa Estados Unidos ; hinahawakan ng Random House UK ( Bertelsmann ) / Century LucasBooks ang parehong mga karapatan sa United Kingdom .
+Sariling naglalathala ang industriya ng laro sa_pamamagitan_ng BL-publish / Black Library ( Warhammer ) at Wizards ng Coast ( Dragonlance , Nakalimutang Realms , atbp. ) .
+Ang BBC ay may sariling dibisyon ng paglimbag na namamayagpag sa matagal nang tumatakbong serye nitong tulad_ng Doctor Who .
+Ang_mga gawang multimedia ay ang cr , na ginagawang isang pokus ng corporate interest.oss - na agresibong minamarket at madalas nadadaig ang benta sa karaniwang nag-iisang inilimbag na akda . 
+Tingnan din ang Alternative media
+Nakahanap ang_mga manunulat sa isang espesyalisadong larangan o may mas kaunting pagtugon ng mas maliliit na alternatibo sa pangmasang merkado sa anyo ng maliliit na press at sariling paglilimbag . 
+Mas kamakailan lamang , kasama sa pagpipilian ang naka-print_on_demand at format ng ebook .
+Nagbibigay ang_mga alternatibo sa paglalathala ng isang lugar para_sa mga may-akda na naniniwalang hindi matutugunan ng paglimbag sa mainstream ang kanilang mga pangangailangan o na siyang malalagay sa posisyong kikita ng mas maraming pera mula_sa direktang pagbenta kumpara_sa makukuha nila mula_sa pagbenta sa bookstore , tulad_ng mga tanyag na mga tagapagsalita na nagbebenta ng_mga libro pagkatapos ng kanilang mga talumpati . 
+Ang_mga may-akda ay mas handa sa pag-publish sa ganitong paraan dahil_sa mas mababang gastos ang kasangkot .
+
