@@ -70,13 +70,13 @@ public class ValidateData {
 					System.out.println(word.getName() + "   Line: " + j + " " + lemSplit.length + " " + posSplit.length
 							+ " " + wordSplit.length);
 					for (String l : lemSplit)
-						System.out.printf("%15s", l);
+						System.out.printf("%30s", l);
 					System.out.println();
 					for (String p : posSplit)
-						System.out.printf("%15s", p);
+						System.out.printf("%30s", p);
 					System.out.println();
 					for (String w : wordSplit)
-						System.out.printf("%15s", w);
+						System.out.printf("%30s", w);
 					System.out.println();
 
 				}
