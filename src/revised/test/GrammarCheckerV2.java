@@ -20,11 +20,15 @@ public class GrammarCheckerV2 {
 	SubstitutionService substitutionService;
 	DeletionService deletionService;
 	InsertionService insertionService;
+	MergingService mergingService;
+	UnmergingService unmergingService;
 
 	public GrammarCheckerV2() {
 		substitutionService = new SubstitutionService();
 		deletionService = new DeletionService();
 		insertionService = new InsertionService();
+		mergingService = new MergingService();
+		unmergingService = new UnmergingService();
 
 		testErrorsProvider = new TestErrorsProvider();
 	}
@@ -36,11 +40,103 @@ public class GrammarCheckerV2 {
 
 	public void checkGrammar() throws SQLException, IOException {
 
+		// runSubstitutionTest();
+
+		// runMergingTest();
+
+		runUnmergingTest();
+
 		// testSubstitution();
 		//
 		// testInsertion();
 		//
 		// testDeletion();
+	}
+
+	private void runUnmergingTest() throws IOException, SQLException {
+		Input testError = testErrorsProvider.getTestErrors().get(13);
+		FileManager fileManager = new FileManager(Constants.RESULTS_UNMERGING);
+		fileManager.createFile();
+		System.out.println("Writing suggestions to file");
+
+		System.out.println(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+		fileManager.writeToFile(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+
+		for (int ngramSize = 7; ngramSize >= 2; ngramSize--) {
+			System.out.println("N-gram = " + ngramSize);
+			fileManager.writeToFile("N-gram = " + ngramSize);
+			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
+				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
+				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
+				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
+				System.out.println(ArrayToStringConverter.convert(wArr));
+				fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
+				List<Suggestion> suggestionsMerging = sortSuggestions(
+						unmergingService.computeUnmerging(wArr, lArr, pArr));
+
+				for (Suggestion s : suggestionsMerging) {
+					String[] arrSugg = new String[wArr.length];
+					System.arraycopy(wArr, 0, arrSugg, 0, wArr.length);
+					fileManager.writeToFile(Double.toString(s.getEditDistance()));
+					if (s.getEditDistance() > 0) {
+						System.out.println(s.getSuggestions().length);
+						for (SuggestionToken ts : s.getSuggestions()) {
+							System.out.println("Unmerge as: " + ts.getWord() + " the word in index " + ts.getIndex());
+							fileManager
+									.writeToFile("Unmerge as: " + ts.getWord() + " the word in index " + ts.getIndex());
+						}
+					}
+					fileManager.writeToFile(ArrayToStringConverter.convert(arrSugg));
+				}
+				fileManager.writeToFile("------------------------------------------");
+			}
+		}
+		fileManager.close();
+	}
+
+	private void runMergingTest() throws IOException, SQLException {
+		Input testError = testErrorsProvider.getTestErrors().get(12);
+		FileManager fileManager = new FileManager(Constants.RESULTS_MERGING);
+		fileManager.createFile();
+		System.out.println("Writing suggestions to file");
+
+		System.out.println(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+		fileManager.writeToFile(
+				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
+
+		for (int ngramSize = 7; ngramSize >= 2; ngramSize--) {
+			System.out.println("N-gram = " + ngramSize);
+			fileManager.writeToFile("N-gram = " + ngramSize);
+			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
+				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
+				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
+				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
+				System.out.println(ArrayToStringConverter.convert(wArr));
+				fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
+				List<Suggestion> suggestionsMerging = sortSuggestions(mergingService.computeMerging(wArr, lArr, pArr));
+
+				for (Suggestion s : suggestionsMerging) {
+					String[] arrSugg = new String[wArr.length];
+					System.arraycopy(wArr, 0, arrSugg, 0, wArr.length);
+					fileManager.writeToFile(Double.toString(s.getEditDistance()));
+					if (s.getEditDistance() > 0) {
+						System.out.println(s.getSuggestions().length);
+						for (SuggestionToken ts : s.getSuggestions()) {
+							System.out.println("Merge as: " + ts.getWord() + " the words in index " + ts.getIndex()
+									+ " and " + (ts.getIndex() + 1));
+							fileManager.writeToFile("Merge as: " + ts.getWord() + " the words in index " + ts.getIndex()
+									+ " and " + (ts.getIndex() + 1));
+						}
+					}
+					fileManager.writeToFile(ArrayToStringConverter.convert(arrSugg));
+				}
+				fileManager.writeToFile("------------------------------------------");
+			}
+		}
+		fileManager.close();
 	}
 
 	public void runSubstitutionTest() throws IOException, SQLException {

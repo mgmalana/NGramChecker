@@ -7,6 +7,7 @@ import java.util.List;
 import revised.model.NGram;
 import revised.model.Suggestion;
 import revised.model.SuggestionToken;
+import revised.model.SuggestionType;
 
 public class UnmergingService {
 	CandidateNGramsService candidateNGramService;
@@ -15,38 +16,72 @@ public class UnmergingService {
 		candidateNGramService = CandidateNGramsService.getInstance();
 	}
 
-	public List<Suggestion> computeUnmerging(String[] wArr, String[] lArr, String[] pArr) throws SQLException {
-		List<NGram> candidateInsNGrams = candidateNGramService.getCandidateNGrams(pArr, pArr.length + 1);
+	public List<Suggestion> computeUnmerging(String[] inputWords, String[] inputLemmas, String[] inputPOS)
+			throws SQLException {
+		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length + 1);
 
 		List<Suggestion> suggestions = new ArrayList<>();
-		for (NGram n : candidateInsNGrams) {
+		for (NGram rule : candidateRuleNGrams) {
+
 			int editDistance = 0;
-			String[] nPOS = n.getPos();
-			String[] nWords = n.getWords();
-			Boolean[] isPOSGeneralized = n.getIsPOSGeneralized();
+			int i = 0, j = 0;
+			String[] rulePOS = rule.getPos();
+			String[] ruleWords = rule.getWords();
+			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
 
 			SuggestionToken suggestionToken = null;
 
-			int i = 0;
-			int j = 0;
-			int notEqualOnWArrIndex = -1;
-			boolean isLeftSideEqual = true;
-			boolean isRightSideEqual = true;
-			while (isLeftSideEqual && i < wArr.length) {
-				if (isPOSGeneralized != null && isPOSGeneralized[i] == true && nPOS[i].equals(pArr[i]))
-					;
-				else if (nWords[i].equals(wArr[i]))
-					;
-				else {
-					isLeftSideEqual = false;
-					notEqualOnWArrIndex = i;
+			while (i != inputPOS.length && j != rulePOS.length) {
+				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && rulePOS[j].equals(inputPOS[i])) {
+					i++;
+					j++;
+				} else if (ruleWords[j].equals(inputWords[i])) {
+					i++;
+					j++;
+				} else if (j + 1 != ruleWords.length
+						&& isEqualToUnmerge(inputWords[i], ruleWords[j], ruleWords[j + 1])) {
+					StringBuilder sb = new StringBuilder();
+					sb.append(ruleWords[j]).append(" ").append(ruleWords[j + 1]);
+					suggestionToken = new SuggestionToken(sb.toString(), i, 1);
+					i++;
+					j += 2;
+					editDistance++;
+				} else {
+					i++;
+					j++;
+					editDistance++;
 				}
-				i++;
-				j++;
 			}
-
+			if (i != inputPOS.length || j != rulePOS.length)
+				editDistance++;
+			if (suggestionToken != null)
+				suggestions.add(new Suggestion(new SuggestionToken[] { suggestionToken }, SuggestionType.UNMERGING,
+						editDistance));
 		}
 		return suggestions;
+	}
+
+	private boolean isEqualToUnmerge(String inputWord, String ruleLeft, String ruleRight) {
+		ruleLeft = ruleLeft.toLowerCase();
+		ruleRight = ruleRight.toLowerCase();
+		inputWord = inputWord.toLowerCase();
+		if (inputWord.contains(ruleLeft) && inputWord.contains(ruleRight)) {
+			StringBuilder sb = new StringBuilder();
+			sb.append(ruleLeft);
+			sb.append(ruleRight);
+			if (sb.toString().equals(inputWord))
+				return true;
+			else {
+				sb = new StringBuilder();
+				sb.append(ruleLeft);
+				sb.append("-");
+				sb.append(ruleRight);
+				if (sb.toString().equals(inputWord))
+					return true;
+			}
+		}
+		return false;
+
 	}
 
 }

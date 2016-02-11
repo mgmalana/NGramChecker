@@ -1,0 +1,22 @@
+Full: tumakbo akona matulin 3
+N-gram = 7
+N-gram = 6
+N-gram = 5
+N-gram = 4
+N-gram = 3
+tumakbo akona matulin
+1.0
+Unmerge as: ako na the word in index 1
+tumakbo akona matulin
+------------------------------------------
+N-gram = 2
+tumakbo akona
+1.0
+Unmerge as: ako na the word in index 1
+tumakbo akona
+------------------------------------------
+akona matulin
+1.0
+Unmerge as: ako na the word in index 0
+akona matulin
+------------------------------------------

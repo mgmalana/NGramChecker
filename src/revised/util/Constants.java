@@ -12,5 +12,7 @@ public class Constants {
 	public static String RESULTS_SUBSTITUTION = "results/substitution.txt";
 	public static String RESULTS_INSERTION = "results/insertion.txt";
 	public static String RESULTS_DELETION = "results/deletion.txt";
+	public static String RESULTS_MERGING = "results/merging.txt";
+	public static String RESULTS_UNMERGING = "results/unmerging.txt";
 
 }
