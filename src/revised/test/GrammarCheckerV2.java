@@ -40,11 +40,11 @@ public class GrammarCheckerV2 {
 
 	public void checkGrammar() throws SQLException, IOException {
 
-		// runSubstitutionTest();
+		runSubstitutionTest();
 
 		// runMergingTest();
 
-		runUnmergingTest();
+		// runUnmergingTest();
 
 		// testSubstitution();
 		//
@@ -140,7 +140,7 @@ public class GrammarCheckerV2 {
 	}
 
 	public void runSubstitutionTest() throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(5);
+		Input testError = testErrorsProvider.getTestErrors().get(14);
 		FileManager fileManager = new FileManager(Constants.RESULTS_SUBSTITUTION);
 		fileManager.createFile();
 		System.out.println("Writing suggestions to file");
@@ -149,7 +149,7 @@ public class GrammarCheckerV2 {
 				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
 		fileManager.writeToFile(
 				"Full: " + ArrayToStringConverter.convert(testError.getWords()) + " " + testError.getWords().length);
-
+		long startTime = System.currentTimeMillis();
 		for (int ngramSize = 7; ngramSize >= 2; ngramSize--) {
 			System.out.println("N-gram = " + ngramSize);
 			fileManager.writeToFile("N-gram = " + ngramSize);
@@ -180,7 +180,7 @@ public class GrammarCheckerV2 {
 								arrSugg[sugg.getIndex()] = sugg.getWord();
 							} else {
 								fileManager.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")"
-										+ " in " + arrSugg[sugg.getIndex()] + ". " + " Edit Distance: "
+										+ " in " + arrSugg[sugg.getIndex()] + ". " + " Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg[sugg.getIndex()] = sugg.getPos();
 							}
@@ -191,6 +191,8 @@ public class GrammarCheckerV2 {
 				fileManager.writeToFile("------------------------------------------");
 			}
 		}
+		long endTime = System.currentTimeMillis();
+		System.out.println("Total execution time: " + (endTime - startTime) + "ms");
 		fileManager.close();
 	}
 
