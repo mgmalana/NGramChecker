@@ -21,8 +21,8 @@ public class ValidateData {
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/";
-		String[] filenames = { "181to186", "193to197", "198", "200", "204", "208to210", "211", "212", "213", "214",
-				"224", "223", "225", "226", "227", "228", "238to240", "235to237" };
+		String[] filenames = { "181to186", "193to197", "198", "200", "204", "211", "212", "213", "214", "224", "223",
+				"225", "226", "227", "228", "238to240", "235to237" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + "a56_" + f + "_words.txt");
