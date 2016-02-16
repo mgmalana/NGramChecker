@@ -2,7 +2,9 @@ package revised.datavalidator;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,13 +13,16 @@ import revised.util.FileManager;
 public class ValidateData {
 
 	public static void main(String[] args) throws IOException {
-		checkEachLineOfFiles();
+		// checkEachLineOfFiles();
+		// createFiles();
+		checkEachLinesAutoToFiles();
 	}
 
 	public static void createFiles() throws IOException {
 
-		String path = "data/joey/";
-		String[] filenames = { "250", "251", "252", "253to258", "259", "260", "261", "263", "264" };
+		String path = "data/joey_uncleaned/";
+		String[] filenames = { "181to186", "193to197", "198", "200", "204", "208to210", "211", "212", "213", "214",
+				"224", "223", "225", "226", "227", "228", "238to240", "235to237" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + "a56_" + f + "_words.txt");
@@ -30,6 +35,74 @@ public class ValidateData {
 			if (!fileLemm.exists())
 				fileLemm.createNewFile();
 		}
+	}
+
+	public static void checkEachLinesAutoToFiles() throws FileNotFoundException, IOException {
+		String path = "data/joey_uncleaned/";
+		File folder = new File(path);
+		File[] files = folder.listFiles();
+
+		List<File> lemmaFiles = new ArrayList<>();
+		List<File> posFiles = new ArrayList<>();
+		List<File> wordFiles = new ArrayList<>();
+
+		for (File f : files) {
+			if (f.getName().contains("lemmas"))
+				lemmaFiles.add(f);
+			else if (f.getName().contains("tags"))
+				posFiles.add(f);
+			else if (f.getName().contains("words"))
+				wordFiles.add(f);
+		}
+
+		for (int i = 0; i < lemmaFiles.size(); i++) {
+			File lem = lemmaFiles.get(i);
+			File pos = posFiles.get(i);
+			File word = wordFiles.get(i);
+
+			List<String> lemLines = FileManager.readFile(lem);
+			List<String> posLines = FileManager.readFile(pos);
+			List<String> wordLines = FileManager.readFile(word);
+			System.out.println("Yo");
+			if (lemLines.size() != posLines.size() || posLines.size() != wordLines.size()) {
+				System.out.println(
+						lem.getName() + "  Number of lines in files are not equal. Please restart the program");
+			} else {
+				String errorPath = lem.getParent() + "/errors/"
+						+ lem.getName().substring(0, lem.getName().length() - 10) + "errors.txt";
+				System.out.println(errorPath);
+				File outputFile = new File(errorPath);
+				if (outputFile.exists()) {
+					outputFile.delete();
+					outputFile.createNewFile();
+				}
+				PrintWriter outFile = new PrintWriter(new FileWriter(outputFile.getAbsolutePath(), true));
+
+				for (int j = 0; j < lemLines.size(); j++) {
+					String[] oneSplit = lemLines.get(j).split(" ");
+					String[] twoSplit = posLines.get(j).split(" ");
+					String[] threeSplit = wordLines.get(j).split(" ");
+
+					if (oneSplit.length != twoSplit.length || oneSplit.length != threeSplit.length
+							|| twoSplit.length != threeSplit.length) {
+						outFile.println(files[0].getName() + "   Line: " + (j + 1) + " | Lengths : " + oneSplit.length
+								+ "," + twoSplit.length + "," + threeSplit.length);
+
+						for (String a : oneSplit)
+							outFile.printf("%20s", a);
+						outFile.println();
+						for (String b : twoSplit)
+							outFile.printf("%20s", b);
+						outFile.println();
+						for (String c : threeSplit)
+							outFile.printf("%20s", c);
+						outFile.println();
+					}
+				}
+				outFile.close();
+			}
+		}
+
 	}
 
 	public static void checkEachLineOfFiles() throws FileNotFoundException, IOException {
