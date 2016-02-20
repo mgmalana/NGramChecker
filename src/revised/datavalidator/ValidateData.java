@@ -38,7 +38,7 @@ public class ValidateData {
 	}
 
 	public static void checkEachLinesAutoToFiles() throws FileNotFoundException, IOException {
-		String path = "data/joey_uncleaned/";
+		String path = "data/joey_cleaned_with_slight_errors/";
 		File folder = new File(path);
 		File[] files = folder.listFiles();
 
@@ -85,8 +85,8 @@ public class ValidateData {
 
 					if (oneSplit.length != twoSplit.length || oneSplit.length != threeSplit.length
 							|| twoSplit.length != threeSplit.length) {
-						outFile.println(files[0].getName() + "   Line: " + (j + 1) + " | Lengths : " + oneSplit.length
-								+ "," + twoSplit.length + "," + threeSplit.length);
+						outFile.println(lem.getName() + "   Line: " + (j + 1) + " | Lengths : " + oneSplit.length + ","
+								+ twoSplit.length + "," + threeSplit.length);
 
 						for (String a : oneSplit)
 							outFile.printf("%20s", a);
