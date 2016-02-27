@@ -14,15 +14,16 @@ public class ValidateData {
 
 	public static void main(String[] args) throws IOException {
 		// checkEachLineOfFiles();
-		// createFiles();
-		checkEachLinesAutoToFiles();
+		createFiles();
+		// checkEachLinesAutoToFiles();
 	}
 
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/";
-		String[] filenames = { "181to186", "193to197", "198", "200", "204", "211", "212", "213", "214", "224", "223",
-				"225", "226", "227", "228", "238to240", "235to237" };
+		String[] filenames = { "170", "171", "172", "175", "176", "177", "178", "179", "180", "137", "138", "139",
+				"140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "163", "164", "165", "166",
+				"167", "168", "169" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + "a56_" + f + "_words.txt");
