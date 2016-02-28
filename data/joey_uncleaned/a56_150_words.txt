@@ -1,0 +1,22 @@
+Sa may higit maraming henerasyon , ang genomes ng organismo ay napapalitan kaya’t nagaganap ang ebolusyon .
+Ang pagbabago at pagpili ay mahalaga sa pagbabago na sanhi ng uri upang magbago sa ibang uri o porma upang makaligtas ito sa_kapaligiran , ang proseso na tawag ay pakikibagay .
+Mga bagong mga uri ng organismo ay nabubuo sa tulong ng prosesong speciation , ang proseso na dahilan ng heograpiko na paghihiwalay na pumapayag maiba ang populasyon na magkakaiba ang henetika .
+Sa pagkakaiba ng pagkakasunod-sunod na napapalitan sa prosesong ng ebolusyon , ang pagkakaiba sa pagkakasunod-sunod ay nagagamit sa molecular clock upang makalkulahin ang ebolusyon ng pagitan sa isa’t_isa .
+Ang paghahambing ng genetic ay karaniwang itinuturing na ang pinaka-tama na paraan ng characterizing at pakikikapwa sa_pagitan ng_mga uri , isang pagpapabuti sa_ibabaw ng minsan mapanlinlang na paghahambing ng katangian phenotypic .
+Ang pagitan ng ebolusyon sa mga uri ay maaaring pinagsama upang mabuo sa_gitna ang puno ng ebolusyon .
+Ang_mga puno na ito ay karaniwang itinuturing na pinakatama na representasyon ng pakikikapwa , kahit na ang paglilipat ng genetic materyal sa_pagitan ng_mga hindi kaugnay na uri ( kilala bilang " pahalang gene paglipat " at pinaka-karaniwang sa bakterya ) ay hindi maaaring kinakatawan sa_pamamagitan_ng puno .
+Bagamat ang_mga henetika ay orihinal na aral ng mana sa isang malawak na hanay ng_mga organismo , ang_mga mananaliksik ay nagsimula sa pag-aaral ang_mga genetika ng isang partikular na subset ng_mga organismo .
+Ang katotohanan na ang makabuluhang pananaliksik ay umiiral para_sa isang naibigay na organismo ay hinihikayat ang bagong mga mananaliksik upang piliin ang_mga ito para_sa karagdagang pag-aaral , at sa gayon nang lumaon naging batayan ang ilang mga " modelo organismo " para_sa karamihan ng genetikang pananaliksik .
+Kabilang sa mga karaniwang paksa ng pananaliksik sa mga genetika ng organismo ng modelo ang pag-aaral ng gene regulasyon at ang paglahok ng_mga genes sa pag-unlad at kanser .
+Pinili ang_mga organismo , bahagi nito ang para_sa kaginhawaan - maikling henerasyon ulit at mabilis na pagmamanipula ng genetika ang nakapagdulot ng pagiging popular ng ilang organimso na mga kasangkapan sa pananaliksik ng genetika .
+Kabilang sa mga malawak na ginamit na mga organismo ng modelo ang gat coli bacterium Escherichia , ang planta thaliana Arabidopsis sa , panaderya pampaalsa ( Saccharomyces cerevisiae ) , ang nematode na Caenorhabditis elegans , ang karaniwang bunga ng fly ( Drosophila melanogaster ) ay , at ang karaniwang bahay mouse ( Mus musculus ) .
+Nilalayon ng_mga medikal na pananaliksik ng genetika ang mahanap at mapag-aralan ang genetikang sanhi ng_mga karamdaman ng tao .
+Kapag naghahanap para_sa isang hindi kilalang gene na maaaring kasangkot sa isang sakit , karaniwang gamitin ng_mga mananaliksik ang ugnayan ng genetika at genetikong tsart ng angkan upang mahanap ang lokasyon sa genome na nauugnay sa sakit .
+Sa antas ng populasyon , sinasamantala ng_mga mananaliksik ang Mendelian randomization upang maghanap ng_mga lokasyon sa genome na kaugnay sa sakit , isang pamamaraan na lalong kapaki-pakinabang para_sa mga multigenic na katangiang hindi malinaw na natutukoy sa_pamamagitan_ng isang solong gene .
+Sa oras na matagpuan ang isang kandidatong gene , kadalasang ginagawa ang karagdagang pananaliksik sa parehong gene ( tinatawag na orthologous gene ) sa mga modelong organismo .
+Bagaman maraming mga paksa ng genetikang pananaliksik ang minanang sakit , tinuturing ding isang genetikong sakit ang kanser .
+Ang proseso ng pag-unlad ng kanser sa katawan ay isang kumbinasyon ng_mga kaganapan .
+Paminsang nangyayari ang_mga mutatsyon sa_loob ng_mga cell sa katawan habang nahahati sila - habang hindi namamana ang_mga mutasyong ito ng alinmang anak , maaari nilang maapektuhan ang pag-uugali ng_mga cell , na paminsang nagdudulot ng kanilang madalas na paglago at pagkahati .
+May mga biological na mekanismong nagtatangkang itigil ang prosesong ito - ibinibigay ang_mga senyales upang hindi angkop na hatiin ang_mga cell na makapagdudulot ng kamatayan , ngunit minsan nangyayari ang karagdagang mutasyon na nagdudulot sa mga cell upang huwag pansinin ang_mga mensaheng ito .
+Isang panloob na proseso ng natural selection ang nangyayari sa_loob ng katawan at sa huli naiipon ang_mga mutasyon sa_loob ng_mga cell upang isulong ang kanilang sariling paglago , na siyang nakalilikha ng isang bukol na may kanser na lumalaki at pinapasok ang iba't_ibang mga tisyu ng katawan .
+

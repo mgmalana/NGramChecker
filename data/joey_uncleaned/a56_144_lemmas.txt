@@ -1,0 +1,26 @@
+Ang_mga uri ng_mga halaman sa Species Plantarum ( una edisyon 1753 ) at sa uri ng_mga hayop sa sampu edisyon ng Systema Naturae ( 1758 ) .
+Sa_pamamagitan_ng tuloy na gamit ng tiyak na mga bansag na ito , hiwalay ni Linnaeus ang_mga tawag mula_sa taxonomy .
+Kahit na tuloy hanggang sa huli labing-walo siglo ang hilera gamit ng nomina trivialia at ang dami salita sa larawan ng_mga ngalan ,  dahan ito palit sa_pamamagitan_ng sanay ng gamit ng mas ikli at tiyak na ngalan kung saan sama ang generiko ngalan at hindi-halaga ngalan ng_mga espesye .
+Sa labing-siyam na siglo , kodipika ang bago sanay na ito sa una batas ng nomenklatura , at pili ang una edisyon ng Species Plantarum at sampu edisyon ng Systema Naturae bilang mula punto sa botanical at zoological na nomenklatura .
+Tukoy bilang binomial na nomenklatura ang kombensiyon para_sa bigay ng ngalan sa mga espesye .
+Ngayon , kontrol ng_mga nomenklatura kodigo ang_mga nomenklatura , na hintulot  sa mga pangalan upang mahati sa mga rango ;  hiwalay para_sa botanika at para_sa soolohiya .
+Gayon ang totoo_ay uri si Linnaeus para_sa dali ng kilala , tanngap na ngayon na dapat na salamin ang klasipikasyon ng_mga karaniwan panaog sa prinsipyo Darwinian .
+tagal nang maging problema grupo sa biyolohiko suri ang_mga onggo : Noon una , turing sila bilang mga halaman .
+Sa isa ikli panahon , lagay ni Linnaeus ang_mga onggo sa taksong Vermes ng Animalia dahil_sa mali batid : sabi bulati ang_mga hyphae .
+Lagay niya agad ito balik sa Plantae .
+uri ni Copeland ang Onggo sa kanya Protoctista , gayon bahagya iwan ang problema ngunit kilala ang kanila espesyal na tayo .
+lutas sa huli ni Whittaker ang problema , nang bigay siya ng sarili hari sa five-kingdom system .
+Labas na mas lapit na ugnay ang_mga onggo sa mga hayop kaysa_sa mga halaman .
+Hanggang sa mga bago tuklas ang dulot sa atin upang aral ang_mga selula at mga mikroorganismo , mga bago grupo ng buhay ang bunyag , at buo ang larang ng cell biology at mikrobyolohiya .
+Orihinal na larawan ng hiwalay sa Protosoa ang_mga bago organismo na ito tulad_ng mga hayop at Protophyta / Thallophyta bilang mga halaman , ngunit sama ni Haeckel sa kanya hari Protista , hanggang sa ang_mga grupo naman ng prokaryotes ang hati sa hari Monera , sapit din na ng hari ito at hati sa dalawa hiwalay na grupo , ang Bacteria at ang Archaea , na hantong sa anim na hari sistema at sa tatlo dominyon sistema .
+hati rin ang_mga ‘ natitirang ’ protists sa mas liit na grupo sa mga clades ugnay_sa mas komplikado mga organismo .
+Si Thomas Cavalier-Smith , ang lathala ng lawak klasipikasyon ng_mga protists , kailan lamang mungkahi na ang Neomura , ang clade na dahil ng grupo ng Archaea at Eukarya , unlad mula_sa Bacteria, mas tiyak na mula_sa Actinobacteria .
+Bilang mikrobyolohiya , gawa biolohiya molecular at virology , tuklas ang non-cellular na ahente , kung minsan turing ito na buhay at turing na dominyo ng non-celluar na buhay na ngalan Acytota o Aphanobionta .
+At kaya tagtag ang lahat ng_mga una taksonomo na rango : Domain , Kingdom , Phylum , Class , Order , Family , Genus , at Species .
+Mula noon 1960’s isa hilig na tawag na cladistics ang litaw , ayos ang taxa sa isa ebolusyonaryo o phylogenetic na puno .
+Kung kabilang ang isa taxon ng lahat ng anak na nuno anyo , tawag ito monophyletic , laban_sa paraphyletic , mga grupo batay_sa mga tangi na unlad nang hiwalay at kung saan ang karaniwan nuno na hindi sama ay tawag na polyphyletic .
+Isa bago pormal na kodigo ng nomenklatura , ang PhyloCode , na palit ang ngalan ng " International_Code_of_Phylogenetic_Nomenclature " ( ICPN ) , lalim sa salukoy unlad , laan upang tungo sa mga clades , na hindi mayroon ng_mga rango , hindi tulad_ng mga kombensyunal na taksonomiya Linnaean .
+Hindi ito liwanag , ito man ay dapat tupad , kung paano buhay nang sama ang iba kodigo .
+
+
+

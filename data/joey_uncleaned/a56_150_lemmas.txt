@@ -1,0 +1,22 @@
+Sa may higit dami henerasyon , ang genomes ng organismo ay palit kaya ganap ang ebolusyon .
+Ang bago at pili ay halaga sa bago na sanhi ng uri upang bago sa iba uri o porma upang ligtas ito sa_ligid , ang proseso na tawag ay bagay .
+Mga bago mga uri ng organismo ay buo sa tulong ng proseso speciation , ang proseso na dahil ng heograpiko na hiwalay na payag iba ang populasyon na iba ang henetika .
+Sa iba ng sunod na palit sa proseso ng ebolusyon , ang iba sa sunod ay gamit sa molecular clock upang kalkula ang ebolusyon ng pagitan sa isa .
+Ang hambing ng genetic ay karaniwan turing na ang tama na daan ng characterizing at kapwa sa_pagitan ng_mga uri , isang buti sa_ibabaw ng minsan linlang na hambing ng tangi phenotypic .
+Ang pagitan ng ebolusyon sa mga uri ay maaari sama upang buo sa_gitna ang puno ng ebolusyon .
+Ang_mga puno na ito ay karaniwan turing na tama na representasyon ng kapwa , kahit na ang lipat ng genetic materyal sa_pagitan ng_mga hindi ugnay na uri ( kilala bilang " halang gene lipat " at karaniwan sa bakterya ) ay hindi maaari katawan sa_pamamagitan_ng puno .
+Bagamat ang_mga henetika ay orihinal na aral ng mana sa isa lawak na hanay ng_mga organismo , ang_mga saliksik ay mula sa aral ang_mga genetika ng isa partikular na subset ng_mga organismo .
+Ang totoo na ang kabuluhan saliksik ay iral para_sa isa bigay na organismo ay hikayat ang bago mga saliksik upang pili ang_mga ito para_sa dagdag aral , at sa gayon nang laon maging batay ang ilan mga " modelo organismo " para_sa dami ng genetika saliksik .
+bilang sa mga karaniwan paksa ng saliksik sa mga genetika ng organismo ng modelo ang aral ng gene regulasyon at ang lahok ng_mga genes sa unlad at kanser .
+Pili ang_mga organismo , bahagi nito ang para_sa ginhawa - ikli henerasyon ulit at bilis na manipula ng genetika ang dulot ng maging popular ng ilan organimso na mga sangkap sa saliksik ng genetika .
+bilang sa mga lawak na gamit na mga organismo ng modelo ang gat coli bacterium Escherichia , ang planta thaliana Arabidopsis sa , panaderya pampaalsa ( Saccharomyces cerevisiae ) , ang nematode na Caenorhabditis elegans , ang karaniwan bunga ng fly ( Drosophila melanogaster ) ay , at ang karaniwan bahay mouse ( Mus musculus ) .
+layon ng_mga medikal na saliksik ng genetika ang hanap at aral ang genetika sanhi ng_mga damdam ng tao .
+Kapag hanap para_sa isa hindi kilala gene na maaari sangkot sa isang sakit , karaniwan gamit ng_mga saliksik ang ugnay ng genetika at genetiko tsart ng angkan upang hanap ang lokasyon sa genome na ugnay sa sakit .
+Sa antas ng populasyon , samantala ng_mga saliksik ang Mendelian randomization upang hanap ng_mga lokasyon sa genome na ugnay sa sakit , isa daan na lalo kinabang para_sa mga multigenic na tangi hindi linaw na tukoy sa_pamamagitan_ng isang solo gene .
+Sa oras na tagpo ang isa kandidato gene , dalas gawa ang dagdag saliksik sa pareho gene ( tawag na orthologous gene ) sa mga modelo organismo .
+Bagaman dami mga paksa ng genetika saliksik ang mana sakit , turing din isa genetiko sakit ang kanser .
+Ang proseso ng unlad ng kanser sa katawan ay isa kumbinasyon ng_mga ganap .
+Minsan yari ang_mga mutatsyon sa_loob ng_mga cell sa katawan habang hati sila - habang hindi mana ang_mga mutasyon ito ng alinman anak , maaari nila apekto ang ugali ng_mga cell , na minsan dulot ng kanila dalas na lago at hati .
+May mga biological na mekanismo tangka tigil ang proseso ito - bigay ang_mga senyales upang hindi angkop na hati ang_mga cell na dulot ng patay , ngunit minsan yari ang dagdag mutasyon na dulot sa mga cell upang huwag pansin ang_mga mensahe ito .
+Isa loob na proseso ng natural selection ang yari sa_loob ng katawan at sa huli ipon ang_mga mutasyon sa_loob ng_mga cell upang sulong ang kanila sarili lago , na siya likha ng isa bukol na may kanser na laki at pasok ang iba mga tisyu ng katawan .
+
