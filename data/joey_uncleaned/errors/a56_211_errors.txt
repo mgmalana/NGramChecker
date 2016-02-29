@@ -1,4 +1,0 @@
-a56_211_lemmas.txt   Line: 33 | Lengths : 15,16,15
-                 Ang           munisipal                  na         pribilehiyo                  ay               tupad                  sa                 New           Amsterdam                noon               ika-2                  ng             Pebrero                  ng               1653.
-                 DTC                 NNC                 CCP                 NNC                  LM                VBTS                 CCT                 NNP                 NNP             RBW_CCP                 JJN                 CCB                 NNP                 CCB                 CDB                 PMP
-                 Ang           munisipal                  na         pribilehiyo                  ay             tinupad                  sa                 New           Amsterdam               noong               ika-2                  ng             Pebrero                  ng               1653.

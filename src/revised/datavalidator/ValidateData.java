@@ -14,8 +14,8 @@ public class ValidateData {
 
 	public static void main(String[] args) throws IOException {
 		// checkEachLineOfFiles();
-		createFiles();
-		// checkEachLinesAutoToFiles();
+		// createFiles();
+		checkEachLinesAutoToFiles();
 	}
 
 	public static void createFiles() throws IOException {
@@ -107,7 +107,7 @@ public class ValidateData {
 	}
 
 	public static void checkEachLineOfFiles() throws FileNotFoundException, IOException {
-		String path = "data/joey/";
+		String path = "data/joey_cleaned_with_slight_errors/";
 		File folder = new File(path);
 		File[] files = folder.listFiles();
 
