@@ -140,7 +140,7 @@ public class GrammarCheckerV2 {
 	}
 
 	public void runSubstitutionTest() throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(14);
+		Input testError = testErrorsProvider.getTestErrors().get(3);
 		FileManager fileManager = new FileManager(Constants.RESULTS_SUBSTITUTION);
 		fileManager.createFile();
 		System.out.println("Writing suggestions to file");

@@ -19,8 +19,11 @@ public class SubstitutionService {
 
 	public List<Suggestion> computeSubstitution(String[] inputWords, String[] inputLemmas, String[] inputPOS)
 			throws SQLException {
+		long startTime = System.currentTimeMillis();
 		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length);
 		System.out.println("Candidate N-grams Size: " + candidateRuleNGrams.size());
+		long endTime = System.currentTimeMillis();
+		System.out.println("Fetching candidate n-grams: " + (endTime - startTime) + "ms");
 		List<Suggestion> suggestions = new ArrayList<>();
 		for (NGram rule : candidateRuleNGrams) {
 			String[] rulePOS = rule.getPos();
