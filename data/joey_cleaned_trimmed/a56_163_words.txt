@@ -1,0 +1,31 @@
+Ayon_sa obserbasyon ng spectroscopic , ang_mga HH objects ay pinapakita na sila ay umuurong palayo sa pinagmulan na bituin sa bilis ng 100 hanggang 1000 na km/s .
+Kamakailan lamang , ang mataas na optical resolusyon ng Hubble Space Telescope observation ay ipinahayag ang tamang mosyon ng_mga HH objects ayon_sa obserbasyong ilang taon nang_hiwalay .
+Ang_mga obserbasyong ito ay nagbigay ng pagkakataon sa mga estimasyon ng_mga distansya ng_mga HH objects sa_pamamagitan_ng expansion parallax method .
+Habang umuusog sila palayo_sa pinaggalingang bituin , ang_mga HH objects ay nagkakaroon ng_mga makabuluhang rebolusyon , nag-iiba-iba sa liwanag sa timescales ng_mga ilang taon .
+Ang_mga indibiduwal knot sa_loob ng isang object ay maaaring lumiwanag , kumupas o mawala nang_tuluyan , samantalang ang_mga bagong knots naman ay napagkitaang lumilitaw . 
+Tulad din ng_mga pagbabagong sanhi ng interaksyon kasama ng ISM , interaksyon sa_pagitan ng_mga jet na umaandar sa iba’t_ibang bilis sa_loob ng HH objects ay nagdudulot din ng_mga kaibahan . 
+Ang_mga erupsyon ng_mga jet galing_sa mga pinanggalingang bituin ay nagaganap sa pulso sa halip na sa isang steady steam .
+Ang_mga pulso ay maaring gumawa ng jets of gas na gumagalaw sa iisang direksyon pero sa iba’t_ibang bilis , at ang interaksyon sa_pagitan ng iba’t_ibang jets ay bumubuo ng tinatawag na “ working surfaces , ” kung saan ang_mga daloy ng gas ay sumasalpok sa isa’t_isa at lumilikha ng_mga shock waves .
+Ang_mga bituin na nasa_likod ng paglikha ng Herbig-Haro objects ay napakabata pa lamang , ang pinakabata sa kanila ay isang protostar pa lamang na nasa proseso ng pagbuo ng_mga nakapaligid na gas .
+
+Ang_mga astronomo ay hinati ang_mga bituin na ito at nilagay sa iba’t_ibang mga klase 0 , I , II , at III , ayon ito sa kanilang ibinigay na infrared radiation .
+Ang mas mataas na infrared radiation ay nagpapahiwatig ng mas madaming cooler material na umaaligid sa bituin , na nagsasabing ito pa ay nagco-coalescing .
+
+Ang numbering ng_mga klase ay pumapailanglang dahil ang_mga 0 na klase ( pinakabata ) ay hindi pa madidiskubre hangga’t sa madiskubre ang_mga Class I , II , at III .
+
+Ang_mga class 0 objects ay nasa ilang libong taon gulang lamang , sobrang bata pa ay hindi pa nila napagdadaanan ng nuclear fusion reactions sa kanilang sentro .
+
+Sa halip , sila ay pinalakas ng gravitational potential energy lamang na pinapakawalan habang ang materyal ay nahuhulog sa kanila .
+Ang nuclear fusion ay nagsisimula sa kaibuturan ng_mga class 1 objects , ngunit ang gas at alikabok ay nahuhulog sa kanilang mga ibabaw ng galing_sa umaaligid na nebula .
+
+Sila ay kadalasang nakabalot sa mabigat na mga ulap at alikabok at gas , kung saan tinatakpan nito ang lahat ng_mga nakikitang ilaw at sinasabing ma-o-obserbahan lamang sila sa_pamamagitan_ng infrared at radio wavelengths .
+
+Ang paghulog ng_mga gas at alikabok ay inuubos sa class II objects , pero sila pa rin ay napapaligiran ng disk ng alikabok at gas , habang ang class III objects naman ay nag-iiwan lamang ng bakas ng kanilang mga orihinal na accretion disk .
+
+Ayon_sa pag-aaral , 80 % ng_mga bituin na nagbibigay litaw sa mga HH objects sa katunayan ay binary o multiple systems ( dalawa o higit pang mga bituin ay nag-o-orbit sa isa’t_isa . ) , kung saan mas mataas ang proporsyon kaysa_sa mga nahanap na mababa ang masa ng bituin sa pangunahing ayos .
+
+Ito ay nagsasabi na ang binary systems ay mas malamang lilikha ng_mga jet kung saan nagbibigay litaw sa HH objects , at ang_mga ebidensya na nagsasabi na ang_mga pinakamalaking HH outflows ay maaring mabuo kapag iilang sistema ay matibag .
+
+Laging inaakala na ang karamihan ng bituin ay bumubuo ng maramihang sistema , ngunit ang malaking bahagi ng praksyon ay natitibag bago nila maabot ang pangunahing ayos , sa_pamamagitan_ng gravitational interactions kasama ng_mga malalapit na mga bituin at mabibigat na ulap ng gas .
+
+

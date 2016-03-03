@@ -1,0 +1,18 @@
+Bagamat ang agham ng henetika ay nagmula sa gawa ni Gregor Mendel noong kalagitnaan ng 1800’s , sari-saring teorya ng pagmamana ay nagmula rin kay Mendel . 
+Ang_mga teoryang ito ay kabuuang nagpalagay na may namalagi na pagmamana ng taglay na katangian : ang paniniwala na ang bawat indibidwal ay nagmamana ng katangian na pinagtibay ng kanilang mga magulang . 
+Sa panahon ngayon , ang teoryang ito ay karaniwang nahahanay kay Jean-Baptiste Lamarck , na gumamit nitong pagpaparisan ng pagmamana upang ipaliwanag ang ebolusyon ng iba’t_ibang katangian na nasa isang klase ( ang_mga pagbabagong ito ay ngayon nang ginugunita na produkto ng natural na pamimili sa halip na produkto ng mababang uri ng pagmamana ) .
+Ang modernong agham ay binabakas ng pinagmulan nito mula_sa obserbasyon na ginawa ni Gregor Johann Mendel , isang German-Czech Augustnyano monghe at dalubhasa sa agham na gumawa ng pag-aaral ukol_sa kalikasan ng pagmamana sa mga halaman . 
+Sa kanyang papel “ Verchue_über_Pflanzenhybriden ” ( “ Mga experimento ukol_sa hybridization ng_mga halaman ” ) , ibinahagi ito noong 1865 sa Brunn Natural History Society , binakas ni Gregor Mendel ang pagmamana na may pagkakatulad sa isa’t_isa sa mga katangian ng pea plants at ipinakita na pwedeng mailarawan ito sa Matematika . 
+Bagamat hindi lahat ng katangian ay ipinapakita sa pagkakatulad ng Mendelian pagmana , dahil_sa kanyang gawa , na ipamungkahi na mayroong gamit ng statistics sa pag-aaral ng pagmamana .
+Ang kahalagahan ng obserbasyon ni Mendel ay ang maintindihan hanggang unahan ng ikadalawampu siglo , hanggang sa kanyang kamatayan , noong natagpuan ng_mga dalubhasa ang kanyang mga saliksik ukol_sa kanilang parehong problema . 
+Ang salita ay “ henetika ” sa kabuuan na linikha ni William Bateson , isang napakaimportante na dalubhasa sa gawa ni Mendel , sa isang liham kay Adam Sedgwick . 
+( Ang panguring “ henetika ” , na nangaling sa salitang Greeko “ genno ” yEvvw : upang bugyang kapanganakan , hulaan ang pangalan at petsa noong 1830’s ; ang unang paggamit ng biological sense noong 1859 , sa pamumuno ni Charles Darwin sa The_Origin_of_Species . )
+Si Bateson ang sumulong sa publiko at naglaganap ng salitang “ henetika ” para mailarawan ang pag-aaral ng pagmamana sa kanyang talumpati sa Third International Conference_on_Plan_Hybridization sa_London , England , noong 1906 .
+Lumipas ang_mga dekada at ang pagtuklas muli at ang pagsikat ng_mga gawa ni Mendel , maraming mga experimento ang sumubok upang maintindihan ang base ng DNA .
+1910 , si Thomas Hunt Morgan humimok na ang henetika ay taglay sa kromosomas , base_sa kanyang pagmamasid sa pagtatalik ng puting mata mutation sa mga langaw sa prutas . 
+Noong 1913 isa sa kanyang mga estudyante na si Alfred Sturtevant gumamit ng kahanga-hangang lingkahe ng henetika at halaga ng magkaugnay na rekombinasyon upang maipakita at mapa ng diretsong ayos ng genes sa_pamamagitan_ng kromosoma .
+Bagamat kromosomas ay kilalang nagtataglay ng genes , ang kromosomas ay binubuo ng parehong protina at DNA – hindi ito kilala na naging kritikal naman para_sa pagmamana o sa kung paano nabuo ang proseso . 
+Noong 1928 , si Fredderick Griffith ay naglimbag ng tungkol_sa kanyang mga pagtuklas ukol_sa kababalaghan ng transpormasyon ( tingan ang_mga eksperimento ni Griffith ) ; makaraan ang labing-anim na taon , noong 1944 , sina Oswald Theodore Avery , Colin McLeod at Maclyn McCarty ay gumamit ng kababalaghan upang ibukod at kilalanin ang molekyul na responsable sa transpormasyon bilang DNA . 
+Ang eksperimentong Hershey-Chase noong 1952 kinilala ang DNA ( sa halip na isang protina ) bilang henetik na materyal ng virus , bukod pa sa ebidensya na ang DNA ay ang molekyul na responsable sa pagmamana .
+
+

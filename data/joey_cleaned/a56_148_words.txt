@@ -1,0 +1,24 @@
+Ang_mga genes ay nakaayos nang linyar sa_tabi ng mahabang kawing ng pagkakasunod-sunod ng DNA na tinatawag na kromosom .
+Sa bakterya , ang bawat selula ay nagtataglay ng isang pabilog na kromosom , habang ang organismong eukaryotic ( kung saan nabibilang ang_mga halaman at hayop ) ay may DNA na nakaayos sa maramihang linyar kromosom .
+Ang_mga hibla ng DNA ay kalimitang mahaba ; ang pinakamalaking kromosom ng tao , halimbawa , humigit kumulang sa 247 milyong pundasyong paris ng haba .
+Ang DNA ng kromosom ay kaugnay sa istraktural na protina na nagaayos , nagsisiksik at nagkokontrol sa daanan tungo_sa DNA , na bumubuo ng mateyal na tinatawag na chromatin ; sa eukaryotes chromatin ay kadalasang binubuo ng nucleosomes , inuulit ang_mga yunit ng DNA sa_paligid ng histone na protina .
+Ang buong pangkat ng pagmamanang materyal sa isang organismo ( kadalasan ang pinagsamang pagkakasunod-sunod ng DNA ng lahat ng kromosom ) ay tinatawag na “ genome ” .
+Habang ang haploid na mga organism ay mayroon lamang isang kopya ng bawat kromosom , karamihan ng hayop at halaman ay diploid , na nagtataglay ng dalawang kopya ng bawat kromosom at dalawang kopya ng bawat gene .
+Ang dalawang allele para_sa gene ay matatagpuan sa kaparehong loci ng kapatid na chromatids , ang bawat allele ay namana mula_sa magkaibang magulang .
+Ang kataliwasan ay nabubuo sa sekswalidad na kromosom , spesyalisadong kromosom na taglay ng maraming hayop ay umunlad na nakikisalo sa papel sa pagtukoy ng sekswalidad ng organismo .
+Sa mga tao at ibang mammals , ang Y na kromosom ay may kaunting genes at nag-uudyok sa pag-unlad ng lalaking sekswal na katangian habang ang X kromosom ay pareho sa isa pang kromosom at nagtataglay ng maraming genes na di kaugnay sa pagtukoy ng sekswalidad .
+Ang_mga babae ay mayroong dalawang kopya ng X kromosom subalit ang_mga lalaki ay mayroong isang Yat isang X kromosom – ang pagkakaiba nito sa X kromosom sa kopya ng numero ay nag-uugat sa hindi karaniwang pagmamana ng patern ng sekswal na kaugnay na karamdaman .
+Kapag ang_mga selula ay nahati , ang buong genome ay nakokopya at ang bawat anak na cell ay nagmamana ng isang kopya .
+Ito ang pinakasimpleng porma ng pagpaparami at ang basehan ng asekswal na pagpaparami .
+Ang asekswal na pagpaparami ay maaari ring lumabas sa organismong maraming cell na laging bumubuo ng anak na nagmamana ng buong kopya ng isang magulang na genome .
+Kapag ang asekswal na pagpaparami ay lumabas , ang anak na organismo ay “ clones ” habang sa kanilang pagkamit ng parehong henetikong materyal bilang mga magulang .
+Ang_mga eukaryotikong organism ay kalimitang gumagamit ng sekswal na pagpaparami upang lumikha ng anak na nagtataglay ng pinaghalong materyal na minana mula_sa dalawang magkaibang magulang .    
+Ang proseso ng sekswal na pagpaparami ay karaniwang nagsasalit sa_pagitan ng porma kung saan nagtatagal ng isang kopya ng genome ( haploid ) at dobleng kopya ng ( diploid ) .
+Ang_mga haploid na selula ay pinagsasama at pinaghahalo ang henetikong materyal upang bumuo ng selulang diploid na may kapares na kromosom .
+Ang_mga diploid na organismo ay bumubuo ng haploids sa_pamamagitan_ng paghahati , na hindi dinodoble ang DNA upang makabuo ng selulang anak na sapalarang nagmamana ng isa sa bawat pares ng kromosom . 
+Karamihan ng_mga hayop at mga halaman ay diploid para_sa karamihan ng kanilang buhay , kung saan ang haploid na porma ay binawasan tungo_sa isang selulang gametes . 
+Bagamat hindi sila gumagamit ng haploid / diploid na pamamaraan ng sekswal na pagpaparami , ang bakterya ay may maraming paraan ng pagkamit ng bagong henetikong impormasyon . 
+Ang ibang bakterya ay pumapasailalim sa konjugasyon , nililipat ang maliit na pabilog na pyesa ng DNA sa ibang bakteryum .
+Ang bakterya ay maaari ring kumuha ng hilaw na fragments ng DNA na matatagpuan sa_kapaligiran at pagsamahin sila sa kanilang genome , isang penomenon na kilala bilang transpormasyon .
+Ang prosesong ito ay nagreresulta sa pahalang na paglipat ng gene , pagpapadala ng fragments ng henetikong impormasyon sa_pagitan ng organismo na sa_kabilang_dako ay hindi kaugnay .
+
