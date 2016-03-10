@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import revised.dao.DatabaseConnector;
+import v3.dao.DatabaseConnector;
 
 public class InvertedFilesDao {
 	Connection conn;

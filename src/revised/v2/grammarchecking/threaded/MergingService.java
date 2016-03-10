@@ -1,5 +1,0 @@
-package revised.v2.grammarchecking.threaded;
-
-public class MergingService {
-
-}

@@ -1,0 +1,8 @@
+s12_espiritu_lemmas.txt   Line: 8 | Lengths : 18,17,18
+              halaga                  ng               higit                  pa            kaysa_sa              normal                  TV              ngunit                  ay                 mas                dami               gamit                nito                                     ang                 isa                HDTV                   .
+                VBTR                 CCB                JJCC                 RBI                 JJC                 JJD                NNPA                 CCT                  LM                JJCC             JJD_CCP                VBTR                 PRO                 DTC             PRI_CCP                NNPA                 PMP
+       Nagkakahalaga                  ng               higit                  pa            kaysa_sa              normal                  TV              ngunit                  ay                 mas            maraming           gumagamit                nito                                     ang               isang                HDTV                   .
+s12_espiritu_lemmas.txt   Line: 11 | Lengths : 0,1,0
+
+                    
+
