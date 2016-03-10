@@ -14,21 +14,20 @@ public class ValidateData {
 
 	public static void main(String[] args) throws IOException {
 		// checkEachLineOfFiles();
-		// createFiles();
-		checkEachLinesAutoToFiles();
+		createFiles();
+		// checkEachLinesAutoToFiles();
 	}
 
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/";
-		String[] filenames = { "170", "171", "172", "175", "176", "177", "178", "179", "180", "137", "138", "139",
-				"140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "163", "164", "165", "166",
-				"167", "168", "169" };
+		String[] filenames = { "abad", "adriano", "bacani", "bautista", "chua", "demabildo", "dy", "aguilar",
+				"espiritu" };
 
 		for (String f : filenames) {
-			File fileWord = new File(path + "a56_" + f + "_words.txt");
-			File fileTag = new File(path + "a56_" + f + "_tags.txt");
-			File fileLemm = new File(path + "a56_" + f + "_lemmas.txt");
+			File fileWord = new File(path + "s12_" + f + "_words.txt");
+			File fileTag = new File(path + "s12_" + f + "_tags.txt");
+			File fileLemm = new File(path + "s12_" + f + "_lemmas.txt");
 			if (!fileWord.exists())
 				fileWord.createNewFile();
 			if (!fileTag.exists())

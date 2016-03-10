@@ -1,5 +1,7 @@
 package revised.v2.grammarchecking.threaded;
 
+import revised.model.Suggestion;
+
 public class GrammarChecker {
 
 	public static void main(String[] args) {
@@ -9,6 +11,11 @@ public class GrammarChecker {
 		// In each service, there can be threads that handle each n-gram
 		// separately. ex. Kumain si Juan (bigram 1 handled by thread 1, and
 		// bigram 2 handled by thread 2)
+	}
+
+	public static Suggestion[] checkGrammar(String inputWords, String inputPOS, String inputLemmas) {
+
+		return null;
 	}
 
 }
