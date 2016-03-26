@@ -21,8 +21,8 @@ public class ValidateData {
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/";
-		String[] filenames = { "abad", "adriano", "bacani", "bautista", "chua", "demabildo", "dy", "aguilar",
-				"espiritu" };
+		String[] filenames = { "flores_joshua", "flores_rey", "holmes", "ibanez", "lalic", "laxa", "laxamana", "li",
+				"lim", "magsaysay", "malaki", "manacmol", "monzon" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + "s12_" + f + "_words.txt");
@@ -38,7 +38,7 @@ public class ValidateData {
 	}
 
 	public static void checkEachLinesAutoToFiles() throws FileNotFoundException, IOException {
-		String path = "data/joey_cleaned_with_slight_errors/";
+		String path = "data/joey_with_alignment_errors/";
 		File folder = new File(path);
 		File[] files = folder.listFiles();
 

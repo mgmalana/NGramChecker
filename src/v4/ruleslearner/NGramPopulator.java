@@ -19,7 +19,7 @@ public class NGramPopulator {
 
 	public void populateNGrams() {
 
-		File folder = new File(Constants.JOEY_TRAINING);
+		File folder = new File(Constants.FEEDING_TO_SQL);
 		File[] files = folder.listFiles();
 
 		List<File> lemmaFiles = new ArrayList<>();
@@ -35,12 +35,9 @@ public class NGramPopulator {
 				wordFiles.add(f);
 		}
 
-		for (int i = 0; i < lemmaFiles.size(); i++) {
-			File lem = lemmaFiles.get(i);
-			File pos = posFiles.get(i);
-			File word = wordFiles.get(i);
+		for (int ngramSize = 1; ngramSize <= 7; ngramSize++) {
 
-			NGramPopulatorThread t = new NGramPopulatorThread(word, pos, lem);
+			NGramPopulatorThread t = new NGramPopulatorThread(wordFiles, posFiles, lemmaFiles, ngramSize);
 			t.start();
 		}
 	}
@@ -48,14 +45,16 @@ public class NGramPopulator {
 
 class NGramPopulatorThread extends Thread {
 
-	private File word;
-	private File pos;
-	private File lem;
+	List<File> wordFiles;
+	List<File> posFiles;
+	List<File> lemmaFiles;
+	private int ngramSize;
 
-	public NGramPopulatorThread(File word, File pos, File lem) {
-		this.word = word;
-		this.pos = pos;
-		this.lem = lem;
+	public NGramPopulatorThread(List<File> wordFiles, List<File> posFiles, List<File> lemmaFiles, int ngramSize) {
+		this.wordFiles = wordFiles;
+		this.posFiles = posFiles;
+		this.lemmaFiles = lemmaFiles;
+		this.ngramSize = ngramSize;
 	}
 
 	@Override
@@ -64,19 +63,21 @@ class NGramPopulatorThread extends Thread {
 		BufferedReader sourceSentencesReader;
 		BufferedReader sourceTagsReader;
 
+		NGramDao ngramDao = DaoManager.getNGramDao(ngramSize);
+		POS_NGram_Indexer indexer = DaoManager.getIndexer(ngramSize);
+
 		try {
-			sourceSentencesReader = new BufferedReader(new FileReader(word.getAbsolutePath()));
-			sourceLemmasReader = new BufferedReader(new FileReader(lem.getAbsolutePath()));
-			sourceTagsReader = new BufferedReader(new FileReader(pos.getAbsolutePath()));
+			for (int n = 0; n < lemmaFiles.size(); n++) {
+				File wordFile = wordFiles.get(n);
+				File lemmaFile = lemmaFiles.get(n);
+				File posFile = posFiles.get(n);
 
-			System.out.println(word.getName() + " " + pos.getName() + " " + lem.getName());
+				sourceSentencesReader = new BufferedReader(new FileReader(wordFile.getAbsolutePath()));
+				sourceLemmasReader = new BufferedReader(new FileReader(lemmaFile.getAbsolutePath()));
+				sourceTagsReader = new BufferedReader(new FileReader(posFile.getAbsolutePath()));
 
-			NGramDao ngramDao;
-			POS_NGram_Indexer indexer;
-
-			for (int ngramSize = 1; ngramSize <= 7; ngramSize++) {
-				ngramDao = DaoManager.getNGramDao(ngramSize);
-				indexer = DaoManager.getIndexer(ngramSize);
+				System.out.println(
+						ngramSize + " " + wordFile.getName() + " " + lemmaFile.getName() + " " + posFile.getName());
 
 				String l, s, p;
 
@@ -100,9 +101,11 @@ class NGramPopulatorThread extends Thread {
 						indexer.add(ngramPos, id);
 					}
 				}
-
 			}
-		} catch (IOException | SQLException e) {
+
+		} catch (IOException | SQLException e)
+
+		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
