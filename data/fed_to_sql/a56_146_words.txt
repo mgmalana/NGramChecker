@@ -1,0 +1,23 @@
+Niresolba nina James D. Watson at Francis Crick ang estraktura ng DNA noong 1953 , gamit ang X-ray crystallography na gawa ni Rosalind Franklin na naglahad na ang molekyul ay nagkaroon ng helikal na estruktura . 
+Ang kanilang modelong double-helix ay nagpares ng pagkakasunod-sunod ng nucleotides na mayroong “ kapupunan ” sa kabilang hibla .
+Ang estrukturang ito ay hindi lamang nagbigay ng pisikal na eksplanasyon para_sa impormasyong nilalaman na nasa ayos ng_mga nucleotides , kundi pati na rin ang pisikal na mekanismo para_sa pagduplika sa_pamamagitan_ng paghihiwalay ng_mga hibla at rekonstruksyon ng kaparehong hibla base_sa pagpaparis ng nucleotide .
+Bagama’t ang estruktura ay nagpaliwanag ng proseso ukol_sa pagmamana , hindi pa rin alam kung paano naimpluwensyahan ng DNA ang galaw ng cells .
+Sa mga sumunod na taon , maraming mga sientipiko ang naghangad na maunawaan kung paano na nakokontrol ng DNA ang proseso ng produksyon ng protina sa_loob ng ribosomes , sa huli ay nadiskubreng ang transkripsyon ng DNA sa RNA at pagtuklas sa henetikang kodigo na siya namang nag-uugnay sa ayos ng nucleotide ng RNA tungo_sa asidong aminong ayos ng protina .
+Sa_pamamagitan nitong molekyular na pag-unawa sa DNA , ang pagsabog ng_mga pag-aaral base_sa pag-unawa sa natural na molekyular ng DNA ay naging posible . 
+Ang pag-unlad ng chain-termination DNA na pag-aayos noong 1977 ay nagpagana sa determinasyon ng nucleotide na ayos sa DNA , at ang PCR na paraan na pinaunlad ni Kary Banks Mullis noong 1983 ay inaprubahan ang paghihiwalay at paglaki ng nagkataong segmento ng DNA .
+Ang_mga ito at ang iba pang mga pamamaraan , sa_pamamagitan_ng pagsisikap ng Human Genome Project at ang kasabay na sariling pagsisikap ni Celera Genomics , nagkulmina sa pagkakaayos ng human genome noong 2001 .
+Sa pinakasaligang antas , ang pagmamana sa mga organismo ay lumalabas sa_pamamagitan_ng diskretong katangian , tinatawag na “ genes ” . 
+Ang katangiang ito ay nauna nang naobserbahan ni Gregor Mendel , na siyang nag-aral ukol_sa segregasyon ng namamanang katangian ng halamang gisantes . 
+Sa kanyang mga eksperimentong pag-aaral sa katangian ng kulay ng bulaklak , naobserbahan ni Mendel na ang_mga bulaklak ng bawat gisantes na halaman ay alinman sa lila o puti – at hindi kailanman ang intermidyet sa_pagitan ng dalawang kulay . 
+Ang_mga ganitong pagkakaiba , diskretong bersyon ng parehong gene ay tinatawag na “ alleles ” .
+Sa kaso ng_mga gisantes na halaman , ang bawat organismo ay nagtataglay ng dalawang alleles ng bawat gene , at ang_mga halaman ay nagmamana ng isang allele mula_sa bawat magulang . 
+Maraming organismo , kasama na dito ang_mga tao , ay mayroon nitong modelo ng pagmamana . 
+Ang_mga organismong mayroong dalawang kopya ng parehong allele ay tinatawag na “ homozygous ” , habang ang_mga organismong may dalawang magkaibang alleles ay tinatawag na “ hetterozygous ” .
+Ang pangkat ng alleles para_sa isang ibinigay na organismo ay tinatawag na genotype , habang ang katangian na mayroon ang isang organismo na maaaring maobserbahan ay tinatawag na “ phenotype ” .
+Kapag ang_mga organismo ay heterozygous , kailimitan ang isang allele ay tinatawag na “ nangingibabaw ” bilang kalidad nito “ mangibabaw ” ang phenotype ng organismo , samantalang ang isa naman allele ay tinatawag na “ umuurong ” bilang kalidad nito “ urong ” at hindi naoobserbahan .
+Ang nangingibabaw na mga alleles ay madalas na pinaiikli na may malaking titik .
+Ang ibang alleles ay walang kumpletong pangingibabaw at sa halip ay di kumpletong pangingibabaw sa_pamamagitan_ng paglalahad ng intermidyet phenotype , o codominance sa_pamamagitan_ng pagpapahayag ng parehong alleles agad-agad .
+Kapag ang isang paris ng organismo ay nagpaparami sa sekswal na pamamaraan , ang kanilang kalalabasang anak ay magmamana ng isa sa dalawang alleles mula_sa bawat magulang . 
+Ang kalalabasan ng ganitong pagpaparis ay maaaring ipakita sa paggamit ng Punnet square .
+Ang_mga ganitong obserbasyon ng diskretong pagmamana at ang segregasyon ng_mga allele ay sama-samang kinikilalang “ Unang tuntunin ni Mendel ” o “ tuntunin ng segregasyon ” .
+
