@@ -30,7 +30,6 @@ public class CandidateNGramsService {
 	public List<NGram> getCandidateNGrams(String[] pos, int nGramSizeOfCandidates) throws SQLException {
 		NGramDao ngramDao = DaoManager.getNGramDao(nGramSizeOfCandidates);
 		POS_NGram_Indexer indexer = DaoManager.getIndexer(nGramSizeOfCandidates);
-
 		String[] uniquePOS = getUniquePOS(pos);
 		HashMap<Integer, Integer> instancesFrequency = new HashMap<>();
 		for (String p : uniquePOS) {
@@ -48,7 +47,9 @@ public class CandidateNGramsService {
 			Map.Entry<Integer, Integer> entry = iter.next();
 			if (entry.getValue() >= uniquePOS.length - 2) {
 				int id = entry.getKey();
-				candidateNGrams.add(ngramDao.get(id));
+				NGram n = ngramDao.get(id);
+				if (n != null)
+					candidateNGrams.add(ngramDao.get(id));
 			}
 		}
 
