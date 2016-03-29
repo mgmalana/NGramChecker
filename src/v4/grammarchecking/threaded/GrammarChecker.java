@@ -17,7 +17,7 @@ import v3.test.TestErrorsProvider;
 public class GrammarChecker {
 
 	static TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
-	static SubstitutionService substitutionService = new SubstitutionService();
+	static SubstitutionService substitutionService;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -57,6 +57,7 @@ public class GrammarChecker {
 				// if (ngramSize <= 6)
 				// suggestionIns = insertionService.computeInsertion(wArr, lArr,
 				// pArr);
+				substitutionService = new SubstitutionService();
 				substitutionService.setInputValues(wArr, lArr, pArr, ngramSize);
 				substitutionService.start();
 				substitutionService.join();
@@ -65,6 +66,8 @@ public class GrammarChecker {
 				// if (ngramSize >= 3)
 				// suggestionsDel = deletionService.computeDeletion(wArr, lArr,
 				// pArr);
+
+				boolean hasGoodSuggestion = false;
 
 				for (Suggestion s : suggestionsSub) {
 					String[] arrSugg = new String[wArr.length];
