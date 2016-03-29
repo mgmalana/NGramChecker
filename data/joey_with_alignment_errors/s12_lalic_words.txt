@@ -1,0 +1,90 @@
+Ang Roche limit , na minsang tinatawag na Roche radius , ang distansiya sa_loob ng isang celestial body , na pinagsasama-sama naman ng sarili nitong gravity , na masisira naman dahil_sa isa pang celestial body na nagtataglay ng isang mas malakas na gravitation sa sarili . 
+Sa_loob ng Roche limit , magbibitak-bitak at bubuo ng malasingsing na itsura ang umiikot na bagay , habang nasa_labas ng limit , magsasama-sama ang nasabing bagay .
+Hinango sa pangalan ni Edouard Roche na isang French astronomer na unang nakagawa nitong theoretical limit noong 1848 ang termino .
+Sa madalas na mga pagkakataon , maisasabuhay ang Roche limit sa mga satellite na nasisira dahil_sa mga tidal force na naging dahilan naman ulit ng primary nito , ang katawang iniikutan nito .
+Kayang umikot sa_loob ng Roche limit ang_mga satellite , parehong gawa ng kalikasan at gawa ng tao , dahil pinagsasama-sama ang_mga ito ng_mga puwersang liban sa gravitation .
+Metis , ang buwan ng Jupiter at Pan , ang buwan ng Saturn , ang_mga halimbawa ng_mga ganitong mga satellites , buo sila at magkakasama pa dahil_sa kanilang tensile strength .
+Sa mga matitinding kalagayan , matatangay ang_mga bagay na nakapatong sa_ibabaw ng satellite ng tidal forces .
+Maaaring madurog ang isang mahinang satellite na katulad_ng isang kometa kapag dumaan ito sa Roche limit .
+At dahil kayang pangibabawan ng tidal forces ang gravity sa_loob ng Roche limit , walang malaking satellite ang kayang mamuo mula_sa mga mas maliliit na particles sa_loob ng nasabing limit .
+Totoong-totoo , halos lahat ng nadiskubreng mga singsing ng_mga planeta ay nasa kanilang mga Roche limit ( Ang E-Ring ng Saturn ay isang natatanging exemption ) .
+Tag 2585
+Maaaring ang_mga ito ang_mga tira-tira na nanggaling sa proto-planetary accretion disc ng planeta na nabigo sa pagbuo upang maging moonlets , o sa kabaligtaran na mamuo nang dumaan ang isang buwan sa kapaligiran ng Roche limit at masira .
+Dumidipende sa tibay ng satellite ang Roche limit .
+Sa isang pagkakataon , mapapanatili ng isang tunay na matibay na satellite ang hugis nito hanggang sirain ito ng tidal forces .
+Sa isa pang naiibang pagkakataon , nawawalan ng porma ang isang matubig na satellite at nagbibigay-daan upang tumaas ang tidal forces , at kasunod dito ang paghaba ng satellite , at ang compounding ng tidal forces at dahil_sa mga ito kaya masisira ang satellite .
+Madalas nasa_pagitan ng dalawang kondisyon ang karamihan sa mga tunay na satellite , may internal friction , lapot , at tensile strength na nagdadahilan sa hindi nito pagiging perpektong matibay at hindi rin perpektong matubig .
+Upang makalkula ang matibay na katawan ng Roche limit para_sa spherical satellite , nilimot muna ang dahilan ng pagiging matibay nito bagkus pinalitan na lamang ng pag-iisip na kayang panatiliin ng katawan ang spherical shape nito habang pinagsasama-sama ito ng sariling self-gravity .
+Isinawalang-bahala muna ang ibang mga epekto , tulad_ng tidal deformation ng primary , ang pag-ikot ng satellite , at ang iregular na hugis nito .
+Sobrang pinasimple ang kalkulasyon ng Roche limit nitong mga hindi makatotohanang mga pag-iisip .
+Ang Roche limit , para_sa matibay at spherical na satellite na ____ ang umiikot sa spherical primary kung saan ___ ang radius ng primary , _____ ang density ng primary , at ____ ang density ng satellite .
+Pansining kapag doble ang density kaysa_sa primary ng satellite ( katulad na lamang ng sitwasyon ng isang mabatong buwan sa isang gas giant ) mapapaloob naman sa primary ang Roche limit at magiging hindi mahalaga .
+Upang malaman ang Roche limit , iisipin nating ang isang maliit na bagay _______ sa_ibabaw ng satellite na pinakamalapit sa primary .
+Mayroong dalawang puwersa sa bagay na ito : ang gravitational pull palapit_sa satellite at ang gravitational pull papunta_sa primary .
+Dahil nasa orbital free fall sa_paligid ng primary ang satellite , ang tidal force naman ang natatanging maaasahan na gravitational attraction ng primary .
+Maaaring ipahayag ang gravitational pull _____ sa bagay na _____ palapit_sa satellite na may bigay na _____ at radius _____ sa_pamamagitan_ng Newton’s law_of_gravitation .
+Maaaring ipahayag ang tidal force ____ sa bagay na ____ palapit_sa primary na may radius ____ at layong _______ mula_sa mga gitna ng dalawang katawan na medyo malapit sa katotohanan bilang
+Maaabot ang Roche limit kapag balanse na ang gravitational force at ang tidal force sa isa’t_isa .
+Ngunit , hindi talaga natin gustong makita ang radius ng satellite sa mga termino ng limit , kaya isusulat natin muli ito sa mga termino ng densities .
+Sa pagpapalit ng halaga ng_mga bagay sa equation para_sa Roche limit , aalisin natin ang_mga ito at magbibigay sa atin ng ____
+Sa pagkakalkula ng Roche limit isang mas tugmang pagtingin sa realidad ang pagkuha ng deformation ng satellite .
+Maaaring maging isang magandang halimbawa ang tidally locked liquid satellite na umiikot sa planeta , kung saan kayang baguhin ang hugis ng kahit anong puwersa na tatama sa satellite na ito ( papunta_sa pagiging prolate spheriod ) .
+Komplikado ang kalkulasyon at hindi maaaring isimbolo bilang algebraic formula ang resulta .
+Makakalkula ang numerical factor sa tulong ng computer .
+Nararapat sa mga katawang hindi mahigpit ang pagkakasama ang fluid solution tulad na lamang ng kometa .
+Sa isang pagkakataon , dumaan sa_paligid ng Jupiter at sa Roche limit nito ang nabubulok na orbit ng kometang Shoemaker-Levy 9 noong Hulyo taong 1992 , at naging dahilan nito upang magbitakbitak sa mas maliliit na mga piraso .
+Sa susunod nitong pagdating sa taong 1994 tatama na sa planeta ang_mga piraso .
+Tag - 2585
+Unang napagmasdan si Shoemaker-Levy 9 noong taong 1993 , ngunit nagbigay-tatak na nakuha na ng Jupiter ang orbit nito mga ilang dekada na ang nakalipas .
+Mas mahina kaysa_sa mas matigas ang fluid satellite , matutukoy ang satellite nang may mga mas madaling pag-iisip .
+Una , isiping binubuo ang bagay ng incompressible fluid na mayroong constant density na _____ at volume ___ na hindi dumidipende sa external o internal forces .
+Ikalawa , isiping gumagalaw ang satellite sa isang pabilog na orbit at nananatili ito sa maayos nitong pag-ikot .
+Ibig sabihin nito ang angular speed ____ na umiikot sa_gitna ng bagay ay kaparehas ng angular speed na kung saan umiikot ito sa overall system barycenter .
+Kapag mas malaki ang M kaysa m , magiging malapit ito sa
+Pinapatunay lamang na hindi ito gumagalaw at maaaring masabi na hindi ito nagbabago ng problema kapag masasabing hindi nababago ang paraan ng pag-ikot ng liquid .
+Kaya masasabi nating hindi gumaganap ng kahit anong tungkulin ang lapot at ang friction ng liquid sa model na ito , dahil gumaganap ng papel sa isang gumagalaw na fluid ang_mga katangiang ito .
+Dahil konserbatibo ang lahat ng_mga puwersang ito , maaari silang maipahayag sa_pamamagitan_ng potensyal .
+Nasasaad din , equipotential ang ibabaw ng satellite .
+Naiiba naman , magbibigay ang_mga pagkakaiba ng potensiyal ng pagtaas ng_mga puwersa at paggalaw sa ibang parte ng liquid sa_ibabaw nito , na bumabaliktad naman sa static model assumption .
+Binigay na ang layo mula_sa pangunahing katawan , ang pag-alam ng porma ng ibabaw na pumupuna sa equipotential na kondisyon ang ating problema .
+Habang iniisip na bilugan ang orbit , alam natin na nakakansela ang pangkalahatang gravitational force at ang centrifugal force na tumatama sa main body .
+Kaya masasabi nating ang tidal force ang puwersa na siyang umaapekto sa particles ng liquid , na dumidipende sa posisyon habang binibigyang pansin ang gitnang parte ng bagay ( nabigyan ng pansin sa matigas na modelo ) .
+Sa mga maliliit na katawan , maliit lamang ito kung ikukumpara sa layong d sa main body ang distansiya ng liquid particles mula sa_gitna ng katawan .
+Kaya maaaring linearized ang tidal force , na nagreresulta sa parehong formula para_sa FT katulad_ng ibinigay sa_taas .
+Habang dumidipende lamang sa radius r ng satellite ang puwersang ito na nasa matigas na modelo , sa_loob ng fluid case kailangan naman nating bigyang pansin ang lahat ng points sa_ibabaw at ang tidal force na dumidipende sa distansya ?d na mula_sa gitna ng bagay papunta_sa isang ibinigay na particle na itinahak sa linyang sumasama sa satellite at sa main body .
+Tinatawag nating ?d ang radial distance ( tingnan ang litrato )
+Dahil linear ang tidal force sa ?d , proportional ang related potential sa square ng variable at para _____ meron tayong
+Gusto nating malaman ang hugis ng satellite na ang resulta ng pagsasama ng dalawa ng self-gravitation potential at ang constant sa_ibabaw ng katawan na ______ .
+Sa pangkalahatan , sobrang hirap solusyonan ang ganitong uri ng problema , ngunit sa ganitong sitwasyon , maaari itong maresolbahan gamit ang isang mahusay na hula dahil_sa square dependence ng tidal potential sa radial distance ?d .
+Dahil naiiba ang potential VT sa isang direksyon lamang ( katulad_ng direksyon patungo_sa main body ) maaaring asahang kumuha ng axially symmetric form ang satellite .
+Mas tutugma , maaari nating isiping katulad ito ng isang buong pag-ikot .
+Kayang dumipende lamang sa radial distance sa_gitna ng bagay ang self-potential sa_ibabaw ng katulad noong sa solid_of_revolution .
+Tunay nga na isang disc na inakala nating isang bilog ng constant potential ang pagsalubong ng satellite at ng plane na perpendicular sa linya na nagsasama sa mga katawan .
+Dapat constant ang pagitan ng self-gravitation potential at ng VT , dapat dumepende ang parehong mga potential sa parehong paraan sa ?d .
+Sa ibang salita , dapat maging proportional ang self-potential sa square ng ?d .
+Tapos kaya na itong ipakita sa equipotential solution bilang ellipsoid ng revolution .
+Dapat matukoy ang walang dimensyong function f mula_sa isang malapit na solusyon para_sa potential ng ellipsoid ____ at , tunay na nakakagulat , hindi dumidipende sa volume ng satellite .
+Kahit na nagmumukhang komplikado ang explicit form ng function f , malinaw na kaya at gagawin nating piliin ang value ng e upang maging kapareho ng potential VT ang sa VS dagdagan pa ng constant independent ng variable ?d .
+Sa pagmamasid , mangyayari ito kapag
+Madaling sagutan numerically ang equation na ito .
+Isinasaad ng graph na mayroong dalawang solusyon at nangunguhulugang inirerepresenta ng mas maliit ang stable equilibrium form ( ang ellipsoid na may mas maliit na eccentricity ) .
+Inaalam ng solusyong ito ( eccentricity ng ) tidal ellipsoid bilang function ng distansiya papunta_sa main body .
+Mayroong derivative na zero ang function f kung saan nakakamit ang maximal eccentricity .
+Tumutugma ito sa Roche limit .
+Mas tugma , nalalaman ang Roche limit sa katotohanang ang function f , kung saan iniisip bilang ( nonlinear ) haba ng puwersa na umiipit sa ellipsoid papunta_sa isang spherical na hugis , kung saan nagiging maximal ang contracting force kapag nabakuran ang eccentricity .
+Dahil tumataas ang tidal force kapag sinasalubong ng satellite ang main body , malinaw ito na mayroong kritikal na distansiya kung saan napupunit ang ellipsoid .
+Sa mga termino ng_mga numero makakalkula ang maximal eccentricity habang zero ang derivativeng f’ ( tingnan ang diagram ) .
+Nakakamtan ng isa ang _____ kung saan sumasagot ito sa ratio ng ellipsoid axes 1:1.95 .
+Sa pagpasok nito sa formula para_sa function f maaari nating malaman ang minimal na distansiya na kung saan mayroon pang ellipsoid .
+Ito ang Roche limit .
+Ang talahanayan sa_ibaba ang nagpapakita ng mean density ay ng equatorial radius sa mga piling mga bagay sa ating solar system .
+Sa paggamit ng_mga impormasyong ito , madaling kalkulahin ang Roche Limits para_sa mga matitigas at malalambot na mga katawan .
+Pinapalagay na umaabot sa 500 kg/m³ ang average density ng_mga kometa .
+Ang talahanayan sa_ibaba ang nagpapakita na ipinapahayag ang Roche limits sa haba at sa primary radii .
+Dumidipende sa density at sa sarili nitong katigasan ang totoong Roche limit para_sa satellite .
+Kapag mas maliit sa kalahati ang density ang primary kaysa_sa satellite , mas maliit ang radius ng primary kaysa_sa matigas na katawan ng Roche Limit , at maaaring magbungguan ang dalawang katawan bago maabot ang Roche limit .
+Gaano kalapit ang_mga buwan ng solar system sa mga Roche limit nila ? Ang talahanayan sa_ibaba ang nagpapakita ng_mga inner satellite’s orbital radius na hinati na ng kani-kanilang mga Roche radius .
+Parehong ibinigay na ang_mga kalkulasyon para_sa matitigas at malalambot na mga katawan .
+Pansining malalapit ang_mga ito sa kanilang actual breakpoints , katulad na lamang ni Pan at Naiad .
+Sa pagsasanay , hindi kilala ang_mga density ng_mga inner satellites ng_mga higanteng mga planeta .
+Sa mga ganitong pagkakataon ( ipinakita sa italics ) , inisip nating ganon na ang_mga halos tugmang value , ngunit kayang maiba ang kanilang aktuwal na Roche limit katulad na lamang ng value na ipinakita .
