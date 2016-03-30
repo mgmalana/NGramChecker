@@ -26,9 +26,11 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 			String[] ruleWords = rule.getWords();
 			String[] ruleLemmas = rule.getLemmas();
 			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
-			System.out.println(ArrayToStringConverter.convert(rule.getWords()) + " ||| "
-					+ ArrayToStringConverter.convert(inputWords) + " " + rule.getWords().length + " "
-					+ inputWords.length);
+			// System.out.println(ArrayToStringConverter.convert(rule.getWords())
+			// + " ||| "
+			// + ArrayToStringConverter.convert(inputWords) + " " +
+			// rule.getWords().length + " "
+			// + inputWords.length);
 			double editDistance = 0;
 			List<SuggestionToken> replacements = new ArrayList<>();
 			for (int i = 0; i < rulePOS.length; i++) {
@@ -61,6 +63,12 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 
 			if (editDistance == 0) {
 				outputSuggestions.add(new Suggestion(0));
+			}
+
+			if (editDistance < 1) {
+				System.out.println(ArrayToStringConverter.convert(inputWords) + " + "
+						+ ArrayToStringConverter.convert(inputPOS) + "\n" + ArrayToStringConverter.convert(ruleWords)
+						+ " + " + ArrayToStringConverter.convert(rulePOS));
 			}
 		}
 	}

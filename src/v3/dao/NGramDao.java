@@ -61,6 +61,17 @@ public class NGramDao {
 		return rs.getInt(1);
 	}
 
+	public void delete(NGram ngram) throws SQLException {
+		String deletePOSQuery = "DELETE FROM " + ngramFrequencyTable + " WHERE id =" + ngram.getPosID();
+		String deleteWordQuery = "DELETE FROM " + ngramTable + " WHERE id =" + ngram.getId();
+
+		PreparedStatement ps = conn.prepareStatement(deletePOSQuery);
+		int psVal = ps.executeUpdate();
+		PreparedStatement ps1 = conn.prepareStatement(deleteWordQuery);
+		int ps1Val = ps1.executeUpdate();
+		System.out.println("PSVAL: " + psVal + " PS1VAL: " + ps1Val);
+	}
+
 	public NGram get(int id) throws SQLException {
 		String query = "SELECT words, lemmas, pos, isPOSGeneralized FROM " + ngramTable + " f INNER JOIN "
 				+ ngramFrequencyTable + " p ON f.posID = p.id WHERE f.id = ?";

@@ -21,7 +21,7 @@ public class GrammarChecker {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
-		Input testError = testErrorsProvider.getTestErrors().get(3);
+		Input testError = testErrorsProvider.getTestErrors().get(0);
 		checkGrammar(testError);
 		// TODO Auto-generated method stub
 
@@ -49,8 +49,6 @@ public class GrammarChecker {
 				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
 				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
 				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
-				System.out.println(ArrayToStringConverter.convert(wArr));
-				fileManager.writeToFile(ArrayToStringConverter.convert(wArr));
 				// List<Suggestion> suggestionIns = null;
 				List<Suggestion> suggestionsSub = null;
 				// List<Suggestion> suggestionsDel = null;
@@ -72,21 +70,31 @@ public class GrammarChecker {
 				for (Suggestion s : suggestionsSub) {
 					String[] arrSugg = new String[wArr.length];
 					System.arraycopy(wArr, 0, arrSugg, 0, wArr.length);
-					fileManager.writeToFile(Double.toString(s.getEditDistance()));
-					if (s.getEditDistance() > 0)
-						for (SuggestionToken sugg : s.getSuggestions()) {
-							if (sugg.isPOSGeneralized() == false) {
-								fileManager.writeToFile("Replace " + sugg.getWord() + " in " + arrSugg[sugg.getIndex()]
-										+ ". " + " Edit Distance: " + sugg.getEditDistance());
-								arrSugg[sugg.getIndex()] = sugg.getWord();
-							} else {
-								fileManager.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")"
-										+ " in " + arrSugg[sugg.getIndex()] + ". " + " Edit Distance:"
-										+ sugg.getEditDistance());
-								arrSugg[sugg.getIndex()] = sugg.getPos();
+
+					if (s.getEditDistance() >= 0 && s.getEditDistance() <= 1) {
+						System.out.println("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
+						fileManager.writeToFile("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
+						fileManager.writeToFile(Double.toString(s.getEditDistance()));
+						if (s.getEditDistance() == 0)
+							fileManager.writeToFile("N-gram is correct");
+						else {
+							for (SuggestionToken sugg : s.getSuggestions()) {
+								if (sugg.isPOSGeneralized() == false) {
+									fileManager
+											.writeToFile("Replace " + sugg.getWord() + " in " + arrSugg[sugg.getIndex()]
+													+ ". " + " Edit Distance: " + sugg.getEditDistance());
+									arrSugg[sugg.getIndex()] = sugg.getWord();
+								} else {
+									fileManager.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")"
+											+ " in " + arrSugg[sugg.getIndex()] + ". " + " Edit Distance:"
+											+ sugg.getEditDistance());
+									arrSugg[sugg.getIndex()] = sugg.getPos();
+								}
 							}
+							fileManager.writeToFile("Sugg: " + ArrayToStringConverter.convert(arrSugg));
 						}
-					fileManager.writeToFile(ArrayToStringConverter.convert(arrSugg));
+
+					}
 
 				}
 				fileManager.writeToFile("------------------------------------------");

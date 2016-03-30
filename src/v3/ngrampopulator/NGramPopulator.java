@@ -33,7 +33,7 @@ public class NGramPopulator {
 
 	public static void main(String[] args) throws SQLException, IOException {
 
-		for (int i = 1; i <= 1; i++) {
+		for (int i = 2; i <= 7; i++) {
 			System.out.println("Populating " + i + "-gram");
 			NGramPopulator n = new NGramPopulator(i);
 			n.saveNGramsAndPOS();
@@ -48,6 +48,10 @@ public class NGramPopulator {
 		while ((l = sourceLemmasReader.readLine()) != null) {
 			s = sourceSentencesReader.readLine();
 			p = sourceTagsReader.readLine();
+
+			s = s.trim();
+			p = p.trim();
+			l = l.trim();
 
 			String[] sArr = s.split(" ");
 

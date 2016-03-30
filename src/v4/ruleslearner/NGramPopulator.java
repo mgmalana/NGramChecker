@@ -35,7 +35,7 @@ public class NGramPopulator {
 				wordFiles.add(f);
 		}
 
-		for (int ngramSize = 1; ngramSize <= 7; ngramSize++) {
+		for (int ngramSize = 2; ngramSize <= 7; ngramSize++) {
 
 			NGramPopulatorThread t = new NGramPopulatorThread(wordFiles, posFiles, lemmaFiles, ngramSize);
 			t.start();
@@ -84,6 +84,10 @@ class NGramPopulatorThread extends Thread {
 				while ((l = sourceLemmasReader.readLine()) != null) {
 					s = sourceSentencesReader.readLine();
 					p = sourceTagsReader.readLine();
+
+					s = s.trim();
+					p = p.trim();
+					l = l.trim();
 
 					String[] sArr = s.split(" ");
 
