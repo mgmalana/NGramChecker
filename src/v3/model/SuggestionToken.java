@@ -63,4 +63,5 @@ public class SuggestionToken {
 	public void setEditDistance(double editDistance) {
 		this.editDistance = editDistance;
 	}
+
 }

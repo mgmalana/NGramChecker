@@ -4,12 +4,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import util.ArrayToStringConverter;
+import util.Constants;
 import v3.model.NGram;
-import v3.model.Suggestion;
-import v3.model.SuggestionToken;
 import v3.model.SuggestionType;
 import v3.test.EditDistanceService;
+import v4.models.Suggestion;
+import v4.models.SuggestionToken;
 
 public class SubstitutionService extends GrammarCheckingServiceThread {
 
@@ -34,42 +34,65 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 			double editDistance = 0;
 			List<SuggestionToken> replacements = new ArrayList<>();
 			for (int i = 0; i < rulePOS.length; i++) {
-
+				// REORDER SPELL CHECK BEFORE CHECKING POS RULE SEQUENCES
 				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true && rulePOS[i].equals(inputPOS[i]))
 					;
 				else if (ruleWords[i].equals(inputWords[i]))
 					;
 				else {
 					if (ruleLemmas[i].equals(inputLemmas[i]))
-						editDistance += 0.4;
+						editDistance += 0.6;
 					else if (withinSpellingEditDistance(ruleWords[i], inputWords[i]))
-						editDistance += 0.45;
+						editDistance += 0.65;
 					else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i]
 							&& hasCloseWordFromDictionary(inputWords[i], rulePOS[i])) {
-						editDistance += 0.5;
+						editDistance += 0.65;
 					} else if (rulePOS[i].equals(inputPOS[i]))
 						editDistance += 0.8;
 					else
 						editDistance += 1;
 
 					if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true)
-						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance, rulePOS[i]));
+						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance, rulePOS[i],
+								SuggestionType.SUBSTITUTION));
 					else
-						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance));
+						replacements
+								.add(new SuggestionToken(ruleWords[i], i, editDistance, SuggestionType.SUBSTITUTION));
 				}
-			}
-			SuggestionToken[] replacementWords = replacements.toArray(new SuggestionToken[replacements.size()]);
-			outputSuggestions.add(new Suggestion(replacementWords, SuggestionType.SUBSTITUTION, editDistance));
 
+			}
 			if (editDistance == 0) {
+				outputSuggestions = new ArrayList<>();
 				outputSuggestions.add(new Suggestion(0));
+				break;
+			} else if (editDistance <= Constants.EDIT_DISTANCE_THRESHOLD) {
+				SuggestionToken[] replacementWords = replacements.toArray(new SuggestionToken[replacements.size()]);
+
+				boolean hasSimilar = false;
+				for (Suggestion s : outputSuggestions) {
+					if (s.getSuggestions() != null) {
+						if (s.getSuggestions()[0].isPOSGeneralized() == true
+								&& s.getSuggestions()[0].getPos().equals(replacementWords[0].getPos())) {
+							s.incrementFrequency();
+							hasSimilar = true;
+						} else if (s.getSuggestions()[0].getWord().equals(replacementWords[0].getWord())) {
+							s.incrementFrequency();
+							hasSimilar = true;
+						}
+
+					}
+				}
+				if (hasSimilar == false)
+					outputSuggestions.add(new Suggestion(replacementWords, editDistance));
 			}
 
-			if (editDistance < 1) {
-				System.out.println(ArrayToStringConverter.convert(inputWords) + " + "
-						+ ArrayToStringConverter.convert(inputPOS) + "\n" + ArrayToStringConverter.convert(ruleWords)
-						+ " + " + ArrayToStringConverter.convert(rulePOS));
-			}
+			/*
+			 * if (editDistance < 1) {
+			 * System.out.println(ArrayToStringConverter.convert(inputWords) +
+			 * " + " + ArrayToStringConverter.convert(inputPOS) + "\n" +
+			 * ArrayToStringConverter.convert(ruleWords) + " + " +
+			 * ArrayToStringConverter.convert(rulePOS)); }
+			 */
 		}
 	}
 

@@ -1,6 +1,19 @@
 package util;
 
+import java.util.List;
+
 public class ArrayToStringConverter {
+
+	public static String convert(List<String> arrList) {
+		StringBuilder s = new StringBuilder();
+
+		for (int i = 0; i < arrList.size(); i++) {
+			s.append(arrList.get(i));
+			if (i + 1 < arrList.size())
+				s.append(" ");
+		}
+		return s.toString();
+	}
 
 	public static String convert(Object[] arr) {
 		StringBuilder s = new StringBuilder();

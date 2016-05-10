@@ -16,18 +16,18 @@ public class ValidateData {
 		// checkEachLineOfFiles();
 		// createFiles();
 		checkEachLinesAutoToFiles();
+		// checkAlignmentWordsAndPOS();
 	}
 
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/";
-		String[] filenames = { "flores_joshua", "flores_rey", "holmes", "ibanez", "lalic", "laxa", "laxamana", "li",
-				"lim", "magsaysay", "malaki", "manacmol", "monzon" };
+		String[] filenames = { "tpost" };
 
 		for (String f : filenames) {
-			File fileWord = new File(path + "s12_" + f + "_words.txt");
-			File fileTag = new File(path + "s12_" + f + "_tags.txt");
-			File fileLemm = new File(path + "s12_" + f + "_lemmas.txt");
+			File fileWord = new File(path + f + "_words.txt");
+			File fileTag = new File(path + f + "_tags.txt");
+			File fileLemm = new File(path + f + "_lemmas.txt");
 			if (!fileWord.exists())
 				fileWord.createNewFile();
 			if (!fileTag.exists())
@@ -37,8 +37,65 @@ public class ValidateData {
 		}
 	}
 
-	public static void checkEachLinesAutoToFiles() throws FileNotFoundException, IOException {
+	public static void checkAlignmentWordsAndPOS() throws FileNotFoundException, IOException {
 		String path = "data/joey_with_alignment_errors/";
+		File folder = new File(path);
+		File[] files = folder.listFiles();
+
+		List<File> posFiles = new ArrayList<>();
+		List<File> wordFiles = new ArrayList<>();
+
+		for (File f : files) {
+			if (f.getName().contains("Tags"))
+				posFiles.add(f);
+			else if (f.getName().contains("Words"))
+				wordFiles.add(f);
+		}
+
+		for (int i = 0; i < posFiles.size(); i++) {
+			File pos = posFiles.get(i);
+			File word = wordFiles.get(i);
+
+			List<String> posLines = FileManager.readFile(pos);
+			List<String> wordLines = FileManager.readFile(word);
+			System.out.println("Yo");
+			if (posLines.size() != wordLines.size()) {
+				System.out.println(
+						pos.getName() + "  Number of lines in files are not equal. Please restart the program");
+			} else {
+				String errorPath = pos.getParent() + "/errors/"
+						+ pos.getName().substring(0, pos.getName().length() - 10) + "errors.txt";
+				System.out.println(errorPath);
+				File outputFile = new File(errorPath);
+				if (outputFile.exists()) {
+					outputFile.delete();
+					outputFile.createNewFile();
+				}
+				PrintWriter outFile = new PrintWriter(new FileWriter(outputFile.getAbsolutePath(), true));
+
+				for (int j = 0; j < posLines.size(); j++) {
+					String[] twoSplit = posLines.get(j).split(" ");
+					String[] threeSplit = wordLines.get(j).split(" ");
+
+					if (twoSplit.length != threeSplit.length) {
+						outFile.println(pos.getName() + "   Line: " + (j + 1) + " | Lengths : " + twoSplit.length + ","
+								+ threeSplit.length);
+
+						for (String b : twoSplit)
+							outFile.printf("%20s", b);
+						outFile.println();
+						for (String c : threeSplit)
+							outFile.printf("%20s", c);
+						outFile.println();
+					}
+				}
+				outFile.close();
+			}
+		}
+	}
+
+	public static void checkEachLinesAutoToFiles() throws FileNotFoundException, IOException {
+		String path = "data/joey_uncleaned/";
 		File folder = new File(path);
 		File[] files = folder.listFiles();
 

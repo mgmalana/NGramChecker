@@ -1,0 +1,51 @@
+kinukunsinti ang babae
+sabi ng pulis ,
+para_sa bata
+tinayo pa rin ang Torre_de_Manila
+bahay nina (DTPP) Jose , Juan
+isang lalaki
+minungkahi na lang na
+para makakuha ng
+nagsimula ang panahon
+Mayo 31 , 2016
+imaximize ang airship
+naglaan ng tulong
+iskolar ang nag-aaral ng
+ang pinaka-tama na
+ang puwesto para_sa
+Noong 2006 , nanalo ang   //nanalo will not be suggested because it is not in the database. Expect VBTS as suggestion
+ang nagkaloob
+na nagbibigay ng
+para_kay Mark  //not sure if will output a correct suggestion. Downwards from here are misflagged phrases
+Maganda si [PROPERNOUN]. // will not be corrected because walang ganyang sequence sa DB
+si Jose
+taga-Manila siya  //will not be corrected because taga-Manila is not in the database
+bahaghari iyon   //will possibly be flagged as grammatically correct because of the sequence NNC NNC PRO, but will not be corrected because bahaghari is not in the db
+pag-aayos ng  //will not be corrected because is not in the dictionary even though words like pag-aaral, pag-iitim, are.
+hinila niya // will not be corrected because the tag PRS is too generalized, learned from instances: 'pinilit niya', 'naiuri niya', 'nangatwiran siya', etc.
+
+ang pagtakbo ng mayor
+makita nang malinaw
+pera ng bayan
+napapagod din ito
+nag-aaya rin siya
+nag-ipon ng pera para
+pagbangon sa kabila ng kahirapan
+sa kabila ng
+lalake , babae at transgenders
+kumain ng halo-halo
+magkukuwento ng buhay
+maaari din na
+suporta ng kababaihan
+masisiglang mga bata //although this is correct, still no plurality agreement that the system can detect. 'Masiglang mga bata' will still be considered grammatically correct
+aso , pusa , daga ,
+marumi na upuan
+bayang magiliw
+tungkol_sa pagboto ng mamamayan
+upang makita ang kinabukasan
+ang Mitsubishi Motors Philippines
+mataba ang pusa . //will be misflagged because there is no trained sequence like this. Will be misflagged from here
+Siya ay masaya . //no trained sequence
+Nagluluto siya ng hapunan .
+Kinuha ko ito dito .
+Nalito ako .

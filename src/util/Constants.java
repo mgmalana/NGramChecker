@@ -17,4 +17,11 @@ public class Constants {
 	public static String RESULTS_MERGING = "results/merging.txt";
 	public static String RESULTS_UNMERGING = "results/unmerging.txt";
 
+	public static String RESULTS_ALL = "results/all.txt";
+
+	public static int EDIT_DISTANCE_THRESHOLD = 1;
+
+	public static int NGRAM_SIZE_UPPER = 7;
+	public static int NGRAM_SIZE_LOWER = 2;
+
 }

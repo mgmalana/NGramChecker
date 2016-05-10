@@ -16,7 +16,8 @@ public class InsertionService {
 		candidateNGramService = CandidateNGramsService.getInstance();
 	}
 
-	public List<Suggestion> computeInsertion(String[] inputWords, String[] inputLemmas, String[] inputPOS) throws SQLException {
+	public List<Suggestion> computeInsertion(String[] inputWords, String[] inputLemmas, String[] inputPOS)
+			throws SQLException {
 		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length + 1);
 
 		List<Suggestion> suggestions = new ArrayList<>();
@@ -37,8 +38,8 @@ public class InsertionService {
 				} else if (ruleWords[j].equals(inputWords[i])) {
 					i++;
 					j++;
-				} else if (ruleIsPOSGeneralized != null && j + 1 != rulePOS.length && ruleIsPOSGeneralized[j + 1] == true
-						&& rulePOS[j + 1].equals(inputPOS[i])) {
+				} else if (ruleIsPOSGeneralized != null && j + 1 != rulePOS.length
+						&& ruleIsPOSGeneralized[j + 1] == true && rulePOS[j + 1].equals(inputPOS[i])) {
 					suggestionToken = new SuggestionToken(ruleWords[j], i, 1, rulePOS[j]);
 					i++;
 					j += 2;
