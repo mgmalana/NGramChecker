@@ -27,7 +27,7 @@ public class GrammarChecker {
 
 		// 0, 4, 11, 14 - working
 		// 5 - not
-		Input testError = testErrorsProvider.getTestErrors().get(23);
+		Input testError = testErrorsProvider.getTestErrors().get(50);
 		checkGrammar(testError);
 
 	}
@@ -102,16 +102,21 @@ public class GrammarChecker {
 						for (SuggestionToken sugg : s.getSuggestions()) {
 							if (sugg.getSuggType() == SuggestionType.SUBSTITUTION) {
 								if (sugg.isPOSGeneralized() == false) {
-									System.out
-											.println("Replace " + sugg.getWord() + " in " + arrSugg.get(sugg.getIndex())
-													+ ". " + " Edit Distance: " + sugg.getEditDistance());
+									// System.out
+									// .println("Replace " + sugg.getWord() + "
+									// in " + arrSugg.get(sugg.getIndex())
+									// + ". " + " Edit Distance: " +
+									// sugg.getEditDistance());
 									fm.writeToFile("Replace " + sugg.getWord() + " in " + arrSugg.get(sugg.getIndex())
 											+ ". " + " Edit Distance: " + sugg.getEditDistance());
 									arrSugg.set(sugg.getIndex(), sugg.getWord());
 								} else {
-									System.out.println("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in "
-											+ arrSugg.get(sugg.getIndex()) + ". " + " Edit Distance:"
-											+ sugg.getEditDistance());
+									// System.out.println("TReplace " +
+									// sugg.getPos() + "(" + sugg.getWord() +
+									// ")" + " in "
+									// + arrSugg.get(sugg.getIndex()) + ". " + "
+									// Edit Distance:"
+									// + sugg.getEditDistance());
 									fm.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in "
 											+ arrSugg.get(sugg.getIndex()) + ". " + " Edit Distance:"
 											+ sugg.getEditDistance());
@@ -119,35 +124,46 @@ public class GrammarChecker {
 								}
 							} else if (sugg.getSuggType() == SuggestionType.INSERTION) {
 								if (sugg.isPOSGeneralized() == false) {
-									System.out
-											.println("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()]
-													+ ". " + " Edit Distance:" + sugg.getEditDistance());
+									// System.out
+									// .println("Insert " + sugg.getWord() + "
+									// in before " + wArr[sugg.getIndex()]
+									// + ". " + " Edit Distance:" +
+									// sugg.getEditDistance());
 									fm.writeToFile("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()]
 											+ ". " + " Edit Distance:" + sugg.getEditDistance());
 									arrSugg.add(sugg.getIndex(), sugg.getWord());
 								} else {
-									System.out.println("Insert " + sugg.getPos() + " in before " + wArr[sugg.getIndex()]
-											+ ". " + " Edit Distance:" + sugg.getEditDistance());
+									// System.out.println("Insert " +
+									// sugg.getPos() + " in before " +
+									// wArr[sugg.getIndex()]
+									// + ". " + " Edit Distance:" +
+									// sugg.getEditDistance());
 									fm.writeToFile("Insert " + sugg.getPos() + "(" + sugg.getWord() + ")"
 											+ " in before " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
 											+ sugg.getEditDistance());
 									arrSugg.add(sugg.getIndex(), sugg.getPos());
 								}
 							} else if (sugg.getSuggType() == SuggestionType.UNMERGING) {
-								System.out.println("Unmerge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
-										+ sugg.getEditDistance());
+								// System.out.println("Unmerge " +
+								// wArr[sugg.getIndex()] + ". " + " Edit
+								// Distance:"
+								// + sugg.getEditDistance());
 								fm.writeToFile("Unmerge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.set(sugg.getIndex(), sugg.getWord());
 							} else if (sugg.getSuggType() == SuggestionType.DELETION) {
-								System.out.println("Delete " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
-										+ sugg.getEditDistance());
+								// System.out.println("Delete " +
+								// wArr[sugg.getIndex()] + ". " + " Edit
+								// Distance:"
+								// + sugg.getEditDistance());
 								fm.writeToFile("Delete " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.remove(sugg.getIndex());
 							} else if (sugg.getSuggType() == SuggestionType.MERGING) {
-								System.out.println("Merge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
-										+ sugg.getEditDistance());
+								// System.out.println("Merge " +
+								// wArr[sugg.getIndex()] + ". " + " Edit
+								// Distance:"
+								// + sugg.getEditDistance());
 								fm.writeToFile("Merge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.set(sugg.getIndex(), sugg.getWord());

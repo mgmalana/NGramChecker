@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import util.ArrayToStringConverter;
+import util.Constants;
 import v3.model.NGram;
 import v3.model.SuggestionType;
 import v4.models.Suggestion;
@@ -27,7 +27,8 @@ public class DeletionAndMergingService extends GrammarCheckingServiceThread {
 			List<SuggestionToken> suggestionTokensDel = new ArrayList<>();
 			List<SuggestionToken> suggestionTokensMer = new ArrayList<>();
 
-			System.out.println("Input sa Deletion: " + ArrayToStringConverter.convert(inputWords));
+			// System.out.println("Input sa Deletion: " +
+			// ArrayToStringConverter.convert(inputWords));
 
 			while (i != inputPOS.length && j != rulePOS.length) {
 				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && rulePOS[j].equals(inputPOS[i])) {
@@ -36,22 +37,23 @@ public class DeletionAndMergingService extends GrammarCheckingServiceThread {
 				} else if (ruleWords[j].equals(inputWords[i])) {
 					i++;
 					j++;
+				} else if (i + 1 != inputPOS.length
+						&& isEqualWhenMerged(inputWords[i], inputWords[i + 1], ruleWords[j])) {
+					// System.out.println("Equal::: " + inputWords[i] + " " +
+					// inputWords[i + 1]);
+					suggestionTokensMer.add(new SuggestionToken(ruleWords[j], i, 0.7, SuggestionType.MERGING));
+					i++;
+					editDistance += 0.7;
 				} else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[j] == true && i + 1 != inputPOS.length
 						&& rulePOS[j].equals(inputPOS[i + 1])) {
-					suggestionTokensMer
+					suggestionTokensDel
 							.add(new SuggestionToken(inputWords[i], i, 1, inputPOS[i], SuggestionType.DELETION));
 					i++;
 					editDistance++;
 				} else if (i + 1 != inputPOS.length && ruleWords[j].equals(inputWords[i + 1])) {
-					suggestionTokensMer.add(new SuggestionToken(inputWords[i], i, 1, SuggestionType.DELETION));
+					suggestionTokensDel.add(new SuggestionToken(inputWords[i], i, 1, SuggestionType.DELETION));
 					i++;
 					editDistance++;
-				} else if (i + 1 != inputPOS.length
-						&& isEqualWhenMerged(inputWords[i], inputWords[i + 1], ruleWords[j])) {
-					System.out.println("Equal::: " + inputWords[i] + " " + inputWords[i + 1]);
-					suggestionTokensMer.add(new SuggestionToken(ruleWords[j], i, 0.7, SuggestionType.MERGING));
-					i++;
-					editDistance += 0.7;
 				} else {
 					i++;
 					j++;
@@ -60,17 +62,18 @@ public class DeletionAndMergingService extends GrammarCheckingServiceThread {
 			}
 			if (i != inputPOS.length || j != rulePOS.length)
 				editDistance++;
-			if (suggestionTokensDel.size() >= 1)
+			if (suggestionTokensDel.size() >= 1 && editDistance <= Constants.EDIT_DISTANCE_THRESHOLD)
 				outputSuggestions.add(new Suggestion(
 						suggestionTokensDel.toArray(new SuggestionToken[suggestionTokensDel.size()]), editDistance));
-			if (suggestionTokensMer.size() >= 1)
+			if (suggestionTokensMer.size() >= 1) {
 				outputSuggestions.add(new Suggestion(
 						suggestionTokensMer.toArray(new SuggestionToken[suggestionTokensMer.size()]), editDistance));
+			}
 		}
 	}
 
 	private boolean isEqualWhenMerged(String inputLeft, String inputRight, String ruleWord) {
-		System.out.println("inputLeft: " + inputLeft + " inputRight: " + inputRight + " ruleWord: " + ruleWord);
+
 		inputLeft = inputLeft.toLowerCase();
 		inputRight = inputRight.toLowerCase();
 		ruleWord = ruleWord.toLowerCase();

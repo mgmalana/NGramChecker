@@ -26,6 +26,7 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 			String[] ruleWords = rule.getWords();
 			String[] ruleLemmas = rule.getLemmas();
 			Boolean[] ruleIsPOSGeneralized = rule.getIsPOSGeneralized();
+
 			// System.out.println(ArrayToStringConverter.convert(rule.getWords())
 			// + " ||| "
 			// + ArrayToStringConverter.convert(inputWords) + " " +
@@ -35,16 +36,27 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 			List<SuggestionToken> replacements = new ArrayList<>();
 			for (int i = 0; i < rulePOS.length; i++) {
 				// REORDER SPELL CHECK BEFORE CHECKING POS RULE SEQUENCES
-				if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true && rulePOS[i].equals(inputPOS[i]))
+
+				if (ruleLemmas[i].equals(inputLemmas[i]) && !ruleWords[i].equals(inputWords[i])
+						&& rulePOS[i].equals(inputPOS[i])) {
+					editDistance += 0.6;
+					if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true)
+						replacements.add(new SuggestionToken(ruleWords[i], i, editDistance, rulePOS[i],
+								SuggestionType.SUBSTITUTION));
+					else
+						replacements
+								.add(new SuggestionToken(ruleWords[i], i, editDistance, SuggestionType.SUBSTITUTION));
+				} else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i] == true
+						&& rulePOS[i].equals(inputPOS[i]))
 					;
 				else if (ruleWords[i].equals(inputWords[i]))
 					;
 				else {
 					if (ruleLemmas[i].equals(inputLemmas[i]))
 						editDistance += 0.6;
-					else if (withinSpellingEditDistance(ruleWords[i], inputWords[i]))
+					else if (withinSpellingEditDistance(ruleWords[i], inputWords[i])) {
 						editDistance += 0.65;
-					else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i]
+					} else if (ruleIsPOSGeneralized != null && ruleIsPOSGeneralized[i]
 							&& hasCloseWordFromDictionary(inputWords[i], rulePOS[i])) {
 						editDistance += 0.65;
 					} else if (rulePOS[i].equals(inputPOS[i]))
@@ -61,6 +73,7 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 				}
 
 			}
+
 			if (editDistance == 0) {
 				outputSuggestions = new ArrayList<>();
 				outputSuggestions.add(new Suggestion(0));
@@ -71,19 +84,21 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 				boolean hasSimilar = false;
 				for (Suggestion s : outputSuggestions) {
 					if (s.getSuggestions() != null) {
-						if (s.getSuggestions()[0].isPOSGeneralized() == true
+						if (s.getEditDistance() == editDistance && s.getSuggestions()[0].isPOSGeneralized() == true
 								&& s.getSuggestions()[0].getPos().equals(replacementWords[0].getPos())) {
 							s.incrementFrequency();
 							hasSimilar = true;
-						} else if (s.getSuggestions()[0].getWord().equals(replacementWords[0].getWord())) {
+						} else if (s.getEditDistance() == editDistance
+								&& s.getSuggestions()[0].getWord().equals(replacementWords[0].getWord())) {
 							s.incrementFrequency();
 							hasSimilar = true;
 						}
 
 					}
 				}
-				if (hasSimilar == false)
+				if (hasSimilar == false) {
 					outputSuggestions.add(new Suggestion(replacementWords, editDistance));
+				}
 			}
 
 			/*
@@ -102,10 +117,17 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 	}
 
 	private static boolean withinSpellingEditDistance(String corpusWord, String input) {
+
+		corpusWord = corpusWord.toLowerCase();
+		input = input.toLowerCase();
+		if (input.equals(corpusWord))
+			return false;
+
 		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
+
 		if (distance <= 1 && input.length() <= 4)
 			return true;
-		else if (distance <= 2 && input.length() <= 12)
+		else if (distance <= 2 && input.length() > 4 && input.length() <= 12)
 			return true;
 		else if (distance <= 3 && input.length() > 12)
 			return true;
