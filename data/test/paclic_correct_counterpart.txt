@@ -1,15 +1,15 @@
-kinukunsinti ang babae
-sabi ng pulis ,
-para_sa bata
-tinayo pa rin ang Torre_de_Manila
-bahay nina (DTPP) Jose , Juan
-isang lalaki
-minungkahi na lang na
-para makakuha ng
-nagsimula ang panahon
-Mayo 31 , 2016
-imaximize ang airship
-naglaan ng tulong
+kikumpara ang babae                     O
+sabi ng pulis na						O pero sinuggest din to replace 'nang' with 'ang' (ex. mabawasan ang populasyon na)
+para_sa bata                            O
+tinayo pa rin ang Torre_de_Manila       X 'Delete parin' was suggested in 4-gram level and 'Unmerge parin' only at 3-gram level
+bahay nina (DTPP) Jose , Juan			X Only suggested at 3-gram, because same sequence in 5-gram and 4-gram were not generalized
+isang lalaki							O 'Replace lalaki with JJD' was also suggested
+minungkahi na lang na					O
+para makakuha ng						O
+nagsimula ang panahon					O
+Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0
+imaximize ang airship					O
+naglaan ng tulong						O IF the tag is ?, but if VBTS (just like a normal MA tag it), it is considered grammatically correct
 iskolar ang nag-aaral ng
 ang pinaka-tama na
 ang puwesto para_sa
