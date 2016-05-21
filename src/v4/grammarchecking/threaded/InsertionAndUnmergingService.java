@@ -64,11 +64,15 @@ public class InsertionAndUnmergingService extends GrammarCheckingServiceThread {
 				boolean hasSimilar = false;
 				for (Suggestion s : outputSuggestions) {
 					if (s.getSuggestions() != null) {
-						if (s.getSuggestions()[0].isPOSGeneralized() == true
+						if (s.getEditDistance() == editDistance
+								&& s.getSuggestions()[0].getSuggType().equals(suggestionToken.getSuggType())
+								&& s.getSuggestions()[0].isPOSGeneralized() == true
 								&& s.getSuggestions()[0].getPos().equals(suggestionToken.getPos())) {
 							s.incrementFrequency();
 							hasSimilar = true;
-						} else if (s.getSuggestions()[0].getWord().equals(suggestionToken.getWord())) {
+						} else if (s.getEditDistance() == editDistance
+								&& s.getSuggestions()[0].getSuggType().equals(suggestionToken.getSuggType())
+								&& s.getSuggestions()[0].getWord().equals(suggestionToken.getWord())) {
 							s.incrementFrequency();
 							hasSimilar = true;
 						}
