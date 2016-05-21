@@ -10,6 +10,7 @@ nagsimula ang panahon					O
 Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0
 imaximize ang airship					O
 naglaan ng tulong						O IF the tag is ?, but if VBTS (just like a normal MA tag it), it is considered grammatically correct
+<<<<<<< HEAD
 iskolar ang nag-aaral ng
 ang pinaka-tama na
 ang puwesto para_sa
@@ -49,3 +50,45 @@ Siya ay masaya . //no trained sequence
 Nagluluto siya ng hapunan .
 Kinuha ko ito dito .
 Nalito ako .
+=======
+iskolar ang nag-aaral ng				O
+ang pinaka-tama na						O
+ang puwesto para_sa						O
+Noong 2006 , nanalo ang  				O (As expected, VBTS was outputted as suggestion - a dictionary containing mapping will easily fix this)
+ang nagkaloob ng						O
+na nagbibigay ng						X Was considered grammatically correct because the sequence 'na VBTF ng' is correct (ex. na tataas ang), requires an instance of VBTF - ibibigay/magbibigay
+para_kay Mark  							X 'para_sa Mark' was considered grammatically correct because of instances such as 'para_sa Amerikano, para_sa US' 
+Maganda si [PROPERNOUN]. 				X Kasi walang ganitong sequence na pinagtrainan, "Sinuggest na "
+pangunahing plano ng pangulo			O
+taga-Manila siya  						X Not corrected because taga-Manila and POS sequence 'RBL (locative adverb) PRS' not in database
+bahaghari iyon   						X Was not detected because the sequence 'NNC NNC' and 'NNC PRO' are grammatically correct in the database
+pag-aayos ng  							O Was not suggested but 'pagkakaayos' was suggested.
+hinila niya 							X Was considered grammatically correct because POS (PRS) was too generalized
+8/25 Mali sa Taas
+ang pagtakbo ng mayor					O
+makita nang malinaw						O
+pera ng bayan							O
+napapagod din ito						O
+nag-aaya rin siya						O
+nag-ipon ng pera para					O
+pagbangon sa kabila ng kahirapan		O
+sa kabila ng							O
+lalake , babae at transgenders			O
+kumain ng halo-halo						O
+magkukuwento ng buhay					O
+maaari din na							O
+suporta ng kababaihan					O
+masisiglang mga bata 					O
+aso , pusa , daga ,						O
+marumi na upuan							O
+bayang magiliw							O
+tungkol_sa pagboto ng mamamayan			O
+upang makita ang kinabukasan			O
+ang Mitsubishi Motors Philippines		O
+mataba ang pusa . 						O Unexpected that it was able to flag it as correct
+Siya ay masaya . 						X Because the sequence 'ay masaya' was not part of the training corpus. Because corpus mostly composed of complex sentences
+Nagluluto siya ng hapunan .				O Grammatically correct in trigram level
+Kinuha ko ito dito .					X Because the sequence 'ko ito'
+matalas na dila							O
+2/25 Mali
+>>>>>>> 91b638857f5bd5fa8bc2352da0573cbdf2e5f042

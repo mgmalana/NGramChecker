@@ -27,7 +27,7 @@ public class GrammarChecker {
 
 		// 0, 4, 11, 14 - working
 		// 5 - not
-		Input testError = testErrorsProvider.getTestErrors().get(11);
+		Input testError = testErrorsProvider.getTestErrors().get(50);
 		checkGrammar(testError);
 
 	}
