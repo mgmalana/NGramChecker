@@ -1,2610 +1,575 @@
-Full: matalas na dila 
-JJD CCP NNC
-talas na dila 3
+Full: Kinuha ko ito dito . 
+VBTS PRS PRO PRL PMP
+kuha ko ito dito . 5
 N-gram = 7
 N-gram = 6
 N-gram = 5
+...............................
+
+...............................
+
 N-gram = 4
+...............................
+
+...............................
+
+...............................
+
+...............................
+
 N-gram = 3
 ...............................
 
-Orig N-gram:matalas na dila
-ED: 0.0 Freq: 0
-N-gram is correct
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 50
-Insert DTCP(ng_mga) in before matalas.  Edit Distance:1.0
-Sugg: DTCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 40
-Insert DTC(ang) in before matalas.  Edit Distance:1.0
-Sugg: DTC matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 33
-Insert CCB(ng) in before matalas.  Edit Distance:1.0
-Sugg: CCB matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 33
-Insert CCT(sa) in before matalas.  Edit Distance:1.0
-Sugg: CCT matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 30
-Insert PRI_CCP(isang) in before matalas.  Edit Distance:1.0
-Sugg: PRI_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 19
-Insert VBH(may) in before matalas.  Edit Distance:1.0
-Sugg: VBH matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 14
-Insert CCA(at) in before matalas.  Edit Distance:1.0
-Sugg: CCA matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 11
-Insert JJCC(mas) in before matalas.  Edit Distance:1.0
-Sugg: JJCC matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 8
-Insert RBF(hindi) in before matalas.  Edit Distance:1.0
-Sugg: RBF matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 7
-Insert CCP(na) in before matalas.  Edit Distance:1.0
-Sugg: CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 6
-Insert PRI(Isang) in before matalas.  Edit Distance:1.0
-Sugg: PRI matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 5
-Insert NNC_CCP(kasundong) in before matalas.  Edit Distance:1.0
-Sugg: NNC_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 5
-Insert JJN_CCP(Dalawang) in before matalas.  Edit Distance:1.0
-Sugg: JJN_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 4
-Insert PRSP_CCP(kanyang) in before matalas.  Edit Distance:1.0
-Sugg: PRSP_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 4
-Insert VBH_CCP(mayroong) in before matalas.  Edit Distance:1.0
-Sugg: VBH_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 3
-Insert RBR(tungo_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBR matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 3
-Insert LM(ay) in before matalas.  Edit Distance:1.0
-Sugg: LM matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 3
-Insert PMC(,) in before matalas.  Edit Distance:1.0
-Sugg: PMC matalas na dila
-Orig N-gram:matalas na dila
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+Orig N-gram:Kinuha ko ito
+ED: 1.0 Freq: 1
+Delete ko.  Edit Distance:1.0
+Sugg: Kinuha ito
+...............................
+
+...............................
+
+...............................
+
+...............................
+
+Orig N-gram:ito dito .
 ED: 1.0 Freq: 2
-Insert RBI_CCP(pang) in before matalas.  Edit Distance:1.0
-Sugg: RBI_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert RBD_CCP(inaasahang) in before matalas.  Edit Distance:1.0
-Sugg: RBD_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert JJC(kumpara_sa) in before matalas.  Edit Distance:1.0
-Sugg: JJC matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert PRO_CCP(itong) in before matalas.  Edit Distance:1.0
-Sugg: PRO_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert CDB(18,000) in before na.  Edit Distance:1.0
-Sugg: matalas CDB na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert RBL(mula_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBL matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert RBB(para_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBB matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert JJD_CCP(malaking) in before matalas.  Edit Distance:1.0
-Sugg: JJD_CCP matalas na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 2
-Insert PMS()) in before na.  Edit Distance:1.0
-Sugg: matalas PMS na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete na.  Edit Distance:1.0
-Sugg: matalas dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
-Orig N-gram:matalas na dila
-ED: 1.0 Freq: 1
-Delete matalas.  Edit Distance:1.0
-Sugg: na dila
+TReplace NNC(tawag) in ito.  Edit Distance:1.0
+Sugg: NNC dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Replace tumitig in ito.  Edit Distance: 1.0
+Sugg: tumitig dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Replace sa_Germany in dito.  Edit Distance: 1.0
+Sugg: ito sa_Germany .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Replace obserbahan in dito.  Edit Distance: 1.0
+Sugg: ito obserbahan .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Replace didilim in dito.  Edit Distance: 1.0
+Sugg: ito didilim .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Replace 500 in ito.  Edit Distance: 1.0
+Sugg: 500 dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete ito.  Edit Distance:1.0
+Sugg: dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete ito.  Edit Distance:1.0
+Sugg: dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete ito.  Edit Distance:1.0
+Sugg: dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete ito.  Edit Distance:1.0
+Sugg: dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete ito.  Edit Distance:1.0
+Sugg: dito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
+Orig N-gram:ito dito .
+ED: 1.0 Freq: 1
+Delete dito.  Edit Distance:1.0
+Sugg: ito .
 ...............................
 
 N-gram = 2
 ...............................
 
-Orig N-gram:matalas na
+Orig N-gram:Kinuha ko
 ED: 0.0 Freq: 0
 N-gram is correct
-Orig N-gram:matalas na
-ED: 1.0 Freq: 53
-Insert CCB(ng) in before matalas.  Edit Distance:1.0
-Sugg: CCB matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 50
-Insert DTCP(mga) in before matalas.  Edit Distance:1.0
-Sugg: DTCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 46
-Insert DTC(ang) in before matalas.  Edit Distance:1.0
-Sugg: DTC matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 38
-Insert CCT(bilang) in before matalas.  Edit Distance:1.0
-Sugg: CCT matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 36
-Insert PRI_CCP(isang) in before matalas.  Edit Distance:1.0
-Sugg: PRI_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 21
-Insert CCA(at) in before matalas.  Edit Distance:1.0
-Sugg: CCA matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 19
-Insert JJCC(mas) in before matalas.  Edit Distance:1.0
-Sugg: JJCC matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 18
-Insert NNC_CCP(reaksyong) in before matalas.  Edit Distance:1.0
-Sugg: NNC_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 18
-Insert VBH(may) in before matalas.  Edit Distance:1.0
-Sugg: VBH matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 12
-Insert PMC(,) in before na.  Edit Distance:1.0
-Sugg: matalas PMC na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 12
-Insert RBF(hindi) in before matalas.  Edit Distance:1.0
-Sugg: RBF matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 10
-Insert CCP(na) in before matalas.  Edit Distance:1.0
-Sugg: CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 7
-Insert LM(ay) in before matalas.  Edit Distance:1.0
-Sugg: LM matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 6
-Insert RBB(para_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBB matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 6
-Insert PMS(") in before matalas.  Edit Distance:1.0
-Sugg: PMS matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 5
-Insert VBH_CCP(mayroong) in before matalas.  Edit Distance:1.0
-Sugg: VBH_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 5
-Insert JJN_CCP(unang) in before matalas.  Edit Distance:1.0
-Sugg: JJN_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 5
-Insert PRSP_CCP(kanilang) in before matalas.  Edit Distance:1.0
-Sugg: PRSP_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 4
-Insert CDB(44) in before na.  Edit Distance:1.0
-Sugg: matalas CDB na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 3
-Insert PRI(bawat) in before matalas.  Edit Distance:1.0
-Sugg: PRI matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 3
-Insert RBL(galing_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBL matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 3
-Insert RBR(tungo_sa) in before matalas.  Edit Distance:1.0
-Sugg: RBR matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 3
-Insert JJC(kumpara_sa) in before matalas.  Edit Distance:1.0
-Sugg: JJC matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert JJD_CCP(malaking) in before matalas.  Edit Distance:1.0
-Sugg: JJD_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert RBI_CCP(namang) in before matalas.  Edit Distance:1.0
-Sugg: RBI_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert RBD_CCP(nanatiling) in before matalas.  Edit Distance:1.0
-Sugg: RBD_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert PRO_CCP(nitong) in before matalas.  Edit Distance:1.0
-Sugg: PRO_CCP matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert VBW(maging) in before matalas.  Edit Distance:1.0
-Sugg: VBW matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert RBD(pagiging) in before matalas.  Edit Distance:1.0
-Sugg: RBD matalas na
-Orig N-gram:matalas na
-ED: 1.0 Freq: 2
-Insert NNC(anak) in before na.  Edit Distance:1.0
-Sugg: matalas NNC na
 ...............................
 
 ...............................
 
-Orig N-gram:na dila
-ED: 0.0 Freq: 0
-N-gram is correct
-Orig N-gram:na dila
-ED: 1.0 Freq: 282
-Insert JJD(tapat) in before na.  Edit Distance:1.0
-Sugg: JJD na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 98
-Insert NNC(pulitikal) in before na.  Edit Distance:1.0
-Sugg: NNC na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 41
-Insert FW(electric) in before na.  Edit Distance:1.0
-Sugg: FW na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 35
-Insert DTCP(mga) in before dila.  Edit Distance:1.0
-Sugg: na DTCP dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 24
-Insert CDB(295) in before na.  Edit Distance:1.0
-Sugg: CDB na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 24
-Insert DTC(ang) in before dila.  Edit Distance:1.0
-Sugg: na DTC dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 22
-Insert VBTR(nakakalungkot) in before na.  Edit Distance:1.0
-Sugg: VBTR na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 22
-Insert VBH(may) in before dila.  Edit Distance:1.0
-Sugg: na VBH dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 14
-Insert JJCS_JJD(pinakamataas) in before na.  Edit Distance:1.0
-Sugg: JJCS_JJD na dila
-Orig N-gram:na dila
+Orig N-gram:ko ito
+ED: 1.0 Freq: 43
+TReplace NNC_CCP(pagtatamang) in ko.  Edit Distance:1.0
+Sugg: NNC_CCP ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 42
+TReplace NNC(pagkakaiba) in ko.  Edit Distance:1.0
+Sugg: NNC ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 33
+Replace na in ko.  Edit Distance: 1.0
+Sugg: na ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 18
+TReplace VBTR(tumutulong) in ko.  Edit Distance:1.0
+Sugg: VBTR ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 13
+TReplace DTCP(mga) in ko.  Edit Distance:1.0
+Sugg: DTCP ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 12
+TReplace JJD(maganda) in ko.  Edit Distance:1.0
+Sugg: JJD ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 11
+TReplace VBTS(nagdala) in ko.  Edit Distance:1.0
+Sugg: VBTS ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 11
+TReplace VBOF(ibinuo) in ko.  Edit Distance:1.0
+Sugg: VBOF ito
+Orig N-gram:ko ito
 ED: 1.0 Freq: 9
-Insert JJD_CCP(katutubong) in before dila.  Edit Distance:1.0
-Sugg: na JJD_CCP dila
-Orig N-gram:na dila
+Replace hindi in ko.  Edit Distance: 1.0
+Sugg: hindi ito
+Orig N-gram:ko ito
 ED: 1.0 Freq: 8
-Insert RBL(nasa) in before dila.  Edit Distance:1.0
-Sugg: na RBL dila
-Orig N-gram:na dila
+TReplace VBTF(magmamana) in ko.  Edit Distance:1.0
+Sugg: VBTF ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 8
+Replace , in ito.  Edit Distance: 1.0
+Sugg: ko ,
+Orig N-gram:ko ito
+ED: 1.0 Freq: 5
+TReplace VBW(mapagkukunan) in ko.  Edit Distance:1.0
+Sugg: VBW ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 5
+Replace ang in ito.  Edit Distance: 1.0
+Sugg: ko ang
+Orig N-gram:ko ito
+ED: 1.0 Freq: 5
+TReplace CCT(bilang) in ito.  Edit Distance:1.0
+Sugg: ko CCT
+Orig N-gram:ko ito
+ED: 1.0 Freq: 4
+TReplace CCR(kung) in ko.  Edit Distance:1.0
+Sugg: CCR ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 4
+TReplace RBI(pa) in ko.  Edit Distance:1.0
+Sugg: RBI ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 4
+TReplace RBW(agad) in ko.  Edit Distance:1.0
+Sugg: RBW ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 3
+TReplace VBAF(gumamit) in ko.  Edit Distance:1.0
+Sugg: VBAF ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 3
+TReplace FW(bond) in ko.  Edit Distance:1.0
+Sugg: FW ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 2
+Replace at in ko.  Edit Distance: 1.0
+Sugg: at ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 2
+Replace saan in ko.  Edit Distance: 1.0
+Sugg: saan ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace . in ito.  Edit Distance: 1.0
+Sugg: ko .
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace sinasabing in ito.  Edit Distance: 1.0
+Sugg: ko sinasabing
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace sapilitang in ko.  Edit Distance: 1.0
+Sugg: sapilitang ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace nila in ko.  Edit Distance: 1.0
+Sugg: nila ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace karaniwan in ko.  Edit Distance: 1.0
+Sugg: karaniwan ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace Hindi in ko.  Edit Distance: 1.0
+Sugg: Hindi ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace ayon in ko.  Edit Distance: 1.0
+Sugg: ayon ito
+Orig N-gram:ko ito
+ED: 1.0 Freq: 1
+Replace At in ko.  Edit Distance: 1.0
+Sugg: At ito
+...............................
+
+...............................
+
+Orig N-gram:ito dito
+ED: 1.0 Freq: 41
+Replace ay in dito.  Edit Distance: 1.0
+Sugg: ito ay
+Orig N-gram:ito dito
+ED: 1.0 Freq: 39
+Replace . in dito.  Edit Distance: 1.0
+Sugg: ito .
+Orig N-gram:ito dito
+ED: 1.0 Freq: 32
+TReplace CCT(sa) in dito.  Edit Distance:1.0
+Sugg: ito CCT
+Orig N-gram:ito dito
+ED: 1.0 Freq: 23
+Replace , in dito.  Edit Distance: 1.0
+Sugg: ito ,
+Orig N-gram:ito dito
+ED: 1.0 Freq: 18
+TReplace CCB(ng) in dito.  Edit Distance:1.0
+Sugg: ito CCB
+Orig N-gram:ito dito
+ED: 1.0 Freq: 16
+Replace ang in dito.  Edit Distance: 1.0
+Sugg: ito ang
+Orig N-gram:ito dito
+ED: 1.0 Freq: 14
+Replace na in dito.  Edit Distance: 1.0
+Sugg: ito na
+Orig N-gram:ito dito
+ED: 1.0 Freq: 8
+TReplace RBL(mula_sa) in dito.  Edit Distance:1.0
+Sugg: ito RBL
+Orig N-gram:ito dito
+ED: 1.0 Freq: 8
+TReplace DTCP(ng_mga) in dito.  Edit Distance:1.0
+Sugg: ito DTCP
+Orig N-gram:ito dito
 ED: 1.0 Freq: 7
-Insert PMS(%) in before na.  Edit Distance:1.0
-Sugg: PMS na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 7
-Insert VBTS(inimungkahi) in before na.  Edit Distance:1.0
-Sugg: VBTS na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 7
-Insert CCT(sa) in before dila.  Edit Distance:1.0
-Sugg: na CCT dila
-Orig N-gram:na dila
+TReplace PMS(”) in dito.  Edit Distance:1.0
+Sugg: ito PMS
+Orig N-gram:ito dito
 ED: 1.0 Freq: 6
-Insert JJN(pitongput-anim) in before na.  Edit Distance:1.0
-Sugg: JJN na dila
-Orig N-gram:na dila
+TReplace VBTR(inihahayag) in dito.  Edit Distance:1.0
+Sugg: ito VBTR
+Orig N-gram:ito dito
 ED: 1.0 Freq: 6
-Insert VBN_CCP(walang) in before dila.  Edit Distance:1.0
-Sugg: na VBN_CCP dila
-Orig N-gram:na dila
+Replace at in dito.  Edit Distance: 1.0
+Sugg: ito at
+Orig N-gram:ito dito
+ED: 1.0 Freq: 6
+TReplace RBI(rin) in ito.  Edit Distance:1.0
+Sugg: RBI dito
+Orig N-gram:ito dito
+ED: 1.0 Freq: 6
+TReplace NNC(tawag) in ito.  Edit Distance:1.0
+Sugg: NNC dito
+Orig N-gram:ito dito
 ED: 1.0 Freq: 5
-Insert PRI_CCP(karamihang) in before dila.  Edit Distance:1.0
-Sugg: na PRI_CCP dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 5
-Insert NNC_CCP(porsyentong) in before dila.  Edit Distance:1.0
-Sugg: na NNC_CCP dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 5
-Insert VBOF(dinurog) in before na.  Edit Distance:1.0
-Sugg: VBOF na dila
-Orig N-gram:na dila
+Replace para_sa in dito.  Edit Distance: 1.0
+Sugg: ito para_sa
+Orig N-gram:ito dito
 ED: 1.0 Freq: 4
-Insert VBAF(sumakop) in before na.  Edit Distance:1.0
-Sugg: VBAF na dila
-Orig N-gram:na dila
+TReplace RBW(nang) in dito.  Edit Distance:1.0
+Sugg: ito RBW
+Orig N-gram:ito dito
 ED: 1.0 Freq: 4
-Insert VBTF(manghahalal) in before na.  Edit Distance:1.0
-Sugg: VBTF na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 4
-Insert NNPA(DNA) in before na.  Edit Distance:1.0
-Sugg: NNPA na dila
-Orig N-gram:na dila
+TReplace JJD(palayo) in dito.  Edit Distance:1.0
+Sugg: ito JJD
+Orig N-gram:ito dito
 ED: 1.0 Freq: 3
-Insert VBTS_CCP(inimungkahing) in before dila.  Edit Distance:1.0
-Sugg: na VBTS_CCP dila
-Orig N-gram:na dila
+TReplace VBAF(sumikat) in dito.  Edit Distance:1.0
+Sugg: ito VBAF
+Orig N-gram:ito dito
 ED: 1.0 Freq: 3
-Insert NNP(Internasyonal) in before na.  Edit Distance:1.0
-Sugg: NNP na dila
-Orig N-gram:na dila
-ED: 1.0 Freq: 3
-Insert VBW(magkaparehas) in before na.  Edit Distance:1.0
-Sugg: VBW na dila
-Orig N-gram:na dila
+TReplace JJC(tulad_ng) in dito.  Edit Distance:1.0
+Sugg: ito JJC
+Orig N-gram:ito dito
 ED: 1.0 Freq: 2
-Insert RBL_JJD_CCP(nasa_malayong) in before dila.  Edit Distance:1.0
-Sugg: na RBL_JJD_CCP dila
-Orig N-gram:na dila
+TReplace RBK(kung) in dito.  Edit Distance:1.0
+Sugg: ito RBK
+Orig N-gram:ito dito
 ED: 1.0 Freq: 2
-Insert VBTR_CCP(nagsisilbing) in before dila.  Edit Distance:1.0
-Sugg: na VBTR_CCP dila
-Orig N-gram:na dila
+TReplace VBW(pabalik) in dito.  Edit Distance:1.0
+Sugg: ito VBW
+Orig N-gram:ito dito
 ED: 1.0 Freq: 2
-Insert VBRF(pinagsanib) in before na.  Edit Distance:1.0
-Sugg: VBRF na dila
-Orig N-gram:na dila
+Replace pwedeng in dito.  Edit Distance: 1.0
+Sugg: ito pwedeng
+Orig N-gram:ito dito
 ED: 1.0 Freq: 2
-Insert VB_TR_AF(umiiral) in before na.  Edit Distance:1.0
-Sugg: VB_TR_AF na dila
-Orig N-gram:na dila
+TReplace VBTF(makikita) in dito.  Edit Distance:1.0
+Sugg: ito VBTF
+Orig N-gram:ito dito
 ED: 1.0 Freq: 2
-Insert RBR(hinggil_sa) in before dila.  Edit Distance:1.0
-Sugg: na RBR dila
-Orig N-gram:na dila
+Replace dahil_sa in dito.  Edit Distance: 1.0
+Sugg: ito dahil_sa
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace sa_Germany in dito.  Edit Distance: 1.0
+Sugg: ito sa_Germany
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace noong in dito.  Edit Distance: 1.0
+Sugg: ito noong
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace obserbahan in dito.  Edit Distance: 1.0
+Sugg: ito obserbahan
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace 500 in ito.  Edit Distance: 1.0
+Sugg: 500 dito
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace ni in dito.  Edit Distance: 1.0
+Sugg: ito ni
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace napurihan in dito.  Edit Distance: 1.0
+Sugg: ito napurihan
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace dahil in dito.  Edit Distance: 1.0
+Sugg: ito dahil
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace tumitig in ito.  Edit Distance: 1.0
+Sugg: tumitig dito
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace isa in ito.  Edit Distance: 1.0
+Sugg: isa dito
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace mula_kay in dito.  Edit Distance: 1.0
+Sugg: ito mula_kay
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace nakasaad in ito.  Edit Distance: 1.0
+Sugg: nakasaad dito
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace maliwanag in dito.  Edit Distance: 1.0
+Sugg: ito maliwanag
+Orig N-gram:ito dito
+ED: 1.0 Freq: 1
+Replace alinman in dito.  Edit Distance: 1.0
+Sugg: ito alinman
+...............................
+
+...............................
+
+Orig N-gram:dito .
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:dito .
 ED: 1.0 Freq: 2
-Insert JJCS(pinaka-tama) in before na.  Edit Distance:1.0
-Sugg: JJCS na dila
+Insert NNC(tawag) in before dito.  Edit Distance:1.0
+Sugg: NNC dito .
+Orig N-gram:dito .
+ED: 1.0 Freq: 1
+Insert CDB(500) in before dito.  Edit Distance:1.0
+Sugg: CDB dito .
+Orig N-gram:dito .
+ED: 1.0 Freq: 1
+Insert VBAF(tumitig) in before dito.  Edit Distance:1.0
+Sugg: VBAF dito .
 ...............................
 

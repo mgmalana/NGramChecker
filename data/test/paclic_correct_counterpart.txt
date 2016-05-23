@@ -1,7 +1,7 @@
 kikumpara ang babae                     O
 sabi ng pulis na						O pero sinuggest din to replace 'nang' with 'ang' (ex. mabawasan ang populasyon na)
 para_sa bata                            O
-tinayo pa rin ang Torre_de_Manila       X 'Delete parin' was suggested in 4-gram level and 'Unmerge parin' only at 3-gram level
+tinayo pa rin ang Torre_de_Manila       O 'Delete parin' was suggested in 4-gram level and 'Unmerge parin' only at 3-gram level
 bahay nina (DTPP) Jose , Juan			X Only suggested at 3-gram, because same sequence in 5-gram and 4-gram were not generalized
 isang lalaki							O 'Replace lalaki with JJD' was also suggested
 minungkahi na lang na					O
@@ -16,14 +16,14 @@ ang puwesto para_sa						O
 Noong 2006 , nanalo ang  				O (As expected, VBTS was outputted as suggestion - a dictionary containing mapping will easily fix this)
 ang nagkaloob ng						O
 na nagbibigay ng						X Was considered grammatically correct because the sequence 'na VBTF ng' is correct (ex. na tataas ang), requires an instance of VBTF - ibibigay/magbibigay
-para_kay Mark  							X 'para_sa Mark' was considered grammatically correct because of instances such as 'para_sa Amerikano, para_sa US' 
+para_kay Mark  							X 1 'para_sa Mark' was considered grammatically correct because of instances such as 'para_sa Amerikano, para_sa US' 
 Maganda si [PROPERNOUN]. 				X Kasi walang ganitong sequence na pinagtrainan, "Sinuggest na "
 pangunahing plano ng pangulo			O
 taga-Manila siya  						X Not corrected because taga-Manila and POS sequence 'RBL (locative adverb) PRS' not in database
 bahaghari iyon   						X Was not detected because the sequence 'NNC NNC' and 'NNC PRO' are grammatically correct in the database
 pag-aayos ng  							O Was not suggested but 'pagkakaayos' was suggested.
-hinila niya 							X Was considered grammatically correct because POS (PRS) was too generalized
-8/25 Mali sa Taas
+hinila niya 							X 1 Was considered grammatically correct because POS (PRS) was too generalized
+7/25 Mali sa Taas
 ang pagtakbo ng mayor					O
 makita nang malinaw						O
 pera ng bayan							O
@@ -50,3 +50,5 @@ Nagluluto siya ng hapunan .				O Grammatically correct in trigram level
 Kinuha ko ito dito .					X Because the sequence 'ko ito'
 matalas na dila							O
 2/25 Mali
+
+80%
