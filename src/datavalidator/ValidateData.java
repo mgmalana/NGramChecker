@@ -22,8 +22,7 @@ public class ValidateData {
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/s14_";
-		String[] filenames = { "abalos", "abarquez", "abejero", "azucena", "bareras", "basilio", "caburian", "chan",
-				"chua", "ebron", "flores", "francisco", "fuentes", "gepte", "gumisad" };
+		String[] filenames = { "alcalde", "aldanese", "alejandrea", "alicbucsan" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + f + "_words.txt");

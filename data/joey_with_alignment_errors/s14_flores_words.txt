@@ -1,0 +1,80 @@
+Si Alan Mathison Turing , OBE , FRS ( 23 June 1912 - 7 June 1954 ) ay dating mathematician , logician at cryptographer na nagmula sa England .
+Tinuturing bilang ang tagapagtaguyod ng modernong computer science si Turing .
+Nakag-ambag siya ng maimpluwensiyang pormalisasyon ng konsepto ng algorithm at computation gamit ang kaniyang “ Turing machine ” .
+Gamit naman ang “ Turing test ” , nakagawa siya ng makabuluhan at kontrobersyal na kontribusyon sa debate sa posibilidad ng pagkakaroon ng sariling isip ng_mga computer .
+Noong lumaon , nagtrabaho siya sa National Physical Laboratory at gumawa ng isa sa mga unang disenyo para_sa stored program computer , ngunit hindi ito tuluyang ginawa .
+Noong 1943 , tumungo siya sa University_of_Manchester upang tumulong sa paggawa ng Manchester Mark I , noong umusbong bilang isa sa pinakaunang computer sa_mundo .
+Nang dumating ang pangalawang World War , nagtrabaho si Turing sa Bletchley Park , ang codebreaking centre ng Britain , at panandaliang naging pinuno ng Hut 8 , ang seksyong responsable sa Alemang pangkaragatang cryptanalysis .
+Gumawa siya ng ilang mga paraan sa pag-alam ng ibig sabihin ng_mga serong Aliman . Isa na dito ang paggamit ng “ bombe ” , isang makinang electromechanical na nakakahanap ng_mga setting ng makinang Enigma .
+Ipinaglihi si Turing sa Chhatrapur , Orissa , India .
+Ang kaniyang tatay , si Julius Matthison Turing ay dating miyembro ng Indian Civil Service .
+Si Julius at ang kaniyang asawang si Sara ( nee Stoney ; 1881 - 1976 , anak ni Edward Waller Stoney , pinunong engineer ng Madras Railways ) ay ginusto si Alan na lumaki sa England kaya bumalik sila sa Maida Vale , London kung saan pinanganak si Alan Turing noong 23 June , 1912 . Naitala ito sa asul na plaka sa_labas ng gusali na lumaong naging Collonade Hotel . Gumawa ng sunod-sunod na lohikal na pagsusuri ang bombe base_sa crib na nilagay sa de-kuryenteng paraan .
+Nakakahalata ang bombe kapag may kontradiksyong nangyayari at matapos nitong tanggalin ang setting na ito , lilipat ito sa susunod na setting .
+Nakadudulot ng kontradiksyon ang karamihan sa posibleng setting at ang_mga ito ay itinataboy , kaunting setting lamang ang naiiwan para_sa malalim na imbestigasyon .
+Unang naisalugar ng “ bombe ” ni Turing noong 18 March 1940 .
+Mahigit sa 200 na “ bombe ” ang nagagamit noong matapos ang giyera .
+Noong December 1940 , natugunan ni Turing ang pangkaragatang Enigma indicator system na malayong mas komplikado pa sa mga indicator system na ginagamit ng ibang serbisyo .
+Nakaimbento rin si Turing ng Bayesian statistical technique na tinawag na “ Banburismus ” upang makatulong sa pagsusuri ng Pangkaragatang Enigma .
+Nakakasawalang bisa ng ilang mga utos ang Banbarismus kaya naman nababawasan nito ang kailangang oras upang masuri ang settings sa mga bombe .
+Sa tagsibol ng 1941 , nagpanukalang magpakasal si Turing sa kaniyang katrabahong si Joan Clarke ngunit naisawalang bisa na ang sagupaan dahil_sa kagustuhan ng dalawa pagdating ng tag-init .
+Noong July 1942 , nakaimbento si Turing ng technique na pinangalanang “ Turingismus ” o “ Turingery ” na ginamit laban_sa serong “ Lorenz ” na ginagamit sa ” Geheimschreiber ” ( palihim na manunulat ) ng_mga Aleman na isa sa mga inalyasang “ Fish ” .
+Pinakilala rin niya ang koponang Fish kay Tommy Flowers na sa_ilalim ni Max Newman , ay gumawa sa Colossus Computer , ang unang digital electronic computer ng mundo , na pumalit sa mga nakaraang mas simpleng mga makina ( kasama na ang “ Heath Robinson ” ) at ang nakakalamang na bilis nito ay nagbigay-daan sa brute-force decryption techniques na magagamit sa araw-araw na nagpapalit na mga sero .
+Karaniwang maling akala na importante si Turing sa pagkagawa ng Colossus ; hindi ito ang kaso .
+Pumunta si Turing sa Estados Unidos noong Nobyembre 1942 at tumulong sa US Navy cryptanalyst sa Naval Enigma at sa paggawa ng_mga bombe sa Washington , tumulong din sya sa Bell Labs sa paggawa ng ligtas na mga speech device .
+Bumalik sya sa Bletchley Park noong Marso 1943 .
+Habang wala siya , kinuha ni Hugh Alexander ang papel bilang pinuno ng Hut 8 , ngunit matagal nang namumuno si Alexander - halos walang interes si Turing sa araw-araw na pagpapatakbo ng seksyon .
+Naging tanungan si Turing para_sa mga cryptanalyst sa Bletchley Park .
+Noong patapos na ang giyera , habang tinuturuan niya ang kaniyang sarili ng electronics , dumisenyo si Turing , ng may tulong ng engineer na si Donald Bayley , ng nadadalang makinang pinangalanang Delilah upang magamit sa usapan .
+Inasahang magagamit ito sa iba’t_ibang paraan , ng walang kakayahang magamit para_sa komunikasyong pangmalayuan , at sa anumang kaso masyadong nahuli ang pagkakagawa sa Delilah para magamit ito sa digmaan .
+Kahit pinakita pa ito ni Turing sa mga opisyal sa_pamamagitan_ng pag-encrypt / decrypt sa isang pagtatala ng talumpati ni Winston Churchill , hindi nagamit ang Delilah .
+Noong 1945 , binigyan si Turing ng award na OBE para_sa kaniyang serbisyo sa digmaan , ngunit nanatiling sikreto ang kaniyang mga ginawa sa_loob_ng maraming taon .
+Mula 1945 hanggang 1947 nasa National Physical Laboratory siya kung saan nakigawa siya sa disenyo ng ACE .
+Nagpakita siya ng papel noong 19 February 1946 kung saan makikita ang unang disenyo ng kompyuter na stored program sa Britain .
+Kahit nagtagumpay siya sa pagdisenyo ng ACE , nagkaroon ng kabagalan sa pagsimula sa proyekto at nawalan siya ng pag-asa .
+Sa dulo ng 1947 , bumalik siya sa Cambridge upang magpahinga .
+Habang nasa Cambridge siya , nakumpleto ang ACE sa kaniyang pagkawala at naisagawa ang una nitong program noong 10 May 1950 .
+Noong 1948 , pinangalanan siyang Reader sa Mathematics Department at Manchester at noong 1949 , naging deputadong direktor ng laboratoryo ng computer sa University_of_Manchester at gumawa ng software para_sa isa sa pinakaunang totoong computer - ang Manchester Mark I .
+Noong 1948 , nagsimula si Turing , kasama ang kaniyang dating kasamahan bilang undergraduate , D.G. Champernowne , sa pagsulat ng isang programang pangchess para_sa isang kompyuter na hindi pa nagagawa .
+Noong 1952 , nang walang kompyuter na may sapat na lakas para masunod ang programa , naglaro si Turing at ginaya niya ang kompyuter ng may bilis na kalahating oras bawat galaw .
+Naitala ang laro ; natalo ang programa sa kasamahan ni Turing na si Alick Glennie , ngunit may nagsasabi na nanalo ito ng laro laban_sa asawa ni Champernowne .
+Nagtrabaho si Turing mula 1952 hanggang sa kaniyang pagkamatay noong 1954 sa mathematical biology , sa larangang morphogenesis .
+Naglathala siya ng pananaliksik sa paksang tinatawag na “ The_Chemical_Basis_of_Morphogenesis ” noong 1952 , ipinakilala nito ang Turing hypothesis_of_patten_formation . 
+Ang kaniyang pinakainteres ay ang pag-intindi sa Fibonacci phyllotaxis , ang pagkakaroon ng numerong Fibonacci sa istraktura ng halaman .
+Gumamit siya ng reaction-diffusion equations na ngayon ay sentro na ng larangan ng pattern formation .
+Ang_mga lumaong pananaliksik ay hindi nailathala hanggang 1992 kung saan nailathala ang Collected Works_of_A.M. Turing .
+Bakla si Turing sa isang panahon kung saan labag_sa batas ang_mga aktong homosekswal at ang pagkahomosekswal at tinaguriang isang sira ng ulo at maaaring parusahan .
+Noong 1952 , tumulong ang kakilala ni Turing na si Arnold Murray sa isang kasabwat na akyatin ang bahay ni Turing at pumunta si Turing sa pulis upang isumbong ang krimen .
+Mula_sa resulta ng imbestigasyon ng pulisya , umamin si Turing sa sekswal na relasyon kay Murray at natagurian itong krimen , nasentensyahan sila ng gross indecency sa_ilalim_ng Section 11 ng Criminal Law Amendment Act of 1885 .
+Hindi nagsisisi si Turing at tinagurian siyang kriminal .
+Pinapili siya kung ipapakulong siya o probasyon na papayagan lang kung dumanas siya ng hormonal treatment na dinisenyo upang mabawasan ang kaniyang libog .
+Upang maiwasan makulong , pumayag siya sa pagbakuna ng estrogen hormone , na tumagal ng isang taon at may masamang epekto tulad_ng gynecomastia ( paglaki ng suso ) .
+Nagdulot ng pagkatanggal ng security clearance ang kaniyang pagkahatol at pinigilan siya nito mula_sa pagpapatuloy ng kaniyang pagkonsulta para_sa GCHQ tungkol_sa cryptography .
+Noong 8 June 1954 , natagpuan siyang patay ng manglilinis ; bago ang araw na yoon , namatay siya sa pagkalason gamit ang cyanide mula_sa mansanas na nilagyan ng cyanide na iniwan niyang may tira sa_tabi ng kama niya .
+Ang mansanas mismo ay hindi nasuri para_sa bakas ng cyanide , at pagkatapos na ng kaniyang pagkamatay ang pagdeklara ng pagkalason ng cyanide bilang dahilan ng kaniyang pagkamatay .
+Maraming naniniwala na sadya ang kaniyang pagkamatay ay napagkasunduan na siya ay nagpakamatay .
+Iminungkahi naman ng biographer na si Andrew Hodge na maaaring sinadya ni Turing na magpakamatay gamit ang malabong paraan upang bigyan ang kaniyang nanay ng posibleng pagdududa .
+Ngunit nagpumilit ang nanay niya na aksidente ang nangyari at mula ito sa pagkaburara niya sa pag-aruga sa kemikal ng laboratoryo .
+Nagmungkahi naman ang iba na ginagaya ni Turing ang isang eksena mula_sa “ Snow White ” , ang kaniyang paboritong fairy tale .
+Ang posibilidad ng pagpapapatay ay namungkahi din dahil ang pagkabakla ni Turing ay nakita bilang isang panganib .
+Sinunog ang kaniyang bangkay sa Woking crematorium noong 12 June 1954 .
+Simula noong 1966 , ang Turing Award ay ibiniyaya taon-taon ng Association_for_Computing_Machinery sa isang tao para_sa kontribusyong teknikal sa komunidad ng computing .
+Maraming tumingin dito bilang ang katapat ng Nobel Prize mula_sa mundo ng computing .
+Iba’t_ibang pagkilala kay Turing ang ginawa sa Manchester , ang lungsod kung saan nagtrabaho siya sa dulo ng buhay niya .
+Noong 1994 , ang isang parte ng isang kalye sa Manchester ay pinangalanang Alan Turing Way .
+Ginawa ang isang istatwa ni Turing sa Manchester noong 23 June 2001 .
+Ito ay nasa Sackville Park , sa_pagitan_ng University_of_Manchester sa Whitworth Street at ang baklang komunidad ng Canal Street .
+Isinaayos ng British Logic Colloquium at ang British Society_for_the_History_of_Mathematics ang isang pagdiriwang ng buhay at nakamit ni Turing at ang Alan Turing Institute ay naisama sa university noong Summer na yun .
+Ang gusali kung saan naroroon ang School_of_Mathematics , Photon Sciences Institute at ang Jodrell Bank Centre_for_Astrophysics ay pinangalanang Turing Building at binuksaan noong July 2007 .
+Noong 23 June 1998 , kung kailan sana magaganap ang ika-86 na kaarawan ni Turing , nagpakita ng opisyal na English Heritage Blue Plaque ang kaniyang biographer na si Andrew Hodges sa kaniyang lumang bahay sa Warrington Crescent , London na ngayon ay ang Collonnade Hotel .
+Upang markahan ang ikalimampung anibersaryo ng kaniyang kamatayan , isang memorial plaque ang ipinakita noong 7 June 2004 sa kaniyang dating tinitirahan , Hollymeade , sa Wilmslow .
+Para_sa kaniyang mga nakamit sa computing , iba’t_ibang unibersidad ang kumilala sa kaniya .
+Noong 28 October 2004 , isang tansong istatwa ni Alan Turing na ginawa ni John W. Mills ay ipinakita sa University_of_Surrey .
+Ang istatwang ito ay minarkahan ang ikalimampung anibersaryo ng kaniyang pagkamatay .
+Ipinakita nito si Turing na dala-dala ang kaniyang libro sa campus .
+Parehong may laboratoryo sa computer na pinangalanan mula_kay Turing ang Polytechnic University_of_Puerto Rico at ang Los Andes University sa Bogota , Colombia .
+May programa sa Computer Science ang University_of_Texas sa Austin na pinangalanang Turing Scholars .
+Nag-oorganisa ang Istanbul Bilgi University ng taun-taong usapan sa teorya sa computation na tinatawag na Turing Days .
+May computer lab ang Cambridge University sa King’s College na pinangalanang “ Turing Room ” .
+May upuang granite ang Carnegie Mellon University sa Hornbostel Mall na may pangalang “ A. Turing ” na nakaukit sa_taas , “ Read ” sa kaliwang paa at “ write ” sa kabila .
+Pinangalanan ng Boston GLBT pride Organization si Turing bilang ang kanilang 2006 Honorary Grand Marshal .
+
