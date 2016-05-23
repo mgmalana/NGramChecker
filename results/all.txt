@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Full: Kinuha ko ito dito . 
 VBTS PRS PRO PRL PMP
 kuha ko ito dito . 5
@@ -21,6 +22,5049 @@ N-gram = 3
 ...............................
 
 Orig N-gram:Kinuha ko ito
+=======
+<<<<<<< HEAD
+Full: linaan ng tulong 
+VBTS CCB NNC
+laan ng tulong 3
+=======
+Full: matalas na dila 
+JJD CCP NNC
+talas na dila 3
+>>>>>>> 91b638857f5bd5fa8bc2352da0573cbdf2e5f042
+N-gram = 7
+N-gram = 6
+N-gram = 5
+N-gram = 4
+N-gram = 3
+...............................
+
+<<<<<<< HEAD
+Orig N-gram:linaan ng tulong
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 11
+Insert JJD_CCP(matinding) in before tulong.  Edit Distance:1.0
+Sugg: linaan ng JJD_CCP tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 6
+Insert CCP(na) in before linaan.  Edit Distance:1.0
+Sugg: CCP linaan ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 6
+Insert LM(ay) in before linaan.  Edit Distance:1.0
+Sugg: LM linaan ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 3
+Insert PRI_CCP(ibang) in before tulong.  Edit Distance:1.0
+Sugg: linaan ng PRI_CCP tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 2
+Insert CCA(at) in before linaan.  Edit Distance:1.0
+Sugg: CCA linaan ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 2
+Insert DTC(ang) in before linaan.  Edit Distance:1.0
+Sugg: DTC linaan ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 2
+Insert RBF(di) in before linaan.  Edit Distance:1.0
+Sugg: RBF linaan ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete ng.  Edit Distance:1.0
+Sugg: linaan tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+Orig N-gram:linaan ng tulong
+ED: 1.0 Freq: 1
+Delete linaan.  Edit Distance:1.0
+Sugg: ng tulong
+=======
+Orig N-gram:matalas na dila
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 50
+Insert DTCP(ng_mga) in before matalas.  Edit Distance:1.0
+Sugg: DTCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 40
+Insert DTC(ang) in before matalas.  Edit Distance:1.0
+Sugg: DTC matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 33
+Insert CCB(ng) in before matalas.  Edit Distance:1.0
+Sugg: CCB matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 33
+Insert CCT(sa) in before matalas.  Edit Distance:1.0
+Sugg: CCT matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 30
+Insert PRI_CCP(isang) in before matalas.  Edit Distance:1.0
+Sugg: PRI_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 19
+Insert VBH(may) in before matalas.  Edit Distance:1.0
+Sugg: VBH matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 14
+Insert CCA(at) in before matalas.  Edit Distance:1.0
+Sugg: CCA matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 11
+Insert JJCC(mas) in before matalas.  Edit Distance:1.0
+Sugg: JJCC matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 8
+Insert RBF(hindi) in before matalas.  Edit Distance:1.0
+Sugg: RBF matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 7
+Insert CCP(na) in before matalas.  Edit Distance:1.0
+Sugg: CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 6
+Insert PRI(Isang) in before matalas.  Edit Distance:1.0
+Sugg: PRI matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 5
+Insert NNC_CCP(kasundong) in before matalas.  Edit Distance:1.0
+Sugg: NNC_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 5
+Insert JJN_CCP(Dalawang) in before matalas.  Edit Distance:1.0
+Sugg: JJN_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 4
+Insert PRSP_CCP(kanyang) in before matalas.  Edit Distance:1.0
+Sugg: PRSP_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 4
+Insert VBH_CCP(mayroong) in before matalas.  Edit Distance:1.0
+Sugg: VBH_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 3
+Insert RBR(tungo_sa) in before matalas.  Edit Distance:1.0
+Sugg: RBR matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 3
+Insert LM(ay) in before matalas.  Edit Distance:1.0
+Sugg: LM matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 3
+Insert PMC(,) in before matalas.  Edit Distance:1.0
+Sugg: PMC matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert RBI_CCP(pang) in before matalas.  Edit Distance:1.0
+Sugg: RBI_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert RBD_CCP(inaasahang) in before matalas.  Edit Distance:1.0
+Sugg: RBD_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert JJC(kumpara_sa) in before matalas.  Edit Distance:1.0
+Sugg: JJC matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert PRO_CCP(itong) in before matalas.  Edit Distance:1.0
+Sugg: PRO_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert CDB(18,000) in before na.  Edit Distance:1.0
+Sugg: matalas CDB na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert RBL(mula_sa) in before matalas.  Edit Distance:1.0
+Sugg: RBL matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert RBB(para_sa) in before matalas.  Edit Distance:1.0
+Sugg: RBB matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert JJD_CCP(malaking) in before matalas.  Edit Distance:1.0
+Sugg: JJD_CCP matalas na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 2
+Insert PMS()) in before na.  Edit Distance:1.0
+Sugg: matalas PMS na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete na.  Edit Distance:1.0
+Sugg: matalas dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+ED: 1.0 Freq: 1
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+Orig N-gram:matalas na dila
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ED: 1.0 Freq: 1
 Delete ko.  Edit Distance:1.0
 Sugg: Kinuha ito
@@ -270,14 +5314,85 @@ Delete dito.  Edit Distance:1.0
 Sugg: ito .
 Orig N-gram:ito dito .
 ED: 1.0 Freq: 1
+<<<<<<< HEAD
 Delete dito.  Edit Distance:1.0
 Sugg: ito .
+=======
+Delete matalas.  Edit Distance:1.0
+Sugg: na dila
+>>>>>>> 91b638857f5bd5fa8bc2352da0573cbdf2e5f042
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ...............................
 
 N-gram = 2
 ...............................
 
+<<<<<<< HEAD
 Orig N-gram:Kinuha ko
+=======
+<<<<<<< HEAD
+Orig N-gram:linaan ng
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 15
+Insert CCP(na) in before linaan.  Edit Distance:1.0
+Sugg: CCP linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 11
+Insert LM(ay) in before linaan.  Edit Distance:1.0
+Sugg: LM linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 8
+Insert DTC(ang) in before linaan.  Edit Distance:1.0
+Sugg: DTC linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 8
+Insert PMC(,) in before linaan.  Edit Distance:1.0
+Sugg: PMC linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 5
+Insert CCA(at) in before linaan.  Edit Distance:1.0
+Sugg: CCA linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 4
+Insert RBL(sa_isla) in before ng.  Edit Distance:1.0
+Sugg: linaan RBL ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 3
+Insert PRO(ito) in before ng.  Edit Distance:1.0
+Sugg: linaan PRO ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 3
+Insert NNC(kautusan) in before ng.  Edit Distance:1.0
+Sugg: linaan NNC ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 3
+Insert DTCP(mga) in before linaan.  Edit Distance:1.0
+Sugg: DTCP linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 2
+Insert JJN_CCP(unang) in before linaan.  Edit Distance:1.0
+Sugg: JJN_CCP linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 2
+Insert RBF(walang) in before linaan.  Edit Distance:1.0
+Sugg: RBF linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 2
+Insert PRS_CCP(siyang) in before linaan.  Edit Distance:1.0
+Sugg: PRS_CCP linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 2
+Insert RBQ(paano) in before linaan.  Edit Distance:1.0
+Sugg: RBQ linaan ng
+Orig N-gram:linaan ng
+ED: 1.0 Freq: 2
+Insert RBM(maaring) in before linaan.  Edit Distance:1.0
+Sugg: RBM linaan ng
+=======
+Orig N-gram:matalas na
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ED: 0.0 Freq: 0
 N-gram is correct
 ...............................
@@ -366,6 +5481,7 @@ Replace at in ko.  Edit Distance: 1.0
 Sugg: at ito
 Orig N-gram:ko ito
 ED: 1.0 Freq: 2
+<<<<<<< HEAD
 Replace saan in ko.  Edit Distance: 1.0
 Sugg: saan ito
 Orig N-gram:ko ito
@@ -400,11 +5516,204 @@ Orig N-gram:ko ito
 ED: 1.0 Freq: 1
 Replace At in ko.  Edit Distance: 1.0
 Sugg: At ito
+=======
+Insert VBW(maging) in before matalas.  Edit Distance:1.0
+Sugg: VBW matalas na
+Orig N-gram:matalas na
+ED: 1.0 Freq: 2
+Insert RBD(pagiging) in before matalas.  Edit Distance:1.0
+Sugg: RBD matalas na
+Orig N-gram:matalas na
+ED: 1.0 Freq: 2
+Insert NNC(anak) in before na.  Edit Distance:1.0
+Sugg: matalas NNC na
+>>>>>>> 91b638857f5bd5fa8bc2352da0573cbdf2e5f042
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ...............................
 
 ...............................
 
+<<<<<<< HEAD
 Orig N-gram:ito dito
+=======
+<<<<<<< HEAD
+Orig N-gram:ng tulong
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 453
+Insert NNC(pangalan) in before ng.  Edit Distance:1.0
+Sugg: NNC ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 81
+Insert JJD_CCP(kataas-taasang) in before tulong.  Edit Distance:1.0
+Sugg: ng JJD_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 53
+Insert VBTR(Pinipili) in before ng.  Edit Distance:1.0
+Sugg: VBTR ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 40
+Insert PRI_CCP(ibang) in before tulong.  Edit Distance:1.0
+Sugg: ng PRI_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 29
+Insert VBTS(naglaan) in before ng.  Edit Distance:1.0
+Sugg: VBTS ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 24
+Insert PRI(lahat) in before ng.  Edit Distance:1.0
+Sugg: PRI ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 24
+Insert FW(network) in before ng.  Edit Distance:1.0
+Sugg: FW ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 23
+Insert JJD(pangunguna) in before ng.  Edit Distance:1.0
+Sugg: JJD ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 20
+Insert RBL(Sa_ilalim) in before ng.  Edit Distance:1.0
+Sugg: RBL ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 18
+Insert VBW(magmungkahi) in before ng.  Edit Distance:1.0
+Sugg: VBW ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 15
+Insert PRSP_CCP(ating) in before tulong.  Edit Distance:1.0
+Sugg: ng PRSP_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 14
+Insert JJN_CCP(pitong) in before tulong.  Edit Distance:1.0
+Sugg: ng JJN_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 13
+Insert VBAF(gumawa) in before ng.  Edit Distance:1.0
+Sugg: VBAF ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 12
+Insert NNC_CCP(dugong) in before tulong.  Edit Distance:1.0
+Sugg: ng NNC_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 10
+Insert PMS(%) in before ng.  Edit Distance:1.0
+Sugg: PMS ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 7
+Insert VB_TR_AF(gumagamit) in before ng.  Edit Distance:1.0
+Sugg: VB_TR_AF ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 6
+Insert VBOF(hinirang) in before ng.  Edit Distance:1.0
+Sugg: VBOF ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 6
+Insert RBW(pagkatapos) in before ng.  Edit Distance:1.0
+Sugg: RBW ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 5
+Insert VBTF(tataas) in before ng.  Edit Distance:1.0
+Sugg: VBTF ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 5
+Insert JJN(ika-21) in before tulong.  Edit Distance:1.0
+Sugg: ng JJN tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 5
+Insert JJC_CCP(parehong) in before tulong.  Edit Distance:1.0
+Sugg: ng JJC_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert CCT(sa) in before tulong.  Edit Distance:1.0
+Sugg: ng CCT tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert PRO(ito) in before ng.  Edit Distance:1.0
+Sugg: PRO ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert CCA(at) in before ng.  Edit Distance:1.0
+Sugg: CCA ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert CCB(kasama) in before ng.  Edit Distance:1.0
+Sugg: CCB ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert CCU(sa_pagitan) in before ng.  Edit Distance:1.0
+Sugg: CCU ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert RBI(din) in before ng.  Edit Distance:1.0
+Sugg: RBI ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 4
+Insert NNPA(TV) in before tulong.  Edit Distance:1.0
+Sugg: ng NNPA tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert DTC(ang) in before tulong.  Edit Distance:1.0
+Sugg: ng DTC tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert VB_TR_RF(pinagkukunan) in before ng.  Edit Distance:1.0
+Sugg: VB_TR_RF ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert JJCS_JJD(pinakataas) in before ng.  Edit Distance:1.0
+Sugg: JJCS_JJD ng tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert VBTS_CCP(naliwanagang) in before tulong.  Edit Distance:1.0
+Sugg: ng VBTS_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert PRC_CCP(ganong) in before tulong.  Edit Distance:1.0
+Sugg: ng PRC_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 3
+Insert PRQ_CCP(ilang) in before tulong.  Edit Distance:1.0
+Sugg: ng PRQ_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert VBN_CCP(walang) in before tulong.  Edit Distance:1.0
+Sugg: ng VBN_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert NNP(Kaliwanagang) in before tulong.  Edit Distance:1.0
+Sugg: ng NNP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert RBF(hindi) in before tulong.  Edit Distance:1.0
+Sugg: ng RBF tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert VBTR_CCP(nakakapinsalang) in before tulong.  Edit Distance:1.0
+Sugg: ng VBTR_CCP tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert CDB(5) in before tulong.  Edit Distance:1.0
+Sugg: ng CDB tulong
+Orig N-gram:ng tulong
+ED: 1.0 Freq: 2
+Insert VBW_CCP(magsilbing) in before tulong.  Edit Distance:1.0
+Sugg: ng VBW_CCP tulong
+=======
+Orig N-gram:na dila
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:na dila
+ED: 1.0 Freq: 282
+Insert JJD(tapat) in before na.  Edit Distance:1.0
+Sugg: JJD na dila
+Orig N-gram:na dila
+ED: 1.0 Freq: 98
+Insert NNC(pulitikal) in before na.  Edit Distance:1.0
+Sugg: NNC na dila
+Orig N-gram:na dila
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ED: 1.0 Freq: 41
 Replace ay in dito.  Edit Distance: 1.0
 Sugg: ito ay
@@ -561,6 +5870,7 @@ ED: 0.0 Freq: 0
 N-gram is correct
 Orig N-gram:dito .
 ED: 1.0 Freq: 2
+<<<<<<< HEAD
 Insert NNC(tawag) in before dito.  Edit Distance:1.0
 Sugg: NNC dito .
 Orig N-gram:dito .
@@ -571,5 +5881,10 @@ Orig N-gram:dito .
 ED: 1.0 Freq: 1
 Insert VBAF(tumitig) in before dito.  Edit Distance:1.0
 Sugg: VBAF dito .
+=======
+Insert JJCS(pinaka-tama) in before na.  Edit Distance:1.0
+Sugg: JJCS na dila
+>>>>>>> 91b638857f5bd5fa8bc2352da0573cbdf2e5f042
+>>>>>>> 4abe5b0dcec4266e90e7557be1e6ae9809ef6d6a
 ...............................
 

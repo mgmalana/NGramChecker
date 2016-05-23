@@ -50,5 +50,4 @@ Nagluluto siya ng hapunan .				O Grammatically correct in trigram level
 Kinuha ko ito dito .					X Because the sequence 'ko ito'
 matalas na dila							O
 2/25 Mali
-
 80%
