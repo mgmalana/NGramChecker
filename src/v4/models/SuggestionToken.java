@@ -1,7 +1,5 @@
 package v4.models;
 
-import v3.model.SuggestionType;
-
 public class SuggestionToken {
 
 	private String word;

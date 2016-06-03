@@ -4,7 +4,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import v3.test.CandidateNGramsService;
 import v4.models.Suggestion;
 
 public abstract class GrammarCheckingServiceThread extends Thread {

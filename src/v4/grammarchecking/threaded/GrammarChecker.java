@@ -10,11 +10,10 @@ import java.util.List;
 import util.ArrayToStringConverter;
 import util.Constants;
 import util.FileManager;
-import v3.model.Input;
-import v3.model.SuggestionType;
-import v3.test.TestErrorsProvider;
+import v4.models.Input;
 import v4.models.Suggestion;
 import v4.models.SuggestionToken;
+import v4.models.SuggestionType;
 
 public class GrammarChecker {
 
@@ -178,6 +177,10 @@ public class GrammarChecker {
 			}
 		}
 		fm.close();
+
+		long endTime = System.currentTimeMillis();
+		System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
+
 		return allSuggestions;
 
 	}

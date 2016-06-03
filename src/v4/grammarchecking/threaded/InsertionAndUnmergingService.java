@@ -4,10 +4,10 @@ import java.sql.SQLException;
 import java.util.List;
 
 import util.Constants;
-import v3.model.NGram;
-import v3.model.SuggestionType;
+import v4.models.NGram;
 import v4.models.Suggestion;
 import v4.models.SuggestionToken;
+import v4.models.SuggestionType;
 
 public class InsertionAndUnmergingService extends GrammarCheckingServiceThread {
 
