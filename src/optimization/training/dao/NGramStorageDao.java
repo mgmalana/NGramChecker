@@ -5,8 +5,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import v4.dao.DatabaseConnector;
+import v4.models.NGram;
 
 public class NGramStorageDao {
 	Connection conn;
@@ -85,5 +88,28 @@ public class NGramStorageDao {
 			return rs.getInt(1);
 		}
 		return -1;
+	}
+
+	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException {
+		String query = "SELECT F.id, words, lemmas, pos FROM " + ngramTable + " F INNER JOIN " + "(SELECT id, pos FROM "
+				+ ngramFrequencyTable + " WHERE frequency >= ? LIMIT 1 OFFSET ?) B " + "ON F.posID = B.id";
+
+		PreparedStatement ps = conn.prepareStatement(query);
+		ps.setInt(1, frequencyAtLeast);
+		ps.setInt(2, offset);
+		ResultSet rs = ps.executeQuery();
+
+		List<NGram> ngrams = new ArrayList<>();
+		while (rs.next()) {
+			int id = rs.getInt(1);
+			String[] words = rs.getString(2).split(" ");
+			String[] lemmas = rs.getString(3).split(" ");
+			String[] pos = rs.getString(4).split(" ");
+			ngrams.add(new NGram(id, ngramSize, words, lemmas, pos));
+		}
+		if (ngrams.size() > 0)
+			return ngrams;
+		else
+			return null;
 	}
 }
