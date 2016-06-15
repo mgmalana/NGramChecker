@@ -17,6 +17,7 @@ public class NGramToHybridDao {
 	private String ngramTable;
 	private String ngramFrequencyTable;
 	private String ngramIndexTable;
+	private POSDao posDao;
 
 	public NGramToHybridDao(int ngramSize, String ngramTable, String ngramFrequencyTable, String ngramIndexTable) {
 		conn = DatabaseConnector.getConnection();
@@ -24,10 +25,14 @@ public class NGramToHybridDao {
 		this.ngramTable = ngramTable;
 		this.ngramFrequencyTable = ngramFrequencyTable;
 		this.ngramIndexTable = ngramIndexTable;
+		this.posDao = new POSDao();
 	}
 
-	public void addHybridNGram(String hybridNgram, String isHybrid, String posTags) {
-		// add to database, index the pos tag
+	public void addHybridNGram(String hybridNgram, String isHybrid, String posTags) throws SQLException {
+
+		int[] posIDs = posDao.addPOSTags(posTags);
+
+		// add to database, index the pos tag - hybrid n-gram
 		// use first hybrid as root, succeeding s nodes with computed edit
 		// distance
 	}
