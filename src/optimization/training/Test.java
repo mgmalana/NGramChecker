@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) throws SQLException {
 		NGramToHybridDao d = DaoManager.getNGramToHybridDao(3);
-		d.addHybridNGram("", "", "PRS PRP CCS");
+		d.addHybridNGram("", "", "NNC NNC NNP", 20);
 	}
 
 }

@@ -12,11 +12,11 @@ public class POSDao {
 	String posTable = "pos";
 	Connection conn = DatabaseConnector.getConnection();
 
-	public int[] addPOSTags(String posTags) throws SQLException {
+	public Integer[] addPOSTags(String posTags) throws SQLException {
 		String insertQuery = "INSERT INTO pos(pos) VALUES ";
 		String selectQuery = "SELECT id FROM pos WHERE pos IN (";
 		String[] poss = posTags.split(" ");
-		int[] posIDs = new int[poss.length];
+		Integer[] posIDs = new Integer[poss.length];
 		for (int i = 0; i < poss.length; i++) {
 			insertQuery += "('" + poss[i] + "')";
 			selectQuery += "'" + poss[i] + "'";
@@ -26,7 +26,7 @@ public class POSDao {
 			} else
 				selectQuery += ");";
 		}
-		insertQuery += "ON DUPLICATE KEY UPDATE pos=pos; ";
+		insertQuery += " ON DUPLICATE KEY UPDATE pos=pos; ";
 		PreparedStatement ps = conn.prepareStatement(insertQuery);
 		ps.executeUpdate();
 		ps = conn.prepareStatement(selectQuery);
