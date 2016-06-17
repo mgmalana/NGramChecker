@@ -12,6 +12,11 @@ public class POSDao {
 	String posTable = "pos";
 	Connection conn = DatabaseConnector.getConnection();
 
+	public int addPOSTag(String pos) throws SQLException {
+		Integer[] posTags = addPOSTags(pos);
+		return posTags[0];
+	}
+
 	public Integer[] addPOSTags(String posTags) throws SQLException {
 		String insertQuery = "INSERT INTO pos(pos) VALUES ";
 		String selectQuery = "SELECT id FROM pos WHERE pos IN (";

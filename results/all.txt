@@ -1,575 +1,2186 @@
-Full: Kinuha ko ito dito . 
-VBTS PRS PRO PRL PMP
-kuha ko ito dito . 5
+Full: sabi nang pulis na 
+VBW RBW NNC CCP
+sabi nang pulis na 4
 N-gram = 7
 N-gram = 6
 N-gram = 5
-...............................
-
-...............................
-
 N-gram = 4
 ...............................
 
-...............................
-
-...............................
-
+Orig N-gram:sabi nang pulis na
+ED: 0.65 Freq: 5
+Replace ang in nang.  Edit Distance: 0.65
+Sugg: sabi ang pulis na
+Orig N-gram:sabi nang pulis na
+ED: 1.0 Freq: 4
+Replace ng in nang.  Edit Distance: 1.0
+Sugg: sabi ng pulis na
+Orig N-gram:sabi nang pulis na
+ED: 1.0 Freq: 2
+TReplace DTCP(ang_mga) in nang.  Edit Distance:1.0
+Sugg: sabi DTCP pulis na
 ...............................
 
 N-gram = 3
 ...............................
 
-Orig N-gram:Kinuha ko ito
+Orig N-gram:sabi nang pulis
+ED: 0.65 Freq: 35
+Replace ang in nang.  Edit Distance: 0.65
+Sugg: sabi ang pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 18
+Replace ng in nang.  Edit Distance: 1.0
+Sugg: sabi ng pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 12
+TReplace DTCP(ang_mga) in nang.  Edit Distance:1.0
+Sugg: sabi DTCP pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 7
+Replace sa in nang.  Edit Distance: 1.0
+Sugg: sabi sa pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 3
+Replace na in nang.  Edit Distance: 1.0
+Sugg: sabi na pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+TReplace RBD(buo) in pulis.  Edit Distance:1.0
+Sugg: sabi nang RBD
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete nang.  Edit Distance:1.0
+Sugg: sabi pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete nang.  Edit Distance:1.0
+Sugg: sabi pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
-Orig N-gram:Kinuha ko ito
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
 ED: 1.0 Freq: 1
-Delete ko.  Edit Distance:1.0
-Sugg: Kinuha ito
+Delete nang.  Edit Distance:1.0
+Sugg: sabi pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: sabi pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 1
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: sabi pulis
+Orig N-gram:sabi nang pulis
+ED: 1.0 Freq: 1
+Delete sabi.  Edit Distance:1.0
+Sugg: nang pulis
 ...............................
 
 ...............................
 
-...............................
-
-...............................
-
-Orig N-gram:ito dito .
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 46
+TReplace DTC(ang) in nang.  Edit Distance:0.65
+Sugg: DTC pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 5
+Replace Ang in nang.  Edit Distance: 0.65
+Sugg: Ang pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 4
+Replace pang in nang.  Edit Distance: 0.65
+Sugg: pang pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 1
+TReplace JJN_CCP(unang) in nang.  Edit Distance:0.65
+Sugg: JJN_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 77
+TReplace DTCP(ang_mga) in nang.  Edit Distance:1.0
+Sugg: DTCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 70
+Replace ng in nang.  Edit Distance: 1.0
+Sugg: ng pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 52
+Replace na in nang.  Edit Distance: 1.0
+Sugg: na pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 44
+TReplace JJD_CCP(pambansang) in nang.  Edit Distance:1.0
+Sugg: JJD_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 34
+TReplace CCT(sa) in nang.  Edit Distance:1.0
+Sugg: CCT pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 24
+TReplace PRI_CCP(isang) in nang.  Edit Distance:1.0
+Sugg: PRI_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 15
+Replace may in nang.  Edit Distance: 1.0
+Sugg: may pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 8
+TReplace NNC_CCP(pagkakaibang) in nang.  Edit Distance:1.0
+Sugg: NNC_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 7
+Replace , in nang.  Edit Distance: 1.0
+Sugg: , pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 6
+Replace at in nang.  Edit Distance: 1.0
+Sugg: at pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 5
+TReplace RBR(patungkol_sa) in nang.  Edit Distance:1.0
+Sugg: RBR pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace JJN_CCP(limang) in nang.  Edit Distance:1.0
+Sugg: JJN_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+Replace walang in nang.  Edit Distance: 1.0
+Sugg: walang pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace PRQ_CCP(ilang) in nang.  Edit Distance:1.0
+Sugg: PRQ_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace RBL(nasa) in nang.  Edit Distance:1.0
+Sugg: RBL pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace PRSP_CCP(kanyang) in nang.  Edit Distance:1.0
+Sugg: PRSP_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace CDB(790,000) in nang.  Edit Distance:1.0
+Sugg: CDB pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace JJCS_JJD_CCP(pinakakaraniwang) in nang.  Edit Distance:1.0
+Sugg: JJCS_JJD_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 2
-TReplace NNC(tawag) in ito.  Edit Distance:1.0
-Sugg: NNC dito .
-Orig N-gram:ito dito .
+Replace Walang in nang.  Edit Distance: 1.0
+Sugg: Walang pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace PRO_CCP(itong) in nang.  Edit Distance:1.0
+Sugg: PRO_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace FW(fibrin) in nang.  Edit Distance:1.0
+Sugg: FW pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace JJD(hugis) in nang.  Edit Distance:1.0
+Sugg: JJD pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace VBTR(nagaganap) in pulis.  Edit Distance:1.0
+Sugg: nang VBTR na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+Replace Griyegong in nang.  Edit Distance: 1.0
+Sugg: Griyegong pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace VBTR_CCP(nabubuong) in nang.  Edit Distance:1.0
+Sugg: VBTR_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+Insert DTC(ang) in before pulis.  Edit Distance:1.0
+Sugg: nang DTC pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Replace tumitig in ito.  Edit Distance: 1.0
-Sugg: tumitig dito .
-Orig N-gram:ito dito .
+TReplace DTC(pangalan) in nang.  Edit Distance:1.0
+Sugg: DTC pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Replace sa_Germany in dito.  Edit Distance: 1.0
-Sugg: ito sa_Germany .
-Orig N-gram:ito dito .
+Replace tinapos in pulis.  Edit Distance: 1.0
+Sugg: nang tinapos na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Replace obserbahan in dito.  Edit Distance: 1.0
-Sugg: ito obserbahan .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Replace didilim in dito.  Edit Distance: 1.0
-Sugg: ito didilim .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Replace 500 in ito.  Edit Distance: 1.0
-Sugg: 500 dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete ito.  Edit Distance:1.0
-Sugg: dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete ito.  Edit Distance:1.0
-Sugg: dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete ito.  Edit Distance:1.0
-Sugg: dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete ito.  Edit Distance:1.0
-Sugg: dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete ito.  Edit Distance:1.0
-Sugg: dito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
-Orig N-gram:ito dito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 1
-Delete dito.  Edit Distance:1.0
-Sugg: ito .
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete pulis.  Edit Distance:1.0
+Sugg: nang na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Delete nang.  Edit Distance:1.0
+Sugg: pulis na
 ...............................
 
 N-gram = 2
 ...............................
 
-Orig N-gram:Kinuha ko
+Orig N-gram:sabi nang
 ED: 0.0 Freq: 0
 N-gram is correct
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 1
+Insert CCB(upang) in before sabi.  Edit Distance:1.0
+Sugg: CCB sabi nang
 ...............................
 
 ...............................
 
-Orig N-gram:ko ito
-ED: 1.0 Freq: 43
-TReplace NNC_CCP(pagtatamang) in ko.  Edit Distance:1.0
-Sugg: NNC_CCP ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 42
-TReplace NNC(pagkakaiba) in ko.  Edit Distance:1.0
-Sugg: NNC ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 33
-Replace na in ko.  Edit Distance: 1.0
-Sugg: na ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 18
-TReplace VBTR(tumutulong) in ko.  Edit Distance:1.0
-Sugg: VBTR ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 13
-TReplace DTCP(mga) in ko.  Edit Distance:1.0
-Sugg: DTCP ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 12
-TReplace JJD(maganda) in ko.  Edit Distance:1.0
-Sugg: JJD ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 11
-TReplace VBTS(nagdala) in ko.  Edit Distance:1.0
-Sugg: VBTS ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 11
-TReplace VBOF(ibinuo) in ko.  Edit Distance:1.0
-Sugg: VBOF ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 9
-Replace hindi in ko.  Edit Distance: 1.0
-Sugg: hindi ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 8
-TReplace VBTF(magmamana) in ko.  Edit Distance:1.0
-Sugg: VBTF ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 8
-Replace , in ito.  Edit Distance: 1.0
-Sugg: ko ,
-Orig N-gram:ko ito
-ED: 1.0 Freq: 5
-TReplace VBW(mapagkukunan) in ko.  Edit Distance:1.0
-Sugg: VBW ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 5
-Replace ang in ito.  Edit Distance: 1.0
-Sugg: ko ang
-Orig N-gram:ko ito
-ED: 1.0 Freq: 5
-TReplace CCT(bilang) in ito.  Edit Distance:1.0
-Sugg: ko CCT
-Orig N-gram:ko ito
-ED: 1.0 Freq: 4
-TReplace CCR(kung) in ko.  Edit Distance:1.0
-Sugg: CCR ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 4
-TReplace RBI(pa) in ko.  Edit Distance:1.0
-Sugg: RBI ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 4
-TReplace RBW(agad) in ko.  Edit Distance:1.0
-Sugg: RBW ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 3
-TReplace VBAF(gumamit) in ko.  Edit Distance:1.0
-Sugg: VBAF ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 3
-TReplace FW(bond) in ko.  Edit Distance:1.0
-Sugg: FW ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 2
-Replace at in ko.  Edit Distance: 1.0
-Sugg: at ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 2
-Replace saan in ko.  Edit Distance: 1.0
-Sugg: saan ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace . in ito.  Edit Distance: 1.0
-Sugg: ko .
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace sinasabing in ito.  Edit Distance: 1.0
-Sugg: ko sinasabing
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace sapilitang in ko.  Edit Distance: 1.0
-Sugg: sapilitang ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace nila in ko.  Edit Distance: 1.0
-Sugg: nila ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace karaniwan in ko.  Edit Distance: 1.0
-Sugg: karaniwan ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace Hindi in ko.  Edit Distance: 1.0
-Sugg: Hindi ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace ayon in ko.  Edit Distance: 1.0
-Sugg: ayon ito
-Orig N-gram:ko ito
-ED: 1.0 Freq: 1
-Replace At in ko.  Edit Distance: 1.0
-Sugg: At ito
-...............................
-
-...............................
-
-Orig N-gram:ito dito
-ED: 1.0 Freq: 41
-Replace ay in dito.  Edit Distance: 1.0
-Sugg: ito ay
-Orig N-gram:ito dito
-ED: 1.0 Freq: 39
-Replace . in dito.  Edit Distance: 1.0
-Sugg: ito .
-Orig N-gram:ito dito
-ED: 1.0 Freq: 32
-TReplace CCT(sa) in dito.  Edit Distance:1.0
-Sugg: ito CCT
-Orig N-gram:ito dito
-ED: 1.0 Freq: 23
-Replace , in dito.  Edit Distance: 1.0
-Sugg: ito ,
-Orig N-gram:ito dito
-ED: 1.0 Freq: 18
-TReplace CCB(ng) in dito.  Edit Distance:1.0
-Sugg: ito CCB
-Orig N-gram:ito dito
-ED: 1.0 Freq: 16
-Replace ang in dito.  Edit Distance: 1.0
-Sugg: ito ang
-Orig N-gram:ito dito
-ED: 1.0 Freq: 14
-Replace na in dito.  Edit Distance: 1.0
-Sugg: ito na
-Orig N-gram:ito dito
-ED: 1.0 Freq: 8
-TReplace RBL(mula_sa) in dito.  Edit Distance:1.0
-Sugg: ito RBL
-Orig N-gram:ito dito
-ED: 1.0 Freq: 8
-TReplace DTCP(ng_mga) in dito.  Edit Distance:1.0
-Sugg: ito DTCP
-Orig N-gram:ito dito
+Orig N-gram:nang pulis
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:nang pulis
 ED: 1.0 Freq: 7
-TReplace PMS(”) in dito.  Edit Distance:1.0
-Sugg: ito PMS
-Orig N-gram:ito dito
+Insert DTC(ang) in before pulis.  Edit Distance:1.0
+Sugg: nang DTC pulis
+Orig N-gram:nang pulis
 ED: 1.0 Freq: 6
-TReplace VBTR(inihahayag) in dito.  Edit Distance:1.0
-Sugg: ito VBTR
-Orig N-gram:ito dito
+Insert DTCP(ang_mga) in before pulis.  Edit Distance:1.0
+Sugg: nang DTCP pulis
+Orig N-gram:nang pulis
 ED: 1.0 Freq: 6
-Replace at in dito.  Edit Distance: 1.0
-Sugg: ito at
-Orig N-gram:ito dito
-ED: 1.0 Freq: 6
-TReplace RBI(rin) in ito.  Edit Distance:1.0
-Sugg: RBI dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 6
-TReplace NNC(tawag) in ito.  Edit Distance:1.0
-Sugg: NNC dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 5
-Replace para_sa in dito.  Edit Distance: 1.0
-Sugg: ito para_sa
-Orig N-gram:ito dito
+Insert CCB(ng) in before pulis.  Edit Distance:1.0
+Sugg: nang CCB pulis
+Orig N-gram:nang pulis
 ED: 1.0 Freq: 4
-TReplace RBW(nang) in dito.  Edit Distance:1.0
-Sugg: ito RBW
-Orig N-gram:ito dito
-ED: 1.0 Freq: 4
-TReplace JJD(palayo) in dito.  Edit Distance:1.0
-Sugg: ito JJD
-Orig N-gram:ito dito
-ED: 1.0 Freq: 3
-TReplace VBAF(sumikat) in dito.  Edit Distance:1.0
-Sugg: ito VBAF
-Orig N-gram:ito dito
-ED: 1.0 Freq: 3
-TReplace JJC(tulad_ng) in dito.  Edit Distance:1.0
-Sugg: ito JJC
-Orig N-gram:ito dito
-ED: 1.0 Freq: 2
-TReplace RBK(kung) in dito.  Edit Distance:1.0
-Sugg: ito RBK
-Orig N-gram:ito dito
-ED: 1.0 Freq: 2
-TReplace VBW(pabalik) in dito.  Edit Distance:1.0
-Sugg: ito VBW
-Orig N-gram:ito dito
-ED: 1.0 Freq: 2
-Replace pwedeng in dito.  Edit Distance: 1.0
-Sugg: ito pwedeng
-Orig N-gram:ito dito
-ED: 1.0 Freq: 2
-TReplace VBTF(makikita) in dito.  Edit Distance:1.0
-Sugg: ito VBTF
-Orig N-gram:ito dito
-ED: 1.0 Freq: 2
-Replace dahil_sa in dito.  Edit Distance: 1.0
-Sugg: ito dahil_sa
-Orig N-gram:ito dito
+Insert CCT(sa) in before pulis.  Edit Distance:1.0
+Sugg: nang CCT pulis
+Orig N-gram:nang pulis
 ED: 1.0 Freq: 1
-Replace sa_Germany in dito.  Edit Distance: 1.0
-Sugg: ito sa_Germany
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace noong in dito.  Edit Distance: 1.0
-Sugg: ito noong
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace obserbahan in dito.  Edit Distance: 1.0
-Sugg: ito obserbahan
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace 500 in ito.  Edit Distance: 1.0
-Sugg: 500 dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace ni in dito.  Edit Distance: 1.0
-Sugg: ito ni
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace napurihan in dito.  Edit Distance: 1.0
-Sugg: ito napurihan
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace dahil in dito.  Edit Distance: 1.0
-Sugg: ito dahil
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace tumitig in ito.  Edit Distance: 1.0
-Sugg: tumitig dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace isa in ito.  Edit Distance: 1.0
-Sugg: isa dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace mula_kay in dito.  Edit Distance: 1.0
-Sugg: ito mula_kay
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace nakasaad in ito.  Edit Distance: 1.0
-Sugg: nakasaad dito
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace maliwanag in dito.  Edit Distance: 1.0
-Sugg: ito maliwanag
-Orig N-gram:ito dito
-ED: 1.0 Freq: 1
-Replace alinman in dito.  Edit Distance: 1.0
-Sugg: ito alinman
+Insert VBN_CCP(walang) in before pulis.  Edit Distance:1.0
+Sugg: nang VBN_CCP pulis
 ...............................
 
 ...............................
 
-Orig N-gram:dito .
+Orig N-gram:pulis na
 ED: 0.0 Freq: 0
 N-gram is correct
-Orig N-gram:dito .
+Orig N-gram:pulis na
+ED: 1.0 Freq: 78
+Insert DTCP(ang_mga) in before pulis.  Edit Distance:1.0
+Sugg: DTCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 70
+Insert CCB(ng) in before pulis.  Edit Distance:1.0
+Sugg: CCB pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 52
+Insert CCP(na) in before pulis.  Edit Distance:1.0
+Sugg: CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 48
+Insert DTC(ang) in before pulis.  Edit Distance:1.0
+Sugg: DTC pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 44
+Insert JJD_CCP(pambansang) in before pulis.  Edit Distance:1.0
+Sugg: JJD_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 41
+Insert PMC(,) in before na.  Edit Distance:1.0
+Sugg: pulis PMC na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 34
+Insert CCT(sa) in before pulis.  Edit Distance:1.0
+Sugg: CCT pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 24
+Insert PRI_CCP(isang) in before pulis.  Edit Distance:1.0
+Sugg: PRI_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 15
+Insert VBH(may) in before pulis.  Edit Distance:1.0
+Sugg: VBH pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 8
+Insert NNC_CCP(pagkakaibang) in before pulis.  Edit Distance:1.0
+Sugg: NNC_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 7
+Insert PMS(() in before na.  Edit Distance:1.0
+Sugg: pulis PMS na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 7
+Insert RBL(nasa) in before pulis.  Edit Distance:1.0
+Sugg: RBL pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 6
+Insert CCA(at) in before pulis.  Edit Distance:1.0
+Sugg: CCA pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 5
+Insert VBN_CCP(walang) in before pulis.  Edit Distance:1.0
+Sugg: VBN_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 5
+Insert RBR(patungkol_sa) in before pulis.  Edit Distance:1.0
+Sugg: RBR pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 4
+Insert JJN_CCP(limang) in before pulis.  Edit Distance:1.0
+Sugg: JJN_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 4
+Insert RBI_CCP(pang) in before pulis.  Edit Distance:1.0
+Sugg: RBI_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 4
+Insert PRO(nito) in before na.  Edit Distance:1.0
+Sugg: pulis PRO na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 3
+Insert RBI(din) in before na.  Edit Distance:1.0
+Sugg: pulis RBI na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 3
+Insert PRQ_CCP(ilang) in before pulis.  Edit Distance:1.0
+Sugg: PRQ_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 3
+Insert PRSP_CCP(kanyang) in before pulis.  Edit Distance:1.0
+Sugg: PRSP_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 3
+Insert CDB(790,000) in before pulis.  Edit Distance:1.0
+Sugg: CDB pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 3
+Insert JJCS_JJD_CCP(pinakakaraniwang) in before pulis.  Edit Distance:1.0
+Sugg: JJCS_JJD_CCP pulis na
+Orig N-gram:pulis na
 ED: 1.0 Freq: 2
-Insert NNC(tawag) in before dito.  Edit Distance:1.0
-Sugg: NNC dito .
-Orig N-gram:dito .
-ED: 1.0 Freq: 1
-Insert CDB(500) in before dito.  Edit Distance:1.0
-Sugg: CDB dito .
-Orig N-gram:dito .
-ED: 1.0 Freq: 1
-Insert VBAF(tumitig) in before dito.  Edit Distance:1.0
-Sugg: VBAF dito .
+Insert PRO_CCP(itong) in before pulis.  Edit Distance:1.0
+Sugg: PRO_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 2
+Insert FW(fibrin) in before pulis.  Edit Distance:1.0
+Sugg: FW pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 2
+Insert JJD(hugis) in before pulis.  Edit Distance:1.0
+Sugg: JJD pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 2
+Insert NNP_CCP(Griyegong) in before pulis.  Edit Distance:1.0
+Sugg: NNP_CCP pulis na
+Orig N-gram:pulis na
+ED: 1.0 Freq: 2
+Insert VBTR_CCP(nabubuong) in before pulis.  Edit Distance:1.0
+Sugg: VBTR_CCP pulis na
 ...............................
 
