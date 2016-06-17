@@ -1,5 +1,7 @@
 package optimization.training.dao;
 
+import util.NgramMapping;
+
 public class DaoManager {
 	public static NGramStorageDao getNGramStorageDao(int ngramSize) {
 

@@ -52,11 +52,6 @@ public class NGramToHybridDao {
 		ps = conn.prepareStatement(s.toString().substring(0, s.toString().length() - 1),
 				Statement.RETURN_GENERATED_KEYS);
 		ps.executeUpdate();
-		// index hybrid n-gram with pos
-
-		// add to database, index the pos tag - hybrid n-gram
-		// use first hybrid as root, succeeding s nodes with computed edit
-		// distance
 	}
 
 }
