@@ -13,19 +13,19 @@ public class POSDao {
 	Connection conn = DatabaseConnector.getConnection();
 
 	public int addPOSTag(String pos) throws SQLException {
-		Integer[] posTags = addPOSTags(pos);
-		return posTags[0];
+		String[] posTags = { pos };
+		Integer[] posIDs = addPOSTags(posTags);
+		return posIDs[0];
 	}
 
-	public Integer[] addPOSTags(String posTags) throws SQLException {
+	public Integer[] addPOSTags(String[] posTags) throws SQLException {
 		String insertQuery = "INSERT INTO pos(pos) VALUES ";
 		String selectQuery = "SELECT id FROM pos WHERE pos IN (";
-		String[] poss = posTags.split(" ");
-		Integer[] posIDs = new Integer[poss.length];
-		for (int i = 0; i < poss.length; i++) {
-			insertQuery += "('" + poss[i] + "')";
-			selectQuery += "'" + poss[i] + "'";
-			if (i != poss.length - 1) {
+		Integer[] posIDs = new Integer[posTags.length];
+		for (int i = 0; i < posTags.length; i++) {
+			insertQuery += "('" + posTags[i] + "')";
+			selectQuery += "'" + posTags[i] + "'";
+			if (i != posTags.length - 1) {
 				insertQuery += ",";
 				selectQuery += ",";
 			} else

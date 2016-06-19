@@ -56,6 +56,17 @@ public class NGramStorageDao {
 		return rs.getInt(1);
 	}
 
+	public void delete(NGram ngram) throws SQLException {
+		String deletePOSQuery = "DELETE FROM " + ngramFrequencyTable + " WHERE id =" + ngram.getPosID();
+		String deleteWordQuery = "DELETE FROM " + ngramTable + " WHERE id =" + ngram.getId();
+
+		PreparedStatement ps = conn.prepareStatement(deletePOSQuery);
+		int psVal = ps.executeUpdate();
+		PreparedStatement ps1 = conn.prepareStatement(deleteWordQuery);
+		int ps1Val = ps1.executeUpdate();
+		System.out.println("PSVAL: " + psVal + " PS1VAL: " + ps1Val);
+	}
+
 	public int incrementPOSFrequency(String pos) throws SQLException {
 		String updateQuery = "UPDATE " + ngramFrequencyTable + " SET frequency = frequency + 1 WHERE id = ?";
 		String insertQuery = "INSERT INTO " + ngramFrequencyTable + " (pos) VALUES (?)";

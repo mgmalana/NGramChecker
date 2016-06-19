@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import util.ArrayToStringConverter;
 import v4.dao.DatabaseConnector;
 
 public class NGramToHybridDao {
@@ -24,16 +25,19 @@ public class NGramToHybridDao {
 		this.posDao = new POSDao();
 	}
 
-	public void addHybridNGram(String hybridNgram, String isHybrid, String posTags, int frequency) throws SQLException {
+	public void addHybridNGram(String[] posTags, Boolean[] isHybrid, int frequency) throws SQLException {
+
+		String posTagsAsString = ArrayToStringConverter.convert(posTags);
+		String isHybridAsString = ArrayToStringConverter.convert(isHybrid);
 
 		Integer[] posIDs = posDao.addPOSTags(posTags);
 
 		String insertQuery = "INSERT IGNORE INTO " + hybridNGramTable
-				+ " (hybridngram, isHybrid, frequency) VALUES (?, ?, ?)";
-		String selectQuery = "SELECT id FROM " + hybridNGramTable + " WHERE hybridngram = '" + hybridNgram + "'";
+				+ " (posTags, isHybrid, frequency) VALUES (?, ?, ?)";
+		String selectQuery = "SELECT id FROM " + hybridNGramTable + " WHERE posTags = '" + posTags + "'";
 		PreparedStatement ps = conn.prepareStatement(insertQuery);
-		ps.setString(1, hybridNgram);
-		ps.setString(2, isHybrid);
+		ps.setString(1, posTagsAsString);
+		ps.setString(2, isHybridAsString);
 		ps.setInt(3, frequency);
 		ps.executeUpdate();
 		ps = conn.prepareStatement(selectQuery);

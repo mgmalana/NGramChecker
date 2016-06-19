@@ -19,7 +19,7 @@ public class WordPOSLemmaMapDao {
 
 	public void addWPLMapping(String word, String pos, String lemma) throws SQLException {
 		int posID = posDao.addPOSTag(pos);
-		String insertQuery = "INSERT INTO " + wplMapTable + " (word, posID, lemma) VALUES (?, ?, ?)";
+		String insertQuery = "INSERT IGNORE INTO " + wplMapTable + " (word, posID, lemma) VALUES (?, ?, ?)";
 
 		PreparedStatement ps = conn.prepareStatement(insertQuery);
 		ps.setString(1, word);
