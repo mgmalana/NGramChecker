@@ -107,8 +107,8 @@ class NGramPopulatorThread extends Thread {
 						String pos = ArrayToStringConverter.convert(ngramPos);
 
 						int id = ngramDao.add(words, lemmas, pos);
-						indexer.add(ngramPos, id);
-						wplMapService.addSequence(ngramWords, ngramPos, ngramLemmas);
+						// wplMapService.addSequence(ngramWords, ngramPos,
+						// ngramLemmas);
 					}
 				}
 			}

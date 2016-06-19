@@ -4,13 +4,17 @@ import java.sql.SQLException;
 
 import optimization.training.service.NGramPopulator;
 import optimization.training.service.NGramToHybridService;
+import optimization.training.service.WordPOSLemmaMapService;
 
 public class Main {
 
 	public static void main(String[] args) throws SQLException, InterruptedException {
 
 		NGramPopulator ngramPopulator = new NGramPopulator();
-		ngramPopulator.populateNGrams();
+		// ngramPopulator.populateNGrams();
+
+		WordPOSLemmaMapService wplMapService = new WordPOSLemmaMapService();
+		wplMapService.populate();
 
 		NGramToHybridService nthService = new NGramToHybridService();
 
