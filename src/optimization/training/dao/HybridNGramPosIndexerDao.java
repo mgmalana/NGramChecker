@@ -35,8 +35,20 @@ public class HybridNGramPosIndexerDao {
 	public Map<Integer, Integer> getHybridNgramIdsWithCandidateCount(Integer[] posIDs) {
 		Map<Integer, Integer> hIdsToCountMap = new HashMap<>();
 		String template = "SELECT hybrid_id, COUNT(*) FROM hybrid_pos_index_bigram WHERE pos_id IN (2,3) GROUP BY hybrid_id";
+		StringBuilder s = new StringBuilder(
+				"SELECT hybrid_id, COUNT(*) FROM hybrid_pos_index_bigram WHERE pos_id IN (");
 		// Select from the indexing table, group by and count where posIDs IN
 		// (2,3,4,5...)
+		for (int i = 0; i < posIDs.length; i++) {
+			if (posIDs[i] != null) {
+				s.append(posIDs[i]);
+				if (i < posIDs.length - 1)
+					s.append(",");
+			}
+		}
+		s.append(") GROUP BY hybrid_id");
+
+		System.out.println(s.toString());
 
 		return null;
 	}

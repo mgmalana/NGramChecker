@@ -18,15 +18,14 @@ public class CandidateNGramService {
 
 	public void getCandidateNGrams(String[] posTags, int ngramSize) throws SQLException {
 		hybridPosIndexerDao = DaoManager.getHybridNGramPOSIndexerDao(ngramSize);
-		// String[] temp = { "NNC", "NNP", "DTC" };
-		// Integer[] ids = posDao.getPosIDs(temp);
-		Integer[] ids = posDao.getPosIDs(posTags);
+		String[] temp = { "NNC", "NNP", "DTC" };
+		Integer[] ids = posDao.getPosIDs(temp);
+		// Integer[] ids = posDao.getPosIDs(posTags);
 		for (int i = 0; i < ids.length; i++) {
 			System.out.println(ids[i]);
 		}
 
 		Map<Integer, Integer> hIdWithCandidateCount = hybridPosIndexerDao.getHybridNgramIdsWithCandidateCount(ids);
-		// Function above still not implemented.
 	}
 	// get posIDs of the input pos tags from the pos table
 	// get hybrid n-gram ids of the specified size that is indexed to these
