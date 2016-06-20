@@ -1,0 +1,92 @@
+Ang Estadistika ang agham pangsipnayan na tumutukoy sa pagkolekta , pagsusuri , pagpapakahulugan o pagpapaliwanag , at presentasyon ng datos .
+Ginagamit ito sa iba’t_ibang akademikong disiplina , mula_sa likas na agham at agham panlipunan hanggang humanidades , at hanggang sa pamahalaan at kalakalan .
+Maaring gamitin ang_mga metodong estadistikal upang ilagom o ilarawan ang koleksyon ng datos ; tinatawag itong Deskriptiv na Estadistika .
+Maaari ring isaayos ang_mga padron sa datos sa paraang magsasa-alang-alang ng kawalang katiyakan sa mga obserbasyon at gamitin ito upang gumawa ng hinuha ukol_sa proseso o populasyong pinag-aaralan ; tinatawag itong Inperensyal na Estadistika .
+Parehong binubuo ng Deskriptiv at Inperensyal na Estadistika ang Applied Statistics .
+Mayroon ding disiplinang tinatawag na Estadistikang Pangsipnayan na patungkol_sa teoretikal na batayan ng paksa .
+Ang salitang statistics ang salitang pangmaramihan ng statistic ( isahan ) , na tumutukoy sa resulta ng paggamit ng estadistikal na algorithm sa pangkat ng datos , tulad_ng estadistikang pang-ekonomiya , estadistikang pang-krimen , atbp .
+Nagsimula ang estadistika nang hindi lalagpas sa ika-18 siglo , mula_sa pangangailangan ng_mga estado na kalapin ang_mga datos ng kanilang mamamayan at ekonomiya upang pamahalaan sila .
+Lumawak ang kahulugan nito sa unang bahagi ng ika-19 na siglo upang maisama ang pangangalap at pagsusuri ng datos .
+Sa panahon ngayon , labis na ginagamit ang estadistika sa pamahalaan , kalakalan at likas na agham at agham panlipunan .
+Dahil_sa pag-usbong nito mula_sa pamahalaan at kabatirang naka-sentro sa datos , itinuturing ang estadistika hindi bilang larangang nakapa-ilalim sa sipnayan , kung hindi natatanging larangang gumagamit ng sipnayan .
+Nabuo ang matematikal na pundasyon nito noong ika-17 at ika-18 siglo kasabay ng pagbuo sa Teorya ng Probabilidad .
+Naimbento ang metodo ng least squares , ang sentrong paraan ng disiplina , noong unang bahagi ng ika-19 na siglo ng ilang manunulat .
+Simula noon , nagpatuloy ang pagpapabuti ng_mga bagong paraan ng probabilidad at estadistika .
+Pinabilis ng_mga modernong kompyuter ang malakihang kompyutasyong estadistika at ginawa ring posible ang_mga makabagong metodo na impraktikal bilang gawaing pangkamay .
+Sa paggamit ng estadistika sa isang siyentipiko , industriyal o panlipunang suliranin , sinisimulan ito sa proseso o populasyong pag-aaralan .
+Maari itong maging populasyon ng isang bansa , kristal na butil ng bato o mga produktong niyari ng isang partikular na pabrika sa_loob_ng tiyak na panahon .
+Kung hindi naman , maaring isang prosesong inobserbahan sa iba’t_ibang panahon ; ang datos na nakalap mula_sa ganitong “ populasyon ” ang bumubuo sa tinatawag na time series .
+Upang maging praktikal , sa halip na magtala ng_mga datos ng isang buong populasyon , madalas na pinag-aaralan ang napiling grupong nakapailalim dito na tinatawag na sample .
+Kinokolekta ang datos ng sample sa isang naoobserbahan o eksperimental na kapaligiran .
+Matapos nito , sumasailalim ang_mga datos sa estadistikal na pagsusuri na nagsisilbi ng dalawang magkaugnay na gamit : deskripsyon at paghinuha .
+Kapansin-pansin ang konsepto ng pagkakaugnay .
+Maaring maipakita ng estadistikal na pagsusuri na may tendensiyang sabay na magbago ang dalawang bagay ( nag-sasaalang-alang ng dalawang katangian ng populasyon ) na para bang magkaugnay .
+Halimbawa , maaring maipakita ng isang pag-aaral sa taunang sahod at edad ng pagkamatay ng_mga tao na mas maikli ang buhay ng_mga maralita kaysa_sa mga maykaya .
+Masasabing magkaugnay ang dalawang bagay na ito .
+Ngunit hindi masasabi kaagad na mayroong kaugnayan ang dalawang bagay .
+Maaring dulot ang magkaugnay na pangyayari na ito ng ikatlong bagay na hindi naisa-alang-alang noong una na tinatawag na lurking variable .
+Kung kinakatawan ng sample ang populasyon , maaring gamitin ang_mga hinuha at konklusyon mula_sa sample sa buong populasyon .
+Isang pangunahing suliranin ang pagtiyak sa saklaw na kinakatawan ng sample .
+Mayroong metodo ang estadistika upang tantiyahin at itama ang pasumala sa sample at sa proseso ng pagkalap ng datos , may mga metodo rin upang sa una pa lamang , makagawa na ng mainam na eksperimento .
+Probabilidad ang pangunahing matematikal na konseptong ginagamit sa pag-unawa ng pasumala .
+Ang Estadistikang Matematikal ( tinatawag ring teoryang estadistikal ) ang sangay ng applied mathematics na gumagamit ng teorya ng probabilidad at probabilidad na pagsusuri upang siyasatin ang teoretikal na batayan ng estadistika .
+Balido lamang ang paggamit ng kahit anong estadistikal na metodo kung matutupad ang sistema o populasyong pinag-aaralan ang_mga pangunahing matematikal na palagay ng metodo .
+Maaring magdulot ng_mga mapaglalalang ngunit seryosong kamalian sa deskripsyon at interpretasyon ang maling paggamit ng estadistika – mapaglalang sa paraang nagagawa rin maging ng_mga dalubhasa ang ganitong kamalian at seryoso dahil maari nitong maapektuhan ang panlipunang polisiya , medikal na pagsasanay at kahusayan ng_mga istraktura tulad_ng mga tulay at nuclear power plants .
+Kahit na nagamit ng tama ang estadistika , maaring mahirapang pakahuluganan ang_mga resulta ng isang hindi dalubhasa .
+Halimbawa , ang kabuluhang estadistikal ng takbo ng datos - na sumusukat sa lawak ng posibilidad na dulot ito ng hindi tiyak na pagkaka-iba sa sample - maaring hindi tumugma sa kutob ukol_sa kabuluhan nito .
+Tinatawag na statistical literacy ang pangkat ng pangunahing kakayahang estadistikal ( at alinlangan ) kinakailangan ng tao upang mapangasiwaan ang_mga impormasyon sa kanilang pang-araw-araw na buhay .
+Karaniwang layunin ng_mga estadistikal na pagsasaliksik ang pag-imbestiga ng kadahilanan , partikular na ang paggawa ng_mga konklusyon sa mga epekto ng pagbabago ng halaga ng_mga predictor o ng_mga independent variables o ng_mga dependent variables .
+Mayroong dalawang pangunahing uri ng estadistikal na pag-aaral ng kadahilanan , eksperimental na pag-aaral at observational na pag-aaral .
+Sa parehong uri ng pag-aaral , inoobserbahan ang epekto ng pag-iiba ng_mga independent variable ( o variables ) sa kilos ng dependent variables .
+Nagkakaiba ang dalawang uri sa paraan ng pagsasagawa ng pag-aaral .
+Maaring maging mabisa ang bawat isa .
+Kabilang sa eksperimental na pag-aaral ang pagsukat sa sistemang pinag-aaralan , pagmanipula sa sistema at pagkuha ng karagdagang sukat pagkatapos gamit ang parehong paraan upang tiyakin kung nabago ng manipulasyon ang halaga ng_mga sukat .
+Sa kabilang dako , hindi nagsasagawa ng eksperimental na manipulasyon ang observational na pag-aaral .
+Sa halip , kinakalap ang_mga datos at iniimbestigahan ang kaugnayan sa_pagitan_ng prediktor at tugon .
+Isang halimbawa ng eksperimental na pag-aaral ang sikat na Hawthorne na pag-aaral na nagtangkang subukin ang pagbabago ng pantrabahong kapaligiran sa planta ng Hawthorne ng Western Electric Company .
+Naging interesado ang_mga mananaliksik kung madaragdagan ang pagkaproduktibo ng_mga trabahador ng karagdagang pag-iilaw .
+Sinukat muna nila ang pagkaproduktibo ng planta at binago ang pag-iilaw sa isang lugar ng planta pagkatapos upang makita kung naapektuhan ng pagbabago sa pag-iilaw ang pagkaproduktibo .
+Ang kinalabasan , napaigi ang produktibo sa lahat ng eskperimental na kondisyon ( tignan ang Hawthorne effect ) .
+Subalit ngayon , labis na binabatikos ang pag-aaral dahil_sa mga kamalian sa ekperimental na pamamaraan , lalo na sa kawalan ng kontrol na pangkat at kabulagan .
+Halimbawa ng observational na pag-aaral ang pag-aaral na nagsisiyasat sa ugnayan sa_pagitan_ng paninigarilyo at kanser sa baga .
+Madalas na gumagamit ang ganitong uri ng pag-aaral ng survey upang mangolekta ng obserbasyon ukol sinasaklaw ng interes at pagsasagawa ng estadistikal na pagsusuri pagkatapos .
+Sa kasong ito , nangangalap ang_mga mananaliksik ng obserbasyon ng parehong naninigarilyo at di naninigarilyo , maaring sa_pamamagitan_ng case-control na pag-aaral , at pagkatapos tinitingnan ang bilang ng kaso ng kanser sa baga sa bawat grupo .
+Mayroong apat na uri ng pagsukat o iskala ng pagsukat sa estadistika .
+Mayroong iba-ibang antas ng kapakinabangan ang apat na uri o lebel ng pagsukat ( nominal , ordinal , interval at ratio ) .
+Ang ratio na pagsukat , kung saan nakatakda ang halaga ng zero at distansya sa_pagitan_ng iba’t_ibang sukat , ang pinakanakikibagay sa mga metodong estadistikal na maaring gamitin sa pagsusuri ng datos .
+Sa interval na pagsukat , mayroong makabuluhang distansya sa_pagitan_ng mga sukat ngunit walang halaga ang zero ( tulad sa pagsukat ng IQ o temperatura sa Fahrenheit ) .
+Walang tiyak na pagkakaiba ang_mga halaga sa ordinal sa pagsukat , ngunit mayroong makabuluhang pagkakasunod-sunod ang_mga ito .
+Walang makabuluhang pagkakasunod-sunod ang_mga halaga sa nominal na pagsukat .
+Tinatawag minsan na kategorikal na variables ang_mga variables na sumusunod lamang sa nominal o ordinal na pagsukat dahil hindi sila masusukat ng may kabuluhan sa numerikal na paraan , samantalang tinatawag ang_mga nasusukat ng ratio o interval na quantitative o continuous na variable dahil_sa kanilang numerikal na pagkakasukat .
+Ilan sa mga kilalang estadistikal na pagsusuri at paraan para_sa pananaliksik …
+Ilang larangan ng pagsisiyasat ang gumagamit ng sobrang gumagamit ng estadistika na mayroon silang mga espesyalisadong terminolohiya .
+Pangunahing instrumento rin ang estadistika sa kalakalan at pagyayari .
+Ginagamit ito upang intindihin ang variability ng_mga sistema ng pagsukat , mga kontrol na proseso ( statistical process control o SPC ) , upang maglagom ng datos at gumawa ng desisyong batay_sa datos .
+Ito ang pangunahing instrumento sa mga papel na ito , at maaring ang nag-iisang mapagkakatiwalaang instrumento .
+Nagkaroon ang mabilis at patuloy na pag-usad ng paraan ng pagkompyut na nagsimula sa ikalawang bahagi ng ika-20 siglo ng malaking impluwensya sa pagsasanay ng estadistikal na agham .
+Madalas na nakabatay ang_mga naunang estadistikal na modelo sa mga linear na modelo , ngunit nagsanhi ang_mga mabisang kompyuter , kasama ang_mga nararapat na numerikal na algorithm sa pagkakaroon muli ng interes sa mga hindi linear na modelo ( lalo na sa mga neural na network at mga decision tree ) at paglikha ng bagong uri , tulad_ng panlahatang linear na modelo at modelong maraming lebel .
+Nagbunga rin ang pinabisang kakayahan sa pagkompyut sa lalong pagtanyag ng_mga metodong labis na gumagamit ng kompyutasyon batay_sa resampling , tulad_ng permutation na pagsuri at ang bootstrap , habang ang_mga paraan tulad_ng Gibbs sampling ang lalong nagpabisa sa mga metodong Bayesian .
+Mayroong implikasyon ang rebolusyon ng kompyuter sa kinabukasan ng estadistika , na may bagong diin sa “ eksperimental ” at “ imperikal ” na estadistika .
+Malaking bahagi ng parehong panlahat at espesyal na gamit na estadistikal na pangkat ang bukas sa mga nagsasanay .
+May laganap na paniniwala na ang estadistikal na kaalaman ang madalas na sinasadyang gamitin ng mali , sa_pamamagitan_ng paghanap ng paraan ng pagpapakahulugan sa datos na papabor sa mananaliksik .
+Isang kilalang kasabihang mula_kay Benjamin Disraeli ang “ Mayroong tatlong uri ng kasinungalingan : kasinungalingan , makasalanang kasinungalinan at estadistika . ”
+Isinulat ng Pangulo ng Harvard na si Lawrence Lowell noong 1909 na ang estadistika , “ tulad_ng veal pies , masarap lamang kung kilala mo ang gumawa nito at sigurado ka sa sangkap nito . ”
+Kung may mga pag-aaral na sumasalungat sa isa’t_isa , maaring mawala ang tiwala ng publiko sa mga pag-aaral na ito .
+Halimbawa , may isang pag-aaral na nagmumungkahi na ang isang diet o aktibidad ang nagpapataas ng presyon ng dugo , samantalang sa isa pang pag-aaral , nakakapagpababa ito .
+Maaring nagmula ang pagkakaiba na ito mula_sa mga matalisik na kaibahan ng eksperimental na disenyo , tulad_ng kaibahan ng pangkat ng_mga pasyente o mga protokol ng pananaliksik , na hindi madaling nauunawaan ng_mga hindi dalubhasa .
+Madalas na tinatanggal ng buo ng_mga ulat ng midya ang_mga mahalagang kontekstual na impormasyon na ito .
+Sa_pamamagitan_ng pagpili ( o pagtanggi o pagbago ) ng isang tiyak na sample , maaring manipulahin ang_mga resulta ; isang paraan ang pagtanggal ng_mga outliers .
+Hindi kinakailangang maging malisyoso o mapanloko ng_mga ganitong manipulasyon ; maaring mula sila sa mga hindi sinasadyang pagkiling ng mananaliksik .
+Maari ring maging mapanlinlang ang_mga ginamit na guhit-banghay sa paglagom ng datos .
+Mula ang_mga mas malalim na kritisismo mula_sa katotohanan na sa daang patungong ginamit sa pagsubok ng hypothesis na karaniwang ginagamit at sa maraming kaso , inuutos ng batas o regulasyon , pinipilit paboran ang hypothesis ( null hypothesis ) , at maari ring palabisin ang kahalagan ng_mga maliliit na kaibahan sa mga malaking pag-aaral .
+Maaring wala ring praktikal na kahalagahan ang isang kaibahan na may labis na estadistikal na kabuluhan .
+( Tignan ang pagbatikos ng pagsubok ng hypothesis at kontrobersiya sa null hypothesis . )
+Isa sa mga tugon ang labis na pagdiin sa “ p ” - value dahil lamang sa pag-ulat kung ‘di tinanggap ang hypothesis sa itinakdang level of significance .
+Subalit hindi ipinapakita ng p-value ang laki ng epekto .
+Isa pang nagiging karaniwan na paraan ang pag-ulat ng confidence intervals .
+Kahit na galing ang_mga ito sa mga parehong kalkulasyon bilang pagsubok ng hypothesis o p-value , inilalarawan nila ang parehong laki ng epekto at kawalan ng katiyakang pumupaligid dito .
+
+
+
+
+

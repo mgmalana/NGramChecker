@@ -17,9 +17,16 @@ public class DaoManager {
 	public static NGramToHybridDao getNGramToHybridDao(int ngramSize) {
 		if (ngramSize >= 1 && ngramSize <= NgramMapping.text.length) {
 			String ngramText = NgramMapping.text[ngramSize - 1];
-			return new NGramToHybridDao(ngramSize, "hybrid_ngram_" + ngramText, "hybrid_pos_index_" + ngramText);
+			return new NGramToHybridDao(ngramSize, "hybrid_ngram_" + ngramText);
 		} else
 			return null;
 	}
 
+	public static HybridNGramPosIndexerDao getHybridNGramPOSIndexerDao(int ngramSize) {
+		if (ngramSize >= 1 && ngramSize <= NgramMapping.text.length) {
+			String ngramText = NgramMapping.text[ngramSize - 1];
+			return new HybridNGramPosIndexerDao(ngramSize, "hybrid_pos_index_" + ngramText);
+		} else
+			return null;
+	}
 }

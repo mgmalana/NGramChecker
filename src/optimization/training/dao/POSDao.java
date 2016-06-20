@@ -46,4 +46,19 @@ public class POSDao {
 		return posIDs;
 	}
 
+	public Integer[] getPosIDs(String[] posTags) throws SQLException {
+		String selectQuery = "SELECT id FROM pos WHERE pos = ?";
+		Integer[] posIDs = new Integer[posTags.length];
+
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		for (int i = 0; i < posTags.length; i++) {
+			ps = conn.prepareStatement(selectQuery);
+			ps.setString(1, posTags[i]);
+			ResultSet rs = ps.executeQuery();
+			if (rs.next())
+				posIDs[i] = rs.getInt(1);
+		}
+		return posIDs;
+	}
+
 }

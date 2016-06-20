@@ -1,0 +1,92 @@
+Ang Estadistika ang agham sipnayan na tukoy sa kolekta , suri , hulog o liwanag , at presenta ng datos .
+Gamit ito sa iba akademiko disiplina , mula_sa likas na agham at agham lipon hanggang humanidades , at hanggang sa bahala at kalakal .
+Maari gamit ang_mga metodo estadistikal upang lagom o ladaw ang koleksyon ng datos ; tawag ito Deskriptiv na Estadistika .
+Maaari rin ayos ang_mga padron sa datos sa daan alang ng wala katiyakan sa mga obserba at gamit ito upang gawa ng hinuha ukol_sa proseso o populasyon aral ; tawag ito Inperensya na Estadistika .
+Pareho buo ng Deskriptiv at Inperensya na Estadistika ang Applied Statistics .
+Mayroon din disiplina tawag na Estadistika sipnayan na tungkol_sa teoretika na batay ng paksa .
+Ang salita statistics ang salita dami ng statistic ( isahan ) , na tukoy sa resulta ng gamit ng estadistika na algorithm sa pangkat ng datos , tulad_ng estadistika ekonomiya , estadistika krimen , atbp .
+mula ang estadistika nang hindi lagpas sa ika-18 siglo , mula_sa kailangan ng_mga estado na kalap ang_mga datos ng kanila bayan at ekonomiya upang bahala sila .
+Lawak ang hulog nito sa una bahagi ng ika-19 na siglo upang sama ang kalap at suri ng datos .
+Sa panahon ngayon , labis na gamit ang estadistika sa bahala , kalakal at likas na agham at agham lipon .
+Dahil_sa usbong nito mula_sa bahala at batid sentro sa datos , turing ang estadistika hindi bilang larangan lalim sa sipnayan , kung hindi tangi larangan gamit ng sipnayan .
+buo ang matematikal na pundasyon nito noon ika-17 at ika-18 siglo sabay ng buo sa Teorya ng Probabilidad .
+imbento ang metodo ng least squares , ang sentro daan ng disiplina , noon una bahagi ng ika-19 na siglo ng ilan sulat .
+mula noon , tuloy ang buti ng_mga bago daan ng probabilidad at estadistika .
+bilis ng_mga moderno kompyuter ang laki kompyutasyon estadistika at gawa rin posible ang_mga bago metodo na impraktikal bilang gawa kamay .
+Sa gamit ng estadistika sa isa siyentipiko , industriyal o lipon suliranin , mula ito sa proseso o populasyon aral .
+Maari ito maging populasyon ng isa bansa , kristal na butil ng bato o mga produkto yari ng isa partikular na pabrika sa_loob_ng tiyak na panahon .
+Kung hindi naman , maari isa proseso obserba sa iba panahon ; ang datos na kalap mula_sa ganito “ populasyon ” ang buo sa tawag na time series .
+Upang maging praktikal , sa halip na tala ng_mga datos ng isa buo populasyon , dalas na aral ang pili grupo lalim dito na tawag na sample .
+kolekta ang datos ng sample sa isa obserba o eksperimental na ligid .
+tapos nito , lalim ang_mga datos sa estadistikal na pagsusuri na silbi ng dalawa ugnay na gamit : deskripsyon at hinuha .
+pansin ang konsepto ng ugnay .
+Maari kita ng estadistikal na suri na may tendensiya sabay na bago ang dalawa bagay ( alang ng dalawa tangi ng populasyon ) na para ba ugnay .
+Halimbawa , maari kita ng isa aral sa taon sahod at edad ng patay ng_mga tao na mas ikli ang buhay ng_mga dalita kaysa_sa mga kaya .
+sabi ugnay ang dalawa bagay na ito .
+Ngunit hindi sabi agad na mayroon ugnay ang dalawa bagay .
+Maari dulot ang ugnay na yari na ito ng ikatlo bagay na hindi alang noon una na tawag na lurking variable .
+Kung katawan ng sample ang populasyon , maari gamit ang_mga hinuha at konklusyon mula_sa sample sa buo populasyon .
+Isa una suliranin ang tiyak sa saklaw na katawan ng sample .
+Mayroon metodo ang estadistika upang tantiya at tama ang ala sa sample at sa proseso ng kalap ng datos , may mga metodo rin upang sa una pa lamang , gawa na ng inam na eksperimento .
+Probabilidad ang una matematika na konsepto gamit sa awa ng ala .
+Ang Estadistika Matematika ( tawag rin teorya estadistika ) ang sangay ng applied mathematics na gamit ng teorya ng probabilidad at probabilidad na suri upang siyasat ang teoretika na batay ng estadistika .
+Balido lamang ang gamit ng kahit ano estadistikal na metodo kung tupad ang sistema o populasyon aral ang_mga una matematikal na lagay ng metodo .
+Maari dulot ng_mga lalang ngunit seryoso mali sa deskripsyon at interpretasyon ang mali gamit ng estadistika – lalang sa daan gawa rin maging ng_mga dalubhasa ang ganito mali at seryoso dahil maari nito apekto ang lipon polisiya , medikal na sanay at husay ng_mga istraktura tulad_ng mga tulay at nuclear power plants .
+Kahit na gamit ng tama ang estadistika , maari hirap hulog ang_mga resulta ng isa hindi dalubhasa .
+Halimbawa , ang kabuluhan estadistika ng takbo ng datos - na sukat sa lawak ng posibilidad na dulot ito ng hindi tiyak na iba sa sample - maari hindi tugma sa kutob ukol_sa kabuluhan nito .
+tawag na statistical literacy ang pangkat ng una kaya estadistika ( at alang ) kailangan ng tao upang siwa ang_mga impormasyon sa kanila araw na buhay .
+Karaniwan layon ng_mga estadistika na saliksik ang imbestiga ng dahil , partikular na ang gawa ng_mga konklusyon sa mga epekto ng bago ng halaga ng_mga predictor o ng_mga independent variables o ng_mga dependent variables .
+Mayroon dalawa una uri ng estadistika na aral ng dahil , eksperimental na aral at observational na aral .
+Sa pareho uri ng aral , obserba ang epekto ng iba ng_mga independent variable ( o variables ) sa kilos ng dependent variables .
+iba ang dalawa uri sa daan ng gawa ng aral .
+Maari maging bisa ang bawat isa .
+bilang sa eksperimental na aral ang sukat sa sistema aral , manipula sa sistema at kuha ng dagdag sukat tapos gamit ang pareho daan upang tiyak kung bago ng manipula ang halaga ng_mga sukat .
+Sa kabila dako , hindi gawa ng eksperimental na manipula ang observational na aral .
+Sa halip , kalap ang_mga datos at imbestiga ang ugnay sa_pagitan_ng prediktor at tugon .
+Isa halimbawa ng eksperimental na aral ang sikat na Hawthorne na aral na tangka subok ang bago ng trabaho ligid sa planta ng Hawthorne ng Western Electric Company .
+maging interesado ang_mga saliksik kung dagdag ang produktibo ng_mga trabaho ng dagdag ilaw .
+Sukat muna nila ang produktibo ng planta at bago ang ilaw sa isa lugar ng planta tapos upang kita kung apekto ng bago sa ilaw ang produktibo .
+Ang labas , igi ang produktibo sa lahat ng eksperimental na kondisyon ( tingin ang Hawthorne effect ) .
+Subalit ngayon , labis na batikos ang aral dahil_sa mga mali sa ekperimental na daan , lalo na sa wala ng kontrol na pangkat at bulag .
+Halimbawa ng observational na aral ang aral na siyasat sa ugnay sa_pagitan_ng sigarilyo at kanser sa baga .
+dalas na gamit ang ganito uri ng aral ng survey upang kolekta ng obserba ukol saklaw ng interes at gawa ng estadistika na suri tapos .
+Sa kaso ito , kalap ang_mga saliksik ng obserba ng pareho sigarilyo at di sigarilyo , maari sa_pamamagitan_ng case-control na aral , at tapos tingin ang bilang ng kaso ng kanser sa baga sa bawat grupo .
+Mayroon apat na uri ng sukat o iskala ng sukat sa estadistika .
+Mayroon iba antas ng kinabang ang apat na uri o lebel ng sukat ( nominal , ordinal , interval at ratio ) .
+Ang ratio na sukat , kung saan takda ang halaga ng zero at distansya sa_pagitan_ng iba sukat , ang bagay sa mga metodo estadistika na maari gamit sa suri ng datos .
+Sa interval na sukat , mayroon kabuluhan distansya sa_pagitan_ng mga sukat ngunit wala halaga ang zero ( tulad sa sukat ng IQ o temperatura sa Fahrenheit ) .
+Wala tiyak na iba ang_mga halaga sa ordinal sa sukat , ngunit mayroon kabuluhan sunod ang_mga ito .
+Wala kabuluhan sunod ang_mga halaga sa nominal na sukat .
+tawag minsan na kategorikal na variables ang_mga variables na sunod lamang sa nominal o ordinal na sukat dahil hindi sila sukat ng may kabuluhan sa numerikal na daan , samantala tawag ang_mga sukat ng ratio o interval na quantitative o continuous na variable dahil_sa kanila numerikal na sukat .
+Ilan sa mga kilala estadistika na suri at daan para_sa saliksik …
+Ilan larangan ng siyasat ang gamit ng sobra gamit ng estadistika na mayroon sila mga espesyalisado terminolohiya .
+una instrumento rin ang estadistika sa kalakal at yari .
+gamit ito upang intindi ang variability ng_mga sistema ng sukat , mga kontrol na proseso ( statistical process control o SPC ) , upang lagom ng datos at gawa ng desisyon batay_sa datos .
+Ito ang una instrumento sa mga papel na ito , at maari ang isa tiwala instrumento .
+mayroon ang bilis at tuloy na usad ng daan ng kompyut na mula sa dalawa bahagi ng ika-20 siglo ng laki impluwensya sa sanay ng estadistika na agham .
+dalas na batay ang_mga una estadistika na modelo sa mga linear na modelo , ngunit sanhi ang_mga bisa kompyuter , sama ang_mga dapat na numerikal na algorithm sa mayroon muli ng interes sa mga hindi linear na modelo ( lalo na sa mga neural na network at mga decision tree ) at likha ng bago uri , tulad_ng lahat linear na modelo at modelo dami lebel .
+bunga rin ang bisa kaya sa kompyut sa lalo tanyag ng_mga metodo labis na gamit ng kompyutasyon batay_sa resampling , tulad_ng permutation na suri at ang bootstrap , habang ang_mga daan tulad_ng Gibbs sampling ang lalo bisa sa mga metodo Bayesian .
+Mayroon implikasyon ang rebolusyon ng kompyuter sa bukas ng estadistika , na may bago diin sa “ eksperimental ” at “ imperikal ” na estadistika .
+laki bahagi ng pareho lahat at espesyal na gamit na estadistika na pangkat ang bukas sa mga sanay .
+May ganap na tiwala na ang estadistika na alam ang dalas na sadya gamit ng mali , sa_pamamagitan_ng hanap ng daan ng hulog sa datos na pabor sa saliksik .
+Isa kilala sabi mula_kay Benjamin Disraeli ang “ Mayroon tatlo uri ng sinungaling : sinungaling , sala sinungaling at estadistika . ”
+sulat ng Pangulo ng Harvard na si Lawrence Lowell noon 1909 na ang estadistika , “ tulad_ng veal pies , sarap lamang kung kilala mo ang gawa nito at sigurado ka sa sangkap nito . ”
+Kung may mga aral na salungat sa isa , maari wala ang tiwala ng publiko sa mga pag-aaral na ito .
+Halimbawa , may isa aral na mungkahi na ang isa diet o aktibidad ang taas ng presyon ng dugo , samantala sa isa pa aral , baba ito .
+Maari mula ang iba na ito mula_sa mga talisik na iba ng eksperimental na disenyo , tulad_ng iba ng pangkat ng_mga pasyente o mga protokol ng saliksik , na hindi dali awa ng_mga hindi dalubhasa .
+dalas na tanggal ng buo ng_mga ulat ng midya ang_mga halaga kontekstual na impormasyon na ito .
+Sa_pamamagitan_ng pili ( o tanggi o bago ) ng isa tiyak na sample , maari manipula ang_mga resulta ; isa daan ang tanggal ng_mga outliers .
+Hindi kailangan maging malisyoso o loko ng_mga ganito manipula ; maari mula sila sa mga hindi sadya kiling ng saliksik .
+Maari rin maging linlang ang_mga gamit na guhit-banghay sa lagom ng datos .
+Mula ang_mga mas lalim na kritisismo mula_sa totoo na sa daan tungo gamit sa subok ng hypothesis na karaniwan gamit at sa dami kaso , utos ng batas o regulasyon , pilit pabor ang hypothesis ( null hypothesis ) , at maari rin labis ang halaga ng_mga liit na ibah sa mga laki aral .
+Maari wala ring praktikal na halaga ang isa iba na may labis na estadistika na kabuluhan .
+( Tingin ang batikos ng subok ng hypothesis at kontrobersiya sa null hypothesis . )
+Isa sa mga tugon ang labis na diin sa “ p ” - value dahil lamang sa ulat kung ‘di tanggap ang hypothesis sa takda level of significance .
+Subalit hindi kita ng p-value ang laki ng epekto .
+Isa pa maging karaniwan na daan ang ulat ng confidence intervals .
+Kahit na galing ang_mga ito sa mga pareho kalkula bilang subok ng hypothesis o p-value , ladaw nila ang pareho laki ng epekto at wala ng tiyak ligid dito .
+
+
+
+
+

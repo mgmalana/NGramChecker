@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 import util.ArrayToStringConverter;
 import v4.dao.DatabaseConnector;
@@ -14,14 +13,12 @@ public class NGramToHybridDao {
 	Connection conn;
 	private int ngramSize;
 	private String hybridNGramTable;
-	private String hybridPosIndexTable;
 	private POSDao posDao;
 
-	public NGramToHybridDao(int ngramSize, String hybridNGramTable, String hybridPosIndexTable) {
+	public NGramToHybridDao(int ngramSize, String hybridNGramTable) {
 		conn = DatabaseConnector.getConnection();
 		this.ngramSize = ngramSize;
 		this.hybridNGramTable = hybridNGramTable;
-		this.hybridPosIndexTable = hybridPosIndexTable;
 		this.posDao = new POSDao();
 	}
 
@@ -45,17 +42,9 @@ public class NGramToHybridDao {
 		rs.next();
 		int hybridNGramID = rs.getInt(1);
 
-		StringBuilder s = new StringBuilder(
-				"INSERT IGNORE INTO " + hybridPosIndexTable + " (hybrid_id, pos_id) VALUES ");
-		for (int i = 0; i < posIDs.length; i++) {
-			if (posIDs[i] != null) {
-				s.append("(" + hybridNGramID + ", " + posIDs[i] + "),");
-			}
-		}
+		HybridNGramPosIndexerDao hybridPosIndexer = DaoManager.getHybridNGramPOSIndexerDao(ngramSize);
+		hybridPosIndexer.index(hybridNGramID, posIDs);
 
-		ps = conn.prepareStatement(s.toString().substring(0, s.toString().length() - 1),
-				Statement.RETURN_GENERATED_KEYS);
-		ps.executeUpdate();
 	}
 
 }
