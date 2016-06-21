@@ -14,10 +14,11 @@ public class Main {
 		// ngramPopulator.populateNGrams();
 
 		WordPOSLemmaMapService wplMapService = new WordPOSLemmaMapService();
-		wplMapService.populate();
+		// wplMapService.populate();
 
 		NGramToHybridService nthService = new NGramToHybridService();
 
+		nthService.hybridizeRules(6);
 		// Store N-Gram
 		// Call Clustering N-grams
 		// Add Hybrid - also adds pos tags of each token

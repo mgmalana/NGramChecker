@@ -26,10 +26,10 @@ public class NGramToHybridService {
 		while (ngrams != null) {
 
 			Boolean[] isPOSGeneralized = new Boolean[ngramSize];
+
 			for (int i = 0; i < ngramSize; i++) {
 				HashSet<String> set = new HashSet<>();
 				for (NGram n : new ArrayList<NGram>(ngrams)) {
-					System.out.println(ArrayToStringConverter.convert(n.getWords()));
 					try {
 						set.add(n.getWords()[i].toLowerCase());
 					} catch (ArrayIndexOutOfBoundsException e) {
@@ -42,11 +42,15 @@ public class NGramToHybridService {
 				else
 					isPOSGeneralized[i] = false;
 			}
+			for (NGram n : new ArrayList<NGram>(ngrams)) {
+				System.out.println(ArrayToStringConverter.convert(n.getWords()));
+			}
 
 			nthDao.addHybridNGram(ngrams.get(0).getPos(), isPOSGeneralized, ngrams.size());
 			rules.put(ngrams.get(0).getPos(), isPOSGeneralized);
 
 			offset++;
+			System.out.println(offset);
 			ngrams = ngramDao.getSimilarNGrams(2, offset);
 		}
 		Iterator it = rules.entrySet().iterator();
