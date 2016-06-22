@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
+import optimization.models.HybridNGram;
 import util.ArrayToStringConverter;
 import v4.dao.DatabaseConnector;
 
@@ -48,4 +51,27 @@ public class NGramToHybridDao {
 
 	}
 
+	public List<HybridNGram> getCandidateHybridNGrams(List<Integer> candidateHybridIDs) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		List<HybridNGram> hybridNGrams = new ArrayList<>();
+		StringBuilder s = new StringBuilder(
+				"SELECT posTags, isHybrid, frequency FROM " + hybridNGramTable + " WHERE id IN (");
+		for (int i = 0; i < candidateHybridIDs.size(); i++) {
+			if (candidateHybridIDs.get(i) != null) {
+				s.append(candidateHybridIDs.get(i));
+				if (i < candidateHybridIDs.size() - 1)
+					s.append(",");
+			}
+		}
+		s.append(")");
+		System.out.println(s.toString());
+
+		PreparedStatement ps = conn.prepareStatement(s.toString());
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			hybridNGrams.add(new HybridNGram(rs.getString(1), rs.getString(2), rs.getInt(3)));
+		}
+		conn.close();
+		return hybridNGrams;
+	}
 }

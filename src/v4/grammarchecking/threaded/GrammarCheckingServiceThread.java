@@ -7,7 +7,7 @@ import java.util.List;
 import v4.models.Suggestion;
 
 public abstract class GrammarCheckingServiceThread extends Thread {
-	static CandidateNGramsService candidateNGramService = CandidateNGramsService.getInstance();
+	static OldCandidateNGramsService candidateNGramService = OldCandidateNGramsService.getInstance();
 
 	String[] inputWords;
 	String[] inputLemmas;

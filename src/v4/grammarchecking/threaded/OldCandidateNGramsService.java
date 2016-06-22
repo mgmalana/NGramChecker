@@ -14,16 +14,16 @@ import v4.dao.NGramDao;
 import v4.dao.POS_NGram_Indexer;
 import v4.models.NGram;
 
-public class CandidateNGramsService {
+public class OldCandidateNGramsService {
 
-	private static CandidateNGramsService candidateNGramService;
+	private static OldCandidateNGramsService candidateNGramService;
 
-	private CandidateNGramsService() {
+	private OldCandidateNGramsService() {
 	}
 
-	public static CandidateNGramsService getInstance() {
+	public static OldCandidateNGramsService getInstance() {
 		if (candidateNGramService == null)
-			candidateNGramService = new CandidateNGramsService();
+			candidateNGramService = new OldCandidateNGramsService();
 		return candidateNGramService;
 	}
 
@@ -57,8 +57,8 @@ public class CandidateNGramsService {
 		}
 
 		long endTime = System.currentTimeMillis();
-		System.out.println(
-				"Time Elapsed: " + (endTime - startTime) + " | N-gram Candidates Size: " + nGramSizeOfCandidates);
+		System.out.println("Old Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates "
+				+ candidateNGrams.size());
 
 		return candidateNGrams;
 	}
