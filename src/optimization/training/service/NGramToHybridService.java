@@ -20,7 +20,8 @@ public class NGramToHybridService {
 		NGramToHybridDao nthDao = DaoManager.getNGramToHybridDao(ngramSize);
 		NGramStorageDao ngramDao = DaoManager.getNGramStorageDao(ngramSize);
 		int offset = 0;
-		List<NGram> ngrams = ngramDao.getSimilarNGrams(2, offset);
+		int groupSize = 2;
+		List<NGram> ngrams = ngramDao.getSimilarNGrams(groupSize, offset);
 		HashMap<String[], Boolean[]> rules = new HashMap<>();
 
 		while (ngrams != null) {
@@ -51,12 +52,13 @@ public class NGramToHybridService {
 
 			offset++;
 			System.out.println(offset);
-			ngrams = ngramDao.getSimilarNGrams(2, offset);
+			ngrams = ngramDao.getSimilarNGrams(groupSize, offset);
 		}
 		Iterator it = rules.entrySet().iterator();
 		while (it.hasNext()) {
 			Map.Entry pair = (Map.Entry) it.next();
-			System.out.println(pair.getKey() + " = " + pair.getValue());
+			System.out.println(ArrayToStringConverter.convert((String[]) pair.getKey()) + " = "
+					+ ArrayToStringConverter.convert((Boolean[]) pair.getValue()));
 			it.remove(); // avoids a ConcurrentModificationException
 		}
 

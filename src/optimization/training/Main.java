@@ -18,7 +18,7 @@ public class Main {
 
 		NGramToHybridService nthService = new NGramToHybridService();
 
-		nthService.hybridizeRules(6);
+		nthService.hybridizeRules(2);
 		// Store N-Gram
 		// Call Clustering N-grams
 		// Add Hybrid - also adds pos tags of each token
