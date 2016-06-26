@@ -17,8 +17,9 @@ public class Main {
 		// wplMapService.populate();
 
 		NGramToHybridService nthService = new NGramToHybridService();
+		for (int i = 2; i <= 7; i++)
+			nthService.hybridizeRules(i);
 
-		nthService.hybridizeRules(2);
 		// Store N-Gram
 		// Call Clustering N-grams
 		// Add Hybrid - also adds pos tags of each token

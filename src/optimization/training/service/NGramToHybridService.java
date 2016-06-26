@@ -8,17 +8,17 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import optimization.training.dao.DaoManager;
-import optimization.training.dao.NGramStorageDao;
-import optimization.training.dao.NGramToHybridDao;
+import optimization.dao.DaoManager;
+import optimization.dao.HybridDao;
+import optimization.dao.NGramDao;
 import util.ArrayToStringConverter;
 import v4.models.NGram;
 
 public class NGramToHybridService {
 
 	public void hybridizeRules(int ngramSize) throws SQLException {
-		NGramToHybridDao nthDao = DaoManager.getNGramToHybridDao(ngramSize);
-		NGramStorageDao ngramDao = DaoManager.getNGramStorageDao(ngramSize);
+		HybridDao nthDao = DaoManager.getNGramToHybridDao(ngramSize);
+		NGramDao ngramDao = DaoManager.getNGramStorageDao(ngramSize);
 		int offset = 0;
 		int groupSize = 2;
 		List<NGram> ngrams = ngramDao.getSimilarNGrams(groupSize, offset);
@@ -27,7 +27,7 @@ public class NGramToHybridService {
 		while (ngrams != null) {
 
 			Boolean[] isPOSGeneralized = new Boolean[ngramSize];
-
+			String[] nonHybridWords = new String[ngramSize];
 			for (int i = 0; i < ngramSize; i++) {
 				HashSet<String> set = new HashSet<>();
 				for (NGram n : new ArrayList<NGram>(ngrams)) {
@@ -38,16 +38,20 @@ public class NGramToHybridService {
 						ngrams.remove(n);
 					}
 				}
-				if (set.size() > 1)
+
+				if (set.size() > 1) {
 					isPOSGeneralized[i] = true;
-				else
+					nonHybridWords[i] = "*";
+				} else {
 					isPOSGeneralized[i] = false;
+					nonHybridWords[i] = set.iterator().next();
+				}
 			}
 			for (NGram n : new ArrayList<NGram>(ngrams)) {
 				System.out.println(ArrayToStringConverter.convert(n.getWords()));
 			}
 
-			nthDao.addHybridNGram(ngrams.get(0).getPos(), isPOSGeneralized, ngrams.size());
+			nthDao.addHybridNGram(ngrams.get(0).getPos(), isPOSGeneralized, nonHybridWords, ngrams.size());
 			rules.put(ngrams.get(0).getPos(), isPOSGeneralized);
 
 			offset++;
