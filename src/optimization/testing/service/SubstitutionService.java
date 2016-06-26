@@ -19,45 +19,21 @@ public class SubstitutionService {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService.getCandidateNGrams(input.getPos(), ngramSize);
 		// check if may ka-equal na ito. If meron, stop and return null;
 		List<Suggestion> suggestions = new ArrayList<>();
-		for (HybridNGram h : candidatesHGrams) {
-			if (Arrays.equals(h.getPosTags(), input.getPos())) {
-				System.out.println(ArrayToStringConverter.convert(input.getWords()));
-				System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
-				boolean isEqual = true;
-				for (int i = 0; i < ngramSize; i++) {
-					// Change everything
 
-					if (h.getIsHybrid()[i] == false && !input.getWords()[i].equals(h.getNonHybridWords()[i])) {
-						isEqual = false;
-						break;
-					}
-				}
-				if (isEqual == true) {
-					System.out.println("Correct");
-					return null;
-				} else {
-					System.out.println("Equal at POS level pero mali");
-					break;
-				}
+		boolean isGrammaticallyCorrect = isGrammaticallyCorrect(input, candidatesHGrams, ngramSize);
+		if (isGrammaticallyCorrect)
+			return null;
+		else {
+			System.out.println(candidatesHGrams.size());
+			for (HybridNGram h : candidatesHGrams) {
+				Suggestion s = computeEditDistance(input, h, ngramSize);
 			}
+			return suggestions;
 		}
-		// normal computation of edit distance na
-		System.out.println(candidatesHGrams.size());
-		for (HybridNGram h : candidatesHGrams) {
-			Suggestion s = computeEditDistance(input, h, ngramSize);
-		}
-
-		// this is faster than computing each edit distance only to find out na
-		// may isa palang ka-match na tama.
-		// TODO Auto-generated method stub
-		return suggestions;
 	}
 
 	private static Suggestion computeEditDistance(Input input, HybridNGram h, int ngramSize) throws SQLException {
-		System.out.println(ngramSize);
-
 		for (int i = 0; i < ngramSize; i++) {
-
 			boolean isEqualPOS = h.getPosTags()[i].equals(input.getPos()[i]);
 			if (isEqualPOS && h.getIsHybrid()[i] == true)
 				;
@@ -78,5 +54,27 @@ public class SubstitutionService {
 		}
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	private static boolean isGrammaticallyCorrect(Input input, List<HybridNGram> candidatesHGrams, int ngramSize) {
+		for (HybridNGram h : candidatesHGrams) {
+			if (Arrays.equals(h.getPosTags(), input.getPos())) {
+				System.out.println(ArrayToStringConverter.convert(input.getWords()));
+				System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
+				boolean isEqual = true;
+				for (int i = 0; i < ngramSize; i++) {
+					if (h.getIsHybrid()[i] == false && !input.getWords()[i].equals(h.getNonHybridWords()[i])) {
+						isEqual = false;
+						break;
+					}
+				}
+				if (isEqual == true) {
+					return true;
+				} else {
+					break;
+				}
+			}
+		}
+		return false;
 	}
 }
