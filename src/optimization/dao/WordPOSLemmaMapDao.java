@@ -64,17 +64,32 @@ public class WordPOSLemmaMapDao {
 		return false;
 	}
 
-	public String getWordWithLemmaAndPOS(String lemma, int posID) throws SQLException {
+	public List<String> getWordsGivenPosID(int posID) throws SQLException {
 		conn = DatabaseConnector.getConnection();
-		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? AND lemma = ?";
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ?";
 		PreparedStatement ps = conn.prepareStatement(selectQuery);
 		ps.setInt(1, posID);
-		ps.setString(2, lemma);
 		ResultSet rs = ps.executeQuery();
-		if (rs.next()) {
-			return rs.getString(1);
+		List<String> words = new ArrayList<>();
+		while (rs.next()) {
+			words.add(rs.getString(1));
 		}
 		conn.close();
-		return null;
+		return words;
+	}
+
+	public List<String> getWordMappingWithLemmaAndPOS(String lemma, int posID) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE lemma = ? AND posID = ?";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setString(1, lemma);
+		ps.setInt(2, posID);
+		ResultSet rs = ps.executeQuery();
+		List<String> words = new ArrayList<>();
+		while (rs.next()) {
+			words.add(rs.getString(1));
+		}
+		conn.close();
+		return words;
 	}
 }

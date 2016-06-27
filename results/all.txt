@@ -1,3 +1,3 @@
-Words: para_kay bata 
-POS: RBB NNC
-Lemmas: para_kay bata 2
+Words: kikumpara ang babae 
+POS: ? DTC NNC
+Lemmas: ? ang babae 3

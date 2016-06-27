@@ -6,16 +6,18 @@ public class Suggestion {
 
 	private SuggestionType suggType;
 	private String[] tokenSuggestions;
-	private Integer[] affectedIndexes;
+	// can be a list of possible tokens to be inserted/substitute or a pair of
+	// words for unmerging/merging
+	private int affectedIndex;
 	private double editDistance;
 	private int frequency;
 
-	public Suggestion(SuggestionType suggType, String[] tokenSuggestions, Integer[] affectedIndexes,
-			double editDistance, int frequency) {
+	public Suggestion(SuggestionType suggType, String[] tokenSuggestions, int affectedIndex, double editDistance,
+			int frequency) {
 		super();
 		this.suggType = suggType;
 		this.tokenSuggestions = tokenSuggestions;
-		this.affectedIndexes = affectedIndexes;
+		this.affectedIndex = affectedIndex;
 		this.editDistance = editDistance;
 		this.frequency = frequency;
 	}
@@ -36,12 +38,12 @@ public class Suggestion {
 		this.tokenSuggestions = tokenSuggestions;
 	}
 
-	public Integer[] getAffectedIndexes() {
-		return affectedIndexes;
+	public int getAffectedIndex() {
+		return affectedIndex;
 	}
 
-	public void setAffectedIndexes(Integer[] affectedIndexes) {
-		this.affectedIndexes = affectedIndexes;
+	public void setAffectedIndex(int affectedIndex) {
+		this.affectedIndex = affectedIndex;
 	}
 
 	public double getEditDistance() {

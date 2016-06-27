@@ -19,16 +19,42 @@ public class CandidateNGramService {
 	static HybridNGramPosIndexerDao hybridPosIndexerDao;
 	static HybridDao hybridDao;
 
-	// public static void main(String[] args) throws SQLException {
-	// CandidateNGramService service = new CandidateNGramService();
-	// String[] posTags = { "VBW", "RBW", "NNC", "CCP" };
-	// service.getCandidateNGrams(posTags, 4);
-	//
-	// OldCandidateNGramsService oldService =
-	// OldCandidateNGramsService.getInstance();
-	// oldService.getCandidateNGrams(posTags, 4);
-	//
-	// }
+	public static void main(String[] args) throws SQLException {
+		CandidateNGramService service = new CandidateNGramService();
+		String[] posTags = { "?", "DTC", "NNC" };
+		// service.getCandidateNGrams(posTags, 3);
+		service.getCandidateNGramsSubstitutionPermutation(posTags, 3);
+
+		// OldCandidateNGramsService oldService =
+		// OldCandidateNGramsService.getInstance();
+		// oldService.getCandidateNGrams(posTags, 3);
+		//
+	}
+
+	public static List<HybridNGram> getCandidateNGramsSubstitutionPermutation(String[] posTags, int ngramSize)
+			throws SQLException {
+		long startTime = System.currentTimeMillis();
+
+		hybridDao = DaoManager.getNGramToHybridDao(ngramSize);
+		List<String> posPatterns = new ArrayList<>();
+		for (int i = 0; i < ngramSize; i++) {
+			StringBuilder posPattern = new StringBuilder();
+			for (int j = 0; j < ngramSize; j++) {
+				if (i == j)
+					posPattern.append("%");
+				else
+					posPattern.append(posTags[j]);
+				if (j < ngramSize - 1)
+					posPattern.append(" ");
+			}
+			posPatterns.add(posPattern.toString());
+		}
+		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		long endTime = System.currentTimeMillis();
+		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
+				+ hybridNGrams.size());
+		return hybridNGrams;
+	}
 
 	public static List<HybridNGram> getCandidateNGrams(String[] posTags, int ngramSize) throws SQLException {
 		long startTime = System.currentTimeMillis();
@@ -68,10 +94,6 @@ public class CandidateNGramService {
 		return hybridNGrams;
 	}
 
-	// get posIDs of the input pos tags from the pos table
-	// get hybrid n-gram ids of the specified size that is indexed to these
-	// posIDs
-	// get all hybrid n-grams of the specified size "WHERE id IN (2,3,4,5,6)
 	private static String[] getUniquePOS(String[] pArr) {
 		HashSet<String> uniquePOS = new HashSet<>(Arrays.asList(pArr));
 		return uniquePOS.toArray(new String[uniquePOS.size()]);

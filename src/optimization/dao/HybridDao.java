@@ -34,7 +34,7 @@ public class HybridDao {
 		Integer[] posIDs = posDao.addPOSTags(posTags);
 
 		String insertQuery = "INSERT INTO " + hybridNGramTable
-				+ " (posTags, posIDs, nonhybrid_words, isHybrid, frequency) VALUES (?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE isHybrid = ?, posIDs = ?, nonhybrid_words = ?";
+				+ " (posTags, posIDs, nonhybrid_words, isHybrid, frequency) VALUES (?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE isHybrid = ?, posIDs = ?, nonhybrid_words = ?, frequency = ?";
 		String selectQuery = "SELECT id FROM " + hybridNGramTable + " WHERE posTags = '" + posTagsAsString + "'";
 		PreparedStatement ps = conn.prepareStatement(insertQuery);
 		ps.setString(1, posTagsAsString);
@@ -45,6 +45,7 @@ public class HybridDao {
 		ps.setString(6, isHybridAsString);
 		ps.setString(7, ArrayToStringConverter.convert(posIDs));
 		ps.setString(8, nonHybridWordsAsString);
+		ps.setInt(9, frequency);
 		ps.executeUpdate();
 		ps = conn.prepareStatement(selectQuery);
 		ResultSet rs = ps.executeQuery();
@@ -69,7 +70,29 @@ public class HybridDao {
 			}
 		}
 		s.append(")");
+		PreparedStatement ps = conn.prepareStatement(s.toString());
+		ResultSet rs = ps.executeQuery();
+		while (rs.next()) {
+			String[] posIDsString = rs.getString(2).split(" ");
+			Integer[] posIDs = new Integer[posIDsString.length];
+			for (int i = 0; i < posIDsString.length; i++)
+				posIDs[i] = Integer.parseInt(posIDsString[i].trim());
+			hybridNGrams.add(new HybridNGram(rs.getString(1), posIDs, rs.getString(3), rs.getString(4), rs.getInt(5)));
+		}
+		conn.close();
+		return hybridNGrams;
+	}
 
+	public List<HybridNGram> getCandidateHybridNGramsPermutation(List<String> posPatterns) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		List<HybridNGram> hybridNGrams = new ArrayList<>();
+		StringBuilder s = new StringBuilder(
+				"SELECT posTags, posIDs, isHybrid, nonhybrid_words, frequency FROM " + hybridNGramTable + " WHERE ");
+		for (int i = 0; i < posPatterns.size(); i++) {
+			s.append("posTags LIKE '" + posPatterns.get(i) + "'");
+			if (i < posPatterns.size() - 1)
+				s.append(" OR ");
+		}
 		PreparedStatement ps = conn.prepareStatement(s.toString());
 		ResultSet rs = ps.executeQuery();
 		while (rs.next()) {

@@ -6,7 +6,7 @@ import optimization.training.service.NGramPopulator;
 import optimization.training.service.NGramToHybridService;
 import optimization.training.service.WordPOSLemmaMapService;
 
-public class Main {
+public class TrainMain {
 
 	public static void main(String[] args) throws SQLException, InterruptedException {
 
