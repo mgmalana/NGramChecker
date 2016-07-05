@@ -28,18 +28,24 @@ public class SubstitutionService {
 		if (isGrammaticallyCorrect)
 			return null;
 		else {
-			System.out.println(candidatesHGrams.size());
+			double min = Integer.MAX_VALUE;
 			for (HybridNGram h : candidatesHGrams) {
-				Suggestion s = computeEditDistance(input, h, ngramSize);
-				if (s != null)
-					suggestions.add(s);
+				Suggestion s = computeSubstitutionEditDistance(input, h);
+				if (s != null) {
+					if (s.getEditDistance() < min) {
+						suggestions = new ArrayList<>();
+						min = s.getEditDistance();
+					}
+					if (s.getEditDistance() <= min)
+						suggestions.add(s);
+				}
 
 			}
 			return suggestions;
 		}
 	}
 
-	private static Suggestion computeEditDistance(Input input, HybridNGram h, int ngramSize) throws SQLException {
+	private static Suggestion computeSubstitutionEditDistance(Input input, HybridNGram h) throws SQLException {
 		double editDistance = 0;
 		Suggestion suggestion = null;
 		// System.out.println("Input Words: " +
@@ -52,7 +58,7 @@ public class SubstitutionService {
 		// ArrayToStringConverter.convert(h.getPosTags()));
 		// System.out.println("IsHybrid: " +
 		// ArrayToStringConverter.convert(h.getIsHybrid()));
-		for (int i = 0; i < ngramSize; i++) {
+		for (int i = 0; i < input.getNgramSize(); i++) {
 			if (editDistance > Constants.EDIT_DISTANCE_THRESHOLD) {
 				return null;
 			}
@@ -66,31 +72,33 @@ public class SubstitutionService {
 				else {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_SAME_POS;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
-					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, i, editDistance,
-							h.getBaseNGramFrequency());
+					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getPosTags()[i], i,
+							editDistance, h.getBaseNGramFrequency());
 				}
 			} else {
 				List<String> wordsWithSameLemmaAndPOS = wplmDao.getWordMappingWithLemmaAndPOS(input.getLemmas()[i],
 						h.getPosIDs()[i]);
 				if (h.getIsHybrid()[i] == true && wordsWithSameLemmaAndPOS.size() > 0) {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_FORM;
-					String[] tokenSuggestions = wordsWithSameLemmaAndPOS
-							.toArray(new String[wordsWithSameLemmaAndPOS.size()]);
-					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, i, editDistance,
+					// String[] tokenSuggestions = wordsWithSameLemmaAndPOS
+					// .toArray(new String[wordsWithSameLemmaAndPOS.size()]);
+					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, null, h.getPosTags()[i], i, editDistance,
 							h.getBaseNGramFrequency());
+					System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 				} else {
-					List<String> wordsWithSamePOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
-					List<String> similarWords = getSimilarWords(input.getWords()[i], wordsWithSamePOS);
+					List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
+					List<String> similarWords = getSimilarWords(input.getWords()[i], wordsGivenPOS);
 					if (similarWords.size() > 0) {
 						editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
 						String[] tokenSuggestions = similarWords.toArray(new String[similarWords.size()]);
-						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, i, editDistance,
-								h.getBaseNGramFrequency());
+						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getPosTags()[i], i,
+								editDistance, h.getBaseNGramFrequency());
 					} else {
 						editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_DIFFERENT_POS;
-						String[] tokenSuggestions = wordsWithSamePOS.toArray(new String[wordsWithSamePOS.size()]);
-						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, i, editDistance,
-								h.getBaseNGramFrequency());
+						// String[] tokenSuggestions = wordsGivenPOS.toArray(new
+						// String[wordsGivenPOS.size()]);
+						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, null, h.getPosTags()[i], i,
+								editDistance, h.getBaseNGramFrequency());
 					}
 				}
 			}
@@ -116,8 +124,8 @@ public class SubstitutionService {
 	private static boolean isGrammaticallyCorrect(Input input, List<HybridNGram> candidatesHGrams, int ngramSize) {
 		for (HybridNGram h : candidatesHGrams) {
 			if (Arrays.equals(h.getPosTags(), input.getPos())) {
-				System.out.println(ArrayToStringConverter.convert(input.getWords()));
-				System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
+				// System.out.println(ArrayToStringConverter.convert(input.getWords()));
+				// System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
 				boolean isEqual = true;
 				for (int i = 0; i < ngramSize; i++) {
 					if (h.getIsHybrid()[i] == false && !input.getWords()[i].equals(h.getNonHybridWords()[i])) {

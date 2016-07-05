@@ -21,9 +21,9 @@ public class CandidateNGramService {
 
 	public static void main(String[] args) throws SQLException {
 		CandidateNGramService service = new CandidateNGramService();
-		String[] posTags = { "?", "DTC", "NNC" };
+		String[] posTags = { "NNP", "PMC", "NNP", "NNP" };
 		// service.getCandidateNGrams(posTags, 3);
-		service.getCandidateNGramsSubstitutionPermutation(posTags, 3);
+		service.getCandidateNGramsInsertionPermutation(posTags, 4);
 
 		// OldCandidateNGramsService oldService =
 		// OldCandidateNGramsService.getInstance();
@@ -44,6 +44,30 @@ public class CandidateNGramService {
 					posPattern.append("%");
 				else
 					posPattern.append(posTags[j]);
+				if (j < ngramSize - 1)
+					posPattern.append(" ");
+			}
+			posPatterns.add(posPattern.toString());
+		}
+		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		long endTime = System.currentTimeMillis();
+		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
+				+ hybridNGrams.size());
+		return hybridNGrams;
+	}
+
+	public static List<HybridNGram> getCandidateNGramsInsertionPermutation(String[] posTags, int ngramSize)
+			throws SQLException {
+		long startTime = System.currentTimeMillis();
+
+		hybridDao = DaoManager.getNGramToHybridDao(ngramSize + 1);
+		List<String> posPatterns = new ArrayList<>();
+		for (int i = 0; i < ngramSize; i++) {
+			StringBuilder posPattern = new StringBuilder();
+			for (int j = 0; j < ngramSize; j++) {
+				if (j != 0 && i == j)
+					posPattern.append("% ");
+				posPattern.append(posTags[j]);
 				if (j < ngramSize - 1)
 					posPattern.append(" ");
 			}
