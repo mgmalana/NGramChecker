@@ -14,11 +14,11 @@ public class TrainMain {
 		// ngramPopulator.populateNGrams();
 
 		WordPOSLemmaMapService wplMapService = new WordPOSLemmaMapService();
-		// wplMapService.populate();
+		wplMapService.populate();
 
 		NGramToHybridService nthService = new NGramToHybridService();
-		for (int i = 2; i <= 7; i++)
-			nthService.hybridizeRules(i);
+		// for (int i = 2; i <= 7; i++)
+		// nthService.hybridizeRules80Percent(i);
 
 		// Store N-Gram
 		// Call Clustering N-grams

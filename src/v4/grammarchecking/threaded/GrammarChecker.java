@@ -26,7 +26,7 @@ public class GrammarChecker {
 
 		// 0, 4, 11, 14 - working
 		// 5 - not
-		Input testError = testErrorsProvider.getTestErrors().get(1);
+		Input testError = testErrorsProvider.getTestErrors().get(0);
 		checkGrammar(testError);
 
 	}
@@ -71,21 +71,21 @@ public class GrammarChecker {
 				subService.join();
 				suggs.addAll(subService.getSuggestions());
 
-				if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
-					insAndUnmService = new InsertionAndUnmergingService();
-					insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
-					insAndUnmService.start();
-					insAndUnmService.join();
-					suggs.addAll(insAndUnmService.getSuggestions());
-
-				}
-				if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
-					delAndMerService = new DeletionAndMergingService();
-					delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
-					delAndMerService.start();
-					delAndMerService.join();
-					suggs.addAll(delAndMerService.getSuggestions());
-				}
+				// if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
+				// insAndUnmService = new InsertionAndUnmergingService();
+				// insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
+				// insAndUnmService.start();
+				// insAndUnmService.join();
+				// suggs.addAll(insAndUnmService.getSuggestions());
+				//
+				// }
+				// if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
+				// delAndMerService = new DeletionAndMergingService();
+				// delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
+				// delAndMerService.start();
+				// delAndMerService.join();
+				// suggs.addAll(delAndMerService.getSuggestions());
+				// }
 
 				suggs = sortSuggestions(suggs);
 				allSuggestions.addAll(suggs);

@@ -8,6 +8,7 @@ import java.util.List;
 
 import optimization.models.Input;
 import optimization.models.Suggestion;
+import optimization.testing.service.InsertionService;
 import optimization.testing.service.SubstitutionService;
 import optimization.testing.service.TestErrorsProvider;
 import util.ArrayToStringConverter;
@@ -19,7 +20,7 @@ public class TestMain {
 	static SubstitutionService subService;
 
 	public static void main(String[] args) throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(0); // 1 or 50
+		Input testError = testErrorsProvider.getTestErrors().get(26); // 0 or 50
 		checkGrammar(testError);
 	}
 
@@ -55,14 +56,21 @@ public class TestMain {
 			String[] wArr = Arrays.copyOfRange(input.getWords(), i, i + ngramSize);
 			String[] pArr = Arrays.copyOfRange(input.getPos(), i, i + ngramSize);
 			String[] lArr = Arrays.copyOfRange(input.getLemmas(), i, i + ngramSize);
-			Input subInput = new Input(wArr, pArr, lArr);
-			List<Suggestion> suggestions = SubstitutionService.performTask(subInput, ngramSize);
-			if (suggestions == null) // ngram is grammatically correct
+			Input subInput = new Input(wArr, pArr, lArr, ngramSize);
+			List<Suggestion> suggestions = new ArrayList<>();
+			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, ngramSize);
+			List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
+			if (subSuggestions == null) // ngram is grammatically correct
 				System.out.println("Grammatically Correct");
-			else if (suggestions.size() > 0) {
-				for (Suggestion s : suggestions)
-					System.out.println(s.getEditDistance() + " "
-							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + s.getAffectedIndex());
+			else if (subSuggestions.size() > 0) {
+				for (Suggestion s : subSuggestions)
+					System.out.println(s.getEditDistance() + " " + s.getPosSuggestion() + " "
+							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " " + s.getAffectedIndex());
+			}
+			if (insSuggestions.size() > 0) {
+				for (Suggestion s : insSuggestions)
+					System.out.println(s.getEditDistance() + " " + s.getPosSuggestion() + " "
+							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " " + s.getAffectedIndex());
 			} else {// else if insertion, deletion, etc.
 				System.out.println("Recurse to " + (ngramSize - 1));
 				suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);

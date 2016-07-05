@@ -67,7 +67,6 @@ class NGramPopulatorThread extends Thread {
 
 		NGramDao ngramDao = DaoManager.getNGramDao(ngramSize);
 		POS_NGram_Indexer indexer = DaoManager.getIndexer(ngramSize);
-		WordPOSLemmaMapService wplMapService = new WordPOSLemmaMapService();
 
 		try {
 			for (int n = 0; n < lemmaFiles.size(); n++) {

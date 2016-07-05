@@ -10,6 +10,7 @@ public class Constants {
 	public static String TEST_TAGS = "data/test/paclic_test_tags.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
+	public static String FED_TO_SQL = "data/fed_to_sql";
 
 	public static String RESULTS_SUBSTITUTION = "results/substitution.txt";
 	public static String RESULTS_INSERTION = "results/insertion.txt";

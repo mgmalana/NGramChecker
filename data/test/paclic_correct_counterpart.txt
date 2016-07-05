@@ -23,6 +23,8 @@ taga-Manila siya  						X Not corrected because taga-Manila and POS sequence 'RB
 bahaghari iyon   						X Was not detected because the sequence 'NNC NNC' and 'NNC PRO' are grammatically correct in the database
 pag-aayos ng  							O Was not suggested but 'pagkakaayos' was suggested.
 hinila niya 							X 1 Was considered grammatically correct because POS (PRS) was too generalized
+importanteng NNC na dapat
+na bahay ng mayayaman
 7/25 Mali sa Taas
 ang pagtakbo ng mayor					O
 makita nang malinaw						O
