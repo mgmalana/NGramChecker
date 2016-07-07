@@ -1,0 +1,83 @@
+Isang hanay ng komentaryo sa isang kasulatan na naglalarawan kung paano ito dapat buuin , ilahad at ayusin ang markup language .
+Ilang siglo nang ginagamit ang_mga markup language , ginamit din sila kamakailang taon lamang sa typesetting ng kompyuter at word-processing systems .
+Isang halimbawa ng markup language na kasalukuyang ginagamit sa pagkokompyut ang HyperText Markup Language ( HTML ) , isa sa mga protocol ng World Wide Web .
+Sumusunod ang HTML sa ilang mga kumbensyong markup na ginagamit sa industriyang pampapalimbag sa komunikasyon ng gawang nailimbag sa_pagitan_ng mga awtor , patnugot , at manlilimbag .
+Nanggaling ang terminong “ markup ” mula_sa tradisyonal na kasanayang pagpapalimbag na “ marking up ” ng isang manuskrito , kasali ang simbolikong instruksiyon ng tagalimbag sa palugit ng isang manuskritong papel .
+Isinagawa ang gawaing ito ng ilang siglo , kadalasan ng_mga dalubhasang manlilimbag na tinatawag na “ markup men ” , na nagma-mark-up ng teksto upang ipahiwatig kung anong typeface , istilo , at laki ang dapat mailapat sa bawat bahagi , matapos nito pinapasa nila ang manuskrito sa iba upang i-typeset ang_mga ito nang mano-mano .
+Kadalasang ginagamit din ang markup ng_mga patnugot , tagawasto , at graphic designers na nagtatrabaho sa mga ahensiyang pamamahayag .
+Isang kilalang halimbawa ng simbolong manual markup na ginagamit pa rin sa kasalukuyan ang proofreader’s marks , na isang subset ng_mga mas malalaking bokabularyo ng_mga simbolong markup na gawang kamay .
+Tila unang naipakita ang ideyang markup languages ni publishing executive William W. Tunnicliffe sa isang pagpupulong noong 1967 , ngunit mas ginusto niyang tawagin itong “ generic coding . ”
+Pamumunuan ni Tunnicliffe ang pag-unlad ng pamantayang GenCode para_sa industriyang pagpapalimbag .
+Naglimbag din si Stanley Fish ng isang espekula na may tulad sa larangan noong 1960 .
+Sa disertasyon ni Brian Reid noong 1980 sa Carnegie Mellon University ng teorya at gumaganang implementasyon ng descriptive markup sa aktwal na paggamit .
+Ngunit , mas kinikilala sa kasalukuyan bilang “ ama ” ng markup languages ang IBM researcher na si Charles Goldfarb , dahil_sa kanyang trabaho sa IBM , GML , at pagkatapos bilang chair ng International Organization_for_Standardization committee na bumuo sa SGML , ang unang descriptive markup system na malawakang ginamit .
+Nalikha ni Goldfarb ang simpleng ideya habang nagsasagawa ng isa sa kanyang mga naunang proyekto upang tulungang maikompyuter ang daloy ng gawain ng diyaryo , ngunit hindi isinasaad ng nailathalang rekord kung kailan ito isinagawa .
+Nang tumagal , naging pamilyar siya sa mga gawa ni Tunnicliffe at Fish , at narinig ang isang usapan ni Reid na mas nagpalago sa kanyang interes .
+Dapat maitala na pinagdedebatihan pa rin ang_mga detalye ng kasaysayan ng descriptive markup languages sa simula nito .
+Ngunit , maliwanag na paulit-ulit na natuklasang hiwalay ang palagay noong dekada 70 ( at posibleng sa huling banda ng dekada 60 ) , at naging isang importanteng kasanayan sa huling banda ng dekada 80 .
+Maaring mahanap ang ilang unang halimbawa ng markup language na magagamit sa_labas ng industriyang paglalathala sa typesetting tools sa mga sistemang Unix tulad_ng troff at nroff .
+Dito sa mga sistemang ito , ipinasok ang_mga formatting commands sa_loob_ng document text upang mai-format ng typesetting software ang teksto ayon_sa pagtatahas ng patnugot .
+Isang umuulit na pamamaraang trial and error ito , upang makapagpalimbag ng dokumento nang tama .
+Nabawasan ng availability ng WYSIWYG ( “ what you see is what you get ” o “ kung anong makita mo ay iyon na iyon ” ) publishing software ang paggamit ng_mga kaswal na gumagamit ng_mga lengguwaheng ito , ngunit ginagamit pa rin sa pormal na gawaing pagpapalimbag ang markup upang tukuyin ang hindi biswal na kaayusan ng_mga teksto .
+Isa pang pangunahing publishing standard ang TeX , na nilikha at patuloy na nililinang ni Donald Knuth noong dekada 70 at 80 .
+Mas nagpokus sa detalyeng kaayusan ng teksto at deskripsyon ng font ang TeX upang mai-typeset ang_mga librong matematikal ayon_sa kalidad na pangpropesyonal .
+Dito mas nangailangan ni Knuth na gumugol ng oras upang siyasatin ang sining ng typesetting .
+Ngunit , nangangailangan ang TeX ng matinding kasanayan mula_sa gumagamit , upang magamit lamang ito sa akademia , kung saan ito talaga ang pamantayan sa mga disiplina ng agham .
+Nagbibigay ng isang mapaglarawang markup system sa_ibabaw_ng TeX at malawakang ginagamit ang macro package nila na kinikilalang LaTeX .
+Walang kaduda-dudang ang Scribe ang unang lengguwahe na nakagawa ng malinaw at malinis na pinagkaiba sa_pagitan_ng kaayusan at presentasyon , na binuo at inilarawan ni Brian Reid sa kanyang Thesis Doktoral noong 1980 .
+Naging rebolusyonaryo ang Scribe sa maraming paraan , hindi lang dahil ipinakilala nito ang istilo ng_mga ideya na hiwalay mula_sa dokumentong na-mark-up , at ng isang grammar na kumokontrol sa paggamit ng_mga descriptive elements .
+Naimpluwensyahan ng Scribe ang pagkakabuo ng Generalized Markup Languages ( na naging SGML ) at isang direktang ninuno ng HTML at LaTeX .
+Sa simula ng Dekada 80 , Humantong sa pagkakalikha ng SGML ang ideya na ang markup ay dapat nakapokus sa aspektong pangkaayusan ng isang dokumento at iwanan ang presentasyong biswal ng kaayusang iyon sa tagapagsalin .
+Nabuo ang lengguwahe ng isang lupon na pinamunuan ni Goldfarb .
+Isinama nito ang_mga ideya mula_sa iba’t_ibang gawa , tulad_ng proyekto ni Tunnicliffe , ang GenCode .
+Ilan sa mga importanteng miyembro ng lupong SGML sina Sharon Adler , Anders Berglund , at James A. Marke .
+Itinukoy ng SGML ang isang syntax para_sa pagsasama ng markup sa mga dokumento , pati na rin isa pang markup para_sa paglalarawang hiwalay sa kung anong tag ang pinapayagan , at kung saan ( Ang Document Type Definition ( DTD ) o panukala ) .
+Pinayagan nito ang_mga awtor na gumamit at lumikha ng kahit anong markup na gusto nila , mamili ng tag na angkop para_sa kanila at ipinangalan sa kani-kanilang natural na lengguwahe .
+Gayon , isang wastong meta-language ang SGML , at maraming partikular na markup language ay nagmula rito .
+Mula noong Dekada 80 hanggang kasalukuyan , nakabase sa Sistemang SGML ang karamihan sa mga bagong markup language na matibay , kasama rito , halimbawa , ang TEI at DocBook .
+Ipinalaganap ang SGML bilang isang International Standard ng International Organization for Standardization , ISO 8879 , noong 1986 .
+Nakahanap ng malawakang pagkatanggap at gamit sa mga larangang may malalakihang pangangailangang dokumento ang SGML .
+Ngunit , kadalasan itong nakikita bilang pahirap at mahirap matutunan , isang pangalawang epekto ng pagtatangka na gumawa ng labis at maging masyadong madaling umayon sa sitwasyon .
+Halimbawa , ang_mga end tag na gawa sa SGML ( o start-tags , o kaya pareho ) opsyonal sa ilang kaugnay na kahulugan , dahil naiisip na ginagawa nang mano-mano ang markup ng_mga pagod na support staff na pinapahalagahan ang pagtitipid ng_mga keystroke .
+Pagdating ng 1991 , nakikita ng karamihan na limitado sa komersyal at mga applikasyong data-based ang SGML habang sapat para_sa ibang aplikasyong document processing ang WYSIWYG tools .
+Nagbago ang sitwasyon nang ginamit ni G. Tim Berners-Lee ang SGML Syntax upang likhain ang HTML nang malaman niya ang tungkol_dito mula_kay Anders Berglund at sa iba pa niyang katrabaho sa CERN .
+May hawig ng ibang tag language na SGML-based ang HTML , bagaman nagsimulang mas simple ito kaysa_sa karamihan at nabuo lamang ang pormal na DTD pagkatapos .
+Nangatwiran si DeRose na naging pangunahing kadahilan ang paggamit ng HTML ng descriptive markup ( at SGML particular ) sa pagkabuo ng Web , dahil_sa kakayahang bumagay sa pangyayari at posibilidad na magpahaba na bigay nito . ( kasama sa iba pang kadahilan ang pagkahiwatig ng_mga URL at ng malayang distribusyon ng_mga browser ) .
+Malaki ang posibilidad na ang markup language na kasalukuyang pinakamadalas gamitin sa mundo ay ang HTML .
+Ngunit , pinagtatalunan ng ilang mga computer scientist ang katayuan ng HTML bilang markup language .
+Ang katwiran dito ay pinahihintulutan ng HTML ang paglalagay ng tag , kailangang ganap na nasa_loob ng ibang mga tag ang_mga ito , o sa pangunahing tag ng dokumento .
+Dahil_dito , iminumungkahi ng_mga siyentipiko na ang HTML sa halip ay isang container language , sumusunod sa isang modelong Hierarchal .
+Isa pang markup language na kasalukuyang ginagamit ng malawakan ang XML ( Extensible Markup Language ) .
+Binuo ng World Wide Web Consortium ang XML , sa isang lupon na binuo at pinamunuan ni Jon Bosak .
+Pangunahing layunin ng XML ang pasimplehin ang SGML sa pagtutuon sa isang problemang particular - mga dokumento sa internet .
+Nananatiling meta-language ang XML tulad_ng SGML , pinapayagan nito ang_mga gumagamit na lumikha ng kahit anong tag na kinakailangan tapos ilarawan ang_mga tag na iyon at ang kanilang mga pinahihintulutang gamit .
+Natulungan ang paghihiram ng XML dahil maaring isulat ang lahat ng dokumentong XML sa paraan na maari rin ito maging dokumentong SGML , at maaring lumipat ng madalian sa XML ang_mga gumagamit ng SGML , maging ang_mga umiiral na SGML software .
+Ngunit , tinanggal ng XML ang karamihan sa mga mas kumplikado at mga human-oriented feature ng SGML upang gawing simple ang implementasyon ( habang tinataasan ang markup size at binabawasan ang kakayahang mabasa at mabago ) .
+Naayos ng ilang pagpapabuti ang ilang problema sa SGML sa mga international setting , at ginawang possible na masuri at masalin ang hierarchy ng_mga dokumento kahit walang handang DTC .
+Una sa lahat , idinisenyo ang XML para_sa mga semi-structured environment tulad_ng mga dokumento at publikasyon .
+Ngunit , mukhang nakuha nito ang magandang timpla ng pagiging simple at ang kakayahan bumagay sa pangyayari , at madalian itong hiniram para_sa iba pang gamit .
+Ngayon , malawakang ginagamit ang XML para_sa pag-uugnay ng data sa_pagitan_ng mga aplikasyon .
+Tulad_ng HTML , maaari itong ilarawan bilang ‘ container ’ language .
+Mula noong Enero 2000 lahat ng rekomendasyon ng W3C para_sa HTML ay nakabatay sa XML kaysa_sa SGML , gamit ang daglat na XHTML ( Extensible HyperText Markup Language ) .
+Isinasaad sa detalye ng lengguwage na nangangailangan na dapat mga dokumentong XML na maganda ang pagkakabuo ang_mga dokumentong XHTML Web - nagbibigay-daan ito para_sa mga mahigpit at mabulas na dokumento habang gumagamit ng_mga tag na pamilyar mula_sa HTML .
+Isa sa mga kapansin-pansin na pagkakaiba ng HTML at XHTML ang patakaran na sarado dapat ang lahat ng tag : Dapat na isara gamit ang regular na end-tag o palitan ng special form ang_mga HTML tag na walang laman tulad_ng < br > : < nowiki > < br < / nowiki > / > ( opsyonal ang espasyo bago ang '/' sa panghuling tag , ngunit kadalasang itong ginagamit dahil nagbibigay-daan ito na matanggap ang tag ng ilang pre-XML Web browsers at SGML parsers ) .
+Isa pang pagkakaiba ang patakaran na dapat naka-quote ang lahat ng attribute value sa_loob_ng tag .
+At panghuli , dapat nakaayos na lowercase ang lahat ng tag at attribute name para matanggap ; sa_kabilang_dako , case-sensitive naman ang HTML .
+Umiiral na ang ilan sa mga aplikasyong XML-based , kasama na rito ang Resource Description Framework ( RDF ) , Xforms , DocBook , at ang Web Ontology Language ( OWL ) .
+Para_sa bahagiang listahan ng_mga ito , tingnan ang Listahan ng_mga XML markup language .
+Isang karaniwang tampok sa ilang mga markup languages ang kanilang pag-i-intermix ng text ng isang dokumento sa mga instruksyong markup sa kaparehong data stream o file .
+Hindi ito kinakailangan ; posibleng maihiwalay ang markup sa text content , gamit ang_mga pointer , offset , ID , o ibang metodo upang mai-co-ordinate ang dalawa .
+Tipikal para_sa representasyong internal ang_mga “ standoff markup ” tulad nito na ginagamit ng_mga programa para gumana sa mga dokumentong marked-up .
+Ngunit , mas karaniwan sa ibang dako ang_mga naka-embed o “ inline ” na markup .
+Mga instruksyong markup ( na kinikilalang tag ) ang_mga code na kalakip sa angle-brackets < tulad nito > , habang ang aktwal na teksto ng dokumento ang teksto sa_pagitan nitong mga instruksyong ito .
+Halimbawa ng structural markup ang_mga code na h1 , p at em , na inilalarawan nila ang layunin o kahulugan ng tekstong isinama nila .
+Sa tiyakan , nangangahulugang “ ito ay isang first-level heading ” ang h1 , “ ito ay isang talata ” ang p , at “ ito ay isang binigyang-diing salita o parirala ” ang em .
+Maaring gumamit ng sariling patakaran o istilo ang isang aplikasyong nagsasalin ng_mga structural markup tulad_ng nabanggit para_sa paghaharap ng iba-ibang bahagi ng teksto , gamit ang iba’t_ibang typeface , boldness , font size , indensyon , kulay , o ibang istilo na ninanais .
+Maaring maiharap sa isang large bold sans-serif typeface , halimbawa , o sa isang dokumentong monospaced ( istilong typerwriter ) na maari itong naka-underscore ang isang tag na tulad_ng “ h1 ” ( header level 1 ) - o maaring hindi nito mababago ang presentasyon sa kahit anong paraan .
+Sa_kabilang_banda , Isang halimbawa ng presentational markup ang tag na i HTML ; karaniwang ginagamit ito upang maitukoy ang partikular na katangian ng teksto ( na rito , ang gamit ng italic typeface ) na hindi tinutukoy ang dahilan ng paglabas nito .
+Naglimbag ng malawak na mga alituntunin ang Text Encoding Initiative ( TEI ) sa kung paano mag-encode ng text of interest sa mga humanidades at agham panlipunan , na binuo ng matagal na internasyonal na pagtutulong kooperatiba .
+Ginagamit ang_mga alituntunin ng_mga proyekto na nag-eencode ng makasaysayang dokumento , ang gawa ng_mga partikular na iskolar , panahon , o kategorya , at marami pa .
+Habang nagmula sa dokumentong teksto ang ideya ng markup language , mayroong pagtaas na paggamit ng markup language sa mga larangan tulad_ng vector graphics , web services , content syndication , at user interfaces .
+Applikasyong XML ang karamihan sa mga ito dahil ito ay isang maliwanag at lengguwaheng extensible .
+Nagbigay-daan din ang paggamit ng XML sa posibilidad ng pagsasama ng maramihang markup language sa isang profile , tulad_ng XHTML+SMIL at XHTML+MathML+SVG .
+

@@ -20,7 +20,7 @@ public class TestMain {
 	static SubstitutionService subService;
 
 	public static void main(String[] args) throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(26); // 0 or 50
+		Input testError = testErrorsProvider.getTestErrors().get(27); // 0 or 50
 		checkGrammar(testError);
 	}
 
@@ -64,14 +64,20 @@ public class TestMain {
 				System.out.println("Grammatically Correct");
 			else if (subSuggestions.size() > 0) {
 				for (Suggestion s : subSuggestions)
-					System.out.println(s.getEditDistance() + " " + s.getPosSuggestion() + " "
-							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " " + s.getAffectedIndex());
+					System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+							+ s.getFrequency() + " " + s.isHybrid() + " "
+							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+							+ s.getAffectedIndex());
 			}
 			if (insSuggestions.size() > 0) {
 				for (Suggestion s : insSuggestions)
-					System.out.println(s.getEditDistance() + " " + s.getPosSuggestion() + " "
-							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " " + s.getAffectedIndex());
-			} else {// else if insertion, deletion, etc.
+					System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+							+ s.getFrequency() + " " + s.isHybrid() + " "
+							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
+							+ s.getAffectedIndex());
+			}
+			if ((subSuggestions == null || subSuggestions.size() == 0)
+					&& (insSuggestions == null || insSuggestions.size() == 0)) {
 				System.out.println("Recurse to " + (ngramSize - 1));
 				suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
 				if (suggestions != null)

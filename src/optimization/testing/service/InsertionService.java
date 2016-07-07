@@ -19,10 +19,18 @@ public class InsertionService {
 				.getCandidateNGramsInsertionPermutation(input.getPos(), ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
 
+		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeInsertionEditDistance(input, h);
-			if (s != null)
+
+			if (s != null) {
+				// if (s.getFrequency() > highestBaseFreq) {
+				// suggestions = new ArrayList<>();
+				// highestBaseFreq = s.getFrequency();
+				// }
+				// if (s.getFrequency() >= highestBaseFreq)
 				suggestions.add(s);
+			}
 
 		}
 		return suggestions;
@@ -35,8 +43,8 @@ public class InsertionService {
 				List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
 				String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 				double editDistance = Constants.EDIT_DISTANCE_MISSING_WORD;
-				return new Suggestion(SuggestionType.INSERTION, tokenSuggestions, h.getPosTags()[i], i, editDistance,
-						h.getBaseNGramFrequency());
+				return new Suggestion(SuggestionType.INSERTION, tokenSuggestions, true, h.getPosTags()[i], i,
+						editDistance, h.getBaseNGramFrequency());
 			}
 		}
 		return null;

@@ -12,8 +12,7 @@ public class CreateFilesForNewWorksheets {
 	public static void createFiles() throws IOException {
 
 		String path = "data/joey_uncleaned/s14_";
-		String[] filenames = { "guzman", "ley", "manaysay", "meija", "merle", "obuchi", "perez", "realica", "surema",
-				"uy", "uy-baretta", "vasquez", "boracay", "velasco" };
+		String[] filenames = { "zapanta" };
 
 		for (String f : filenames) {
 			File fileWord = new File(path + f + "_words.txt");

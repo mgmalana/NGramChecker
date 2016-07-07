@@ -20,7 +20,7 @@ public class NGramToHybridService {
 		HybridDao nthDao = DaoManager.getNGramToHybridDao(ngramSize);
 		NGramDao ngramDao = DaoManager.getNGramStorageDao(ngramSize);
 		int offset = 0;
-		int groupSize = 2;
+		int groupSize = 4;
 		List<NGram> ngrams = ngramDao.getSimilarNGrams(groupSize, offset);
 		HashMap<String[], Boolean[]> rules = new HashMap<>();
 
@@ -47,7 +47,7 @@ public class NGramToHybridService {
 				Iterator it = set.entrySet().iterator();
 				while (it.hasNext()) {
 					Map.Entry pair = (Map.Entry) it.next();
-					if ((Integer) pair.getValue() >= 0.8 * ngrams.size()) {
+					if ((Integer) pair.getValue() >= 0.75 * ngrams.size()) {
 						shouldBeHybridized = false;
 						nonHybrid = (String) pair.getKey();
 					}
@@ -62,10 +62,9 @@ public class NGramToHybridService {
 					nonHybridWords[i] = nonHybrid;
 				}
 			}
-			for (NGram n : new ArrayList<NGram>(ngrams)) {
-				System.out.println(ArrayToStringConverter.convert(n.getWords()));
-			}
-
+			System.out.println(ArrayToStringConverter.convert(ngrams.get(0).getPos()) + " | "
+					+ ArrayToStringConverter.convert(isPOSGeneralized) + " | "
+					+ ArrayToStringConverter.convert(nonHybridWords));
 			nthDao.addHybridNGram(ngrams.get(0).getPos(), isPOSGeneralized, nonHybridWords, ngrams.size());
 			rules.put(ngrams.get(0).getPos(), isPOSGeneralized);
 
