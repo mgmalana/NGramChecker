@@ -13,6 +13,7 @@ import optimization.dao.HybridDao;
 import optimization.dao.HybridNGramPosIndexerDao;
 import optimization.dao.POSDao;
 import optimization.models.HybridNGram;
+import util.Constants;
 
 public class CandidateNGramService {
 	static POSDao posDao = new POSDao();
@@ -21,9 +22,9 @@ public class CandidateNGramService {
 
 	public static void main(String[] args) throws SQLException {
 		CandidateNGramService service = new CandidateNGramService();
-		String[] posTags = { "NNP", "PMC", "NNP", "NNP" };
+		String[] posTags = { "NNP", "PMC", "NNC", "NNC" };
 		// service.getCandidateNGrams(posTags, 3);
-		service.getCandidateNGramsInsertionPermutation(posTags, 4);
+		service.getCandidateNGramsMergingPermutation(posTags, posTags.length);
 
 		// OldCandidateNGramsService oldService =
 		// OldCandidateNGramsService.getInstance();
@@ -58,6 +59,8 @@ public class CandidateNGramService {
 
 	public static List<HybridNGram> getCandidateNGramsInsertionPermutation(String[] posTags, int ngramSize)
 			throws SQLException {
+		if (ngramSize + 1 > Constants.NGRAM_SIZE_UPPER)
+			return null;
 		long startTime = System.currentTimeMillis();
 
 		hybridDao = DaoManager.getNGramToHybridDao(ngramSize + 1);
@@ -74,6 +77,93 @@ public class CandidateNGramService {
 			posPatterns.add(posPattern.toString());
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		long endTime = System.currentTimeMillis();
+		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
+				+ hybridNGrams.size());
+		return hybridNGrams;
+	}
+
+	public static List<HybridNGram> getCandidateNGramsDeletionPermutation(String[] posTags, int ngramSize)
+			throws SQLException {
+		if (ngramSize - 1 < Constants.NGRAM_SIZE_LOWER)
+			return null;
+		long startTime = System.currentTimeMillis();
+
+		hybridDao = DaoManager.getNGramToHybridDao(ngramSize - 1);
+		List<String> posPatterns = new ArrayList<>();
+		for (int i = 0; i < ngramSize; i++) {
+			StringBuilder posPattern = new StringBuilder();
+			for (int j = 0; j < ngramSize; j++) {
+				if (i != j) {
+					posPattern.append(posTags[j]);
+					if (j < ngramSize - 1)
+						posPattern.append(" ");
+				}
+			}
+			// System.out.println(posPattern.toString());
+			posPatterns.add(posPattern.toString());
+		}
+		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		long endTime = System.currentTimeMillis();
+		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
+				+ hybridNGrams.size());
+		return hybridNGrams;
+	}
+
+	public static List<HybridNGram> getCandidateNGramsMergingPermutation(String[] posTags, int ngramSize)
+			throws SQLException {
+		if (ngramSize - 1 < Constants.NGRAM_SIZE_LOWER)
+			return null;
+		long startTime = System.currentTimeMillis();
+
+		hybridDao = DaoManager.getNGramToHybridDao(ngramSize - 1);
+		List<String> posPatterns = new ArrayList<>();
+		for (int i = 0; i < ngramSize - 1; i++) {
+			StringBuilder posPattern = new StringBuilder();
+			for (int j = 0; j < ngramSize; j++) {
+				if (i == j)
+					posPattern.append("% ");
+				else if (j >= i + 2 || j < i) {
+					posPattern.append(posTags[j]);
+					if (j < ngramSize - 1)
+						posPattern.append(" ");
+				}
+			}
+			// System.out.println(posPattern.toString());
+			posPatterns.add(posPattern.toString());
+		}
+		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		// for (HybridNGram h : hybridNGrams)
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
+		long endTime = System.currentTimeMillis();
+		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
+				+ hybridNGrams.size());
+		return hybridNGrams;
+	}
+
+	public static List<HybridNGram> getCandidateNGramsUnmergingPermutation(String[] posTags, int ngramSize)
+			throws SQLException {
+		if (ngramSize + 1 > Constants.NGRAM_SIZE_UPPER)
+			return null;
+		long startTime = System.currentTimeMillis();
+
+		hybridDao = DaoManager.getNGramToHybridDao(ngramSize + 1);
+		List<String> posPatterns = new ArrayList<>();
+		for (int i = 0; i < ngramSize; i++) {
+			StringBuilder posPattern = new StringBuilder();
+			for (int j = 0; j < ngramSize; j++) {
+				if (i == j)
+					posPattern.append("%");
+				else
+					posPattern.append(posTags[j]);
+				if (j < ngramSize - 1)
+					posPattern.append(" ");
+			}
+			posPatterns.add(posPattern.toString());
+		}
+		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
+		// for (HybridNGram h : hybridNGrams)
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		long endTime = System.currentTimeMillis();
 		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
 				+ hybridNGrams.size());

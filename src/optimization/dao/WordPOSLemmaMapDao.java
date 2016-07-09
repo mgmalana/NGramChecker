@@ -67,7 +67,7 @@ public class WordPOSLemmaMapDao {
 
 	public List<String> getWordsGivenPosID(int posID) throws SQLException {
 		conn = DatabaseConnector.getConnection();
-		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? ORDER BY frequency DESC LIMIT 5";
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? ORDER BY frequency";
 		PreparedStatement ps = conn.prepareStatement(selectQuery);
 		ps.setInt(1, posID);
 		ResultSet rs = ps.executeQuery();

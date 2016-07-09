@@ -18,7 +18,8 @@ public class InsertionService {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService
 				.getCandidateNGramsInsertionPermutation(input.getPos(), ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
-
+		if (candidatesHGrams == null)
+			return suggestions;
 		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeInsertionEditDistance(input, h);

@@ -9,7 +9,6 @@ import optimization.dao.WordPOSLemmaMapDao;
 import optimization.models.HybridNGram;
 import optimization.models.Input;
 import optimization.models.Suggestion;
-import util.ArrayToStringConverter;
 import util.Constants;
 import util.EditDistanceService;
 import v4.models.SuggestionType;
@@ -23,7 +22,8 @@ public class SubstitutionService {
 				.getCandidateNGramsSubstitutionPermutation(input.getPos(), ngramSize);
 		// check if may ka-equal na ito. If meron, stop and return null;
 		List<Suggestion> suggestions = new ArrayList<>();
-
+		if (candidatesHGrams == null)
+			return suggestions;
 		boolean isGrammaticallyCorrect = isGrammaticallyCorrect(input, candidatesHGrams, ngramSize);
 		if (isGrammaticallyCorrect)
 			return null;
@@ -58,7 +58,7 @@ public class SubstitutionService {
 		// ArrayToStringConverter.convert(h.getPosTags()));
 		// System.out.println("IsHybrid: " +
 		// ArrayToStringConverter.convert(h.getIsHybrid()));
-		System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		for (int i = 0; i < input.getNgramSize(); i++) {
 			if (editDistance > Constants.EDIT_DISTANCE_THRESHOLD) {
 				return null;

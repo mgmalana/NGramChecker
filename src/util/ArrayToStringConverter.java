@@ -16,6 +16,8 @@ public class ArrayToStringConverter {
 	}
 
 	public static String convert(Object[] arr) {
+		if (arr == null)
+			return null;
 		StringBuilder s = new StringBuilder();
 
 		for (int i = 0; i < arr.length; i++) {

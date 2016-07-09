@@ -8,7 +8,9 @@ import java.util.List;
 
 import optimization.models.Input;
 import optimization.models.Suggestion;
+import optimization.testing.service.DeletionService;
 import optimization.testing.service.InsertionService;
+import optimization.testing.service.MergingService;
 import optimization.testing.service.SubstitutionService;
 import optimization.testing.service.TestErrorsProvider;
 import util.ArrayToStringConverter;
@@ -20,7 +22,7 @@ public class TestMain {
 	static SubstitutionService subService;
 
 	public static void main(String[] args) throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(27); // 0 or 50
+		Input testError = testErrorsProvider.getTestErrors().get(7); // 0 or 50
 		checkGrammar(testError);
 	}
 
@@ -60,28 +62,46 @@ public class TestMain {
 			List<Suggestion> suggestions = new ArrayList<>();
 			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, ngramSize);
 			List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
+			List<Suggestion> delSuggestions = DeletionService.performTask(subInput, ngramSize);
+			List<Suggestion> merSuggestions = MergingService.performTask(subInput, ngramSize);
 			if (subSuggestions == null) // ngram is grammatically correct
 				System.out.println("Grammatically Correct");
-			else if (subSuggestions.size() > 0) {
-				for (Suggestion s : subSuggestions)
-					System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-							+ s.getFrequency() + " " + s.isHybrid() + " "
-							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-							+ s.getAffectedIndex());
-			}
-			if (insSuggestions.size() > 0) {
-				for (Suggestion s : insSuggestions)
-					System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-							+ s.getFrequency() + " " + s.isHybrid() + " "
-							+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
-							+ s.getAffectedIndex());
-			}
-			if ((subSuggestions == null || subSuggestions.size() == 0)
-					&& (insSuggestions == null || insSuggestions.size() == 0)) {
-				System.out.println("Recurse to " + (ngramSize - 1));
-				suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
-				if (suggestions != null)
-					allSuggestions.addAll(suggestions);
+			else {
+				if (subSuggestions.size() > 0) {
+					for (Suggestion s : subSuggestions)
+						System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+								+ s.getAffectedIndex());
+				}
+				if (subSuggestions != null && insSuggestions.size() > 0) {
+					for (Suggestion s : insSuggestions)
+						System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
+								+ s.getAffectedIndex());
+				}
+				if (subSuggestions != null && delSuggestions.size() > 0) {
+					for (Suggestion s : delSuggestions)
+						System.out.println("Del: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
+								+ s.getAffectedIndex());
+				}
+				if (subSuggestions != null && merSuggestions.size() > 0) {
+					for (Suggestion s : merSuggestions)
+						System.out.println("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+								+ s.getAffectedIndex());
+				}
+				if (subSuggestions != null && subSuggestions.size() == 0 && insSuggestions.size() == 0
+						&& delSuggestions.size() == 0 && merSuggestions.size() == 0) {
+					System.out.println("Recurse to " + (ngramSize - 1));
+					suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
+					if (suggestions != null)
+						allSuggestions.addAll(suggestions);
+				}
 			}
 		}
 
