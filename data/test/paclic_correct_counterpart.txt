@@ -4,7 +4,7 @@ para_sa bata                            O
 tinayo pa rin ang Torre_de_Manila       O 'Delete parin' was suggested in 4-gram level and 'Unmerge parin' only at 3-gram level
 bahay nina (DTPP) Jose , Juan			X Only suggested at 3-gram, because same sequence in 5-gram and 4-gram were not generalized
 isang lalaki							O 'Replace lalaki with JJD' was also suggested
-minungkahi na lang na					O
+inayos na lang ang					O
 para makakuha ng						O
 nagsimula ang panahon					O
 Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0

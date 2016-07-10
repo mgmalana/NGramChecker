@@ -31,14 +31,21 @@ public class MergingService {
 
 	private static Suggestion computeMergingEditDistance(Input input, HybridNGram h) throws SQLException {
 		int mergingIndex = 0;
-		for (int i = 0; i < input.getNgramSize(); i++) {
-			if (!input.getPos()[i].equals(h.getPosTags()[i])
-					&& ((i + 2 < input.getNgramSize() && input.getPos()[i + 2].equals(h.getPosTags()[i + 1]))
-							|| i + 2 >= input.getNgramSize())) {
+
+		int midSize = input.getNgramSize() / 2;
+		if (input.getNgramSize() % 2 != 0)
+			midSize = input.getNgramSize() / 2 + 1;
+		for (int i = 0; i < midSize; i++) {
+			if (!input.getPos()[i].equals(h.getPosTags()[i])) {
 				mergingIndex = i;
+				break;
+			} else if (!input.getPos()[input.getNgramSize() - 1 - i]
+					.equals(h.getPosTags()[h.getPosTags().length - 1 - i])) {
+				mergingIndex = input.getNgramSize() - 2 - i;
 				break;
 			}
 		}
+
 		List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[mergingIndex]);
 		for (String wordGivenPOS : wordsGivenPOS) {
 			if (isEqualWhenMerged(input.getWords()[mergingIndex], input.getWords()[mergingIndex + 1], wordGivenPOS)) {

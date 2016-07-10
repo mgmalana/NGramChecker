@@ -13,6 +13,7 @@ import optimization.testing.service.InsertionService;
 import optimization.testing.service.MergingService;
 import optimization.testing.service.SubstitutionService;
 import optimization.testing.service.TestErrorsProvider;
+import optimization.testing.service.UnmergingService;
 import util.ArrayToStringConverter;
 import util.Constants;
 import util.FileManager;
@@ -22,7 +23,7 @@ public class TestMain {
 	static SubstitutionService subService;
 
 	public static void main(String[] args) throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(7); // 0 or 50
+		Input testError = testErrorsProvider.getTestErrors().get(6); // 0 or 50
 		checkGrammar(testError);
 	}
 
@@ -64,6 +65,7 @@ public class TestMain {
 			List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
 			List<Suggestion> delSuggestions = DeletionService.performTask(subInput, ngramSize);
 			List<Suggestion> merSuggestions = MergingService.performTask(subInput, ngramSize);
+			List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, ngramSize);
 			if (subSuggestions == null) // ngram is grammatically correct
 				System.out.println("Grammatically Correct");
 			else {
@@ -91,6 +93,13 @@ public class TestMain {
 				if (subSuggestions != null && merSuggestions.size() > 0) {
 					for (Suggestion s : merSuggestions)
 						System.out.println("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+								+ s.getAffectedIndex());
+				}
+				if (subSuggestions != null && unmSuggestions.size() > 0) {
+					for (Suggestion s : unmSuggestions)
+						System.out.println("Unm: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
 								+ s.getAffectedIndex());
