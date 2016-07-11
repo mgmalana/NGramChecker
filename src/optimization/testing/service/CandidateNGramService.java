@@ -121,9 +121,11 @@ public class CandidateNGramService {
 		for (int i = 0; i < ngramSize - 1; i++) {
 			StringBuilder posPattern = new StringBuilder();
 			for (int j = 0; j < ngramSize; j++) {
-				if (i == j)
-					posPattern.append("% ");
-				else if (j >= i + 2 || j < i) {
+				if (i == j) {
+					posPattern.append("%");
+					if (j < ngramSize - 2)
+						posPattern.append(" ");
+				} else if (j >= i + 2 || j < i) {
 					posPattern.append(posTags[j]);
 					if (j < ngramSize - 1)
 						posPattern.append(" ");

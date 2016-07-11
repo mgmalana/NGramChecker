@@ -38,6 +38,25 @@ public class InsertionService {
 	}
 
 	private static Suggestion computeInsertionEditDistance(Input input, HybridNGram h) throws SQLException {
+		int insertionIndex = 0;
+		int midSize = input.getNgramSize() / 2;
+		if (input.getNgramSize() % 2 != 0)
+			midSize = input.getNgramSize() / 2 + 1;
+		for (int i = 0; i < midSize; i++) {
+			if (!input.getPos()[i].equals(h.getPosTags()[i])) {
+				insertionIndex = i;
+				break;
+			} else if (!input.getPos()[input.getNgramSize() - 1 - i]
+					.equals(h.getPosTags()[h.getPosTags().length - 1 - i])) {
+				insertionIndex = h.getPosTags().length - 1 - i;
+				break;
+			}
+		}
+		// System.out.println(ArrayToStringConverter.convert(input.getPos()) + "
+		// | "
+		// + ArrayToStringConverter.convert(h.getPosTags()) + " | " +
+		// insertionIndex);
+
 		for (int i = 0; i < input.getNgramSize(); i++) {
 			boolean isEqualPOS = h.getPosTags()[i].equalsIgnoreCase(input.getPos()[i]);
 			if (!isEqualPOS) {

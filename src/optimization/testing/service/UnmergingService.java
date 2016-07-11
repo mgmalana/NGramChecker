@@ -20,7 +20,6 @@ public class UnmergingService {
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
-		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeUnmergingEditDistance(input, h);
 			if (s != null)
@@ -40,7 +39,7 @@ public class UnmergingService {
 				break;
 			} else if (!input.getPos()[input.getNgramSize() - 1 - i]
 					.equals(h.getPosTags()[h.getPosTags().length - 1 - i])) {
-				unmergingIndex = input.getNgramSize() - 2 - i;
+				unmergingIndex = input.getNgramSize() - 1 - i;
 				break;
 			}
 		}

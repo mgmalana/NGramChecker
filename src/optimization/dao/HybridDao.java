@@ -93,6 +93,7 @@ public class HybridDao {
 			if (i < posPatterns.size() - 1)
 				s.append(" OR ");
 		}
+		// System.out.println(s.toString());
 		PreparedStatement ps = conn.prepareStatement(s.toString());
 		ResultSet rs = ps.executeQuery();
 		while (rs.next()) {

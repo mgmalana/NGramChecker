@@ -67,7 +67,7 @@ public class WordPOSLemmaMapDao {
 
 	public List<String> getWordsGivenPosID(int posID) throws SQLException {
 		conn = DatabaseConnector.getConnection();
-		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? ORDER BY frequency";
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? ORDER BY frequency DESC";
 		PreparedStatement ps = conn.prepareStatement(selectQuery);
 		ps.setInt(1, posID);
 		ResultSet rs = ps.executeQuery();
@@ -92,5 +92,23 @@ public class WordPOSLemmaMapDao {
 		}
 		conn.close();
 		return words;
+	}
+
+	public String getEqualWordMapping(String word1, String word2, int posID) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE (LOWER(word) = LOWER(?) OR LOWER(word) = LOWER(?) ) AND posID = ?";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setString(1, word1);
+		ps.setString(2, word2);
+		ps.setInt(3, posID);
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			String equalWord = rs.getString(1);
+			conn.close();
+			return equalWord;
+		}
+		conn.close();
+		return null;
+
 	}
 }

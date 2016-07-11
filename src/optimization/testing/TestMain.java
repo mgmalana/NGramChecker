@@ -23,7 +23,7 @@ public class TestMain {
 	static SubstitutionService subService;
 
 	public static void main(String[] args) throws IOException, SQLException {
-		Input testError = testErrorsProvider.getTestErrors().get(6); // 0 or 50
+		Input testError = testErrorsProvider.getTestErrors().get(0); // 0 or 50
 		checkGrammar(testError);
 	}
 

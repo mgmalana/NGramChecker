@@ -20,7 +20,6 @@ public class MergingService {
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
-		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeMergingEditDistance(input, h);
 			if (s != null)
@@ -46,14 +45,17 @@ public class MergingService {
 			}
 		}
 
-		List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[mergingIndex]);
-		for (String wordGivenPOS : wordsGivenPOS) {
-			if (isEqualWhenMerged(input.getWords()[mergingIndex], input.getWords()[mergingIndex + 1], wordGivenPOS)) {
-				String[] tokenSuggestions = { wordGivenPOS };
-				return new Suggestion(SuggestionType.MERGING, tokenSuggestions, h.getIsHybrid()[mergingIndex],
-						h.getPosTags()[mergingIndex], mergingIndex, Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED,
-						h.getBaseNGramFrequency());
-			}
+		String concatNoSpace = input.getWords()[mergingIndex].toLowerCase()
+				+ input.getWords()[mergingIndex + 1].toLowerCase();
+		String concatWithHyphen = input.getWords()[mergingIndex].toLowerCase() + "-"
+				+ input.getWords()[mergingIndex + 1].toLowerCase();
+		String equalWordMapping = wplmDao.getEqualWordMapping(concatNoSpace, concatWithHyphen,
+				h.getPosIDs()[mergingIndex]);
+		if (equalWordMapping != null) {
+			String[] tokenSuggestions = { equalWordMapping };
+			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, h.getIsHybrid()[mergingIndex],
+					h.getPosTags()[mergingIndex], mergingIndex, Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED,
+					h.getBaseNGramFrequency());
 		}
 		return null;
 	}

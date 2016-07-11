@@ -1,3 +1,3 @@
-Words: inayos nalang ang 
-POS: VBTS ? DTC
-Lemmas: inayos nalang ang 3
+Words: kikumpara ang babae 
+POS: ? DTC NNC
+Lemmas: kumpara ang babae 3

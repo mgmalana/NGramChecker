@@ -48,17 +48,6 @@ public class SubstitutionService {
 	private static Suggestion computeSubstitutionEditDistance(Input input, HybridNGram h) throws SQLException {
 		double editDistance = 0;
 		Suggestion suggestion = null;
-		// System.out.println("Input Words: " +
-		// ArrayToStringConverter.convert(input.getWords()));
-		// System.out.println("Input POS: " +
-		// ArrayToStringConverter.convert(input.getPos()));
-		// System.out.println("Input Lemmas: " +
-		// ArrayToStringConverter.convert(input.getLemmas()));
-		// System.out.println("Hybrid POS Tag: " +
-		// ArrayToStringConverter.convert(h.getPosTags()));
-		// System.out.println("IsHybrid: " +
-		// ArrayToStringConverter.convert(h.getIsHybrid()));
-		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		for (int i = 0; i < input.getNgramSize(); i++) {
 			if (editDistance > Constants.EDIT_DISTANCE_THRESHOLD) {
 				return null;
@@ -151,7 +140,9 @@ public class SubstitutionService {
 
 		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
 
-		if (distance <= 1 && input.length() <= 4)
+		if (input.length() <= 3)
+			return false;
+		else if (distance <= 1 && input.length() <= 4)
 			return true;
 		else if (distance <= 2 && input.length() > 4 && input.length() <= 12)
 			return true;
