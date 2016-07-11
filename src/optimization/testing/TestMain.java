@@ -62,10 +62,7 @@ public class TestMain {
 			Input subInput = new Input(wArr, pArr, lArr, ngramSize);
 			List<Suggestion> suggestions = new ArrayList<>();
 			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, ngramSize);
-			List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
-			List<Suggestion> delSuggestions = DeletionService.performTask(subInput, ngramSize);
-			List<Suggestion> merSuggestions = MergingService.performTask(subInput, ngramSize);
-			List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, ngramSize);
+
 			if (subSuggestions == null) // ngram is grammatically correct
 				System.out.println("Grammatically Correct");
 			else {
@@ -76,41 +73,44 @@ public class TestMain {
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
 								+ s.getAffectedIndex());
 				}
-				if (subSuggestions != null && insSuggestions.size() > 0) {
+				if (subSuggestions != null) {
+					List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
 					for (Suggestion s : insSuggestions)
 						System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
 								+ s.getAffectedIndex());
-				}
-				if (subSuggestions != null && delSuggestions.size() > 0) {
+
+					List<Suggestion> delSuggestions = DeletionService.performTask(subInput, ngramSize);
 					for (Suggestion s : delSuggestions)
 						System.out.println("Del: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index:"
 								+ s.getAffectedIndex());
-				}
-				if (subSuggestions != null && merSuggestions.size() > 0) {
+
+					List<Suggestion> merSuggestions = MergingService.performTask(subInput, ngramSize);
 					for (Suggestion s : merSuggestions)
 						System.out.println("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
 								+ s.getAffectedIndex());
-				}
-				if (subSuggestions != null && unmSuggestions.size() > 0) {
+
+					List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, ngramSize);
 					for (Suggestion s : unmSuggestions)
 						System.out.println("Unm: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "
 								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
 								+ s.getAffectedIndex());
+
+					if (subSuggestions.size() == 0 && insSuggestions.size() == 0 && delSuggestions.size() == 0
+							&& merSuggestions.size() == 0) {
+						System.out.println("Recurse to " + (ngramSize - 1));
+						suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
+						if (suggestions != null)
+							allSuggestions.addAll(suggestions);
+					}
 				}
-				if (subSuggestions != null && subSuggestions.size() == 0 && insSuggestions.size() == 0
-						&& delSuggestions.size() == 0 && merSuggestions.size() == 0) {
-					System.out.println("Recurse to " + (ngramSize - 1));
-					suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
-					if (suggestions != null)
-						allSuggestions.addAll(suggestions);
-				}
+
 			}
 		}
 
