@@ -67,9 +67,41 @@ public class WordPOSLemmaMapDao {
 
 	public List<String> getWordsGivenPosID(int posID) throws SQLException {
 		conn = DatabaseConnector.getConnection();
-		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? ORDER BY frequency DESC";
+		String selectQuery = "SELECT DISTINCT(word) FROM wordposlemmamap WHERE posID = ? ORDER BY frequency DESC";
 		PreparedStatement ps = conn.prepareStatement(selectQuery);
 		ps.setInt(1, posID);
+		ResultSet rs = ps.executeQuery();
+		List<String> words = new ArrayList<>();
+		while (rs.next()) {
+			words.add(rs.getString(1));
+		}
+		conn.close();
+		return words;
+	}
+
+	public List<String> getWordsGivenPosIDGivenPrefix(int posID, String prefix, int maxLength) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? AND lower(word) LIKE ? AND char_length(word) <= ? ORDER BY frequency DESC";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setInt(1, posID);
+		ps.setString(2, prefix.toLowerCase() + "%");
+		ps.setInt(3, maxLength);
+		ResultSet rs = ps.executeQuery();
+		List<String> words = new ArrayList<>();
+		while (rs.next()) {
+			words.add(rs.getString(1));
+		}
+		conn.close();
+		return words;
+	}
+
+	public List<String> getWordsGivenPosIDGivenSuffix(int posID, String suffix, int maxLength) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT word FROM wordposlemmamap WHERE posID = ? AND lower(word) LIKE ? AND char_length(word) <= ? ORDER BY frequency DESC";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setInt(1, posID);
+		ps.setString(2, "%" + suffix.toLowerCase());
+		ps.setInt(3, maxLength);
 		ResultSet rs = ps.executeQuery();
 		List<String> words = new ArrayList<>();
 		while (rs.next()) {

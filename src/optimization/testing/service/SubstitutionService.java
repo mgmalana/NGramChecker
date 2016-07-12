@@ -56,18 +56,23 @@ public class SubstitutionService {
 			if (isEqualPOS && h.getIsHybrid()[i] == true)
 				;
 			else if (isEqualPOS && h.getIsHybrid()[i] == false) {
-				if (input.getWords()[i].equals(h.getNonHybridWords()[i]))
+				if (input.getWords()[i].equalsIgnoreCase(h.getNonHybridWords()[i]))
 					;
-				else {
+				else if (withinSpellingEditDistance(input.getWords()[i], h.getNonHybridWords()[i])) {
+					editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
+					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
+					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
+							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+				} else {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_SAME_POS;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
 							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
 				}
-			} else {
+			} else if (h.getIsHybrid()[i] == true) {
 				List<String> wordsWithSameLemmaAndPOS = wplmDao.getWordMappingWithLemmaAndPOS(input.getLemmas()[i],
 						h.getPosIDs()[i]);
-				if (h.getIsHybrid()[i] == true && wordsWithSameLemmaAndPOS.size() > 0) {
+				if (wordsWithSameLemmaAndPOS.size() > 0) {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_FORM;
 					String[] tokenSuggestions = wordsWithSameLemmaAndPOS
 							.toArray(new String[wordsWithSameLemmaAndPOS.size()]);
@@ -116,7 +121,8 @@ public class SubstitutionService {
 				// System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
 				boolean isEqual = true;
 				for (int i = 0; i < ngramSize; i++) {
-					if (h.getIsHybrid()[i] == false && !input.getWords()[i].equals(h.getNonHybridWords()[i])) {
+					if (h.getIsHybrid()[i] == false
+							&& !input.getWords()[i].equalsIgnoreCase(h.getNonHybridWords()[i])) {
 						isEqual = false;
 						break;
 					}
@@ -135,7 +141,7 @@ public class SubstitutionService {
 
 		corpusWord = corpusWord.toLowerCase();
 		input = input.toLowerCase();
-		if (input.equals(corpusWord))
+		if (input.equalsIgnoreCase(corpusWord))
 			return false;
 
 		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);

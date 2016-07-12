@@ -52,8 +52,9 @@ public class CandidateNGramService {
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
 		long endTime = System.currentTimeMillis();
-		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
-				+ hybridNGrams.size());
+		// System.out.println("New Candidate Ngram Fetch Speed: " + (endTime -
+		// startTime) + " | Number of Candidates: "
+		// + hybridNGrams.size());
 		return hybridNGrams;
 	}
 
@@ -78,8 +79,9 @@ public class CandidateNGramService {
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
 		long endTime = System.currentTimeMillis();
-		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
-				+ hybridNGrams.size());
+		// System.out.println("New Candidate Ngram Fetch Speed: " + (endTime -
+		// startTime) + " | Number of Candidates: "
+		// + hybridNGrams.size());
 		return hybridNGrams;
 	}
 
@@ -105,8 +107,9 @@ public class CandidateNGramService {
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);
 		long endTime = System.currentTimeMillis();
-		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
-				+ hybridNGrams.size());
+		// System.out.println("New Candidate Ngram Fetch Speed: " + (endTime -
+		// startTime) + " | Number of Candidates: "
+		// + hybridNGrams.size());
 		return hybridNGrams;
 	}
 
@@ -138,8 +141,9 @@ public class CandidateNGramService {
 		// for (HybridNGram h : hybridNGrams)
 		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		long endTime = System.currentTimeMillis();
-		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
-				+ hybridNGrams.size());
+		// System.out.println("New Candidate Ngram Fetch Speed: " + (endTime -
+		// startTime) + " | Number of Candidates: "
+		// + hybridNGrams.size());
 		return hybridNGrams;
 	}
 
@@ -167,8 +171,9 @@ public class CandidateNGramService {
 		// for (HybridNGram h : hybridNGrams)
 		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		long endTime = System.currentTimeMillis();
-		System.out.println("New Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates: "
-				+ hybridNGrams.size());
+		// System.out.println("New Candidate Ngram Fetch Speed: " + (endTime -
+		// startTime) + " | Number of Candidates: "
+		// + hybridNGrams.size());
 		return hybridNGrams;
 	}
 

@@ -43,10 +43,20 @@ public class UnmergingService {
 				break;
 			}
 		}
-		List<String> wordsGivenPOSLeft = wplmDao.getWordsGivenPosID(h.getPosIDs()[unmergingIndex]);
-		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosID(h.getPosIDs()[unmergingIndex + 1]);
+		String wordToUnmerge = input.getWords()[unmergingIndex];
+
+		if (wordToUnmerge.length() < 2)
+			return null;
+
+		List<String> wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
+				wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
+		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex],
+				wordToUnmerge.substring(wordToUnmerge.length() - 2, wordToUnmerge.length()),
+				wordToUnmerge.length() - 1);
 		for (String wordGivenPOSLeft : wordsGivenPOSLeft) {
 			for (String wordGivenPOSRight : wordsGivenPOSRight) {
+				// System.out.println(wordGivenPOSLeft + " " + wordGivenPOSRight
+				// + " " + wordToUnmerge);
 				if (isEqualToUnmerge(input.getWords()[unmergingIndex], wordGivenPOSLeft, wordGivenPOSRight)) {
 					String[] tokenSuggestions = { wordGivenPOSLeft, wordGivenPOSRight };
 					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, h.getIsHybrid()[unmergingIndex],
