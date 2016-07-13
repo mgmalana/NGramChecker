@@ -3,6 +3,8 @@ package optimization.testing.service;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import optimization.dao.WordPOSLemmaMapDao;
@@ -32,22 +34,42 @@ public class SubstitutionService {
 			for (HybridNGram h : candidatesHGrams) {
 				Suggestion s = computeSubstitutionEditDistance(input, h);
 				if (s != null) {
-					// if (s.getEditDistance() < min) {
-					// suggestions = new ArrayList<>();
-					// min = s.getEditDistance();
-					// }
-					// if (s.getEditDistance() <= min)
 					suggestions.add(s);
 				}
 
 			}
+			sortSuggestions(suggestions);
 			return suggestions;
 		}
+	}
+
+	private static List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
+		if (suggestions.size() > 0) {
+			Collections.sort(suggestions, new Comparator<Suggestion>() {
+				@Override
+				public int compare(final Suggestion object1, final Suggestion object2) {
+					return object1.getEditDistance() < object2.getEditDistance() ? -1
+							: object1.getEditDistance() > object2
+									.getEditDistance()
+											? 1
+											: (object1.getEditDistance() == object2.getEditDistance()
+													&& object1.getFrequency() > object2.getFrequency())
+															? -1
+															: (object1.getEditDistance() == object2.getEditDistance()
+																	&& object1.getFrequency() < object2.getFrequency())
+																			? 1 : 0;
+				}
+			});
+		}
+		return suggestions;
 	}
 
 	private static Suggestion computeSubstitutionEditDistance(Input input, HybridNGram h) throws SQLException {
 		double editDistance = 0;
 		Suggestion suggestion = null;
+		// System.out.println(
+		// ArrayToStringConverter.convert(h.getPosTags()) + " " +
+		// ArrayToStringConverter.convert(h.getIsHybrid()));
 		for (int i = 0; i < input.getNgramSize(); i++) {
 			if (editDistance > Constants.EDIT_DISTANCE_THRESHOLD) {
 				return null;
@@ -69,10 +91,10 @@ public class SubstitutionService {
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
 							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
 				}
-			} else if (h.getIsHybrid()[i] == true) {
+			} else {
 				List<String> wordsWithSameLemmaAndPOS = wplmDao.getWordMappingWithLemmaAndPOS(input.getLemmas()[i],
 						h.getPosIDs()[i]);
-				if (wordsWithSameLemmaAndPOS.size() > 0) {
+				if (h.getIsHybrid()[i] == true && wordsWithSameLemmaAndPOS.size() > 0) {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_FORM;
 					String[] tokenSuggestions = wordsWithSameLemmaAndPOS
 							.toArray(new String[wordsWithSameLemmaAndPOS.size()]);
@@ -96,7 +118,6 @@ public class SubstitutionService {
 				}
 			}
 		}
-
 		if (editDistance < Constants.EDIT_DISTANCE_THRESHOLD)
 			return suggestion;
 

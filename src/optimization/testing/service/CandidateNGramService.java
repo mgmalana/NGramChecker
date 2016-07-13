@@ -161,10 +161,11 @@ public class CandidateNGramService {
 				if (i == j)
 					posPattern.append("%");
 				else
-					posPattern.append(posTags[j]);
+					posPattern.append(posTags[j].replaceAll("_", "\\\\_"));
 				if (j < ngramSize - 1)
 					posPattern.append(" ");
 			}
+			// System.out.println(posPattern.toString());
 			posPatterns.add(posPattern.toString());
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);

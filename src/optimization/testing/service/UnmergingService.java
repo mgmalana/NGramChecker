@@ -29,6 +29,8 @@ public class UnmergingService {
 	}
 
 	private static Suggestion computeUnmergingEditDistance(Input input, HybridNGram h) throws SQLException {
+
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		int unmergingIndex = 0;
 		int midSize = input.getNgramSize() / 2;
 		if (input.getNgramSize() % 2 != 0)
@@ -50,7 +52,7 @@ public class UnmergingService {
 
 		List<String> wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
 				wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
-		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex],
+		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex + 1],
 				wordToUnmerge.substring(wordToUnmerge.length() - 2, wordToUnmerge.length()),
 				wordToUnmerge.length() - 1);
 		for (String wordGivenPOSLeft : wordsGivenPOSLeft) {
