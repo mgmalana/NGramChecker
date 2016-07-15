@@ -21,8 +21,8 @@ public class Constants {
 	public static String RESULTS_ALL = "results/all.txt";
 
 	public static int EDIT_DISTANCE_THRESHOLD = 1;
-	public static double EDIT_DISTANCE_SPELLING_ERROR = 0.55;
 	public static double EDIT_DISTANCE_WRONG_WORD_FORM = 0.6;
+	public static double EDIT_DISTANCE_SPELLING_ERROR = 0.65;
 	public static double EDIT_DISTANCE_INCORRECTLY_MERGED = 0.7;
 	public static double EDIT_DISTANCE_INCORRECTLY_UNMERGED = 0.7;
 	public static double EDIT_DISTANCE_WRONG_WORD_SAME_POS = 0.8;

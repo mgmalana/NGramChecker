@@ -7,7 +7,6 @@ isang lalaki							O 'Replace lalaki with JJD' was also suggested
 inayos na lang ang					O
 para makakuha ng						O
 nagsimula ang panahon					O
-Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0
 imaximize ang airship					O
 naglaan ng tulong						O IF the tag is ?, but if VBTS (just like a normal MA tag it), it is considered grammatically correct
 iskolar ang nag-aaral ng				O
@@ -29,6 +28,7 @@ sa mga matas na bahay
 tumakbo ang manok
 partido ng Nationalista ay nag-isa
 7/25 Mali sa Taas
+Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0
 ang pagtakbo ng mayor					O
 makita nang malinaw						O
 pera ng bayan							O
