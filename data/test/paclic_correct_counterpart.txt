@@ -34,7 +34,7 @@ makita nang malinaw						O
 pera ng bayan							O
 napapagod din ito						O
 nag-aaya rin siya						O
-nag-ipon ng pera para					O
+nag-ipon ng pera para_sa					O
 pagbangon sa kabila ng kahirapan		O
 sa kabila ng							O
 lalake , babae at transgenders			O

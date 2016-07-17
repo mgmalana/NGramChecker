@@ -1,0 +1,1 @@
+SELECT * FROM ngramchecker.fourgram_pos_frequency as a INNER JOIN ngramchecker.fourgram as b ON a.id = b.posID WHERE pos LIKE 'VBTS CCB NNC %'
