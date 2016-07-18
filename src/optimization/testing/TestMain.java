@@ -126,7 +126,8 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					List<Suggestion> merSuggestions = MergingService.performTask(subInput, ngramSize);
+					MergingService mergingService = new MergingService(subInput, ngramSize);
+					List<Suggestion> merSuggestions = mergingService.performTask();
 					endTime = System.currentTimeMillis();
 					System.out.println("Merging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Merging Elapsed: " + (endTime - startTime));

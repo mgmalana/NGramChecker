@@ -2,7 +2,9 @@ package optimization.testing.service;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import optimization.dao.WordPOSLemmaMapDao;
 import optimization.models.HybridNGram;
@@ -12,23 +14,35 @@ import util.Constants;
 import v4.models.SuggestionType;
 
 public class MergingService {
-	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
+	WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
 
-	public static List<Suggestion> performTask(Input input, int ngramSize) throws SQLException {
+	Set<Integer> hasMergeSuggestionAlready;
+
+	Input input;
+	int ngramSize;
+
+	public MergingService(Input input, int ngramSize) {
+		this.input = input;
+		this.ngramSize = ngramSize;
+		this.hasMergeSuggestionAlready = new LinkedHashSet<>();
+	}
+
+	public List<Suggestion> performTask() throws SQLException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService.getCandidateNGramsMergingPermutation(input.getPos(),
 				ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
 		for (HybridNGram h : candidatesHGrams) {
-			Suggestion s = computeMergingEditDistance(input, h);
+			Suggestion s = computeMergingEditDistance(h);
 			if (s != null)
 				suggestions.add(s);
 		}
 		return suggestions;
 	}
 
-	private static Suggestion computeMergingEditDistance(Input input, HybridNGram h) throws SQLException {
+	private Suggestion computeMergingEditDistance(HybridNGram h) throws SQLException {
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		int mergingIndex = 0;
 
 		int midSize = input.getNgramSize() / 2;
@@ -45,10 +59,25 @@ public class MergingService {
 			}
 		}
 
+		Suggestion sugg = getMergingSuggestion(h, mergingIndex);
+		if (sugg != null)
+			return sugg;
+		else if (mergingIndex - 1 >= 0 && input.getPos()[mergingIndex].equals(input.getPos()[mergingIndex - 1])) {
+			sugg = getMergingSuggestion(h, mergingIndex - 1);
+		}
+		return sugg;
+	}
+
+	private Suggestion getMergingSuggestion(HybridNGram h, int mergingIndex) throws SQLException {
+		if (hasMergeSuggestionAlready.contains(mergingIndex))
+			return null;
+		hasMergeSuggestionAlready.add(mergingIndex);
+
 		String concatNoSpace = input.getWords()[mergingIndex].toLowerCase()
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
 		String concatWithHyphen = input.getWords()[mergingIndex].toLowerCase() + "-"
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
+
 		String equalWordMapping = wplmDao.getEqualWordMapping(concatNoSpace, concatWithHyphen,
 				h.getPosIDs()[mergingIndex]);
 		if (equalWordMapping != null) {
@@ -57,10 +86,11 @@ public class MergingService {
 					h.getPosTags()[mergingIndex], mergingIndex, Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED,
 					h.getBaseNGramFrequency());
 		}
+
 		return null;
 	}
 
-	private static boolean isEqualWhenMerged(String inputLeft, String inputRight, String ruleWord) {
+	private boolean isEqualWhenMerged(String inputLeft, String inputRight, String ruleWord) {
 
 		inputLeft = inputLeft.toLowerCase();
 		inputRight = inputRight.toLowerCase();
