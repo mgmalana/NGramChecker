@@ -23,6 +23,10 @@ bahaghari iyon   						X Was not detected because the sequence 'NNC NNC' and 'NN
 pag-aayos ng  							O Was not suggested but 'pagkakaayos' was suggested.
 hinila niya 							X 1 Was considered grammatically correct because POS (PRS) was too generalized
 importanteng NNC na dapat
+na bahay ng mayayaman
+sa mga matas na bahay
+tumakbo ang manok
+partido ng Nationalista ay nag-isa
 7/25 Mali sa Taas
 Mayo 31 , 2016							O pero madami kaequal ng edit distance values na 1.0
 ang pagtakbo ng mayor					O
@@ -49,5 +53,6 @@ mataba ang pusa . 						O Unexpected that it was able to flag it as correct
 Siya ay masaya . 						X Because the sequence 'ay masaya' was not part of the training corpus. Because corpus mostly composed of complex sentences
 Nagluluto siya ng hapunan .				O Grammatically correct in trigram level
 Kinuha ko ito dito .					X Because the sequence 'ko ito'
+matalas na dila							O
 2/25 Mali
 80%

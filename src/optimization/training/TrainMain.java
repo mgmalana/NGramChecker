@@ -18,11 +18,11 @@ public class TrainMain {
 
 		NGramToHybridService nthService = new NGramToHybridService();
 		nthService.hybridizeRules80Percent(2);
-		nthService.hybridizeRules80Percent(3);
+		// nthService.hybridizeRules80Percent(3);
 		nthService.hybridizeRules80Percent(4);
-		// nthService.hybridizeRules80Percent(5);
-		// nthService.hybridizeRules80Percent(6);
-		// nthService.hybridizeRules80Percent(7);
+		nthService.hybridizeRules80Percent(5);
+		nthService.hybridizeRules80Percent(6);
+		nthService.hybridizeRules80Percent(7);
 
 		// Store N-Gram
 		// Call Clustering N-grams
