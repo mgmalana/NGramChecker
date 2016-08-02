@@ -30,6 +30,10 @@ public class NGramDao {
 		this.ngramIndexTable = ngramIndexTable;
 	}
 
+	public void closeConnection() throws SQLException {
+		conn.close();
+	}
+
 	public void clearDatabase() throws SQLException {
 		String query1 = "DELETE FROM " + ngramTable;
 		String query2 = "DELETE FROM " + ngramFrequencyTable;

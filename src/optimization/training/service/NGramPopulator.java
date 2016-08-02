@@ -110,6 +110,7 @@ class NGramPopulatorThread extends Thread {
 				}
 			}
 			System.out.println("Done");
+			ngramDao.closeConnection();
 		} catch (IOException | SQLException e)
 
 		{
