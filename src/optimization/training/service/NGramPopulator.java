@@ -109,7 +109,7 @@ class NGramPopulatorThread extends Thread {
 					}
 				}
 			}
-			System.out.println("Done");
+			System.out.println(ngramSize + " Done");
 			ngramDao.closeConnection();
 		} catch (IOException | SQLException e)
 

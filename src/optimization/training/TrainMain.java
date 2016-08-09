@@ -11,15 +11,15 @@ public class TrainMain {
 	public static void main(String[] args) throws SQLException, InterruptedException {
 
 		NGramPopulator ngramPopulator = new NGramPopulator();
-		ngramPopulator.populateNGrams();
+		// ngramPopulator.populateNGrams();
 
 		WordPOSLemmaMapService wplMapService = new WordPOSLemmaMapService();
 		// wplMapService.populate();
 
 		NGramToHybridService nthService = new NGramToHybridService();
-		// nthService.hybridizeRules80Percent(2);
-		// nthService.hybridizeRules80Percent(3);
-		// nthService.hybridizeRules80Percent(4);
+		nthService.hybridizeRules80Percent(2);
+		nthService.hybridizeRules80Percent(3);
+		nthService.hybridizeRules80Percent(4);
 		// nthService.hybridizeRules80Percent(5);
 		// nthService.hybridizeRules80Percent(6);
 		// nthService.hybridizeRules80Percent(7);
