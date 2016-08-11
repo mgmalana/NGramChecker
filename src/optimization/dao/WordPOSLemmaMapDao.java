@@ -143,4 +143,29 @@ public class WordPOSLemmaMapDao {
 		return null;
 
 	}
+
+	public List<String[]> tryUnmerge(int posIDLeft, int posIDRight, String wordToUnmerge) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		System.out.println(posIDLeft + " " + posIDRight + " " + wordToUnmerge);
+		String selectQuery = "SELECT a.word, b.word FROM ngramchecker.wordposlemmamap as a, ngramchecker.wordposlemmamap as b "
+				+ " where a.posID = ? and b.posID = ? and a.word!= '' and a.word != '%' and b.word != '' and b.word != '%' "
+				+ " and ? LIKE concat(lower(a.word), lower(b.word))";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setInt(1, posIDLeft);
+		ps.setInt(2, posIDRight);
+		ps.setString(3, wordToUnmerge);
+		List<String[]> unmergedWords = new ArrayList<>();
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			String[] arr = new String[2];
+			arr[0] = rs.getString(1);
+			arr[1] = rs.getString(2);
+			unmergedWords.add(arr);
+		}
+		conn.close();
+		if (unmergedWords.size() > 0)
+			return unmergedWords;
+		else
+			return null;
+	}
 }

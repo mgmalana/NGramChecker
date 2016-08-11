@@ -26,7 +26,7 @@ public class TestMain {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		for (int i = 0; i <= 55; i++) {
+		for (int i = 57; i <= 57; i++) {
 			Input testError = testErrorsProvider.getTestErrors().get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);

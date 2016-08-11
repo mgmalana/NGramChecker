@@ -20,6 +20,7 @@ public class UnmergingService {
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
+		System.out.println("Candidate N-gram Count: " + candidatesHGrams.size());
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeUnmergingEditDistance(input, h);
 			if (s != null)
@@ -49,7 +50,12 @@ public class UnmergingService {
 
 		if (wordToUnmerge.length() < 2)
 			return null;
-
+		// List<String[]> unmergedWords =
+		// wplmDao.tryUnmerge(h.getPosIDs()[unmergingIndex],
+		// h.getPosIDs()[unmergingIndex + 1], wordToUnmerge);
+		// if (unmergedWords != null)
+		// for (String[] s : unmergedWords)
+		// System.out.println(s[0] + " " + s[1]);
 		List<String> wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
 				wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
 		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex + 1],
