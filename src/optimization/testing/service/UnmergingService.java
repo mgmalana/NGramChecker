@@ -8,6 +8,7 @@ import optimization.dao.WordPOSLemmaMapDao;
 import optimization.models.HybridNGram;
 import optimization.models.Input;
 import optimization.models.Suggestion;
+import util.ArrayToStringConverter;
 import util.Constants;
 import v4.models.SuggestionType;
 
@@ -21,6 +22,7 @@ public class UnmergingService {
 		if (candidatesHGrams == null)
 			return suggestions;
 		System.out.println("Candidate N-gram Count: " + candidatesHGrams.size());
+
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeUnmergingEditDistance(input, h);
 			if (s != null)
@@ -31,7 +33,7 @@ public class UnmergingService {
 
 	private static Suggestion computeUnmergingEditDistance(Input input, HybridNGram h) throws SQLException {
 
-		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
+		System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		int unmergingIndex = 0;
 		int midSize = input.getNgramSize() / 2;
 		if (input.getNgramSize() % 2 != 0)

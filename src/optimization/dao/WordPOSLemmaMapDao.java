@@ -168,4 +168,5 @@ public class WordPOSLemmaMapDao {
 		else
 			return null;
 	}
+
 }
