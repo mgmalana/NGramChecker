@@ -1,5 +1,6 @@
 package optimization.testing;
 
+import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class TestMain {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		for (int i = 57; i <= 57; i++) {
+		for (int i = 19; i <= 19; i++) {
 			Input testError = testErrorsProvider.getTestErrors().get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
@@ -54,6 +55,20 @@ public class TestMain {
 		fm.writeToFile("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 	}
 
+	public String checkGrammarAPI(String[] words, String[] pos, String[] lemmas, int ngramSize)
+			throws IOException, SQLException {
+		Input input = new Input(words, pos, lemmas, words.length);
+		FileManager fm = new FileManager(Constants.RESULTS_ALL);
+		fm.createFile();
+		List<Suggestion> suggestions = checkGrammarRecursive(input, words.length, fm);
+		List<String> content = FileManager.readFile(new File(Constants.RESULTS_ALL));
+		StringBuilder sb = new StringBuilder();
+		for (String c : content) {
+			sb.append(c + "\n");
+		}
+		return sb.toString();
+	}
+
 	private static List<Suggestion> checkGrammarRecursive(Input input, int ngramSize, FileManager fm)
 			throws SQLException, IOException {
 
@@ -72,7 +87,7 @@ public class TestMain {
 			List<Suggestion> suggestions = new ArrayList<>();
 
 			long startTime = System.currentTimeMillis();
-			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, ngramSize);
+			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, i, ngramSize);
 			long endTime = System.currentTimeMillis();
 			System.out.println("Substitution Elapsed: " + (endTime - startTime));
 			fm.writeToFile("Substitution Elapsed: " + (endTime - startTime));
@@ -94,7 +109,7 @@ public class TestMain {
 				}
 				if (subSuggestions != null) {
 					startTime = System.currentTimeMillis();
-					List<Suggestion> insSuggestions = InsertionService.performTask(subInput, ngramSize);
+					List<Suggestion> insSuggestions = InsertionService.performTask(subInput, i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Insertion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Insertion Elapsed: " + (endTime - startTime));
@@ -110,7 +125,7 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					List<Suggestion> delSuggestions = DeletionService.performTask(subInput, ngramSize);
+					List<Suggestion> delSuggestions = DeletionService.performTask(subInput, i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Deletion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Deletion Elapsed: " + (endTime - startTime));
@@ -126,7 +141,7 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					MergingService mergingService = new MergingService(subInput, ngramSize);
+					MergingService mergingService = new MergingService(subInput, i, ngramSize);
 					List<Suggestion> merSuggestions = mergingService.performTask();
 					endTime = System.currentTimeMillis();
 					System.out.println("Merging Elapsed: " + (endTime - startTime));
@@ -143,7 +158,7 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, ngramSize);
+					List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Unmerging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Unmerging Elapsed: " + (endTime - startTime));

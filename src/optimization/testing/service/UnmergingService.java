@@ -8,14 +8,13 @@ import optimization.dao.WordPOSLemmaMapDao;
 import optimization.models.HybridNGram;
 import optimization.models.Input;
 import optimization.models.Suggestion;
-import util.ArrayToStringConverter;
 import util.Constants;
 import v4.models.SuggestionType;
 
 public class UnmergingService {
 	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
 
-	public static List<Suggestion> performTask(Input input, int ngramSize) throws SQLException {
+	public static List<Suggestion> performTask(Input input, int indexOffset, int ngramSize) throws SQLException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService
 				.getCandidateNGramsUnmergingPermutation(input.getPos(), ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
@@ -24,16 +23,17 @@ public class UnmergingService {
 		System.out.println("Candidate N-gram Count: " + candidatesHGrams.size());
 
 		for (HybridNGram h : candidatesHGrams) {
-			Suggestion s = computeUnmergingEditDistance(input, h);
+			Suggestion s = computeUnmergingEditDistance(input, indexOffset, h);
 			if (s != null)
 				suggestions.add(s);
 		}
 		return suggestions;
 	}
 
-	private static Suggestion computeUnmergingEditDistance(Input input, HybridNGram h) throws SQLException {
+	private static Suggestion computeUnmergingEditDistance(Input input, int indexOffset, HybridNGram h)
+			throws SQLException {
 
-		System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
+		// System.out.println(ArrayToStringConverter.convert(h.getPosTags()));
 		int unmergingIndex = 0;
 		int midSize = input.getNgramSize() / 2;
 		if (input.getNgramSize() % 2 != 0)
@@ -70,7 +70,7 @@ public class UnmergingService {
 				if (isEqualToUnmerge(input.getWords()[unmergingIndex], wordGivenPOSLeft, wordGivenPOSRight)) {
 					String[] tokenSuggestions = { wordGivenPOSLeft, wordGivenPOSRight };
 					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, h.getIsHybrid()[unmergingIndex],
-							h.getPosTags()[unmergingIndex], unmergingIndex,
+							h.getPosTags()[unmergingIndex], indexOffset + unmergingIndex,
 							Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED, h.getBaseNGramFrequency());
 				}
 			}

@@ -19,9 +19,10 @@ public class MergingService {
 	Set<Integer> hasMergeSuggestionAlready;
 
 	Input input;
+	int indexOffset;
 	int ngramSize;
 
-	public MergingService(Input input, int ngramSize) {
+	public MergingService(Input input, int indexOffset, int ngramSize) {
 		this.input = input;
 		this.ngramSize = ngramSize;
 		this.hasMergeSuggestionAlready = new LinkedHashSet<>();
@@ -64,8 +65,13 @@ public class MergingService {
 			return sugg;
 		else if (mergingIndex - 1 >= 0 && input.getPos()[mergingIndex].equals(input.getPos()[mergingIndex - 1])) {
 			sugg = getMergingSuggestion(h, mergingIndex - 1);
+			return sugg;
+		}
+		if (mergingIndex - 1 >= 0) {
+			return getMergingSuggestion(h, mergingIndex - 1);
 		}
 		return sugg;
+
 	}
 
 	private Suggestion getMergingSuggestion(HybridNGram h, int mergingIndex) throws SQLException {
@@ -83,8 +89,8 @@ public class MergingService {
 		if (equalWordMapping != null) {
 			String[] tokenSuggestions = { equalWordMapping };
 			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, h.getIsHybrid()[mergingIndex],
-					h.getPosTags()[mergingIndex], mergingIndex, Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED,
-					h.getBaseNGramFrequency());
+					h.getPosTags()[mergingIndex], indexOffset + mergingIndex,
+					Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED, h.getBaseNGramFrequency());
 		}
 
 		return null;

@@ -14,7 +14,7 @@ import v4.models.SuggestionType;
 public class InsertionService {
 	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
 
-	public static List<Suggestion> performTask(Input input, int ngramSize) throws SQLException {
+	public static List<Suggestion> performTask(Input input, int indexOffset, int ngramSize) throws SQLException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService
 				.getCandidateNGramsInsertionPermutation(input.getPos(), ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
@@ -22,7 +22,7 @@ public class InsertionService {
 			return suggestions;
 		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
-			Suggestion s = computeInsertionEditDistance(input, h);
+			Suggestion s = computeInsertionEditDistance(input, indexOffset, h);
 
 			if (s != null) {
 				// if (s.getFrequency() > highestBaseFreq) {
@@ -37,7 +37,8 @@ public class InsertionService {
 		return suggestions;
 	}
 
-	private static Suggestion computeInsertionEditDistance(Input input, HybridNGram h) throws SQLException {
+	private static Suggestion computeInsertionEditDistance(Input input, int indexOffset, HybridNGram h)
+			throws SQLException {
 		int insertionIndex = 0;
 		int midSize = input.getNgramSize() / 2;
 		if (input.getNgramSize() % 2 != 0)
@@ -63,8 +64,8 @@ public class InsertionService {
 				List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
 				String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 				double editDistance = Constants.EDIT_DISTANCE_MISSING_WORD;
-				return new Suggestion(SuggestionType.INSERTION, tokenSuggestions, true, h.getPosTags()[i], i,
-						editDistance, h.getBaseNGramFrequency());
+				return new Suggestion(SuggestionType.INSERTION, tokenSuggestions, true, h.getPosTags()[i],
+						indexOffset + i, editDistance, h.getBaseNGramFrequency());
 			}
 		}
 		return null;

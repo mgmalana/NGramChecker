@@ -19,7 +19,7 @@ public class SubstitutionService {
 
 	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
 
-	public static List<Suggestion> performTask(Input input, int ngramSize) throws SQLException {
+	public static List<Suggestion> performTask(Input input, int indexOffset, int ngramSize) throws SQLException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService
 				.getCandidateNGramsSubstitutionPermutation(input.getPos(), ngramSize);
 		// check if may ka-equal na ito. If meron, stop and return null;
@@ -32,7 +32,7 @@ public class SubstitutionService {
 		else {
 			double min = Integer.MAX_VALUE;
 			for (HybridNGram h : candidatesHGrams) {
-				Suggestion s = computeSubstitutionEditDistance(input, h);
+				Suggestion s = computeSubstitutionEditDistance(input, indexOffset, h);
 				if (s != null) {
 					suggestions.add(s);
 				}
@@ -64,7 +64,8 @@ public class SubstitutionService {
 		return suggestions;
 	}
 
-	private static Suggestion computeSubstitutionEditDistance(Input input, HybridNGram h) throws SQLException {
+	private static Suggestion computeSubstitutionEditDistance(Input input, int indexOffset, HybridNGram h)
+			throws SQLException {
 		double editDistance = 0;
 		Suggestion suggestion = null;
 		// System.out.println(
@@ -75,21 +76,21 @@ public class SubstitutionService {
 				return null;
 			}
 			boolean isEqualPOS = h.getPosTags()[i].equalsIgnoreCase(input.getPos()[i]);
-			if (isEqualPOS && h.getIsHybrid()[i] == true)
+			if (isEqualPOS && h.getIsHybrid()[i] == true) {
 				;
-			else if (isEqualPOS && h.getIsHybrid()[i] == false) {
+			} else if (isEqualPOS && h.getIsHybrid()[i] == false) {
 				if (input.getWords()[i].equalsIgnoreCase(h.getNonHybridWords()[i]))
 					;
 				else if (withinSpellingEditDistance(input.getWords()[i], h.getNonHybridWords()[i])) {
 					editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 				} else {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_SAME_POS;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 				}
 			} else {
 				List<String> wordsWithSameLemmaAndPOS = wplmDao.getWordMappingWithLemmaAndPOS(input.getLemmas()[i],
@@ -99,7 +100,7 @@ public class SubstitutionService {
 					String[] tokenSuggestions = wordsWithSameLemmaAndPOS
 							.toArray(new String[wordsWithSameLemmaAndPOS.size()]);
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 
 				} else {
 					List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
@@ -108,12 +109,12 @@ public class SubstitutionService {
 						editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
 						String[] tokenSuggestions = similarWords.toArray(new String[similarWords.size()]);
 						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-								h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 					} else {
 						editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_DIFFERENT_POS;
 						String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-								h.getPosTags()[i], i, editDistance, h.getBaseNGramFrequency());
+								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 					}
 				}
 			}

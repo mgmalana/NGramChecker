@@ -1,0 +1,20 @@
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+INCORRECT - Should be 'pamilyar' Some unknown words would be tagged as NNC (common noun) by the POS tagger. This will lead to detection errors.
+CORRECT
+INCORRECT - System has no way to recognize that pag-kain is actually incorrect because it was tagged with NNC and the resulting sequence - pag-kain being generalized to the POS level (NNC) - is grammatically-correct. Ideally, recognition of pag-kain as incorrect should have been done by morphological analyzer.
+CORRECT
+CORRECT
+INCORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT
+CORRECT

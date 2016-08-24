@@ -5,9 +5,9 @@ public class Constants {
 	public static String TRAINING_SENTENCES = "data/train/train_sentences.txt";
 	public static String TRAINING_LEMMAS = "data/train/train_lemmas.txt";
 	public static String TRAINING_TAGS = "data/train/train_tags.txt";
-	public static String TEST_SENTENCES = "data/test/thesis_test_sentences.txt";
-	public static String TEST_LEMMAS = "data/test/thesis_test_lemmas.txt";
-	public static String TEST_TAGS = "data/test/thesis_test_tags.txt";
+	public static String TEST_SENTENCES = "data/test/thesis_2_test_sentences.txt";
+	public static String TEST_LEMMAS = "data/test/thesis_2_test_lemmas.txt";
+	public static String TEST_TAGS = "data/test/thesis_2_test_tags.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";

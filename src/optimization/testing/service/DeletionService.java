@@ -14,7 +14,7 @@ import v4.models.SuggestionType;
 public class DeletionService {
 	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
 
-	public static List<Suggestion> performTask(Input input, int ngramSize) throws SQLException {
+	public static List<Suggestion> performTask(Input input, int indexOffset, int ngramSize) throws SQLException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService.getCandidateNGramsDeletionPermutation(input.getPos(),
 				ngramSize);
 		List<Suggestion> suggestions = new ArrayList<>();
@@ -22,7 +22,7 @@ public class DeletionService {
 			return suggestions;
 		int highestBaseFreq = 0;
 		for (HybridNGram h : candidatesHGrams) {
-			Suggestion s = computeDeletionEditDistance(input, h);
+			Suggestion s = computeDeletionEditDistance(input, indexOffset, h);
 
 			if (s != null) {
 				// if (s.getFrequency() > highestBaseFreq) {
@@ -37,7 +37,8 @@ public class DeletionService {
 		return suggestions;
 	}
 
-	private static Suggestion computeDeletionEditDistance(Input input, HybridNGram h) throws SQLException {
+	private static Suggestion computeDeletionEditDistance(Input input, int indexOffset, HybridNGram h)
+			throws SQLException {
 		// System.out.println("Input Words: " +
 		// ArrayToStringConverter.convert(input.getWords()));
 		// System.out.println("Input POS: " +
@@ -56,8 +57,8 @@ public class DeletionService {
 				List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
 				String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 				double editDistance = Constants.EDIT_DISTANCE_UNNECESSARY_WORD;
-				return new Suggestion(SuggestionType.DELETION, null, true, input.getPos()[i], i, editDistance,
-						h.getBaseNGramFrequency());
+				return new Suggestion(SuggestionType.DELETION, null, true, input.getPos()[i], indexOffset + i,
+						editDistance, h.getBaseNGramFrequency());
 			}
 		}
 		return null;

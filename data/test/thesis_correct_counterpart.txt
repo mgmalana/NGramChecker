@@ -1,4 +1,4 @@
-kikumpara ang babae                     O
+kinukumpara ang babae                     O
 sabi ng pulis na						O pero sinuggest din to replace 'nang' with 'ang' (ex. mabawasan ang populasyon na)
 para_sa bata                            O
 tinayo pa rin ang Torre_de_Manila       O 'Delete parin' was suggested in 4-gram level and 'Unmerge parin' only at 3-gram level
