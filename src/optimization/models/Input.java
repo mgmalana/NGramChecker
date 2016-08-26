@@ -1,6 +1,8 @@
 package optimization.models;
 
-public class Input {
+import java.io.Serializable;
+
+public class Input implements Serializable {
 
 	String[] words;
 	String[] lemmas;
@@ -31,6 +33,10 @@ public class Input {
 		this.words = words;
 	}
 
+	public void setWord(String word, int index) {
+		this.words[index] = word;
+	}
+
 	public String[] getLemmas() {
 		return lemmas;
 	}
@@ -45,6 +51,10 @@ public class Input {
 
 	public void setPos(String[] pos) {
 		this.pos = pos;
+	}
+
+	public void setPos(String pos, int index) {
+		this.pos[index] = pos;
 	}
 
 	public int getNgramSize() {

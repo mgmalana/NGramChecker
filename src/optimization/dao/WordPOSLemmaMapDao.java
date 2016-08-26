@@ -65,6 +65,19 @@ public class WordPOSLemmaMapDao {
 		return false;
 	}
 
+	public List<WordLemmaPOSMap> getWords() throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT DISTINCT(word), pos FROM wordposlemmamap as a INNER JOIN pos as b ON a.posID = b.id";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ResultSet rs = ps.executeQuery();
+		List<WordLemmaPOSMap> words = new ArrayList<>();
+		while (rs.next()) {
+			words.add(new WordLemmaPOSMap(rs.getString(1), rs.getString(2)));
+		}
+		conn.close();
+		return words;
+	}
+
 	public List<String> getWordsGivenPosID(int posID) throws SQLException {
 		conn = DatabaseConnector.getConnection();
 		String selectQuery = "SELECT DISTINCT(word) FROM wordposlemmamap WHERE posID = ? ORDER BY frequency DESC";

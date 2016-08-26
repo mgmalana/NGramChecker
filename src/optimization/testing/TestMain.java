@@ -23,11 +23,13 @@ public class TestMain {
 	static TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
 	static SubstitutionService subService;
 
-	public static void main(String[] args) throws IOException, SQLException {
+	public static void main(String[] args) throws IOException, SQLException, CloneNotSupportedException {
+		subService = new SubstitutionService();
+
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		for (int i = 19; i <= 19; i++) {
+		for (int i = 13; i <= 13; i++) {
 			Input testError = testErrorsProvider.getTestErrors().get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
@@ -39,7 +41,8 @@ public class TestMain {
 		fm.close();
 	}
 
-	private static void checkGrammar(Input testError, int lineNumber, FileManager fm) throws IOException, SQLException {
+	private static void checkGrammar(Input testError, int lineNumber, FileManager fm)
+			throws IOException, SQLException, CloneNotSupportedException {
 
 		System.out.println("Writing Suggestions to Files");
 		fm.writeToFile(lineNumber + ": Words: " + ArrayToStringConverter.convert(testError.getWords()) + " \nPOS: "
@@ -56,7 +59,7 @@ public class TestMain {
 	}
 
 	public String checkGrammarAPI(String[] words, String[] pos, String[] lemmas, int ngramSize)
-			throws IOException, SQLException {
+			throws IOException, SQLException, CloneNotSupportedException {
 		Input input = new Input(words, pos, lemmas, words.length);
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
@@ -70,7 +73,7 @@ public class TestMain {
 	}
 
 	private static List<Suggestion> checkGrammarRecursive(Input input, int ngramSize, FileManager fm)
-			throws SQLException, IOException {
+			throws SQLException, IOException, CloneNotSupportedException {
 
 		List<Suggestion> allSuggestions = new ArrayList<>();
 
@@ -87,7 +90,7 @@ public class TestMain {
 			List<Suggestion> suggestions = new ArrayList<>();
 
 			long startTime = System.currentTimeMillis();
-			List<Suggestion> subSuggestions = SubstitutionService.performTask(subInput, i, ngramSize);
+			List<Suggestion> subSuggestions = subService.performTask(subInput, i, ngramSize);
 			long endTime = System.currentTimeMillis();
 			System.out.println("Substitution Elapsed: " + (endTime - startTime));
 			fm.writeToFile("Substitution Elapsed: " + (endTime - startTime));

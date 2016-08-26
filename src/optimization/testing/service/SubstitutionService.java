@@ -11,24 +11,38 @@ import optimization.dao.WordPOSLemmaMapDao;
 import optimization.models.HybridNGram;
 import optimization.models.Input;
 import optimization.models.Suggestion;
+import optimization.models.WordLemmaPOSMap;
 import util.Constants;
 import util.EditDistanceService;
+import util.deepcopy.DeepCopy;
 import v4.models.SuggestionType;
 
 public class SubstitutionService {
 
-	static WordPOSLemmaMapDao wplmDao = new WordPOSLemmaMapDao();
+	WordPOSLemmaMapDao wplmDao;
+	List<WordLemmaPOSMap> dictionary;
 
-	public static List<Suggestion> performTask(Input input, int indexOffset, int ngramSize) throws SQLException {
+	public SubstitutionService() throws SQLException {
+		wplmDao = new WordPOSLemmaMapDao();
+		dictionary = wplmDao.getWords();
+	}
+
+	public List<Suggestion> performTask(Input input, int indexOffset, int ngramSize)
+			throws SQLException, CloneNotSupportedException {
 		List<HybridNGram> candidatesHGrams = CandidateNGramService
 				.getCandidateNGramsSubstitutionPermutation(input.getPos(), ngramSize);
 		// check if may ka-equal na ito. If meron, stop and return null;
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
+		List<Suggestion> spellSuggestions = spellCheck(input, indexOffset, candidatesHGrams);
+		// use suggestions to check if the formed result is grammatically
+		// correct. If yes, output it. If not, ignore
 		boolean isGrammaticallyCorrect = isGrammaticallyCorrect(input, candidatesHGrams, ngramSize);
-		if (isGrammaticallyCorrect)
+		if (isGrammaticallyCorrect && spellSuggestions.isEmpty())
 			return null;
+		else if (isGrammaticallyCorrect && spellSuggestions.size() > 0)
+			return spellSuggestions;
 		else {
 			double min = Integer.MAX_VALUE;
 			for (HybridNGram h : candidatesHGrams) {
@@ -43,7 +57,7 @@ public class SubstitutionService {
 		}
 	}
 
-	private static List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
+	private List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
 		if (suggestions.size() > 0) {
 			Collections.sort(suggestions, new Comparator<Suggestion>() {
 				@Override
@@ -64,7 +78,7 @@ public class SubstitutionService {
 		return suggestions;
 	}
 
-	private static Suggestion computeSubstitutionEditDistance(Input input, int indexOffset, HybridNGram h)
+	private Suggestion computeSubstitutionEditDistance(Input input, int indexOffset, HybridNGram h)
 			throws SQLException {
 		double editDistance = 0;
 		Suggestion suggestion = null;
@@ -126,7 +140,7 @@ public class SubstitutionService {
 
 	}
 
-	private static List<String> getSimilarWords(String input, List<String> wordsWithSamePOS) {
+	private List<String> getSimilarWords(String input, List<String> wordsWithSamePOS) {
 		List<String> suggestions = new ArrayList<>();
 		for (String s : wordsWithSamePOS) {
 			if (withinSpellingEditDistance(s, input)) {
@@ -136,11 +150,41 @@ public class SubstitutionService {
 		return suggestions;
 	}
 
-	private static boolean isGrammaticallyCorrect(Input input, List<HybridNGram> candidatesHGrams, int ngramSize) {
+	private List<Suggestion> spellCheck(Input input, int indexOffset, List<HybridNGram> candidatesHGrams)
+			throws SQLException, CloneNotSupportedException {
+		List<Suggestion> suggestions = new ArrayList<>();
+		for (int i = 0; i < input.getWords().length; i++) {
+			for (WordLemmaPOSMap dic : dictionary) {
+				if (withinOneSpellingEditDistance(dic.getWord(), input.getWords()[i])) {
+					String[] suggestion = { dic.getWord() };
+
+					Input inputClone = (Input) DeepCopy.copy(input);
+					inputClone.setWord(dic.getWord(), i);
+					inputClone.setPos(dic.getPosTag(), i);
+
+					if (isGrammaticallyCorrect(inputClone, candidatesHGrams, input.getWords().length)) {
+						suggestions.add(new Suggestion(SuggestionType.SUBSTITUTION, suggestion, false, dic.getPosTag(),
+								indexOffset + i, Constants.EDIT_DISTANCE_SPELLING_ERROR, 0));
+						System.out.println(
+								"Within one SED: " + dic.getWord() + " " + dic.getPosTag() + " " + input.getWords()[i]);
+					}
+				}
+			}
+		}
+		if (suggestions.size() == 0)
+			return null;
+		else
+			return suggestions;
+	}
+
+	private boolean isGrammaticallyCorrect(Input input, List<HybridNGram> candidatesHGrams, int ngramSize)
+			throws SQLException {
+
 		for (HybridNGram h : candidatesHGrams) {
 			if (Arrays.equals(h.getPosTags(), input.getPos())) {
 				// System.out.println(ArrayToStringConverter.convert(input.getWords()));
 				// System.out.println(ArrayToStringConverter.convert(h.getIsHybrid()));
+
 				boolean isEqual = true;
 				for (int i = 0; i < ngramSize; i++) {
 					if (h.getIsHybrid()[i] == false
@@ -159,7 +203,22 @@ public class SubstitutionService {
 		return false;
 	}
 
-	private static boolean withinSpellingEditDistance(String corpusWord, String input) {
+	private boolean withinOneSpellingEditDistance(String corpusWord, String input) {
+		corpusWord = corpusWord.toLowerCase();
+		input = input.toLowerCase();
+		if (input.equalsIgnoreCase(corpusWord))
+			return false;
+
+		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
+
+		if (input.length() <= 3)
+			return false;
+		else if (distance == 1)
+			return true;
+		return false;
+	}
+
+	private boolean withinSpellingEditDistance(String corpusWord, String input) {
 
 		corpusWord = corpusWord.toLowerCase();
 		input = input.toLowerCase();
