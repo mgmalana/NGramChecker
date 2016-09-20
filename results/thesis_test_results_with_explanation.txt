@@ -509,11 +509,19 @@ Results: *|Pass|* - Was able to suggest the intended correction "nagka-loob" -> 
 16: Words: na bibigay ng 
 POS: CCP VBTF CCB
 Lemmas: na bigay ng 3
-Substitution Elapsed: 11
-Grammatically Correct
-Total Grammar Checking Time Elapsed: 11
-Results: *|Fail|* - Slightly. The error is not caused by the grammar checker but by the limitations of the pos tagger and morphological analyzer in detecting
-invalid affixes such as partial reduplication for the word bigay.
+Substitution Elapsed: 125
+Subs: 0.65 VBOF baseFreq: 0 false binigay index: 1
+Subs: 0.65 VBTF baseFreq: 0 false ibibigay index: 1
+Subs: 0.65 VBOF baseFreq: 0 false ibigay index: 1
+Insertion Elapsed: 31
+Ins: 1.0 RBL baseFreq: 6 true mula_sa sa_loob galing_sa Nasa sa sa_pagitan mula sa_labas sa_gitna sa_lugar hanggang sa_ibabaw sa_timog sa_lungsod galing sa_kanluran sa_paligid sa_mundo sa_hilaga sa_ilalim sa_dulo sa_harap sa_ibaba sa_tabi tungo_sa sa_baybayin sa_kalagitnaan sa_likod sa_taas nasa_loob Nasa_gitna sa_lupa palayo_sa sa_bahay sa_gilid patungong papunta sa_paaralan mula_hilaga Nasa_tabi Sa_pook sa_bansa naroon sa_tuktok sa_look Sa_bayan sa_gubat sa_hilagang-kanluran loob sa_likuran sa_tubig palapit_sa sa_siyudad hanggang_sa sa_itaas sa_kapuluan nasa_labas nasa_pagitan sa_dagat sa_ibayo sa_landas sa_opisina sa_ilog papunta_sa sa_baba sa_campus sa_harapan nanggaling_sa nasa_likod sa_timog-silangan sa_hilagang sa_ilalaim Sa_katimugan sa_pugad sa_himpapawid sa_London sa_palibot patungo paloob naka-base_sa sa_kahilagan sa_katimugang nasa_itaas nasa_lupa nasa_silid-aklatan sa_pampook papuntang_timog-silangan sa_pulo sa_Athens sa_butas sa_Hindenburg mula_kay Nanggaling sa_kalayuang-hilaga Nasa_bingit nasa_ibaba sa_estate silangan Nasa_tapat palibot_sa sa_Pasipiko sa_rehiyon sa_timog-kanluranin ilalim muli_sa Sa_kabukiran sa_kalupaan nasa_estate sa_katedral nasa_ilalim nasa_lugar sa_Timog_Asia sa_Germany Nasa_punong-lungsod pagitan_sa sa_paloob sa_port sa_silanganin sa_templo sa_daungan sa_gusali gawing_hilagang-kanluran sa_hilagang-silangan nandito nasa_bansa sa_kapaligiran nasa_harap sa_kolonya nasa_kagubatan sa_lokasyon nasa_oases sa_entablado sa_lungga nasa_suburb sa_palampas palayo_kay sa_panlabas sa_pulong sa_syudad sa_timog-Ehipto bingit Timog hilagang-kanluran sa_kabilaan sa_kalikasan nasa_Da-An sa_karagatan nasa_ibabaw sa_lagpas sa_European taga nasa_paligid pabalik_sa sa_paliparan paliparin sa_pasukan patungong_silangan sa_Rotunda sa_base sa_tabing_dagat sa_daigdig galing_kay likod na sa_kagubatan Naroroon sa_kampus nasa_field nasa_isla Nasa_lungsod sa_timog_silangan sa_Ge’ez nasa_sentro palabas_sa sa_pampang papuntang sa_Aland sa_silid-aklatan sa_bukas sa_teritoryo sa_distrito sa_hangganan sa_isla nanggagaling_sa sa_kalawakan nasa_baybayin sa_kapuluaan nasa_hulihan sa_komunidad nasa_kalagitnaan sa_estado sa_unibersidad sa_panloob sa_purok sa_costa sa_timog-kanluran dulo sa_hardin ibabaw mula_sa_haligi sa_kabilang_dako napunta_sa sa_kaliwa nasa_entablado sa_karatig nasa_ibayo sa_lalawigan sa_Timog_Africa Sa_gabi taga-Oamaru nasa_puno sa_Nebraska pag-alis sa_palipiran patungo_sa sa_silangan sa_teatro sa_dakong index: 2
+Deletion Elapsed: 109
+Del: 1.0 VBTF baseFreq: 19 true null index: 1
+Del: 1.0 CCP baseFreq: 60 true null index: 0
+Merging Elapsed: 47
+Unmerging Elapsed: 1498
+Total Grammar Checking Time Elapsed: 1810
+Results: *|Pass|* - Was able to suggest the intended correction "bibigay" -> "ibibigay" - Criteria is if within if within top 2 lowest scores
 
 17: Words: para_sa Mark 
 POS: RBB NNP

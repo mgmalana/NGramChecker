@@ -35,14 +35,19 @@ public class SubstitutionService {
 		List<Suggestion> suggestions = new ArrayList<>();
 		if (candidatesHGrams == null)
 			return suggestions;
-		List<Suggestion> spellSuggestions = spellCheck(input, indexOffset, candidatesHGrams);
+		// List<Suggestion> spellSuggestions = spellCheck(input, indexOffset,
+		// candidatesHGrams);
 		// use suggestions to check if the formed result is grammatically
 		// correct. If yes, output it. If not, ignore
 		boolean isGrammaticallyCorrect = isGrammaticallyCorrect(input, candidatesHGrams, ngramSize);
-		if (isGrammaticallyCorrect && spellSuggestions.isEmpty())
+		if (isGrammaticallyCorrect /*
+									 * && spellSuggestions != null &&
+									 * spellSuggestions.isEmpty()
+									 */)
 			return null;
-		else if (isGrammaticallyCorrect && spellSuggestions.size() > 0)
-			return spellSuggestions;
+		// if (isGrammaticallyCorrect && spellSuggestions != null &&
+		// spellSuggestions.size() > 0)
+		// return spellSuggestions;
 		else {
 			double min = Integer.MAX_VALUE;
 			for (HybridNGram h : candidatesHGrams) {
@@ -155,7 +160,9 @@ public class SubstitutionService {
 		List<Suggestion> suggestions = new ArrayList<>();
 		for (int i = 0; i < input.getWords().length; i++) {
 			for (WordLemmaPOSMap dic : dictionary) {
-				if (withinOneSpellingEditDistance(dic.getWord(), input.getWords()[i])) {
+				if (dic.getWord().toLowerCase().equals(input.getWords()[i])) {
+					;
+				} else if (withinOneSpellingEditDistance(dic.getWord(), input.getWords()[i])) {
 					String[] suggestion = { dic.getWord() };
 
 					Input inputClone = (Input) DeepCopy.copy(input);

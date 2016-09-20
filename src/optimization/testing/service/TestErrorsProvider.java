@@ -19,9 +19,9 @@ public class TestErrorsProvider {
 		BufferedReader sourceLemmasReader;
 		BufferedReader sourceSentencesReader;
 		BufferedReader sourceTagsReader;
-		sourceSentencesReader = new BufferedReader(new FileReader(Constants.TEST_SENTENCES));
-		sourceLemmasReader = new BufferedReader(new FileReader(Constants.TEST_LEMMAS));
-		sourceTagsReader = new BufferedReader(new FileReader(Constants.TEST_TAGS));
+		sourceSentencesReader = new BufferedReader(new FileReader(Constants.TEST2_SENTENCES));
+		sourceLemmasReader = new BufferedReader(new FileReader(Constants.TEST2_LEMMAS));
+		sourceTagsReader = new BufferedReader(new FileReader(Constants.TEST2_TAGS));
 
 		String l, s, p;
 		while ((l = sourceLemmasReader.readLine()) != null) {

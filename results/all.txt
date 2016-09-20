@@ -1,18 +1,88 @@
-13: Words: ang westo para_sa 
-POS: DTC NNC RBB
-Lemmas: ang westo para_sa 3
-Substitution Elapsed: 141
-Subs: 0.65 NNC baseFreq: 0 false pwesto index: 1
-Subs: 0.65 NNP baseFreq: 0 false West index: 1
-Insertion Elapsed: 166
-Ins: 1.0 JJCS_JJD_CCP baseFreq: 2 true pinakamalaking pinakamatandang pinakaunang pinakamahabang pinakabagong pinakamababang pinakamahalagang napakalaking pinakamagandang pinakakilalang pinakamaraming pinakaimportanteng pinakamaagang pinakakaraniwang pinakamayamang pinakamalalaking pinakalumang pinakahuling napakaraming napakalayong pinakamabuting pinaka-karaniwang pinalaking pinakamataong pinakasimpleng pinakakanlurang pinakamabisang pinakaprestihiyosong pinakilalang pinakagawing pinakamadugong pinakapopuladong pinaka-magandang pinakaprominenteng pinanakamalalaking pinakababang pinakamatinding napakaagang napakayamang pinakauna-unahang pinakadakilang pinakapiling napakaimportanteng pinaka-importanteng pinakaprestihyosong pinakunang pinaka-masamang pinakahabang pinakamagaling napakalumang pinakarelihiyosong pinakakakaibang napakahabang pinaka-dakilang pinakadensadong pinakakatangi-tanging pinakamadaming pinakamamalaking pinakapinagkakakitaang pinakaproduktibong pinaka-unang pinakamaaagang pinakabising pinakamayayamang napakahalagang pinaka-huling index: 1
-Ins: 1.0 JJD_CCP baseFreq: 2 true bagong malaking maraming iba’t_ibang karaniwang huling dating modernong malalaking pambansang ibang sariling kilalang sinaunang importanteng magandang mahabang mababang mahalagang pampublikong punong maagang karagdagang buong bahagyang lumang puting iba't_ibang tanging maikling malayang tamang kakaibang pandaigdigang hilagang matinding maling kumpletong makasaysayang kanlurang pribadong pangkaraniwang aktibong direktang gitnang madaming makabagong dobleng mahinang kauna-unahang pampulitikang makapangyarihang relihiyosong bihirang nakaraang Eksaktong simpleng madaling seryosong katimugang sari-saring posibleng mahahabang babaeng genetikong maramihang bandang panlipunang kataas-taasang maiksing kahanga-hangang mahahalagang mabuting demokratikong paunang pang-agrikulturang batang pambihirang muling prominenteng natatanging timog-kanlurang alternatibong malawakang malayong saradong silangang siyentipikong kanang konserbatibong wastong dakilang kalahating administratibong makalumang Parehong iilang pulang masaganang kapaki-pakinabang negatibong permanenteng bihasang modelong panibagong diskretong banyagang epektibong malayuang magagandang diretsong publikong-pribadong lalaking libreng sapilitang masamang tuyong taunang paboritong pambatasang positibong sentrong henetikang pampanitikang klasikong Timog-silangang solong dalubhasang masayang kanugnugang kasamang agresibong detalyadong distritong balanseng totoong kontroladong purong kabilang pangkaragatang magkaibang dominanteng maputing pangmasang halong hibridong iba’t-ibang marangyang pang-ekonomiyang kaliwang katangi-tanging panimulang kontemporaryong panglalawigang sistematikong gawang matandang pang-akademikong armadong kalabang kamangha-manghang maimpluwensyang pansariling malalayong munting nakababatang eksklusibong Kanluraning makatotohanang timugang kongkretong industriyalisadong panghuling sandatahang sibilyang buwanang tahasang pampublikong-pribadong masyadong maharlikang namumunong makamundong kinikilalang parihabang urbanong laking protektadong mismong mukhang pangunahing artistikong kalagitnaang karaming nakasisirang panlalawigang komunistang tugmang piling prestihiyosong kabuuang kaisa-isang etnikong ekspertong Mediteraneong astrolohiyang berdeng katamtamang ulirang kusang inkorporadong minimong madetalyeng sekundaryong nag-iisang ehekutibong lehislaturang matabang mahihinang katabing nangungunang kirurhikong ordinaryong malalang perpektong genetikang pampasaherong panandaliang matatandang kaparehang makataong takdang panlihang malaki-laking tuwirang pilosopikong mapanlikhang pangkatawang magrasang humigit-kumulang masiglang kakilalang naunang panlupang komplikadong kaaya-ayang akademikong sensitibong hilagang-kanluran diplomatikong ekonomikong pampanguluhang mahinahong kataka-takang biglaang katutubong organikong ispesipikong magkakaibang pangmagulang aspaltadong maiikling malakihang pamamahalang agarang militaryong madasaling magentang pangkawang-gawang sekundaryang nadagdagang mahabaang pangmatagalang nakaka-lumang ganang biyolohikong sosyalistang geyometrikong hanging dayuhang higit-kumulang deribatibong huwarang distansyang edukadong lantarang entusiyastikong limitadong pandekorasyong matitinding mabigatang pang-estadong ristualistikong kakompetensyang awtorisadong kamakailang basang Karamihang nakakapinsalang beteranong katatagang biyolenteng kayumangging nasakupang paninirang makinaryang panngunahing komprehensibang totalitaryong konting palaging mapaglarawang Isang punong-bayang kababatang arkeolohikong pang-matagalang sadyaang maengrandeng pangkalahatang magkahalong panglupang nagsasariling Estatikang generikong bulkanisadong sukdulang dahan-dahanang demilitarisadong Hilagang-silangang domestikong iisang libertaryong espesyalisadong masang lolang pana-panahong mataong pang-akademyang relatibong mayamang babang baliwalang kapansin-pansing bawahang Katam-tamang napakapinong natitirang malabong orkanikong pantahanang malasingsing pagkukunwaring patingi-tinging maliksing kumpirmadong pamahayang mapanirang independyenteng publikong ispiradong absolutistang rasistang ambisyosong pangdayuhang sambayanang pangkargadang sariling-pinamagatang murang magkaparehong pangmaramihang nakabaluting geograpikong buryokratikong tagapangalagang halatang heyograpikong dumedepensang inaasahang libong-tuping pampublikang lupa maberdeng pang-bayang republikanong kakaunting kalakarang baguhang kapuno-punong nakakalamang maikikling nakikitang binokulong Makabuluhang kawaning naratibong makatwirang kinalaunang naturang panloobang kompleksadong tininang pabangong paralelong malay pahabang malubhang pamantayang pisang problematikong pulitikang kaangkupang kaduda-dudang aplikasyong romantikong pangkabuuang sapalarang monopolistikong maginhawang panglalaking pangmatang sikretong nakakahibang sirang gandang bola-bolang spesipikong ginintuang byolohikang helenikong de-kuryenteng hydrograpikong iibang pampamilyang masalawahang lingguhang maayang matuyong mabilisang pang-isking arkiladong kakumpetensyang babaeing kamali-maling kapaligirang nakakasamang bigating maimpluwensiyang kayumanging nasyonalistang panlabang mala-estadong tiga_hilagang pansamantalang komprehensibong pag-iibang parliyamentayong palakaibigang mapaglarong possibleng prototipong iskuwadrang alilang kahuli-hulihang pang-orkestrang saktong misteryosong pangmabilisang seperadong naiibang pangunang silanganing estimadong sobrang bulung-bulungang syientipikong guwapong henetikong demokrasyang hilangang iba-ibang iluminadong eksklosibong libo-libong esponghang masasaganang mababatang pang-aritmetikang mayayamang madadaming asidikong baluting baybaying maigsing katampalang nakatagong makabansang kaunting napakaraming kilalang_kilala natititrang komersiyong Timog_Kanlurang oroskopyong pantaong malawakan konektadong paglalawigang patrolyang pamamahalaang indirektang istandardisadong rebolusyonaryong kadalasang angking panggabing samu’t_saring modermong magarbong sekondaryong nabuong sibilisadong nakahandang simponikong extensibong sosyalismong geologikong butong tagong depensibong disolatong ebolusyong independenteng enggrandeng maadornong pandayuhang matinong mabibisang reserbang militanteng awtomatikong bahagiang kaonting barkong kasiya-siyang nakakamanghang bersatilong nakopyang binomyong kawili-wiling naratiobong makiling kinatawang tatakang malalakihang tipikong pabayang Unti-unting pahalang pauwing mandatoryong laki interesadong kahali-halinang arkadang pang-kirurhikong sa minoryang madulang pangkaisipang monopostikong magkabilang naghaharing pangnayong silanganang estadong bugyang spesyalisadong gintong dagatang henerikong debotong hypotetikong lehitimong erotikong lisensyadong pampulitikong mabababang mayabong mabubuting baliktaring kapanahunang batubahanging napaagang makasariling kilalalang panlahing mala-musikang kitang-kitang komprehesibong tradisyong pagkakahating parlyamentaryong malikhaing kumpanya palitang piksyong mapang pampalakasang preskong psychosocial kabuluhang kahulihang pangbayan sambahayang misyonaryong magaling seriosong panguring simbolikong estratosperikong socio-ekonomikong tadyang haka-hakang dakong heograpikong demokratikang homerikong disidong ibabang dose-dosenang libong pamplanetaryong estabilisadong masasamang luntiang pananguhing matematikang mabatong pang-astronomong repormang maykapangyarihang madahong kakatwang kalahating-inning bagong-gawang kasalukuyang kaparehong nakakahiyang benditadong katampatang nakausling biktimang makabayang kawalang napapanahong kilusang naturalisadong kompirmadong pababang panteoryang pagtatangkang patulang maliturgiyang kumplikadong pirasong mapanuring primaryang kaalyadong kadami-daming anti-Semitikong index: 1
-Ins: 1.0 PRI_CCP baseFreq: 3 true isang ibang Maraming buong kabuuang pangkalahatang iba’t_ibang iba't_ibang madaming iisang karamihang maramihang isa kalahating alinmang ang kaunting anumang pangkabuuang , iilang may at ilang isa’t_isang Maaring pangkahalatang kabuung ng ay kabubuang Ai maaaring malaking tanang index: 1
-Deletion Elapsed: 118
-Del: 1.0 NNC baseFreq: 2 true null index: 1
-Del: 1.0 DTC baseFreq: 209 true null index: 0
-Merging Elapsed: 45
-Unmerging Elapsed: 5886
-Total Grammar Checking Time Elapsed: 6357
+9: Words: nagbibigay daan sa 
+POS: VBTR NNC CCT
+Lemmas: bigay daan sa 3
+Substitution Elapsed: 25
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 26
+
+
+10: Words: tinignan ang bilang ng kaso 
+POS: VBTS DTC NNC CCB NNC
+Lemmas: tignan ang bilang ng kaso 5
+Substitution Elapsed: 18
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 18
+
+
+11: Words: Amerika at Tsina 
+POS: NNP CCA NNP
+Lemmas: Amerika at Tsina 3
+Substitution Elapsed: 16
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 16
+
+
+12: Words: drayber ni De Lima 
+POS: NNC DTP NNP NNP
+Lemmas: drayber ni De Lima 4
+Substitution Elapsed: 18
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 18
+
+
+13: Words: isang pares ng sapatos 
+POS: JJD_CCP NNC CCB NNC
+Lemmas: isa pares ng sapatos 4
+Substitution Elapsed: 24
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 24
+
+
+14: Words: ang harang sa opisina 
+POS: DTC NNC CCT NNC
+Lemmas: ang harang sa opisina 4
+Substitution Elapsed: 20
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 20
+
+
+15: Words: sa Maida Vale , London 
+POS: CCT NNP NNP PMC NNP
+Lemmas: sa Maida Vale , London 5
+Substitution Elapsed: 19
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 19
+
+
+16: Words: ang bombe ni Turing 
+POS: DTC NNP DTP NNP
+Lemmas: ang bombe ni Turing 4
+Substitution Elapsed: 18
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 18
+
+
+17: Words: sa mga matitinong tao 
+POS: CCT DTCP JJD_CCP NNC
+Lemmas: sa mga tino tao 4
+Substitution Elapsed: 23
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 24
+
+
+18: Words: bahay na pula . 
+POS: NNC CCP NNC PMP
+Lemmas: bahay na pula . 4
+Substitution Elapsed: 30
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 31
+
+
+19: Words: iba pang mga bagay 
+POS: PRI RBI_CCP DTCP NNC
+Lemmas: iba pa mga bagay 4
+Substitution Elapsed: 18
+Grammatically Correct
+Total Grammar Checking Time Elapsed: 19
 
 

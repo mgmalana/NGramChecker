@@ -77,17 +77,17 @@ public class MergingService {
 	private Suggestion getMergingSuggestion(HybridNGram h, int mergingIndex) throws SQLException {
 		if (hasMergeSuggestionAlready.contains(mergingIndex))
 			return null;
-		hasMergeSuggestionAlready.add(mergingIndex);
 
 		String concatNoSpace = input.getWords()[mergingIndex].toLowerCase()
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
 		String concatWithHyphen = input.getWords()[mergingIndex].toLowerCase() + "-"
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
-
 		String equalWordMapping = wplmDao.getEqualWordMapping(concatNoSpace, concatWithHyphen,
 				h.getPosIDs()[mergingIndex]);
 		if (equalWordMapping != null) {
 			String[] tokenSuggestions = { equalWordMapping };
+
+			hasMergeSuggestionAlready.add(mergingIndex);
 			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, h.getIsHybrid()[mergingIndex],
 					h.getPosTags()[mergingIndex], indexOffset + mergingIndex,
 					Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED, h.getBaseNGramFrequency());
