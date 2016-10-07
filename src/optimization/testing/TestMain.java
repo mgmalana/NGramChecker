@@ -29,8 +29,17 @@ public class TestMain {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		for (int i = 9; i <= 19; i++) {
-			Input testError = testErrorsProvider.getTestErrors().get(i);
+		for (int i = 0; i <= 55; i++) {
+			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_NICCO_SENTENCES,
+					Constants.TEST_NICCO_LEMMAS, Constants.TEST_NICCO_TAGS).get(i);
+			if (testError.getNgramSize() > 1) {
+				checkGrammar(testError, i, fm);
+				fm.writeToFile("\n");
+			}
+		}
+		for (int i = 0; i <= 19; i++) {
+			Input testError = testErrorsProvider.getTestErrors(Constants.TEST2_NICCO_SENTENCES,
+					Constants.TEST2_NICCO_LEMMAS, Constants.TEST2_NICCO_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
 				fm.writeToFile("\n");

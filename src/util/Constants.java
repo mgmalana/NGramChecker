@@ -11,6 +11,12 @@ public class Constants {
 	public static String TEST2_SENTENCES = "data/test/thesis_2_test_sentences.txt";
 	public static String TEST2_LEMMAS = "data/test/thesis_2_test_lemmas.txt";
 	public static String TEST2_TAGS = "data/test/thesis_2_test_tags.txt";
+	public static String TEST_NICCO_SENTENCES = "data/test/thesis_nicco_test_sentences.txt";
+	public static String TEST_NICCO_LEMMAS = "data/test/thesis_nicco_test_lemmas.txt";
+	public static String TEST_NICCO_TAGS = "data/test/thesis_nicco_test_tags.txt";
+	public static String TEST2_NICCO_SENTENCES = "data/test/thesis_2_nicco_test_sentences.txt";
+	public static String TEST2_NICCO_LEMMAS = "data/test/thesis_2_nicco_test_lemmas.txt";
+	public static String TEST2_NICCO_TAGS = "data/test/thesis_2_nicco_test_tags.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";
@@ -26,6 +32,7 @@ public class Constants {
 	public static int EDIT_DISTANCE_THRESHOLD = 1;
 	public static double EDIT_DISTANCE_WRONG_WORD_FORM = 0.7; // 0.6
 	public static double EDIT_DISTANCE_SPELLING_ERROR = 0.75; // 0.65
+	public static double EDIT_DISTANCE_SPELLING_ERROR_2 = 0.78;
 	public static double EDIT_DISTANCE_INCORRECTLY_MERGED = 0.6; // 0.7
 	public static double EDIT_DISTANCE_INCORRECTLY_UNMERGED = 0.6; // 0.7
 	public static double EDIT_DISTANCE_WRONG_WORD_SAME_POS = 0.8;

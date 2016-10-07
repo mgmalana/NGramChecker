@@ -1,0 +1,408 @@
+0: Words: kikumpara ang babae 
+POS: ? DTC NNC
+Lemmas: kumpara ang babae 3
+Substitution Elapsed: 99
+Total Grammar Checking Time Elapsed: 99
+
+
+1: Words: sabi nang pulis na 
+POS: VBW RBW NNC CCP
+Lemmas: sabi nang pulis na 4
+Substitution Elapsed: 86
+Total Grammar Checking Time Elapsed: 87
+
+
+2: Words: para_kay bata 
+POS: RBB NNC
+Lemmas: para_kay bata 2
+Substitution Elapsed: 33
+Total Grammar Checking Time Elapsed: 33
+
+
+3: Words: tinayo parin ang Torre_de_Manila 
+POS: VBOF ? DTC NNP
+Lemmas: tinayo ? ang Torre_de_Manila 4
+Substitution Elapsed: 95
+Total Grammar Checking Time Elapsed: 95
+
+
+4: Words: bahay nila Jose , Juan 
+POS: NNC PRP NNP PMC NNP
+Lemmas: bahay nila Jose , Juan 5
+Substitution Elapsed: 64
+Total Grammar Checking Time Elapsed: 64
+
+
+5: Words: isang lalake 
+POS: PRI_CCP ?
+Lemmas: isang lalake 2
+Substitution Elapsed: 25
+Total Grammar Checking Time Elapsed: 25
+
+
+6: Words: inayos nalang ang 
+POS: VBTS ? DTC
+Lemmas: inayos nalang ang 3
+Substitution Elapsed: 45
+Total Grammar Checking Time Elapsed: 45
+
+
+7: Words: para maka kuha ng 
+POS: CCT ? VBW CCB
+Lemmas: para maka kuha ng 4
+Substitution Elapsed: 105
+Total Grammar Checking Time Elapsed: 105
+
+
+8: Words: nag-simula ang panahon 
+POS: ? DTC NNC
+Lemmas: simula ang panahon 3
+Substitution Elapsed: 68
+Total Grammar Checking Time Elapsed: 68
+
+
+9: Words: imaximize ang airship 
+POS: ? DTC FW
+Lemmas: maximize ang airship 3
+Substitution Elapsed: 32
+Total Grammar Checking Time Elapsed: 33
+
+
+10: Words: linaan ng tulong 
+POS: ? CCB NNC
+Lemmas: laan ng tulong 3
+Substitution Elapsed: 60
+Total Grammar Checking Time Elapsed: 60
+
+
+11: Words: skolar ang nag-aaral ng 
+POS: ? DTC VBTR CCB
+Lemmas: skolar ang aral ng 4
+Substitution Elapsed: 58
+Total Grammar Checking Time Elapsed: 58
+
+
+12: Words: ang pinakatama na 
+POS: DTC ? CCP
+Lemmas: ang tama na 3
+Substitution Elapsed: 37
+Total Grammar Checking Time Elapsed: 37
+
+
+13: Words: ang westo para_sa 
+POS: DTC NNC RBB
+Lemmas: ang westo para_sa 3
+Substitution Elapsed: 41
+Subs: 0.78 NNC baseFreq: 0 false pwesto index: 1
+Total Grammar Checking Time Elapsed: 42
+
+
+14: Words: Noong 2006 , mananalo ang 
+POS: RBW_CCP CDB PMC VBTF DTC
+Lemmas: Noon 2001 , panalo ang 5
+Substitution Elapsed: 40
+Total Grammar Checking Time Elapsed: 40
+
+
+15: Words: ang nagka-loob ng 
+POS: DTC ? CCB
+Lemmas: ang loob ng 3
+Substitution Elapsed: 47
+Total Grammar Checking Time Elapsed: 47
+
+
+16: Words: na bibigay ng 
+POS: CCP ? CCB
+Lemmas: na bigay ng 3
+Substitution Elapsed: 53
+Total Grammar Checking Time Elapsed: 53
+
+
+17: Words: para_sa Mark 
+POS: RBB NNP
+Lemmas: para_sa Mark 2
+Substitution Elapsed: 52
+Subs: 0.78 NNP baseFreq: 0 false Dark index: 1
+Subs: 0.78 NNP baseFreq: 0 false Mar index: 1
+Subs: 0.78 NNP baseFreq: 0 false Marc index: 1
+Subs: 0.78 NNP baseFreq: 0 false Marke index: 1
+Subs: 0.78 NNP baseFreq: 0 false Marky index: 1
+Subs: 0.78 NNP baseFreq: 0 false Mart index: 1
+Subs: 0.78 NNP baseFreq: 0 false Marx index: 1
+Subs: 0.78 NNP baseFreq: 0 false Mary index: 1
+Subs: 0.78 FW baseFreq: 0 false park index: 1
+Subs: 0.78 NNC baseFreq: 0 false park index: 1
+Subs: 0.78 NNP baseFreq: 0 false Park index: 1
+Total Grammar Checking Time Elapsed: 53
+
+
+18: Words: Maganda si . 
+POS: JJD DTP PMP
+Lemmas: ganda si . 3
+Substitution Elapsed: 35
+Total Grammar Checking Time Elapsed: 35
+
+
+19: Words: pang-unahing plano ng pangulo 
+POS: ? NNC CCB NNC
+Lemmas: una plano ng pangulo 4
+Substitution Elapsed: 86
+Total Grammar Checking Time Elapsed: 86
+
+
+20: Words: taga Manila siya 
+POS: ? NNP PRS
+Lemmas: taga Manila siya 3
+Substitution Elapsed: 50
+Total Grammar Checking Time Elapsed: 50
+
+
+21: Words: bahag hari iyon 
+POS: NNC NNC PRO
+Lemmas: bahag hari iyon 3
+Substitution Elapsed: 23
+Total Grammar Checking Time Elapsed: 23
+
+
+22: Words: pagaayos ng 
+POS: ? CCB
+Lemmas: ayos ng 2
+Substitution Elapsed: 35
+Total Grammar Checking Time Elapsed: 35
+
+
+23: Words: hinila ikaw 
+POS: VBTS PRS
+Lemmas: hila ikaw 2
+Substitution Elapsed: 34
+Total Grammar Checking Time Elapsed: 34
+
+
+24: Words: importanteng na dapat 
+POS: JJD_CCP CCP VBS
+Lemmas: importante na dapat 3
+Substitution Elapsed: 30
+Total Grammar Checking Time Elapsed: 30
+
+
+25: Words: na bahay mayayaman 
+POS: CCP NNC NNC
+Lemmas: na bahay yaman 3
+Substitution Elapsed: 31
+Total Grammar Checking Time Elapsed: 31
+
+
+26: Words: sa mga matas na bahay 
+POS: CCT DTCP ? CCP NNC
+Lemmas: sa mga matas na bahay 5
+Substitution Elapsed: 64
+Total Grammar Checking Time Elapsed: 64
+
+
+27: Words: tumakbo ang ang manok 
+POS: VBTS DTC DTC NNC
+Lemmas: tumakbo ang ang manok 4
+Substitution Elapsed: 42
+Total Grammar Checking Time Elapsed: 42
+
+
+28: Words: partido ng Nationalista ay nag isa 
+POS: NNC CCB NNP LM ? CDB
+Lemmas: partido ng Nationalista ay nag isa 6
+Substitution Elapsed: 77
+Total Grammar Checking Time Elapsed: 77
+
+
+30: Words: Mayo 31 2016 
+POS: NNP CDB CDB
+Lemmas: Mayo 31 2016 3
+Substitution Elapsed: 36
+Subs: 0.78 CDB baseFreq: 0 false 2006 index: 2
+Subs: 0.78 CDB baseFreq: 0 false 2010 index: 2
+Subs: 0.78 CDB baseFreq: 0 false 2011 index: 2
+Subs: 0.78 CDB baseFreq: 0 false 2012 index: 2
+Total Grammar Checking Time Elapsed: 36
+
+
+31: Words: ang pagtakbo ng mayor 
+POS: DTC NNC CCB NNC
+Lemmas: ang takbo ng mayor 4
+Substitution Elapsed: 52
+Total Grammar Checking Time Elapsed: 52
+
+
+32: Words: makita nang malinaw 
+POS: VBW CCB RBD
+Lemmas: kita nang linaw 3
+Substitution Elapsed: 44
+Total Grammar Checking Time Elapsed: 44
+
+
+33: Words: pera ng bayan 
+POS: NNC CCB NNC
+Lemmas: pera ng bayan 3
+Substitution Elapsed: 39
+Total Grammar Checking Time Elapsed: 39
+
+
+34: Words: napapagod din ito 
+POS: VBTR RBI PRO
+Lemmas: pagod din ito 3
+Substitution Elapsed: 42
+Total Grammar Checking Time Elapsed: 42
+
+
+35: Words: nag-aaya rin siya 
+POS: VBTR RBI PRO
+Lemmas: aya rin siya 3
+Substitution Elapsed: 64
+Total Grammar Checking Time Elapsed: 65
+
+
+36: Words: nag-ipon ng pera sa 
+POS: VBTS CCB NNC CCT
+Lemmas: nag-ipon ng pera sa 4
+Substitution Elapsed: 78
+Total Grammar Checking Time Elapsed: 78
+
+
+37: Words: pagbangon sa kabila ng paghihirap 
+POS: NNC CCT NNC CCB NNC
+Lemmas: bangon sa kabila ng hirap 5
+Substitution Elapsed: 68
+Total Grammar Checking Time Elapsed: 68
+
+
+38: Words: sa kabila ng 
+POS: CCT CCT CCB
+Lemmas: sa kabila ng 3
+Substitution Elapsed: 38
+Total Grammar Checking Time Elapsed: 38
+
+
+39: Words: lalake , babae at transgenders 
+POS: NNC PMC NNC CCA NNC
+Lemmas: lalake , babae at transgenders 5
+Substitution Elapsed: 46
+Total Grammar Checking Time Elapsed: 46
+
+
+40: Words: kumain ng halo-halo 
+POS: VBTS CCB NNC
+Lemmas: kain ng halo-halo 3
+Substitution Elapsed: 46
+Total Grammar Checking Time Elapsed: 46
+
+
+41: Words: magkukuwento ng buhay 
+POS: VBTF CCB NNC
+Lemmas: kwento ng buhay 3
+Substitution Elapsed: 43
+Total Grammar Checking Time Elapsed: 43
+
+
+42: Words: maaari din na 
+POS: RBT RBI CCP
+Lemmas: maaari din na 3
+Substitution Elapsed: 30
+Total Grammar Checking Time Elapsed: 30
+
+
+43: Words: suporta ng kababaihan 
+POS: NNC CCB NNC
+Lemmas: suporta ng kababaihan 3
+Substitution Elapsed: 43
+Total Grammar Checking Time Elapsed: 43
+
+
+44: Words: masisiglang mga bata 
+POS: JJD DTCP NNC
+Lemmas: sigla mga bata 3
+Substitution Elapsed: 42
+Total Grammar Checking Time Elapsed: 42
+
+
+45: Words: aso , pusa , daga , 
+POS: NNC PMC NNC PMC NNC PMC
+Lemmas: aso , pusa , daga , 6
+Substitution Elapsed: 28
+Total Grammar Checking Time Elapsed: 29
+
+
+46: Words: marumi na upuan 
+POS: JJD CCP NNC
+Lemmas: dumi na upo 3
+Substitution Elapsed: 53
+Subs: 0.78 JJD baseFreq: 0 false marami index: 0
+Total Grammar Checking Time Elapsed: 53
+
+
+47: Words: bayang magiliw 
+POS: NNC_CCP JJD
+Lemmas: bayan giliw 2
+Substitution Elapsed: 18
+Total Grammar Checking Time Elapsed: 18
+
+
+48: Words: tungkol_sa pagboto ng mamamayan 
+POS: RBR NNC CCB NNC
+Lemmas: tungkol_sa boto ng bayan 4
+Substitution Elapsed: 71
+Total Grammar Checking Time Elapsed: 71
+
+
+49: Words: upang makita ang kinabukasan 
+POS: CCB VBOF DTC NNC
+Lemmas: upang kita ang bukas 4
+Substitution Elapsed: 49
+Total Grammar Checking Time Elapsed: 49
+
+
+50: Words: ang Mitsubishi Motors Philippines 
+POS: DTC NNP NNP NNP
+Lemmas: ang Mitsubishi Motors Philippines 4
+Substitution Elapsed: 69
+Subs: 0.78 NNP baseFreq: 0 false Motor index: 2
+Total Grammar Checking Time Elapsed: 69
+
+
+51: Words: Mataba ang pusa . 
+POS: JJD DTC NNC PMP
+Lemmas: taba ang pusa . 4
+Substitution Elapsed: 45
+Total Grammar Checking Time Elapsed: 45
+
+
+52: Words: Siya ay masaya . 
+POS: PRS LM JJD PMP
+Lemmas: Siya ay masaya . 4
+Substitution Elapsed: 40
+Total Grammar Checking Time Elapsed: 40
+
+
+53: Words: Nagluluto siya ng hapunan . 
+POS: VBTR PRS CCB NNC PMP
+Lemmas: luto siya ng hapon . 5
+Substitution Elapsed: 74
+Total Grammar Checking Time Elapsed: 74
+
+
+54: Words: Kinuha ko ito dito . 
+POS: VBTS PRS PRO PRL PMP
+Lemmas: kuha ko ito dito . 5
+Substitution Elapsed: 36
+Total Grammar Checking Time Elapsed: 37
+
+
+55: Words: matalas na dila 
+POS: JJD CCP NNC
+Lemmas: talas na dila 3
+Substitution Elapsed: 40
+Subs: 0.78 JJD baseFreq: 0 false madalas index: 0
+Subs: 0.78 RBD baseFreq: 0 false madalas index: 0
+Subs: 0.78 RBW baseFreq: 0 false madalas index: 0
+Subs: 0.78 JJD baseFreq: 0 false mataas index: 0
+Subs: 0.78 RBD baseFreq: 0 false mataas index: 0
+Total Grammar Checking Time Elapsed: 41
+
+

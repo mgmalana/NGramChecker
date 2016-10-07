@@ -159,25 +159,39 @@ public class SubstitutionService {
 			throws SQLException, CloneNotSupportedException {
 		List<Suggestion> suggestions = new ArrayList<>();
 		for (int i = 0; i < input.getWords().length; i++) {
+			List<Suggestion> indexSuggestions = new ArrayList<>();
+			boolean misspelled = true;
 			for (WordLemmaPOSMap dic : dictionary) {
-				if (dic.getWord().toLowerCase().equals(input.getWords()[i])) {
-					;
+				if (dic.getWord().equalsIgnoreCase(input.getWords()[i])) {
+					misspelled = false;
+					// System.out.println(dic.getWord() + " " +
+					// input.getWords()[i]);
+					break;
 				} else if (withinOneSpellingEditDistance(dic.getWord(), input.getWords()[i])) {
 					String[] suggestion = { dic.getWord() };
 
 					Input inputClone = (Input) DeepCopy.copy(input);
 					inputClone.setWord(dic.getWord(), i);
 					inputClone.setPos(dic.getPosTag(), i);
-
+					// System.out.println("CLONE: " +
+					// ArrayToStringConverter.convert(inputClone.getWords()) + "
+					// | "
+					// + ArrayToStringConverter.convert(inputClone.getPos()) + "
+					// | "
+					// + isGrammaticallyCorrect(inputClone, candidatesHGrams,
+					// input.getWords().length));
 					if (isGrammaticallyCorrect(inputClone, candidatesHGrams, input.getWords().length)) {
-						suggestions.add(new Suggestion(SuggestionType.SUBSTITUTION, suggestion, false, dic.getPosTag(),
-								indexOffset + i, Constants.EDIT_DISTANCE_SPELLING_ERROR, 0));
+						indexSuggestions.add(new Suggestion(SuggestionType.SUBSTITUTION, suggestion, false,
+								dic.getPosTag(), indexOffset + i, Constants.EDIT_DISTANCE_SPELLING_ERROR_2, 0));
 						System.out.println(
 								"Within one SED: " + dic.getWord() + " " + dic.getPosTag() + " " + input.getWords()[i]);
 					}
 				}
 			}
+			if (misspelled == true)
+				suggestions.addAll(indexSuggestions);
 		}
+		System.out.println(suggestions.size());
 		if (suggestions.size() == 0)
 			return null;
 		else
@@ -211,13 +225,10 @@ public class SubstitutionService {
 	}
 
 	private boolean withinOneSpellingEditDistance(String corpusWord, String input) {
-		corpusWord = corpusWord.toLowerCase();
-		input = input.toLowerCase();
 		if (input.equalsIgnoreCase(corpusWord))
 			return false;
 
 		int distance = EditDistanceService.computeLevenshteinDistance(corpusWord, input);
-
 		if (input.length() <= 3)
 			return false;
 		else if (distance == 1)

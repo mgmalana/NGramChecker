@@ -1,0 +1,153 @@
+0: Words: iba't-ibang mga bagay na 
+POS: ? DTCP NNC CCP
+Lemmas: iba mga bagay na 4
+Substitution Elapsed: 136
+Total Grammar Checking Time Elapsed: 136
+
+
+1: Words: ang lungsodng bayan 
+POS: DTC ? NNC
+Lemmas: ang lungsodng bayan 3
+Substitution Elapsed: 40
+Total Grammar Checking Time Elapsed: 40
+
+
+2: Words: para_kay mga bata ang 
+POS: RBB DTCP NNC DTC
+Lemmas: para_kay mga bata ang 4
+Substitution Elapsed: 54
+Total Grammar Checking Time Elapsed: 54
+
+
+3: Words: Tumangap ng importanteng bisita 
+POS: ? CCB JJD_CCP NNC
+Lemmas: tangap ng importante bisita 4
+Substitution Elapsed: 62
+Total Grammar Checking Time Elapsed: 62
+
+
+4: Words: pamiliar na kagamitan 
+POS: ? CCP NNC
+Lemmas: pamiliar na gamit 3
+Substitution Elapsed: 49
+Total Grammar Checking Time Elapsed: 49
+
+
+5: Words: ang pag kain sa mesa 
+POS: DTC NNC VBW CCT NNC
+Lemmas: ang pag kain sa mesa 5
+Substitution Elapsed: 68
+Total Grammar Checking Time Elapsed: 68
+
+
+6: Words: ang pag-kain sa mesa 
+POS: DTC NNC CCT NNC
+Lemmas: ang pag-kain sa mesa 4
+Substitution Elapsed: 71
+Subs: 0.78 NNC baseFreq: 0 false pagkain index: 1
+Subs: 0.78 NNC baseFreq: 0 false masa index: 3
+Subs: 0.78 NNC baseFreq: 0 false misa index: 3
+Total Grammar Checking Time Elapsed: 71
+
+
+7: Words: sa kanyan opisina 
+POS: RBL NNC NNC
+Lemmas: sa kanyan opisina 3
+Substitution Elapsed: 62
+Total Grammar Checking Time Elapsed: 62
+
+
+8: Words: ang nagiisang pinagkukunan 
+POS: DTC ? NNC
+Lemmas: ang isa kuha 3
+Substitution Elapsed: 50
+Total Grammar Checking Time Elapsed: 50
+
+
+9: Words: nagbibigay daan sa 
+POS: VBTR NNC CCT
+Lemmas: bigay daan sa 3
+Substitution Elapsed: 128
+Total Grammar Checking Time Elapsed: 128
+
+
+10: Words: tinignan ang bilang ng kaso 
+POS: VBTS DTC NNC CCB NNC
+Lemmas: tignan ang bilang ng kaso 5
+Substitution Elapsed: 58
+Subs: 0.78 VBOF baseFreq: 0 false tingnan index: 0
+Subs: 0.78 VBOF baseFreq: 0 false titignan index: 0
+Total Grammar Checking Time Elapsed: 59
+
+
+11: Words: Amerika at Tsina 
+POS: NNP CCA NNP
+Lemmas: Amerika at Tsina 3
+Substitution Elapsed: 32
+Total Grammar Checking Time Elapsed: 32
+
+
+12: Words: drayber ni De Lima 
+POS: NNC DTP NNP NNP
+Lemmas: drayber ni De Lima 4
+Substitution Elapsed: 62
+Total Grammar Checking Time Elapsed: 62
+
+
+13: Words: isang pares ng sapatos 
+POS: JJD_CCP NNC CCB NNC
+Lemmas: isa pares ng sapatos 4
+Substitution Elapsed: 61
+Total Grammar Checking Time Elapsed: 62
+
+
+14: Words: ang harang sa opisina 
+POS: DTC NNC CCT NNC
+Lemmas: ang harang sa opisina 4
+Substitution Elapsed: 64
+Total Grammar Checking Time Elapsed: 64
+
+
+15: Words: sa Maida Vale , London 
+POS: CCT NNP NNP PMC NNP
+Lemmas: sa Maida Vale , London 5
+Substitution Elapsed: 134
+Subs: 0.78 NNP baseFreq: 0 false Maid index: 1
+Subs: 0.78 NNP baseFreq: 0 false Malda index: 1
+Subs: 0.78 NNP baseFreq: 0 false Cale index: 2
+Subs: 0.78 NNP baseFreq: 0 false Hale index: 2
+Subs: 0.78 NNP baseFreq: 0 false Tale index: 2
+Subs: 0.78 NNP baseFreq: 0 false Vace index: 2
+Subs: 0.78 NNP baseFreq: 0 false Yale index: 2
+Total Grammar Checking Time Elapsed: 135
+
+
+16: Words: ang bombe ni Turing 
+POS: DTC NNP DTP NNP
+Lemmas: ang bombe ni Turing 4
+Substitution Elapsed: 84
+Subs: 0.78 NNP baseFreq: 0 false Gombe index: 1
+Total Grammar Checking Time Elapsed: 84
+
+
+17: Words: sa mga matitinong tao 
+POS: CCT DTCP JJD_CCP NNC
+Lemmas: sa mga tino tao 4
+Substitution Elapsed: 76
+Total Grammar Checking Time Elapsed: 76
+
+
+18: Words: bahay na pula . 
+POS: NNC CCP NNC PMP
+Lemmas: bahay na pula . 4
+Substitution Elapsed: 40
+Total Grammar Checking Time Elapsed: 40
+
+
+19: Words: iba pang mga bagay 
+POS: PRI RBI_CCP DTCP NNC
+Lemmas: iba pa mga bagay 4
+Substitution Elapsed: 45
+Total Grammar Checking Time Elapsed: 45
+
+
