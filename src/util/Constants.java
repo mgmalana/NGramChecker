@@ -17,6 +17,12 @@ public class Constants {
 	public static String TEST2_NICCO_SENTENCES = "data/test/thesis_2_nicco_test_sentences.txt";
 	public static String TEST2_NICCO_LEMMAS = "data/test/thesis_2_nicco_test_lemmas.txt";
 	public static String TEST2_NICCO_TAGS = "data/test/thesis_2_nicco_test_tags.txt";
+	public static String TEST_LAURENZ_SENTENCES = "data/test/thesis_laurenz_test_sentences.txt";
+	public static String TEST_LAURENZ_LEMMAS = "data/test/thesis_laurenz_test_lemmas.txt";
+	public static String TEST_LAURENZ_TAGS = "data/test/thesis_laurenz_test_tags.txt";
+	public static String TEST2_LAURENZ_SENTENCES = "data/test/thesis_2_laurenz_test_sentences.txt";
+	public static String TEST2_LAURENZ_LEMMAS = "data/test/thesis_2_laurenz_test_lemmas.txt";
+	public static String TEST2_LAURENZ_TAGS = "data/test/thesis_2_laurenz_test_tags.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";
