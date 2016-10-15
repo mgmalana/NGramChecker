@@ -29,15 +29,16 @@ public class TestMain {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		for (int i = 0; i <= 55; i++) {
-			Input testError = testErrorsProvider
-					.getTestErrors(Constants.TEST_SENTENCES, Constants.TEST_LEMMAS, Constants.TEST_TAGS).get(i);
-			if (testError.getNgramSize() > 1) {
-				checkGrammar(testError, i, fm);
-				fm.writeToFile("\n");
-			}
-		}
-		for (int i = 0; i <= 19; i++) {
+		// for (int i = 0; i <= 55; i++) {
+		// Input testError = testErrorsProvider
+		// .getTestErrors(Constants.TEST_SENTENCES, Constants.TEST_LEMMAS,
+		// Constants.TEST_TAGS).get(i);
+		// if (testError.getNgramSize() > 1) {
+		// checkGrammar(testError, i, fm);
+		// fm.writeToFile("\n");
+		// }
+		// }
+		for (int i = 21; i <= 21; i++) {
 			Input testError = testErrorsProvider
 					.getTestErrors(Constants.TEST2_SENTENCES, Constants.TEST2_LEMMAS, Constants.TEST2_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
@@ -67,12 +68,12 @@ public class TestMain {
 		fm.writeToFile("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 	}
 
-	public String checkGrammarAPI(String[] words, String[] pos, String[] lemmas, int ngramSize)
+	public String checkGrammarAPI(String[] words, String[] pos, String[] lemmas)
 			throws IOException, SQLException, CloneNotSupportedException {
 		Input input = new Input(words, pos, lemmas, words.length);
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
-		List<Suggestion> suggestions = checkGrammarRecursive(input, words.length, fm);
+		List<Suggestion> suggestions = checkGrammarRecursive(input, Constants.NGRAM_SIZE_UPPER, fm);
 		List<String> content = FileManager.readFile(new File(Constants.RESULTS_ALL));
 		StringBuilder sb = new StringBuilder();
 		for (String c : content) {
@@ -97,6 +98,14 @@ public class TestMain {
 			String[] lArr = Arrays.copyOfRange(input.getLemmas(), i, i + ngramSize);
 			Input subInput = new Input(wArr, pArr, lArr, ngramSize);
 			List<Suggestion> suggestions = new ArrayList<>();
+			fm.writeToFile("\n----------------");
+			System.out.println("\n----------------");
+			fm.writeToFile("Checking " + ArrayToStringConverter.convert(wArr) + " \nPOS: "
+					+ ArrayToStringConverter.convert(pArr) + "\nLemmas: " + ArrayToStringConverter.convert(lArr) + " "
+					+ wArr.length);
+			System.out.println("Checking " + ArrayToStringConverter.convert(wArr) + " \nPOS: "
+					+ ArrayToStringConverter.convert(pArr) + "\nLemmas: " + ArrayToStringConverter.convert(lArr) + " "
+					+ wArr.length);
 
 			long startTime = System.currentTimeMillis();
 			List<Suggestion> subSuggestions = subService.performTask(subInput, i, ngramSize);

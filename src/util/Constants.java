@@ -46,7 +46,7 @@ public class Constants {
 	public static double EDIT_DISTANCE_MISSING_WORD = 1;
 	public static double EDIT_DISTANCE_UNNECESSARY_WORD = 1;
 
-	public static int NGRAM_SIZE_UPPER = 7;
+	public static int NGRAM_SIZE_UPPER = 4;
 	public static int NGRAM_SIZE_LOWER = 2;
 
 }
