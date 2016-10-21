@@ -38,7 +38,7 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 21; i <= 21; i++) {
+		for (int i = 22; i <= 22; i++) {
 			Input testError = testErrorsProvider
 					.getTestErrors(Constants.TEST2_SENTENCES, Constants.TEST2_LEMMAS, Constants.TEST2_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
