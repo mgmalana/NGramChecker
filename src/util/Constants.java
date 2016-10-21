@@ -36,6 +36,7 @@ public class Constants {
 	public static String RESULTS_ALL = "results/all.txt";
 
 	public static int EDIT_DISTANCE_THRESHOLD = 1;
+	public static double EDIT_DISTANCE_RULE_BASED = 0.51;
 	public static double EDIT_DISTANCE_WRONG_WORD_FORM = 0.7; // 0.6
 	public static double EDIT_DISTANCE_SPELLING_ERROR = 0.75; // 0.65
 	public static double EDIT_DISTANCE_SPELLING_ERROR_2 = 0.78;
