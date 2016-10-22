@@ -1,20 +1,19 @@
-22: Words: Ang apo ko na 
-POS: DTC NNC PRS CCB
-Lemmas: Ang apo ko na 4
+26: Words: nag daan siya sa 
+POS: ? NNC PRS CCT
+Lemmas: nag daan siya sa 4
 
 ----------------
-Checking Ang apo ko na 
-POS: DTC NNC PRS CCB
-Lemmas: Ang apo ko na 4
-Substitution Elapsed: 651
-Subs: 0.8 PRS baseFreq: 2 false niya index: 2
-Insertion Elapsed: 19
-Deletion Elapsed: 132
-Del: 1.0 PRS baseFreq: 848 true null index: 2
-Del: 1.0 DTC baseFreq: 18 true null index: 0
-Merging Elapsed: 909
-Mer: 0.51 PRS_CCP baseFreq: 179 false kong index: 2
-Unmerging Elapsed: 16
-Total Grammar Checking Time Elapsed: 1727
+Checking nag daan siya sa 
+POS: ? NNC PRS CCT
+Lemmas: nag daan siya sa 4
+Substitution Elapsed: 181
+RB: 0.51 null baseFreq: 0 false nagdaan index: 0
+Insertion Elapsed: 3
+Deletion Elapsed: 51
+Del: 1.0 ? baseFreq: 21 true null index: 0
+Merging Elapsed: 60
+Mer: 0.6 VBTS baseFreq: 46 true nagdaan index: 0
+Unmerging Elapsed: 4
+Total Grammar Checking Time Elapsed: 300
 
 

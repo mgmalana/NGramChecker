@@ -65,6 +65,19 @@ public class WordPOSLemmaMapDao {
 		return false;
 	}
 
+	public boolean wordExists(String word) throws SQLException {
+		conn = DatabaseConnector.getConnection();
+		String selectQuery = "SELECT id FROM wordposlemmamap WHERE  word = ? ";
+		PreparedStatement ps = conn.prepareStatement(selectQuery);
+		ps.setString(1, word);
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()) {
+			return true;
+		}
+		conn.close();
+		return false;
+	}
+
 	public List<WordLemmaPOSMap> getWords() throws SQLException {
 		conn = DatabaseConnector.getConnection();
 		String selectQuery = "SELECT DISTINCT(word), pos FROM wordposlemmamap as a INNER JOIN pos as b ON a.posID = b.id";

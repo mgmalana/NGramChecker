@@ -12,6 +12,7 @@ import optimization.models.Suggestion;
 import optimization.testing.service.DeletionService;
 import optimization.testing.service.InsertionService;
 import optimization.testing.service.MergingService;
+import optimization.testing.service.RuleBasedService;
 import optimization.testing.service.SubstitutionService;
 import optimization.testing.service.TestErrorsProvider;
 import optimization.testing.service.UnmergingService;
@@ -22,10 +23,11 @@ import util.FileManager;
 public class TestMain {
 	static TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
 	static SubstitutionService subService;
+	static RuleBasedService rbService;
 
 	public static void main(String[] args) throws IOException, SQLException, CloneNotSupportedException {
 		subService = new SubstitutionService();
-
+		rbService = new RuleBasedService();
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
@@ -38,7 +40,7 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 22; i <= 22; i++) {
+		for (int i = 26; i <= 26; i++) {
 			Input testError = testErrorsProvider
 					.getTestErrors(Constants.TEST2_SENTENCES, Constants.TEST2_LEMMAS, Constants.TEST2_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
@@ -109,14 +111,29 @@ public class TestMain {
 
 			long startTime = System.currentTimeMillis();
 			List<Suggestion> subSuggestions = subService.performTask(subInput, i, ngramSize);
+			List<Suggestion> rbSuggestions = rbService.performTask(subInput, i, ngramSize);
 			long endTime = System.currentTimeMillis();
 			System.out.println("Substitution Elapsed: " + (endTime - startTime));
 			fm.writeToFile("Substitution Elapsed: " + (endTime - startTime));
-			if (subSuggestions == null) {// ngram is grammatically correct
-				System.out.println("Grammatically Correct");
+			if (subSuggestions == null && rbSuggestions == null) {// ngram is
+				System.out.println("Grammatically Correct"); // grammatically
+																// correct
 				fm.writeToFile("Grammatically Correct");
 			} else {
-				if (subSuggestions.size() > 0) {
+				if (rbSuggestions != null && rbSuggestions.size() > 0) {
+					for (Suggestion s : rbSuggestions) {
+						System.out.println("RB: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+								+ s.getAffectedIndex());
+						fm.writeToFile("RB: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
+								+ s.getFrequency() + " " + s.isHybrid() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
+								+ s.getAffectedIndex());
+					}
+				}
+
+				if (subSuggestions != null && subSuggestions.size() > 0) {
 					for (Suggestion s : subSuggestions) {
 						System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " "

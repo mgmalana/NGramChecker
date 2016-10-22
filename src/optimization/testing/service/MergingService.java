@@ -78,26 +78,6 @@ public class MergingService {
 		if (hasMergeSuggestionAlready.contains(mergingIndex))
 			return null;
 
-		if (isVowel(input.getWords()[mergingIndex].charAt(input.getWords()[mergingIndex].length() - 1))
-				&& input.getWords()[mergingIndex + 1].equals("na")) {
-			String suggestion = input.getWords()[mergingIndex] + "ng";
-			String[] tokenSuggestions = { suggestion };
-			String suggestedPOS = input.getPos()[mergingIndex] + "_CCP";
-
-			hasMergeSuggestionAlready.add(mergingIndex);
-			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS,
-					indexOffset + mergingIndex, Constants.EDIT_DISTANCE_RULE_BASED, h.getBaseNGramFrequency());
-		} else if (isN(input.getWords()[mergingIndex].charAt(input.getWords()[mergingIndex].length() - 1))
-				&& input.getWords()[mergingIndex + 1].equals("na")) {
-			String suggestion = input.getWords()[mergingIndex] + "g";
-			String[] tokenSuggestions = { suggestion };
-			String suggestedPOS = input.getPos()[mergingIndex] + "_CCP";
-
-			hasMergeSuggestionAlready.add(mergingIndex);
-			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS,
-					indexOffset + mergingIndex, Constants.EDIT_DISTANCE_RULE_BASED, h.getBaseNGramFrequency());
-		}
-
 		String concatNoSpace = input.getWords()[mergingIndex].toLowerCase()
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
 		String concatWithHyphen = input.getWords()[mergingIndex].toLowerCase() + "-"
@@ -114,14 +94,6 @@ public class MergingService {
 		}
 
 		return null;
-	}
-
-	public static boolean isVowel(char c) {
-		return "AEIOUaeiou".indexOf(c) != -1;
-	}
-
-	public static boolean isN(char c) {
-		return "Nn".indexOf(c) != -1;
 	}
 
 	private boolean isEqualWhenMerged(String inputLeft, String inputRight, String ruleWord) {
