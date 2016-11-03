@@ -135,6 +135,12 @@ public class RuleBasedService {
 					return new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, false, null, indexOffset + i,
 							Constants.EDIT_DISTANCE_RULE_BASED, 0);
 				}
+				String[] split = input.getWords()[i].split("-");
+				if (wplmDao.wordExists(split[0]) && wplmDao.wordExists(split[1])) {
+					String[] tokenSuggestions = { split[0], split[1] };
+					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, false, null, indexOffset + i,
+							Constants.EDIT_DISTANCE_RULE_BASED, 0);
+				}
 			}
 		}
 		return null;
