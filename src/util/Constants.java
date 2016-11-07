@@ -26,6 +26,8 @@ public class Constants {
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";
+	public static String FOR_INPUT_TEST_DATA = "data/input_test_data/";
+	public static String FOR_NGRAM_TEST_DATA = "data/ngram_test_data/";
 
 	public static String RESULTS_SUBSTITUTION = "results/substitution.txt";
 	public static String RESULTS_INSERTION = "results/insertion.txt";
