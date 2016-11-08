@@ -131,7 +131,13 @@ public class SubstitutionService {
 								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 					} else {
 						editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_DIFFERENT_POS;
-						String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
+						String[] tokenSuggestions = new String[1];
+
+						if (h.getIsHybrid()[i] == true)
+							tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
+						else {
+							tokenSuggestions[0] = h.getNonHybridWords()[i];
+						}
 						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
 								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
 					}

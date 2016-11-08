@@ -10,7 +10,7 @@ import v4.dao.DatabaseConnector;
 public class POSDao {
 
 	String posTable = "pos";
-	Connection conn = DatabaseConnector.getConnection();
+	Connection conn;
 
 	public int addPOSTag(String pos) throws SQLException {
 		String[] posTags = { pos };
@@ -19,6 +19,7 @@ public class POSDao {
 	}
 
 	public Integer[] addPOSTags(String[] posTags) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String insertQuery = "INSERT INTO pos(pos) VALUES (?) ON DUPLICATE KEY UPDATE pos=pos;";
 		String selectQuery = "SELECT id FROM pos WHERE pos = ?";
 
@@ -33,10 +34,12 @@ public class POSDao {
 			if (rs.next())
 				posIDs[i] = rs.getInt(1);
 		}
+		conn.close();
 		return posIDs;
 	}
 
 	public Integer[] getPosIDs(String[] posTags) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String selectQuery = "SELECT id FROM pos WHERE pos = ?";
 		Integer[] posIDs = new Integer[posTags.length];
 
@@ -48,6 +51,7 @@ public class POSDao {
 			if (rs.next())
 				posIDs[i] = rs.getInt(1);
 		}
+		conn.close();
 		return posIDs;
 	}
 

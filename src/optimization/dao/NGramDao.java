@@ -19,7 +19,7 @@ public class NGramDao {
 	private String ngramIndexTable;
 
 	public NGramDao(int ngramSize, String ngramTable, String ngramFrequencyTable, String ngramIndexTable) {
-		conn = DatabaseConnector.getConnection();
+
 		this.ngramSize = ngramSize;
 		this.ngramTable = ngramTable;
 		this.ngramFrequencyTable = ngramFrequencyTable;
@@ -27,6 +27,7 @@ public class NGramDao {
 	}
 
 	public void clearDatabase() throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String query1 = "DELETE FROM " + ngramTable;
 		String query2 = "DELETE FROM " + ngramFrequencyTable;
 		String query3 = "DELETE FROM " + ngramIndexTable;
@@ -39,9 +40,11 @@ public class NGramDao {
 
 		ps = conn.prepareStatement(query3);
 		ps.executeUpdate();
+		conn.close();
 	}
 
 	public int add(String words, String lemmas, String pos) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String insertQuery = "INSERT INTO " + ngramTable + " (words, lemmas, posID) VALUES (?, ?, ?)";
 
 		int posID = incrementPOSFrequency(pos);
@@ -53,10 +56,13 @@ public class NGramDao {
 		ps.executeUpdate();
 		ResultSet rs = ps.getGeneratedKeys();
 		rs.next();
-		return rs.getInt(1);
+		int id = rs.getInt(1);
+		conn.close();
+		return id;
 	}
 
 	public void delete(NGram ngram) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String deletePOSQuery = "DELETE FROM " + ngramFrequencyTable + " WHERE id =" + ngram.getPosID();
 		String deleteWordQuery = "DELETE FROM " + ngramTable + " WHERE id =" + ngram.getId();
 
@@ -65,9 +71,11 @@ public class NGramDao {
 		PreparedStatement ps1 = conn.prepareStatement(deleteWordQuery);
 		int ps1Val = ps1.executeUpdate();
 		System.out.println("PSVAL: " + psVal + " PS1VAL: " + ps1Val);
+		conn.close();
 	}
 
 	public int incrementPOSFrequency(String pos) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String updateQuery = "UPDATE " + ngramFrequencyTable + " SET frequency = frequency + 1 WHERE id = ?";
 		String insertQuery = "INSERT INTO " + ngramFrequencyTable + " (pos) VALUES (?)";
 
@@ -86,22 +94,28 @@ public class NGramDao {
 			rs.next();
 			id = rs.getInt(1);
 		}
+		conn.close();
 		return id;
 	}
 
 	public int getPOSSequenceFreqID(String pos) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String query = "SELECT id FROM " + ngramFrequencyTable + " WHERE pos = ?";
 
 		PreparedStatement ps = conn.prepareStatement(query);
 		ps.setString(1, pos);
 		ResultSet rs = ps.executeQuery();
 		while (rs.next()) {
-			return rs.getInt(1);
+			int id = rs.getInt(1);
+			conn.close();
+			return id;
 		}
+		conn.close();
 		return -1;
 	}
 
 	public List<NGram> getSimilarNGrams(int frequencyAtLeast, int offset) throws SQLException {
+		conn = DatabaseConnector.getConnection();
 		String query = "SELECT F.id, words, lemmas, pos FROM " + ngramTable + " F INNER JOIN " + "(SELECT id, pos FROM "
 				+ ngramFrequencyTable + " WHERE frequency >= ? LIMIT 1 OFFSET ?) B " + "ON F.posID = B.id";
 
@@ -118,6 +132,7 @@ public class NGramDao {
 			String[] pos = rs.getString(4).split(" ");
 			ngrams.add(new NGram(id, ngramSize, words, lemmas, pos));
 		}
+		conn.close();
 		if (ngrams.size() > 0)
 			return ngrams;
 		else

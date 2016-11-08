@@ -2,6 +2,7 @@ package util;
 
 public class Constants {
 
+	public static String CHECK_CORRECT_FILE = "results/correct_indexes.txt";
 	public static String TRAINING_SENTENCES = "data/train/train_sentences.txt";
 	public static String TRAINING_LEMMAS = "data/train/train_lemmas.txt";
 	public static String TRAINING_TAGS = "data/train/train_tags.txt";
@@ -23,6 +24,10 @@ public class Constants {
 	public static String TEST2_LAURENZ_SENTENCES = "data/test/thesis_2_laurenz_test_sentences.txt";
 	public static String TEST2_LAURENZ_LEMMAS = "data/test/thesis_2_laurenz_test_lemmas.txt";
 	public static String TEST2_LAURENZ_TAGS = "data/test/thesis_2_laurenz_test_tags.txt";
+
+	public static String TEST_JOEY_CORRECT_PHRASES_WORDS = "data/test/thesis_joey_phrases_xno_error_words.txt";
+	public static String TEST_JOEY_CORRECT_PHRASES_LEMMAS = "data/test/thesis_joey_phrases_xno_error_lemmas.txt";
+	public static String TEST_JOEY_CORRECT_PHRASES_TAGS = "data/test/thesis_joey_phrases_xno_error_tags.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";

@@ -25,6 +25,9 @@ public class TestMain {
 	static SubstitutionService subService;
 	static RuleBasedService rbService;
 
+	static int correct_count = 0;
+	static List<Integer> correct_index_list = new ArrayList<>();
+
 	public static void main(String[] args) throws IOException, SQLException, CloneNotSupportedException {
 		subService = new SubstitutionService();
 		rbService = new RuleBasedService();
@@ -40,17 +43,40 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 26; i <= 26; i++) {
+		for (int i = 0; i <= 1127; i++) {
 			Input testError = testErrorsProvider
-					.getTestErrors(Constants.TEST2_SENTENCES, Constants.TEST2_LEMMAS, Constants.TEST2_TAGS).get(i);
+					.getTestErrors(Constants.TEST_JOEY_CORRECT_PHRASES_WORDS,
+							Constants.TEST_JOEY_CORRECT_PHRASES_LEMMAS, Constants.TEST_JOEY_CORRECT_PHRASES_TAGS)
+					.get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
 				fm.writeToFile("\n");
 			}
 		}
 		long endTime = System.currentTimeMillis();
+		System.out.println("Number of Correct Phrases: " + correct_count);
+		printCorrectIndexList();
 		System.out.println("All-in-all Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		fm.close();
+	}
+
+	private static void printCorrectIndexList() throws IOException {
+		// TODO Auto-generated method stub
+		FileManager fm = new FileManager(Constants.CHECK_CORRECT_FILE);
+		fm.createFile();
+
+		int counter = 0;
+		int arrayIndex = correct_index_list.get(counter);
+		for (int i = 0; i <= 1128; i++) {
+			if (i == arrayIndex) {
+				fm.writeToFile("✓");
+				if (counter < correct_index_list.size() - 1) {
+					counter += 1;
+					arrayIndex = correct_index_list.get(counter);
+				}
+			} else
+				fm.writeToFile("");
+		}
 	}
 
 	private static void checkGrammar(Input testError, int lineNumber, FileManager fm)
@@ -65,6 +91,11 @@ public class TestMain {
 				+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
 		long startTime = System.currentTimeMillis();
 		List<Suggestion> suggestions = checkGrammarRecursive(testError, Constants.NGRAM_SIZE_UPPER, fm);
+		if (suggestions == null || suggestions.isEmpty()) {
+			correct_count++;
+			correct_index_list.add(lineNumber);
+		}
+
 		long endTime = System.currentTimeMillis();
 		System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		fm.writeToFile("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
@@ -121,28 +152,26 @@ public class TestMain {
 				fm.writeToFile("Grammatically Correct");
 			} else {
 				if (rbSuggestions != null && rbSuggestions.size() > 0) {
+					allSuggestions.addAll(rbSuggestions);
 					for (Suggestion s : rbSuggestions) {
 						System.out.println("RB: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("RB: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 				}
 
 				if (subSuggestions != null && subSuggestions.size() > 0) {
+					allSuggestions.addAll(subSuggestions);
 					for (Suggestion s : subSuggestions) {
 						System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 				}
 				if (subSuggestions != null) {
@@ -151,15 +180,14 @@ public class TestMain {
 					endTime = System.currentTimeMillis();
 					System.out.println("Insertion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Insertion Elapsed: " + (endTime - startTime));
+					allSuggestions.addAll(insSuggestions);
 					for (Suggestion s : insSuggestions) {
 						System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 
 					startTime = System.currentTimeMillis();
@@ -167,15 +195,14 @@ public class TestMain {
 					endTime = System.currentTimeMillis();
 					System.out.println("Deletion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Deletion Elapsed: " + (endTime - startTime));
+					allSuggestions.addAll(delSuggestions);
 					for (Suggestion s : delSuggestions) {
 						System.out.println("Del: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("Del: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 
 					startTime = System.currentTimeMillis();
@@ -184,15 +211,14 @@ public class TestMain {
 					endTime = System.currentTimeMillis();
 					System.out.println("Merging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Merging Elapsed: " + (endTime - startTime));
+					allSuggestions.addAll(merSuggestions);
 					for (Suggestion s : merSuggestions) {
 						System.out.println("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 
 					startTime = System.currentTimeMillis();
@@ -200,15 +226,14 @@ public class TestMain {
 					endTime = System.currentTimeMillis();
 					System.out.println("Unmerging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Unmerging Elapsed: " + (endTime - startTime));
+					allSuggestions.addAll(unmSuggestions);
 					for (Suggestion s : unmSuggestions) {
 						System.out.println("Unm: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 						fm.writeToFile("Unm: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
-								+ s.getFrequency() + " " + s.isHybrid() + " "
-								+ ArrayToStringConverter.convert(s.getTokenSuggestions()) + " index: "
-								+ s.getAffectedIndex());
+								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
+								+ ArrayToStringConverter.convert(s.getTokenSuggestions()));
 					}
 
 					if (subSuggestions.size() == 0 && insSuggestions.size() == 0 && delSuggestions.size() == 0
