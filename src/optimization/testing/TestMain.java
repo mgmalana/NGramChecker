@@ -43,10 +43,10 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 0; i <= 1127; i++) {
+		for (int i = 0; i <= 220; i++) {
 			Input testError = testErrorsProvider
-					.getTestErrors(Constants.TEST_JOEY_CORRECT_PHRASES_WORDS,
-							Constants.TEST_JOEY_CORRECT_PHRASES_LEMMAS, Constants.TEST_JOEY_CORRECT_PHRASES_TAGS)
+					.getTestErrors(Constants.TEST_JOEY_INCORRECT_PHRASES_WORDS,
+							Constants.TEST_JOEY_INCORRECT_PHRASES_LEMMAS, Constants.TEST_JOEY_INCORRECT_PHRASES_TAGS)
 					.get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
@@ -55,8 +55,10 @@ public class TestMain {
 		}
 		long endTime = System.currentTimeMillis();
 		System.out.println("Number of Correct Phrases: " + correct_count);
+		fm.writeToFile("Number of Correct Phrases: " + correct_count);
 		printCorrectIndexList();
 		System.out.println("All-in-all Total Grammar Checking Time Elapsed: " + (endTime - startTime));
+		fm.writeToFile("All-in-all Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		fm.close();
 	}
 
@@ -66,17 +68,20 @@ public class TestMain {
 		fm.createFile();
 
 		int counter = 0;
-		int arrayIndex = correct_index_list.get(counter);
-		for (int i = 0; i <= 1128; i++) {
-			if (i == arrayIndex) {
-				fm.writeToFile("✓");
-				if (counter < correct_index_list.size() - 1) {
-					counter += 1;
-					arrayIndex = correct_index_list.get(counter);
-				}
-			} else
-				fm.writeToFile("");
+		if (!correct_index_list.isEmpty()) {
+			int arrayIndex = correct_index_list.get(counter);
+			for (int i = 0; i <= 220; i++) {
+				if (i == arrayIndex) {
+					fm.writeToFile("✓");
+					if (counter < correct_index_list.size() - 1) {
+						counter += 1;
+						arrayIndex = correct_index_list.get(counter);
+					}
+				} else
+					fm.writeToFile("");
+			}
 		}
+
 	}
 
 	private static void checkGrammar(Input testError, int lineNumber, FileManager fm)

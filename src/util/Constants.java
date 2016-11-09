@@ -29,6 +29,10 @@ public class Constants {
 	public static String TEST_JOEY_CORRECT_PHRASES_LEMMAS = "data/test/thesis_joey_phrases_xno_error_lemmas.txt";
 	public static String TEST_JOEY_CORRECT_PHRASES_TAGS = "data/test/thesis_joey_phrases_xno_error_tags.txt";
 
+	public static String TEST_JOEY_INCORRECT_PHRASES_WORDS = "data/test/thesis_joey_phrases_words.txt";
+	public static String TEST_JOEY_INCORRECT_PHRASES_TAGS = "data/test/thesis_joey_phrases_tags.txt";
+	public static String TEST_JOEY_INCORRECT_PHRASES_LEMMAS = "data/test/thesis_joey_phrases_lemmas.txt";
+
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";
 	public static String FOR_INPUT_TEST_DATA = "data/input_test_data/";
@@ -54,7 +58,7 @@ public class Constants {
 	public static double EDIT_DISTANCE_MISSING_WORD = 1;
 	public static double EDIT_DISTANCE_UNNECESSARY_WORD = 1;
 
-	public static int NGRAM_SIZE_UPPER = 4;
+	public static int NGRAM_SIZE_UPPER = 7;
 	public static int NGRAM_SIZE_LOWER = 2;
 
 }

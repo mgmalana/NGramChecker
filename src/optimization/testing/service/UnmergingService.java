@@ -21,7 +21,6 @@ public class UnmergingService {
 		if (candidatesHGrams == null)
 			return suggestions;
 		System.out.println("Candidate N-gram Count: " + candidatesHGrams.size());
-
 		for (HybridNGram h : candidatesHGrams) {
 			Suggestion s = computeUnmergingEditDistance(input, indexOffset, h);
 			if (s != null)

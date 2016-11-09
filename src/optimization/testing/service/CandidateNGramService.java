@@ -149,7 +149,7 @@ public class CandidateNGramService {
 
 	public static List<HybridNGram> getCandidateNGramsUnmergingPermutation(String[] posTags, int ngramSize)
 			throws SQLException {
-		if (ngramSize + 1 > Constants.NGRAM_SIZE_UPPER)
+		if (ngramSize + 1 > 7)
 			return null;
 		long startTime = System.currentTimeMillis();
 
@@ -166,6 +166,7 @@ public class CandidateNGramService {
 					posPattern.append(" ");
 			}
 			// System.out.println(posPattern.toString());
+			System.out.println(posPattern);
 			posPatterns.add(posPattern.toString());
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);

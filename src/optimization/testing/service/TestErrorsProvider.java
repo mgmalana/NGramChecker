@@ -27,7 +27,6 @@ public class TestErrorsProvider {
 		while ((l = sourceLemmasReader.readLine()) != null) {
 			s = sourceSentencesReader.readLine();
 			p = sourceTagsReader.readLine();
-			System.out.println(s + " " + p + " " + l);
 			testErrors.add(new Input(s, p, l));
 		}
 
