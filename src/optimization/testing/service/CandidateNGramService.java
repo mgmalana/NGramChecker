@@ -161,7 +161,7 @@ public class CandidateNGramService {
 				if (i == j)
 					posPattern.append("%");
 				else
-					posPattern.append(posTags[j].replaceAll("_", "\\\\_"));
+					posPattern.append(posTags[j]);
 				if (j < ngramSize - 1)
 					posPattern.append(" ");
 			}

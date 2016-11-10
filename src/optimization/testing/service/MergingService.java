@@ -59,13 +59,18 @@ public class MergingService {
 				break;
 			}
 		}
-
 		Suggestion sugg = getMergingSuggestion(h, mergingIndex);
 		if (sugg != null)
 			return sugg;
 		else if (mergingIndex - 1 >= 0 && input.getPos()[mergingIndex].equals(input.getPos()[mergingIndex - 1])) {
 			sugg = getMergingSuggestion(h, mergingIndex - 1);
-			return sugg;
+			if (sugg != null)
+				return sugg;
+		} else if (mergingIndex + 2 < input.getPos().length
+				&& input.getPos()[mergingIndex + 2].equals(h.getPosTags()[mergingIndex])) {
+			sugg = getMergingSuggestion(h, mergingIndex + 1);
+			if (sugg != null)
+				return sugg;
 		}
 		if (mergingIndex - 1 >= 0) {
 			return getMergingSuggestion(h, mergingIndex - 1);
@@ -80,6 +85,7 @@ public class MergingService {
 
 		String concatNoSpace = input.getWords()[mergingIndex].toLowerCase()
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
+
 		String concatWithHyphen = input.getWords()[mergingIndex].toLowerCase() + "-"
 				+ input.getWords()[mergingIndex + 1].toLowerCase();
 		String equalWordMapping = wplmDao.getEqualWordMapping(concatNoSpace, concatWithHyphen,

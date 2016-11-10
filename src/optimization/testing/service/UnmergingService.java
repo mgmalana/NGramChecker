@@ -57,15 +57,32 @@ public class UnmergingService {
 		// if (unmergedWords != null)
 		// for (String[] s : unmergedWords)
 		// System.out.println(s[0] + " " + s[1]);
-		List<String> wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
-				wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
-		List<String> wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex + 1],
-				wordToUnmerge.substring(wordToUnmerge.length() - 2, wordToUnmerge.length()),
-				wordToUnmerge.length() - 1);
+		List<String> wordsGivenPOSLeft, wordsGivenPOSRight;
+		if (h.getIsHybrid()[unmergingIndex] && h.getIsHybrid()[unmergingIndex + 1]) {
+			wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
+					wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
+			wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex + 1],
+					wordToUnmerge.substring(wordToUnmerge.length() - 2, wordToUnmerge.length()),
+					wordToUnmerge.length() - 1);
+		} else if (h.getIsHybrid()[unmergingIndex] && h.getIsHybrid()[unmergingIndex + 1] == false) {
+			wordsGivenPOSLeft = wplmDao.getWordsGivenPosIDGivenPrefix(h.getPosIDs()[unmergingIndex],
+					wordToUnmerge.substring(0, 2), wordToUnmerge.length() - 1);
+			wordsGivenPOSRight = new ArrayList<>();
+			wordsGivenPOSRight.add(h.getNonHybridWords()[unmergingIndex + 1]);
+		} else if (h.getIsHybrid()[unmergingIndex] == false && h.getIsHybrid()[unmergingIndex + 1]) {
+			wordsGivenPOSLeft = new ArrayList<>();
+			wordsGivenPOSLeft.add(h.getNonHybridWords()[unmergingIndex]);
+			wordsGivenPOSRight = wplmDao.getWordsGivenPosIDGivenSuffix(h.getPosIDs()[unmergingIndex + 1],
+					wordToUnmerge.substring(wordToUnmerge.length() - 2, wordToUnmerge.length()),
+					wordToUnmerge.length() - 1);
+		} else {
+			wordsGivenPOSLeft = new ArrayList<>();
+			wordsGivenPOSLeft.add(h.getNonHybridWords()[unmergingIndex]);
+			wordsGivenPOSRight = new ArrayList<>();
+			wordsGivenPOSRight.add(h.getNonHybridWords()[unmergingIndex + 1]);
+		}
 		for (String wordGivenPOSLeft : wordsGivenPOSLeft) {
 			for (String wordGivenPOSRight : wordsGivenPOSRight) {
-				// System.out.println(wordGivenPOSLeft + " " + wordGivenPOSRight
-				// + " " + wordToUnmerge);
 				if (isEqualToUnmerge(input.getWords()[unmergingIndex], wordGivenPOSLeft, wordGivenPOSRight)) {
 					String[] tokenSuggestions = { wordGivenPOSLeft, wordGivenPOSRight };
 					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, h.getIsHybrid()[unmergingIndex],

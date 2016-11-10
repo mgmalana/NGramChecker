@@ -43,7 +43,7 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 0; i <= 220; i++) {
+		for (int i = 0; i <= 211; i++) {
 			Input testError = testErrorsProvider
 					.getTestErrors(Constants.TEST_JOEY_INCORRECT_PHRASES_WORDS,
 							Constants.TEST_JOEY_INCORRECT_PHRASES_LEMMAS, Constants.TEST_JOEY_INCORRECT_PHRASES_TAGS)
@@ -70,7 +70,7 @@ public class TestMain {
 		int counter = 0;
 		if (!correct_index_list.isEmpty()) {
 			int arrayIndex = correct_index_list.get(counter);
-			for (int i = 0; i <= 220; i++) {
+			for (int i = 0; i <= 212; i++) {
 				if (i == arrayIndex) {
 					fm.writeToFile("✓");
 					if (counter < correct_index_list.size() - 1) {
