@@ -166,7 +166,6 @@ public class CandidateNGramService {
 					posPattern.append(" ");
 			}
 			// System.out.println(posPattern.toString());
-			System.out.println(posPattern);
 			posPatterns.add(posPattern.toString());
 		}
 		List<HybridNGram> hybridNGrams = hybridDao.getCandidateHybridNGramsPermutation(posPatterns);

@@ -5,7 +5,11 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import optimization.models.Input;
 import optimization.models.Suggestion;
@@ -26,6 +30,8 @@ public class TestMain {
 	static RuleBasedService rbService;
 
 	static int correct_count = 0;
+	static int totalIndexesAffected = 0;
+	static int totalWords = 0;
 	static List<Integer> correct_index_list = new ArrayList<>();
 
 	public static void main(String[] args) throws IOException, SQLException, CloneNotSupportedException {
@@ -44,10 +50,9 @@ public class TestMain {
 		// }
 		// }
 		for (int i = 0; i <= 211; i++) {
-			Input testError = testErrorsProvider
-					.getTestErrors(Constants.TEST_JOEY_INCORRECT_PHRASES_WORDS,
-							Constants.TEST_JOEY_INCORRECT_PHRASES_LEMMAS, Constants.TEST_JOEY_INCORRECT_PHRASES_TAGS)
-					.get(i);
+			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS,
+					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_LAURENZ,
+					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
 				fm.writeToFile("\n");
@@ -59,6 +64,10 @@ public class TestMain {
 		printCorrectIndexList();
 		System.out.println("All-in-all Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		fm.writeToFile("All-in-all Total Grammar Checking Time Elapsed: " + (endTime - startTime));
+		System.out.println("Total Affected Words: " + totalIndexesAffected);
+		fm.writeToFile("Total Affected Words: " + totalIndexesAffected);
+		System.out.println("Total Words: " + totalWords);
+		fm.writeToFile("Total Words: " + totalWords);
 		fm.close();
 	}
 
@@ -70,9 +79,9 @@ public class TestMain {
 		int counter = 0;
 		if (!correct_index_list.isEmpty()) {
 			int arrayIndex = correct_index_list.get(counter);
-			for (int i = 0; i <= 212; i++) {
+			for (int i = 0; i <= 211; i++) {
 				if (i == arrayIndex) {
-					fm.writeToFile("✓");
+					fm.writeToFile("X");
 					if (counter < correct_index_list.size() - 1) {
 						counter += 1;
 						arrayIndex = correct_index_list.get(counter);
@@ -81,7 +90,7 @@ public class TestMain {
 					fm.writeToFile("");
 			}
 		}
-
+		fm.close();
 	}
 
 	private static void checkGrammar(Input testError, int lineNumber, FileManager fm)
@@ -95,7 +104,8 @@ public class TestMain {
 				+ ArrayToStringConverter.convert(testError.getPos()) + "\nLemmas: "
 				+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
 		long startTime = System.currentTimeMillis();
-		List<Suggestion> suggestions = checkGrammarRecursive(testError, Constants.NGRAM_SIZE_UPPER, fm);
+
+		List<Suggestion> suggestions = checkGrammarRecursive(testError, Constants.NGRAM_SIZE_UPPER, fm, 0);
 		if (suggestions == null || suggestions.isEmpty()) {
 			correct_count++;
 			correct_index_list.add(lineNumber);
@@ -111,7 +121,7 @@ public class TestMain {
 		Input input = new Input(words, pos, lemmas, words.length);
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
-		List<Suggestion> suggestions = checkGrammarRecursive(input, Constants.NGRAM_SIZE_UPPER, fm);
+		List<Suggestion> suggestions = checkGrammarRecursive(input, Constants.NGRAM_SIZE_UPPER, fm, 0);
 		List<String> content = FileManager.readFile(new File(Constants.RESULTS_ALL));
 		StringBuilder sb = new StringBuilder();
 		for (String c : content) {
@@ -120,7 +130,7 @@ public class TestMain {
 		return sb.toString();
 	}
 
-	private static List<Suggestion> checkGrammarRecursive(Input input, int ngramSize, FileManager fm)
+	private static List<Suggestion> checkGrammarRecursive(Input input, int ngramSize, FileManager fm, int offset)
 			throws SQLException, IOException, CloneNotSupportedException {
 
 		List<Suggestion> allSuggestions = new ArrayList<>();
@@ -129,8 +139,10 @@ public class TestMain {
 			return null;
 		if (ngramSize > input.getWords().length)
 			ngramSize = input.getWords().length;
-
+		Set<Integer> indexesToChange = new LinkedHashSet<>();
 		for (int i = 0; i + ngramSize - 1 < input.getWords().length; i++) {
+			List<Suggestion> perNGramSuggestions = new ArrayList<>();
+
 			String[] wArr = Arrays.copyOfRange(input.getWords(), i, i + ngramSize);
 			String[] pArr = Arrays.copyOfRange(input.getPos(), i, i + ngramSize);
 			String[] lArr = Arrays.copyOfRange(input.getLemmas(), i, i + ngramSize);
@@ -146,8 +158,8 @@ public class TestMain {
 					+ wArr.length);
 
 			long startTime = System.currentTimeMillis();
-			List<Suggestion> subSuggestions = subService.performTask(subInput, i, ngramSize);
-			List<Suggestion> rbSuggestions = rbService.performTask(subInput, i, ngramSize);
+			List<Suggestion> subSuggestions = subService.performTask(subInput, offset + i, ngramSize);
+			List<Suggestion> rbSuggestions = rbService.performTask(subInput, offset + i, ngramSize);
 			long endTime = System.currentTimeMillis();
 			System.out.println("Substitution Elapsed: " + (endTime - startTime));
 			fm.writeToFile("Substitution Elapsed: " + (endTime - startTime));
@@ -157,7 +169,7 @@ public class TestMain {
 				fm.writeToFile("Grammatically Correct");
 			} else {
 				if (rbSuggestions != null && rbSuggestions.size() > 0) {
-					allSuggestions.addAll(rbSuggestions);
+					perNGramSuggestions.addAll(rbSuggestions);
 					for (Suggestion s : rbSuggestions) {
 						System.out.println("RB: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -169,7 +181,7 @@ public class TestMain {
 				}
 
 				if (subSuggestions != null && subSuggestions.size() > 0) {
-					allSuggestions.addAll(subSuggestions);
+					perNGramSuggestions.addAll(subSuggestions);
 					for (Suggestion s : subSuggestions) {
 						System.out.println("Subs: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -181,11 +193,11 @@ public class TestMain {
 				}
 				if (subSuggestions != null) {
 					startTime = System.currentTimeMillis();
-					List<Suggestion> insSuggestions = InsertionService.performTask(subInput, i, ngramSize);
+					List<Suggestion> insSuggestions = InsertionService.performTask(subInput, offset + i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Insertion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Insertion Elapsed: " + (endTime - startTime));
-					allSuggestions.addAll(insSuggestions);
+					perNGramSuggestions.addAll(insSuggestions);
 					for (Suggestion s : insSuggestions) {
 						System.out.println("Ins: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -196,11 +208,11 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					List<Suggestion> delSuggestions = DeletionService.performTask(subInput, i, ngramSize);
+					List<Suggestion> delSuggestions = DeletionService.performTask(subInput, offset + i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Deletion Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Deletion Elapsed: " + (endTime - startTime));
-					allSuggestions.addAll(delSuggestions);
+					perNGramSuggestions.addAll(delSuggestions);
 					for (Suggestion s : delSuggestions) {
 						System.out.println("Del: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -211,12 +223,12 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					MergingService mergingService = new MergingService(subInput, i, ngramSize);
+					MergingService mergingService = new MergingService(subInput, offset + i, ngramSize);
 					List<Suggestion> merSuggestions = mergingService.performTask();
 					endTime = System.currentTimeMillis();
 					System.out.println("Merging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Merging Elapsed: " + (endTime - startTime));
-					allSuggestions.addAll(merSuggestions);
+					perNGramSuggestions.addAll(merSuggestions);
 					for (Suggestion s : merSuggestions) {
 						System.out.println("Mer: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -227,11 +239,11 @@ public class TestMain {
 					}
 
 					startTime = System.currentTimeMillis();
-					List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, i, ngramSize);
+					List<Suggestion> unmSuggestions = UnmergingService.performTask(subInput, offset + i, ngramSize);
 					endTime = System.currentTimeMillis();
 					System.out.println("Unmerging Elapsed: " + (endTime - startTime));
 					fm.writeToFile("Unmerging Elapsed: " + (endTime - startTime));
-					allSuggestions.addAll(unmSuggestions);
+					perNGramSuggestions.addAll(unmSuggestions);
 					for (Suggestion s : unmSuggestions) {
 						System.out.println("Unm: " + s.getEditDistance() + " " + s.getPosSuggestion() + " baseFreq: "
 								+ s.getFrequency() + " " + s.isHybrid() + " index: " + s.getAffectedIndex() + " "
@@ -244,16 +256,54 @@ public class TestMain {
 					if (subSuggestions.size() == 0 && insSuggestions.size() == 0 && delSuggestions.size() == 0
 							&& merSuggestions.size() == 0) {
 						// System.out.println("Recurse to " + (ngramSize - 1));
-						suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm);
+						suggestions = checkGrammarRecursive(subInput, ngramSize - 1, fm, offset + i);
 						if (suggestions != null)
-							allSuggestions.addAll(suggestions);
+							perNGramSuggestions.addAll(suggestions);
 					}
 				}
-
+				perNGramSuggestions = sortSuggestions(perNGramSuggestions);
+				if (perNGramSuggestions.size() > 0) {
+					int numberOfSuggestions = 2;
+					if (perNGramSuggestions.size() < numberOfSuggestions)
+						numberOfSuggestions = perNGramSuggestions.size();
+					for (int k = 0; k < numberOfSuggestions; k++) {
+						indexesToChange.add(perNGramSuggestions.get(k).getAffectedIndex());
+					}
+					// indexesToChange.add(perNGramSuggestions.get(0).getAffectedIndex());
+				}
+				// can be limited to 5 suggestions per n-gram to reduce
+				// suggestions
+				allSuggestions.addAll(perNGramSuggestions);
 			}
 		}
 
+		Integer[] indexesToChangeArray = indexesToChange.toArray(new Integer[indexesToChange.size()]);
+		totalIndexesAffected += indexesToChangeArray.length;
+		totalWords += input.getWords().length;
+		fm.writeToFile("Affected Indexes #" + indexesToChange.size() + " ["
+				+ ArrayToStringConverter.convert(indexesToChangeArray) + "]");
 		return allSuggestions;
+	}
+
+	private static List<Suggestion> sortSuggestions(List<Suggestion> suggestions) {
+		if (suggestions.size() > 0) {
+			Collections.sort(suggestions, new Comparator<Suggestion>() {
+				@Override
+				public int compare(final Suggestion object1, final Suggestion object2) {
+					return object1.getEditDistance() < object2.getEditDistance() ? -1
+							: object1.getEditDistance() > object2
+									.getEditDistance()
+											? 1
+											: (object1.getEditDistance() == object2.getEditDistance()
+													&& object1.getFrequency() > object2.getFrequency())
+															? -1
+															: (object1.getEditDistance() == object2.getEditDistance()
+																	&& object1.getFrequency() < object2.getFrequency())
+																			? 1 : 0;
+				}
+			});
+		}
+		return suggestions;
 	}
 
 }

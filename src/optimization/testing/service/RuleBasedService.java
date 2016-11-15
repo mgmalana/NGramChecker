@@ -60,7 +60,7 @@ public class RuleBasedService {
 				String suggestion = input.getWords()[i] + "ng";
 				String[] tokenSuggestions = { suggestion };
 				String suggestedPOS = input.getPos()[i] + "_CCP";
-				return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS, indexOffset + i,
+				return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS, indexOffset + i, i,
 						Constants.EDIT_DISTANCE_RULE_BASED, 0);
 			} else if (isN(input.getWords()[i].charAt(input.getWords()[i].length() - 1))
 					&& input.getWords()[i + 1].equals("na")) {
@@ -68,7 +68,7 @@ public class RuleBasedService {
 				String[] tokenSuggestions = { suggestion };
 				String suggestedPOS = input.getPos()[i] + "_CCP";
 
-				return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS, indexOffset + i,
+				return new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, suggestedPOS, indexOffset + i, i,
 						Constants.EDIT_DISTANCE_RULE_BASED, 0);
 			}
 
@@ -83,7 +83,7 @@ public class RuleBasedService {
 				String remaining = input.getWords()[i].substring(3);
 				if ((firstThree.equals("mas") || firstThree.equals("Mas")) && wplmDao.wordExists(remaining)) {
 					String[] tokenSuggestions = { firstThree, remaining };
-					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, false, null, indexOffset + i,
+					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, false, null, indexOffset + i, i,
 							Constants.EDIT_DISTANCE_RULE_BASED, 0);
 				}
 			}
@@ -108,7 +108,7 @@ public class RuleBasedService {
 				if (suggs == null) {
 					suggs = new ArrayList<>();
 				}
-				suggs.add(new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, null, indexOffset + i,
+				suggs.add(new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, null, indexOffset + i, i,
 						Constants.EDIT_DISTANCE_RULE_BASED, 0));
 			} else if (prefixesEndingConsonantsList.contains(input.getWords()[i].toLowerCase())) {
 
@@ -121,7 +121,7 @@ public class RuleBasedService {
 				if (suggs == null) {
 					suggs = new ArrayList<>();
 				}
-				suggs.add(new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, null, indexOffset + i,
+				suggs.add(new Suggestion(SuggestionType.MERGING, tokenSuggestions, false, null, indexOffset + i, i,
 						Constants.EDIT_DISTANCE_RULE_BASED, 0));
 			}
 
@@ -136,7 +136,7 @@ public class RuleBasedService {
 				if (wplmDao.wordExists(removedHyphen)) {
 					String[] tokenSuggestions = { removedHyphen };
 					return new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, false, null, indexOffset + i,
-							Constants.EDIT_DISTANCE_RULE_BASED, 0);
+							i, Constants.EDIT_DISTANCE_RULE_BASED, 0);
 				}
 			}
 		}

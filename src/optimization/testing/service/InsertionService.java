@@ -65,7 +65,7 @@ public class InsertionService {
 				String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 				double editDistance = Constants.EDIT_DISTANCE_MISSING_WORD;
 				return new Suggestion(SuggestionType.INSERTION, tokenSuggestions, true, h.getPosTags()[i],
-						indexOffset + i, editDistance, h.getBaseNGramFrequency());
+						indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
 			}
 		}
 		return null;

@@ -32,6 +32,28 @@ public class Constants {
 	public static String TEST_JOEY_INCORRECT_PHRASES_WORDS = "data/test/thesis_joey_phrases_words.txt";
 	public static String TEST_JOEY_INCORRECT_PHRASES_TAGS = "data/test/thesis_joey_phrases_tags.txt";
 	public static String TEST_JOEY_INCORRECT_PHRASES_LEMMAS = "data/test/thesis_joey_phrases_lemmas.txt";
+	public static String TEST_JOEY_INCORRECT_PHRASES_LEMMAS_LAURENZ = "data/test/thesis_joey_phrases_lemmas_laurenz.txt";
+
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_TEMP = "data/alignment_test/temp_erroneous_lemmas.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_TEMP_LAURENZ = "data/alignment_test/temp_erroneous_lemmas_laurenz.txt";
+
+	public static String TEST_JOEY_CORRECT_SENTENCES_WORDS = "data/alignment_test/t_EW_1_2_words.txt";
+	public static String TEST_JOEY_CORRECT_SENTENCES_TAGS = "data/alignment_test/t_EW_1_2_tags.txt";
+	public static String TEST_JOEY_CORRECT_SENTENCES_TAGS_HPOST = "data/alignment_test/t_EW_1_2_tags_HPOST.txt";
+	public static String TEST_JOEY_CORRECT_SENTENCES_LEMMAS = "data/alignment_test/t_EW_1_2_lemmas.txt";
+	public static String TEST_JOEY_CORRECT_LEMMAS_LAURENZ = "data/alignment_test/t_EW_1_2_lemmas_laurenz.txt";
+
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS = "data/alignment_test/error_words.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS = "data/alignment_test/error_tags.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST = "data/alignment_test/error_tags_HPOST.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS = "data/alignment_test/error_lemmas.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_LAURENZ = "data/alignment_test/error_lemmas_laurenz.txt";
+
+	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_WORDS = "data/alignment_test/correct_words.txt";
+	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_TAGS = "data/alignment_test/correct_tags.txt";
+	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_TAGS_HPOST = "data/alignment_test/correct_tags_HPOST.txt";
+	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_LEMMAS = "data/alignment_test/correct_lemmas.txt";
+	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_LEMMAS_LAURENZ = "data/alignment_test/correct_lemmas_laurenz.txt";
 
 	public static String FEEDING_TO_SQL = "data/feeding_to_sql";
 	public static String FED_TO_SQL = "data/fed_to_sql";
@@ -58,7 +80,8 @@ public class Constants {
 	public static double EDIT_DISTANCE_MISSING_WORD = 1;
 	public static double EDIT_DISTANCE_UNNECESSARY_WORD = 1;
 
-	public static int NGRAM_SIZE_UPPER = 7;
+	public static int NGRAM_SIZE_UPPER = 4;
+	public static int NGRAM_MAX_RULE_SIZE = 7;
 	public static int NGRAM_SIZE_LOWER = 2;
 
 }

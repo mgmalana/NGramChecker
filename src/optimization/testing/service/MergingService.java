@@ -95,7 +95,7 @@ public class MergingService {
 
 			hasMergeSuggestionAlready.add(mergingIndex);
 			return new Suggestion(SuggestionType.MERGING, tokenSuggestions, h.getIsHybrid()[mergingIndex],
-					h.getPosTags()[mergingIndex], indexOffset + mergingIndex,
+					h.getPosTags()[mergingIndex], indexOffset + mergingIndex, mergingIndex,
 					Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED, h.getBaseNGramFrequency());
 		}
 

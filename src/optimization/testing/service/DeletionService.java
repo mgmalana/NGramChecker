@@ -57,7 +57,7 @@ public class DeletionService {
 				List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
 				String[] tokenSuggestions = wordsGivenPOS.toArray(new String[wordsGivenPOS.size()]);
 				double editDistance = Constants.EDIT_DISTANCE_UNNECESSARY_WORD;
-				return new Suggestion(SuggestionType.DELETION, null, true, input.getPos()[i], indexOffset + i,
+				return new Suggestion(SuggestionType.DELETION, null, true, input.getPos()[i], indexOffset + i, i,
 						editDistance, h.getBaseNGramFrequency());
 			}
 		}

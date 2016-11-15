@@ -86,7 +86,7 @@ public class UnmergingService {
 				if (isEqualToUnmerge(input.getWords()[unmergingIndex], wordGivenPOSLeft, wordGivenPOSRight)) {
 					String[] tokenSuggestions = { wordGivenPOSLeft, wordGivenPOSRight };
 					return new Suggestion(SuggestionType.UNMERGING, tokenSuggestions, h.getIsHybrid()[unmergingIndex],
-							h.getPosTags()[unmergingIndex], indexOffset + unmergingIndex,
+							h.getPosTags()[unmergingIndex], indexOffset + unmergingIndex, unmergingIndex,
 							Constants.EDIT_DISTANCE_INCORRECTLY_UNMERGED, h.getBaseNGramFrequency());
 				}
 			}

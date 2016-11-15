@@ -53,6 +53,9 @@ public class SubstitutionService {
 			for (HybridNGram h : candidatesHGrams) {
 				Suggestion s = computeSubstitutionEditDistance(input, indexOffset, h);
 				if (s != null) {
+					if (s.getEditDistance() == 0) {
+						return null;
+					}
 					suggestions.add(s);
 				}
 
@@ -104,23 +107,37 @@ public class SubstitutionService {
 					editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
+							h.getPosTags()[i], indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
 				} else {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_SAME_POS;
 					String[] tokenSuggestions = { h.getNonHybridWords()[i] };
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
+							h.getPosTags()[i], indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
 				}
 			} else {
 				List<String> wordsWithSameLemmaAndPOS = wplmDao.getWordMappingWithLemmaAndPOS(input.getLemmas()[i],
 						h.getPosIDs()[i]);
 				if (h.getIsHybrid()[i] == true && wordsWithSameLemmaAndPOS.size() > 0) {
 					editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_FORM;
+
+					// boolean hasSameWord = false;
+					// for (String s : wordsWithSameLemmaAndPOS) {
+					// if (input.getWords()[i].equalsIgnoreCase(s)) {
+					// suggestion = new Suggestion(SuggestionType.SUBSTITUTION,
+					// null, h.getIsHybrid()[i],
+					// h.getPosTags()[i], indexOffset + i, i, 0,
+					// h.getBaseNGramFrequency());
+					// hasSameWord = true;
+					// break;
+					// }
+					// }
+
+					// if (hasSameWord == false) {
 					String[] tokenSuggestions = wordsWithSameLemmaAndPOS
 							.toArray(new String[wordsWithSameLemmaAndPOS.size()]);
 					suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-							h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
-
+							h.getPosTags()[i], indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
+					// }
 				} else {
 					List<String> wordsGivenPOS = wplmDao.getWordsGivenPosID(h.getPosIDs()[i]);
 					List<String> similarWords = getSimilarWords(input.getWords()[i], wordsGivenPOS);
@@ -128,7 +145,7 @@ public class SubstitutionService {
 						editDistance += Constants.EDIT_DISTANCE_SPELLING_ERROR;
 						String[] tokenSuggestions = similarWords.toArray(new String[similarWords.size()]);
 						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
+								h.getPosTags()[i], indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
 					} else {
 						editDistance += Constants.EDIT_DISTANCE_WRONG_WORD_DIFFERENT_POS;
 						String[] tokenSuggestions = new String[1];
@@ -139,7 +156,7 @@ public class SubstitutionService {
 							tokenSuggestions[0] = h.getNonHybridWords()[i];
 						}
 						suggestion = new Suggestion(SuggestionType.SUBSTITUTION, tokenSuggestions, h.getIsHybrid()[i],
-								h.getPosTags()[i], indexOffset + i, editDistance, h.getBaseNGramFrequency());
+								h.getPosTags()[i], indexOffset + i, i, editDistance, h.getBaseNGramFrequency());
 					}
 				}
 			}
@@ -188,7 +205,7 @@ public class SubstitutionService {
 					// input.getWords().length));
 					if (isGrammaticallyCorrect(inputClone, candidatesHGrams, input.getWords().length)) {
 						indexSuggestions.add(new Suggestion(SuggestionType.SUBSTITUTION, suggestion, false,
-								dic.getPosTag(), indexOffset + i, Constants.EDIT_DISTANCE_SPELLING_ERROR_2, 0));
+								dic.getPosTag(), indexOffset + i, i, Constants.EDIT_DISTANCE_SPELLING_ERROR_2, 0));
 						System.out.println(
 								"Within one SED: " + dic.getWord() + " " + dic.getPosTag() + " " + input.getWords()[i]);
 					}
