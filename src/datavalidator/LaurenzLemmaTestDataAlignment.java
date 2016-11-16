@@ -11,8 +11,7 @@ import util.FileManager;
 public class LaurenzLemmaTestDataAlignment {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		checkAlignment(Constants.TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_LEMMAS,
-				Constants.TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_LEMMAS_LAURENZ);
+		checkAlignment(Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS_HPOST);
 	}
 
 	private static void checkAlignment(String goldStandard, String input) throws FileNotFoundException, IOException {
@@ -51,7 +50,8 @@ public class LaurenzLemmaTestDataAlignment {
 			}
 		}
 		double score = (totalLemmas - incorrectLemmas) / totalLemmas;
-		System.out.println("Incorrect- " + incorrectLemmas + " Total- " + totalLemmas);
+		System.out.println("Incorrect- " + incorrectLemmas + " Total- " + totalLemmas + " Correct- "
+				+ (totalLemmas - incorrectLemmas));
 		System.out.println("Tagging Accuracy: " + score);
 	}
 
