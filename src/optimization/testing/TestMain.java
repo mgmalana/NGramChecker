@@ -49,10 +49,10 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 0; i <= 248; i++) {
+		for (int i = 31; i <= 31; i++) {
 			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS,
 					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS,
-					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST).get(i);
+					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS).get(i);
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
 				fm.writeToFile("\n");
@@ -79,7 +79,7 @@ public class TestMain {
 		int counter = 0;
 		if (!correct_index_list.isEmpty()) {
 			int arrayIndex = correct_index_list.get(counter);
-			for (int i = 0; i <= 248; i++) {
+			for (int i = 207; i <= 207; i++) {
 				if (i == arrayIndex) {
 					fm.writeToFile("X");
 					if (counter < correct_index_list.size() - 1) {

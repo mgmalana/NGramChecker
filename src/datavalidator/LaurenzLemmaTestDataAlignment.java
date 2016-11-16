@@ -11,7 +11,8 @@ import util.FileManager;
 public class LaurenzLemmaTestDataAlignment {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		checkAlignment(Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS_HPOST);
+		checkAlignment(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS,
+				Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST);
 	}
 
 	private static void checkAlignment(String goldStandard, String input) throws FileNotFoundException, IOException {
