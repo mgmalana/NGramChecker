@@ -49,7 +49,7 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 0; i <= 248; i++) {
+		for (int i = 97; i <= 97; i++) {
 			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS,
 					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS,
 					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST).get(i);

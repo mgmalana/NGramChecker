@@ -95,7 +95,7 @@ pixels bago sya
 compara sa isang
 saysayan ng koriyente
 tungkol_sa terminong koriyente
-elektron, nagkakameron ng
+elektron , nagkakameron ng
 bayagang mamamahayag na nag-uulat
 Pinakamayaman at pinapopuladong lungsod
 Hindi possibleng mahawaan
@@ -181,7 +181,6 @@ Nakapag aral siya sa militar
 Nag silbi siya sa
 Ang pag aaral sa sekswalidad
 pinaka bagong uri ng
-tinayo parin ang Torre_de_Manila
 para maka kuha ng
 taga Manila siya
 bahag hari iyon
@@ -189,6 +188,7 @@ partido ng Nationalista ay nag isa
 ang pag kain sa mesa
 nagbibigay daan sa
 ang pinaka importanteng aktibidad
+tinayo parin ang Torre_de_Manila
 ang iba't-ibang anyo
 kasama ang isa't-isa at
 At saaking paggaling ,
