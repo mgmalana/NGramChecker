@@ -81,7 +81,7 @@ public class TestMain {
 		int counter = 0;
 		if (!correct_index_list.isEmpty()) {
 			int arrayIndex = correct_index_list.get(counter);
-			for (int i = 0; i <= 248; i++) {
+			for (int i = 207; i <= 207; i++) {
 				if (i == arrayIndex) {
 					fm.writeToFile("X");
 					if (counter < correct_index_list.size() - 1) {
