@@ -41,7 +41,7 @@ public class Constants {
 	public static String TEST_JOEY_CORRECT_SENTENCES_TAGS = "data/alignment_test/t_EW_1_2_tags.txt";
 	public static String TEST_JOEY_CORRECT_SENTENCES_TAGS_HPOST = "data/alignment_test/t_EW_1_2_tags_HPOST.txt";
 	public static String TEST_JOEY_CORRECT_SENTENCES_LEMMAS = "data/alignment_test/t_EW_1_2_lemmas.txt";
-	public static String TEST_JOEY_CORRECT_LEMMAS_LAURENZ = "data/alignment_test/t_EW_1_2_lemmas_laurenz.txt";
+	public static String TEST_JOEY_CORRECT_SENTENCES_LEMMAS_LAURENZ = "data/alignment_test/t_EW_1_2_lemmas_laurenz.txt";
 
 	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS = "data/alignment_test/error_words.txt";
 	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS = "data/alignment_test/error_tags.txt";

@@ -49,10 +49,12 @@ public class TestMain {
 		// fm.writeToFile("\n");
 		// }
 		// }
-		for (int i = 97; i <= 97; i++) {
-			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS,
-					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS,
-					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST).get(i);
+		for (int i = 0; i <= 51; i++) {
+			Input testError = testErrorsProvider
+					.getTestErrors(Constants.TEST_JOEY_CORRECT_SENTENCES_WORDS,
+							Constants.TEST_JOEY_CORRECT_SENTENCES_LEMMAS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS)
+					.get(i);
+			totalWords += testError.getLemmas().length;
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);
 				fm.writeToFile("\n");
@@ -279,7 +281,6 @@ public class TestMain {
 
 		Integer[] indexesToChangeArray = indexesToChange.toArray(new Integer[indexesToChange.size()]);
 		totalIndexesAffected += indexesToChangeArray.length;
-		totalWords += input.getWords().length;
 		fm.writeToFile("Affected Indexes #" + indexesToChange.size() + " ["
 				+ ArrayToStringConverter.convert(indexesToChangeArray) + "]");
 		return allSuggestions;

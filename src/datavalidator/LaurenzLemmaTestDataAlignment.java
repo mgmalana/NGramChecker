@@ -5,15 +5,18 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
+import optimization.models.Input;
+import optimization.testing.service.TestErrorsProvider;
 import util.Constants;
 import util.FileManager;
 
 public class LaurenzLemmaTestDataAlignment {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		checkAlignment(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS,
-				Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_HPOST);
+		checkAlignment(Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS_HPOST);
 	}
+
+	static TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
 
 	private static void checkAlignment(String goldStandard, String input) throws FileNotFoundException, IOException {
 
@@ -23,12 +26,16 @@ public class LaurenzLemmaTestDataAlignment {
 		double incorrectLemmas = 0;
 		double totalLemmas = 0;
 		for (int i = 0; i < inputList.size(); i++) {
-			if (inputList.get(i).length() > 0 && inputList.get(i).charAt(inputList.get(i).length() - 1) == ' ') {
-				inputList.set(i, inputList.get(i).substring(0, inputList.get(i).length() - 1));
-			}
-			if (goldList.get(i).length() > 0 && goldList.get(i).charAt(goldList.get(i).length() - 1) == ' ') {
-				goldList.set(i, goldList.get(i).substring(0, goldList.get(i).length() - 1));
-			}
+			// if (inputList.get(i).length() > 0 &&
+			// inputList.get(i).charAt(inputList.get(i).length() - 1) == ' ') {
+			// inputList.set(i, inputList.get(i).substring(0,
+			// inputList.get(i).length() - 1));
+			// }
+			// if (goldList.get(i).length() > 0 &&
+			// goldList.get(i).charAt(goldList.get(i).length() - 1) == ' ') {
+			// goldList.set(i, goldList.get(i).substring(0,
+			// goldList.get(i).length() - 1));
+			// }
 
 			String[] inputs = inputList.get(i).split(" ");
 			String[] golds = goldList.get(i).split(" ");
@@ -54,6 +61,16 @@ public class LaurenzLemmaTestDataAlignment {
 		System.out.println("Incorrect- " + incorrectLemmas + " Total- " + totalLemmas + " Correct- "
 				+ (totalLemmas - incorrectLemmas));
 		System.out.println("Tagging Accuracy: " + score);
+
+		int sum = 0;
+		for (int i = 0; i <= 51; i++) {
+			Input testError = testErrorsProvider
+					.getTestErrors(Constants.TEST_JOEY_CORRECT_SENTENCES_WORDS,
+							Constants.TEST_JOEY_CORRECT_SENTENCES_LEMMAS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS)
+					.get(i);
+			sum += testError.getWords().length;
+		}
+		System.out.println(sum);
 	}
 
 }
