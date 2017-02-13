@@ -1,0 +1,25 @@
+Ang pinakamaagang kilalang paggamit ng “ equal sign ” ay matatagpuan sa The Whetstone_of_Witte ( 1557 ) ni Robert Recorde .
+Ang_mga palatandaang + para_sa adisyon , - para_sa subtraksyon , at ang paggamit ng titik para_sa hindi kilalang valyu ay nasa Arithemeica Integra ( 1544 ) ni Michael Steifel .
+Ipinikakilala ni Rene Descartes sa La Geometrie ( 1637 ) ang konsepto ng talangguhit ng ekwasyong polinomyal .
+Pinasikat niya ang paggamit ng_mga titik mula_sa simula ng alpabeto upang mangahulugan ng_mga constants at mga titik mula_sa dulo ng alpabeto upang mangahulugan ng_mga variable , kagaya_ng makikita sa_itaas , sa pangkalahatang pormula para_sa isang polinomyal sa isang variable , kung saan ang_mga a ay nangangahulugang constant at ang x ang nangangahulugang variable .
+Ipinakilala ni Descartes ang paggamit ng superscripts na nanagangahulugang exponent rin .
+Nagtutugma ang bawat polinomyal sa polinomyal function , kung saan ang f(x) ay nakatakdang katumbas sa polinomyal at sa polinomyal function , kung saan ang polinomyal ay nakatakdang katumbas sa zero .
+Ang_mga solusyon sa ekwasyon ay tinatawag na “ roots_of_the_polynomial ” at sila ang_mga zero ng function at x-intercept sa talangguhit .
+Kung ang x = a ay ang solusyon sa ekwasyon , ang ( x - a ) ay nagiging factor ng polinomyal .
+Ang ilang mga polinomyal , tulad_ng f ( x ) = x2 + 1 , ay walang anumang mga root sa lahat ng real number .
+Subalit , kung ang pangkat ng_mga pinapayagang mga kandidato ay pinapalawak mga numerong tinuturing complex , ang bawat ( non-constant ) na polinomyal ay may isa o mas maraming natatanging root ; sumusunod ito mula_sa pangunahing teorema ng algebra .
+Merong pagkakaiba sa_pagitan_ng pag-aaproksima sa roots at paghahanap ng eksaktong root .
+Ang_mga pormula para_sa mga roots ng polinomyals hanggang sa antas ng 2 ay kilala mula pa noong sinaunang beses ( tingnan ang ekwasyon na parisukat ) at hanggang sa antas ng 4 mula noong ika-16 siglo ( tingnan ang Gerolamo Cardano , Niccolo Fontana Tartaglia ) .
+Ngunit ang_mga pormula para_sa antas ng 5 ay naiwasan ng_mga mananaliksik .
+Noong 1824 , napatunayan ni Niels Henrik Abel ang kapansin-pansin na resulta na hindi kailangan ng pangkalahatang pormula ( kinasasangkutan lamang ang pang-aritmetika na operasyon at Radicals ) para_sa roots ng isang polinomyal na degree ang 5 o higit pa sa mga tuntunin ng kanyang mga coefficients ( tingnan ang teoremang Abel-Ruffini ) .
+Ang resulta na ito ay nagmarka ng umpisa ng teoryang Galois na isang detalyadong pag-aaral ng_mga relasyon ng_mga roots ng_mga polinomyal .
+Tinatayang mga solusyon sa anumang ekwasyong polinomyal ay matatagpuan sa_pamamagitan_ng alinmang paraang Newton o sa_pamamagitan_ng isa sa nakararaming modernong paraan ng pag-aaproksimahing solusyon .
+Sa polinomyal na nasa anyong Chebyshev , maaring gamitin ang Clenshaw algorithim .
+Bilang isang praktikal na bagay , ang isang tinatayang solusyon na tumpak ay maaaring maging kasing kapaki-pakinabang bilang isang eksaktong solusyon .
+Ang pagkakaiba sa engine ng Charles Babbage ay dinisenyo upang awtomatikong lumikha ng malaking mga talahanayan ng tinatayang halaga ng_mga logarithms at trigonometrikong function , sa_pamamagitan_ng pagsusuri ng_mga aproksimahing polinomyal sa maraming punto gamit ang paraang Newton .
+Ang numerical na paglutas ng ekwasyong polinomyal sa hindi kilalang valyu ay madaling magagawa sa komputer sa_pamamagitan_ng paraang Durand-Kerner o sa_pamamagitan_ng ibang root-finding algorithm .
+Ang pagbabawas ng_mga ekwasyon sa ilang mga hindi kilalang valyu ay tinalakay sa artikulo sa “ Burchberger’s algorithm ” .
+Ang espesyal na kaso kung saan ang lahat ng polinomyal ng antas isa ay tinatawag na sistema ng linear equation , na kung saan ang isang hanay ng_mga iba't_ibang pamamaraan ng solusyon na umiiral , kabilang ang klasikong Gaussian elimination .
+Ipinakita ni Richard Birkeland at Karl Meyr na ang_mga root ng kahit anong polinomyal ay maaring ipahayag sa tuntunin ng multivariate hypergeometric functions .
+Ipinakita ni Ferdinand_von_Lindemann at Hiroshi Umemura na ang_mga roots ay maari ring ipahayag sa tuninin ng Siegel modular functions , mga heneralisasyon ng theta functions na lumalabas sa teorya ng elliptic functions .
+Ang_mga paglalarawan ng_mga roots ng aribitraryong polinomyal ay mga heneralisasyon ng_mga paraang nakaraang natuklasang sumasagot sa ekwasyong quintic .

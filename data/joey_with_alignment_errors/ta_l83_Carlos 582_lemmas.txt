@@ -1,0 +1,25 @@
+Sukat ng_mga real numbers ang continuous quantities .
+Maaari ito liwanag sa daan teorya gamit ang decimal representations na mayroon infinite sequence ang_mga numero sa kanan ng decimal point ; ito ay dalas kita tulad_ng 324.823211247 ...
+pahiwatig ng_mga ellipsis ( tatlo tuldok ) na dami pa ang sunod ng_mga numero nito .
+May dalawa una mga tangi ng maging isa ordered field at mayroon least upper bound property ang_mga real numbers .
+Ang una ay sabi buo ng isang field ang_mga real numbers na may addition at multiplikasyon , pati na rin division sa_pamamagitan_ng nonzero numbers na maaari totally ordered sa isa linya ng numero sa isa daan na tugma addition at multiplikasyon .
+Ang dalawa ay sabi na kung isa nonempty set ng real numbers ay may upper bound , ito ay mayroon baba upper bound .
+Ang dalawa tangi na ito ay tukoy sa mga real numbers na kumpleto , at payag ang iba mga tangi nito na hinuha .
+Halimbawa , maaari natin tunay sa mga tangi ito na ang_mga polynomial na may odd degree na may real coefficients ay mayroon tunay na root , at dagdag mo pa ang square root ng -1 sa mga real numbers , kuha ang complex numbers na ang resulta ay algebraically closed .
+Halos dati isip na aproksimasyon ang_mga sukat sa physical sciences sa mga real numbers .
+Habang ang_mga numero ay gamit para_sa decimal fractions na sagisag sa rational numbers , ang sulat nito sa decimal terms ay rekomenda na ito ay mga aproksimasyon sa theoretical underlying real number .
+sabi computable ang real number kung may mga iral na algorithm na bunga sa mga numero .
+Dahil unti lamang ng_mga algorithms ngunit hindi bilang ang reals , halos lahat ng real numbers ay hindi computable .
+Tanggap ng iba constructivists ang mayroon ng_mga reals na computable .
+Mas lawak ang set ng definable numbers ngunit bilang ang_mga ito .
+dami sa mga real numbers lamang ang sukat ng_mga computer .
+Karaniwan ladaw ang isa subset ng_mga rationals , eksakto gamit ang floating point numbers o fixed-point numbers , at gamit ang_mga rationals na ito bilang approksimasyon ng_mga lapit na real values .
+Isa metodo ang arbitrary-precision arithmetic upang kita ang arbitrary rational numbers , limita lamang ng available memory , pero dahil_sa dami gamit ng fixed number ng bits of precision na pasiya ng laki ng processor registers .
+Dagdag pa sa mga rational values na ito , dami trato ( countable ) irrational numbers ang computer algebra systems sa lagay ng algebraic description ( tulad_ng " sqrt ( 2 ) " ) kaysa_sa rational approximation .
+Tiyak na unti programming languages ang gamit ng “ real ” upang ladaw ang main numeric data type , tulad_ng AppleScript .
+Gamit ng_mga mathematicians ang simbolo R ( o , ang letra " R " sa blackboard bold , Unicode ) upang kita ang set of all real numbers .
+tukoy sa n-dimensional space na mayroon real coordinates ang notasyon na Rn ; halimbawa , ang value mula R3 ay laman ng tatlo real numbers at tukoy sa lokasyon sa 3 - dimensional space .
+Sa matematika , gamit ang real bilang isa adjective , ibig sabi na ang field of real numbers ang underlying field .
+Halimbawa , real matrix , real polynomial at real Lie algebra .
+Bilang isa substansive , strikto gamit sa reference sa lahat ng real numbers ang termino mismo ( hal. The " set_of_all_reals " ) .
+Gamit ang Vulgar fractions ng_mga Egyptians noon 1000 BC ; ang Vedic " Sulba Sutras " ( " rule_of_chords " sa Sanskrit ) , ca. 600 BC , maaari ang una gamit ng irrational numbers .

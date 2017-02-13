@@ -1,0 +1,162 @@
+Habang ang h2 ay hindi aktibo sa_ilalim_ng pamantayang kundisyon , ito ay nakakabuo ng tambalan sa karamihan ng_mga elemento .
+Milyon sa mga hydrocarbons ang kilala , ngunit hindi sila nabubuo ng direktang reaksyon ng elementaryang hydrogen at carbon ( bagaman ang synthesis gas production ay nasusundan ng proseso ng Fischer-tropsch sa hindi pagsasama ng hydrocarbons , habang ito ay nagsisimula kasama ng uling at ng elementong hydrogen ay ginagawa sa situ ) .
+Ang hydrogen ay nakabubuo ng compounds kasama ng ibang elemento na mas electronegative , katulad_ng halogens ( e.g. F , Cl , Br , I ) ; sa mga compounds na ito ang hydrogen ang may bahagyang positibong charge .
+Kapag itinambal sa flourine , oxygen , o nitrogen , ang hydrogen ay kayang magpartisipa sa anyong matibay na noncovalent bonding na tinatawag na hydrogen bonding , na kritikal sa kasiguruhan ng maraming biological molecules .
+Ang hydrogen ay nakakabuo ng compounds sa may kaunting electronegative na mga elemento , katulad_ng metals at metalloids , na tumatanggap ng bahagyang negatibong charge .
+Ang_mga tambalang ito ay kilala bilang hydrides .
+Ang hydrogen ay bumubuo ng malawak na uri ng_mga compounds sa carbon .
+Dahil_sa kanilang pangkalahatang ugnayan sa mga bagay na may buhay , ang_mga tamabalang ito ay tinawag bilang organic compounds ; ang pag-aaral ng kanilang mga katangian ay kilala bilang organic chemistry at ang kanilang pag-aaral sa konteksto ng_mga nabubuhay na organismo ay kilala bilang biochemistry .
+Sa ibang mga kahulugan , ang_mga tambalang " organic " ay kinakailangang magkaroon ng carbon ( bilang lumang halimbawa , urea )
+Gayunman , karamihan sa mga iyon ay mayroong hydrogen , at dahil iyon ang carbon-hydrogen bond na nagbibigay sa klase ng tambalang ito ng partikular nitong kemikal na katangian , ang carbon-hydrogen bonds ay kinakailangan sa ilang mga depinisyon ng salitang " organic " sa chemistry .
+Itong huling depinisyon ay hindi perpekto , ngunit , sa depinisyong ito , ang urea ay hindi kasama bilang organic compound ) .
+Sa inorganic chemistry , ang hydrides ay maaring maging bridging ligands na nagdudugtong ng dalawang metal centers sa isang coordination comple x .
+Ang tungkulin na ito ay karaniwang partikular sa ika-13 na grupo sa mga elemento , lalo na sa Boranes ( boron hydrides ) at aluminum complexes , maging sa mga clustered carboranes .
+Ang_mga compounds ng hydrogen ay karaniwang tinatawag na hydrides , terminong ginagamit madalas .
+Sa mga chemists , ang terminong " hydride " ay karaniwang nagpapahiwatig na ang H atom ay nagkakaroon ng negatibo o anionic na katangian , pinapakita bilang H- , ang pagkakaroon ng hydride anion , iminungkahi ni G.N. Lewis ng taong 1916 para_sa ika-1 grupo at ng II salt-like hydrides , ipinakita ni Moers taong 1920 sa electrolysis ng molten lithium hydride ( LiH ) , na gumawa ng gemotric figurestoichiometric quantity ng hydrogen at ng anode .
+Para_sa hydrides maliban sa ika-1 grupo at II metal , ang terminong tunay na nakakalinlang , kung isasaalang-alang ang mababang electronegativity ng hydrogen .
+Kataliwasan sa ika-2 grupo ng hydrides ay ang BeH2 , na polymeric .
+Sa lithium aluminum hydride , ang A1H4- anion ay nagdadala ng hydridic centers na matatag na nakalakip sa A1 ( III )
+Bagaman ang hydrides ay maaring mabuo sa halos lahat ng pangunahing grupo ng_mga elemento , ang numero at kombinasyon ng_mga posibleng compounds ay nag-iiba sa karamihan ; halimbawa , mayroong higit sa 100 na binary borane hydrides na napag-alamanan .
+Ang binary indium hydride ay hindi pa nakikilala , bagaman mayroong malalaking complexes .
+Ang oxidation ng H2 ay pormal na nagbibigay ng proton na H+ , ang species na ito ay ang sentro sa pag-uusap ng acids , bagaman ang terminong proton ay hindi masyadong ginagamit sa pagsangguni sa positibong charge o cationic hydrogen , pinapakita bilang H+ .
+Ang isang bare proton na H+ ay hindi maaring lumabas sa isang solusyon dahil maari nitong ikabit ang sarili sa ibang atoms at molecules na may electrons .
+Upang maiwasan ang kombenyenteng fiction ng naked " solvated proton " sa solusyon , ang acidic aqueous solutions ay paminsang kinokonsiderang mayroong hydronium ion ( H3O+ ) nakaayos para makabuo ng H9O4+ .
+Ang ibang oxonium ions ay nakikita kapag ang tubig ay nasa solusyon kasama ng ibang pantunaw .
+Bagaman hindi karaniwan sa mundo , isa sa karaniwang ions sa kalawakan ay ang H3+ ion , kilala bilang protonated molecular hydrogen o ang triaotomic hydrogen atom .
+Ang hydrogen ay may tatlong natural na isotopes , pinapakita bilang 1H , ²H , at ³H .
+Ang ibang hindi matatag na nuclei ( 4H hanggang 7H ) ay nasusuri sa laboratoryo ngunit hindi na-oobserbahan sa kalikasan .
+Ang hydrogen ay ang nag-iisang elemnto na mayroong iba't_ibang pangalan sa mga isotopes nito na kasalukuyang ginagamit .
+Noong unang pag-aaral ng radioacvtivity , maraming mabibigat na isotopes ang nabigyan ng pangalan , ngunit ang_mga pangalang iyon ay hindi na ginagamit )
+Ang simbolong D at T ( sa halip ng ² H at ³ H ) ay minsan ginagamit para_sa deuterium at tritiyum , ngunit ang kaukulang simbolo na P ay ginagamit na para_sa posporus at samakatuwid ay hindi na magagamit para_sa protium .
+Sa mga alituntunin ng nomenclature into , ang International_Union_of_Pure_and_Applied_Chemistry ay nagbibigay-daan sa anumang D , T , ² H , at ³ H na gagamitin , bagaman ² H at ³ H ay ang mas nararapat .
+Ang hydrogen ay ang pinaka-laganap na elemento sa kalawakan , binubuo ang 75 % ng normal na mater sa_pamamagitan_ng mass at higit 90 % na bilang ng atoms .
+Ang elementong ito ay mas higit na matatagpuan sa mga bituin at malalaking gas na planeta .
+Ang molecular clouds ng H2 ay may kaugnayan sa pormasyon ng_mga bituin .
+Ang Hydrogen ay gumaganap ng isang mahalagang papel sa pagbibigay ng lakas sa mga bituin sa_pamamagitan_ng proton-proton reaksyon at CNO cycle nuclear na pagsasanib .
+Sa buong kalawakan , ang hydrogen ay higit na makikita sa atomic at plasma states na may mga katangian na naiiba mula_sa molecular hydrogen .
+Bilang isang plasma , ang electron at proton ng hydrogen ay hindi magkasama , nagbubunga ng mataas na electrical conductivity at mataas na emissivity ( nagbibigay ng ilaw mula_sa araw at bituin )
+Ang_mga particles na charged ay may mataas na impluwensya galing_sa magnetic at electric fields . Halimbawa , sa solar na hangin sila ay nakikisalamuha sa magnetosphere ng mundo na nagbibigay ng birkeland currents at aurora .
+Ang hydrogen ay matatagpuan sa neutral atomic state sa interstellar medium .
+Ang malaking parte ng neutral hydrogen na matatagpuan sa damped lyman-alpha systems ay napag-alaman na dominante sa cosmological baryonic density ng kalawakan hanggang sa redshift z = 4
+Sa_ilalaim_ng ordinaryong kundisyon sa mundo , ang elemental hydrogen ay isang diatomic gas , H2 ( para_sa datos tingnan ang talaan )
+Gayunpaman , ang hydrogen gas ay bihira sa atmosphera ng mundo ( 1 ppm sa volume ) dahil_sa magaan nitong timbang , na nagbibigay-daan sa pagtakas mula_sa gravity ng mundo ng mas madali kaysa_sa mabibigat na gases .
+Bagaman ang H atoms at H2 molecules ay laganap sa interstellar space , sila ay mahirap mabuo , pisanin , at masala sa mundo .
+Ganunpaman , ang hydrogen ay ang ikatlong pinaka-likas na sangkap sa_ibabaw ng Earth .
+Para_sa hydrides maliban sa ika-1 grupo at II metal , ang terminong tunay na nakakalinlang , kung isasaalang-alang ang mababang electronegativity ng hydrogen .
+Ang hydrogen gas ay mull sa ilang mga bacteria at algae at isang likas na bahagi ng flatus .
+Ang methane ay isang pinagumulan ng hydrogen na may malaking importansya .
+Ang hydrogen gas na H2 ay unang artipisyal na ginawa at pormal na inilarawan ni T. Von Hohenheim ( kilala bilang Paracelsus , 1493 - 1541 ) sa paraan ng paghalo ng metals sa mga matatapang na asido .
+Siya ay walang kamalayan na ang nasusunog na gas na ginawa sa_pamamagitan_ng reaksyong kemikal na ito ay isang bagong sangkap kemikal .
+Noong 1671 , si Robert Boyle ay muling nakatuklas at inilarawan ang reaksyon sa_pagitan_ng mga pinagtabasan na bakal at pinalabnaw na asido , na nagreresulta sa produksyon ng hydrogen gas .
+Noong 1766 , Si Henry Cavendish ay ang unang nakakilala ng hydrogen gas bilang isang discrete na sangkap , sa_pamamagitan_ng pagkilala ng gas mula_sa isang metal-acid na reaksyon bilang " sumisiklab na hangin " at karagdagang paghahanap na gas ang gumagawa ng tubig kapag ininit .
+Si Cavendish ay nagtuon ng pansin sa hydrogen sa pag-eksperimento ng_mga acids at mercury .
+Bagaman hindi wasto ang kaniyang ipinagpalagay na ang hydrogen ay isang liberated na bahagi ng asoge sa halip na ang asido , siya ay tumpak pa rin na naglalarawan ng ilang mga susing katangian ng hydrogen .
+Siya ay kadalasang binibigyan ng pagkilala sa pagkadiskubre nito bilang isang elemento . Taong 1783 , pinangalanan ni Antoine Lavoisier ang elemento ng o .
+Malaking dami ng H2 ay kinakailangan sa industriya ng petrolyo at kemikal .
+Ang pinakamalaking aplikasyon ng H2 ay para_sa pagproseso ( " upgrade " ) ng_mga fossil fuels , at sa produksyon ng amonya .
+Ang_mga pangunahing mga mamimili ng H2 sa planta ng petrochemical ay ang hydrodealkylation , hydrodesulfurization , at hydrocracking ng H2 ay may ilan pang mga mahahalagang gamit .
+Ang H2 ay ginagamit bilang isang hydrogenating agent , lalo na sa pagtaas ng antas ng saturation ng unsaturated na taba at langis ( matatagpuan sa mga sangkap tulad_ng margarin ) , at sa produksyon ng methanol .
+Ito ay katulad ang pinagmulan ng hydrogen sa paggawa ng hydrochloric acid .
+Ang H2 ay ginagamit din bilang isang pagbabawas ng agent ng metal ores .
+Bukod sa paggamit nito bilang isang reactant , ang H2 ay may malawak na mga aplikasyon sa pisika at inhinyeriya .
+Ito ay ginagamit bilang isang shielding gas sa mga pamamaraan ng hinang tulad_ng atomic hydrogen na paghihinang .
+Ang H2 ay ginagamit bilang ang rotor coolant sa electrical generators sa istasyon ng kapangyarihan , dahil ito ay may pinakamataas na thermal conductivity ng anumang gas .
+Ang Liquid H2 ay ginagamit sa cryogenic na pananaliksik , kabilang ang_mga pag-aaral ng superconductivity .
+At dahil ang H2 ay mas magaan kaysa_sa hangin , ang pagkakaroon ng kaunti pa kaysa_sa 1/15th ng density ng hangin , ito ay malawakang ginagamit bilang isang ahente ng pag-aangat sa mga lobo at airships .
+Gayunman , ang paggamit na ito ay natigil matapos ang Hindenburg na kalamidad kumbinsido ang publiko na ang gas ay masyadong mapanganib para_sa hangaring ito .
+Ang hydrogen pa rin ang regular na ginamit para_sa pagpintog ng weather balloon .
+Sa mas bagong aplikasyon ng hydrogen , ito ay ginagamit bilang puro o halo-halong may nitrogen ( minsan tinatawag na forming gas ) bilang isang tracer gas para_sa pagtunton sa maliliit na pagtagas .
+Ang_mga aplikasyon ay matatagpuan sa automotive , sasakyang panghimpapawid , mga mamimili ng kalakal , medikal na aparato at kemikal na industriya .
+Ang Hydrogen ay isang awtorisadong isinasama sa pagkain ( E 949 ) na nagpapahintulot sa pagtagas ng pakete ng pagkain pagsubok sa mga iba pang anti-oxidizing na katangian .
+Ang hindi pangkaraniwang hydrogen isotopes din ay may tiyak na mga aplikasyon .
+Ang Deuterium ( hydrogen-2 ) ay ginagamit sa mga nuclear fission application bilang ng moderator upang pabagalin ng_mga neutrons , at sa mga nuclear na pagsasanib reaksyon .
+Ang_mga Deuterium compounds ay may mga aplikasyon sa chemistry at biology sa mga pag-aaral ng_mga epekto ng isotope ng reaksyon .
+Ang Tritiyum ( hydrogen-3 ) , na ginawa sa mga nuclear reactors , ay ginagamit sa produksyon ng hydrogen bomb , bilang isang isotopic na label ng biosciences , at bilang isang pinagmulan ng radiation sa maliwanag na pintura .
+Ang tripleng temperatura ng punto ng balanseng hydrogen ay isang pagtukoy sa nakapirming punto sa ITS-90 temperature scale sa 13.8033 kelvins .
+Ang Hydrogen ay hindi isang pinagmumulan ng enerhiya , maliban sa hypothetical na konteksto ng_mga komersyal na nuclear fusion power plants na gumagamit ng deuterium o tritiyum , isang teknolohiyang kasalukuyang malayo mula_sa pag-unlad .
+Ang Enerhiya mula_sa araw ay nagmumula sa nuclear na pagsasanib ng hydrogen , ngunit ang prosesong ito ay mahirap makamit sa mundo .
+Ang elemental hydrogen mula_sa solar , biological , o mga de-koryenteng mga mapagkukunan ay nagkakahalaga ng higit pa sa enerhiya upang gumawa kaysa_sa makukuha sa_pamamagitan_ng pagsunog nito .
+Ang Hydrogen ay maaaring makuha mula_sa mga fossil sources ( tulad_ng methane ) para_sa mas kaunting enerhiya kaysa_sa kinakailangan upang gumawa nito , ngunit ang_mga mapagkukunan ay unsustainable , at ang kanilang mga sarili din ang direktang mga pinagkukunan ng enerhiya ( at wastong tinuturing bilang ang pangunahing pinagmulan ng enerhiya ng hydrogen na nakuha mula_sa kanila ) .
+Ang enerhiya na density bawat yunit ng dami ng_mga parehong likidong hydrogen at hydrogen gas sa anumang magagawang presyon ay makabuluhang mas mababa kaysa_sa tradisyonal na mga pinagkukunan ng gasolina , bagaman ang density ng enerhiya sa bawat yunit ng fuel mass ay mas mataas .
+Gayunpaman , ang elemental hydrogen ay malawak na tinalakay sa konteksto ng enerhiya , bilang isang posibleng hinaharap na carrier ng enerhiya sa isang ekonomiyang may malawak na sukat .
+Isang panteoryang pabor sa paggamit ng H2 bilang isang carrier ng enerhiya ay ang pagsasalokal at konsentrasyon ng environmentally unwelcome aspects ng hydrogen mula_sa fossil fuel energy sources .
+Halimbawa , ang pagsamsam ng CO2 na sinusundan ng pagkuha ng carbon at ang imbakan ay maaaring isagawa sa punto ng produksyon ng H2 mula_sa methane .
+Ang Hydrogen na ginagamit sa transportasyon ay nasusunog ng malinis , sa ilang NOx na emissions , ngunit walang carbon emissions .
+Gayunpaman , ang_mga gastos sa imprastraktura na nauugnay sa buong conversion sa isang ekonomiya hydrogen ay magiging matibay .
+Ang unang tren ay rope-hauled , pinalakas ng gravity o hinihila sa_pamamagitan_ng kabayo , ngunit mula_sa unang bahagi ng ika-19 siglo halos lahat ay pinatatakbo ng_mga steam locomotives .
+Mula_sa 1920s , sila ay nagsimulang mapalitan ng mas labor intensive at mas malinis ( ngunit mas kumplikado at mahal ) diesel na mga tren at electric na tren , habang sa sabay na pagkakataon ang self-propelled multiple unit na sasakyan na may kahit alin na pinagkukunan ng kuryente ay naging mas pangkaraniwan sa serbisyong pampasahero .
+Karamihan sa mga bansa ay pinalitan ang steam locomotives bilang pang-araw-araw na gamit noong 1970's , karaniwan sa diesel na locomotives .
+Ilan sa mga bansa , lalo na ang_mga tao sa Republika ng China , kung saan ang uling at trabaho ay mura , gumagamit pa din sila ng steam locomotives , ngunit ito ay nawawala na ng paunti-unti .
+Ang_mga historic steam trains ay tumatakbo pa din sa maraming bansa , para_sa paglilibang at merkado .
+Ang electric traction ay nagbibigay ng mababang halaga kada milya ng operasyon ng tren ngunit mataas na halaga ng initial , na maari lamang mapatunayan sa matataas na linya ng trapiko .
+Dahil ang halaga kada milya ng konkstruksyon ay mas mataas , ang elektik traction ay hindi masyadong [ pinapaboran sa long-distance na linya na kataliwasan sa mataas na takbo ng linya .
+Ang_mga tren na elektrik ay tumatanggap ng kuryente sa_pamamagitan_ng overhead lines o sa_pamamagitan_ng third rail electric system .
+Ang pampasaherong tren ay isa sa mga may kasamang passenger-carrying vehicles .
+Maaring self-powered multiple unit o railcar , o kahit anumang kombinasyon ng isa o mahigit pang locomotives o isa o mahigit pang unpowered trailers na kilala bilang coaches , mga sasakyan o carriages .
+Ang pampasaherong tren ay naglalakbay sa mga pagitan ng istasyon kung saan ang_mga pasahero ay maaaring sumakay o bumaba ng tren .
+Marami sa mga prestihiyosong pampasaherong serbisyo ng tren ay nabigyan ng tiyak na pangalan , ilan ay naging kilala sa literatura at kathambuhay .
+Ang India ang may pinakamaraming dami ng pasahero sa mundo .
+Ang_mga long-distance trains ay naglalakbay sa mga siyudad at mga rehiyon sa isang bansa , kung minsan umaabot sa ibang bansa .
+Kadalasan mayroon slang dining car o restaurant car na nagbibigay ng_mga pagkain sa mga pasahero habang sila ay naglalakbay .
+Ang_mga tren na naglalakbay sa gabi ay maaring mayroong mga tulugan .
+Ang_mga malalayong biyahe ng tren katulad_ng mga tren sa trans-siberian railway ay karaniwang mabagal ang takbo .
+Ang_mga mabibilis na tren ay karaniwang bumibiyahe sa umaga , at dumarating sa kanilang destinasyon bago gumabi at nakikipagkompitensya sa bilis ng airliners .
+Sa Japan , karamihan sa mga pampublikong transportasyon na bumibiyahe sa Tokyo metropolitan at Osaka metropolitan ( na may 500 km distansya sa_pagitan nilang dalawa ) ay ang Shinkansen , ganunpaman sa pagbiyahe ng lagpas sa 500 km ( tulad_ng Tokyo - Hiroshima ) madami ang mas pinipili magbiyahe sa himpapawid .
+Ang_mga mabibilis na tren ay tumatagilid paminsan katulad_ng APT , Pendolino at ang Talgo .
+Ang pagtagilid ay isang sistema kung saan ang pampasaherong sasakyan ay kusang tumatagilid sa kurbahan , nagbabawas ng centrifugual force sa tagiliran ng_mga pasahero at nagbibigay ng mabilis na takbo sa kurbadan kung saan mas kumportable ang pasahero .
+Ang pinkamabilis na tren sa riles ay ang french TGV ( Train_à_Grande_Vitesse ) ( French_for_High_Speed_Train ) na may 574.8 km/h ( 356 mph ) na takbo sa pagtesting noong 2007 . Ganunpaman ang_mga TGV's ay tumatakbo sa 300 - 320 km/h . Ang German ICE ay gumagamit ng ganitong commercial speed na 300 - 320 km/h . 
+Sa_ilalim_ng tamang kalagayan , ang tranportasyon ng kargamento sa_pamamagitan_ng tren ay lubos na pang-ekonomiya , at mas madali kaysa_sa transportasyon ng kargamento sa_pamamagitan_ng pagbiyahe .
+Ang kargamento sa tren ay mas pang-ekonomiya kung ang kargamento ay dinadala ng maramihan at malayuan , at hindi akma sa maiikling distansya at magaan na kargamento .
+Ang maramihang paggalaw ng di hihigit sa benteng milya ( 32 km ) maaaring epektibong gastos at nagpapahintulot para_sa trans-shipment na mga gastos .
+Itong mga trans-shipment na gastos ay dominante sa maraming kaso at maraming bagong kagawian katulad_ng lalagyan ng kargamento ay ginagamit para mabawasan ito .
+Ang pangunahing disadvantage ng kargamentong pang-tren ay ang kawalan nito ng fleksibilidad .
+Sa dahilang ito , ang tren ay higit na nawalan ng negosyong pang-kargamento sa kompetisyon sa daanan .
+Maraming gobyerno ang ngayo'y kumukumbinsi ng maraming karagamento sa tren , dahil_sa mga benepisyong hatid nito .
+Maraming klase ng pang-kargamentong tren , na ginagamit upang dalhin ang maraming klase ng kargamento , na maraming klase ng wagons .
+Isa sa mga pinaka-karaniwang uri sa modernong railways ay ang container trains , na kung saan ang_mga container ay maaring ilagay at alisin sa_pamamagitan_ng cranes at isakay sa truck o barko .
+Ang uri ng pang-kargamentong tren na ito ay may malaking traditional boxcar ( wagon-load ) na uri ng tren , na kung saan ang kargamento ay kailangang ilagay at alisin nang mano-mano .
+Sa ilang mga bansa " piggy-back " tren ay ginagamit: mga trucks maaaring magmaneho nang_tuwid papunta_sa tren at umalis muli kapag naabot ang dulong destinasyon .
+Ang isang sistema tulad_ng ito ay ginamit sa_pamamagitan_ng Channel tunel sa_pagitan_ng England at France , at para_sa trans-Alpine na serbisyo sa_pagitan_ng Pransya at Italya ( ang serbisyo na ito ay gumagamit ng_mga carrier ng Modalohr road trailer carriers ) .
+Ang ' Piggy-back ' na tren ay ang pinakamabilis na lumalagong uri ng_mga tren ng kargamento sa Estados Unidos , kung saan din sila ay kilala bilang trailer sa tren o TOFC tren .
+Ang ' Piggy-back ' na tren ay hindi nangangailangan ng espesyal na mga pagbabago sa mga sasakyan na dala .
+Isang alternatibong uri ng " inter-modal " na sasakyan , na kilala bilang isang Roadrailer , ay dinisenyo upang pisikal na nakalakip sa tren .
+Ang orihinal na trailer ay marapat na may dalawang hanay ng_mga gulong : isang hanay ay flanged , para_sa trailer upang patakbuhin ang konektado sa iba pang mga katulad na trailer bilang isang tren na sasakyan sa isang tren , at isang hanay ay tyred , para_sa paggamit bilang semi-trailer ng isang sasakyan sa kalye .
+Madaming modernong trailer ay mayroon lamang gulong na pangkalsada at dinisenyo upang isinasagawa sa mga espesyal na mga inangkop na bogies ( trucks ) kapag lumilipat sa mga daang-bakal .
+Mayroon ding mga maraming iba pang mga uri ng_mga wagons , tulad_ng mga " low loader " wagons para_sa transportasyon ng_mga sasakyan na pangkalsada .
+May mga sasakyang may refrigerator para_sa transportasyon ng_mga pagkain tulad_ng sorbetes .
+Mayroong mga simpleng uri ng open-topped wagons upang mag-transporta ng_mga mineral at mararaming materyal katulad_ng uling at mga tankers sa pag-transporta ng likido at petrolyo .
+Ngayon gayunpaman karamihan ng karbon at mga aggregates ay inilipat sa mga hopper wagons na maaaring punuin at i-discharge nang_mabilis , upang paganahin ang_mga mahusay na handling sa mga materyales .
+Ang pangkargamentong tren ay minsan ilegal na sinasakyan ng_mga pasahero na hindi nais na magbayad ng pera , o walang pera upang maglakbay sa_pamamagitan_ng ordinaryong paraan .
+Ito ay tinatawag na ' hopping '' at kinokonsidera ng ilang komunidad na paraan ng transportasyon .
+Karamihan sa mga hoppers ang sumasakay patago sa mga sakayan ng tren at nagtatago sa sasakyan upang malibre sa bayad .
+Marami sa mga hoppers ang sumasakay sa tren habang umaandar ito , dahilan upang sila ay maaksidente .
+Ang_mga awtor ay nagtungo sa dalawang direksyon sa kanilang reaksyon sa pagbabalik ni Charles .
+Sa_kabilang_banda , mayroong sumubok na ibalik ang literatura ng Ingles ng jacobean period , na para bang walang naging kaguluhan ; ngunit sa isang banda , nagkaroon ng malakas na pakiramadam ng pagkabago , at ang_mga awtor ay lumapit sa mga modelo ng gallic na literatura at itinaas ang antas ng literatura ng pag-iisip ( partikular ang satire at parody ) .
+Bagong bagay o karanasan ang magpapakita sa panitikan ng duda sa tanong , at ang Gallicism ay magpapakita sa pagpapakilala ng Neoclassicism sa Ingles na pagsulat at pagpuna .
+Ang restorasyon ay isang hindi pangkaraniwang makasaysayang panahon , dahil ang_mga panitikan ay nakasama sa_pamamagitan_ng isang tiyak na pulitikal na kaganapan : ang pagpapanumbalik ng monarkiyang Stuart .
+Ito ay hindi pangkaraniwan sa ibang paraan , dahil ito ang panahon na ang impluwensya ng hari at ang personalidad ng literatura ng lipunan ay nagpapakita ng korte .
+Ang_mga adversaries ng restorasyon , ang Puritans at democrats at republicans , ay pare-parehong tumugon sa peculiarities ng hari at pagkatao ang hari .
+Samakatuwid , ang isang top-down view ng pampanitikang kasaysayan ng pagpapanumbalik ay may higit pang bisa kaysa_sa karamihan ng_mga pampanitikang epochs .
+" Ang restorasyon '' bilang kritikal na konsepto ay sumasaklaw sa tagal ng epekto ng Charles at paraan ng Charles .
+Ang epektong ito ay napahaba hanggang sa kaniyang kamatayan , sa ilang pangyayari , at hindi kasing haba ng kaniyang buhay , sa iba .
+Ang restorasyon ay edad ng tula .
+Hindi lamang ang tula ang pinaka-popular na anyo ng literatura , ngunit ito din ay ang pinakamakabuluhang anyo ng literatura , habang ang_mga tula ay naapektuhan ang_mga politikal na kaganapan at nagpapakita ng panahon .
+Ito din , sa sarili nitong mga tao , ang edad na ang hari lamang ang dominante , at hindi ng sino mang henyo .
+Sa buong panahon , ang tulang liriko , Ariel , kasaysayan , at mahabang tula din ay binuo .
+Kahit na walang ang pagpapakilala ng Neo-classical na pagpula , alam ng_mga makatang Ingles na sila ay walang pambansang epiko .
+Si Edmund Spenser Faerie Queene ay kilala , ngunit ang England , hindi katulad_ng Pransya kasama ang Song_of_Roland o Spain_with_Cantar_de_Mio_Cid o , karamihan sa lahat , Italya_with_the_Aeneid , ay walang mahabang tula ng_mga pambansang pinagmulan .
+Ilang manunula ang tinangkang bigyan ito ng walang bisa .
+Si Sir William Davenant din ang unang makata na tumangka ng isang mahabang tula .
+Ang Kanyang hindi natapos na Gondibert ay mahabang-mahaba , at ito ay nagustuhan ng Hobbes .
+Gayunpaman , ginagamit din ang balad form , at iba pang mga poets , pati na rin mga kritiko , ay masyadong mabilis na isumpa ang tula sa pamamaraan na ito bilang unflattering at unheroic ( Dryden epic ) .
+Ang prefaces sa Gondibert ay nagpapakita ang pakikibaka para_sa isang pormal na istraktura ng mahabang tula , pati na rin ang kung gaano ang maagang pagpapanumbalik . Nakita ang kanilang sarili na kaugnay_sa Classical na literatura .
+Kahit ngayon siya ay inaaral ng hiwalay mula_sa panahon ng pagpapanumbalik , ang paradise lost ni John Milton ay nai-publish sa panahon na iyon .
+Si Milton ay walang ibang hinihiling kundi ang isulat ang Ingles na mahaba , at pumili ng tulang walang tugma bilang kanyang anyo .
+Tinanggihan ni Milton ang dahilan ng Ingles exceptionalism : ang kanyang Paradise Lost ay nagpapahiwatig upang sabihin ang kuwento ng lahat ng sangkatauhan , at ang kanyang pagmamataas ay para_sa Kristiyanismo kaysa_sa pagka-english .
+Si Milton ay nagsimula sa isang pagtatangka sa pagsulat ng isang mahabang tula kay Haring Arthur , para_sa pambansang pagtuklas ng Ingles .
+Habang tinaggihan ni Milton ang proyekto , sa huli , ang iba ay sumubok .
+Si Richard Blackmoore ay sumulat pareho ng Prince Arthur at King Arthur .
+Ang parehong pagsubok ay mahaba , at nabigo pareho sa kritika at popularidad .
+Sa katunayan , ang tula ay masyadong mabagal na ang awtor ay nakilala bilang " never-ending Blackmoore '' ( tignan ang pagpuna ni Alexander Pope kay Blackmoore sa dunciad ) .
+Ang panahon ng restorasyon ay nagtapos ng walang epikong Ingles .
+Ang Beowulf ay maaring tawaging English epic , ngunit ang epikong ito ay hindi kilala ng_mga awtor ng restorasyon at ang Old English ay hindi nila nauunawaan .

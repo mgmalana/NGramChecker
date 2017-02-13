@@ -1,0 +1,24 @@
+Noon Enero 1981 , mula ng MOS Technology Inc. , integrated circuit design subsidiary ng Commodore , ang proyekto disenyo ng_mga grapik at awdyo chip para_sa isa video game console na para_sa sunod na henerasyon .
+tapos noon Nobyembre 1981 ang disenyo ng_mga chip na ngalan MOS Technology VIC-II ( grapika ) at MOS Technology SID ( awdyo ) .
+mula ng Commodore ang isa proyekto game console noon na gamit ng_mga bago chip - tawag na Ultimax o Commodore MAX Machine na patnugot ni Yash Terakura mula_sa Commodore Japan .
+Kansela rin ang proyekto tapos ilan mga makinarya lamang ang gawa para_sa Hapones na pamilihan .
+Sa pareho panahon , kritikal sina Robert “ Bob ” Russell ( programa ng sistema at arkitekto ng VIC-20 ) at Robert Yannes ( inhinyero ng SID ) sa salukoy line-up ng_mga produkto sa Commodore na isa tuloy ng linya Commodore PET na tungo sa mga gamit para_sa negosyo .
+May suporta nina Al Charpentier ( inhinyero ng VIC-II ) at Charles Winterbie ( manedyer ng MOS Technology ) sila nang mungkahi nila ang totoo may baba presyo na sunod ng VIC-20 sa CEO ng Commodore na si Jack Tramiel .
+dikta ni Tramiel na dapat may 64 KB ng RAM ang makinarya . Kahit halaga higit pa sa EU $ 100 ang 64 KB ng DRAM noon panahon iyon , alam niya baba na ang presyo ng DRAM at baba na rin sa tanggap na lebel bago abot ang buo produksyon .
+Noon Nobyembre , talaga ni Tramiel ang una weekend ng Enero bilang deadline para taon sa 1982 Consumer Electronics Show .
+ngalan VIC-40 ang produkto bilang sunod ng popular na VIC-20 .
+Buo nina Robert Russell , Robert “ Bob Yannes at David A. Ziembicki ang grupo gawa nito .
+tapos ang disenyo , mga prototayp at ilan sample na software tama lang para_sa labas tapos trabaho ng grupo nang wala pagod noon mga weekend ng Araw ng salamat at ng Pasko .
+Nang prisenta ang produkto , ipinangalang C 64 ang VIC-40 para sama sa salukoy lineup ng_mga produkto negosyo ng Commodore kung saan sama ang P 128 at B 256 na pareho ngalan gamit isa letra at ang laki ng memorya ng sarili nila .
+mayroon ng hanga debut sa 1982 Winter Consumer Electronics Show ang C 64 , base_sa alala ng Inhinyero ng Produksyon si David A. Ziembicki : “ Mga tao lamang ng Atari at ang_mga bibig nila nganga sabi ‘ Paano ninyo iyan gawa sa $ 595 ? ’ ang kita namin sa amin tanghal . ”
+Labas na integrasyon bertikal ang sagot ; salamat sa ari ng Commodore sa mga pasilidad para_sa gawa ng_mga semikondaktor ng MOS Technology , may tantiya $ 135 lamang ang gastos ng produksyon ng bawat C 64 .
+harap ng dami mga kompitensya mga home kompyuter ang C 64 nang kilala ito noon Agosto 1982 .
+Sa sama hanga presyo at sulong na hardware , bilis nito lamang ang dami sa mga kompitensya nito .
+Sa Estados Unidos , ang Atari 8-bit 400 at 800 , ang IBM PC at ang Apple II ang galing na kompetensya sa C 64 .
+Talaga tulad ang Atari 400 at 800 sa aspeto hardware pero pareho mahal gawa na pilit ang Atari disenyo muli ang kanila makinarya para mas maging epektibo sa halaga .
+resulta ito sa linya 600 XL / 800 XL at sa lipat ng kanila produksyon sa Malayo Silangan .
+Pareho may mas taas na mga resolution graphics mode kaysa_sa C 64 ang IBM PC at ang huli sa tanda nang linyang Apple II subalit dahil_sa hina suporta para_sa kulay , bihira lamang sila gamit kaya lampas ang_mga ito noon labas ang 16-color ( 4-bit ) na kaya sa grapika at tunog ng C 64 .
+Samakatwid , kaya lawak talaga ng PC at Apple II dahil_sa kanila mga internal expansion slot na isa aspeto wala sa 64 .
+Pareho may mga istandard na mga kompigurasyon sa memorya noon mga taon 1982 / 83 ang lahat ng apat na mga makinarya : 48 K para_sa Apple II+ ( bigay ng upgrade tungo_sa 64 K gamit ang Apple IIe ilan buwan lang tapos labas ang C 64 ) , 64 K para_sa IBM PC at 48 K para_sa Atari 800 .
+Sa presyo $ 1200 , doble ang presyo ng IBM PC at Apple II habang $ 899 ang presyo ng Atari 800 .
+Isa sa maging dahil ng tagumpay ng C 64 ang_mga agresibo taktika para benta ng Commodore at bilis nito gamit ang relative price / mga peformance division ng_mga kompitensya nito gamit isa serye ng_mga komersyal sa telebisyon tapos labas ang C 64 noon huli ng 1982 .

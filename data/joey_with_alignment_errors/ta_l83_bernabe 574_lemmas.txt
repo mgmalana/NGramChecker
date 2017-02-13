@@ -1,0 +1,22 @@
+Ang importante bahagi ng makinarya ang bushing plate .
+laman ang bushing plate ng_mga nozzle sa kung saan buo ang fiber .
+dalas , gawa ito sa platinum alloyed na may rhodium para_sa tibay .
+gamit ang platinum dahil may natural na affinity ang tunaw ng kristal sa basa nito .
+Nung una gamit ang bushings , gawa ito sa 100 % platinum at ang kristal ang basa sa bushing upang dali ito lusot sa plate tapos labas sa nozzle at ipon sa_ilalim .
+At dahil_sa presyo at dalas kupas , ang platinum ay alloyed sama ng rhodium .
+Sa proseso ng direkta tunaw , silbi kolekta ang bushing ng tunaw na kristal .
+Unti ito init upang tili sa tama temperatura ito para_sa buo ng fiber .
+Sa proseso ng tunaw ng marmol , gamit ang bushing na lagay kung saan tinutunaw ang kristal .
+Ang_mga bushing ang mahal ng impok ng kapital ng gawa ng fiber glass .
+Kritikal ang disenyo ng nozzle .
+iba ang_mga numero ng nozzles galing 200 hanggang 4000 , akyat ng multiples ng 200 .
+Importante sa nozzle at tuloy na gawa nito ang kapal ng gilid nito sa exit region .
+Ang lagay ng counterbore ay bawas ng basa .
+Sa panahon ito , disenyo ang_mga nozzle na mas nipis sa exit .
+Gawa ito dahil habang daloy ang kristal sa nozzle na buo ng patak na iwan sa_dulo nito .
+Habang bagsak ito , iwan ito ng hibla na dikit sa meniscus at nozzle basta_at nasa tama viscosity ng buo ng fiber .
+Kapag mas liit ang annular rin ng nozzle o mas nipis yung wall ng exit , mas bilis buo at tanggal ang patak at mas liit ang taon na basa nito ang tayo bahagi ng nozzle .
+Ang surface tension ng kristal ay impluwensya sa buo ng meniscus .
+Nasa 400 mN per m dapat para_sa E-glass .
+halaga ang atensyon ( pagguhit ) sa disenyo ng nozzle .
+Kahit bagal nito ang gawa ng mas kapal na fiber , di nais ito takbo ang_mga nozzle sa bilis na hindi nila kaya .

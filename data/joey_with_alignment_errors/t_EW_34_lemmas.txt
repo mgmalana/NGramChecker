@@ -1,0 +1,24 @@
+Ang XO-1 , dati kilala bilang ang $ 100 na laptop o makina bata , ay isa mura laptop na kompyuter para_sa mga bata sa mga bansa unlad sa buo mundo , upang bigay ng daan sa alam para_sa kanila , at mga oportunidad upang “ galugarin , eksperimento , at hayag ang sarili nila ” ( constructionist na aral ) .
+Ang laptop ay gawa ng One Laptop per Child ( OLPC ) tungkol_sa lipon at buti na sama , at gawa ng Taiwanese na kompyuter na kompanya , Quanta .
+Ang_mga laptop ay pwede benta sa mga bahala at bigay ng_mga aral sa mga bata sa batay ng isang laptop bawat bata .
+Ang presyo ngayon ay mula_sa US $ 188 at ang layon ay abot ng $ 100 na marka sa 2008 .
+Mga 500 developer na grupo ( Alpha-1 ) ay bahagi sa_gitna_ng 2006 ; 875 na gana tulad ( Beta 1 ) ay dala sa huli 2006 ; 2400 Beta-2 na makina ay bahagi sa huli ng Pebrero 2007 ; ang buo na produksyon ay mula sa Nobyembre 6 , 2007 .
+Quanta Computer , ang kontrata gawa ng proyekto , ay sabi nung Pebrero 2007 na ito ay mayroon apruba order para_sa isa milyon na yunit .
+hiwatig nila na kaya nila dala ng 5 milyon hanggang 10 milyon na yunit ito taon dahil may ilan pueblos na ako na bili ang XO-1 para_sa kanila aral na bata : Argentina , Brazil , Libya , Nigeria , Rwanda , Thailand , at Uruguay .
+Ang plano ng Quanta ay alok ang_mga makina na tulad ng XO na makina sa bukas na merkado .
+Ang sira , hina na kompyuter ay may flash na memorya sa halip ng hard drive at gamit ng Linux para_sa kanila operating system .
+Ang Mobile ad-hoc networking ay gamit upang payag ang dami makina na bahagi ang Internet Access galing_sa isa koneksyon .
+Ang OLPC na proyekto ay sabi na ang konsumidor na bersyon ng XO laptop ay wala sa plano nila .
+Subalit , ang proyekto ay gawa ng laptopgiving.org na website para_sa tahas na donasyon at para_sa “ Give 1 Get 1 ” alok na balido ( subalit , para_sa Estados Unidos , ang_mga teritoryo nito , at ang Canadian na tira lamang ) mula_sa Nobyembre 12 2007 hanggang Disyembre 31 2007 .
+Ang una aga tulad ay kita ni Nicholas Negroponte at Kofi Annan nung Nobyembre 16 , 2005 sa World Summit sa Information Society ( WSIS ) sa Tunis , Tunisia .
+Ang kita aparato ay isa gaspang na tulad gamit ng isa bantay na buo na lupon .
+tantiya ni Negroponte na ang screen lamang ay kailangan ng 3 o higit pa buwan ng buo .
+Ang una gana tulad ay kita sa Country Task Force Meeting ng proyekto noon Mayo 23 , 2006 .
+Ang produksyon bersyon ay asa na mayroon ng mas laki screen tanghal na nasa pareho laki na pakete .
+Sa huli Setyembre 2007 , hayag nila na ang XO ay gamit sa Estados Unidos at Canada ng konsumidor sa ikli panahon para_sa panahon ng Pasko , mula ng Nobyembre 12 hanggang 2 linggo ( mamaya , ito_ay haba hanggang ang dulo ng 2007 ) , gamit ang “ Give 1 Get 1 ” ( G1G1 ) na programa .
+Ito_y payag ang_mga konsumidor na bili ng dalawa XO na sistema para_sa $ 399 , na isa ay dala sa isa bata sa bansa unlad .
+Ang XO-1 ay gawa upang maging mura , liit , tibay , at episyente .
+Ito_ay dala sama ng payat na bersyon ng Fedora Linux at isa GUI na tawag Sugar na para tulong sa bata na tulong .
+Ang XO-1 ay may sama video camera , mikropono , layo na Wi-Fi , at isa hybrid na stylus / touch pad .
+Ang lakas ng tao ay plano , na payag ang opera na layo mula_sa komersyal na mula ng lakas .
+lista ni Mary Lou Jepsen ang disenyo na layon ng aparato tulad_ng mga sunod :

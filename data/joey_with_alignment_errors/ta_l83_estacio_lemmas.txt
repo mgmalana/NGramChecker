@@ -1,0 +1,117 @@
+Hindi tulad ng_mga tradisyon na ensiklopedya tulad_ng Encyclopædia Britannica , wala artikulo sa Wikipedia ang daan sa pormal na suri o sumite at maari bago agad ang_mga artikulo lathala .
+Upang tiyak ang kalidad ng_mga artikulo , ang proyekto ay asa sa mga miyembro ng komunidad na tawag na Wikipedians na tanggal ang ano man uri ng sira o mali sa mga artikulo . 
+mula noon Hunyo 2006 , gamit na ang website ng_mga vandalism-repair bots .
+Ang_mga artikulo sa Wikipedia ay lalim sa mga batas sa Florida , Estados Unidos at dami takad at tunton ang dapat sunod ; dapat na ang_mga artikulo ay laman ng_mga kabuluhan paksa , mga tunay saliksik at mga totoo paksa na limbag at sulat sa daan wala panig o kampi .
+Bago , pait o bura ang_mga artikulo hindi sunod sa takad at mga polisiya tupad .
+Batay sa dalawa pilosopiya deletionism at inclusionism ang palit at bura ng_mga artikulo . 
+laman ng iba sapi ang komunidad ng Wikipedia . 
+lugod na tanggap ang lahat ng_mga bago awtor at editor subalit hikayat silang basa ang_mga takad upang tulong ang_mga ito sa daan at pantay ng Wikipedia .
+Maaari kamit ang_mga editor na may laki kontribusyon sa komunidad ng isa sa mga antas ng buluntaryo siwa ; mula ito sa “ administrator " at punta sa " steward " at " bureaucrat " .
+May angkin kaya ang_mga administrador na tanggal ng_mga pahina , sara ng_mga artikulo laban_sa bago sa kaso ng_mga alitan , editoryal na mali , at may dapat din siya hadlang sa mga edit .
+ganap ang limbag ng Wikipedia sa “ Talk ” pages na ugnay sa bawat indibidwal na artikulo . 
+Habang laki ng palaki ang Wikipedia na isa iba daan ng encyclopedia , dami pa rin ang tanong at taka kung sino ang_mga sulat sa Wikipedia na lagi banggit bilang sangguni sa mga Web 2.0 projects tulad na lamang ng Digg .
+Ayon_kay Jimmy Wales na tatag ng Wikipedia , ang proyekto ito ay laman ng isa komunidad na may mga dedikado volunteers na ambag sa laki at ganap nito at ito raw ay sabi tulad_ng kahit ano normal at tradisyon na organisasyon .
+Hindi sang-ayon ni Aaron Swartz ang hayag na ito , na sabi na limit ang taon ng edit dami sa mga artikulo laan dito .
+depende ang opera ng Wikipedia sa MediaWiki na isa custom-made , free at open source wiki software platform na sulat sa PHP at tayo sa_pamamagitan_ng MySQL database .
+May mga lakip na programming features sa software na ito tulad_ng macro language , variables , transclusion system para_sa templates , at URL redirection .
+Lisensiya ang MediaWiki sa_ilalim_ng GNU General Public License at gamit lahat ng_mga proyekto ng Wikimedia , pati na rin ang iba pa mga proyekto loob sa wiki .
+Sa tunay , gana ang Wikipedia noon sa_pamamagitan_ng UseModWiki na gawa ni Perl ni Clifford Adams ( Phase I ) , na sa mula pa lamang ay kailangan na ng CamelCase para_sa mga article hyperlinks at sa salukoy sama na din ang double bracket style .
+mula noon Enero 2002 ( Phase II ) , mula takbo ang Wikipedia gamit ang PHP wiki engine na may MySQL database na gawa ni Magnus Manske alang lamang para_sa Wikipedia
+Ang Phase II software are ulit na bago upang unlak ang laki demanda .
+Noon Hulyo 2002 ( Phase III ) , Lipat at gamit ang Wikipedia ng isa third-generation software na MediaWiki na orihinal na sulat ni Lee Daniel Crocker .
+( Abril 29 , 1901 - Enero 7 , 1989 ) Si Emperor Showa ang ika-124 na emperador ng Japan ayon_sa tradisyon na sunod ng halili mula noon Disymber 25 , 1926 hanggang sa kanya patay noon 1989 .
+Mas kilala siya sa ngalan Hirohito sa Kanluran daigdig , tumbas_ng kanya ngalan Showa ang ngalan tawag noon sa panahon ng kanya hari bilang emperador at mistula gawa na ito tukoy sa sarili ngalan ng emperador noon siya_ay patay .
+Kahit mas dalas siya kilala at tawag gamit ang kanya personal na ngalan , hindi kailanman gamit sa Japan ang ngalan ito para tukoy ang emperador .
+sabi ang kanya hari ang haba sa buo saysay ng_mga Hapong emperador at dulot ang panahon ito ng laki bago sa buhay ng_mga Hapon na kung saan ganap siya ng isa kabuluhan papel .
+Sa mula ng kanya puno , parang probinsya ang bansa Japan kung saan limita pa ang industriya himpil .
+Ang militar ng Japan noon 1930 , kung saan akala ng_mga iskolar na siya_ay isa lahok , ang dulot sa sali ng bansa Japan sa World War II , na isa desisyon na akala siya ang may implewensa .
+tapos ang bagsak ng bansa Japan , tulong siya upang ahon ang bansa sa hirap , at buhay upang muli kita ang silang at ahon ng bansa bilang isa highly urbanized country na isa sa mga industrial at technological powerhouses ng daigdig .
+anak si Prince Hirohito sa Aoyama Palace sa Tokyo bilang una anak na lalaki nina Crown Prince Yoshihito ( ang maging Emperor Taish? ) at Crown Princess Sadako ( ang maging Empress Teimei ) .
+Prince Michi ang kanya palayaw noon siya ay bata pa lamang .
+Siya ang maging mana at sunod sa trono ng patay niya lolo na si Emperador Meiji noong Hulyo 30 , 1912 .
+ganap ang pormal na tibay ng kanyang posisyon bilang crown prince noon Nobyembre 2 , 1916 .
+Pasok siya sa aral lalaki ng Gakushuin Peers School noon 1908 hanggang 1914 at pasok sa isa tangi institusyon para_sa mga crown prince ( T?g?-gogakumonsho ) noon 1914 hanggang 1921 .
+Noon 1921 , lakbay ng anim na buwan ang prinsipe sa Europe kabilang dito ang_mga bansa United Kingdom , France , Italy , ang Netherlands at Belgium , na ngalan unang Hapon korona prinsipe upang lakbay sa iba bansa .
+tapos ang kanya balik sa bansa Hapon , siya ay maging rehente ng Japan noon Nobyembre 29 , 1921 upang palit sa may sakit niya ama na apektado ng isa mental illness .
+kasal niya ang kanya layo pinsan na si Princess Nagako Kuni ( ang maging Empress K?jun ) , ang panganay na anak na babae ni Prince Kuni Kuniyoshi , noon Enero 26 , 1924 .
+mayoon sila ng dalawa anak na lalaki at lima anak na babae .
+iwan ng kanyang mga anak na babae na nasa karampatang gulang ang imperyal na pamilya na nagresulta bilang reporma sa Japanese imperial household noong Oktubre 1947 ( sa kaso ni Princess Higashikuni ) o sa_ilalim_ng Imperial Household Law sa sandali ng kanilang kasal ( sa kaso ng Princesses Kazuko , Atsuko , at Takako ) .
+Noon Disyembre 25 , 1926 , upo sa trono si Hirohito dahil_sa kamatayan ng kanyang amang si Yoshihito .
+tapos ang panahon ng Taish? at dagli ito palit ng panahon ng Sh?wa ( Enlightened Peace ) .
+tapos ang isa araw , muli ngalan ang patay na emperador na Emperador Taish? . 
+Alinsunod_sa ugali ng_mga Hapon , ang bago emperador ay hindi tukoy o tawag gamit ang bigay na ngalan , ngunit tukoy siya bilang " His Majesty the Emperor ” o “ His Majesty ”
+Sa sulat , pormal na tawag siya bilang “ The Reigning Emperor ”
+dami sulat ng saysay tulad nila Akira Fujiwara ( Sh?wa Tenn? no J?-go Nen Sens? , 1991 ) at Peter Wetzler ( Hirohito and War , 1998 ) , batay_sa primary source at habang-panahon na Gawain ni Shir? Hara , ang mungkahi ng iba ebidensiya na sabi na trabaho ang emperador sa_pamamagitan_ng mga intermediaries upang lakas ang tungo sa bahala ng miltar at upang hindi maging digma o pasipista , ngunit oportunista na bahala sa isa sari proseso ng gawa ng desisyon .
+Ayon_kay Herbert Bix , na isa Amerikano sulat ng kasaysayan , maari mula kay Emperor Sh?wa ang dami sa ideya ng_mga ganap ng dalawa digma .
+Kilala ng_mga sulat ng saysay na sina Bix , Fujiwara , Wetzler , at Akira Yamada na hindi mintis ang_mga importante " behind the chrysanthemum curtain " tapos tingin ang_mga imperial conferences na kita ng pulong kung saan desisyon ang_mga gawa sa_pagitan_ng emperador , ng kanya mga chiefs_of_staff , at gabinete .
+Primary sources , tulad_ng " Sugiyama memo " at ang diaries nina Kido at Konoe , ang detalye ladaw ng_mga impormal na pulong ni Emperor Sh?wa sa kanya chiefs_of_staff at mga ministro ( halimbawa , Prince Fumimaro Konoe na may ganda tanaw sa mga ganap ) .
+kita ng_mga dokumento ito na may alam ang emperador sa lahat ng_mga opera at ganap sa militar at dalas niya kwestyon ang kanya mga tao at utos bago . 
+Bago pa man ang dalawa digma daigdig , lusob ng Japan ang Manchuria noong 1931 at ang tira bahagi ng China noon 1937 ( ang Second Sino-Japanese War ) .
+lahad ng primary source na hindi kailanman mayroon ng anuman tutol si Emperador Sh?wa sa salakay ng China noon 1937 na kung saan rekomenda sa kanya ng kanya mga chief_of_staff at puno ministro na si Fumimaro Konoe .
+Tila ang posibilidad ng atake ng_mga Soviets sa_hilaga ang kanya una alala at dalas tanong sa kanya chief_of_staff na si Prince Kan'in at ministro ng hukbo na si Hajime Sugiyama tungkol_sa kung gaano ito tagal talo ang_mga Tsino .
+Ayon_kay Akira Fujiwara , mismo ang emperador ang utos na tanggal ang panukala ng kanya hukbo na hadlang ang_mga daigdig batas sa gamot ng_mga bilanggo Tsino noon Agosto 5 .
+At gayun din , kita sa gawa ni Yoshiaki Yoshimi at Seiya Matsuno na bigay pahintulot ang emperador na gamit ng_mga kemikal na armas laban_sa mga Tsino .
+Halimbawa , noon panahon ng lusob ng_mga Wuhan , mula sa Agosto hanggang Oktubre 1938 , bigay pahintulot ang gamit ng_mga lason gas sa 375 na taon , sa_kabila_ng resolution na tibay ng League_of_Nations noon Mayo 14 na bawal ang gamit ng Japanese Army ng_mga lason gas .
+Noon dalawa digma daigdig , mula_sa puno ni Emperor Sh?wa , tayo ang_mga Hapon ng alyansa sama ang_mga Nazi Germany at Fascist Italy , buo ng Axis Powers .
+Mayroon iba isip na maaari atubili ang emperador na buo ang alyansa ito sapagkat na may angkin gusto at interes ito sa bansa United Kingdom ,
+Noon Hulyo 1939 , mayroon siya ng tindi talo sa isa sa kanya mga patid na si Prince Chichibu , na bisita sa kanya tatlo beses sa isa linggo upang suporta ang sundo , at sabi ang hukbo ng ministro na si Seishiro Itagaki , ngunit sa huli bigay siya ng kanya pahintulot tapos ang tagumpay ng_mga Wehrmacht sa Europa .
+Noon Setyembre 4 , 1941 , tipon ang gabinete ng Japan upang plano at handa ang digma , at desisyon nila na : 
+Kontrol ng saligan batas ang yari ng parliyamento ng Canada , na hati sa lehistarura yari sa_pagitan_ng pederal at probinsiyal na bahala .
+Karaniwan , ang_mga lawig batas lamang ang may dapat pasa ng_mga batas na linaw na laan sa kanila ng salig batas na may ugnay mga paksa tulad na lamang ng edukasyon , provincial officers , municipal government , charitable institutions at mga bagay na lokal o pribado sa likas .
+Sa_lalim_ng salig batas , saklaw sa yari ng parlyamento ang anuman bagay na hindi sa_ilalim_ng eksklusibo yari ng lawig legislatura .
+Kaya , ang parliamento lamang ang tangi pasa ng batas laban_sa postal service , census , military , navigation at shipping , fishing , currency , banking , weights at measures , bankruptcy , copyrights , patents , Indians , at naturalization . Sa ilan taon , sanib ang yari ng parlamento at lehislatura . 
+Halimbawa , siwa ang parliament laban_sa kasal at diborsyo , ngunit kontrol lamang ng_mga lawig lehislatura ang diwang ng kasal .
+Ang pataw ng buwis , hiram ng pera , parusa ang_mga sangkot sa krimen , at ayos ang agrikultura ang iba pa yari ng pareho parliamento at legislatura .
+Kontrol din ng Canadian_Charter_of_Rights_and_Freedoms ng yari ng parliamento ng Canada .
+Maaari naig sa_pamamagitan_ng isa gawa na may sama isa bilang sugnay ang dami ng_mga probisyon ng charter .
+May iba mga probisyon na hindi pa naman gamit ng parliament bagaman ito ay trabaho dahil_sa lawig lehislatura .
+Wala bisa at maaari pasya na hindi katarungan ng_mga hukom ang_mga batas na labag sa charter at sa salig batas .
+taglay ng_mga pribilehiyo na kilala sama bilang parliamentary privilege ang Parlamento ng Canada .
+Ang bawat pulong ang siya alaga ng sarili nito mga pribilehiyo , at maaari parusa ang_mga labag nito .
+Ang parliamento ang tukoy sa hangan ng parliamentary privilege ngunit hadlang ng salig batas na usap ang anuman pribelehiyo “ lampas ang pasa ng ganoong Act na hawak , lugod , at gawa ng [ British House of ] Commons … at ng_mga Miyembro nito . "
+Ang pribilehiyo na ganap pareho pulong ay ang laya ng salita sa debate : walang sabi sa alinman pulong ang maaari kuwestyon sa anuman hukom o iba pa institusyon sa_labas ng Parlamento .
+Sa partikular , ang isa miyembro ng alinman sa pulong ay hindi maaari demanda para_sa sira-puri na batay_sa mga salita na gawa sa kurso ng parlyamentaryo daan .
+Ang tangi bawal sa debate ay galing mula_sa dalawa pulong .
+Isa pa pribileheyo ng_mga miyembro ay ang laya laban_sa aresto sa mga sibil na kaso ( ngunit hindi para_sa mga di-umano'y kriminal na aksyon )
+May pribileheyo sa jury service at dalo sa korte bilang saksi ang_mga miyembro ng bawat pulong .  
+May yari ang bawat pulong bilang isa lupon sama na dito ang pribiliheyo ng pasiya ng sarili nito sa internal affairs at pribeliheyo ng disiplina ng sarili nito mga miyembro labag sa mga takad .
+Bukod dito , maaari parusa ng bawat pulong sa suway ng Parlamento sa hukom ( iyon ay , sa suway ng kanya yari , halimbawa ay ang bigay ng huwad na totoo bago sa isa parlyamentaryo komite ) at labag sa sarili nito mga pribilehiyo .
+Mayroon dalawa mace na gamit ang parliament , isa para_sa House_of_Commons at isa para_sa Senado .
+Ang orihinal na mace ng Legislative_Council_of_the_United_Province_of_Canada 1849 ay ang orihinal na mace ng senado .
+Ang una bahagi ng hari ni Emperador Showa ganap laban_sa isa danas ng taas ng yari militar sa_loob_ng bahala , sa_pamamagitan_ng pareho legal at extralegal na daan .
+mayroon ng beto na yari ang hukbo ng Imperial Hapon at hukbo dagat ng imperial na Hapon laban_sa buo ng_mga gabinete mula noon 1900 , at sa_pagitan_ng 1921 at 1944 , wala higit kulang na 64 na insidente ng dahas pulitika .
+Isa halaga kaso ay ang patay sa puno Ministro Inukai Tsuyoshi noon 1932 , na silbi tanda ng tapos ng kontrol ng military .
+Ito ay sunod ng isa tangka rebolusyon militar noon Pebrero 1936 , ang_mga yari noon Pebrero 26 , muntar sa_pamamagitan_ng mga opisyal ng Hukbong ng K?d?ha na mayroon ng simpatya sa mga taas na ranggo na opisyal kabilang si Prince Chichibu ( Yasuhito ) , isa sa mga patid na lalaki ang Emperador .
+Ang alsa ito ay dulot ng wala ng lupa dahil_sa mga grupo ng militarista sa diet elections .
+Ang rebulusyon ito ay dulot ng dami patay sa mga opisyal ng gobyerno at hukbo , at baba ni Emperador Sh?wa na galit na galit na kompronta sila .
+Noon balita ni Chief Aide-de-camp Shigeru Honj? ang tungkol_sa alyansa , agad na utos ng emperador na baba ito at kilala bilang mga rebelde .
+Ngunit hindi tagal , utos niya ang_mga hukbo ministro na si Yoshiyuki Kawashima na bawas ang_mga rebelde sa_loob_ng isang oras , at tanong ng_mga impormasyon galing_sa Honj? kada 30 minuto .
+tapos ang isa araw , noon lathala ni Honj? ang liit na progreso na ganap sa_pamamagitan_ng taas na utos sa bawas ng_mga rebelde , sabi sila ng emperador na “ Ako mismo ang puno sa dibisyon ng Konoe at matyag sa kanila ”
+Hindi siya pilit na gawin ito ngunit ang_mga himagsik ang pigil sunod sa kanya mga utos noong Pebrero 29 .
+Gayunpaman , mula 1930 , ang grupo ng_mga militar ay kamit ng yari politikal sa Japan at sunod ng_mga polisiya na dulot sa Japan na laban sa dalawa digma sino-japanese at dalawa digma bansa .
+dami bayan mula sa Greater East Asia Co-Prosperity Sphere ang sabi si Emperador Sh?wa ang punot-dulo ng patay at dahas dulot ng pwersa imperial noon dalawa digma sino-japanese at dalawa digma bansa .
+dama ng iba na ang iba miyembro ng pamilya imperial tulad_ng kanya patid na si Prinsipe Chichibu , ang kanya pinsan na si Prinsipe Takeda at Prinsipe Fushimi , at ang kanya mga tiyo na sina Prinsipe Kan'in , Prinsipe Asaka , at Prinsipe Higashikuni , ay dapat sapi sa mga digma .
+Dahil_dito , dami Asyano na tira sa mga bansa may ugnay sa atake sa bansa Hapon , tulad na din ng iba nasyon na laban sa Japan na tili ng agresibo ugali laban_sa Imperyal na pamilya ng_mga Hapon . 
+Ang halaga tanong ay kung gaano totoo ang takbo ng Emperado laban_sa militari Hapon noon dalawa digma . 
+tungkol , ang imperyal na salig batas , sa_lalim ni Emperador Meiji , ang bigay ng buo yari sa Emperador .
+rekomenda ng Artikulo 4 na “ Ang Emperador ang puno ng imperyo , nasa kanya ang yari puno at gamit ito , ayon_sa mga probisyon ng salukoy konstitusyon ” , habang ayon_sa artikulo 6 “ maaari bigay ng parusa ang Emperador sa mga labag sa batas ” at artikulo 11 “ May lakas na awtoridad ang emperador sa mga hukbo at hukbo dagat ”
+Ang Emperador ang maging lider ng Imperial General Headquarters .
+Gayunpaman , ang tingin ng pareho imperial na Hapon at Amerikano tapos ang dalawa digma daigdig kay Emperador Sh?wa ay tila isa wala yari puno na kilos ayon_sa protocol , habang tili layo sa proseso ng gawa ng_mga desisyon .
+laki ang maging impluwensiya ng Wikipedia sa iba uri ng midya .
+akda ng iba media sources na ang laman ng Wikipedia ay hindi eksakto at may mga mali tulad_ng artikulo sa The Onion noon July 2006 na may pamagat na “ Wikipedia Celebrates 750 Years_of_American_Independence " , sa hayag ng Wikipedia na kahit sino ay maari edit tulad_ng " The Negotiation " na isa episodyo ng The Office kung saan sabi ng bida si Michael Scott na ang “ Ang Wikipedia ang buti bagay na mayroon . Kahit sino sa mundo ay maaari sulat ng kahit ano gusto nila tungkol_sa kahit ano paksa , kaya alam mo na kuha ka ng buti posible impormasyon " at ilan sa mga karikatura ng_mga polisiya ng Wikipedia , tulad_ng xkcd strip na tawag na " Wikipedian Protester " , na bilang ng biro na " the Constitution ! "
+Ang una dokumentaryo tungkol_sa Wikipedia na pamagat Truth_in_Numbers : The Wikipedia Story ay iskedyul labas noon 2008 .
+Kinunan sa iba kontinente , sakop ng pelikula at ang saysay ng Wikipedia at mga tampok na interbyu sa Wikipedia editor sa buo mundo .
+Noon September 28 , 2007 , taas ni Franco Grillini , isa Italyano pulitiko , ang isa parlyamentaryo tanong sa Ministro ng Cultural Resources at mga Aktibidad tungkol_sa mga kailangan ng laya ng_mga panorama .
+Sabi niya na ang kulang ng laya ang pilit sa Wikipedia , " ang pito pinaka consulted website " na bawal ang lahat ng_mga imahe ng_mga moderno gusali at sining Italyano , na dulot ng laki sira sa dami ng turista .
+Noon Setyembre 16 , 2007 , ulat ng Washington Post na maging isa focal point ang Wikipedia noon 2008 na kampanya para_sa halal , na sabi , " I-type ang ngalan ng isa kandidato sa Google , at isa sa mga una resulta ay ang pahina ng wikipedia , na hinala halaga bilang anuman ad sa tukoy sa isa kandidato .
+wasto , himay at usap ang_mga lahok sa maging presidente bawat araw .
+Sa artikulo ng Reuters noon October 2007 na pamagat “ Wikipedia page the latest status symbol " , ulat ang kailan kabalaghan kung paano mayroon ng isa artikulo sa Wikipedia na tanggol ang isa kapuna-puna alam at tao .
+talo ng dalawa una gantimpala ang Wikipedia noon 2004 . Golden Nica para_sa Digital Communities_of_the_annual_Prix_Ars_Electronica contes ang una paligsahan ; ito ay may sama € 10,000 ( £ 6588 ; $ 12,700 ) bilang premyo at ang imbita presenta sa PAE Cyberarts Festival sa Austria sa sunod na taon .
+Ang dalawa ay Judges' Webby Award para_sa kategorya " komunidad " .
+Hirang din ang Wikipedia para_sa isa Webby na " husay na sanay " . Noon Setyembre 2004 , ang_mga Japanese Wikipedia ay gawad ng isa Web Creatiion Award mula_sa Japan Advertiser Association .
+Ang dangal na ito ay dalas bigay sa mga indibidual na ambag sa Web ng_mga Hapon , na tanggap ng isa tapat na ambag ng proyekto .
+Sa isa Multiscope research study noon 2006 , bilang ang Dutch Wikipedia bilang tatlo sa galing na Dutch language site , alinsunod_sa Google at Gmail sa puntos na 8.1 .
+Noon January 26 , 2007 , dangal ang Wikipedia bilang lima sa taas na ranggo ng_mga basa sa brandchannel.com , tanggap ito ng 15 % ng boto sa sagot sa tanong na “ Aling brand ang mayroon ng laki epekto sa atin mga buhay noon 2006 ? " Kilala si Jimmy Wales na isa sa mga imluwensiya tao sa mundo ng Time Magazine noon 2006 .
+Noon 2006 at 2007 , talo ang Russian Wikipedia ng " Runet Prize " ( Russian : ) gantimpala salamin sa kategorya " agham at edukasyon " , na siwa ng Russian government agency FAPMC .
+Noon November 2006 , maging nominado ang Turkish Wikipedia sa_lalim_ng kategorya na siyensya para_sa Alt?n Örümcek Web Ödülleri ( Golden Spider Web Awards ) na mas kilala sa tawag na " Web Oscars " sa Turkey . Noon Enero 2007 , bigay ng dangal na “ Best Content ” ang Turkish Wikipedia sa paligsahan .
+bigay sa isa seremonya ang dangal noon Enero 25 , 2007 sa Istanbul Technical University .

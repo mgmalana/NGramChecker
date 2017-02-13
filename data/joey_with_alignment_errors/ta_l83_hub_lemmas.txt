@@ -1,0 +1,47 @@
+Kapag may pili na larangan at observation strategy ay dapat buo .
+Isa halaga desisyon para tukoy kung alin mga filter ng_mga obserba ang gamit ; WFPC2 na may sama na 48 na filter , kabilang ang_mga narrowband filter na isolating ng_mga partikular na linya ng labas ng astrophysical interes , at broadband filter na kinabang para_sa aral ng_mga kulay ng_mga bituin at lawak .
+Ang pli ng filter na gamit para_sa HDF ay depende sa ' throughput ' ng bawat filter - ang buo bahagdan ng liwanag na ito ay bigay-daan sa spectral na saklaw na mayroon .
+Ang_mga filter na may mga bandpasses na patong hangga't maaari unti lang ay nais .
+Sa tapos , ang apat na broadband filter ay pili , gitna sa wavelength ng 300 nm ( lapit - ultraviolet ) , 450 nm ( bughaw na ilaw ) , 606 nm ( red light ) at 814 nm ( lapit - infrared ) .
+Dahil ang buo husay ng Hubble detector ay masyado baba sa 300 nm , ang ingay sa obserba na sa wavelength na ito ay una sanhi ng CCD ingay kaysa_sa langit ; Kaya , maaari gawa ang_mga obserba kapag ang taas na ingay ng background ay pinsala sa husay ng_mga obserba sa iba pa mga passbands .
+Imahe ng target na lugar sa mga pili na mga filter ay kuha sa sampu sunod na araw , na kung saan ang Hubble ay ikot ang Earth ng 150 beses .
+Ang buo beses ng exposyur sa bawat weyblengt ay 42.7 oras ( 300 nm ) , 33.5 oras ( 450 nm ) , 30.3 oras ( 606 nm ) at 34.3 oras ( 814 nm ) , na hinati sa 342 mga indibidwal na mga exposures upang iwas ang laki pinsala sa mga indibidwal na mga imahe sa_pamamagitan_ng cosmic ray , na maging sanhi ng liwanag na marka na litaw kapag hampas sila ng detector ng CCD .
+Ang produksyon ng isa pinal na sama imahe sa bawat wave length ay isa komplikado proseso .
+Ang bright pixels ay maging sanhi ng epekto ng cosmic ray sa panahon ng exposures ay tanggal sa_pamamagitan_ng hambing ng_mga exposures ng pantay na haba na kuha ng isa tapos ng isa , at kilala ng_mga pixels na apektado sa_pamamagitan_ng cosmic ray sa isa lantad ngunit hindi sa iba pa .
+Ebidensya ng “ space debris ” at mga artipisyal na satellite na nasa ang orihinal na imahe , at maingat na inalis .
+Kalat na mga ilaw na mula_sa mundo ay tingkad sa isa isang-kapat ng frame data .
+Ito ay tanggal sa_pamamagitan_ng kuha ng isa imahe na apekto sa_pamamagitan_ng scattered light , ng pantay ito sa isa hindi pa gamit na imahe , at bawas ang hindi pa apekto na imahe mula_sa mga apekto .
+Ang resulta imahe ay kinis , at maaari tapos ay awas mula_sa liwanag na frame .
+Tanggal ng daan ito ang halos lahat ng scattered light mula_sa mga apekto mga imahe .
+Kapag ang 342 indibidwal na mga imahe ay linis ng cosmic-ray hit at tama para scattered light , sila ay sama .
+Mga siyentipiko na sangkot sa mga obserba HDF pioneered ng isa daan na tawag na ' ambon ' , kung saan ang turo ng teleskopyo ay iba sa bawa't minuto sa_pagitan_ng mga hanay ng_mga exposures .
+Bawat pixel sa WFPC2 ng CCD chip ang tala sa isa lugar ng langit 0.09 arcseconds sa buo , ngunit sa_pamamagitan_ng bago ng direksyon kung saan ang teleskopyo ay turo sa_pamamagitan_ng mas baba kaysa_sa pagitan ng exposures , ang_mga resulta imahe ay sama gamit ng_mga sopistikado image-processing na bigay ng wakas na anggular resolution mas husay kaysa_sa halaga ito .
+Ang HDF imahe na gawa sa bawat wavelength ay may huli pixel na laki ng .03985 arcseconds .
+Ang data processing ay yielded apat na mga monochrome imahe , isa sa bawat weyblengt .
+Ang sama ng_mga ito sa ang buo imahe ng kulay na labas sa publiko ay isa medyo arbitrary na proseso , na may isa imahe na talaga bilang ang bawat isa ng pula , berde at bughaw , at ang tatlo mga imahe na sama upang bigay ng isa kulay ng imahe .
+Dahil ang_mga wavelength na kung saan ang_mga imahe ay kuha ko ay hindi tugma sa wavelength ng pula , berde at bughaw na ilaw , ang_mga kulay sa huli imahe lamang bigay ng isa taya representa ng_mga aktwal na kulay ng lawak sa imahe ;
+Ang pili ng_mga filter para_sa HDF ( at sa dami ng_mga imahe ng Hubble ) ay lalo na disenyo upang maximize ang agham na utility ng obserba sa halip na likha ng_mga kulay na ayon sa kung ano ang mata ng tao ay talaga lasa .
+Ang_mga huli imahe ang siwalat sa isa labis ng_mga layo , labo lawak .
+Tungkol_sa 3,000 tangi lawak ay maaari kilala sa mga imahe , na may pareho irregular at spiral galaxy na linaw na kita , kahit na ang ilan mga lawak sa patlang ay ilan pixels lamang sa_tapat .
+Sa lahat , ang HDF ay sip na laman ng mas unti sa sampu pusod ng_mga bituin sa_harap ; sa_pamamagitan_ng layo sa dami ng_mga bagay sa patlang ng layo lawak .
+May mga 50 blue point objects na nasa HDF
+dami ugnay sa mga lapit na galakies , kung saan sama na chains at arcs : ang_mga ito ay rehiyon ng tindi buo ng bituin .
+Iba ay maaari maging ang_mga layo Quasar .
+Ang_mga astronomers ay ang una pasiya ang posibilidad na ang ilan sa mga bagay ay puti dwarfs , dahil ang_mga ito ay masyado asul na maging pareho sa mga teorya ng white dwarf evolution na ganap sa panahon na iyon .
+Sapakgat may mas una gawa na hanap na dami white dwafs na mas maging asul kapag tanda , ito ay suporta sa ideya na at HDF ay laman ng white dwafs .
+Ang HDF data ay may dami yaman na materyales galing_sa cosmologists para suri at mula noon 2005 , halos 400 na dokumento base_sa HDF ang labas sa titik astronomikal .
+Isa sa mga pinaka fundamental na hanap na data ay ang diskubre ng isa sa laki galaxy na may taas na redshift values .
+Habang laki pa ang universe mas layo ang_mga bagay sa mundo , ito ay tawag na Hubble flow .
+Ang ilaw na galing sa mga malalayong galaxy ay lubhang apektado ng kosmolohiko redshift .
+Habang mga Quasar na may taas na redshifts ay kilala , masyado ilan mga lawak na may mga redshifts mas baba sa 1 ay kilala bago ang_mga HDF mga imahe ay ginawa .
+HDF ang , gayunpaman , ay laman ng dami mga lawak na redshifts bilang isa taas na bilang 6 , na ayon sa distansya na 12 bilyon light years .
+( Dahil_sa redshift ang layo bagay sa HDF ay hindi dati kita sa ang_mga imahe ng Hubble ; maaari nila kita sa imahe ng HDF kuha sa na wavelength ng lupa base_sa mga teleskopyo . )
+Ang_mga HDF galaxies ay laman ng isa laki at hindi regular na lawak kaysa_sa lokal na uniberso ;
+Kolisyon ng_mga galaxy at mergers ay mas karaniwan sa mga bata uniberso na ito ay mas liit kaysa_sa ngayon .
+tiwala na buo ang higante elliptical galaxy kapag sangga ang_mga spiral at hindi regular na galaxy .
+Ang yaman ng galaxy at ang iba yugto ng kanila ebolusyon ay bigay ng opportunidad ng_mga astronomo na para estimate ng variation ng antas ng buo ng isa buwan sa buo lifespan ng uniberso .
+Habang hindi ayos ang tantya ng_mga redshit ng HDF na galaxy , tiwala ng_mga astronomo na ganap ang buo ng bituin sa maximum na antas na 8 - 10 bilyon taon ang daan , at bawas na nang mga 10 mula noon .
+Isa pa importante resulta na galing_sa HDF ay ang liit na foreground na mga bituin na lahad .
+Para_sa mga astronomo na isip ang tungkol_sa likas ng dark matter , tila hindi kita ang mass pero obserba na buo ng 90 % ng mass ng uniberso .
+Isa teorya ang sabi na buo ang dark matter ng Massive Astrophysical Compact Halo Objects ( MACHOs ) - labo ngunit laki bagay tulad_ng mga red dwarf at planeta sa_labas na rehiyon ng_mga galaxy . 
+kita sa HDF , gayunpaman , na hindi dami bilang ng red dwarfs sa_labas na bahagi ng atin galaxy .

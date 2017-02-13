@@ -41,19 +41,12 @@ public class TestMain {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
 		long startTime = System.currentTimeMillis();
-		// for (int i = 0; i <= 55; i++) {
-		// Input testError = testErrorsProvider
-		// .getTestErrors(Constants.TEST_SENTENCES, Constants.TEST_LEMMAS,
-		// Constants.TEST_TAGS).get(i);
-		// if (testError.getNgramSize() > 1) {
-		// checkGrammar(testError, i, fm);
-		// fm.writeToFile("\n");
-		// }
-		// }
-		for (int i = 0; i <= 248; i++) {
-			Input testError = testErrorsProvider.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS,
-					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS,
-					Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS).get(i);
+		for (int i = 0; i <= 27; i++) {
+			Input testError = testErrorsProvider
+					.getTestErrors(Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS_5GRAM,
+							Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_5GRAM,
+							Constants.TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_5GRAM)
+					.get(i);
 			totalWords += testError.getLemmas().length;
 			if (testError.getNgramSize() > 1) {
 				checkGrammar(testError, i, fm);

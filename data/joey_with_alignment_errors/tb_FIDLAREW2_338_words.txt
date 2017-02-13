@@ -1,0 +1,27 @@
+Sa 1984 , inilabas ng Commodore ang SX-64 , isang portable na bersyon ng C 64 .
+Nag-iiba ang SX-64 sa iba pang kompyuter dahil ito ang unang “ full-coloured ” na portable na kompyuter .
+Ang yunit na ito ay may 5-inch ( 127 mm ) na CRT at 1541 na floppy disk drive .
+Ang SX-64 ay walang konektor para_sa kaseta .
+Determinado ang Commodore na iiwasan ang_mga problema ng Plus / 4 , at siguraduhin na ang_mga tagapagmana sa C 64 , ang Commodore 128 at ang 128D kompyuter ( 1985 ) , ay kasing ganda at ganap na katugma sa orihinal , pati na rin inaalok mga pagpapabuting katangian ( katulad_ng nakabalangkas na BASIC na may grapiks at tunog , 80-haligi na pagtatanghal , at buong CP / M na pagkakatugma ) .
+Noong 1986 , inilabas ng Commodore ang Commodore 64C ( C64C ) kompyuter , kung saan ito ay halos magkapareho sa orihinal , ngunit ang disenyo nito ay ginawang mas manipis katulad_ng Commodore 128 at iba pang mga magkapanabay na disenyo .
+Ang_mga pagbabago sa C 64 ay lalong dumami sa C64C dahil_sa bagong bersyon ng_mga Sid , Vic at I / O na chips na may core voltage na nabawasan mula 12v sa 5v .
+Sa Estados Unidos , ang C64C ay madalas sinasama ng isang third-party GEOS GUI na operating system .
+Ang Commodore 1541 disk drive ay tumanggap ng bagong disenyo na nagreresulta sa 1541c .
+Sa susunod , isang mas maliit , at mas manipis na 1541-II modelo ay ipinalabas kasama ang 800 KB 3.5 " Capable 1581 .
+Sa 1990 , ang C64 ay muling inilabas sa porma ng isang game console , na tinatawag ng C64 Game System ( C64GS ) .
+May ginawang simpleng pagbabago sa motherboard ng C64C upang maitayo ang cartridge connector .
+Ito ang dahilan kung bakit puwedeng maipasok ang_mga cartridges galing_sa itaas .
+Pinalitan ang BASIC ng bagong ROM para_sa boot screen upang maipaalam sa mga gumagamit na magpasok ng isang cartridge .
+Ang C64GS ay isa pang kabiguang komersyal para_sa Commodore , at hindi ito ipinalabas sa_labas ng Europa .
+Noong 1990 , isang hay-tek na kahalili ng C 64 , ang komodoro 65 ( na kilala rin bilang ang " C64DX " ) , ay prinototype , ngunit ang proyektong ito ay ikinansel ng Chairman ng Commodore na si Irving Gould sa 1991 .
+Ang katangian ng C65 ay maganda para_sa isang 8-bit na kompyuter .
+Halimbawa , ito ay maaaring magpakita ang 256 na kulay , habang ang OCS na Amigas ay maaari lamang magpakita ng 64 .
+Kahit na walang ibinigay na dahilan kung bakit pinatigil ang C65 , ito dapat maging kompetitor ng Amigas , ang mas mababang produkto ng Commodore .
+Sa_gitna_ng 2004 , matapos ng pagkawala ng 10 taon , inihayag ng PC tulipan Computers BV ( mga may-ari ng Commodore mula_sa 1997 ) ang C 64 Direct-to-TV ( C64DTV ) , isang joystick na laruan sa TV batay_sa C 64 may 30 na laro binuo na sa ROM .
+Dinisenyo ito ni Jeri Ellsworth , isang “ self-taught designer ” ng ??kompyuter designer na may nagawa rin mas maagang disenyo sa modernong C-1 C 64 , ang C64DTV ay may katulad_sa konsepto sa iba pang mga mini-consoles na batay_sa Atari 2600 at Intellivision kung saan sila ang nakakuha ng tagumpay sa mas maaga sa dekada .
+Inadvertise ang produktong ito sa QVC sa Estados Unidos noong sa 2004 sa panahon ng bakasyon .
+Ininstall ng ilang mga tao ang 1541 floppy disk drives , hard drives , pangalawang joysticks at keyboard sa mga yunit , upang mabigyang sa DTV halos lahat ng kakayahan ng isang buong Commodore 64 .
+Ang DTV hardware ay ginagamit din sa ang mini-console / game Hummer , na naibenta sa Radio Shack noong 2005 .
+Noong 2006 , ang_mga taong mahilig ay bumuo pa rin ng_mga bagong hardware , katulad_ng mga Ethernet Card , mga espesyal na hard disk at mga Flash Card interfaces .
+Sa panahon na inalabas ng C 64 , ang grapiks nito at ang_mga kakayahan niya ay makaribal lamang sa_pamamagitan_ng Atari 8-bit na kompyuter .
+Nangyari ito sa panahon na karamihan ng_mga IBM PC at iba pang kompyuter ay mayroong graphics card , green screen monitors , at mga langitngit na tunog galing_sa built-in na maliit at mababang kalidad na ispiker .

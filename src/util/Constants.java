@@ -49,6 +49,10 @@ public class Constants {
 	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS = "data/alignment_test/error_lemmas.txt";
 	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_LAURENZ = "data/alignment_test/error_lemmas_laurenz.txt";
 
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_WORDS_5GRAM = "data/alignment_test/error_words_5gram.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_TAGS_5GRAM = "data/alignment_test/error_tags_5gram.txt";
+	public static String TEST_JOEY_PLUS_OLD_INCORRECT_PHRASES_LEMMAS_5GRAM = "data/alignment_test/error_lemmas_5gram.txt";
+
 	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_WORDS = "data/alignment_test/correct_words.txt";
 	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_TAGS = "data/alignment_test/correct_tags.txt";
 	public static String TEST_JOEY_PLUS_OLD_CORRECT_PHRASES_TAGS_HPOST = "data/alignment_test/correct_tags_HPOST.txt";
@@ -80,7 +84,7 @@ public class Constants {
 	public static double EDIT_DISTANCE_MISSING_WORD = 1;
 	public static double EDIT_DISTANCE_UNNECESSARY_WORD = 1;
 
-	public static int NGRAM_SIZE_UPPER = 3;
+	public static int NGRAM_SIZE_UPPER = 5;
 	public static int NGRAM_MAX_RULE_SIZE = 7;
 	public static int NGRAM_SIZE_LOWER = 2;
 

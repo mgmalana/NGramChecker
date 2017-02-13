@@ -1,0 +1,162 @@
+Habang ang h2 ay hindi aktibo sa_ilalim_ng pantay kundisyon , ito ay buo ng tambal sa dami ng_mga elemento .
+Milyon sa mga hydrocarbons ang kilala , ngunit hindi sila buo ng direkta reaksyon ng elementarya hydrogen at carbon ( bagaman ang synthesis gas production ay sunod ng proseso ng Fischer-tropsch sa hindi sama ng hydrocarbons , habang ito ay mula sama ng uling at ng elemento hydrogen ay gawa sa situ ) .
+Ang hydrogen ay buo ng compounds sama ng iba elemento na mas electronegative , katulad_ng halogens ( e.g. F , Cl , Br , I ) ; sa mga compounds na ito ang hydrogen ang may bahagya positibo charge .
+Kapag tambal sa flourine , oxygen , o nitrogen , ang hydrogen ay kaya partisipa sa anyo tibay na noncovalent bonding na tawag na hydrogen bonding , na kritikal sa siguro ng dami biological molecules .
+Ang hydrogen ay buo ng compounds sa may unti electronegative na mga elemento , tulad_ng metals at metalloids , na tanggap ng bahagya negatibo charge .
+Ang_mga tambal ito ay kilala bilang hydrides .
+Ang hydrogen ay buo ng lawak na uri ng_mga compounds sa carbon .
+Dahil_sa kanila lahat ugnay sa mga bagay na may buhay , ang_mga tamabal ito ay tawag bilang organic compounds ; ang aral ng kanila mga tangi ay kilala bilang organic chemistry at ang kanila aral sa konteksto ng_mga buhay na organismo ay kilala bilang biochemistry .
+Sa iba mga hulog , ang_mga tambal " organic " ay kailangan mayroon ng carbon ( bilang luma halimbawa , urea )
+Gayunman , dami sa mga iyon ay mayroon hydrogen , at dahil iyon ang carbon-hydrogen bond na bigay sa klase ng tambal ito ng partikular nito kemikal na tangi , ang carbon-hydrogen bonds ay kailangan sa ilan mga depinisyon ng salita " organic " sa chemistry .
+Ito huli depinisyon ay hindi perpekto , ngunit , sa depinisyon ito , ang urea ay hindi sama bilang organic compound ) .
+Sa inorganic chemistry , ang hydrides ay maari maging bridging ligands na dugtong ng dalawa metal centers sa isa coordination comple x .
+Ang tungkol na ito ay karaniwan partikular sa ika-13 na grupo sa mga elemento , lalo na sa Boranes ( boron hydrides ) at aluminum complexes , maging sa mga clustered carboranes .
+Ang_mga compounds ng hydrogen ay karaniwan tawag na hydrides , termino gamit madalas .
+Sa mga chemists , ang termino " hydride " ay karaniwan pahiwatig na ang H atom ay mayroon ng negatibo o anionic na tangi , kita bilang H- , ang mayroon ng hydride anion , mungkahi ni G.N. Lewis ng taon 1916 para_sa ika-1 grupo at ng II salt-like hydrides , kita ni Moers taon 1920 sa electrolysis ng molten lithium hydride ( LiH ) , na gawa ng gemotric figurestoichiometric quantity ng hydrogen at ng anode .
+Para_sa hydrides liban sa ika-1 grupo at II metal , ang termino tunay na linlang , kung alang ang baba electronegativity ng hydrogen .
+taliwas sa ika-2 grupo ng hydrides ay ang BeH2 , na polymeric .
+Sa lithium aluminum hydride , ang A1H4- anion ay dala ng hydridic centers na tatag na lakip sa A1 ( III )
+Bagaman ang hydrides ay maari buo sa halos lahat ng una grupo ng_mga elemento , ang numero at kombinasyon ng_mga posible compounds ay nag-iiba sa dami ; halimbawa , mayroon higit sa 100 na binary borane hydrides na alam .
+Ang binary indium hydride ay hindi pa kilala , bagaman mayroon laki complexes .
+Ang oxidation ng H2 ay pormal na bigay ng proton na H+ , ang species na ito ay ang sentro sa usap ng acids , bagaman ang termino proton ay hindi masyado gamit sa sangguni sa positibo charge o cationic hydrogen , kita bilang H+ .
+Ang isa bare proton na H+ ay hindi maari labas sa isa solusyon dahil maari nito kabit ang sarili sa iba atoms at molecules na may electrons .
+Upang iwas ang kombenyente fiction ng naked " solvated proton " sa solusyon , ang acidic aqueous solutions ay minsan konsidera mayroon hydronium ion ( H3O+ ) ayos para buo ng H9O4+ .
+Ang iba oxonium ions ay kita kapag ang tubig ay nasa solusyon sama ng iba tunaw .
+Bagaman hindi karaniwan sa mundo , isa sa karaniwan ions sa lawak ay ang H3+ ion , kilala bilang protonated molecular hydrogen o ang triaotomic hydrogen atom .
+Ang hydrogen ay may tatlo natural na isotopes , kita bilang 1H , ²H , at ³H .
+Ang iba hindi tatag na nuclei ( 4H hanggang 7H ) ay suri sa laboratoryo ngunit hindi obserba sa likas .
+Ang hydrogen ay ang isa elemnto na mayroon iba ngalan sa mga isotopes nito na salukoy gamit .
+Noon una aral ng radioacvtivity , dami bigat na isotopes ang bigay ng ngalan , ngunit ang_mga ngalan iyon ay hindi na gamit )
+Ang simbolo D at T ( sa halip ng ² H at ³ H ) ay minsan gamit para_sa deuterium at tritiyum , ngunit ang ukol simbolo na P ay gamit na para_sa posporus at samakatuwid ay hindi na gamit para_sa protium .
+Sa mga tunton ng nomenclature into , ang International_Union_of_Pure_and_Applied_Chemistry ay bigay-daan sa anuman D , T , ² H , at ³ H na gamit , bagaman ² H at ³ H ay ang mas dapat .
+Ang hydrogen ay ang ganap na elemento sa lawak , buo ang 75 % ng normal na mater sa_pamamagitan_ng mass at higit 90 % na bilang ng atoms .
+Ang elemento ito ay mas higit na tagpo sa mga bituin at laki gas na planeta .
+Ang molecular clouds ng H2 ay may ugnay sa porma ng_mga bituin .
+Ang Hydrogen ay ganap ng isa halaga papel sa bigay ng lakas sa mga bituin sa_pamamagitan_ng proton-proton reaksyon at CNO cycle nuclear na sanib .
+Sa buo lawak , ang hydrogen ay higit na kita sa atomic at plasma states na may mga tangi na iba mula_sa molecular hydrogen .
+Bilang isa plasma , ang electron at proton ng hydrogen ay hindi sama , bunga ng taas na electrical conductivity at taas na emissivity ( bigay ng ilaw mula_sa araw at bituin )
+Ang_mga particles na charged ay may taas na impluwensya galing_sa magnetic at electric fields . Halimbawa , sa solar na hangin sila ay salamuha sa netosphere ng mundo na bigay ng birkeland currents at aurora .
+Ang hydrogen ay tagpo sa neutral atomic state sa interstellar medium .
+Ang laki parte ng neutral hydrogen na tagpo sa damped lyman-alpha systems ay alam na dominante sa cosmological baryonic density ng lawak hanggang sa redshift z = 4
+Sa_ialaim_ng ordinaryo kundisyon sa mundo , ang elemental hydrogen ay isa diatomic gas , H2 ( para_sa datos tingin ang tala )
+Gayunpaman , ang hydrogen gas ay bihira sa atmosphera ng mundo ( 1 ppm sa volume ) dahil_sa gaan nito timbang , na bigay-daan sa takas mula_sa gravity ng mundo ng mas dali kaysa_sa bigat na gases .
+Bagaman ang H atoms at H2 molecules ay ganap sa interstellar space , sila ay hirap buo , pisan , at sala sa mundo .
+Ganunpaman , ang hydrogen ay ang tatlo likas na sangkap sa_babaw ng Earth .
+Para_sa hydrides liban sa ika-1 grupo at II metal , ang termino tunay na linlang , kung alang ang baba electronegativity ng hydrogen .
+Ang hydrogen gas ay mull sa ilan mga bacteria at algae at isa likas na bahagi ng flatus .
+Ang methane ay isa mula ng hydrogen na may laki importansya .
+Ang hydrogen gas na H2 ay una artipisyal na gawa at pormal na ladaw ni T. Von Hohenheim ( kilala bilang Paracelsus , 1493 - 1541 ) sa daan ng halo ng metals sa mga tapang na asido .
+Siya ay wala malay na ang sunog na gas na gawa sa_pamamagitan_ng reaksyon kemikal na ito ay isa bago sangkap kemikal .
+Noon 1671 , si Robert Boyle ay muli tuklas at ladaw ang reaksyon sa_pagitan_ng mga tabas na bakal at labnaw na asido , na resulta sa produksyon ng hydrogen gas .
+Noon 1766 , Si Henry Cavendish ay ang una kilala ng hydrogen gas bilang isa discrete na sangkap , sa_pamamagitan_ng kilala ng gas mula_sa isa metal-acid na reaksyon bilang " siklab na hangin " at dagdag hanap na gas ang gawa ng tubig kapag init .
+Si Cavendish ay tuon ng pansin sa hydrogen sa eksperimento ng_mga acids at mercury .
+Bagaman hindi wasto ang kaniya lagay na ang hydrogen ay isang liberated na bahagi ng asoge sa halip na ang asido , siya ay tumpak pa rin na ladaw ng ilan mga susi tangi ng hydrogen .
+Siya ay dalas bigay ng kilala sa diskubre nito bilang isa elemento . Taong 1783 , ngalan ni Antoine Lavoisier ang elemento ng o .
+laki dami ng H2 ay kailangan sa industriya ng petrolyo at kemikal .
+Ang laki aplikasyon ng H2 ay para_sa proseso ( " upgrade " ) ng_mga fossil fuels , at sa produksyon ng amonya .
+Ang_mga una mga bili ng H2 sa planta ng petrochemical ay ang hydrodealkylation , hydrodesulfurization , at hydrocracking ng H2 ay may ilan pa mga halaga gamit .
+Ang H2 ay gamit bilang isa hydrogenating agent , lalo na sa taas ng antas ng saturation ng unsaturated na taba at langis ( tagpo sa mga sangkap tulad_ng margarin ) , at sa produksyon ng methanol .
+Ito ay tulad ang mula ng hydrogen sa gawa ng hydrochloric acid .
+Ang H2 ay gamit din bilang isa bawas ng agent ng metal ores .
+Bukod sa gamit nito bilang isa reactant , ang H2 ay may lawak na mga aplikasyon sa pisika at inhinyeriya .
+Ito ay gamit bilang isa shielding gas sa mga daan ng hinang tulad_ng atomic hydrogen na hinang .
+Ang H2 ay gamit bilang ang rotor coolant sa electrical generators sa istasyon ng yari , dahil ito ay may taas na thermal conductivity ng anuman gas .
+Ang Liquid H2 ay gamit sa cryogenic na saliksik , bilang ang_mga aral ng superconductivity .
+At dahil ang H2 ay mas gaan kaysa_sa hangin , ang mayroon ng unti pa kaysa_sa 1/15th ng density ng hangin , ito ay lawak gamit bilang isa ahente ng angat sa mga lobo at airships .
+Gayunman , ang gamit na ito ay tigil tapos ang Hindenburg na kalamidad kumbinsido ang publiko na ang gas ay masyado panganib para_sa hangad ito .
+Ang hydrogen pa rin ang regular na gamit para_sa pintog ng weather balloon .
+Sa mas bago aplikasyon ng hydrogen , ito ay gamit bilang puro o halo may nitrogen ( minsan tawag na forming gas ) bilang isa tracer gas para_sa tunton sa liit na tagas .
+Ang_mga aplikasyon ay tagpo sa automotive , sakay pawid , mga bili ng kalakal , medikal na aparato at kemikal na industriya .
+Ang Hydrogen ay isa awtorisado sama sa kain ( E 949 ) na pahintulot sa tagas ng pakete ng kain subok sa mga iba pa anti-oxidizing na tangi .
+Ang hindi karaniwan hydrogen isotopes din ay may tiyak na mga aplikasyon .
+Ang Deuterium ( hydrogen-2 ) ay gamit sa mga nuclear fission application bilang ng moderator upang bagal ng_mga neutrons , at sa mga nuclear na sanib reaksyon .
+Ang_mga Deuterium compounds ay may mga aplikasyon sa chemistry at biology sa mga aral ng_mga epekto ng isotope ng reaksyon .
+Ang Tritiyum ( hydrogen-3 ) , na gawa sa mga nuclear reactors , ay gamit sa produksyon ng hydrogen bomb , bilang isa isotopic na label ng biosciences , at bilang isa mula ng radiation sa liwanag na pintura .
+Ang triple temperatura ng punto ng balanse hydrogen ay isa tukoy sa pirmi punto sa ITS-90 temperature scale sa 13.8033 kelvins .
+Ang Hydrogen ay hindi isa mula ng enerhiya , maliban sa hypothetical na konteksto ng_mga komersyal na nuclear fusion power plants na gamit ng deuterium o tritiyum , isa teknolohiya salukoy layo mula_sa unlad .
+Ang Enerhiya mula_sa araw ay mula sa nuclear na sanib ng hydrogen , ngunit ang proseso ito ay hirap kamit sa mundo .
+Ang elemental hydrogen mula_sa solar , biological , o mga koryente mga kuha ay halaga ng higit pa sa enerhiya upang gawa kaysa_sa kuha sa_pamamagitan_ng punog nito .
+Ang Hydrogen ay maaari kuha mula_sa mga fossil sources ( tulad_ng methane ) para_sa mas unti enerhiya kaysa_sa kailangan upang gawa nito , ngunit ang_mga kuha ay unsustainable , at ang kanila mga sarili din ang direkta mga kuha ng enerhiya ( at wasto turing bilang ang una mula ng enerhiya ng hydrogen na kuha mula_sa kanila ) .
+Ang enerhiya na density bawat yunit ng dami ng_mga pareho likido hydrogen at hydrogen gas sa anuman gawa presyon ay kabuluhan mas baba kaysa_sa tradisyon na mga kuha ng gasolina , bagaman ang density ng enerhiya sa bawat yunit ng fuel mass ay mas taas .
+Gayunpaman , ang elemental hydrogen ay lawak na talakay sa konteksto ng enerhiya , bilang isa posible harap na carrier ng enerhiya sa isa ekonomiya may lawak na sukat .
+Isa teorya pabor sa gamit ng H2 bilang isa carrier ng enerhiya ay ang lokal at konsentrasyon ng environmentally unwelcome aspects ng hydrogen mula_sa fossil fuel energy sources .
+Halimbawa , ang samsam ng CO2 na sunod ng kuha ng carbon at ang imbak ay maaari gawa sa punto ng produksyon ng H2 mula_sa methane .
+Ang Hydrogen na gamit sa transportasyon ay sunog ng linis , sa ilang NOx na emissions , ngunit wala carbon emissions .
+Gayunpaman , ang_mga gastos sa imprastraktura na ugnay sa buo conversion sa isa ekonomiya hydrogen ay maging tibay .
+Ang una tren ay rope-hauled , lakas ng gravity o hila sa_pamamagitan_ng kabayo , ngunit mula_sa una bahagi ng ika-19 siglo halos lahat ay takbo ng_mga steam locomotives .
+Mula_sa 1920s , sila ay mula palit ng mas labor intensive at mas linis ( ngunit mas kumplikado at mahal ) diesel na mga tren at electric na tren , habang sa sabay na taon ang self-propelled multiple unit na sakay na may kahit alin na kuha ng kuryente ay maging mas karaniwan sa serbisyo pasahero .
+dami sa mga bansa ay palit ang steam locomotives bilang araw na gamit noon 1970's , karaniwan sa diesel na locomotives .
+Ilan sa mga bansa , lalo na ang_mga tao sa Republika ng China , kung saan ang uling at trabaho ay mura , gamit pa din sila ng steam locomotives , ngunit ito ay wala na ng unti .
+Ang_mga historic steam trains ay takbo pa din sa dami bansa , para_sa libang at merkado .
+Ang electric traction ay bigay ng baba halaga kada milya ng opera ng tren ngunit taas na halaga ng initial , na maari lamang tunay sa taas na linya ng trapiko .
+Dahil ang halaga kada milya ng konkstruksyon ay mas taas , ang elektik traction ay hindi masyado [ pabor sa long-distance na linya na taliwas sa taas na takbo ng linya .
+Ang_mga tren na elektrik ay tanggap ng kuryente sa_pamamagitan_ng overhead lines o sa_pamamagitan_ng third rail electric system .
+Ang pasahero tren ay isa sa mga may sama passenger-carrying vehicles .
+Maari self-powered multiple unit o railcar , o kahit anuman kombinasyon ng isa o higit pa locomotives o isa o higit pa unpowered trailers na kilala bilang coaches , mga sakay o carriages .
+Ang pasahero tren ay lakbay sa mga pagitan ng istasyon kung saan ang_mga pasahero ay maaari sakay o baba ng tren .
+dami sa mga prestihiyoso pasahero serbisyo ng tren ay bigay ng tiyak na ngalan , ilan ay aging kilala sa literatura at buhay .
+Ang India ang may dami dami ng pasahero sa mundo .
+Ang_mga long-distance trains ay lakbay sa mga siyudad at mga rehiyon sa isa bansa , kung minsan abot sa iba bansa .
+dalas mayroon slang dining car o restaurant car na bigay ng_mga kain sa mga pasahero habang sila ay lakbay .
+Ang_mga tren na lakbay sa gabi ay maari mayroon mga tulog .
+Ang_mga layo biyahe ng tren tulad_ng mga tren sa trans-siberian railway ay karaniwan bagal ang takbo .
+Ang_mga bilis na tren ay karaniwan biyahe sa aga , at dating sa kanila destinasyon bago gabi at kompitensya sa bilis ng airliners .
+Sa Japan , dami sa mga publiko transportasyon na biyahe sa Tokyo metropolitan at Osaka metropolitan ( na may 500 km distansya sa_pagitan nila dalawa ) ay ang Shinkansen , ganunpaman sa biyahe ng lagpas sa 500 km ( tulad_ng Tokyo - Hiroshima ) dami ang mas pili biyahe sa pawid .
+Ang_mga bilis na tren ay tagilid minsan tulad_ng APT , Pendolino at ang Talgo .
+Ang gilid ay isang sistema kung saan ang pasahero sakay ay kusa gilid sa kurba , bawas ng centrifugual force sa gilid ng_mga pasahero at bigay ng bilis na takbo sa kurba kung saan mas kumportable ang pasahero .
+Ang bilis na tren sa riles ay ang french TGV ( Train_à_Grande_Vitesse ) ( French_for_High_Speed_Train ) na may 574.8 km/h ( 356 mph ) na takbo sa testing noon 2007 . Ganunpaman ang_mga TGV's ay takbo sa 300 - 320 km/h . Ang German ICE ay gamit ng ganito commercial speed na 300 - 320 km/h . 
+Sa_lalim_ng tama lagay , ang tranportasyon ng karga sa_pamamagitan_ng tren ay lubos na ekonomiya , at mas dali kaysa_sa transportasyon ng karga sa_pamamagitan_ng biyahe .
+Ang karga sa tren ay mas ekonomiya kung ang karga ay dala ng dami at layo , at hindi akma sa ikli distansya at gaan na karga .
+Ang dami galaw ng di higit sa bente milya ( 32 km ) maaari epektibo gastos at pahintulot para_sa trans-shipment na mga gastos .
+Ito mga trans-shipment na gastos ay dominante sa dami kaso at dami bago gawi tulad_ng lagay ng karga ay gamit para bawas ito .
+Ang una disadvantage ng karga tren ay ang wala nito ng fleksibilidad .
+Sa dahil ito , ang tren ay higit na wala ng negosyo karga sa kompetisyon sa daan .
+dami gobyerno ang ngayon_ay kumbinsi ng dami karaga sa tren , dahil_sa mga benepisyo hatid nito .
+dami klase ng karga tren , na gamit upang dala ang dami klase ng karga , na dami klase ng wagons .
+Isa sa mga karaniwan uri sa moderno railways ay ang container trains , na kung saan ang_mga container ay maari lagay at alis sa_pamamagitan_ng cranes at sakay sa truck o barko .
+Ang uri ng kargamento tren na ito ay may laki traditional boxcar ( wagon-load ) na uri ng tren , na kung saan ang karga ay kailangan lagay at alis nang mano .
+Sa ilan mga bansa " piggy-back " tren ay gamit: mga trucks maaari maneho nang_tuwid punta_sa tren at alis muli kapag abot ang dulo destinasyon .
+Ang isa sistema tulad_ng ito ay gamit sa_pamamagitan_ng Channel tunel sa_pagitan_ng England at France , at para_sa trans-Alpine na serbisyo sa_pagitan_ng Pransya at Italya ( ang serbisyo na ito ay gamit ng_mga carrier ng Modalohr road trailer carriers ) .
+Ang ' Piggy-back ' na tren ay ang bilis na lago uri ng_mga tren ng karga sa Estados Unidos , kung saan din sila ay kilala bilang trailer sa tren o TOFC tren .
+Ang ' Piggy-back ' na tren ay hindi kailangan ng espesyal na mga bago sa mga sakay na dala .
+Isa alternatibo uri ng " inter-modal " na sakay , na kilala bilang isa Roadrailer , ay disenyo upang pisikal na lakip sa tren .
+Ang orihinal na trailer ay dapat na may dalawa hanay ng_mga gulong : isa hanay ay flanged , para_sa trailer upang takbo ang konekta sa iba pa mga tulad na trailer bilang isa tren na sakay sa isa tren , at isa hanay ay tyred , para_sa gamit bilang semi-trailer ng isa sakay sa kalye .
+dami moderno trailer ay mayroon lamang gulong na kalsada at disenyo upang gawa sa mga espesyal na mga angkop na bogies ( trucks ) kapag lipat sa mga daan-bakal .
+Mayroon din mga dami iba pang mga uri ng_mga wagons , tulad_ng mga " low loader " wagons para_sa transportasyon ng_mga sakay na kalsada .
+May mga sakay may refrigerator para_sa transportasyon ng_mga kain tulad_ng sorbetes .
+Mayroon mga simple uri ng open-topped wagons upang transporta ng_mga mineral at dami materyal tulad_ng uling at mga tankers sa transporta ng likido at petrolyo .
+Ngayon gayunpaman dami ng karbon at mga aggregates ay lipat sa mga hopper wagons na maaari puno at discharge nang_mabilis , upang gana ang_mga husay na handling sa mga materyales .
+Ang karga tren ay minsan ilegal na sakay ng_mga pasahero na hindi nais na bayad ng pera , o wala pera upang lakbay sa_pamamagitan_ng ordinaryo daan .
+Ito ay tawag na ' hopping '' at konsidera ng ilang komunidad na daan ng transportasyon .
+dami sa mga hoppers ang sakay patago sa mga sakay ng tren at tago sa sakay upang malibre sa bayad .
+dami sa mga hoppers ang sakay sa tren habang andar ito , dahil upang sila ay aksidente .
+Ang_mga awtor ay tungo sa dalawa direksyon sa kanila reaksyon sa balik ni Charles .
+Sa_kabilang_banda , mayroon subok na balik ang literatura ng Ingles ng jacobean period , na para bang wala maging gulo ; ngunit sa isa banda , mayroon ng lakas na dama ng bago , at ang_mga awtor ay lapit sa mga modelo ng gallic na literatura at taas ang antas ng literatura ng isip ( partikular ang satire at parody ) .
+Bago bagay o danas ang kita sa titik ng duda sa tanong , at ang Gallicism ay kita sa kilala ng Neoclassicism sa Ingles na sulat at puna .
+Ang restorasyon ay isa hindi karaniwan saysay panahon , dahil ang_mga titik ay sama sa_pamamagitan_ng isa tiyak na pulitika na ganap : ang balik ng monarkiya Stuart .
+Ito ay hindi karaniwan sa iba daan , dahil ito ang panahon na ang impluwensya ng hari at ang personalid ng literatura ng lipon ay kita ng korte .
+Ang_mga adversaries ng restorasyon , ang Puritans at democrats at republicans , ay pareho tugon sa peculiarities ng hari at tao ang hari .
+Samakatuwid , ang isa top-down view ng titik saysay ng balik ay may higit pang bisa kaysa_sa dami ng_mga titik epochs .
+" Ang restorasyon '' bilang kritikal na konsepto ay saklaw sa tagal ng epekto ng Charles at daan ng Charles .
+Ang epekto ito ay haba hanggang sa kaniya patay , sa ilan yari , at hindi kasing haba ng kaniya buhay , sa iba .
+Ang restorasyon ay edad ng tula .
+Hindi lamang ang tula ang popular na anyo ng literatura , ngunit ito din ay ang kabuluhan anyo ng literatura , habang ang_mga tula ay apekto ang_mga politika na ganap at kita ng panahon .
+Ito din , sa sarili nito mga tao , ang edad na ang hari lamang ang dominante , at hindi ng sino man henyo .
+Sa buo panahon , ang tula liriko , Ariel , saysay , at haba tula din ay buo .
+Kahit na wala ang kilala ng Neo-classical na pula , alam ng_mga makata Ingles na sila ay wala bansa epiko .
+Si Edmund Spenser Faerie Queene ay kilala , ngunit ang England , hindi tulad_ng Pransya sama ang Song_of_Roland o Spain_with_Cantar_de_Mio_Cid o , dami sa lahat , Italya_with_the_Aeneid , ay wala haba tula ng_mga bansa mula .
+Ilan tula ang tangka bigay ito ng wala bisa .
+Si Sir William Davenant din ang una makata na tangka ng isa haba tula .
+Ang Kanya hindi tapos na Gondibert ay haba , at ito ay gusto ng Hobbes .
+Gayunpaman , gamit din ang balad form , at iba pa mga poets , pati na rin mga kritiko , ay masyado bilis na sumpa ang tula sa daan na ito bilang unflattering at unheroic ( Dryden epic ) .
+Ang prefaces sa Gondibert ay kita ang baka para_sa isa pormal na istraktura ng haba tula , pati na rin ang kung gaano ang aga balik . kita ang kanila sarili na ugnay_sa Classical na literatura .
+Kahit ngayon siya ay aral ng hiwalay mula_sa panahon ng balik , ang paradise lost ni John Milton ay publish sa panahon na iyon .
+Si Milton ay wala iba hiling kundi ang sulat ang Ingles na haba , at pili ng tula wala tugma bilang kanya anyo .
+Tanggi ni Milton ang dahil ng Ingles exceptionalism : ang kanya Paradise Lost ay pahiwatig upang sabi ang kuwento ng lahat ng tao , at ang kanya taas ay para_sa Kristiyanismo kaysa_sa english .
+Si Milton ay mula sa isa tangka sa sulat ng isa haba tula kay Hari Arthur , para_sa bansa tuklas ng Ingles .
+Habang taggi ni Milton ang proyekto , sa huli , ang iba ay subok .
+Si Richard Blackmoore ay sulat pareho ng Prince Arthur at King Arthur .
+Ang pareho subok ay haba , at bigo pareho sa kritika at popularidad .
+Sa tunay , ang tula ay masyado bagal na ang awtor ay kilala bilang " never-ending Blackmoore '' ( tingin ang puna ni Alexander Pope kay Blackmoore sa dunciad ) .
+Ang panahon ng restorasyon ay tapos ng wala epiko Ingles .
+Ang Beowulf ay maari tawag English epic , ngunit ang epiko ito ay hindi kilala ng_mga awtor ng restorasyon at ang Old English ay hindi nila awa .

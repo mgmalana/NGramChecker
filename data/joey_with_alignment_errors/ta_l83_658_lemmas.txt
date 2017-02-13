@@ -1,0 +1,23 @@
+Ang Abjad ay isa uri ng sistema sulat kung saan ang bawat simbolo ay may tumbas na tinig ; ang basa ang dapat magbigay ng angkop na patinig .
+Ito ay isa termino na mungkahi ni Peter T. Daniels upang palit ang_mga karaniwan mga termino consonantary o consonontal alphabet o base sa family ng scripts o West Semitic .
+Ang iba mga linguists ay turing na alphabeto ang West Semitic na sulat , habang yung iba naman ay kilala ito bilang hiwalay na sistema ng sulat , at iba naman ay iba klase baybay .
+Ang abjads ay dalas taglay ng salita " alpabeto " sa kanila ngalan , tulad_ng " Phoenician na alpabeto " at " Arabic na alpabeto . "
+Ayon_sa mga pormula ni Daniels , iba ang abjads sa daan na ang_mga tinig ay representa sa mga salig na graphemes .
+Ang abjads ay iba sa kategorya na imbento ni Daniels , abugidas , kung saan ang abjads ang tunog ng tinig ay pahiwatig ng phonology , at kung saan ang marka ng tinig ay iral sa sistema , tulad_ng nikkud para_sa Hebrew at harakat para_sa Arabic , ang kanila gamit ay opsyonal at hindi ang dominante ( o literal ) na anyo .
+Sa abugida , ang_mga tinig ( liban sa likas na tinig ) ay lagi marka , maski may diacritic , isa minor attachment sa isa letra o standalone glyph .
+Ang iba abugidas ay gamit ng espesyal na simbolo upang supress ang likas na tinig at kita ng ayos ang tinig lamang .
+
+kuha ng sistema ang ngalan mula_sa Arabic na salita para_sa alpabeto , kung saan ito ay buo ng una apat na letra sa Arabic alphabet sa luma abjadi order , gaya_ng salita Ingles " alphabet " ay buo ng_mga ngalan ng una dalawa letra ng Greek Alphabet . ( alpha at beta )
+Lahat ng kilala abjads ay sama sa Semitic family ng scripts .
+Ang_mga iskripto ito ay turing na kuha sa Proto-Sinaitic na alpabeto ( na noon pa 1500 BC ) kung saan kuha mula_sa Egyptian hieroglyphs .
+Ang abjad ay turing na mas dali kumpara_sa una hieroglyphs . laki ang bawas sa bilang ng iba glyphs , sa halaga ng taas na labo .
+Ang Phoenician abjad ang una abjad na mayroon ng lawak gamit .
+Di gaya_ng iba sabay na iskripto , tulad_ng Cuneiform at Egyptian hieroglyphs , ang Phoenician script ay buo ng dalawa dosena simbolo .
+Ito ang dali sa tuto ng iskripto , at dala ng_mga Phoenician seafaring merchants ang iskripto kahit saan sila punta .
+Ang Phoenician ang bigay-daan sa dami bago sistema ng sulat , sama dun ang Greek Alphabet , ang una " true " alpabeto , at Aramic , isa lawak gamit na abjad .
+unlad ang Greek tungo_sa western alphabets , tulad_ng Latin at Cyrillic , habang ang Aramic ay maging nuno ng dami abjad at abugidas sa Asya . ganap ang Aramic sa Asya , abot sa India at maging Brahmi , ang nuno abugida sa dami ng modern Indian at Southeast Asian scripts .
+Sa Middle East , ang Aramic ay bigay-daan sa Hebrew at Nabatean abjads , kung saan tili ang Aramic Letter forms .
+Ang iskripto Syriac ay daloy na iba ng Aramaic .
+labo ang alam kung Arabic abjad ay kuha mula_sa Nabatean o Syriac . Ang_mga moderno abjad ay gamit na para_sa isopsephy , sistema na kung saan bigay ng numero tumbas ang indibiduwal na letra .
+Bago ang unlad ng positional number system , ito ang isa sa mga una regular na sistema sa sulat ng numero .
+Sa iba linguahe , ang relasyon sa_pagitan_ng salita at numero gawa ng sistema ay hantong sa tula at mystikal na gamit .

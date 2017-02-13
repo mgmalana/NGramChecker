@@ -1,0 +1,21 @@
+Pahahabain sa seksyon na ito ang pagtalakay sa depinisyon ng ekonomiks sa unang bahagi ng artikulo .
+Ang maimpluwensiyang diskusyon ng politikal na ekonomiya ay may kaugnayan sa kayamanan kung tatalakayin nang malawakan , tulad_ng sa mga gawa ni David Hume at Adam Smith .
+Nakipagtalo si Hume na ang pagdadagdag ng ginto ng walang pagtaas ng produksyon ay magpapataas lamang ng_mga presyo .
+Inilarawan din ni Smith ang tunay na kayamanan , hindi bilang sa ginto at pilak , kung di bilang taunang paggawa at lupain ng lipunan .
+Tinukoy ni John Stuart Mill ang ekonomiks bilang “ ang praktikal na siyensya ng produksyon at distribusyon ng kayamanan ” ; ang depinisyon na ito ay mula_sa Concise Oxford English Dictionary kahit na wala dito ang mahalagang papel ng pagkonsumo .
+Para_kay Mill , ang depinisyon ng kayamanan ay ang pag-iimbak ng_mga kapaki-pakinabangan na gamit .
+Ang depinisyon ng paksa sa mga tuntunin ng kayamanan ay binigyang diin ang produksyon at pagkonsumo .
+Ang diin na ito ay sinisingil ng_mga kritiko bilang masyadong makitid na pokus sa paglalagay ng kayamanan sa_harapan at ang tao sa_likuran .
+Bilang halimbawa , tinukoy ni John Ruskin ang politikal na ekonomiya bilang “ ang siyensya ng pagiging mayaman ” , at “ bastardong siyensya . ”
+Sa pagyabong ng depinisyon ito , naidagdag na ang pag-aaral sa tao , aktibidad ng tao at kapakanan ng tao . Kaunti na lang sa kayamanan .
+Isinulat ni Alfred Marshall sa 1980 niyang libro na Principles of Economic ang , “ ang politikal na ekonomiya o ekonomiks ay isang pag-aaral ng sangkatauhan sa ordinaryong kalakaran ng buhay ; sinusuri nito ang parte ng indibidwal at panlipunan na aksyon kung saan ito ay pinakakonektado sa kakayahan at paggamit ng materyal na kinakailangan ng isang tao . ”
+Isa sa mga marka ng siyensya ay ang paggamit ng scientific method at ang abilidad sa paggawa ng hypotheses at mga prediksyon na pwedeng i-test ng_mga datos na kung saan ang_mga resulta ay paulit-ulit lang at maaaring patunayan ng iba kung pareho ang lahat ng kondisyon .
+Nagkaroon ng eksperimento sa ekonomiks sa ilang applied fields nito : kasama rito ang sub-fields ng experimental ekonomiks at ang pag-uugali ng konsyumer, napapokus ang eksperimento sa paggamit ng_mga tao bilang sabjeks ; at ang sub-field ng econometrics , nakapokus naman ito sa pagtetest ng hypotheses kapag ang_mga datos ay hindi nakuha mula_sa kinontrol na eksperimento .
+Ngunit , sa parehong nangyari sa panlipunang agham , maaaring maging mahirap ito para_sa mga ekonomista na makapangasiwa ng_mga pormal na eksperimento dahil_sa moral at praktikal na isyu kapag kasangkot ang_mga tao .
+Ang estado ng agham panlipunan bilang empirikal na siyensya o bilang siyensya lang ay naging paksa sa mga debate mula pa noong ika-20 siglo .
+Ilang pilosopo at siyentipiko , pinakakapansin-pansin ay si Karl Popper , ay nagsaysay na walang empirikal na hypotheses , proposisyon , o teorya ang maaaring ikonsidera bilang siyentipiko kapag walang obserbasyon ang nangyari , na maaaring kasulangatan ito , kapag ipinilit ang mahigpit na falsifiability ( tingnan ang Positivism dispute ) .
+Nagdahilan ang_mga kritiko na hindi palaging matatamo ng ekonomiks ang Popperian falsifiability , ngunit itinuro ng_mga ekonomista ang maraming halimbawa ng kinontrol na eksperimento na laging ginagawa ito sa laboratoryong tagpuan .
+Habang ang ekonomiks ay nakapagprodus ng_mga teorya na may kaugnayan sa mga obserbasyon ng pag-uugali sa lipunan , hindi nagbunga ang ekonomiks ng_mga natural na batas at pandaigdig na konstant dahil_sa pag-asa nito sa di-pisikal na argumento .
+Dahil_dito , ilang mga kritiko ang nakipagtalo na ang ekonomiks ay hindi siyensiya .
+Sa pangkahalatan , sumagot ang_mga ekonomista na habang ang aspetong ito makakapagbigay ng seryosong kahirapan , ginawa nila ang kanilang mga test ng kanilang hypotheses gamit ang statistical methods tulad_ng econometrics at pagbuo ng datos sa totoong mundo .
+Ang field ng experimental ekonomiks ay nakakita ng_mga pagsisikap sa pagtest ng kahit isang prediksyon ng ekonomiks na teorya sa isang laboratoryo , isang pagsisikap na nakamit ni Vernon Smith at Daniel Kahneman ang Bank_of_Sweden Prize sa siyensyang ekonomiks sa pag-aalala kay Alfred Nobel noong 2002 .

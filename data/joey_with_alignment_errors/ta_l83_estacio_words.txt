@@ -1,0 +1,117 @@
+Hindi katulad ng_mga tradisyunal na ensiklopedya tulad_ng Encyclopædia Britannica , walang artikulo sa Wikipedia ang dumadaaan sa pormal na pagsusuri o pagsusumite at maaring baguhin agad ang_mga artikulong nakalathala .
+Upang matiyak ang kalidad ng_mga artikulo , ang proyekto ay umaasa sa mga miyembro ng komunidad na tinatawag na Wikipedians na tanggalin ang ano mang uri ng paninira o pagkakamali sa mga artikulo . 
+Simula noong Hunyo 2006 , gumagamit na ang website ng_mga vandalism-repair bots .
+Ang_mga artikulo sa Wikipedia ay napapailalim sa mga batas sa Florida , Estados Unidos at maraming patakaran at alituntunin ang dapat sundin ; nararapat na ang_mga artikulo ay naglalaman ng_mga makabuluhang paksa , mga napatunayang pananaliksik at mga makatotohanang paksa na nakalimbag at nakasulat sa paraang walang pinapanigan o kinakampihan .
+Binabago , pinapaitan o binubura ang_mga artikulong hindi sumusunod sa patakaran at mga polisiyang ipinatutupad .
+Binabatay sa dalawang pilosopiyang deletionism at inclusionism ang pagpapalit at pagbubura ng_mga artikulo . 
+Nilalaman ng iba’t_ibang kasapi ang komunidad ng Wikipedia . 
+Malugod na tinatanggap ang lahat ng_mga bagong awtor at editor subalit hinihikayat silang basahin ang_mga patakaran upang matulungan ang_mga ito sa pamamaraan at pamantayan ng Wikipedia .
+Maaaring magkakamit ang_mga editor na may malaking kontribusyon sa komunidad ng isa sa mga antas ng buluntaryong pangangasiwa ; nagsisimula ito sa “ administrator " at mapupunta sa " steward " at " bureaucrat " .
+May angking kakayahan ang_mga administrador na magtanggal ng_mga pahina , magsara ng_mga artikulo laban_sa pagbabago sa kaso ng_mga alitan , pang-editoryal na pagkakamali , at may karapatan din siyang humadlang sa mga nag-eedit .
+Nagaganap ang paglilimbag ng Wikipedia sa “ Talk ” pages na nauugnay sa bawat indibidwal na artikulo . 
+Habang palaki ng palaki ang Wikipedia na isang kakaibang paraan ng encyclopedia , marami pa rin ang nagtatanong at nagtataka kung sinu-sino ang_mga sumusulat sa Wikipedia na laging nababanggit bilang sanggunian sa mga Web 2.0 projects tulad na lamang ng Digg .
+Ayon_kay Jimmy Wales na nagtatag ng Wikipedia , ang proyektong ito ay nilalaman ng isang komunidad na may mga dedikadong volunteers na nag-aambag sa paglaki at paglaganap nito at ito raw ay masasabing tulad_ng kahit anong normal at tradisyunal na organisasyon .
+Hindi sinang-ayunan ni Aaron Swartz ang pahayag na ito , na nagsabi na malimit ang pagkakataon ng pag-eedit karamihan sa mga artikulong nakalaan dito .
+Nakadepende ang operasyon ng Wikipedia sa MediaWiki na isang custom-made , free at open source wiki software platform na nakasulat sa PHP at naitayo sa_pamamagitan_ng MySQL database .
+May mga nakalakip na programming features sa software na ito tulad_ng macro language , variables , transclusion system para_sa templates , at URL redirection .
+Lisensiyado ang MediaWiki sa_ilalim_ng GNU General Public License at ginagamit lahat ng_mga proyekto ng Wikimedia , pati na rin ang iba pang mga proyektong nakapaloob sa wiki .
+Sa katunayan , pinapagana ang Wikipedia noon sa_pamamagitan_ng UseModWiki na ginawa ni Perl ni Clifford Adams ( Phase I ) , na sa simula pa lamang ay nangangailangan na ng CamelCase para_sa mga article hyperlinks at sa kasalukuyan isinama na din ang double bracket style .
+Simula noong Enero 2002 ( Phase II ) , Nagsimulang patakbuhin ang Wikipedia gamit ang PHP wiki engine na may MySQL database na ginawa ni Magnus Manske alang-alang lamang para_sa Wikipedia
+Ang Phase II software are paulit-ulit na binabago upang mapaunlakan ang naglalakihang demanda .
+Noong Hulyo 2002 ( Phase III ) , Lumipat at gumamit ang Wikipedia ng isang third-generation software na MediaWiki na orihinal na isinulat ni Lee Daniel Crocker .
+( Abril 29 , 1901 - Enero 7 , 1989 ) Si Emperor Showa ang ika-124 na emperador ng Japan ayon_sa tradisyonal na pagkakasunud-sunod ng pagkahalili simula noong Disymber 25 , 1926 hanggang sa kanyang kamatayan noong 1989 .
+Mas kilala siya sa pangalang Hirohito sa Kanlurang daigdig , katumbas_ng kanyang pangalang Showa ang pangalang tinatawag noon sa panahon ng kanyang paghahari bilang emperador at mistulang ginawa na itong pantukoy sa sariling pangalan ng emperador noong siya’y namatay .
+Kahit mas madalas siyang makikilala at tawagin gamit ang kanyang personal na pangalan , hindi kailanman ginamit sa Japan ang pangalang ito para tukuyin ang emperador .
+Masasabing ang kanyang paghahari ang pinakamahaba sa buong kasaysayan ng_mga Hapong emperador at nagdulot ang panahong ito ng malaking pagbabago sa pamumuhay ng_mga Hapon na kung saan gumanap siya ng isang makabuluhang papel .
+Sa simula ng kanyang pamumuno , parang probinsya ang bansang Japan kung saan limitadong pa ang pang-industriyang himpilan .
+Ang militarisasyon ng Japan noong 1930 , kung saan inakala ng_mga iskolar na siya’y isang kalahok , ang nagdulot sa pagsali ng bansang Japan sa World War II , na isang desisyon na inakalang siya ang may implewensa .
+Matapos ang pagbagsak ng bansang Japan , nakipagtulungan siya upang maiahon ang bansa sa hirap , at namuhay upang muling makita ang pagsilang at pag-ahon ng bansa bilang isang highly urbanized country na isa sa mga industrial at technological powerhouses ng daigdig .
+Ipinanganak si Prince Hirohito sa Aoyama Palace sa Tokyo bilang unang anak na lalaki nina Crown Prince Yoshihito ( ang magiging Emperor Taish? ) at Crown Princess Sadako ( ang magiging Empress Teimei ) .
+Prince Michi ang kanyang palayaw noong siya ay bata pa lamang .
+Siya ang naging tagapagmana at sumunod sa trono ng namatay niyang lolo na si Emperador Meiji noong Hulyo 30 , 1912 .
+Naganap ang pormal na pagpapatibay ng kanyang posisyon bilang crown prince noong Nobyembre 2 , 1916 .
+Pumasok siya sa paaralang pangkalalakihan ng Gakushuin Peers School noong 1908 hanggang 1914 at pumasok sa isang natatanging institusyon para_sa mga crown prince ( T?g?-gogakumonsho ) noong 1914 hanggang 1921 .
+Noong 1921 , naglakbay ng anim na buwan ang prinsipe sa Europe kabilang dito ang_mga bansang United Kingdom , France , Italy , ang Netherlands at Belgium , na pinangalanan unang Hapon korona prinsipe upang maglakbay sa ibang bansa .
+Matapos ang kanyang pagbabalik sa bansang Hapon , siya ay naging rehente ng Japan noong Nobyembre 29 , 1921 upang kapalit sa may sakit niyang ama na apektado ng isang mental illness .
+Pinakasalan niya ang kanyang malayong pinsan na si Princess Nagako Kuni ( ang magiging Empress K?jun ) , ang panganay na anak na babae ni Prince Kuni Kuniyoshi , noong Enero 26 , 1924 .
+Nagkaroon sila ng dalawang anak na lalaki at limang anak na babae .
+Iniwan ng kanyang mga anak na babae na nasa karampatang gulang ang imperyal na pamilya na nagresulta bilang reporma sa Japanese imperial household noong Oktubre 1947 ( sa kaso ni Princess Higashikuni ) o sa_ilalim_ng Imperial Household Law sa sandali ng kanilang kasal ( sa kaso ng Princesses Kazuko , Atsuko , at Takako ) .
+Noong Disyembre 25 , 1926 , naiupo sa trono si Hirohito dahil_sa kamatayan ng kanyang amang si Yoshihito .
+Natapos ang panahon ng Taish? at dagli itong napalitan ng panahon ng Sh?wa ( Enlightened Peace ) .
+Matapos ang isang araw , muling pinangalanang ang namatay na emperador na Emperador Taish? . 
+Alinsunod_sa kaugalian ng_mga Hapon , ang bagong emperador ay hindi tinutukoy o tinatawag gamit ang bigay na pangalan , ngunit tinutukoy siya bilang " His Majesty the Emperor ” o “ His Majesty ”
+Sa pagsusulat , pormal na tinatawag siya bilang “ The Reigning Emperor ”
+Maraming manunulat ng kasaysayan tulad nila Akira Fujiwara ( Sh?wa Tenn? no J?-go Nen Sens? , 1991 ) at Peter Wetzler ( Hirohito and War , 1998 ) , batay_sa primary source at panghabang-panahon na Gawain ni Shir? Hara , ang nagmumungkahi ng iba’t_ibang ebidensiya na nagsasabi na nagtratrabaho ang emperador sa_pamamagitan_ng mga intermediaries upang mapalakas ang pakikitungo sa pamamahala ng miltar at upang hindi maging mapaladigma o pasipista , ngunit oportunista na mamamahala sa isang sari-saring proseso ng paggawa ng desisyon .
+Ayon_kay Herbert Bix , na isang Amerikanong manunulat ng kasaysayan , maaring nagmula kay Emperor Sh?wa ang karamihan sa ideya ng_mga kaganapan ng dalawang digmaan .
+Kinikilala ng_mga manunulat ng kasaysayan na sina Bix , Fujiwara , Wetzler , at Akira Yamada na hindi namintis ang_mga importanteng " behind the chrysanthemum curtain " matapos tignan ang_mga imperial conferences na nagpapakita ng pagpupulong kung saan napagdesisyunan ang_mga gawain sa_pagitan_ng emperador , ng kanyang mga chiefs_of_staff , at gabinete .
+Primary sources , tulad_ng " Sugiyama memo " at ang diaries nina Kido at Konoe , ang detalyeng naglalarawan ng_mga impormal na pagpupulong ni Emperor Sh?wa sa kanyang chiefs_of_staff at mga ministro ( halimbawa , Prince Fumimaro Konoe na may magandang pananaw sa mga kaganapan ) .
+Ipinapakita ng_mga dokumentong ito na may alam ang emperador sa lahat ng_mga operasyon at kaganapan sa militar at madalas niyang kinekwestyon ang kanyang mga tauhan at inuutusang baguhin . 
+Bago pa man ang ikalawang digmaang pangdaigdigan , linusob ng Japan ang Manchuria noong 1931 at ang natitirang bahagi ng China noong 1937 ( ang Second Sino-Japanese War ) .
+Inilalahad ng primary source na hindi kailanman nagkaroon ng anumang pagtutol si Emperador Sh?wa sa pagsalakay ng China noong 1937 na kung saan inirerekomenda sa kanya ng kanyang mga chief_of_staff at punong ministro na si Fumimaro Konoe .
+Tila ang posibilidad ng pag-atake ng_mga Soviets sa_hilaga ang kanyang pangunahing alalahanin at kadalasang nagtatanong sa kanyang chief_of_staff na si Prince Kan'in at ministro ng hukbo na si Hajime Sugiyama patungkol_sa kung gaano ito katagal tatalunin ang_mga Tsino .
+Ayon_kay Akira Fujiwara , mismong ang emperador ang nag-utos na tanggalin ang panukala ng kanyang hukbo na hadlangan ang_mga pandaigdigang batas sa paggamot ng_mga bilanggong Tsino noong Agosto 5 .
+At gayun din , naipakita sa gawain ni Yoshiaki Yoshimi at Seiya Matsuno na nagbigay pahintulot ang emperador na gumamit ng_mga kemikal na armas laban_sa mga Tsino .
+Halimbawa , noong panahon ng paglusob ng_mga Wuhan , simula sa Agosto hanggang Oktubre 1938 , binigyang pahintulot ang paggamit ng_mga nakakalasong gas sa 375 na pagkakataon , sa_kabila_ng resolution na pinagtibay ng League_of_Nations noong Mayo 14 na ipinagbabawal ang paggamit ng Japanese Army ng_mga nakakalasong gas .
+Noong ikalawang digmaang pangdaigdigan , mula_sa pamumuno ni Emperor Sh?wa , nagtayo ang_mga Hapon ng alyansa kasama ang_mga Nazi Germany at Fascist Italy , binubuo ng Axis Powers .
+Mayroong ibang nag-iisip na maaaring nag-aatubili ang emperador na buuin ang alyansang ito sapagkat na may angking kagustuhan at interes ito sa bansang United Kingdom ,
+Noong Hulyo 1939 , nagkaroon siya ng matinding pagtatalo sa isa sa kanyang mga kapatid na si Prince Chichibu , na bumibisita sa kanya tatlong beses sa isang linggo upang suportahan ang kasunduan , at pinagsabihan ang hukbo ng ministro na si Seishiro Itagaki , ngunit sa huli nagbigay siya ng kanyang pahintulot matapos ang tagumpay ng_mga Wehrmacht sa Europa .
+Noong Setyembre 4 , 1941 , natipon-tipon ang gabinete ng Japan upang pagplanuhan at paghandaan ang digmaan , at napagdisisyunan nila na : 
+Kontrolado ng saligang batas ang kapangyarihan ng parliyamento ng Canada , na naghahati sa lehistarurang kapangyarihan sa_pagitan_ng pederal at probinsiyal na pamahalaan .
+Karaniwan , ang_mga panlalawigang mambabatas lamang ang may karapatang magpasa ng_mga batas na malinaw na nilaan sa kanila ng saligang batas na may kaugnayang mga paksa tulad na lamang ng edukasyon , provincial officers , municipal government , charitable institutions at mga bagay na lokal o pribado sa kalikasan .
+Sa_ilalim_ng saligang batas , nasasaklaw sa kapangyarihan ng parlyamento ang anumang bagay na hindi sa_ilalim_ng eksklusibong kapangyarihan ng panlalawigang legislatura .
+Kaya , ang parliamento lamang ang tanging makakapagpasa ng batas laban_sa postal service , census , military , navigation at shipping , fishing , currency , banking , weights at measures , bankruptcy , copyrights , patents , Indians , at naturalization . Sa ilang pagkakataon , nagsasanib ang kapangyarihan ng parlamento at lehislatura . 
+Halimbawa , nangangasiwa ang parliament laban_sa kasal at pagdidiborsyo , ngunit kinokontrol lamang ng_mga panlalawigang lehislatura ang pagdiriwang ng kasal .
+Ang magpataw ng buwis , humiram ng pera , parusahan ang_mga sangkot sa krimen , at ayusin ang agrikultura ang iba pang kapangyarihan ng parehong parliamento at legislatura .
+Kontrolado din ng Canadian_Charter_of_Rights_and_Freedoms ng kapangyarihan ng parliamento ng Canada .
+Maaaring nakapanaig sa_pamamagitan_ng isang gawa na may kasamang isang kabilang sugnay ang karamihan ng_mga probisyon ng charter .
+May ibang mga probisyon na hindi pa naman nagagamit ng parliament bagaman ito ay naitrabaho dahil_sa panlalawigang lehislatura .
+Walang bisa at maaaring mapasyahan na hindi makatarungan ng_mga hukuman ang_mga batas na lumalabag sa charter at sa saligang batas .
+Nagtataglay ng_mga pribilehiyo na kilalang sama-sama bilang parliamentary privilege ang Parlamento ng Canada .
+Ang bawat kapulungan ang siyang tagapag-alaga ng sarili nitong mga pribilehiyo , at maaaring parusahan ang_mga paglabag nito .
+Ang parliamento ang tumutukoy sa hanganan ng parliamentary privilege ngunit hinahadlangan ng saligang batas na pag-usapan ang anumang pribelehiyo “ nalalampasan ang pagpasa ng ganoong Act na pinanghahawakan , kinaluluguran , at nagagawa ng [ British House of ] Commons … at ng_mga Miyembro nito . "
+Ang pinakapribilehiyo na ginagampanan parehong kapulungan ay ang kalayaan ng pagsasalita sa debate : walang sinabi sa alinmang kapulungan ang maaaring kuwestyunin sa anumang hukuman o iba pang institusyon sa_labas ng Parlamento .
+Sa partikular , ang isang miyembro ng alinman sa kapulungan ay hindi maaaring idemanda para_sa paninirang-puri na batay_sa mga salita na ginawa sa kurso ng parlyamentaryong pamamaraan .
+Ang tanging ipinagbabawal sa debate ay nanggagaling mula_sa dalawang kapulungan .
+Isa pang pribileheyo ng_mga miyembro ay ang kalayaan laban_sa pag-aresto sa mga sibil na kaso ( ngunit hindi para_sa mga di-umano'y kriminal na aksyon )
+May pribileheyo sa jury service at pagdalo sa korte bilang saksi ang_mga miyembro ng bawat kapulungan .  
+May kapangyarihan ang bawat kapulungan bilang isang lupon kasama na dito ang pribiliheyo ng pagpasiya ng sarili nito sa internal affairs at pribeliheyo ng pagdidisiplina ng sarili nitong mga miyembrong lumalabag sa mga patakaran .
+Bukod dito , maaaring parusahan ng bawat kapulungan sa pagsuway ng Parlamento sa hukuman ( iyon ay , sa pagsuway ng kanyang kapangyarihan , halimbawa ay ang pagbibigay ng huwad na patotoo bago sa isang parlyamentaryong komite ) at paglabag sa sarili nitong mga pribilehiyo .
+Mayroong dalawang mace na ginagamit ang parliament , isa para_sa House_of_Commons at isa para_sa Senado .
+Ang orihinal na mace ng Legislative_Council_of_the_United_Province_of_Canada 1849 ay ang orihinal na mace ng senado .
+Ang unang bahagi ng paghahari ni Emperador Showa naganap laban_sa isang karanasan ng pagtaas ng kapangyarihang militar sa_loob_ng pamahalaan , sa_pamamagitan_ng parehong legal at extralegal na paraan .
+Nagkaroon ng beto na kapangyarihan ang hukbo ng Imperial Hapon at hukbong dagat ng imperial na Hapon laban_sa pagbuo ng_mga gabinete simula noong 1900 , at sa_pagitan_ng 1921 at 1944 , walang humigit kumulang na 64 na insidente ng karahasang pampulitika .
+Isang mahalagang kaso ay ang pagpatay sa punong Ministro Inukai Tsuyoshi noong 1932 , na nagsilbing tanda ng katapusan ng pagkontrol ng military .
+Ito ay sinundan ng isang pagtangkang rebolusyong militar noong Pebrero 1936 , ang_mga pangyayari noong Pebrero 26 , inimuntar sa_pamamagitan_ng mga opisyal ng Hukbong ng K?d?ha na nagkaroon ng simpatya sa mga mataas na ranggo na opisyal kabilang si Prince Chichibu ( Yasuhito ) , isa sa mga kapatid na lalaki ang Emperador .
+Ang pag-aalsang ito ay nagdulot ng kawalan ng lupa dahil_sa mga grupo ng militarista sa diet elections .
+Ang rebulusyong ito ay nagdulot ng maraming pagpatay sa mga opisyal ng gobyerno at hukbo , at ibinaba ni Emperador Sh?wa na galit na galit na kinompronta sila .
+Noong ibinalita ni Chief Aide-de-camp Shigeru Honj? ang patungkol_sa pag-aalyansa , agad-agad na iniutos ng emperador na ibaba ito at kilalanin bilang mga rebelde .
+Ngunit hindi nagtagal , inutusan niya ang_mga hukbong ministro na si Yoshiyuki Kawashima na bawasan ang_mga rebelde sa_loob_ng isang oras , at nagtanong ng_mga impormasyon galing_sa Honj? kada 30 minuto .
+Matapos ang isang araw , noong inilalathala ni Honj? ang maliit na progreso na naganap sa_pamamagitan_ng mataas na utos sa pagbawas ng_mga nagrebelde , sinabihan sila ng emperador na “ Ako mismo ang mamumuno sa dibisyon ng Konoe at magmamatyag sa kanila ”
+Hindi siya pinilit na gawin ito ngunit ang_mga naghihimagsik ang pinigilang sunod sa kanyang mga utos noong Pebrero 29 .
+Gayunpaman , simula 1930 , ang grupo ng_mga militar ay nagkamit ng kapangyarihang politikal sa Japan at sinundan ng_mga polisiya na nagdulot sa Japan na lumaban sa pangalawang digmaang sino-japanese at ikalawang digmaang pambansa .
+Maraming mamamayang nagmula sa Greater East Asia Co-Prosperity Sphere ang nagsasabing si Emperador Sh?wa ang punot-dulo ng kamatayan at karahasang dulot ng pwersang imperial noong pangalawang digmaang sino-japanese at ikalawang digmaang pambansa .
+Nararamdaman ng iba na ang ibang miyembro ng pamilyang imperial tulad_ng kanyang kapatid na si Prinsipe Chichibu , ang kanyang pinsan na si Prinsipe Takeda at Prinsipe Fushimi , at ang kanyang mga tiyo na sina Prinsipe Kan'in , Prinsipe Asaka , at Prinsipe Higashikuni , ay dapat sumapi sa mga digmaan .
+Dahil_dito , maraming Asyano na naninirahan sa mga bansang may kaugnayan sa pag-atake sa bansang Hapon , tulad na din ng ibang nasyon na lumaban sa Japan na manatili ng agresibong pag-uugali laban_sa Imperyal na pamilya ng_mga Hapon . 
+Ang pinakamahalagang tanong ay kung gaano katotoo ang pagpapatakbo ng Emperado laban_sa militaring Hapon noong dalawang digmaan . 
+Pangtungkulin , ang imperyal na saligang batas , sa_ilalim ni Emperador Meiji , ang nagbigay ng buong kapangyarihan sa Emperador .
+Inirekomenda ng Artikulo 4 na “ Ang Emperador ang pinuno ng imperyo , nasa kanya ang kapangyarihang mamuno at gamitin ito , ayon_sa mga probisyon ng kasalukuyang konstitusyon ” , habang ayon_sa artikulo 6 “ maaaring magbigay ng kaparusahan ang Emperador sa mga lumalabag sa batas ” at artikulo 11 “ May malakas na awtoridad ang emperador sa mga hukbo at hukbong pandagat ”
+Ang Emperador ang naging lider ng Imperial General Headquarters .
+Gayunpaman , ang pagtingin ng parehong imperial na Hapon at Amerikano matapos ang ikalawang digmaang pandaigdig kay Emperador Sh?wa ay tila isang walang kapangyarihang pinuno na kumikilos ayon_sa protocol , habang nananatling malayo sa proseso ng paggawa ng_mga desisyon .
+Malaki ang naging impluwensiya ng Wikipedia sa iba’t_ibang uri ng midya .
+Inakda ng ibang media sources na ang nilalaman ng Wikipedia ay hindi eksakto at may mga pagkakamali tulad_ng artikulo sa The Onion noong July 2006 na may pamagat na “ Wikipedia Celebrates 750 Years_of_American_Independence " , sa pahayag ng Wikipedia na kahit sino ay maaring mag-edit tulad_ng " The Negotiation " na isang episodyo ng The Office kung saan sinabi ng bidang si Michael Scott na ang “ Ang Wikipedia ang pinakamabuting bagay na mayroon . Kahit sino sa mundo ay maaaring magsulat ng kahit anong gusto nila tungkol_sa kahit anong paksa , kaya alam mo na makakakuha ka ng pinakamabuting posibleng impormasyon " at ilan sa mga karikatura ng_mga polisiya ng Wikipedia , tulad_ng xkcd strip na tinatawag na " Wikipedian Protester " , na kinabibilangan ng biro na " the Constitution ! "
+Ang unang dokumentaryong tungkol_sa Wikipedia na pinamagatang Truth_in_Numbers : The Wikipedia Story ay naka-iskedyul ilabas noong 2008 .
+Kinunan sa iba’t_ibang kontinente , sinakop ng pelikula at ang kasaysayan ng Wikipedia at mga tampok na interbyu sa Wikipedia editor sa buong mundo .
+Noong September 28 , 2007 , itinaas ni Franco Grillini , isang Italyanong pulitiko , ang isang parlyamentaryong katanungan sa Ministro ng Cultural Resources at mga Aktibidad tungkol_sa mga pangangailangan ng kalayaan ng_mga panorama .
+Sinabi niya na ang kakulangan ng kalayaan ang pumilit sa Wikipedia , " ang ikapitong pinaka consulted website " na ipagbawal ang lahat ng_mga imahe ng_mga modernong gusali at sining Italyano , na nagdudulot ng malaking paninira sa dami ng turista .
+Noong Setyembre 16 , 2007 , iniulat ng Washington Post na naging isang focal point ang Wikipedia noong 2008 na kampanya para_sa halalan , na nagsasabi , " I-type ang pangalan ng isang kandidato sa Google , at isa sa mga unang resulta ay ang pahina ng wikipedia , na kahina-hinalang mahalaga bilang anumang ad sa pagtukoy sa isang kandidato .
+Iniwawasto , hinihimay at pinag-uusapan ang_mga kalahok sa pagiging presidente bawat araw .
+Sa artikulo ng Reuters noong October 2007 na pinamagatang “ Wikipedia page the latest status symbol " , iniulat ang kamakailang kababalaghan kung paano nagkakaroon ng isang artikulo sa Wikipedia na maipagtatanggol ang isang kapuna-punang kaalaman at pagkatao .
+Nanalo ng dalawang pangunahing gantimpala ang Wikipedia noong 2004 . Golden Nica para_sa Digital Communities_of_the_annual_Prix_Ars_Electronica contes ang unang paligsahan ; ito ay may kasamang € 10,000 ( £ 6588 ; $ 12,700 ) bilang papremyo at ang imbitasyong magpresenta sa PAE Cyberarts Festival sa Austria sa sumunod na taon .
+Ang ikalawa ay Judges' Webby Award para_sa kategoryang " komunidad " .
+Hinirang din ang Wikipedia para_sa isang Webby na " Pinakamahusay na Kasanayan " . Noong Setyembre 2004 , ang_mga Japanese Wikipedia ay ginawaran ng isang Web Creatiion Award mula_sa Japan Advertiser Association .
+Ang parangal na ito ay kadalasang ibinibigay sa mga indibidual na nag-ambag sa Web ng_mga Hapon , na itinanggap ng isang matapat na mang-aambag ng proyekto .
+Sa isang Multiscope research study noong 2006 , nabilang ang Dutch Wikipedia bilang pangatlo sa pinakamagaling na Dutch language site , alinsunod_sa Google at Gmail sa puntos na 8.1 .
+Noong January 26 , 2007 , naparangalan ang Wikipedia bilang panglima sa pinakamataas na ranggo ng_mga mambabasa sa brandchannel.com , nakatanggap ito ng 15 % ng boto sa sagot sa tanong na “ Aling brand ang nagkaroon ng pinakamalaking epekto sa ating mga buhay noong 2006 ? " Kinilala si Jimmy Wales na isa sa mga pinakamaimluwensiyang tao sa mundo ng Time Magazine noong 2006 .
+Noong 2006 at 2007 , nanalo ang Russian Wikipedia ng " Runet Prize " ( Russian : ) gantimpalang sumasalamin sa kategoryang " agham at edukasyon " , na pinasiwaan ng Russian government agency FAPMC .
+Noong November 2006 , naging nominado ang Turkish Wikipedia sa_ilalim_ng kategorya na siyensya para_sa Alt?n Örümcek Web Ödülleri ( Golden Spider Web Awards ) na mas kilala sa tawag na " Web Oscars " sa Turkey . Noong Enero 2007 , binigyan ng parangal na “ Best Content ” ang Turkish Wikipedia sa paligsahan .
+Ibinigay sa isang seremonya ang parangal noong Enero 25 , 2007 sa Istanbul Technical University .

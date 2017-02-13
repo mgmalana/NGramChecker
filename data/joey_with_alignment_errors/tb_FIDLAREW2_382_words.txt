@@ -1,0 +1,22 @@
+Dapat tandaan na isang pambarilang abstraksyon ang haba ng patinig , at maaaring may higit pa na natatanging haba na ponolohikal .
+Halimbawa , sa Finnish , may limang iba’t_ibang pisikal na haba , dahil minamaraka ang diin ng haba sa parehong pambarilang mahaba at maikling patinig .
+Gayunman , hindi leksiko ang diin ng Finnish at palaging nasa unang dalawang mora , kaya nagsisilbing baryasyon na ito na paghiwalayin ang_mga salita sa isa’t_isa .
+Sa mga wikang hindi matinig , tulad_ng Ingles , sumasaklaw ang himig sa diin ng leksiko .
+Karaniwang bibigkasin ang nakadiing pantig ng mas mataas na tarik , lakas , at haba kaysa_sa mga hindi nakadiing pantig .
+Isang halimbawa ang sa salitang intensity , kinakatawan ang patinig ng letrang ‘ e ’ na nakadiin , kaya mas mahaba ito at binigkas ng mas mataas na tarik at lakas kaysa_sa ibang patinig .
+Tinatawag na monophthong ang tunog ng patinig na ang kalidad ay hindi nag-iiba sa durasyon ng patinig .
+Paminsan-minsang tinatawag na “ tunay ” o “ matatag ” na patinig ang_mga monophthong .
+Tinatawag naman na diphthong ang tunog ng patinig na dumadausdos mula isang kalidad hanggang sa iba , at isang triphthong ang tunog ng patinig na sunud-sunod na dumadausdos sa tatlong katangian .
+Mayroong monophthong ang lahat ng wika at may diphthong ang maraming wika , pero relatibong bihira kapag tumatawid sa linggwistika ang triphthong o ang tunog ng patinig na maraming target na katangian .
+Mayroon ang Ingles ang lahat ng tatlong uri na ito : isang monophthong ang tunog ng patinig sa hit , sa karamihang dayalekto isang diphthong ang tunog sa patinig ng boy at binubuo ng triphthong ( dalawang pantig sa huling mga usapin ) ang tunog ng patinig sa flower ( BrE AmE ) , bagaman ang partikular na katangian nito’y nag-iiba batay_sa dayalekto .
+Sa phonology , nakikilala ang diphthong at triphthong mula_sa pagkakasunud-sunod sa monophthong , maging masuri man ang tunog ng patinig sa iba’t_ibang ponema o hindi .
+Halimbawa , ponetikang bumubuo ng dalawang pantig na triphthong ang tunog ng pantig sa pagbigkas ng dalawang pantig sa salitang flower ( BrE AmE ) , pero isa itong pagkakasunud-sunod ng diphthong na pangponolohikal ( kinakatawan ng_mga letrang < ow > ) at isang monophthong ( kinakatawan ng_mga letrang < er > ) .
+Gumagamit ang ilang linggwistika ng_mga terminong diphthong at triphthong sa malaponemang paningin lamang .
+Malawakang nag-iiba ang semantikong kahalagahan ng patinig depende sa wika .
+Sa ilang wika , lalo na sa wikang Semitiko , halos nagsisilbi para magpakilala ng impleksyon ang_mga patinig .
+Similar ito sa Ingles na man vs. men .
+Sa katunayan , karaniwang hindi minamarka ang lahat ng patinig ang alpabetong ginagamit sa pagsulat ng Semitikong wika , tulad_ng alpabeto ng Hebrew at Arabe .
+Tinatawag na abjads ang_mga alpabetong ito .
+Bagaman posibleng makagawa ng_mga simpleng Ingles na pangungusap na maaaring maintindihan na walang nakasulat na patinig ( cn y rd ths ? ) , mahirap kung hindi imposible maintindihan ng kumpleto ang pinahabang sipi na Ingles na kinukulang sa nakasulat na patinig ( isaalang-alang ang dd , na maaari maging alinman sa add , aided , dad , dada , dead , deed , did , died , dodo , dud , dude , eddie , iodide , o odd ) .
+Sa nakararaming wika , isang hindi nababagong parte ng_mga salita ang_mga patinig , tulad_ng sa Ingles na man vs. moon kung saan hindi nagkakaiba ng impleksyonal na anyo ang parehong salita , pero magkakaibang salita .
+Sadyang mahalaga ang_mga patinig sa kaayusan ng_mga salita sa wika na may kakaunting katinig ( katulad_ng mga Polinesyang wika na Maori at Hawaiian ) , at sa mga wika na kung saan mas malaki ang imbentaryo ng patinig sa kanilang imbentaryo ng katinig .
