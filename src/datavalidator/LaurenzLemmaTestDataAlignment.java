@@ -5,10 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-import optimization.models.Input;
-import optimization.testing.service.TestErrorsProvider;
 import util.Constants;
 import util.FileManager;
+import v4.grammarchecking.threaded.TestErrorsProvider;
+import v4.models.Input;
 
 public class LaurenzLemmaTestDataAlignment {
 
@@ -65,10 +65,7 @@ public class LaurenzLemmaTestDataAlignment {
 
 		int sum = 0;
 		for (int i = 0; i <= 51; i++) {
-			Input testError = testErrorsProvider
-					.getTestErrors(Constants.TEST_JOEY_CORRECT_SENTENCES_WORDS,
-							Constants.TEST_JOEY_CORRECT_SENTENCES_LEMMAS, Constants.TEST_JOEY_CORRECT_SENTENCES_TAGS)
-					.get(i);
+			Input testError = testErrorsProvider.getTestErrors().get(i);
 			sum += testError.getWords().length;
 		}
 		System.out.println(sum);
