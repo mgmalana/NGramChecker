@@ -101,13 +101,10 @@ public class NGramDao {
 		int id;
 
 		PreparedStatement ps;
-		ps = conn.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
+		ps = conn.prepareStatement(insertQuery,  Statement.RETURN_GENERATED_KEYS);
 		ps.setString(1, pos);
 
 		ps.executeUpdate();
-		ResultSet rs = ps.getGeneratedKeys();
-		rs.next();
-		id = rs.getInt(1);
 
 		insertQuery = "UPDATE " + ngramFrequencyTable +" SET frequency = frequency + 1 WHERE pos = ?" ; //this updates the frequency
 		ps = conn.prepareStatement(insertQuery);
@@ -115,8 +112,7 @@ public class NGramDao {
 
 		ps.executeUpdate();
 
-
-		return id;
+		return getPOSFreqID(pos);
 	}
 
 	public int getPOSFreqID(String pos) throws SQLException {
