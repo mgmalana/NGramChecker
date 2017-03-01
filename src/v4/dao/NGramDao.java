@@ -50,7 +50,6 @@ public class NGramDao {
 	}
 
 	public int add(String words, String lemmas, String pos) throws SQLException {
-		String updateQuery = "UPDATE " + ngramFrequencyTable + " SET frequency = frequency + 1 WHERE id = ?";
 		String insertQuery = "INSERT INTO " + ngramTable + " (words, lemmas, posID) VALUES (?, ?, ?)";
 
 		int posID = incrementPOSFrequency(pos);
@@ -96,18 +95,27 @@ public class NGramDao {
 	}
 
 	public int incrementPOSFrequency(String pos) throws SQLException {
-		String insertQuery = "INSERT INTO " + ngramFrequencyTable
-				+ " (pos) VALUES (?) ON DUPLICATE KEY UPDATE frequency = frequency+1";
+		String insertQuery = "INSERT OR IGNORE INTO " + ngramFrequencyTable
+				+ " (pos, frequency) VALUES (?, 0)"; //this inserts the pos if not yet created
 
-		int id = getPOSFreqID(pos);
+		int id;
 
 		PreparedStatement ps;
 		ps = conn.prepareStatement(insertQuery, Statement.RETURN_GENERATED_KEYS);
 		ps.setString(1, pos);
+
 		ps.executeUpdate();
 		ResultSet rs = ps.getGeneratedKeys();
 		rs.next();
 		id = rs.getInt(1);
+
+		insertQuery = "UPDATE " + ngramFrequencyTable +" SET frequency = frequency + 1 WHERE pos = ?" ; //this updates the frequency
+		ps = conn.prepareStatement(insertQuery);
+		ps.setString(1, pos);
+
+		ps.executeUpdate();
+
+
 		return id;
 	}
 
