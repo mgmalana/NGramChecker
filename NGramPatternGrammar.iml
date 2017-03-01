@@ -30,15 +30,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
-      <library name="mysql-connector-java-5.1.37-bin.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/mysql-connector-java-5.1.37-bin.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="poi-3.16-beta1.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/poi-3.16-beta1.jar!/" />
@@ -119,7 +110,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="junit-4.12.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/junit-4.12.jar!/" />
@@ -155,5 +146,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="sqlite-jdbc-3.16.1" level="project" />
   </component>
 </module>

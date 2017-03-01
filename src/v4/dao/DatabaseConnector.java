@@ -8,7 +8,8 @@ public class DatabaseConnector {
 
 	public static Connection getConnection() {
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ngramchecker", "root", "");
+			Connection conn = DriverManager.getConnection("jdbc:sqlite:ngramchecker.db");
+			System.out.println("Connection to SQLite has been established.");
 			return conn;
 		} catch (SQLException e) {
 			e.printStackTrace();
