@@ -28,16 +28,15 @@ public class DatabaseTest extends TestCase {
     }
 
     public void testGet() throws Exception {
-
+        NGram ngram = nGramDao.get(21192);
+        //TODO: Ask matthew bakit yung posid 0
     }
 
     public void testIncrementPOSFrequency() throws Exception {
-        NGramDao nGramDao = new NGramDao(2, "bigram", "bigram_pos_frequency", "pos_bigram_index");
         nGramDao.incrementPOSFrequency("123456789");
     }
 
     public void testCloseConnection() throws Exception {
-
     }
 
 
