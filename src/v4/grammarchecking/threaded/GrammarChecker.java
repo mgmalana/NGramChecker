@@ -31,12 +31,16 @@ public class GrammarChecker {
 
 	}
 
-	// public static List<Suggestion> checkGrammar(String words) {
-	// String pos = getPOS(words);
-	// String lemmas = getLemmas(words);
-	//
-	// return checkGrammar(new Input(words, pos, lemmas));
-	// }
+//	 public static List<Suggestion> checkGrammar(String words) {
+//	 String pos = getPOS(words);
+//	 String lemmas = getLemmas(words);
+//
+//	 return checkGrammar(new Input(words, pos, lemmas));
+//	 }
+
+	public static List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
+		return checkGrammar(new Input(words, pos, lemmas));
+	}
 
 	private static List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);

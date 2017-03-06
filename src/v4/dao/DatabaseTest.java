@@ -37,7 +37,6 @@ public class DatabaseTest extends TestCase {
 
     public void testGet() throws Exception {
         NGram ngram = nGramDao.get(21192);
-        //TODO: Ask matthew if pwede ba talga 0 ang posid
     }
 
     public void testIncrementPOSFrequency() throws Exception {
