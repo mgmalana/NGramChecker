@@ -28,7 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/libs/lib" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="poi-3.16-beta1.jar">
         <CLASSES>
@@ -150,6 +150,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/sqlite-jdbc-3.16.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/stanford-postagger.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

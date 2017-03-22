@@ -14,6 +14,7 @@ import v4.models.Input;
 import v4.models.Suggestion;
 import v4.models.SuggestionToken;
 import v4.models.SuggestionType;
+import v4.pos.POSTagger;
 
 public class GrammarChecker {
 
@@ -23,7 +24,6 @@ public class GrammarChecker {
 	static DeletionAndMergingService delAndMerService;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-
 		// 0, 4, 11, 14 - working
 		// 5 - not
 		Input testError = testErrorsProvider.getTestErrors().get(0);
@@ -33,6 +33,8 @@ public class GrammarChecker {
 
 //	 public static List<Suggestion> checkGrammar(String words) {
 //	 String pos = getPOS(words);
+//	POSTagger postagger = new  POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger");
+//	List<String> pos = new POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger").tagSentence("ako ay tao.").getTags();
 //	 String lemmas = getLemmas(words);
 //
 //	 return checkGrammar(new Input(words, pos, lemmas));
