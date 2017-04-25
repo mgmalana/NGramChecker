@@ -1,0 +1,47 @@
+Kapag may napili na larangan at observation strategy ay dapat buuin .
+Isang mahalagang desisyon para matukoy kung aling mga filter ng_mga obserbasyon ang gagamitin ; WFPC2 na may kasama na 48 na filter , kabilang ang_mga narrowband filter na isolating ng_mga partikular na linya ng pagpapalabas ng astrophysical interes , at broadband filter na kapaki-pakinabang para_sa pag-aaral ng_mga kulay ng_mga bituin at kalawakan .
+Ang pagpili ng filter na gagamitin para_sa HDF ay depende sa ' throughput ' ng bawat filter - ang kabuuang bahagdan ng liwanag na ito ay nagbibigay-daan sa spectral na saklaw na mayroon .
+Ang_mga filter na may mga bandpasses na nagkakapatong-patong hangga't maaaring kakaunti lang ay kanais-nais .
+Sa katapusan , ang apat na broadband filter ay pinili , gitna sa wavelength ng 300 nm ( malapit - ultraviolet ) , 450 nm ( bughaw na ilaw ) , 606 nm ( red light ) at 814 nm ( malapit - infrared ) .
+Dahil ang kabuuan kahusayan ng Hubble detector ay masyadong mababa sa 300 nm , ang ingay sa obserbasyon na sa wavelength na ito ay pangunahing sanhi ng CCD ingay kaysa_sa kalangitan ; Kaya , maaaring isinasagawa ang_mga obserbasyon kapag ang mataas na ingay ng background ay nakakapinsala sa kahusayan ng_mga obserbasyon sa iba pang mga passbands .
+Imahe ng target na lugar sa mga napili na mga filter ay kinuha sa sampung magkakasunod na araw , na kung saan ang Hubble ay umiikot ang Earth ng 150 beses .
+Ang kabuuang beses ng exposyur sa bawat weyblengt ay 42.7 oras ( 300 nm ) , 33.5 oras ( 450 nm ) , 30.3 oras ( 606 nm ) at 34.3 oras ( 814 nm ) , na hinati sa 342 mga indibidwal na mga exposures upang maiwasan ang malaking pinsala sa mga indibidwal na mga imahe sa_pamamagitan_ng cosmic ray , na magiging sanhi ng maliwanag na marka na lumitaw kapag hampasin sila ng detector ng CCD .
+Ang produksyon ng isang pinal na pinagsamang imahe sa bawat wave length ay isang komplikadong proseso .
+Ang bright pixels ay naging sanhi ng epekto ng cosmic ray sa panahon ng exposures ay tinanggal sa_pamamagitan_ng paghahambing ng_mga exposures ng pantay na haba na kinuha ng isa pagkatapos ng isa , at pagkilala ng_mga pixels na apektado sa_pamamagitan_ng cosmic ray sa isang pagkakalantad ngunit hindi sa iba pa .
+Ebidensya ng “ space debris ” at mga artipisyal na satellite na nasa ang orihinal na imahe , at maingat na inalis .
+Kalat na mga ilaw na mula_sa mundo ay tingkad sa isang isang-kapat ng frame data .
+Ito ay tinanggal sa_pamamagitan_ng pagkuha ng isang imahe na apektado sa_pamamagitan_ng scattered light , ng pagpapantay ito sa isang hindi pa gamit na imahe , at babawasan ang hindi pa naaapektuhan na imahe mula_sa mga apektado .
+Ang resultang imahe ay makinis , at maaaring pagkatapos ay awas mula_sa maliwanag na frame .
+Tinanggal ng pamamaraang ito ang halos lahat ng scattered light mula_sa mga apektadong mga imahe .
+Kapag ang 342 indibidwal na mga imahe ay nalinis ng cosmic-ray hit at naitama para scattered light , sila ay pinagsama .
+Mga siyentipiko na kasangkot sa mga obserbasyong HDF pioneered ng isang pamamaraan na tinatawag na ' pag-ambon ' , kung saan ang pagturo ng teleskopyo ay iba-iba sa bawa't minuto sa_pagitan_ng mga hanay ng_mga exposures .
+Bawat pixel sa WFPC2 ng CCD chip ang naitala sa isang lugar ng kalangitan 0.09 arcseconds sa kabuuan , ngunit sa_pamamagitan_ng pagbabago ng direksyon kung saan ang teleskopyo ay tumuturo sa_pamamagitan_ng mas mababa kaysa_sa pagitan ng exposures , ang_mga nagresultang imahe ay pinagsama gamit ng_mga sopistikadong image-processing na nagbibigay ng pangwakas na anggular resolution mas mahusay kaysa_sa halagang ito .
+Ang HDF imahe na ginawa sa bawat wavelength ay may huling pixel na laki ng .03985 arcseconds .
+Ang data processing ay yielded apat na mga monochrome imahe , isa sa bawat weyblengt .
+Ang pinagsasama-sama ng_mga ito sa ang buong imahe ng kulay na inilabas sa publiko ay isang medyo arbitrary na proseso , na may isang imahe na itinalaga bilang ang bawat isa ng pula , berde at bughaw , at ang tatlong mga imahe na pinagsama upang magbigay ng isang kulay ng imahe .
+Dahil ang_mga wavelength na kung saan ang_mga imahe ay kinuha ko ay hindi tumutugma sa wavelength ng pula , berde at bughaw na ilaw , ang_mga kulay sa huling imahe lamang magbigay ng isang tinatayang representasyon ng_mga aktwal na kulay ng kalawakan sa imahe ;
+Ang pagpili ng_mga filter para_sa HDF ( at sa karamihan ng_mga imahe ng Hubble ) ay lalo na dinisenyo upang i-maximize ang pang-agham na utility ng obserbasyon sa halip na lumikha ng_mga kulay na naaayon sa kung ano ang mata ng tao ay talagang malasahan .
+Ang_mga huling imahe ang nagsiwalat sa isang kalabisan ng_mga malalayong , malabong kalawakan .
+Tungkol_sa 3,000 natatanging kalawakan ay maaaring kinilala sa mga imahe , na may parehong irregular at spiral galaxy na malinaw na nakikita , kahit na ang ilang mga kalawakan sa patlang ay ilang pixels lamang sa_tapat .
+Sa lahat , ang HDF ay naisip na naglalaman ng mas kaunti sa sampung pusod ng_mga bituin sa_harapan ; sa_pamamagitan_ng malayo sa karamihan ng_mga bagay sa patlang ng malayong kalawakan .
+May mga 50 blue point objects na nasa HDF
+Maraming nauugnay sa mga kalapit na galakies , kung saan magkasama na chains at arcs : ang_mga ito ay rehiyon ng matinding pagbuo ng bituin .
+Iba ay maaaring maging ang_mga malalayong Quasar .
+Ang_mga astronomers ay ang unang pinasiyahan ang posibilidad na ang ilan sa mga bagay ay puting dwarfs , dahil ang_mga ito ay masyadong asul na maging pare-pareho sa mga teorya ng white dwarf evolution na lumalaganap sa panahon na iyon .
+Sapakgat may mas nauunang gawa na nahanap na maraming white dwafs na mas magiging asul kapag tumatanda , ito ay nagsusuporta sa ideya na at HDF ay nalalaman ng white dwafs .
+Ang HDF data ay may maraming mayaman na materyales galing_sa cosmologists para suriin at simula noong 2005 , halos 400 na dokumento base_sa HDF ang lumabas sa panitikang astronomikal .
+Isa sa mga pinaka fundamental na hinanap na data ay ang pagkadiskubre ng isa sa pinakamalaking galaxy na may mataas na redshift values .
+Habang lumalaki pa ang universe mas lumalayo ang_mga bagay sa mundo , ito ay tinatawag na Hubble flow .
+Ang ilaw na nanggagaling sa mga malalayong galaxy ay lubhang apektado ng kosmolohiko redshift .
+Habang mga Quasar na may mataas na redshifts ay kilala , masyadong ilang mga kalawakan na may mga redshifts mas mababa sa 1 ay kilala bago ang_mga HDF mga imahe ay ginawa .
+HDF ang , gayunpaman , ay naglalaman ng maraming mga kalawakan na redshifts bilang isang mataas na bilang 6 , na naaayon sa distansya na 12 bilyong light years .
+( Dahil_sa redshift ang pinakamalayong bagay sa HDF ay hindi parating makikita sa ang_mga imahe ng Hubble ; maaari nilang nakita sa imahe ng HDF kinuha sa na wavelength ng lupa base_sa mga teleskopyo . )
+Ang_mga HDF galaxies ay naglalaman ng isang malaki at hindi regular na kalawakan kaysa_sa lokal na uniberso ;
+Kolisyon ng_mga galaxy at mergers ay mas karaniwan sa mga batang uniberso na ito ay mas maliit kaysa_sa ngayon .
+Pinaniniwalaan na nabubuo ang higanteng elliptical galaxy kapag nagkakasangga ang_mga spiral at hindi regular na galaxy .
+Ang kayamanan ng galaxy at ang iba't_ibang yugto ng kanilang ebolusyon ay binigyan ng opportunidad ng_mga astronomo na para mag-estimate ng variation ng antas ng pagbuo ng isang buwan sa buong lifespan ng uniberso .
+Habang hindi maayos ang pagtantya ng_mga redshit ng HDF na galaxy , pinaniniwalaan ng_mga astronomo na nagaganap ang pagbuo ng bituin sa maximum na antas na 8 - 10 bilyong taon ang nakararaan , at bumawas na nang mga 10 simula noon .
+Isa pang importanteng resulta na galing_sa HDF ay ang pinakamaliit na foreground na mga bituin na inilahad .
+Para_sa mga astronomo na iniisip ang tungkol_sa kalikasan ng dark matter , tila hindi nakikita ang mass pero noobserbahan na binubuo ng 90 % ng mass ng uniberso .
+Isang teorya ang nagsasabi na binubuo ang dark matter ng Massive Astrophysical Compact Halo Objects ( MACHOs ) - malabo ngunit malalaking bagay tulad_ng mga red dwarf at planeta sa_labas na rehiyon ng_mga galaxy . 
+Ipinakita sa HDF , gayunpaman , na hindi maraming bilang ng red dwarfs sa_labas na bahagi ng ating galaxy .

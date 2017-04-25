@@ -1,0 +1,24 @@
+Noong Enero 1981 , sinimulan ng MOS Technology Inc. , integrated circuit design subsidiary ng Commodore , ang proyektong magdisenyo ng_mga grapik at awdyo chip para_sa isang video game console na para_sa susunod na henerasyon .
+Natapos noong Nobyembre 1981 ang pagdidisenyo ng_mga chip na ipinangalang MOS Technology VIC-II ( grapika ) at MOS Technology SID ( awdyo ) .
+Sinimulan ng Commodore ang isang proyektong game console noon na gagamit ng_mga bagong chip - tinawag na Ultimax o Commodore MAX Machine na pinatnugutan ni Yash Terakura mula_sa Commodore Japan .
+Kinansela rin ang proyekto tapos ilang mga makinarya lamang ang nagawa para_sa Hapones na pamilihan .
+Sa parehong panahon , kritikal sina Robert “ Bob ” Russell ( tagaprograma ng sistema at arkitekto ng VIC-20 ) at Robert Yannes ( inhinyero ng SID ) sa kasalukuyang line-up ng_mga produkto sa Commodore na isang pagpapatuloy ng linyang Commodore PET na nakatungo sa mga manggagamit para_sa negosyo .
+May suporta nina Al Charpentier ( inhinyero ng VIC-II ) at Charles Winterbie ( manedyer ng MOS Technology ) sila nang minungkahi nila ang totoong may mababang presyo na kasunod ng VIC-20 sa CEO ng Commodore na si Jack Tramiel .
+Idinikta ni Tramiel na dapat may 64 KB ng RAM ang makinarya . Kahit naghahalagang higit pa sa EU $ 100 ang 64 KB ng DRAM noong panahong iyon , alam niyang bumababa na ang presyo ng DRAM at bababa na rin sa katanggap-tanggap na lebel bago naabot ang buong produksyon .
+Noong Nobyembre , itinalaga ni Tramiel ang unang weekend ng Enero bilang deadline para mapataon sa 1982 Consumer Electronics Show .
+Ipinangalang VIC-40 ang produkto bilang kasunod ng popular na VIC-20 .
+Binubuo nina Robert Russell , Robert “ Bob Yannes at David A. Ziembicki ang grupong gumawa nito .
+Natapos ang disenyo , mga prototayp at ilang sample na software tama lang para_sa palabas tapos magtrabaho ng grupo nang walang pagod noong mga weekend ng Araw ng Pasasalamat at ng Pasko .
+Nang iprinisenta ang produkto , ipinangalang C 64 ang VIC-40 para maisama sa kasalukuyang lineup ng_mga produktong pangnegosyo ng Commodore kung saan kasama ang P 128 at B 256 na parehong ipinangalan gamit isang letra at ang laki ng memorya ng sarili nila .
+Nagkaroon ng kahanga-hangang debut sa 1982 Winter Consumer Electronics Show ang C 64 , base_sa pag-aalala ng Inhinyero ng Produksyong si David A. Ziembicki : “ Mga tao lamang ng Atari at ang_mga bibig nilang nakangangang nagsasabing ‘ Paano ninyo iyan nagawa sa $ 595 ? ’ ang nakita namin sa aming tanghalan . ”
+Lumabas na integrasyong bertikal ang sagot ; salamat sa pag-aari ng Commodore sa mga pasilidad para_sa paggawa ng_mga semikondaktor ng MOS Technology , may tantiyang $ 135 lamang ang gastos ng produksyon ng bawat C 64 .
+Nakaharap ng maraming mga kakompitensyang mga home kompyuter ang C 64 nang pinakilala ito noong Agosto 1982 .
+Sa magkasamang kahanga-hangang presyo at masulong na hardware , mabilis nitong nalamangan ang marami sa mga kakompitensya nito .
+Sa Estados Unidos , ang Atari 8-bit 400 at 800 , ang IBM PC at ang Apple II ang pinakamagaling na kakompetensya sa C 64 .
+Talagang magkatulad ang Atari 400 at 800 sa aspetong hardware pero parehong napakamahal gawin na napilitan ang Atari idisenyo muli ang kanilang makinarya para mas maging epektibo sa halaga .
+Nagresulta ito sa linyang 600 XL / 800 XL at sa paglipat ng kanilang produksyon sa Malayong Silangan .
+Parehong may mas mataas na mga resolution graphics mode kaysa_sa C 64 ang IBM PC at ang pinakahuli sa tumatanda nang linyang Apple II subalit dahil_sa mahinang suporta para_sa kulay , bihira lamang sila ginamit kaya nalampasan ang_mga ito noong inilabas ang 16-color ( 4-bit ) na kakayahan sa grapika at tunog ng C 64 .
+Samakatwid , kaya lumawak talaga ng PC at Apple II dahil_sa kanilang mga internal expansion slot na isang aspetong wala sa 64 .
+Parehong may mga istandard na mga kompigurasyon sa memorya noong mga taong 1982 / 83 ang lahat ng apat na mga makinarya : 48 K para_sa Apple II+ ( binigyan ng upgrade patungo_sa 64 K gamit ang Apple IIe ilang buwan lang tapos inilabas ang C 64 ) , 64 K para_sa IBM PC at 48 K para_sa Atari 800 .
+Sa presyong $ 1200 , doble ang presyo ng IBM PC at Apple II habang $ 899 ang presyo ng Atari 800 .
+Isa sa naging dahilan ng tagumpay ng C 64 ang_mga agresibong taktika para makabenta ng Commodore at mabilis nitong ginamit ang relative price / mga peformance division ng_mga kakompitensya nito gamit isang serye ng_mga komersyal sa telebisyon tapos inilabas ang C 64 noong hulihan ng 1982 .

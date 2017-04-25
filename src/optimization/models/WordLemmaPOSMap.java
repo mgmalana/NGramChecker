@@ -15,6 +15,11 @@ public class WordLemmaPOSMap {
 		this.lemma = lemma;
 	}
 
+	public WordLemmaPOSMap(String word, String posTag) {
+		this.word = word;
+		this.posTag = posTag;
+	}
+
 	public String getWord() {
 		return word;
 	}

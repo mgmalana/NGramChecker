@@ -1,0 +1,27 @@
+Gayunman , kahit sa mga wika tulad_ng Aleman at Vietnamese , may karaniwan ilan ponetika ugnay sa_pagitan_ng rounding at backness : may posibilidad na maging mas kulang sa front ang front rounded na mga tinig kaysa mga tinig na front unrounded , at may posibilidad din na maging mas kulang ang back unrounded na mga tinig kaysa_sa mga tinig na back rounded .
+Ibig sabi lang nito na nimdim sa kanila karaniwan posisyon ang lagay ng_mga tinig na unrounded sa_kaliwa ng rounded na tinig sa IPA vowel chart .
+Posible rin ang iba klase ng labi .
+Ipaghalimbawa ang Hapon , hindi rounded ang kanila tulad_ng Ingles , kung saan usli ( o kunot ) ang labi , pero hindi rin naman ganap ang_mga labi sa_gilid , na ganoon sa mga tinig na unrounded .
+Sa halip , dikit sila sa pareho direksyon , na iwan ng puwang sa_pagitan_ng labi para takas ang ere . ( Tingin sa Vowel roundedness para_sa mga ladaw . )
+Dalawa sa mga ilan wika ang Suweko at Norwegian na kung saan iba ang tangi nito , na pareho mayroon usli at piga-labi patinig na high front .
+Sa dami trato , turing sila pareho bilang isa uri ng rounding , at dalas tawag na endolabial rounding ( siksik , kung saan lapit sa isa ang_mga laman ng labi ) at exolabial rounding ( usli , kung saan lapit sa isa ang_mga gilid ng labi ) .
+Gayunman , hindi tiwala ang ilan ponetika na mga subset ito ng isa tanda ng rounding , at mas gusto embes ang tatlo laya termino ang rounded , compressed o siksik at spread ( para_sa unrounded ) .
+tukoy ng nasalisasyon kung takas ang ilan ere sa ilong .
+Sa mga tinig na ilong , baba ang ngalangala , at lakbay ang ilan ere sa lukab ng ilong at pati na rin sa bibig .
+takas ang lahat ng ere sa bibig sa tinig na salita .
+iba sa tinig ng ilong at bibig ang Pranses , Polish at Portuges .
+ladaw ng sabi kung taginting ang vocal cords habang salita ang tinig .
+Mayroon lamang na tinig tinig ang dami ng_mga wika , pero iba ang tinig na tinig at hindi ang dami wika ng tubo Amerikano , tulad_ng Cheyenne at Totonac .
+Hindi tinig ang tinig sa bulong salita .
+Sa Hapon at Quebec na Pranses , dalas hindi tinig ang tinig sa_pagitan_ng wala tinig na tinig .
+Uri phonation ang modal , creaky , at breathy ( tinig na bulong ) na boses na iba gamit sa iba wika .
+dalas , sabay sila yari sama ng tangi tono o diin ; sa wika ng Mon , lahad din ang bigkas na mga tinig sa taas na tono na may boses na creaky .
+Sa mga kaso tulad nito , labo kung yun ba ang tono , ang tipo ng boses , o ang pares ng dalawa na gamit sa ponema iba .
+Kilala bilang rehistro o kumplikado rehistro ang kombinasyon ng ponetika hudyat ( i.e. phonation , tono , diin ) .
+Ang Advanced tongue root ( ATR ) ay isa tangi karaniwan sa_ibayo ng Aprika .
+Ang iba sa_pagitan_ng advanced at retracted na tongue root ay hawig ng hindi / pabaya iba ng tunog , pero iba sila sa salita .
+sama sa tinig na ATR ang halata tensyon sa vocal tract .
+yari ang pharyngealized na tinig sa ilan wika ; gamit ng Sedang ang ganito iba , at pati na rin ang Tungisic na wika .
+Pareho sa bigkas ang pharyngealisation sa retracted na tongue root , pero may iba tunog .
+yari ang mas lakas na tindi ng pharyngealisation sa wika ng Hilaga-Silangan Caucasian at Khoisan .
+Ito ay maaari tawag na epiglottalized , dahil ang nasa_dulo ng epiglottis ang una hapit .

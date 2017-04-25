@@ -1,0 +1,23 @@
+Ang Abjad ay isang uri ng sistemang pagsulat kung saan ang bawat simbolo ay may katumbas na katinig ; ang mambabasa ang dapat magbigay ng angkop na patinig .
+Ito ay isang termino na inimungkahi ni Peter T. Daniels upang mapalitan ang_mga karaniwang mga termino consonantary o consonontal alphabet o magbase sa family ng scripts o West Semitic .
+Ang ibang mga linguists ay itinuturing na alphabeto ang West Semitic na pagsulat , habang yung iba naman ay kinikilala ito bilang hiwalay na sistema ng pagsulat , at iba naman ay ibang klaseng pagbabaybay .
+Ang abjads ay madalas nagtataglay ng salitang " alpabeto " sa kanilang pangalan , tulad_ng " Phoenician na alpabeto " at " Arabic na alpabeto . "
+Ayon_sa mga pormulasyon ni Daniels , naiiba ang abjads sa pamamaraan na ang_mga katinig ay representado sa mga saligan na graphemes .
+Ang abjads ay naiiba sa kategorya na inimbento ni Daniels , abugidas , kung saan ang abjads ang tunog ng patinig ay ipinapahiwatig ng phonology , at kung saan ang marka ng patinig ay umiiral sa sistema , katulad_ng nikkud para_sa Hebrew at harakat para_sa Arabic , ang kanilang gamit ay opsyonal at hindi ang dominante ( o literal ) na anyo .
+Sa abugida , ang_mga patinig ( maliban sa likas na patinig ) ay laging marka , maski may diacritic , isang minor attachment sa isang letra o standalone glyph .
+Ang ibang abugidas ay gumagamit ng espesyal na simbolo upang masupress ang likas na patinig at maipakita ng maayos ang katinig lamang .
+
+Nakukuha ng sistema ang pangalan mula_sa Arabic na salita para_sa alpabeto , kung saan ito ay nabubuo ng unang apat na letra sa Arabic alphabet sa lumang abjadi order , kagaya_ng salitang Ingles " alphabet " ay nabubuo ng_mga pangalan ng unang dalawang letra ng Greek Alphabet . ( alpha at beta )
+Lahat ng kilalang abjads ay kasama sa Semitic family ng scripts .
+Ang_mga iskriptong ito ay naituturing na kinuha sa Proto-Sinaitic na alpabeto ( na noon pang 1500 BC ) kung saan nakuha mula_sa Egyptian hieroglyphs .
+Ang abjad ay naituturing na mas madali kumpara_sa sinaunang hieroglyphs . Malaki ang nabawasan sa bilang ng naiibang glyphs , sa halaga ng tumataas na kalabuan .
+Ang Phoenician abjad ang unang abjad na nagkaroon ng malawakang paggamit .
+Di kagaya_ng ibang magkapanabay na iskripto , katulad_ng Cuneiform at Egyptian hieroglyphs , ang Phoenician script ay binubuo ng dalawang dosenang simbolo .
+Ito ang nagpadali sa pagtututo ng iskripto , at dinala ng_mga Phoenician seafaring merchants ang iskripto kahit saan sila magpunta .
+Ang Phoenician ang nagbigay-daan sa maraming bagong sistema ng pagsulat , kasama dun ang Greek Alphabet , ang unang " true " alpabeto , at Aramic , isang malawakang gamit na abjad .
+Umunlad ang Greek patungo_sa western alphabets , katulad_ng Latin at Cyrillic , habang ang Aramic ay naging ninuno ng maraming abjad at abugidas sa Asya . Lumaganap ang Aramic sa Asya , umaabot sa India at pagiging Brahmi , ang ninunong abugida sa karamihan ng modern Indian at Southeast Asian scripts .
+Sa Middle East , ang Aramic ay nagbigay-daan sa Hebrew at Nabatean abjads , kung saan pinanatilihan ang Aramic Letter forms .
+Ang iskriptong Syriac ay padaloy na pagkakaiba ng Aramaic .
+Malabo ang kaalaman kung Arabic abjad ay kinuha mula_sa Nabatean o Syriac . Ang_mga modernong abjad ay naggamit na para_sa isopsephy , sistema na kung saan binibigyan ng numerong katumbas ang indibiduwal na letra .
+Bago ang pag-unlad ng positional number system , ito ang isa sa mga unang regular na sistema sa pagsulat ng numero .
+Sa ibang linguahe , ang relasyon sa_pagitan_ng salita at numero gawa ng sistema ay humantong sa mala-tula at mystikal na paggamit .

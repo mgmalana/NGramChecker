@@ -1,0 +1,4 @@
+ta_l83_aldonsary 4_lemmas.txt   Line: 8 | Lengths : 13,12,13
+                 Ang                tubo            Carnival                  na              tugtog                  ay             mayroon              chanté                 mas                  at                lapo              kabwit                   .
+             JJD_CCP                 NNP                 CCP                 NNC                  LM             VBH_CCP                  FW                  FW                 CCA                  FW                  FW                 PMP
+                 Ang          katutubong            Carnival                  na              tugtog                  ay            mayroong              chanté                 mas                  at                lapo              kabwit                   .

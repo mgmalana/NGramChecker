@@ -1,0 +1,25 @@
+Sinusukat ng_mga real numbers ang continuous quantities .
+Maaari itong ipaliwanag sa paraang teorya gamit ang decimal representations na mayroong infinite sequence ang_mga numero sa kanan ng decimal point ; ito ay madalas ipinapakita katulad_ng 324.823211247 ...
+Ipinapahiwatig ng_mga ellipsis ( tatlong tuldok ) na marami pa ang kasunod ng_mga numero nito .
+May dalawang pangunahing mga katangian ng pagiging isang ordered field at mayroong least upper bound property ang_mga real numbers .
+Ang una ay nagsasabing bumubuo ng isang field ang_mga real numbers na may addition at multiplikasyon , pati na rin division sa_pamamagitan_ng nonzero numbers na maaaring totally ordered sa isang linya ng numero sa isang paraan na tugma addition at multiplikasyon .
+Ang pangalawa ay nagsasabi na kung isang nonempty set ng real numbers ay may upper bound , ito ay mayroong pinakamababang upper bound .
+Ang dalawang katangian na ito ay tumutukoy sa mga real numbers na kumpleto , at pinapayagan ang ibang mga katangian nito na mahinuha .
+Halimbawa , maaari nating patunayan sa mga katangiang ito na ang_mga polynomial na may odd degree na may real coefficients ay mayroong tunay na root , at idadagdag mo pa ang square root ng -1 sa mga real numbers , makukuha ang complex numbers na ang resulta ay algebraically closed .
+Halos parating iniisip na aproksimasyon ang_mga sukat sa physical sciences sa mga real numbers .
+Habang ang_mga numero ay ginagamit para_sa decimal fractions na sumasagisag sa rational numbers , ang pagsusulat nito sa decimal terms ay nirerekomenda na ito ay mga aproksimasyon sa theoretical underlying real number .
+Masasabing computable ang real number kung may mga umiiral na algorithm na bumubunga sa mga numero .
+Dahil kakaonti lamang ng_mga algorithms ngunit hindi nabibilang ang reals , halos lahat ng real numbers ay hindi computable .
+Tinatanggap ng ibang constructivists ang pagkakaroon ng_mga reals na computable .
+Mas malawak ang set ng definable numbers ngunit nabibilang ang_mga ito .
+Karamihan sa mga real numbers lamang ang nasusukat ng_mga computer .
+Karaniwang inilalarawan ang isang subset ng_mga rationals , eksakto gamit ang floating point numbers o fixed-point numbers , at ginagamit ang_mga rationals na ito bilang approksimasyon ng_mga nalalapit na real values .
+Isang metodo ang arbitrary-precision arithmetic upang ipakita ang arbitrary rational numbers , limitado lamang ng available memory , pero dahil_sa maraming gumagamit ng fixed number ng bits of precision na ipinapasiya ng laki ng processor registers .
+Dagdag pa sa mga rational values na ito , maraming itinatrato ( countable ) irrational numbers ang computer algebra systems sa paglagay ng algebraic description ( tulad_ng " sqrt ( 2 ) " ) kaysa_sa rational approximation .
+Tiyakin na kaunting programming languages ang gumagamit ng “ real ” upang ilarawan ang main numeric data type , tulad_ng AppleScript .
+Ginagamit ng_mga mathematicians ang simbolong R ( o , ang letrang " R " sa blackboard bold , Unicode ) upang ipakita ang set of all real numbers .
+Tumutukoy sa n-dimensional space na mayroong real coordinates ang notasyon na Rn ; halimbawa , ang value mula R3 ay naglalaman ng tatlong real numbers at tumutukoy sa lokasyon sa 3 - dimensional space .
+Sa matematika , ginagamit ang real bilang isang adjective , ibig sabihin na ang field of real numbers ang underlying field .
+Halimbawa , real matrix , real polynomial at real Lie algebra .
+Bilang isang substansive , striktong ginagamit sa reference sa lahat ng real numbers ang termino mismo ( hal. The " set_of_all_reals " ) .
+Ginagamit ang Vulgar fractions ng_mga Egyptians noong 1000 BC ; ang Vedic " Sulba Sutras " ( " rule_of_chords " sa Sanskrit ) , ca. 600 BC , maaari ang unang paggamit ng irrational numbers .

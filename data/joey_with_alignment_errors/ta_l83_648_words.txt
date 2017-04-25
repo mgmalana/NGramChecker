@@ -1,0 +1,21 @@
+Ang pinaka-mahalagang pag-uuri ng_mga polinomyal ay batay_sa bilang ng_mga natatanging mga variable .
+Ang polinomyal sa isang variable ay tinatawag na univariate na polinomyal , ang polinomyal na nasa higit na isang variable ay tinatawag na isang multivariate na polinomyal .
+Ang_mga haka na ito ay tumutukoy sa uri ng polinomyal kaysa_sa mga indibidwal na polinomyal ; halimbawa kapag binibigyan pansin ang univariate na polynomials , hindi ibinubukod ang_mga constant na polinomyals ( na maaaring magresulta halimbawa mula_sa pagbabawas ng_mga hindi konstant na mga polinomyal ) , bagamat merong mga konstant na polinomyal na hindi naglalaman ng kahit anong variable .
+Posibleng paunlarin ang pag-uuri ng_mga multivariate na polinomyals bilang bivariate , trivariate atbp , ayon_sa bilang ng_mga variable , ngunit ito ay bihirang ginagawa , halimbawa , mas karaniwang sabihin " polynomials in x , y , at z " .
+Ang ( karaniwang mulitvariate ) na polinomyal ay tinatawag na magkakatulad ng antas n kung ang lahat ng kanyang mga tuntunin ay may antas n .
+Ang_mga univariate na polinomyal ay may maraming mga katangian na hindi naibahagi sa_pamamagitan_ng mga multivariate na polynomials . Halimbawa , ang_mga tuntunin ng univariate na polinomyal ay nakaayos ayon_sa kanilang antas , at ito’y palaging nakasulat mula_sa pataas papuntang pababang antas .
+Ang univariate na polinomyal sa x na nasa antas na n ay kumukuha ng heneral na anyo kung saan cn , cn-1 , … , c2 , c1 at c0 ay mga konstant , mga koepisyent ng polinomyal .
+Dito ang terminong cnxn ay tinatawag na nangungunang kataga at ang koepisyent CN ay nangungunang koepisyent ; kung ang nangungunang koepisyent ay 1 , ang univariate na polinomyal ay tinatawag na monic .
+Tandaan na hiwalay sa mga nangungunang koepisyent CN ( na dapat non-zero o iba ang polinomyal ang hindi antas ng n ) ang pangkalahatang anyo na ito ay nagbibigay-daan para_sa mga koepisyent ng zero ; kapag nangyari ito nararapat na kataga ay zero at maaaring inalis mula_sa kabuuan nang hindi binabago ang polinomyal .
+Ito ay gayunpaman karaniwang upang sumangguni sa ci bilang ang koepisyent ng XI , kahit na ci mangyayari sa 0 , sa gayon na ang XI ay hindi talagang mangyari sa anumang tuntunin ; halimbawa isa makipag-usap ng pare-pareho ang term polinomyal , ibig sabihin c0 kahit na ito ay dapat na zero .
+Ang_mga polinomyal ay maaaring nauuri katulad_ng uri ng_mga pare-pareho ang halaga na pinapayagan ng_mga koepisyent .
+Maaari isa ay gumagana sa mga polynomials may mahalaga , nakapangangatwiran , real o kumplikadong mga coefficients , at sa mga abstract mga polynomials algebra sa maraming iba pang mga uri ng_mga coefficients ay maaaring tinukoy .
+Gaya_ng nakaraang pag-uuri , ito ay tungkol_sa mga koepisyent na ginagawa ; halimbawa kapag ginagawa ang_mga polinomyal sa mga complex na koepisyent , kasama ang_mga polinomyal na ang_mga koepisyent mangyari na lahat ay tunay , kahit na ang_mga polinomyal ay maaari ring isaalang-alang na maging isang polinomyal na merong totoong koepisyent .
+Ang_mga polinomyal ay maaaring karagdagang iuri sa_pamamagitan_ng kanilang mga antas at / o sa bilang ng_mga non-zero na kondisyon na linalaman ng_mga ito .
+Ang_mga pangalan para_sa mga antas na mas mataas ay di gaanong karaniwan .
+Ang_mga pangalan para_sa mga antas ay maaaring ilapat sa polinomyal o sa kanyang mga kondisyon .
+Halimbawa , ang konstant na polinomyal ay maaaring sumangguni sa isang polinomyal na ang antas ay 0 o sa isang zero na antas ng kataga .
+Ang polinomyal na 0 , na maaaring ituring walang anumang kondisyon , ay tinatawag na zero na polinomyal .
+Hindi tulad_ng mga ibang konstant na mga polinomyal , ang antas nito ay hindi zero .
+Sa halip ang antas ng zero na polinomyal ay alinman sa kaliwa tahasang hindi natukoy , o tinukoy na negatibo ( alinman , –1 o –? ) . ) .
+Ang huling pamamaraan ay mahalaga kapag pinapaliwanag ang Euclidean division ng_mga polinomyal .

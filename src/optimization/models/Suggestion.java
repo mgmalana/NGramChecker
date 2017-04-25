@@ -11,17 +11,19 @@ public class Suggestion {
 	private boolean isHybrid;
 	private String posSuggestion;
 	private int affectedIndex;
+	private int affectedIndexNoOffset;
 	private double editDistance;
 	private int frequency;
 
 	public Suggestion(SuggestionType suggType, String[] tokenSuggestions, boolean isHybrid, String posSuggestion,
-			int affectedIndex, double editDistance, int frequency) {
+			int affectedIndex, int affectedIndexNoOffset, double editDistance, int frequency) {
 		super();
 		this.suggType = suggType;
 		this.tokenSuggestions = tokenSuggestions;
 		this.isHybrid = isHybrid;
 		this.posSuggestion = posSuggestion;
 		this.affectedIndex = affectedIndex;
+		this.affectedIndexNoOffset = affectedIndexNoOffset;
 		this.editDistance = editDistance;
 		this.frequency = frequency;
 	}

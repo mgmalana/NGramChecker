@@ -1,0 +1,27 @@
+Gayunman , kahit sa mga wika tulad_ng Aleman at Vietnamese , may karaniwang ilang ponetikang ugnayan sa_pagitan_ng rounding at backness : may posibilidad na maging mas kulang sa front ang front rounded na mga patinig kaysa mga patinig na front unrounded , at may posibilidad din na maging mas kulang ang back unrounded na mga patinig kaysa_sa mga patinig na back rounded .
+Ibig sabihin lang nito na mapanimdim sa kanilang karaniwang posisyon ang paglagay ng_mga patinig na unrounded sa_kaliwa ng rounded na patinig sa IPA vowel chart .
+Posible rin ang iba’t_ibang klase ng paglalabi .
+Ipaghalimbawa ang Hapon , hindi rounded ang kanila tulad_ng Ingles , kung saan nakausli ( o nakakunot ) ang labi , pero hindi rin naman nakalaganap ang_mga labi sa_gilid , na ganoon sa mga patinig na unrounded .
+Sa halip , nakadikit sila sa parehong direksyon , na nag-iiwan ng puwang sa_pagitan_ng labi para makatakas ang ere . ( Tumingin sa Vowel roundedness para_sa mga larawan . )
+Dalawa sa mga iilang wika ang Suweko at Norwegian na kung saan kakaiba ang katangian nito , na parehong mayroong nakausli at nakapigang-labing patinig na high front .
+Sa nakararaming pagtrato , itinuturing sila pareho bilang isang uri ng rounding , at kadalasang itinatawag na endolabial rounding ( nakasiksik , kung saan lumalapit sa isa’t_isa ang_mga nilalaman ng labi ) at exolabial rounding ( nakausli , kung saan lumalapit sa isa’t_isa ang_mga gilid ng labi ) .
+Gayunman , hindi naniniwala ang ilang nagpoponetika na mga subset ito ng isang palatandaan ng rounding , at mas gugustuhing embes ang tatlong malayang termino ang rounded , compressed o nakasiksik at spread ( para_sa unrounded ) .
+Tinutukoy ng nasalisasyon kung nakakatakas ang ilang ere sa ilong .
+Sa mga patinig na pang-ilong , ibinababa ang ngalangala , at naglalakbay ang ilang ere sa lukab ng ilong at pati na rin sa bibig .
+Tumatakas ang lahat ng ere sa bibig sa patinig na sinasalita .
+Nagkakaiba sa patinig ng ilong at bibig ang Pranses , Polish at Portuges .
+Inilalarawan ng pagsasabi kung tumataginting ang vocal cords habang sinasalita ang patinig .
+Mayroon lamang na tinitinigang patinig ang karamihan ng_mga wika , pero nagkakaiba ang patinig na tininigan at hindi ang maraming wika ng katutubong Amerikano , tulad_ng Cheyenne at Totonac .
+Hindi tinitinig ang patinig sa nagbubulungang pagsasalita .
+Sa Hapon at Quebec na Pranses , kadalasang hindi tinitinig ang patinig sa_pagitan_ng walang tinig na katinig .
+Uring phonation ang modal , creaky , at breathy ( patinig na pabulong ) na boses na kakaibang ginagamit sa ibang wika .
+Kadalasan , sabay-sabay sila nangyayari kasama ng katangiang tono o diin ; sa wika ng Mon , inilalahad din ang binibigkas na mga patinig sa mataas na tono na may boses na creaky .
+Sa mga kaso tulad nito , Malabo kung yun ba ang tono , ang tipo ng boses , o ang pagkakapares ng dalawa na ginagamit sa malaponemang pagkakaiba .
+Kilala bilang rehistro o kumplikadong rehistro ang kombinasyon ng ponetikang hudyat ( i.e. phonation , tono , diin ) .
+Ang Advanced tongue root ( ATR ) ay isang katangiang karaniwan sa_ibayo ng Aprika .
+Ang pagkakaiba sa_pagitan_ng advanced at retracted na tongue root ay kahawig ng nakahihindi / pabayang pagkakaiba ng tunog , pero kakaiba sila sa pagsalita .
+Kasama sa patinig na ATR ang halatang tensyon sa vocal tract .
+Nangyayari ang pharyngealized na patinig sa ilang wika ; ginagamit ng Sedang ang ganitong kaibahan , at pati na rin ang Tungisic na wika .
+Pareho sa pagbigkas ang pharyngealisation sa retracted na tongue root , pero may ibang tunog .
+Nangyayari ang mas malakas na tindi ng pharyngealisation sa wika ng Hilagang-Silangang Caucasian at Khoisan .
+Ito ay maaaring itawag na epiglottalized , dahil ang nasa_dulo ng epiglottis ang pangunahing paghapit .

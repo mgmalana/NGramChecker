@@ -1,0 +1,22 @@
+Ang pinakaimportanteng bahagi ng makinarya ang bushing plate .
+Naglalaman ang bushing plate ng_mga nozzle sa kung saan nabubuo ang fiber .
+Kadalasan , gawa ito sa platinum alloyed na may rhodium para_sa katibayan .
+Ginagamit ang platinum dahil may natural na affinity ang pagtunaw ng kristal sa pagbasa nito .
+Nung unang ginamit ang bushings , gawa ito sa 100 % platinum at ang kristal ang bumasa sa bushing upang madali itong makalusot sa plate pagkatapos lumabas sa nozzle at maipon sa_ilalim .
+At dahil_sa presyo at kadalasan makupas , ang platinum ay alloyed kasama ng rhodium .
+Sa proseso ng direktang pagtunaw , nagsisilbing tagakolekta ang bushing ng tunaw na kristal .
+Unti-unti itong iniinit upang manatili sa tamang temperatura ito para_sa pagbubuo ng fiber .
+Sa proseso ng pagtunaw ng marmol , ginagamit ang bushing na lalagyan kung saan tinutunaw ang kristal .
+Ang_mga bushing ang nagpapamahal ng pag-impok ng kapital ng paggawa ng fiber glass .
+Kritikal ang pagdisenyo ng nozzle .
+Nag-iiba ang_mga numero ng nozzles galing 200 hanggang 4000 , umaakyat ng multiples ng 200 .
+Importante sa nozzle at tuloy-tuloy na paggawa nito ang kapal ng gilid nito sa exit region .
+Ang paglagay ng counterbore ay nagbabawas ng pagbasa .
+Sa panahong ito , dinidisenyo ang_mga nozzle na mas manipis sa exit .
+Ginagawa ito dahil habang dumadaloy ang kristal sa nozzle na bumubuo ng patak na naiiwan sa_dulo nito .
+Habang bumabagsak ito , nag-iiwan ito ng hibla na nakadikit sa meniscus at nozzle basta’t nasa tamang viscosity ng pagbuo ng fiber .
+Kapag mas maliit ang annular ring ng nozzle o mas manipis yung wall ng exit , mas mabilis nabubuo at natatanggal ang patak at mas maliit ang pagkakataon na mabasa nito ang patayong bahagi ng nozzle .
+Ang surface tension ng kristal ay nakakaimpluwensya sa pagbuo ng meniscus .
+Nasa 400 mN per m dapat para_sa E-glass .
+Mahalaga ang atensyon ( pagguhit ) sa disenyo ng nozzle .
+Kahit binabagal nito ang paggawa ng mas makapal na fiber , di kanais-nais itong itakbo ang_mga nozzle sa bilis na hindi nila kaya .

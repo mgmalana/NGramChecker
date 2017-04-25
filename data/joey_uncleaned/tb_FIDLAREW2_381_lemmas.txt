@@ -1,0 +1,30 @@
+intindi naman ang akustika ng_mga tinig .
+awa ang iba kalidad ng tinig sa aral akustika ng tinig sa_pamamagitan_ng ugnay na halaga ng_mga formant , ang lago ng akustika sa vocal tract kung saan kita bilang dilim na pangkat sa spectrogram .
+kilos ang vocal tract bilang tunog na lukab , at apekto ang posisyon ng panga , labi at dila sa parametro ng tunog na kulab , na resulta sa iba halaga ng formant .
+Maaari ladaw ang akustika ng tinig gamit ng_mga spectrogram , na kita ang lakas ng akustika sa bawat prikwensiya , at kung paano ito bago sa panahon .
+tukoy sa hayag ng tinig ( taas ng tinig ) ang una formant , o “ F1 ” .
+Mayroon taas na prikwensiya ang bukas na tinig ng F1 habang may baba naman prikwensiya ng sara tinig , na kita sa_kanan : No_Translation .
+tukoy ang dalawa formant sa harap ng tinig .
+Mayroon haba prikwensiya ang likod na tinig ng F2 habang may taas naman na prikwensiya ang tinig ng F2 na harap .
+linaw talaga ito sa kanan , kung saan mas taas ang prikwensiya ng F2 sa tinig na harap kaysa_sa iba dalawa tinig .
+Gayunman , sa bukas na tinig , pilit sa taas ng prikwensiya ng F2 ang taas na prikwensiya ng F1 , kaya ang diperensya sa_pagitan_ng una at dalawa formant ang mas buti sukat ng frontness .
+Para_sa dahil ito , karaniwan tagpo bilang F1 vs. F2-F1 ang_mga tinig .
+Karaniwan tawag na ‘ backness ’ ang sukat na ito kaysa ‘ frontness ’ , pero maaari maging baligtad ang termino ‘ backness ’ habang talakay ang_mga formant . )
+kilala bilang lowered F3 na halaga ang R-colored na tinig .
+Karaniwan awa ang rounding bilang isa kumplikado relasyon ng F2 at F3 na may posibilidad na lakas ang backness ng tinig .
+Isa epekto nito ay ang back na tinig ang karaniwan rounded habang ang front na tinig ang karaniwan unrounded ; isa pa ay ang rounded na mga tinig ay may posibilidad na kita sa_kanan ng unrounded na tinig sa tsart ng tinig .
+Tunay nga , mayroon rason para plot ang_mga pares ng tinig sa daan ganoon .
+dalas laya ladaw ang_mga tangi ng prosodi ng tinig kaysa_sa kalidad nito .
+Sa mga non-linear na ponetika , kita sila sa hilera patong .
+Karaniwan turing na hindi aplay ang_mga tangi ng prosodi ng tinig mismo sa tinig pero sa pantig , kasi ang iba mga wika hindi hiwalay na iba ang haba ng tinig kaysa_sa haba ng pantig .
+saklaw ng himig ang_mga bago sa taas , lakas , at bilis ng bigkas lipas ng panahon .
+Sa tinig na wika , dalas dala ng tinig ang tono ng pantig , ibig sabi na babaw ng tinig ang ukol taas o ayos nito na marka ng tono .
+Kapag ang pantig ay may taas na tono , halimbawa , ang taas ng tinig ay maging taas .
+Kung ang pantig ay may baba tono , samakatuwid ang taas ay baba mula taas punta baba sa buo ng wika ng tinig .
+tukoy ng haba o dami ang abstrakto durasyon ng tinig .
+Sa ilan suri , ladaw ang tangi ito bilang isa tangi ng kalidad ng tinig , hindi ng prosodi .
+Mayroon kabila iba ang Hapones , Finnish , Hungarian , Arabe at Latin sa ikli at haba mga tinig .
+May tatlo dako naman ang wika Mixe sa ikli , medyo-haba , at haba tinig , at ulat ito sa iba wika , kahit na hindi lagi bilang isa ponema tangi .
+sulat sa IPA ang haba tinig sama ng tryanggulo tuldok , na may 2 sukat na tryanggulo turo sa isa palit ng_mga tuldok ( ) .
+Nasa hati taas nito ( ) ang simbolo ng IPA para_sa medyo haba tinig .
+minsan angkin ang mas haba mga tinig , pero laging hati ang_mga ito sa dalawa tinig .

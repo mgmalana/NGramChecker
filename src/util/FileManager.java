@@ -12,9 +12,9 @@ import java.util.List;
 
 public class FileManager {
 
-	static FileWriter fileWriter;
-	static BufferedWriter bufferWriter;
-	static String filename;
+	FileWriter fileWriter;
+	BufferedWriter bufferWriter;
+	String filename;
 
 	public FileManager(String filename) {
 		this.filename = filename;

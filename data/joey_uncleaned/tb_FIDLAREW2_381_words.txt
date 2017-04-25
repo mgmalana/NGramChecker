@@ -1,0 +1,30 @@
+Naiintindihan naman ang akustika ng_mga patinig .
+Mauunawaan ang iba’t_ibang kalidad ng patinig sa pinag-aralang akustika ng patinig sa_pamamagitan_ng kaugnay na halaga ng_mga formant , ang lago ng akustika sa vocal tract kung saan nagpapakita bilang madilim na pangkat sa spectrogram .
+Kumikilos ang vocal tract bilang matunog na lukab , at umaaapekto ang posisyon ng panga , labi at dila sa parametro ng matunog na kulab , na nagreresulta sa iba’t_ibang halaga ng formant .
+Maaaring maisalarawan ang akustika ng patinig gamit-gamit ng_mga spectrogram , na ipinapakita ang lakas ng akustika sa bawat prikwensiya , at kung paano ito nagbabago sa panahon .
+Tumutukoy sa pagkakahayag ng patinig ( taas ng patinig ) ang unang formant , o “ F1 ” .
+Mayroong mataas na prikwensiya ang nakabukas na patinig ng F1 habang may mababa namang prikwensiya ng nakasarang patinig , na makikita sa_kanan : No_Translation .
+Tumutukoy ang pangalawang formant sa kaharapan ng patinig .
+Mayroong mahabang prikwensiya ang nakalikod na patinig ng F2 habang may mataas naman na prikwensiya ang patinig ng F2 na nakaharap .
+Malinaw talaga ito sa kanan , kung saan mas mataas ang prikwensiya ng F2 sa patinig na nakaharap kaysa_sa ibang dalawang patinig .
+Gayunman , sa bukas na patinig , pumipilit sa pagtaas ng prikwensiya ng F2 ang mataas na prikwensiya ng F1 , kaya ang diperensya sa_pagitan_ng una at pangalawang formant ang mas mabuting sukat ng frontness .
+Para_sa dahilang ito , karaniwang matatagpuan bilang F1 vs. F2-F1 ang_mga patinig .
+Karaniwang tinatawag na ‘ backness ’ ang sukat na ito kaysa ‘ frontness ’ , pero maaaring maging kabaligtaran ang terminong ‘ backness ’ habang tinatalakay ang_mga formant . )
+Makikilala bilang lowered F3 na halaga ang R-colored na patinig .
+Karaniwang mauunawaan ang rounding bilang isang kumplikadong relasyon ng F2 at F3 na may posibilidad na palakasin ang backness ng patinig .
+Isang epekto nito ay ang back na patinig ang pinakakaraniwang rounded habang ang front na patinig ang pinakakaraniwang unrounded ; isa pa ay ang rounded na mga patinig ay may posibilidad na makita sa_kanan ng unrounded na patinig sa tsart ng patinig .
+Tunay nga , mayroong rason para i-plot ang_mga pares ng patinig sa paraang ganoon .
+Madalas malayang inilalarawan ang_mga katangian ng prosodi ng patinig kaysa_sa kalidad nito .
+Sa mga non-linear na ponetika , makikita sila sa magkahilerang patong .
+Karaniwang itinuturing na hindi mag-aplay ang_mga katangian ng prosodi ng patinig mismo sa patinig pero sa pantig , kasi ang ibang mga wika hindi hiwalay na pinag-iiba ang haba ng patinig kaysa_sa haba ng pantig .
+Sinasaklaw ng himig ang_mga pagbabago sa taas , lakas , at bilis ng pagbigkas paglipas ng panahon .
+Sa matinig na wika , kadalasang dinadala ng patinig ang tono ng pantig , ibig sabihin na pinangingibabaw ng patinig ang kaukulang taas o ayos nito na nagmamarka ng tono .
+Kapag ang pantig ay may mataas na tono , halimbawa , ang taas ng patinig ay magiging mataas .
+Kung ang pantig ay may pababang tono , samakatuwid ang taas ay bababa mula mataas papuntang mababa sa kabuuan ng pagwika ng patinig .
+Tinutukoy ng haba o dami ang abstraktong durasyon ng patinig .
+Sa ilang pagsusuri , inilalarawan ang katangiang ito bilang isang katangian ng kalidad ng patinig , hindi ng prosodi .
+Mayroong magkabilaang kaibahan ang Hapones , Finnish , Hungarian , Arabe at Latin sa maikli at mahabang mga patinig .
+May tatlong dako naman ang wikang Mixe sa maikli , medyo-mahaba , at mahabang patinig , at iniulat ito sa ibang wika , kahit na hindi laging bilang isang malaponemang katangian .
+Nakasulat sa IPA ang mahabang patinig kasama ng tryanggulong tutuldok , na may 2 magkakasukat na tryanggulong nakaturo sa isa’t_isa kapalit ng_mga tuldok ( ) .
+Nasa kalahating itaas nito ( ) ang simbolo ng IPA para_sa medyo mahabang patinig .
+Paminsan-minsan inaangkin ang mas mahabang mga patinig , pero laging hinahati ang_mga ito sa dalawang patinig .

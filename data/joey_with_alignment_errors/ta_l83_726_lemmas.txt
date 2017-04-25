@@ -1,0 +1,17 @@
+Mga moderno sistema ng sulat ng Korea na batay_sa Hangul , ay hindi gamit ng Tsino letra para katawan ang tubo morpema .
+Sa_hilaga Korea , ang bahala , ay mas higpit kaysa_sa kapatid nito sa_timog , bawal nila ang_mga Tsino letra mula_sa halos araw na kita at ang midya , at utos din ang gamit ng Hangul sa kanila lugar .
+Kahit ngayon halos wala na sa Vietnamese , ang iba mga sulat ng_mga Tsino letra ( Han Tu ) ay ganap na gamit upang sulat ang wika nuon , bagaman ang hán t? ay maging limita sa mga seremonyal na gamit na mula sa ika-19 siglo .
+tulad sa bansa Japan at Korea , Chinese ( lalo na ang klasiko Tsino ) ay gamit sa puno klase , at ang_mga letra na tibay na gamit ng sulat ng_mga Vietnamese .
+Upang hayag ang tubo salita ng_mga Vietnamese na kung saan ito ay may iba mga bigkas mula_sa mga Intsik , ang Vietnamese buo ang Ch? Nôm na alpabeto na kung saan gamit ng_mga iba mga daan upang kilala ang tubo Vietnamese na salita mula_sa Intsik .
+Ang Vietnamese ay salukoy eksklusibo sulat sa Vietnamese na alpabeto , halaw sa Latin na alpabeto .
+dalas ang letra ng ??isa hindi karaniwan gamit ( isa " bihira " o " iba " na letra ) ay litaw sa isa personal o ngalan ng lugar sa Chinese , Japanese , Koreano , at Vietnamese ( tingin ang Chinese na ngalan , ngalan ng Japanese , ngalan ng Korean , at Vietnamese na ngalan , ayon_sa sunod ) .
+Ito ay ugat ng_mga problema ng_mga sistema ng sulat sa dami mga computer sama lamang ang karaniwan mga letra at bukod ang mas limit na gamit na mga letra .
+Ito ay isa problema para_sa mga personal na mga ngalan na dalas na laman ng bihira o klasiko , luma na letra .
+Ang ilan tao na may ganito problema ay ang_mga pulitiko Taiwanese na sina Wang Chienshien ( pinyin Wáng Jiànxu?n ) at Yu Shyi-kun ( pinyin Yóu X?k?n ) , ex-PRC Premier Zhu Rongji ( Zh? Róngj? ) , ang awit na Taiwanese na si David Tao ( Táo Zhé ) .
+Ang_mga hayag ay sagot ang problema ito sa iba daan , kabilang ang gamit ng software upang sama ang dalawa iral na , katulad_ng mga letra , kabilang ang isa ladaw ng tao , o , lalo na bilang ay ang kaso sa Yu Shyi-Kun , kailangan lang palit ang isa homopon para_sa ang bihira letra ang asa ng basa ay gawa upang gawa ng tama huha .
+Ang_mga Hapon na hayag ay maaari bigay ng ??tulad_ng mga ngalan at mga salita sa katakana sa halip ng kanji , at ito ay tanggap ng sanay para_sa mga tao na sulat ng_mga ngalan na kung saan ang_mga ito ay sigurado ng tama kanji sa katakana .
+Mayroon din ilan mga lubha kumplikado sa halip na maging bihira .
+Ayon_kay Bellassen ( 1989 ) , ang kumplikado Tsino na letra ay ? ( U +2 A6A5 ) zhé ( litrato sa_baba , kaliwa ) , ibig sabi " ligoy " at bansag 64 guhit ; ang letra na ito ay sikat mula_sa gamit sa_ligid ng ika-5 siglo .
+Ito ay maaari talo , gayunpaman , habang ang bansag ang guhit , ito ay hindi lagi ang kumplikado karakter ( sa mga tunton ng hirap ) , bilang ito lamang ay kailangan ng sulat ang pareho labing-anim na guhit na letra ? lóng ( lit. " dragon " ) apat na puwang para_sa isa .
+Ang kumplikado letra na tagpo sa moderno Chinese na diksyonaryo ay ( U 9 F 49 ) Nang ( litrato sa_baba , dalawa mula_sa kaliwa ) , ang ibig sabi ng " singhot " ( iyon ay , isa bigkas sa_pamamagitan_ng isa bara na ilong ) , na may 36 na guhit .
+Ang kumplikado karakter na lagay gamit ang Microsoft Newphonetic IMA 2002a para_sa Tradisyon na Tsino ay ? Da " ang hitsura ng isa dragon sa lipad " ; ito ay buo ng_mga radikal ang dragon katawan ng tatlo beses , para_sa isa buo 16 × 3 = 48 .

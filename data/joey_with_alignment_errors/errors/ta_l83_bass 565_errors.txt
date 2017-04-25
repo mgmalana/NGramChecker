@@ -1,0 +1,4 @@
+ta_l83_bass 565_lemmas.txt   Line: 15 | Lengths : 11,11,10
+                Pero                 ano                 ang                siya                   ?                 Ano                 ang               gusto                  ng                 tao                   ?
+                 CCT                 PRQ                 DTC                 NNC                 PMQ                 PRQ                 DTC                 VBS                 CCB                 NNC                 PMQ
+                Pero              anoang           kasiyahan                   ?                 Ano                 ang               gusto                  ng                 tao                   ?

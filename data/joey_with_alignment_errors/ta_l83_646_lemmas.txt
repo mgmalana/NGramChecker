@@ -1,0 +1,25 @@
+Ang aga kilala gamit ng “ equal sign ” ay tagpo sa The Whetstone_of_Witte ( 1557 ) ni Robert Recorde .
+Ang_mga tanda + para_sa adisyon , - para_sa subtraksyon , at ang gamit ng titik para_sa hindi kilala valyu ay nasa Arithemeica Integra ( 1544 ) ni Michael Steifel .
+kilala ni Rene Descartes sa La Geometrie ( 1637 ) ang konsepto ng guhit ng ekwasyon polinomyal .
+sikat niya ang gamit ng_mga titik mula_sa mula ng alpabeto upang hulog ng_mga constants at mga titik mula_sa dulo ng alpabeto upang hulog ng_mga variable , gaya_ng kita sa_taas , sa lahat pormula para_sa isa polinomyal sa isa variable , kung saan ang_mga a ay hulog constant at ang x ang hulog variable .
+kilala ni Descartes ang gamit ng superscripts na hulog exponent rin .
+tugma ang bawat polinomyal sa polinomyal function , kung saan ang f(x) ay takda tumbas sa polinomyal at sa polinomyal function , kung saan ang polinomyal ay takda tumbas sa zero .
+Ang_mga solusyon sa ekwasyon ay tawag na “ roots_of_the_polynomial ” at sila ang_mga zero ng function at x-intercept sa talangguhit .
+Kung ang x = a ay ang solusyon sa ekwasyon , ang ( x - a ) ay maging factor ng polinomyal .
+Ang ilan mga polinomyal , tulad_ng f ( x ) = x2 + 1 , ay wala anuman mga root sa lahat ng real number .
+Subalit , kung ang pangkat ng_mga payag mga kandidato ay lawak mga numero turing complex , ang bawat ( non-constant ) na polinomyal ay may isa o mas dami tangi root ; sunod ito mula_sa una teorema ng algebra .
+Meron iba sa_pagitan_ng aproksima sa roots at hanap ng eksakto root .
+Ang_mga pormula para_sa mga roots ng polinomyals hanggang sa antas ng 2 ay kilala mula pa noon una beses ( tingin ang ekwasyon na parisukat ) at hanggang sa antas ng 4 mula noon ika-16 siglo ( tingin ang Gerolamo Cardano , Niccolo Fontana Tartaglia ) .
+Ngunit ang_mga pormula para_sa antas ng 5 ay iwas ng_mga saliksik .
+Noon 1824 , tunay ni Niels Henrik Abel ang pansin na resulta na hindi kailangan ng lahat pormula ( sangkot lamang ang aritmetika na opera at Radicals ) para_sa roots ng isa polinomyal na degree ang 5 o higit pa sa mga tunton ng kanya mga coefficients ( tingin ang teorema Abel-Ruffini ) .
+Ang resulta na ito ay marka ng umpisa ng teorya Galois na isa detalyado aral ng_mga relasyon ng_mga roots ng_mga polinomyal .
+taya mga solusyon sa anuman ekwasyon polinomyal ay tagpo sa_pamamagitan_ng alinman daan Newton o sa_pamamagitan_ng isa sa dami moderno daan ng aproksima solusyon .
+Sa polinomyal na nasa anyo Chebyshev , maari gamit ang Clenshaw algorithim .
+Bilang isa praktikal na bagay , ang isa taya solusyon na tumpak ay maaari maging kasing kinabang bilang isa eksakto solusyon .
+Ang iba sa engine ng Charles Babbage ay disenyo upang awtomatiko likha ng laki mga hanay ng taya halaga ng_mga logarithms at trigonometriko function , sa_pamamagitan_ng suri ng_mga aproksima polinomyal sa dami punto gamit ang daan Newton .
+Ang numerical na lutas ng ekwasyon polinomyal sa hindi kilala valyu ay dali gawa sa komputer sa_pamamagitan_ng daan Durand-Kerner o sa_pamamagitan_ng iba root-finding algorithm .
+Ang bawas ng_mga ekwasyon sa ilan mga hindi kilala valyu ay talakay sa artikulo sa “ Burchberger’s algorithm ” .
+Ang espesyal na kaso kung saan ang lahat ng polinomyal ng antas isa ay tawag na sistema ng linear equation , na kung saan ang isa hanay ng_mga iba daan ng solusyon na iral , bilang ang klasiko Gaussian elimination .
+kita ni Richard Birkeland at Karl Meyr na ang_mga root ng kahit ano polinomyal ay maari hayag sa tunton ng multivariate hypergeometric functions .
+kita ni Ferdinand_von_Lindemann at Hiroshi Umemura na ang_mga roots ay maari rin hayag sa tuninin ng Siegel modular functions , mga heneralisasyon ng theta functions na labas sa teorya ng elliptic functions .
+Ang_mga ladaw ng_mga roots ng aribitraryo polinomyal ay mga heneralisasyon ng_mga daan daan tuklas sagot sa ekwasyon quintic .

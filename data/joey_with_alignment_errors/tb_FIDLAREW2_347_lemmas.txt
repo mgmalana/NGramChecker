@@ -1,0 +1,25 @@
+Ang libro na ngalan kaugnay_sa Lithuanian-American na negosyante ng libro na si Wilfrid M. Voynich , na kuha ito noon 1912 .
+Noon 2005 , ang manuskrito ni Voynich ay bagay MS 408 sa Beinecke bihira libro at aklat ng manuskrito ng Yale University .
+Ang una sipi na labas ay lathala noon 2005 .
+Sa_pamamagitan_ng salukoy tantiya , ang libro ay may orihinal na 272 pahina sa 17 quires ng 16 pahina bawat isa .
+Halos 240 vellum na pahina ang tili ngayon , at ang_mga puwang sa mga numero ng pahina ( kung saan tila tapos ng teksto ) pahiwatig na ilan sa mga pahina ay wala na bago pa ito kuha ni Voynich .
+Isa pakpak na sulat ang gamit para_sa mga teksto at pigura balangkas , at pintura may kulay ay gamit ( medyo gaspang ) sa mga pigura , posible laon petsa .
+Mayroon tibay na ebidensiya na sa isa punto sa dali panahon ang_mga pahina ng libro ay bago ang ayos .
+Ang teksto ay linaw na sulat mula sa_kaliwa punta_sa kanan , na may bahagya sira sa_kanan palabis .
+haba mga seksyon ay hati sa mga talata , minsan may “ bullets ” sa kaliwa palabis .
+Wala halata bantas .
+Ang ( bilis , alaga , at daloy ng_mga letra ay sulat ) daloy ay ayos , kita na ang sulat ay intindi kung ano ang kanya sulat nang ito ay sulat ; ang manuskrito ay hindi bigay ng impresyon na ang bawat tangi ay kailangan kalkula bago ito lagay sa pahina .
+Ang teksto ay buo ng higit 170,000 tago simbolo , dalas hiwalay sa isa sa_pamamagitan_ng nipis na puwang .
+dami ng_mga simbolo ay sulat gamit ang isa o dalawa simple guhit .
+Habang meron ilan talo kung ang tiyak na simbolo ay iba o hindi , isa alpabeto na meron 20 - 30 simbolo ang ulat para_sa tunay nang lahat ng teksto ; ang taliwas ay ang_mga ilang dosena mas bihira tangi na yari isa o dalawa beses bawa’t isa .
+Mas lawak na puwang ang hati sa teksto sa halos 35,000 na “ salita ” na may iba haba .
+Parang sunod nito ang ponetika o ortograpik na batas ng ilan mga uri ; e.g. tiyak na mga tangi ay dapat kita sa bawat salita ( parang tinig sa Ingles ) , ang iba tangi ay hindi sunod sa iba , ang iba ay doble pero ang iba ay pwede hindi .
+Sa estatistiko suri ng teksto ay kita ng huwad gaya_ng karaniwan wika .
+Halimbawa , ang salita frequencies ay sunod sa batas ni Zipf , at ang salita entropy ( halos 10 bits kada segundo ) ay pareho sa Ingles o Latin na teksto .
+Ilan salita ay yari lamang sa tiyak na mga seksyon , o sa ilan pahina ; ang iba ay yari sa buo manuskrito .
+Meron konti ulit sa libo o sa “ labels ” na kabit sa mga ladaw .
+Sa erbal na seksyon , ang una salita sa bawat pahina ang yari sa pahina iyon lamang , at maari maging ngalan ng halaman .
+Sa_kabila_dako , ang “ language ” ng manuskrito ni Voyinch ay lubos na hindi gaya_ng European language sa ilan aspekto .
+Una , totoo wala salita ang buo ng 10 simbolo , subalit meron ilan isa o dalawa letra salita .
+Ang bahagi ng letra sa_loob_ng salita ay parang iba rin : ilan tangi ay yari sa mula ng salita , ilan ay sa huli , at ang ilan ay lagi nasa_gitna bahagi - ang ayos ay kita sa wika ng Semitic , ngunit hindi sa Latin , Greek , o Cyrillic na alpabeto .
+Gayunman , meron iba paraang sa sulat ng pareho letra sa wika ng European :

@@ -1,0 +1,25 @@
+Ang libro na ipinangalan kaugnay_sa Lithuanian-American na negosyante ng libro na si Wilfrid M. Voynich , na nakuha ito noong 1912 .
+Noong 2005 , ang manuskrito ni Voynich ay bagay MS 408 sa Beinecke bihirang libro at aklatan ng manuskrito ng Yale University .
+Ang unang sipi na labas ay nailathala noong 2005 .
+Sa_pamamagitan_ng kasalukuyang pagtatantiya , ang libro ay may orihinal na 272 pahina sa 17 quires ng 16 pahina bawat isa .
+Halos 240 vellum na pahina ang nananatili ngayon , at ang_mga puwang sa mga numero ng pahina ( kung saan tila pagkatapos ng teksto ) ipinapahiwatig na ilan sa mga pahina ay nawawala na bago pa ito makuha ni Voynich .
+Isang pakpak na panulat ang ginamit para_sa mga teksto at pigurang balangkas , at pinturang may kulay ay ginamit ( medyo magaspang ) sa mga pigura , posibleng kinalaunang petsa .
+Mayroong matibay na ebidensiya na sa isang punto sa madaling panahon ang_mga pahina ng libro ay binago ang ayos .
+Ang teksto ay malinaw na isinulat simula sa_kaliwa papunta_sa kanan , na may bahagyang sira sa_kanang palabis .
+Mahabang mga seksyon ay hinati sa mga talata , minsan may “ bullets ” sa kaliwang palabis .
+Walang halatang bantas .
+Ang ( bilis , alaga , at padaloy ng_mga letra ay isinulat ) daloy ay maayos , nagpapakita na ang tagasulat ay naintindihan kung ano ang kanyang isinusulat nang ito ay naisulat ; ang manuskrito ay hindi nagbibigay ng impresyon na ang bawat katangian ay kailangang kinakalkula bago ito mailagay sa pahina .
+Ang teksto ay binubuo ng mahigit 170,000 patagong simbolo , kadalasang nakahiwalay sa isa’t_isa sa_pamamagitan_ng manipis na puwang .
+Karamihan ng_mga simbolo ay nakasulat gamit ang isa o dalawang simpleng guhit .
+Habang merong ilang pagtatalo kung ang tiyak na simbolo ay magkaiba o hindi , isang alpabeto na merong 20 - 30 simbolo ang mag-ulat para_sa katunayan nang lahat ng teksto ; ang kataliwasan ay ang_mga ilang dosenang mas bihirang katangian na nangyayari isa o dalawang beses bawa’t isa .
+Mas malawak na puwang ang humahati sa teksto sa halos 35,000 na “ salita ” na may iba-ibang haba .
+Parang sinusunod nito ang ponetika o ortograpik na batas ng ilang mga uri ; e.g. tiyak na mga katangian ay dapat makita sa bawat salita ( parang patinig sa Ingles ) , ang ibang katangian ay hindi sumusunod sa iba , ang iba ay dinodoble pero ang iba ay pwedeng hindi .
+Sa estatistikong pagsusuri ng teksto ay nagpapakita ng huwaran kagaya_ng karaniwang wika .
+Halimbawa , ang salitang frequencies ay sumusunod sa batas ni Zipf , at ang salitang entropy ( halos 10 bits kada segundo ) ay kapareho sa Ingles o Latin na teksto .
+Ilang salita ay nangyayari lamang sa tiyak na mga seksyon , o sa ilang pahina ; ang iba ay nangyayari sa buong manuskrito .
+Merong konting pag-uulit sa libo o sa “ labels ” na nakakabit sa mga larawan .
+Sa erbal na seksyon , ang unang salita sa bawat pahina ang nangyayari sa pahinang iyon lamang , at maaring maging pangalan ng halaman .
+Sa_kabilang_dako , ang “ language ” ng manuskrito ni Voyinch ay lubos na hindi kagaya_ng European language sa ilang aspekto .
+Una , totoong walang salita ang binubuo ng 10 simbolo , subalit merong ilang isa o dalawang letrang salita .
+Ang pamamahagi ng letra sa_loob_ng salita ay parang kakaiba rin : ilang katangian ay nangyayari sa simula ng salita , ilan ay sa huli , at ang ilan ay laging nasa_gitnang bahagi - ang pagkakaayos ay nakita sa wika ng Semitic , ngunit hindi sa Latin , Greek , o Cyrillic na alpabeto .
+Gayunman , merong iba’t_ibang paraang sa pagsusulat ng parehong letra sa wika ng European :
