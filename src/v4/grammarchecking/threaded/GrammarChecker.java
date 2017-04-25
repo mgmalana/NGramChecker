@@ -16,6 +16,8 @@ import v4.models.SuggestionToken;
 import v4.models.SuggestionType;
 import v4.pos.POSTagger;
 
+import Stemmer.Stemmer;
+
 public class GrammarChecker {
 
 	static TestErrorsProvider testErrorsProvider = new TestErrorsProvider();
@@ -26,19 +28,20 @@ public class GrammarChecker {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
-		Input testError = testErrorsProvider.getTestErrors().get(0);
-		checkGrammar(testError);
-
+//		Input testError = testErrorsProvider.getTestErrors().get(0);
+//		List<Suggestion> suggestions = checkGrammar(testError);
+		List<Suggestion> suggestions = checkGrammar("sabi nang pulis na");
+		System.out.println(suggestions);
 	}
 
-//	 public static List<Suggestion> checkGrammar(String words) {
-//	 String pos = getPOS(words);
-//	POSTagger postagger = new  POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger");
-//	List<String> pos = new POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger").tagSentence("ako ay tao.").getTags();
-//	 String lemmas = getLemmas(words);
-//
-//	 return checkGrammar(new Input(words, pos, lemmas));
-//	 }
+	 public static List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
+		POSTagger postagger = new  POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger");
+		Stemmer stemmer = new Stemmer();
+		List<String> poslist = postagger.tagSentence(words).getTags();
+		String pos = String.join(" ", poslist);
+		String lemmas = stemmer.lemmatizeSentence(words);
+		return checkGrammar(words, lemmas, pos);
+	 }
 
 	public static List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
 		return checkGrammar(new Input(words, pos, lemmas));

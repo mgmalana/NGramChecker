@@ -1,365 +1,272 @@
-Full: kikumpara ang babae 
-? DTC NNC
-kumpara ang babae 3
+Full: sabi nang pulis na 
+VBS RBW NNC CCP
+sabi nang pulis na 4
 N-gram = 5
 N-gram = 4
+...............................
+
+...............................
+
 N-gram = 3
 ...............................
 
-Orig N-gram:kikumpara ang babae
-ED: 0.6 Freq: 1
-TReplace VBTR(Kinukumpara) in kikumpara.  Edit Distance:0.6
-Sugg: VBTR ang babae
-Orig N-gram:kikumpara ang babae
+...............................
+
+...............................
+
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 46
+TReplace DTC(ang) in nang.  Edit Distance:0.65
+Sugg: DTC pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 5
+Replace Ang in nang.  Edit Distance: 0.65
+Sugg: Ang pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 4
+Replace pang in nang.  Edit Distance: 0.65
+Sugg: pang pulis na
+Orig N-gram:nang pulis na
+ED: 0.65 Freq: 1
+TReplace JJN_CCP(unang) in nang.  Edit Distance:0.65
+Sugg: JJN_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 77
+TReplace DTCP(ang_mga) in nang.  Edit Distance:1.0
+Sugg: DTCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 70
-TReplace NNC(gobiyerno) in kikumpara.  Edit Distance:1.0
-Sugg: NNC ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 42
-Replace , in kikumpara.  Edit Distance: 1.0
-Sugg: , ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 35
-TReplace VBW(matuloy) in kikumpara.  Edit Distance:1.0
-Sugg: VBW ang babae
-Orig N-gram:kikumpara ang babae
+Replace ng in nang.  Edit Distance: 1.0
+Sugg: ng pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 52
+Replace na in nang.  Edit Distance: 1.0
+Sugg: na pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 44
+TReplace JJD_CCP(pambansang) in nang.  Edit Distance:1.0
+Sugg: JJD_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 34
-TReplace VBTR(ginagawa) in kikumpara.  Edit Distance:1.0
-Sugg: VBTR ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 31
-TReplace CCA(at) in kikumpara.  Edit Distance:1.0
-Sugg: CCA ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 26
-TReplace VBOF(ginanap) in kikumpara.  Edit Distance:1.0
-Sugg: VBOF ang babae
-Orig N-gram:kikumpara ang babae
+TReplace CCT(sa) in nang.  Edit Distance:1.0
+Sugg: CCT pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 24
-TReplace JJD(pantay-pantay) in kikumpara.  Edit Distance:1.0
-Sugg: JJD ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 24
-Replace na in kikumpara.  Edit Distance: 1.0
-Sugg: na ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 19
-TReplace NNP(Tanganyika) in kikumpara.  Edit Distance:1.0
-Sugg: NNP ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 19
-TReplace VBTS(nagtalaga) in kikumpara.  Edit Distance:1.0
-Sugg: VBTS ang babae
-Orig N-gram:kikumpara ang babae
+TReplace PRI_CCP(isang) in nang.  Edit Distance:1.0
+Sugg: PRI_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 15
-TReplace PMS()) in kikumpara.  Edit Distance:1.0
-Sugg: PMS ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-TReplace RBI(din) in kikumpara.  Edit Distance:1.0
-Sugg: RBI ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-TReplace VBAF(bumaba) in kikumpara.  Edit Distance:1.0
-Sugg: VBAF ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-TReplace FW(dioxide) in kikumpara.  Edit Distance:1.0
-Sugg: FW ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 10
-TReplace CCR(Kung) in kikumpara.  Edit Distance:1.0
-Sugg: CCR ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 9
-TReplace CCT(Kabilang) in kikumpara.  Edit Distance:1.0
-Sugg: CCT ang babae
-Orig N-gram:kikumpara ang babae
+Replace may in nang.  Edit Distance: 1.0
+Sugg: may pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 8
+TReplace NNC_CCP(pagkakaibang) in nang.  Edit Distance:1.0
+Sugg: NNC_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 7
-TReplace RBW(Minsan) in kikumpara.  Edit Distance:1.0
-Sugg: RBW ang babae
-Orig N-gram:kikumpara ang babae
+Replace , in nang.  Edit Distance: 1.0
+Sugg: , pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 6
-Replace ay in kikumpara.  Edit Distance: 1.0
-Sugg: ay ang babae
-Orig N-gram:kikumpara ang babae
+Replace at in nang.  Edit Distance: 1.0
+Sugg: at pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 5
-TReplace PRO(nito) in kikumpara.  Edit Distance:1.0
-Sugg: PRO ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 5
-TReplace NNPA(DARPA) in kikumpara.  Edit Distance:1.0
-Sugg: NNPA ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-TReplace VBTF(matatagpuan) in kikumpara.  Edit Distance:1.0
-Sugg: VBTF ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-TReplace CDB(38,329,000) in kikumpara.  Edit Distance:1.0
-Sugg: CDB ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-TReplace RBD(malaki) in kikumpara.  Edit Distance:1.0
-Sugg: RBD ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-TReplace RBQ(saan) in kikumpara.  Edit Distance:1.0
-Sugg: RBQ ang babae
-Orig N-gram:kikumpara ang babae
+TReplace RBR(patungkol_sa) in nang.  Edit Distance:1.0
+Sugg: RBR pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 3
-TReplace RBL(sa_distrito) in kikumpara.  Edit Distance:1.0
-Sugg: RBL ang babae
-Orig N-gram:kikumpara ang babae
+TReplace JJN_CCP(limang) in nang.  Edit Distance:1.0
+Sugg: JJN_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 3
-TReplace CCB(Datapwat) in kikumpara.  Edit Distance:1.0
-Sugg: CCB ang babae
-Orig N-gram:kikumpara ang babae
+Replace walang in nang.  Edit Distance: 1.0
+Sugg: walang pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 3
-TReplace VBRF(pinagsanib) in kikumpara.  Edit Distance:1.0
-Sugg: VBRF ang babae
-Orig N-gram:kikumpara ang babae
+TReplace PRQ_CCP(ilang) in nang.  Edit Distance:1.0
+Sugg: PRQ_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace RBL(nasa) in nang.  Edit Distance:1.0
+Sugg: RBL pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace PRSP_CCP(kanyang) in nang.  Edit Distance:1.0
+Sugg: PRSP_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace CDB(790,000) in nang.  Edit Distance:1.0
+Sugg: CDB pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 3
+TReplace JJCS_JJD_CCP(pinakakaraniwang) in nang.  Edit Distance:1.0
+Sugg: JJCS_JJD_CCP pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 2
-Replace iba in kikumpara.  Edit Distance: 1.0
-Sugg: iba ang babae
-Orig N-gram:kikumpara ang babae
+Replace Walang in nang.  Edit Distance: 1.0
+Sugg: Walang pulis na
+Orig N-gram:nang pulis na
 ED: 1.0 Freq: 2
-TReplace RBT(posible) in kikumpara.  Edit Distance:1.0
-Sugg: RBT ang babae
+TReplace PRO_CCP(itong) in nang.  Edit Distance:1.0
+Sugg: PRO_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace FW(fibrin) in nang.  Edit Distance:1.0
+Sugg: FW pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace JJD(hugis) in nang.  Edit Distance:1.0
+Sugg: JJD pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace VBTR(nagaganap) in pulis.  Edit Distance:1.0
+Sugg: nang VBTR na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+Replace Griyegong in nang.  Edit Distance: 1.0
+Sugg: Griyegong pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 2
+TReplace VBTR_CCP(nabubuong) in nang.  Edit Distance:1.0
+Sugg: VBTR_CCP pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+TReplace DTC(pangalan) in nang.  Edit Distance:1.0
+Sugg: DTC pulis na
+Orig N-gram:nang pulis na
+ED: 1.0 Freq: 1
+Replace tinapos in pulis.  Edit Distance: 1.0
+Sugg: nang tinapos na
 ...............................
 
 N-gram = 2
 ...............................
 
-Orig N-gram:kikumpara ang
-ED: 0.6 Freq: 1
-TReplace VBTR(Kinukumpara) in kikumpara.  Edit Distance:0.6
-Sugg: VBTR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 213
-TReplace NNC(president) in kikumpara.  Edit Distance:1.0
-Sugg: NNC ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 121
-Replace , in kikumpara.  Edit Distance: 1.0
-Sugg: , ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 80
-TReplace VBTR(hinihikayat) in kikumpara.  Edit Distance:1.0
-Sugg: VBTR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 76
-TReplace NNP(Copeland) in kikumpara.  Edit Distance:1.0
-Sugg: NNP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 73
-TReplace CCA(at) in kikumpara.  Edit Distance:1.0
-Sugg: CCA ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 67
-TReplace VBOF(ginanap) in kikumpara.  Edit Distance:1.0
-Sugg: VBOF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 56
-TReplace VBW(maisaproseso) in kikumpara.  Edit Distance:1.0
-Sugg: VBW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 53
-Replace na in kikumpara.  Edit Distance: 1.0
-Sugg: na ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 53
-TReplace VBTS(natapos) in kikumpara.  Edit Distance:1.0
-Sugg: VBTS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 51
-TReplace RBI(lang) in kikumpara.  Edit Distance:1.0
-Sugg: RBI ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 51
-TReplace FW(eclipse) in kikumpara.  Edit Distance:1.0
-Sugg: FW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 50
-TReplace JJD(magiliw) in kikumpara.  Edit Distance:1.0
-Sugg: JJD ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 38
-TReplace PMS(”) in kikumpara.  Edit Distance:1.0
-Sugg: PMS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 28
-TReplace CCT(ngunit) in kikumpara.  Edit Distance:1.0
-Sugg: CCT ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 24
-TReplace RBW(bago) in kikumpara.  Edit Distance:1.0
-Sugg: RBW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 22
-TReplace VBAF(lumunsad) in kikumpara.  Edit Distance:1.0
-Sugg: VBAF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 19
-TReplace CCR(Kapag) in kikumpara.  Edit Distance:1.0
-Sugg: CCR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 17
-TReplace CCB(Bagamat) in kikumpara.  Edit Distance:1.0
-Sugg: CCB ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 17
-TReplace RBQ(saan) in kikumpara.  Edit Distance:1.0
-Sugg: RBQ ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 16
-TReplace PRO(nito) in kikumpara.  Edit Distance:1.0
-Sugg: PRO ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 16
-Replace ay in kikumpara.  Edit Distance: 1.0
-Sugg: ay ang
-Orig N-gram:kikumpara ang
+Orig N-gram:sabi nang
+ED: 0.65 Freq: 2
+Replace ang in nang.  Edit Distance: 0.65
+Sugg: sabi ang
+Orig N-gram:sabi nang
+ED: 0.8 Freq: 1
+Replace Maaari in sabi.  Edit Distance: 0.8
+Sugg: Maaari nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 36
+TReplace NNC(epekto) in sabi.  Edit Distance:1.0
+Sugg: NNC nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 31
+TReplace CCT(sa) in sabi.  Edit Distance:1.0
+Sugg: CCT nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 27
+Replace , in sabi.  Edit Distance: 1.0
+Sugg: , nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 15
+TReplace NNP(Africa) in sabi.  Edit Distance:1.0
+Sugg: NNP nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 14
-TReplace VBTF(kikilalanin) in kikumpara.  Edit Distance:1.0
-Sugg: VBTF ang
-Orig N-gram:kikumpara ang
+TReplace CDB(1880) in sabi.  Edit Distance:1.0
+Sugg: CDB nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 13
+TReplace PMS(”) in sabi.  Edit Distance:1.0
+Sugg: PMS nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 11
-TReplace CDB(5,000) in kikumpara.  Edit Distance:1.0
-Sugg: CDB ang
-Orig N-gram:kikumpara ang
+TReplace VBOF(sabihin) in nang.  Edit Distance:1.0
+Sugg: sabi VBOF
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 11
-TReplace NNPA(GNU) in kikumpara.  Edit Distance:1.0
-Sugg: NNPA ang
-Orig N-gram:kikumpara ang
+Replace na in sabi.  Edit Distance: 1.0
+Sugg: na nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 8
-TReplace RBD(magkakasama) in kikumpara.  Edit Distance:1.0
-Sugg: RBD ang
-Orig N-gram:kikumpara ang
+TReplace RBI(rin) in sabi.  Edit Distance:1.0
+Sugg: RBI nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 7
-TReplace VBRF(Pinagsama) in kikumpara.  Edit Distance:1.0
-Sugg: VBRF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 7
-Replace ; in kikumpara.  Edit Distance: 1.0
-Sugg: ; ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 6
-TReplace RBL(sa_gitna) in kikumpara.  Edit Distance:1.0
-Sugg: RBL ang
-Orig N-gram:kikumpara ang
+TReplace VBTR(natitibag) in sabi.  Edit Distance:1.0
+Sugg: VBTR nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 5
-TReplace PRI(iba) in kikumpara.  Edit Distance:1.0
-Sugg: PRI ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 5
-TReplace PRS(siya) in kikumpara.  Edit Distance:1.0
-Sugg: PRS ang
-Orig N-gram:kikumpara ang
+TReplace VBW(maintindihan) in sabi.  Edit Distance:1.0
+Sugg: VBW nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 4
-TReplace RBT(posible) in kikumpara.  Edit Distance:1.0
-Sugg: RBT ang
-Orig N-gram:kikumpara ang
+TReplace PRO(ito) in sabi.  Edit Distance:1.0
+Sugg: PRO nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 4
-TReplace RBL_NNP(Sa_Poland) in kikumpara.  Edit Distance:1.0
-Sugg: RBL_NNP ang
-Orig N-gram:kikumpara ang
+TReplace RBW(Hanggang) in sabi.  Edit Distance:1.0
+Sugg: RBW nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 4
-TReplace PRP(nila) in kikumpara.  Edit Distance:1.0
-Sugg: PRP ang
-Orig N-gram:kikumpara ang
+Replace at in sabi.  Edit Distance: 1.0
+Sugg: at nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 3
-TReplace PRL(rito) in kikumpara.  Edit Distance:1.0
-Sugg: PRL ang
-Orig N-gram:kikumpara ang
+Replace ng in sabi.  Edit Distance: 1.0
+Sugg: ng nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 3
-Replace mayroon in kikumpara.  Edit Distance: 1.0
-Sugg: mayroon ang
-Orig N-gram:kikumpara ang
+TReplace RBF(wala) in sabi.  Edit Distance:1.0
+Sugg: RBF nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 3
-Replace wala in kikumpara.  Edit Distance: 1.0
-Sugg: wala ang
-Orig N-gram:kikumpara ang
+TReplace PRP_CCP(silang) in nang.  Edit Distance:1.0
+Sugg: sabi PRP_CCP
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 3
+Replace noong in sabi.  Edit Distance: 1.0
+Sugg: noong nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 3
+Replace Matagal in sabi.  Edit Distance: 1.0
+Sugg: Matagal nang
+Orig N-gram:sabi nang
+ED: 1.0 Freq: 3
+TReplace FW(nations) in sabi.  Edit Distance:1.0
+Sugg: FW nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 2
-TReplace VBS(alam) in kikumpara.  Edit Distance:1.0
-Sugg: VBS ang
-Orig N-gram:kikumpara ang
+TReplace VBTS(Natuklasan) in sabi.  Edit Distance:1.0
+Sugg: VBTS nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 2
-TReplace VB_TR_AF(Dumadaan) in kikumpara.  Edit Distance:1.0
-Sugg: VB_TR_AF ang
-Orig N-gram:kikumpara ang
+TReplace PRP(sila) in sabi.  Edit Distance:1.0
+Sugg: PRP nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 2
-TReplace NNCA(km) in kikumpara.  Edit Distance:1.0
-Sugg: NNCA ang
-Orig N-gram:kikumpara ang
+TReplace VBAF(bumaba) in sabi.  Edit Distance:1.0
+Sugg: VBAF nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 2
-TReplace VBTR_CCP(sinasabing) in kikumpara.  Edit Distance:1.0
-Sugg: VBTR_CCP ang
-Orig N-gram:kikumpara ang
+Replace itong in nang.  Edit Distance: 1.0
+Sugg: sabi itong
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 2
-Replace samantalang in kikumpara.  Edit Distance: 1.0
-Sugg: samantalang ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-TReplace VBTS_CCP(nadiskubreng) in kikumpara.  Edit Distance:1.0
-Sugg: VBTS_CCP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-TReplace VB_TR_RF(pinagsasama) in kikumpara.  Edit Distance:1.0
-Sugg: VB_TR_RF ang
-Orig N-gram:kikumpara ang
+TReplace JJD(mababa) in sabi.  Edit Distance:1.0
+Sugg: JJD nang
+Orig N-gram:sabi nang
 ED: 1.0 Freq: 1
-Replace Gayong in kikumpara.  Edit Distance: 1.0
-Sugg: Gayong ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace tatlo in kikumpara.  Edit Distance: 1.0
-Sugg: tatlo ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace Maaaring in kikumpara.  Edit Distance: 1.0
-Sugg: Maaaring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace nang_buo in kikumpara.  Edit Distance: 1.0
-Sugg: nang_buo ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace di-direkta in kikumpara.  Edit Distance: 1.0
-Sugg: di-direkta ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace ring in kikumpara.  Edit Distance: 1.0
-Sugg: ring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace maaaring in kikumpara.  Edit Distance: 1.0
-Sugg: maaaring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace napakalaki in kikumpara.  Edit Distance: 1.0
-Sugg: napakalaki ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace Kapaki-pakinabang in kikumpara.  Edit Distance: 1.0
-Sugg: Kapaki-pakinabang ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace dayandang in kikumpara.  Edit Distance: 1.0
-Sugg: dayandang ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace kanila in kikumpara.  Edit Distance: 1.0
-Sugg: kanila ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace nagsimula in kikumpara.  Edit Distance: 1.0
-Sugg: nagsimula ang
+Replace gayon in sabi.  Edit Distance: 1.0
+Sugg: gayon nang
 ...............................
 
 ...............................
 
-Orig N-gram:ang babae
+Orig N-gram:nang pulis
+ED: 0.0 Freq: 0
+N-gram is correct
+...............................
+
+...............................
+
+Orig N-gram:pulis na
 ED: 0.0 Freq: 0
 N-gram is correct
 ...............................
