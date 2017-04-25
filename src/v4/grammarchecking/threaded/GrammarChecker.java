@@ -16,7 +16,7 @@ import v4.models.SuggestionToken;
 import v4.models.SuggestionType;
 import v4.pos.POSTagger;
 
-import Stemmer.Stemmer;
+import morphinas.Stemmer.Stemmer;
 
 public class GrammarChecker {
 
@@ -30,7 +30,7 @@ public class GrammarChecker {
 		// 5 - not
 //		Input testError = testErrorsProvider.getTestErrors().get(0);
 //		List<Suggestion> suggestions = checkGrammar(testError);
-		List<Suggestion> suggestions = checkGrammar("sabi nang pulis na");
+		List<Suggestion> suggestions = checkGrammar("Ako ay nag punta sa banko .");
 		System.out.println(suggestions);
 	}
 
