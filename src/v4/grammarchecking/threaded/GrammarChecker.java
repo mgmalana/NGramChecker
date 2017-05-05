@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import spellchecker.spellCheck.SpellChecker;
 import util.ArrayToStringConverter;
 import util.Constants;
 import util.FileManager;
@@ -24,23 +25,45 @@ public class GrammarChecker {
 	static SubstitutionService subService;
 	static InsertionAndUnmergingService insAndUnmService;
 	static DeletionAndMergingService delAndMerService;
+	private static String[] delimiters = { ".", ",", "!", "?"};
+	private static boolean isVerbose = true;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
 //		Input testError = testErrorsProvider.getTestErrors().get(0);
 //		List<Suggestion> suggestions = checkGrammar(testError);
-		List<Suggestion> suggestions = checkGrammar("Ako ay nag punta sa banko .");
-		System.out.println(suggestions);
+		List<Suggestion> suggestions = checkGrammar("Ako ay nag punta sa banko.");
 	}
 
 	 public static List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
 		POSTagger postagger = new  POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger");
 		Stemmer stemmer = new Stemmer();
-		List<String> poslist = postagger.tagSentence(words).getTags();
-		String pos = String.join(" ", poslist);
-		String lemmas = stemmer.lemmatizeSentence(words);
+		SpellChecker spellChecker = new SpellChecker();
+
+		words = transformDelimiters(words);
+
+		String[] wordList = words.split(" ");
+		List<String> posList = postagger.tagSentence(words).getTags();
+		String[] lemmasList = stemmer.lemmatizeMultiple(wordList);
+
+		 for(int i = 0; i < wordList.length; i++){
+			if(!spellChecker.isWordValid(wordList[i])){
+				lemmasList[i] = "?";
+				posList.set(i, "?");
+			}
+		 }
+
+		 String pos = String.join(" ", posList);
+		 String lemmas = String.join(" ", lemmasList);
+
 		return checkGrammar(words, lemmas, pos);
+	 }
+
+	 private static String transformDelimiters(String words){
+		 for (String mark : delimiters)
+			 words = words.replace(mark, " " + mark);
+		return words;
 	 }
 
 	public static List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
@@ -50,11 +73,13 @@ public class GrammarChecker {
 	private static List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
 		fm.createFile();
-		System.out.println("Writing Suggestions to Files");
+		if(isVerbose){
+			System.out.println("Writing Suggestions to Files");
 
-		System.out.println("Full: " + ArrayToStringConverter.convert(testError.getWords()) + " \n"
-				+ ArrayToStringConverter.convert(testError.getPos()) + "\n"
-				+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
+			System.out.println("Full: " + ArrayToStringConverter.convert(testError.getWords()) + " \n"
+					+ ArrayToStringConverter.convert(testError.getPos()) + "\n"
+					+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
+		}
 		fm.writeToFile("Full: " + ArrayToStringConverter.convert(testError.getWords()) + " \n"
 				+ ArrayToStringConverter.convert(testError.getPos()) + "\n"
 				+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
@@ -64,7 +89,9 @@ public class GrammarChecker {
 		List<Suggestion> allSuggestions = new ArrayList<>();
 
 		for (int ngramSize = Constants.NGRAM_SIZE_UPPER; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
-			System.out.println("N-gram = " + ngramSize);
+			if(isVerbose) {
+				System.out.println("N-gram = " + ngramSize);
+			}
 			fm.writeToFile("N-gram = " + ngramSize);
 
 			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
@@ -188,8 +215,10 @@ public class GrammarChecker {
 		fm.close();
 
 		long endTime = System.currentTimeMillis();
-		System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 
+		if(isVerbose) {
+			System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
+		}
 		return allSuggestions;
 
 	}
