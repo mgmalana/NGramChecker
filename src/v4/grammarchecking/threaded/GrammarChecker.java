@@ -1,12 +1,18 @@
 package v4.grammarchecking.threaded;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import org.apache.poi.util.IOUtils;
 import spellchecker.spellCheck.SpellChecker;
 import util.ArrayToStringConverter;
 import util.Constants;
@@ -37,7 +43,7 @@ public class GrammarChecker {
 	}
 
 	 public static List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
-		POSTagger postagger = new  POSTagger("tagger_models/filipino-left3words-owlqn2-pref6.tagger");
+		POSTagger postagger = new  POSTagger(findTagger_model());
 		Stemmer stemmer = new Stemmer();
 		SpellChecker spellChecker = new SpellChecker();
 
@@ -72,6 +78,7 @@ public class GrammarChecker {
 
 	private static List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
 		FileManager fm = new FileManager(Constants.RESULTS_ALL);
+
 		fm.createFile();
 		if(isVerbose){
 			System.out.println("Writing Suggestions to Files");
@@ -235,6 +242,28 @@ public class GrammarChecker {
 			System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		}
 		return allSuggestions;
+
+	}
+
+	private static String findTagger_model() throws IOException {
+		String folder =  "tagger_models";
+		String filename = "/filipino-left3words-owlqn2-pref6.tagger";
+		String path = folder + filename;
+
+		if(GrammarChecker.class.getResource("GrammarChecker.class").toString().startsWith("jar:")){ //if running from jar
+
+			Files.createDirectories(Paths.get("results")); //create results folder
+
+			if(Files.notExists(Paths.get(path))) {//if tagger_models folder is not present
+				Files.createDirectories(Paths.get(folder)); //create folder if does not exist
+
+				InputStream in = GrammarChecker.class.getResourceAsStream(filename);
+				OutputStream out = new FileOutputStream(path);
+				IOUtils.copy(in, out);
+			}
+		}
+
+		return path;
 
 	}
 

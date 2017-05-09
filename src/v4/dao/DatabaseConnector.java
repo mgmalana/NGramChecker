@@ -8,7 +8,7 @@ public class DatabaseConnector {
 
 	public static Connection getConnection() {
 		try {
-			return DriverManager.getConnection("jdbc:sqlite:ngramchecker.db");
+			return DriverManager.getConnection("jdbc:sqlite::resource:ngramchecker.db");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

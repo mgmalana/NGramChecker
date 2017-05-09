@@ -55,7 +55,7 @@ public class Train {
 			IOFile ioFile = new IOFile();
 			try {
 				Class.forName("org.sqlite.JDBC");
-				c = DriverManager.getConnection("jdbc:sqlite:spellChecker.db");
+				c = DriverManager.getConnection("jdbc:sqlite::resource:spellChecker.db");
 				c.setAutoCommit(false);
 				System.out.println("Opened database successfully");
 				stmt = c.createStatement();
@@ -213,7 +213,7 @@ public class Train {
 	}
 
 	private Connection openDatabase() throws SQLException {
-		c = DriverManager.getConnection("jdbc:sqlite:spellChecker.db");
+		c = DriverManager.getConnection("jdbc:sqlite::resource:spellChecker.db");
 		c.setAutoCommit(false);
 		System.out.println("open");
 		return c;
