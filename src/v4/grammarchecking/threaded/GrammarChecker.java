@@ -107,24 +107,39 @@ public class GrammarChecker {
 				subService.join();
 				suggs.addAll(subService.getSuggestions());
 
-				// if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
-				// insAndUnmService = new InsertionAndUnmergingService();
-				// insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
-				// insAndUnmService.start();
-				// insAndUnmService.join();
-				// suggs.addAll(insAndUnmService.getSuggestions());
-				//
-				// }
-				// if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
-				// delAndMerService = new DeletionAndMergingService();
-				// delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
-				// delAndMerService.start();
-				// delAndMerService.join();
-				// suggs.addAll(delAndMerService.getSuggestions());
-				// }
+				 if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
+				 insAndUnmService = new InsertionAndUnmergingService();
+				 insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
+				 insAndUnmService.start();
+				 insAndUnmService.join();
+				 suggs.addAll(insAndUnmService.getSuggestions());
+
+				 }
+				 if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
+				 delAndMerService = new DeletionAndMergingService();
+				 delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
+				 delAndMerService.start();
+				 delAndMerService.join();
+				 suggs.addAll(delAndMerService.getSuggestions());
+				 }
 
 				suggs = sortSuggestions(suggs);
-				allSuggestions.addAll(suggs);
+
+				//only gets top suggestions for each ngram
+				if(suggs.size() > 0){
+					double maxScore =  suggs.get(0).getEditDistance(); //TODO: ASk matthew
+
+					for(Suggestion sugg : suggs){
+						if(maxScore == sugg.getEditDistance()){
+							allSuggestions.add(sugg);
+						} else {
+							break;
+						}
+					}
+				}
+
+
+//				allSuggestionss.addAll(suggs);
 
 				fm.writeToFile("...............................\n");
 				for (Suggestion s : suggs) {
