@@ -39,9 +39,17 @@ public class GrammarChecker {
 		// 5 - not
 //		Input testError = testErrorsProvider.getTestErrors().get(0);
 //		List<Suggestion> suggestions = checkGrammar(testError);
-		List<Suggestion> suggestions = checkGrammar("Ako ay nag punta sa banko.");
+		List<Suggestion> suggestions = checkGrammar("Ayaw ko na.");
 	}
 
+	/**
+	 * Detects and suggests grammar corrections of a sentence
+	 *
+	 * @param words input words
+	 * @return correction suggestions of the sentence
+	 * @throws IOException
+	 * @throws InterruptedException
+	 */
 	 public static List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
 		POSTagger postagger = new  POSTagger(findTagger_model());
 		Stemmer stemmer = new Stemmer();
@@ -72,6 +80,15 @@ public class GrammarChecker {
 		return words;
 	 }
 
+	/**
+	 * Detects and suggests grammar corrections of a sentence
+	 * @param words input words
+	 * @param pos POS tags of the sentence
+	 * @param lemmas lemmas of the sentence
+	 * @return correction suggestions of the sentence
+	 * @throws IOException
+	 * @throws InterruptedException
+	 */
 	public static List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
 		return checkGrammar(new Input(words, pos, lemmas));
 	}
