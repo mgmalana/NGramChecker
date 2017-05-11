@@ -173,7 +173,7 @@ public class GrammarChecker {
 
 				//only gets top suggestions for each ngram
 				if(suggs.size() > 0){
-					double maxScore =  suggs.get(0).getEditDistance(); //TODO: ASk matthew
+					double maxScore =  suggs.get(0).getEditDistance();
 					int index = 0;
 
 					for(Suggestion sugg : suggs){
@@ -187,7 +187,7 @@ public class GrammarChecker {
 				}
 
 
-//				allSuggestionss.addAll(suggs);
+//				allSuggestions.addAll(suggs);
 
 				this.writeToFile("...............................\n");
 				for (Suggestion s : suggs) {

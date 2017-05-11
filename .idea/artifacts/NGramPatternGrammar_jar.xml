@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="NGramPatternGrammar:jar">
+  <artifact type="jar" name="NGramPatternGrammar:jar">
     <output-path>$PROJECT_DIR$/classes/artifacts/NGramPatternGrammar_jar</output-path>
     <root id="archive" name="NGramPatternGrammar.jar">
       <element id="module-output" name="NGramPatternGrammar" />

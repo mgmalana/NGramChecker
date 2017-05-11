@@ -52,7 +52,7 @@ public class OldCandidateNGramsService {
 				int id = entry.getKey();
 				NGram n = ngramDao.get(id);
 				if (n != null)
-					candidateNGrams.add(ngramDao.get(id));
+					candidateNGrams.add(n);
 			}
 		}
 
