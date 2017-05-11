@@ -6,11 +6,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 import org.apache.poi.util.IOUtils;
 import spellchecker.spellCheck.SpellChecker;
@@ -32,14 +28,42 @@ public class GrammarChecker {
 	static InsertionAndUnmergingService insAndUnmService;
 	static DeletionAndMergingService delAndMerService;
 	private static String[] delimiters = { ".", ",", "!", "?"};
-	private static boolean isVerbose = true;
+	private boolean isVerbose;
+	private boolean isGenerateTextFile;
+	private int numSuggestionPerNgram;
+	private FileManager fm;
+	private Set<String> stringSuggs;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
-//		Input testError = testErrorsProvider.getTestErrors().get(0);
-//		List<Suggestion> suggestions = checkGrammar(testError);
-		List<Suggestion> suggestions = checkGrammar("Ayaw ko na.");
+		GrammarChecker grammarChecker = new GrammarChecker(true, true);
+
+		Input testError = testErrorsProvider.getTestErrors().get(0);
+		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
+
+
+//		GrammarChecker grammarChecker = new GrammarChecker(true, true);
+//
+//		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
+//			System.out.println(sugg);
+//		}
+	}
+
+	public GrammarChecker(){
+		this(false, false);
+	}
+
+	public GrammarChecker(boolean isVerbose, boolean isGenerateTextFile){
+		this.isVerbose = isVerbose;
+		this.isGenerateTextFile = isGenerateTextFile;
+		this.numSuggestionPerNgram = 5;
+		this.stringSuggs =  new LinkedHashSet<>();
+	}
+
+	public String[] getGrammarSuggestions(String words) throws IOException, InterruptedException {
+		checkGrammar(words);
+		return stringSuggs.toArray(new String[stringSuggs.size()]);
 	}
 
 	/**
@@ -50,7 +74,7 @@ public class GrammarChecker {
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	 public static List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
+	 public List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
 		POSTagger postagger = new  POSTagger(findTagger_model());
 		Stemmer stemmer = new Stemmer();
 		SpellChecker spellChecker = new SpellChecker();
@@ -74,12 +98,6 @@ public class GrammarChecker {
 		return checkGrammar(words, lemmas, pos);
 	 }
 
-	 private static String transformDelimiters(String words){
-		 for (String mark : delimiters)
-			 words = words.replace(mark, " " + mark);
-		return words;
-	 }
-
 	/**
 	 * Detects and suggests grammar corrections of a sentence
 	 * @param words input words
@@ -89,14 +107,16 @@ public class GrammarChecker {
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	public static List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
+	public List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
 		return checkGrammar(new Input(words, pos, lemmas));
 	}
 
-	private static List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
-		FileManager fm = new FileManager(Constants.RESULTS_ALL);
+	private List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
+		fm = new FileManager(Constants.RESULTS_ALL);
 
-		fm.createFile();
+		if(this.isGenerateTextFile){
+			fm.createFile();
+		}
 		if(isVerbose){
 			System.out.println("Writing Suggestions to Files");
 
@@ -104,7 +124,8 @@ public class GrammarChecker {
 					+ ArrayToStringConverter.convert(testError.getPos()) + "\n"
 					+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
 		}
-		fm.writeToFile("Full: " + ArrayToStringConverter.convert(testError.getWords()) + " \n"
+
+		this.writeToFile("Full: " + ArrayToStringConverter.convert(testError.getWords()) + " \n"
 				+ ArrayToStringConverter.convert(testError.getPos()) + "\n"
 				+ ArrayToStringConverter.convert(testError.getLemmas()) + " " + testError.getWords().length);
 
@@ -116,7 +137,8 @@ public class GrammarChecker {
 			if(isVerbose) {
 				System.out.println("N-gram = " + ngramSize);
 			}
-			fm.writeToFile("N-gram = " + ngramSize);
+
+			this.writeToFile("N-gram = " + ngramSize);
 
 			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
 				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
@@ -152,28 +174,32 @@ public class GrammarChecker {
 				//only gets top suggestions for each ngram
 				if(suggs.size() > 0){
 					double maxScore =  suggs.get(0).getEditDistance(); //TODO: ASk matthew
+					int index = 0;
 
 					for(Suggestion sugg : suggs){
-						if(maxScore == sugg.getEditDistance()){
+						if(maxScore == sugg.getEditDistance() && index < this.numSuggestionPerNgram){
 							allSuggestions.add(sugg);
 						} else {
 							break;
 						}
+						index++;
 					}
 				}
 
 
 //				allSuggestionss.addAll(suggs);
 
-				fm.writeToFile("...............................\n");
+				this.writeToFile("...............................\n");
 				for (Suggestion s : suggs) {
 					ArrayList<String> arrSugg = new ArrayList<String>(Arrays.asList(wArr));
-					fm.writeToFile("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
-					fm.writeToFile("ED: " + s.getEditDistance() + " Freq: " + s.getFrequency());
+					this.writeToFile("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
+					this.writeToFile("ED: " + s.getEditDistance() + " Freq: " + s.getFrequency());
 					if (s.getEditDistance() == 0)
-						fm.writeToFile("N-gram is correct");
+						this.writeToFile("N-gram is correct");
 					else {
 						for (SuggestionToken sugg : s.getSuggestions()) {
+							String stringCorrection = "";
+
 							if (sugg.getSuggType() == SuggestionType.SUBSTITUTION) {
 								if (sugg.isPOSGeneralized() == false) {
 									// System.out
@@ -181,8 +207,8 @@ public class GrammarChecker {
 									// in " + arrSugg.get(sugg.getIndex())
 									// + ". " + " Edit Distance: " +
 									// sugg.getEditDistance());
-									fm.writeToFile("Replace " + sugg.getWord() + " in " + arrSugg.get(sugg.getIndex())
-											+ ". " + " Edit Distance: " + sugg.getEditDistance());
+									stringCorrection = "Replace \"" + sugg.getWord() + "\" in \"" + arrSugg.get(sugg.getIndex()) + "\"";
+									this.writeToFile(stringCorrection + ". Edit Distance: " + sugg.getEditDistance());
 									arrSugg.set(sugg.getIndex(), sugg.getWord());
 								} else {
 									// System.out.println("TReplace " +
@@ -191,10 +217,14 @@ public class GrammarChecker {
 									// + arrSugg.get(sugg.getIndex()) + ". " + "
 									// Edit Distance:"
 									// + sugg.getEditDistance());
-									fm.writeToFile("TReplace " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in "
-											+ arrSugg.get(sugg.getIndex()) + ". " + " Edit Distance:"
+									stringCorrection = "Replace " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in \""
+											+ arrSugg.get(sugg.getIndex()) + "\". ";
+
+									this.writeToFile(stringCorrection + " Edit Distance:"
 											+ sugg.getEditDistance());
 									arrSugg.set(sugg.getIndex(), sugg.getPos());
+
+									continue;
 								}
 							} else if (sugg.getSuggType() == SuggestionType.INSERTION) {
 								if (sugg.isPOSGeneralized() == false) {
@@ -203,8 +233,9 @@ public class GrammarChecker {
 									// in before " + wArr[sugg.getIndex()]
 									// + ". " + " Edit Distance:" +
 									// sugg.getEditDistance());
-									fm.writeToFile("Insert " + sugg.getWord() + " in before " + wArr[sugg.getIndex()]
-											+ ". " + " Edit Distance:" + sugg.getEditDistance());
+									stringCorrection = "Insert \"" + sugg.getWord() + "\" in before \"" + wArr[sugg.getIndex()] + "\"";
+
+									this.writeToFile(stringCorrection + ". Edit Distance:" + sugg.getEditDistance());
 									arrSugg.add(sugg.getIndex(), sugg.getWord());
 								} else {
 									// System.out.println("Insert " +
@@ -212,17 +243,22 @@ public class GrammarChecker {
 									// wArr[sugg.getIndex()]
 									// + ". " + " Edit Distance:" +
 									// sugg.getEditDistance());
-									fm.writeToFile("Insert " + sugg.getPos() + "(" + sugg.getWord() + ")"
-											+ " in before " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
+									stringCorrection = "Insert " + sugg.getPos() + "(" + sugg.getWord() + ")"
+											+ " in before \"" + wArr[sugg.getIndex()] + "\"";
+
+									this.writeToFile(stringCorrection + ". Edit Distance:"
 											+ sugg.getEditDistance());
 									arrSugg.add(sugg.getIndex(), sugg.getPos());
+
+									continue;
 								}
 							} else if (sugg.getSuggType() == SuggestionType.UNMERGING) {
 								// System.out.println("Unmerge " +
 								// wArr[sugg.getIndex()] + ". " + " Edit
 								// Distance:"
 								// + sugg.getEditDistance());
-								fm.writeToFile("Unmerge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
+								stringCorrection = "Unmerge \"" + wArr[sugg.getIndex()] + "\"";
+								this.writeToFile(stringCorrection + ". Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.set(sugg.getIndex(), sugg.getWord());
 							} else if (sugg.getSuggType() == SuggestionType.DELETION) {
@@ -230,7 +266,8 @@ public class GrammarChecker {
 								// wArr[sugg.getIndex()] + ". " + " Edit
 								// Distance:"
 								// + sugg.getEditDistance());
-								fm.writeToFile("Delete " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
+								stringCorrection = "Delete \"" + wArr[sugg.getIndex()] + "\"";
+								this.writeToFile(stringCorrection + ". Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.remove(sugg.getIndex());
 							} else if (sugg.getSuggType() == SuggestionType.MERGING) {
@@ -238,21 +275,26 @@ public class GrammarChecker {
 								// wArr[sugg.getIndex()] + ". " + " Edit
 								// Distance:"
 								// + sugg.getEditDistance());
-								fm.writeToFile("Merge " + wArr[sugg.getIndex()] + ". " + " Edit Distance:"
+								stringCorrection = "Merge \"" + wArr[sugg.getIndex()] + "\"";
+								this.writeToFile(stringCorrection + ". Edit Distance:"
 										+ sugg.getEditDistance());
 								arrSugg.set(sugg.getIndex(), sugg.getWord());
 								arrSugg.remove(sugg.getIndex() + 1);
 							}
-							fm.writeToFile("Sugg: " + ArrayToStringConverter.convert(arrSugg));
+							String suggToConvert = ArrayToStringConverter.convert(arrSugg);
+
+							this.writeToFile("Sugg: " + suggToConvert);
+							this.stringSuggs.add(suggToConvert + " (" + stringCorrection + ")");
 						}
 
 					}
 				}
-				fm.writeToFile("...............................\n");
+				this.writeToFile("...............................\n");
 			}
 		}
-		fm.close();
-
+		if(isGenerateTextFile) {
+			fm.close();
+		}
 		long endTime = System.currentTimeMillis();
 
 		if(isVerbose) {
@@ -262,15 +304,22 @@ public class GrammarChecker {
 
 	}
 
-	private static String findTagger_model() throws IOException {
+	private static String transformDelimiters(String words){
+		for (String mark : delimiters)
+			words = words.replace(mark, " " + mark);
+		return words;
+	}
+
+	private String findTagger_model() throws IOException {
 		String folder =  "tagger_models";
 		String filename = "/filipino-left3words-owlqn2-pref6.tagger";
 		String path = folder + filename;
 
 		if(GrammarChecker.class.getResource("GrammarChecker.class").toString().startsWith("jar:")){ //if running from jar
 
-			Files.createDirectories(Paths.get("results")); //create results folder
-
+			if(this.isGenerateTextFile) {
+				Files.createDirectories(Paths.get("results")); //create results folder
+			}
 			if(Files.notExists(Paths.get(path))) {//if tagger_models folder is not present
 				Files.createDirectories(Paths.get(folder)); //create folder if does not exist
 
@@ -303,5 +352,11 @@ public class GrammarChecker {
 			});
 		}
 		return suggestions;
+	}
+
+	private void writeToFile(String toWrite) throws IOException {
+		if(isGenerateTextFile){
+			fm.writeToFile(toWrite);
+		}
 	}
 }
