@@ -30,24 +30,23 @@ public class GrammarChecker {
 	private static String[] delimiters = { ".", ",", "!", "?"};
 	private boolean isVerbose;
 	private boolean isGenerateTextFile;
-	private int numSuggestionPerNgram;
+	private final static int maxSuggestionPerNgram = 5;
 	private FileManager fm;
-	private Set<String> stringSuggs;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
+//		GrammarChecker grammarChecker = new GrammarChecker();
+//
+//		Input testError = testErrorsProvider.getTestErrors().get(0);
+//		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
+
+
 		GrammarChecker grammarChecker = new GrammarChecker(true, true);
 
-		Input testError = testErrorsProvider.getTestErrors().get(0);
-		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
-
-
-//		GrammarChecker grammarChecker = new GrammarChecker(true, true);
-//
-//		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
-//			System.out.println(sugg);
-//		}
+		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
+			System.out.println(sugg);
+		}
 	}
 
 	public GrammarChecker(){
@@ -57,12 +56,18 @@ public class GrammarChecker {
 	public GrammarChecker(boolean isVerbose, boolean isGenerateTextFile){
 		this.isVerbose = isVerbose;
 		this.isGenerateTextFile = isGenerateTextFile;
-		this.numSuggestionPerNgram = 5;
-		this.stringSuggs =  new LinkedHashSet<>();
 	}
 
 	public String[] getGrammarSuggestions(String words) throws IOException, InterruptedException {
-		checkGrammar(words);
+		List <Suggestion> suggestions = checkGrammar(words);
+		List <String> stringSuggs = new ArrayList<>();
+
+		for (Suggestion s: suggestions){
+			for (SuggestionToken sugg : s.getSuggestions()){
+				stringSuggs.add(sugg.getSuggestionString());
+			}
+		}
+
 		return stringSuggs.toArray(new String[stringSuggs.size()]);
 	}
 
@@ -131,7 +136,7 @@ public class GrammarChecker {
 
 		long startTime = System.currentTimeMillis();
 
-		List<Suggestion> allSuggestions = new ArrayList<>();
+		List<Suggestion> topSuggestions = new ArrayList<>();
 
 		for (int ngramSize = Constants.NGRAM_SIZE_UPPER; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
 			if(isVerbose) {
@@ -139,6 +144,8 @@ public class GrammarChecker {
 			}
 
 			this.writeToFile("N-gram = " + ngramSize);
+
+			List<Suggestion> ngramSuggestions = new ArrayList<>();
 
 			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
 				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
@@ -170,23 +177,7 @@ public class GrammarChecker {
 				 }
 
 				suggs = sortSuggestions(suggs);
-
-				//only gets top suggestions for each ngram
-				if(suggs.size() > 0){
-					double maxScore =  suggs.get(0).getEditDistance();
-					int index = 0;
-
-					for(Suggestion sugg : suggs){
-						if(maxScore == sugg.getEditDistance() && index < this.numSuggestionPerNgram){
-							allSuggestions.add(sugg);
-						} else {
-							break;
-						}
-						index++;
-					}
-				}
-
-
+				ngramSuggestions.addAll(suggs);
 //				allSuggestions.addAll(suggs);
 
 				this.writeToFile("...............................\n");
@@ -217,14 +208,12 @@ public class GrammarChecker {
 									// + arrSugg.get(sugg.getIndex()) + ". " + "
 									// Edit Distance:"
 									// + sugg.getEditDistance());
-									stringCorrection = "Replace " + sugg.getPos() + "(" + sugg.getWord() + ")" + " in \""
-											+ arrSugg.get(sugg.getIndex()) + "\". ";
+									stringCorrection = "Replace \"" + sugg.getWord() + "\" in \""
+											+ arrSugg.get(sugg.getIndex()) + "\"";
 
 									this.writeToFile(stringCorrection + " Edit Distance:"
 											+ sugg.getEditDistance());
 									arrSugg.set(sugg.getIndex(), sugg.getPos());
-
-									continue;
 								}
 							} else if (sugg.getSuggType() == SuggestionType.INSERTION) {
 								if (sugg.isPOSGeneralized() == false) {
@@ -243,14 +232,12 @@ public class GrammarChecker {
 									// wArr[sugg.getIndex()]
 									// + ". " + " Edit Distance:" +
 									// sugg.getEditDistance());
-									stringCorrection = "Insert " + sugg.getPos() + "(" + sugg.getWord() + ")"
-											+ " in before \"" + wArr[sugg.getIndex()] + "\"";
+									stringCorrection = "Insert \"" + sugg.getWord()
+											+ "\" in before \"" + wArr[sugg.getIndex()] + "\"";
 
 									this.writeToFile(stringCorrection + ". Edit Distance:"
 											+ sugg.getEditDistance());
 									arrSugg.add(sugg.getIndex(), sugg.getPos());
-
-									continue;
 								}
 							} else if (sugg.getSuggType() == SuggestionType.UNMERGING) {
 								// System.out.println("Unmerge " +
@@ -284,12 +271,27 @@ public class GrammarChecker {
 							String suggToConvert = ArrayToStringConverter.convert(arrSugg);
 
 							this.writeToFile("Sugg: " + suggToConvert);
-							this.stringSuggs.add(suggToConvert + " (" + stringCorrection + ")");
+							sugg.setSuggestionString(stringCorrection);
 						}
-
 					}
 				}
 				this.writeToFile("...............................\n");
+			}
+
+			ngramSuggestions = sortSuggestions(ngramSuggestions);
+			//only gets top suggestions for each ngram
+			if(ngramSuggestions.size() > 0){
+				int index = 0;
+				double nGramMinDistance = ngramSuggestions.get(0).getEditDistance();
+
+				for(Suggestion sugg : ngramSuggestions){
+					if(index < this.maxSuggestionPerNgram && nGramMinDistance == sugg.getEditDistance() && sugg.getEditDistance() > 0){
+						topSuggestions.add(sugg);
+						index++;
+					} else {
+						break;
+					}
+				}
 			}
 		}
 		if(isGenerateTextFile) {
@@ -300,7 +302,7 @@ public class GrammarChecker {
 		if(isVerbose) {
 			System.out.println("Total Grammar Checking Time Elapsed: " + (endTime - startTime));
 		}
-		return allSuggestions;
+		return topSuggestions;
 
 	}
 

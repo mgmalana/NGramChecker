@@ -10,6 +10,8 @@ public class SuggestionToken {
 	private double editDistance;
 	private SuggestionType suggType;
 
+	private String suggestionString;
+
 	public SuggestionToken(String word, int index, double editDistance, SuggestionType suggType) {
 		this.index = index;
 		this.word = word;
@@ -73,5 +75,13 @@ public class SuggestionToken {
 
 	public void setSuggType(SuggestionType suggType) {
 		this.suggType = suggType;
+	}
+
+	public String getSuggestionString() {
+		return suggestionString;
+	}
+
+	public void setSuggestionString(String suggestionString) {
+		this.suggestionString = suggestionString;
 	}
 }

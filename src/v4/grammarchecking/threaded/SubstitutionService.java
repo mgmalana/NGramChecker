@@ -17,9 +17,9 @@ public class SubstitutionService extends GrammarCheckingServiceThread {
 	protected void performTask() throws SQLException {
 		long startTime = System.currentTimeMillis();
 		List<NGram> candidateRuleNGrams = candidateNGramService.getCandidateNGrams(inputPOS, inputPOS.length);
-		System.out.println("Candidate N-grams Size: " + candidateRuleNGrams.size());
+//		System.out.println("Candidate N-grams Size: " + candidateRuleNGrams.size());
 		long endTime = System.currentTimeMillis();
-		System.out.println("Fetching candidate n-grams: " + (endTime - startTime) + "ms");
+//		System.out.println("Fetching candidate n-grams: " + (endTime - startTime) + "ms");
 
 		for (NGram rule : candidateRuleNGrams) {
 			String[] rulePOS = rule.getPos();

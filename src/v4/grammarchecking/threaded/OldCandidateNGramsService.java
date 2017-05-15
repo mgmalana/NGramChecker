@@ -57,8 +57,8 @@ public class OldCandidateNGramsService {
 		}
 
 		long endTime = System.currentTimeMillis();
-		System.out.println("Old Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates "
-				+ candidateNGrams.size());
+//		System.out.println("Old Candidate Ngram Fetch Speed: " + (endTime - startTime) + " | Number of Candidates "
+//				+ candidateNGrams.size());
 
 		return candidateNGrams;
 	}
