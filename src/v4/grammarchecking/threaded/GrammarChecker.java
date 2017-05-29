@@ -43,7 +43,7 @@ public class GrammarChecker {
 //		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
 
 
-		GrammarChecker grammarChecker = new GrammarChecker(true, true, 2);
+		GrammarChecker grammarChecker = new GrammarChecker(true, true, 4);
 
 		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
 			System.out.println(sugg);
@@ -138,16 +138,22 @@ public class GrammarChecker {
 
 		long startTime = System.currentTimeMillis();
 
-		List<Suggestion> topSuggestions;
+		List<Suggestion> topSuggestions = null;
 
 		if(this.nGramSizeToGet >= Constants.NGRAM_SIZE_LOWER && this.nGramSizeToGet <= Constants.NGRAM_SIZE_UPPER){
-			if(isVerbose) {
-				System.out.println("N-gram = " + this.nGramSizeToGet);
+
+			for (int ngramSize = this.nGramSizeToGet; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
+				if(isVerbose) {
+					System.out.println("N-gram = " + ngramSize);
+				}
+				this.writeToFile("N-gram = " + ngramSize);
+
+				topSuggestions = getNgramSuggestions(ngramSize, testError);
+
+				if(topSuggestions.size() > 0){
+					break;
+				}
 			}
-			this.writeToFile("N-gram = " + this.nGramSizeToGet);
-
-			topSuggestions = getNgramSuggestions(this.nGramSizeToGet, testError);
-
 		} else {
 			topSuggestions = new ArrayList<>();
 
