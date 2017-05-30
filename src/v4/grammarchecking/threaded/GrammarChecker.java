@@ -31,20 +31,21 @@ public class GrammarChecker {
 	private boolean isVerbose;
 	private boolean isGenerateTextFile;
 	private final static int maxSuggestionPerNgram = 5;
+	private final static int nGramSizeToGet = 1;
 	private FileManager fm;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
-//		GrammarChecker grammarChecker = new GrammarChecker();
+		GrammarChecker grammarChecker = new GrammarChecker();
 //
-//		Input testError = testErrorsProvider.getTestErrors().get(0);
-//		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
+		Input testError = testErrorsProvider.getTestErrors().get(0);
+		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
 
 
-		GrammarChecker grammarChecker = new GrammarChecker(true, true);
+		grammarChecker = new GrammarChecker(true, true);
 
-		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
+		for(String sugg: grammarChecker.getGrammarSuggestions("ako ay naginom ng tinapay")){
 			System.out.println(sugg);
 		}
 	}
@@ -100,7 +101,7 @@ public class GrammarChecker {
 		 String pos = String.join(" ", posList);
 		 String lemmas = String.join(" ", lemmasList);
 
-		return checkGrammar(words, lemmas, pos);
+		return checkGrammar(words, pos, lemmas);
 	 }
 
 	/**
@@ -113,7 +114,7 @@ public class GrammarChecker {
 	 * @throws InterruptedException
 	 */
 	public List<Suggestion> checkGrammar(String words, String pos, String lemmas) throws IOException, InterruptedException {
-		return checkGrammar(new Input(words, pos, lemmas));
+		return checkGrammar(new Input(words, lemmas, pos));
 	}
 
 	private List<Suggestion> checkGrammar(Input testError) throws InterruptedException, IOException {
@@ -138,162 +139,34 @@ public class GrammarChecker {
 
 		List<Suggestion> topSuggestions = new ArrayList<>();
 
-		for (int ngramSize = Constants.NGRAM_SIZE_UPPER; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
-			if(isVerbose) {
-				System.out.println("N-gram = " + ngramSize);
-			}
 
-			this.writeToFile("N-gram = " + ngramSize);
+		if(this.nGramSizeToGet >= Constants.NGRAM_SIZE_LOWER && this.nGramSizeToGet <= Constants.NGRAM_SIZE_UPPER){
 
-			List<Suggestion> ngramSuggestions = new ArrayList<>();
-
-			for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
-				String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
-				String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
-				String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
-
-				List<Suggestion> suggs = new ArrayList<>();
-
-				subService = new SubstitutionService();
-				subService.setInputValues(wArr, lArr, pArr, ngramSize);
-				subService.start();
-				subService.join();
-				suggs.addAll(subService.getSuggestions());
-
-				 if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
-				 insAndUnmService = new InsertionAndUnmergingService();
-				 insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
-				 insAndUnmService.start();
-				 insAndUnmService.join();
-				 suggs.addAll(insAndUnmService.getSuggestions());
-
-				 }
-				 if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
-				 delAndMerService = new DeletionAndMergingService();
-				 delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
-				 delAndMerService.start();
-				 delAndMerService.join();
-				 suggs.addAll(delAndMerService.getSuggestions());
-				 }
-
-				suggs = sortSuggestions(suggs);
-				ngramSuggestions.addAll(suggs);
-//				allSuggestions.addAll(suggs);
-
-				this.writeToFile("...............................\n");
-				for (Suggestion s : suggs) {
-					ArrayList<String> arrSugg = new ArrayList<String>(Arrays.asList(wArr));
-					this.writeToFile("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
-					this.writeToFile("ED: " + s.getEditDistance() + " Freq: " + s.getFrequency());
-					if (s.getEditDistance() == 0)
-						this.writeToFile("N-gram is correct");
-					else {
-						for (SuggestionToken sugg : s.getSuggestions()) {
-							String stringCorrection = "";
-
-							if (sugg.getSuggType() == SuggestionType.SUBSTITUTION) {
-								if (sugg.isPOSGeneralized() == false) {
-									// System.out
-									// .println("Replace " + sugg.getWord() + "
-									// in " + arrSugg.get(sugg.getIndex())
-									// + ". " + " Edit Distance: " +
-									// sugg.getEditDistance());
-									stringCorrection = "Replace \"" + sugg.getWord() + "\" in \"" + arrSugg.get(sugg.getIndex()) + "\"";
-									this.writeToFile(stringCorrection + ". Edit Distance: " + sugg.getEditDistance());
-									arrSugg.set(sugg.getIndex(), sugg.getWord());
-								} else {
-									// System.out.println("TReplace " +
-									// sugg.getPos() + "(" + sugg.getWord() +
-									// ")" + " in "
-									// + arrSugg.get(sugg.getIndex()) + ". " + "
-									// Edit Distance:"
-									// + sugg.getEditDistance());
-									stringCorrection = "Replace \"" + sugg.getWord() + "\" in \""
-											+ arrSugg.get(sugg.getIndex()) + "\"";
-
-									this.writeToFile(stringCorrection + " Edit Distance:"
-											+ sugg.getEditDistance());
-									arrSugg.set(sugg.getIndex(), sugg.getPos());
-								}
-							} else if (sugg.getSuggType() == SuggestionType.INSERTION) {
-								if (sugg.isPOSGeneralized() == false) {
-									// System.out
-									// .println("Insert " + sugg.getWord() + "
-									// in before " + wArr[sugg.getIndex()]
-									// + ". " + " Edit Distance:" +
-									// sugg.getEditDistance());
-									stringCorrection = "Insert \"" + sugg.getWord() + "\" in before \"" + wArr[sugg.getIndex()] + "\"";
-
-									this.writeToFile(stringCorrection + ". Edit Distance:" + sugg.getEditDistance());
-									arrSugg.add(sugg.getIndex(), sugg.getWord());
-								} else {
-									// System.out.println("Insert " +
-									// sugg.getPos() + " in before " +
-									// wArr[sugg.getIndex()]
-									// + ". " + " Edit Distance:" +
-									// sugg.getEditDistance());
-									stringCorrection = "Insert \"" + sugg.getWord()
-											+ "\" in before \"" + wArr[sugg.getIndex()] + "\"";
-
-									this.writeToFile(stringCorrection + ". Edit Distance:"
-											+ sugg.getEditDistance());
-									arrSugg.add(sugg.getIndex(), sugg.getPos());
-								}
-							} else if (sugg.getSuggType() == SuggestionType.UNMERGING) {
-								// System.out.println("Unmerge " +
-								// wArr[sugg.getIndex()] + ". " + " Edit
-								// Distance:"
-								// + sugg.getEditDistance());
-								stringCorrection = "Unmerge \"" + wArr[sugg.getIndex()] + "\"";
-								this.writeToFile(stringCorrection + ". Edit Distance:"
-										+ sugg.getEditDistance());
-								arrSugg.set(sugg.getIndex(), sugg.getWord());
-							} else if (sugg.getSuggType() == SuggestionType.DELETION) {
-								// System.out.println("Delete " +
-								// wArr[sugg.getIndex()] + ". " + " Edit
-								// Distance:"
-								// + sugg.getEditDistance());
-								stringCorrection = "Delete \"" + wArr[sugg.getIndex()] + "\"";
-								this.writeToFile(stringCorrection + ". Edit Distance:"
-										+ sugg.getEditDistance());
-								arrSugg.remove(sugg.getIndex());
-							} else if (sugg.getSuggType() == SuggestionType.MERGING) {
-								// System.out.println("Merge " +
-								// wArr[sugg.getIndex()] + ". " + " Edit
-								// Distance:"
-								// + sugg.getEditDistance());
-								stringCorrection = "Merge \"" + wArr[sugg.getIndex()] + "\"";
-								this.writeToFile(stringCorrection + ". Edit Distance:"
-										+ sugg.getEditDistance());
-								arrSugg.set(sugg.getIndex(), sugg.getWord());
-								arrSugg.remove(sugg.getIndex() + 1);
-							}
-							String suggToConvert = ArrayToStringConverter.convert(arrSugg);
-
-							this.writeToFile("Sugg: " + suggToConvert);
-							sugg.setSuggestionString(stringCorrection);
-						}
-					}
+			for (int ngramSize = this.nGramSizeToGet; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
+				if(isVerbose) {
+					System.out.println("N-gram = " + ngramSize);
 				}
-				this.writeToFile("...............................\n");
-			}
+				this.writeToFile("N-gram = " + ngramSize);
 
-			ngramSuggestions = sortSuggestions(ngramSuggestions);
-			//only gets top suggestions for each ngram
-			if(ngramSuggestions.size() > 0){
-				int index = 0;
-				double nGramMinDistance = ngramSuggestions.get(0).getEditDistance();
+				topSuggestions.addAll(getNgramSuggestions(ngramSize, testError));
 
-				for(Suggestion sugg : ngramSuggestions){
-					if(index < this.maxSuggestionPerNgram && nGramMinDistance == sugg.getEditDistance() && sugg.getEditDistance() > 0){
-						topSuggestions.add(sugg);
-						index++;
-					} else {
-						break;
-					}
+				if(topSuggestions.size() > 0){
+					break;
 				}
+			}
+		} else {
+			topSuggestions = new ArrayList<>();
+
+			for (int ngramSize = Constants.NGRAM_SIZE_UPPER; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
+				if(isVerbose) {
+					System.out.println("N-gram = " + ngramSize);
+				}
+				this.writeToFile("N-gram = " + ngramSize);
+
+				topSuggestions.addAll(getNgramSuggestions(ngramSize, testError));
 			}
 		}
+
 		if(isGenerateTextFile) {
 			fm.close();
 		}
@@ -304,6 +177,159 @@ public class GrammarChecker {
 		}
 		return topSuggestions;
 
+	}
+
+	private List<Suggestion> getNgramSuggestions(int ngramSize, Input testError) throws InterruptedException, IOException {
+		List<Suggestion> ngramSuggestions = new ArrayList<>();
+
+		for (int i = 0; i + ngramSize - 1 < testError.getWords().length; i++) {
+			String[] wArr = Arrays.copyOfRange(testError.getWords(), i, i + ngramSize);
+			String[] pArr = Arrays.copyOfRange(testError.getPos(), i, i + ngramSize);
+			String[] lArr = Arrays.copyOfRange(testError.getLemmas(), i, i + ngramSize);
+
+			List<Suggestion> suggs = new ArrayList<>();
+
+			subService = new SubstitutionService();
+			subService.setInputValues(wArr, lArr, pArr, ngramSize);
+			subService.start();
+			subService.join();
+			suggs.addAll(subService.getSuggestions());
+
+			if (ngramSize <= Constants.NGRAM_SIZE_UPPER - 1) {
+				insAndUnmService = new InsertionAndUnmergingService();
+				insAndUnmService.setInputValues(wArr, lArr, pArr, ngramSize);
+				insAndUnmService.start();
+				insAndUnmService.join();
+				suggs.addAll(insAndUnmService.getSuggestions());
+
+			}
+			if (ngramSize >= Constants.NGRAM_SIZE_LOWER + 1) {
+				delAndMerService = new DeletionAndMergingService();
+				delAndMerService.setInputValues(wArr, lArr, pArr, ngramSize);
+				delAndMerService.start();
+				delAndMerService.join();
+				suggs.addAll(delAndMerService.getSuggestions());
+			}
+
+			suggs = sortSuggestions(suggs);
+			if(suggs.size() > 0){
+				int index = 0;
+				double nGramMinDistance = suggs.get(0).getEditDistance();
+
+				for(Suggestion sugg : suggs){
+					if(index < this.maxSuggestionPerNgram && nGramMinDistance == sugg.getEditDistance() && sugg.getEditDistance() > 0){
+						index++;
+					} else {
+						break;
+					}
+				}
+
+				if(index > 0){
+					suggs = suggs.subList(0, index);
+					ngramSuggestions.addAll(suggs);
+				}
+			}
+
+
+			this.writeToFile("...............................\n");
+			for (Suggestion s : suggs) {
+				ArrayList<String> arrSugg = new ArrayList<>(Arrays.asList(wArr));
+				this.writeToFile("Orig N-gram:" + ArrayToStringConverter.convert(wArr));
+				this.writeToFile("ED: " + s.getEditDistance() + " Freq: " + s.getFrequency());
+				if (s.getEditDistance() == 0)
+					this.writeToFile("N-gram is correct");
+				else {
+					for (SuggestionToken sugg : s.getSuggestions()) {
+						String stringCorrection = "";
+
+						if (sugg.getSuggType() == SuggestionType.SUBSTITUTION) {
+							if (sugg.isPOSGeneralized() == false) {
+								// System.out
+								// .println("Replace " + sugg.getWord() + "
+								// in " + arrSugg.get(sugg.getIndex())
+								// + ". " + " Edit Distance: " +
+								// sugg.getEditDistance());
+								stringCorrection = "Replace \"" + sugg.getWord() + "\" in \"" + arrSugg.get(sugg.getIndex()) + "\"";
+								this.writeToFile(stringCorrection + ". Edit Distance: " + sugg.getEditDistance());
+								arrSugg.set(sugg.getIndex(), sugg.getWord());
+							} else {
+								// System.out.println("TReplace " +
+								// sugg.getPos() + "(" + sugg.getWord() +
+								// ")" + " in "
+								// + arrSugg.get(sugg.getIndex()) + ". " + "
+								// Edit Distance:"
+								// + sugg.getEditDistance());
+								stringCorrection = "Replace \"" + sugg.getWord() + "\" in \""
+										+ arrSugg.get(sugg.getIndex()) + "\"";
+
+								this.writeToFile(stringCorrection + " Edit Distance:"
+										+ sugg.getEditDistance());
+								arrSugg.set(sugg.getIndex(), sugg.getPos());
+							}
+						} else if (sugg.getSuggType() == SuggestionType.INSERTION) {
+							if (sugg.isPOSGeneralized() == false) {
+								// System.out
+								// .println("Insert " + sugg.getWord() + "
+								// in before " + wArr[sugg.getIndex()]
+								// + ". " + " Edit Distance:" +
+								// sugg.getEditDistance());
+								stringCorrection = "Insert \"" + sugg.getWord() + "\" in before \"" + wArr[sugg.getIndex()] + "\"";
+
+								this.writeToFile(stringCorrection + ". Edit Distance:" + sugg.getEditDistance());
+								arrSugg.add(sugg.getIndex(), sugg.getWord());
+							} else {
+								// System.out.println("Insert " +
+								// sugg.getPos() + " in before " +
+								// wArr[sugg.getIndex()]
+								// + ". " + " Edit Distance:" +
+								// sugg.getEditDistance());
+								stringCorrection = "Insert \"" + sugg.getWord()
+										+ "\" in before \"" + wArr[sugg.getIndex()] + "\"";
+
+								this.writeToFile(stringCorrection + ". Edit Distance:"
+										+ sugg.getEditDistance());
+								arrSugg.add(sugg.getIndex(), sugg.getPos());
+							}
+						} else if (sugg.getSuggType() == SuggestionType.UNMERGING) {
+							// System.out.println("Unmerge " +
+							// wArr[sugg.getIndex()] + ". " + " Edit
+							// Distance:"
+							// + sugg.getEditDistance());
+							stringCorrection = "Unmerge \"" + wArr[sugg.getIndex()] + "\"";
+							this.writeToFile(stringCorrection + ". Edit Distance:"
+									+ sugg.getEditDistance());
+							arrSugg.set(sugg.getIndex(), sugg.getWord());
+						} else if (sugg.getSuggType() == SuggestionType.DELETION) {
+							// System.out.println("Delete " +
+							// wArr[sugg.getIndex()] + ". " + " Edit
+							// Distance:"
+							// + sugg.getEditDistance());
+							stringCorrection = "Delete \"" + wArr[sugg.getIndex()] + "\"";
+							this.writeToFile(stringCorrection + ". Edit Distance:"
+									+ sugg.getEditDistance());
+							arrSugg.remove(sugg.getIndex());
+						} else if (sugg.getSuggType() == SuggestionType.MERGING) {
+							// System.out.println("Merge " +
+							// wArr[sugg.getIndex()] + ". " + " Edit
+							// Distance:"
+							// + sugg.getEditDistance());
+							stringCorrection = "Merge \"" + wArr[sugg.getIndex()] + "\"";
+							this.writeToFile(stringCorrection + ". Edit Distance:"
+									+ sugg.getEditDistance());
+							arrSugg.set(sugg.getIndex(), sugg.getWord());
+							arrSugg.remove(sugg.getIndex() + 1);
+						}
+						String suggToConvert = ArrayToStringConverter.convert(arrSugg);
+
+						this.writeToFile("Sugg: " + suggToConvert);
+						sugg.setSuggestionString(stringCorrection);
+					}
+				}
+			}
+			this.writeToFile("...............................\n");
+		}
+
+		return ngramSuggestions;
 	}
 
 	private static String transformDelimiters(String words){

@@ -1,2618 +1,3765 @@
-Full: kikumpara ang babae 
-? DTC NNC
-? ang babae 3
+Full: ako ay naginom ng tinapay 
+PRS LM VBTS CCB NNC
+ako ay inom ng tinapay 5
 N-gram = 5
+...............................
+
+Orig N-gram:ako ay naginom ng tinapay
+ED: 1.0 Freq: 2
+Replace "ito" in "ako" Edit Distance:1.0
+Sugg: PRO ay naginom ng tinapay
+Orig N-gram:ako ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng tinapay
+Orig N-gram:ako ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng tinapay
+Orig N-gram:ako ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng tinapay
+Orig N-gram:ako ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng tinapay
+...............................
+
 N-gram = 4
+...............................
+
+Orig N-gram:ako ay naginom ng
+ED: 1.0 Freq: 3
+Replace "ito" in "ako" Edit Distance:1.0
+Sugg: PRO ay naginom ng
+Orig N-gram:ako ay naginom ng
+ED: 1.0 Freq: 3
+Replace "Griffith" in "ako" Edit Distance:1.0
+Sugg: NNP ay naginom ng
+Orig N-gram:ako ay naginom ng
+ED: 1.0 Freq: 2
+Replace "molekyul" in "ako" Edit Distance:1.0
+Sugg: NNC ay naginom ng
+Orig N-gram:ako ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng
+Orig N-gram:ako ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ako". Edit Distance:1.0
+Sugg: ay naginom ng
+...............................
+
+...............................
+
+Orig N-gram:ay naginom ng tinapay
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 2
+Insert "ito" in before "ay". Edit Distance:1.0
+Sugg: PRO ay naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+Orig N-gram:ay naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng tinapay
+...............................
+
 N-gram = 3
 ...............................
 
-Orig N-gram:kikumpara ang babae
-ED: 0.65 Freq: 1
-Replace "Kinukumpara" in "kikumpara" Edit Distance:0.65
-Sugg: VBTR ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 70
-Replace "ministro" in "kikumpara" Edit Distance:1.0
-Sugg: NNC ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 42
-Replace "," in "kikumpara". Edit Distance: 1.0
-Sugg: , ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 35
-Replace "matuloy" in "kikumpara" Edit Distance:1.0
-Sugg: VBW ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 34
-Replace "ginagawa" in "kikumpara" Edit Distance:1.0
-Sugg: VBTR ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 31
-Replace "at" in "kikumpara" Edit Distance:1.0
-Sugg: CCA ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 26
-Replace "ginanap" in "kikumpara" Edit Distance:1.0
-Sugg: VBOF ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 24
-Replace "pantay-pantay" in "kikumpara" Edit Distance:1.0
-Sugg: JJD ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 24
-Replace "na" in "kikumpara". Edit Distance: 1.0
-Sugg: na ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 19
-Replace "Tanganyika" in "kikumpara" Edit Distance:1.0
-Sugg: NNP ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 19
-Replace "nagtalaga" in "kikumpara" Edit Distance:1.0
-Sugg: VBTS ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 15
-Replace ")" in "kikumpara" Edit Distance:1.0
-Sugg: PMS ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-Replace "din" in "kikumpara" Edit Distance:1.0
-Sugg: RBI ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-Replace "bumaba" in "kikumpara" Edit Distance:1.0
-Sugg: VBAF ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 12
-Replace "dioxide" in "kikumpara" Edit Distance:1.0
-Sugg: FW ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 10
-Replace "kung" in "kikumpara" Edit Distance:1.0
-Sugg: CCR ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 9
-Replace "Kabilang" in "kikumpara" Edit Distance:1.0
-Sugg: CCT ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 7
-Replace "Minsan" in "kikumpara" Edit Distance:1.0
-Sugg: RBW ang babae
-Orig N-gram:kikumpara ang babae
+Orig N-gram:ako ay naginom
+ED: 1.0 Freq: 13
+Replace "milyon" in "ako" Edit Distance:1.0
+Sugg: NNC ay naginom
+Orig N-gram:ako ay naginom
+ED: 1.0 Freq: 8
+Replace "Roma" in "ako" Edit Distance:1.0
+Sugg: NNP ay naginom
+Orig N-gram:ako ay naginom
+ED: 1.0 Freq: 4
+Replace "nito" in "ako" Edit Distance:1.0
+Sugg: PRO ay naginom
+Orig N-gram:ako ay naginom
+ED: 1.0 Freq: 3
+Replace "”" in "ako" Edit Distance:1.0
+Sugg: PMS ay naginom
+Orig N-gram:ako ay naginom
+ED: 1.0 Freq: 2
+Replace "," in "ako". Edit Distance: 1.0
+Sugg: , ay naginom
+...............................
+
+...............................
+
+Orig N-gram:ay naginom ng
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 3
+Insert "ito" in before "ay". Edit Distance:1.0
+Sugg: PRO ay naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 3
+Insert "Griffith" in before "ay". Edit Distance:1.0
+Sugg: NNP ay naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 2
+Insert "molekyul" in before "ay". Edit Distance:1.0
+Sugg: NNC ay naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 2
+Insert "sa_loob" in before "ng". Edit Distance:1.0
+Sugg: ay naginom RBL ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+Orig N-gram:ay naginom ng
+ED: 1.0 Freq: 1
+Delete "ay". Edit Distance:1.0
+Sugg: naginom ng
+...............................
+
+...............................
+
+Orig N-gram:naginom ng tinapay
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 11
+Insert "matinding" in before "tinapay". Edit Distance:1.0
+Sugg: naginom ng JJD_CCP tinapay
+Orig N-gram:naginom ng tinapay
 ED: 1.0 Freq: 6
-Replace "ay" in "kikumpara". Edit Distance: 1.0
-Sugg: ay ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 5
-Replace "nito" in "kikumpara" Edit Distance:1.0
-Sugg: PRO ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 5
-Replace "US" in "kikumpara" Edit Distance:1.0
-Sugg: NNPA ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-Replace "matatagpuan" in "kikumpara" Edit Distance:1.0
-Sugg: VBTF ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-Replace "malaki" in "kikumpara" Edit Distance:1.0
-Sugg: RBD ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-Replace "38,329,000" in "kikumpara" Edit Distance:1.0
-Sugg: CDB ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 4
-Replace "saan" in "kikumpara" Edit Distance:1.0
-Sugg: RBQ ang babae
-Orig N-gram:kikumpara ang babae
+Insert "na" in before "naginom". Edit Distance:1.0
+Sugg: CCP naginom ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 6
+Insert "ay" in before "naginom". Edit Distance:1.0
+Sugg: LM naginom ng tinapay
+Orig N-gram:naginom ng tinapay
 ED: 1.0 Freq: 3
-Replace "sa_distrito" in "kikumpara" Edit Distance:1.0
-Sugg: RBL ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 3
-Replace "kasama" in "kikumpara" Edit Distance:1.0
-Sugg: CCB ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 3
-Replace "pinagsanib" in "kikumpara" Edit Distance:1.0
-Sugg: VBRF ang babae
-Orig N-gram:kikumpara ang babae
+Insert "ibang" in before "tinapay". Edit Distance:1.0
+Sugg: naginom ng PRI_CCP tinapay
+Orig N-gram:naginom ng tinapay
 ED: 1.0 Freq: 2
-Replace "iba" in "kikumpara". Edit Distance: 1.0
-Sugg: iba ang babae
-Orig N-gram:kikumpara ang babae
+Insert "at" in before "naginom". Edit Distance:1.0
+Sugg: CCA naginom ng tinapay
+Orig N-gram:naginom ng tinapay
 ED: 1.0 Freq: 2
-Replace "posible" in "kikumpara" Edit Distance:1.0
-Sugg: RBT ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
-Orig N-gram:kikumpara ang babae
-ED: 1.0 Freq: 1
-Delete "kikumpara". Edit Distance:1.0
-Sugg: ang babae
+Insert "ang" in before "naginom". Edit Distance:1.0
+Sugg: DTC naginom ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 2
+Insert "di" in before "naginom". Edit Distance:1.0
+Sugg: RBF naginom ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "ng". Edit Distance:1.0
+Sugg: naginom tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
+Orig N-gram:naginom ng tinapay
+ED: 1.0 Freq: 1
+Delete "naginom". Edit Distance:1.0
+Sugg: ng tinapay
 ...............................
 
 N-gram = 2
 ...............................
 
-Orig N-gram:kikumpara ang
-ED: 0.65 Freq: 1
-Replace "Kinukumpara" in "kikumpara" Edit Distance:0.65
-Sugg: VBTR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 213
-Replace "rasyonalismo" in "kikumpara" Edit Distance:1.0
-Sugg: NNC ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 121
-Replace "," in "kikumpara". Edit Distance: 1.0
-Sugg: , ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 80
-Replace "Nagbabago" in "kikumpara" Edit Distance:1.0
-Sugg: VBTR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 76
-Replace "Algeria" in "kikumpara" Edit Distance:1.0
-Sugg: NNP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 73
-Replace "at" in "kikumpara" Edit Distance:1.0
-Sugg: CCA ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 67
-Replace "gamitin" in "kikumpara" Edit Distance:1.0
-Sugg: VBOF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 56
-Replace "makahinga" in "kikumpara" Edit Distance:1.0
-Sugg: VBW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 53
-Replace "Nakabatay" in "kikumpara" Edit Distance:1.0
-Sugg: VBTS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 53
-Replace "na" in "kikumpara". Edit Distance: 1.0
-Sugg: na ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 52
-Replace "din" in "kikumpara" Edit Distance:1.0
-Sugg: RBI ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 51
-Replace "kernel" in "kikumpara" Edit Distance:1.0
-Sugg: FW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 50
-Replace "kaugnay" in "kikumpara" Edit Distance:1.0
-Sugg: JJD ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 38
-Replace "”" in "kikumpara" Edit Distance:1.0
-Sugg: PMS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 28
-Replace "o" in "kikumpara" Edit Distance:1.0
-Sugg: CCT ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 24
-Replace "bago" in "kikumpara" Edit Distance:1.0
-Sugg: RBW ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 22
-Replace "kumakatawan" in "kikumpara" Edit Distance:1.0
-Sugg: VBAF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 19
-Replace "Kapag" in "kikumpara" Edit Distance:1.0
-Sugg: CCR ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 17
-Replace "kasama" in "kikumpara" Edit Distance:1.0
-Sugg: CCB ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 17
-Replace "saan" in "kikumpara" Edit Distance:1.0
-Sugg: RBQ ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 16
-Replace "ay" in "kikumpara". Edit Distance: 1.0
-Sugg: ay ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 16
-Replace "nito" in "kikumpara" Edit Distance:1.0
-Sugg: PRO ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 14
-Replace "Magsisimula" in "kikumpara" Edit Distance:1.0
-Sugg: VBTF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 11
-Replace "GNU" in "kikumpara" Edit Distance:1.0
-Sugg: NNPA ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 11
-Replace "10,000" in "kikumpara" Edit Distance:1.0
-Sugg: CDB ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 8
-Replace "possible" in "kikumpara" Edit Distance:1.0
-Sugg: RBD ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 8
-Replace ";" in "kikumpara". Edit Distance: 1.0
-Sugg: ; ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 7
-Replace "pinagtatalunan" in "kikumpara" Edit Distance:1.0
-Sugg: VBRF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 6
-Replace "nasa_itaas" in "kikumpara" Edit Distance:1.0
-Sugg: RBL ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 5
-Replace "iba" in "kikumpara" Edit Distance:1.0
-Sugg: PRI ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 5
-Replace "niya" in "kikumpara" Edit Distance:1.0
-Sugg: PRS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 5
-Replace "nagsimula" in "kikumpara". Edit Distance: 1.0
-Sugg: nagsimula ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 4
-Replace "nila" in "kikumpara" Edit Distance:1.0
-Sugg: PRP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 4
-Replace "talaga" in "kikumpara" Edit Distance:1.0
-Sugg: RBT ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 4
-Replace "Sa_Italia" in "kikumpara" Edit Distance:1.0
-Sugg: RBL_NNP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 3
-Replace "roon" in "kikumpara" Edit Distance:1.0
-Sugg: PRL ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 3
-Replace "mayroon" in "kikumpara". Edit Distance: 1.0
-Sugg: mayroon ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 3
-Replace "wala" in "kikumpara". Edit Distance: 1.0
-Sugg: wala ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "pinapayagang" in "kikumpara" Edit Distance:1.0
-Sugg: VBTR_CCP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "pinagsasama" in "kikumpara" Edit Distance:1.0
-Sugg: VB_TR_RF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "iniduong" in "kikumpara" Edit Distance:1.0
-Sugg: VBTS_CCP ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "km" in "kikumpara" Edit Distance:1.0
-Sugg: NNCA ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "Dumadaan" in "kikumpara" Edit Distance:1.0
-Sugg: VB_TR_AF ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "alam" in "kikumpara" Edit Distance:1.0
-Sugg: VBS ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 2
-Replace "samantalang" in "kikumpara". Edit Distance: 1.0
-Sugg: samantalang ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "ring" in "kikumpara". Edit Distance: 1.0
-Sugg: ring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "Maaaring" in "kikumpara". Edit Distance: 1.0
-Sugg: Maaaring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "di-direkta" in "kikumpara". Edit Distance: 1.0
-Sugg: di-direkta ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "tatlo" in "kikumpara". Edit Distance: 1.0
-Sugg: tatlo ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "dayandang" in "kikumpara". Edit Distance: 1.0
-Sugg: dayandang ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "kanila" in "kikumpara". Edit Distance: 1.0
-Sugg: kanila ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "Gayong" in "kikumpara". Edit Distance: 1.0
-Sugg: Gayong ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "maaaring" in "kikumpara". Edit Distance: 1.0
-Sugg: maaaring ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "napakalaki" in "kikumpara". Edit Distance: 1.0
-Sugg: napakalaki ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "nang_buo" in "kikumpara". Edit Distance: 1.0
-Sugg: nang_buo ang
-Orig N-gram:kikumpara ang
-ED: 1.0 Freq: 1
-Replace "Kapaki-pakinabang" in "kikumpara". Edit Distance: 1.0
-Sugg: Kapaki-pakinabang ang
+Orig N-gram:ako ay
+ED: 0.8 Freq: 1
+Replace "ikaw" in "ako". Edit Distance: 0.8
+Sugg: ikaw ay
 ...............................
 
 ...............................
 
-Orig N-gram:ang babae
+Orig N-gram:ay naginom
 ED: 0.0 Freq: 0
 N-gram is correct
-Orig N-gram:ang babae
-ED: 1.0 Freq: 70
-Insert "ministro" in before "ang". Edit Distance:1.0
-Sugg: NNC ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 53
-Insert "malaking" in before "babae". Edit Distance:1.0
-Sugg: ang JJD_CCP babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 42
-Insert "," in before "ang". Edit Distance:1.0
-Sugg: PMC ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 39
-Insert "ginagawa" in before "ang". Edit Distance:1.0
-Sugg: VBTR ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 35
-Insert "matuloy" in before "ang". Edit Distance:1.0
-Sugg: VBW ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 30
-Insert "at" in before "ang". Edit Distance:1.0
-Sugg: CCA ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 28
-Insert "pantay-pantay" in before "ang". Edit Distance:1.0
-Sugg: JJD ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 28
-Insert "buong" in before "babae". Edit Distance:1.0
-Sugg: ang PRI_CCP babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 26
-Insert "ginanap" in before "ang". Edit Distance:1.0
-Sugg: VBOF ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 24
-Insert "na" in before "ang". Edit Distance:1.0
-Sugg: CCP ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 21
-Insert "nagtalaga" in before "ang". Edit Distance:1.0
-Sugg: VBTS ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 19
-Insert "Tanganyika" in before "ang". Edit Distance:1.0
-Sugg: NNP ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 15
-Insert ")" in before "ang". Edit Distance:1.0
-Sugg: PMS ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 14
-Insert "dioxide" in before "ang". Edit Distance:1.0
-Sugg: FW ang babae
-Orig N-gram:ang babae
+Orig N-gram:ay naginom
 ED: 1.0 Freq: 13
-Insert "bawat" in before "babae". Edit Distance:1.0
-Sugg: ang PRI babae
-Orig N-gram:ang babae
+Insert "milyon" in before "ay". Edit Distance:1.0
+Sugg: NNC ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 8
+Insert "Roma" in before "ay". Edit Distance:1.0
+Sugg: NNP ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 4
+Insert "nito" in before "ay". Edit Distance:1.0
+Sugg: PRO ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 3
+Insert "”" in before "ay". Edit Distance:1.0
+Sugg: PMS ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 2
+Insert "," in before "ay". Edit Distance:1.0
+Sugg: PMC ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 2
+Insert "genome" in before "ay". Edit Distance:1.0
+Sugg: FW ay naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 2
+Insert "isang" in before "naginom". Edit Distance:1.0
+Sugg: ay PRI_CCP naginom
+Orig N-gram:ay naginom
+ED: 1.0 Freq: 2
+Insert "kadalasang" in before "naginom". Edit Distance:1.0
+Sugg: ay RBW_CCP naginom
+...............................
+
+...............................
+
+Orig N-gram:naginom ng
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 15
+Insert "na" in before "naginom". Edit Distance:1.0
+Sugg: CCP naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 11
+Insert "ay" in before "naginom". Edit Distance:1.0
+Sugg: LM naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 8
+Insert "ang" in before "naginom". Edit Distance:1.0
+Sugg: DTC naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 8
+Insert "," in before "naginom". Edit Distance:1.0
+Sugg: PMC naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 5
+Insert "at" in before "naginom". Edit Distance:1.0
+Sugg: CCA naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 4
+Insert "sa_isla" in before "ng". Edit Distance:1.0
+Sugg: naginom RBL ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 3
+Insert "ito" in before "ng". Edit Distance:1.0
+Sugg: naginom PRO ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 3
+Insert "kautusan" in before "ng". Edit Distance:1.0
+Sugg: naginom NNC ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 3
+Insert "mga" in before "naginom". Edit Distance:1.0
+Sugg: DTCP naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 2
+Insert "unang" in before "naginom". Edit Distance:1.0
+Sugg: JJN_CCP naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 2
+Insert "walang" in before "naginom". Edit Distance:1.0
+Sugg: RBF naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 2
+Insert "siyang" in before "naginom". Edit Distance:1.0
+Sugg: PRS_CCP naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 2
+Insert "paano" in before "naginom". Edit Distance:1.0
+Sugg: RBQ naginom ng
+Orig N-gram:naginom ng
+ED: 1.0 Freq: 2
+Insert "maaring" in before "naginom". Edit Distance:1.0
+Sugg: RBM naginom ng
+...............................
+
+...............................
+
+Orig N-gram:ng tinapay
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 453
+Insert "pangalan" in before "ng". Edit Distance:1.0
+Sugg: NNC ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 81
+Insert "kataas-taasang" in before "tinapay". Edit Distance:1.0
+Sugg: ng JJD_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 53
+Insert "Pinipili" in before "ng". Edit Distance:1.0
+Sugg: VBTR ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 40
+Insert "ibang" in before "tinapay". Edit Distance:1.0
+Sugg: ng PRI_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 29
+Insert "naglaan" in before "ng". Edit Distance:1.0
+Sugg: VBTS ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 24
+Insert "lahat" in before "ng". Edit Distance:1.0
+Sugg: PRI ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 24
+Insert "network" in before "ng". Edit Distance:1.0
+Sugg: FW ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 23
+Insert "pangunguna" in before "ng". Edit Distance:1.0
+Sugg: JJD ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 20
+Insert "Sa_ilalim" in before "ng". Edit Distance:1.0
+Sugg: RBL ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 18
+Insert "magmungkahi" in before "ng". Edit Distance:1.0
+Sugg: VBW ng tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 15
+Insert "ating" in before "tinapay". Edit Distance:1.0
+Sugg: ng PRSP_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 14
+Insert "pitong" in before "tinapay". Edit Distance:1.0
+Sugg: ng JJN_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 13
+Insert "gumawa" in before "ng". Edit Distance:1.0
+Sugg: VBAF ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 12
-Insert "din" in before "ang". Edit Distance:1.0
-Sugg: RBI ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 12
-Insert "bumaba" in before "ang". Edit Distance:1.0
-Sugg: VBAF ang babae
-Orig N-gram:ang babae
+Insert "dugong" in before "tinapay". Edit Distance:1.0
+Sugg: ng NNC_CCP tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 10
-Insert "kung" in before "ang". Edit Distance:1.0
-Sugg: CCR ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 9
-Insert "Kabilang" in before "ang". Edit Distance:1.0
-Sugg: CCT ang babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 8
-Insert "pinakamatandang" in before "babae". Edit Distance:1.0
-Sugg: ang JJCS_JJD_CCP babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 8
-Insert "dalawang" in before "babae". Edit Distance:1.0
-Sugg: ang JJN_CCP babae
-Orig N-gram:ang babae
+Insert "%" in before "ng". Edit Distance:1.0
+Sugg: PMS ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 7
-Insert "X" in before "babae". Edit Distance:1.0
-Sugg: ang NNPA babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 7
-Insert "Minsan" in before "ang". Edit Distance:1.0
-Sugg: RBW ang babae
-Orig N-gram:ang babae
+Insert "gumagamit" in before "ng". Edit Distance:1.0
+Sugg: VB_TR_AF ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 6
-Insert "kanyang" in before "babae". Edit Distance:1.0
-Sugg: ang PRSP_CCP babae
-Orig N-gram:ang babae
+Insert "hinirang" in before "ng". Edit Distance:1.0
+Sugg: VBOF ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 6
-Insert "ay" in before "ang". Edit Distance:1.0
-Sugg: LM ang babae
-Orig N-gram:ang babae
+Insert "pagkatapos" in before "ng". Edit Distance:1.0
+Sugg: RBW ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 5
-Insert "nito" in before "ang". Edit Distance:1.0
-Sugg: PRO ang babae
-Orig N-gram:ang babae
+Insert "tataas" in before "ng". Edit Distance:1.0
+Sugg: VBTF ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 5
-Insert "pinakamalaking" in before "babae". Edit Distance:1.0
-Sugg: ang JJCS_JJD babae
-Orig N-gram:ang babae
+Insert "ika-21" in before "tinapay". Edit Distance:1.0
+Sugg: ng JJN tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 5
+Insert "parehong" in before "tinapay". Edit Distance:1.0
+Sugg: ng JJC_CCP tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "matatagpuan" in before "ang". Edit Distance:1.0
-Sugg: VBTF ang babae
-Orig N-gram:ang babae
+Insert "sa" in before "tinapay". Edit Distance:1.0
+Sugg: ng CCT tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "malaki" in before "ang". Edit Distance:1.0
-Sugg: RBD ang babae
-Orig N-gram:ang babae
+Insert "ito" in before "ng". Edit Distance:1.0
+Sugg: PRO ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "38,329,000" in before "ang". Edit Distance:1.0
-Sugg: CDB ang babae
-Orig N-gram:ang babae
+Insert "at" in before "ng". Edit Distance:1.0
+Sugg: CCA ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "inaasang" in before "babae". Edit Distance:1.0
-Sugg: ang VBTR_CCP babae
-Orig N-gram:ang babae
+Insert "kasama" in before "ng". Edit Distance:1.0
+Sugg: CCB ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "saan" in before "ang". Edit Distance:1.0
-Sugg: RBQ ang babae
-Orig N-gram:ang babae
+Insert "sa_pagitan" in before "ng". Edit Distance:1.0
+Sugg: CCU ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "hemopilyang" in before "babae". Edit Distance:1.0
-Sugg: ang NNC_CCP babae
-Orig N-gram:ang babae
+Insert "din" in before "ng". Edit Distance:1.0
+Sugg: RBI ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 4
-Insert "may" in before "babae". Edit Distance:1.0
-Sugg: ang VBH babae
-Orig N-gram:ang babae
+Insert "TV" in before "tinapay". Edit Distance:1.0
+Sugg: ng NNPA tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 3
-Insert "sa_distrito" in before "ang". Edit Distance:1.0
-Sugg: RBL ang babae
-Orig N-gram:ang babae
+Insert "ang" in before "tinapay". Edit Distance:1.0
+Sugg: ng DTC tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 3
-Insert "kasama" in before "ang". Edit Distance:1.0
-Sugg: CCB ang babae
-Orig N-gram:ang babae
+Insert "pinagkukunan" in before "ng". Edit Distance:1.0
+Sugg: VB_TR_RF ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 3
-Insert "natirang" in before "babae". Edit Distance:1.0
-Sugg: ang VBTS_CCP babae
-Orig N-gram:ang babae
+Insert "pinakataas" in before "ng". Edit Distance:1.0
+Sugg: JJCS_JJD ng tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 3
-Insert "pinagsanib" in before "ang". Edit Distance:1.0
-Sugg: VBRF ang babae
-Orig N-gram:ang babae
+Insert "naliwanagang" in before "tinapay". Edit Distance:1.0
+Sugg: ng VBTS_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 3
+Insert "ganong" in before "tinapay". Edit Distance:1.0
+Sugg: ng PRC_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 3
+Insert "ilang" in before "tinapay". Edit Distance:1.0
+Sugg: ng PRQ_CCP tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 2
-Insert "kaparehong" in before "babae". Edit Distance:1.0
-Sugg: ang JJC_CCP babae
-Orig N-gram:ang babae
+Insert "walang" in before "tinapay". Edit Distance:1.0
+Sugg: ng VBN_CCP tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 2
-Insert "ganitong" in before "babae". Edit Distance:1.0
-Sugg: ang PRC_CCP babae
-Orig N-gram:ang babae
+Insert "Kaliwanagang" in before "tinapay". Edit Distance:1.0
+Sugg: ng NNP tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 2
-Insert "posible" in before "ang". Edit Distance:1.0
-Sugg: RBT ang babae
-Orig N-gram:ang babae
+Insert "hindi" in before "tinapay". Edit Distance:1.0
+Sugg: ng RBF tinapay
+Orig N-gram:ng tinapay
 ED: 1.0 Freq: 2
-Insert "sadyang" in before "babae". Edit Distance:1.0
-Sugg: ang RBT_CCP babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 1
-Insert "kalagitnaang" in before "babae". Edit Distance:1.0
-Sugg: ang RBW_CCP babae
-Orig N-gram:ang babae
-ED: 1.0 Freq: 1
-Insert "pangalan" in before "babae". Edit Distance:1.0
-Sugg: ang DTC babae
+Insert "nakakapinsalang" in before "tinapay". Edit Distance:1.0
+Sugg: ng VBTR_CCP tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 2
+Insert "5" in before "tinapay". Edit Distance:1.0
+Sugg: ng CDB tinapay
+Orig N-gram:ng tinapay
+ED: 1.0 Freq: 2
+Insert "magsilbing" in before "tinapay". Edit Distance:1.0
+Sugg: ng VBW_CCP tinapay
 ...............................
 
