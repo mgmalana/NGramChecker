@@ -81,7 +81,7 @@ public class GrammarChecker {
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	 public List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
+	public List<Suggestion> checkGrammar(String words) throws IOException, InterruptedException {
 		POSTagger postagger = new  POSTagger(findTagger_model());
 		Stemmer stemmer = new Stemmer();
 		SpellChecker spellChecker = new SpellChecker();
@@ -92,18 +92,18 @@ public class GrammarChecker {
 		List<String> posList = postagger.tagSentence(words).getTags();
 		String[] lemmasList = stemmer.lemmatizeMultiple(wordList);
 
-		 for(int i = 0; i < wordList.length; i++){
+		for(int i = 0; i < wordList.length; i++){
 			if(!spellChecker.isWordValid(wordList[i])){
 				lemmasList[i] = "?";
 				posList.set(i, "?");
 			}
-		 }
+		}
 
-		 String pos = String.join(" ", posList);
-		 String lemmas = String.join(" ", lemmasList);
+		String pos = arrayToString(posList);
+		String lemmas = arrayToString(lemmasList);
 
 		return checkGrammar(words, pos, lemmas);
-	 }
+	}
 
 	/**
 	 * Detects and suggests grammar corrections of a sentence
@@ -369,14 +369,14 @@ public class GrammarChecker {
 				public int compare(final Suggestion object1, final Suggestion object2) {
 					return object1.getEditDistance() < object2.getEditDistance() ? -1
 							: object1.getEditDistance() > object2
-									.getEditDistance()
-											? 1
-											: (object1.getEditDistance() == object2.getEditDistance()
-													&& object1.getFrequency() > object2.getFrequency())
-															? -1
-															: (object1.getEditDistance() == object2.getEditDistance()
-																	&& object1.getFrequency() < object2.getFrequency())
-																			? 1 : 0;
+							.getEditDistance()
+							? 1
+							: (object1.getEditDistance() == object2.getEditDistance()
+							&& object1.getFrequency() > object2.getFrequency())
+							? -1
+							: (object1.getEditDistance() == object2.getEditDistance()
+							&& object1.getFrequency() < object2.getFrequency())
+							? 1 : 0;
 				}
 			});
 		}
@@ -387,5 +387,25 @@ public class GrammarChecker {
 		if(isGenerateTextFile){
 			fm.writeToFile(toWrite);
 		}
+	}
+
+	private String arrayToString(String[] list){
+		String temp = "";
+
+		for (String word: list){
+			temp += " " + word;
+		}
+
+		return temp;
+	}
+
+	private String arrayToString(List<String> list){
+		String temp = "";
+
+		for (String word: list){
+			temp += " " + word;
+		}
+
+		return temp;
 	}
 }

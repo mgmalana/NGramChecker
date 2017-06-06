@@ -34,8 +34,17 @@ public class Stemmer
 		String[] arrayWords = words.split(" ");
 		MainController mc = new MainController( arrayWords );
 		String[] arrayResults = mc.getLemmasArray();
-		return String.join(" ", arrayResults);
+		return arrayToString(arrayResults);
+	}
 
+	private String arrayToString(String[] list){
+		String temp = "";
+
+		for (String word: list){
+			temp += " " + word;
+		}
+
+		return temp;
 	}
 
 
