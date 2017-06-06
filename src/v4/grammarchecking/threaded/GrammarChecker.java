@@ -395,7 +395,9 @@ public class GrammarChecker {
 		for (String word: list){
 			temp += " " + word;
 		}
-
+		if (temp.length() > 0) {
+			temp = temp.substring(1);
+		}
 		return temp;
 	}
 
@@ -404,6 +406,10 @@ public class GrammarChecker {
 
 		for (String word: list){
 			temp += " " + word;
+		}
+
+		if (temp.length() > 0) {
+			temp = temp.substring(1);
 		}
 
 		return temp;

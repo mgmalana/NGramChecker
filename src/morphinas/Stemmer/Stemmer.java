@@ -44,6 +44,9 @@ public class Stemmer
 			temp += " " + word;
 		}
 
+		if (temp.length() > 0) {
+			temp = temp.substring(1);
+		}
 		return temp;
 	}
 
