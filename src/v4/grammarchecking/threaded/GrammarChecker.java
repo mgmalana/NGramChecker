@@ -30,8 +30,8 @@ public class GrammarChecker {
 	private static String[] delimiters = { ".", ",", "!", "?"};
 	private boolean isVerbose;
 	private boolean isGenerateTextFile;
+	private int nGramSizeToGet = 1;
 	private final static int maxSuggestionPerNgram = 5;
-	private final static int nGramSizeToGet = 1;
 	private FileManager fm;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
@@ -43,20 +43,21 @@ public class GrammarChecker {
 		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
 
 
-		grammarChecker = new GrammarChecker(true, true);
+		grammarChecker = new GrammarChecker(true, true, 5);
 
-		for(String sugg: grammarChecker.getGrammarSuggestions("ako ay naginom ng tinapay")){
+		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ng babaa")){
 			System.out.println(sugg);
 		}
 	}
 
 	public GrammarChecker(){
-		this(false, false);
+		this(false, false, 5);
 	}
 
-	public GrammarChecker(boolean isVerbose, boolean isGenerateTextFile){
+	public GrammarChecker(boolean isVerbose, boolean isGenerateTextFile, int nGramSizeToGet){
 		this.isVerbose = isVerbose;
 		this.isGenerateTextFile = isGenerateTextFile;
+		this.nGramSizeToGet = nGramSizeToGet;
 	}
 
 	public String[] getGrammarSuggestions(String words) throws IOException, InterruptedException {
