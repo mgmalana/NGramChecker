@@ -45,7 +45,7 @@ public class GrammarChecker {
 
 		grammarChecker = new GrammarChecker(true, true, 5);
 
-		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ng babaa")){
+		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
 			System.out.println(sugg);
 		}
 	}
