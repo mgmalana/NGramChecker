@@ -1,6 +1,6 @@
 package optimization.models;
 
-import v4.models.SuggestionType;
+import grammarchecker.models.SuggestionType;
 
 public class Suggestion {
 

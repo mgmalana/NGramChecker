@@ -1,4 +1,4 @@
-package FilesToRules;
+package grammarchecker.training.service;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,15 +17,7 @@ import grammarchecker.dao.POS_NGram_Indexer;
 
 public class NGramPopulator {
 
-	public static void main(String[] args) {
-
-		NGramPopulator ngramPopulator = new NGramPopulator();
-
-		ngramPopulator.populateNGrams();
-	}
-
-	public void populateNGrams() {
-
+	public void populateNGrams() throws InterruptedException {
 		File folder = new File(Constants.FEEDING_TO_SQL);
 		File[] files = folder.listFiles();
 
@@ -42,12 +34,15 @@ public class NGramPopulator {
 				wordFiles.add(f);
 		}
 
+		List<NGramPopulatorThread> ts = new ArrayList<>();
 		for (int ngramSize = 2; ngramSize <= 7; ngramSize++) {
 
 			NGramPopulatorThread t = new NGramPopulatorThread(wordFiles, posFiles, lemmaFiles, ngramSize);
+			ts.add(t);
 			t.start();
 		}
 	}
+
 }
 
 class NGramPopulatorThread extends Thread {
@@ -103,17 +98,19 @@ class NGramPopulatorThread extends Thread {
 					String[] pArr = p.split(" ");
 
 					for (int i = 0; i + ngramSize - 1 < sArr.length; i++) {
-						String words = ArrayToStringConverter.convert(Arrays.copyOfRange(sArr, i, i + ngramSize));
-						String lemmas = ArrayToStringConverter.convert(Arrays.copyOfRange(lArr, i, i + ngramSize));
+						String[] ngramWords = Arrays.copyOfRange(sArr, i, i + ngramSize);
+						String words = ArrayToStringConverter.convert(ngramWords);
+						String[] ngramLemmas = Arrays.copyOfRange(lArr, i, i + ngramSize);
+						String lemmas = ArrayToStringConverter.convert(ngramLemmas);
 						String[] ngramPos = Arrays.copyOfRange(pArr, i, i + ngramSize);
 						String pos = ArrayToStringConverter.convert(ngramPos);
 
 						int id = ngramDao.add(words, lemmas, pos);
-						indexer.add(ngramPos, id);
 					}
 				}
 			}
-
+			System.out.println(ngramSize + " Done");
+			ngramDao.closeConnection();
 		} catch (IOException | SQLException e)
 
 		{

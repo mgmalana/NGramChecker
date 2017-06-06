@@ -7,8 +7,8 @@ import java.util.List;
 
 import util.Constants;
 import util.FileManager;
-import v4.grammarchecking.threaded.TestErrorsProvider;
-import v4.models.Input;
+import grammarchecker.grammarchecking.threaded.TestErrorsProvider;
+import grammarchecker.models.Input;
 
 public class LaurenzLemmaTestDataAlignment {
 

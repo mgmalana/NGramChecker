@@ -7,9 +7,9 @@ import java.util.HashSet;
 import java.util.List;
 
 import util.ArrayToStringConverter;
-import v4.dao.DaoManager;
-import v4.dao.NGramDao;
-import v4.models.NGram;
+import grammarchecker.dao.DaoManager;
+import grammarchecker.dao.NGramDao;
+import grammarchecker.models.NGram;
 
 public class RulesGeneralizationService {
 	static RulesGeneralizationService rgService = new RulesGeneralizationService();

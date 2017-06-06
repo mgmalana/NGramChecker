@@ -1,32 +1,28 @@
-package FilesToRules;
+package grammarchecker.training.service;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.SQLException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import util.ArrayToStringConverter;
 import util.Constants;
-import grammarchecker.dao.DaoManager;
-import grammarchecker.dao.NGramDao;
-import grammarchecker.dao.POS_NGram_Indexer;
 
-public class NGramPopulator {
+public class GrammaticallyCorrectTestDataGenerator {
 
-	public static void main(String[] args) {
-
-		NGramPopulator ngramPopulator = new NGramPopulator();
-
-		ngramPopulator.populateNGrams();
+	public static void main(String[] args) throws InterruptedException {
+		GrammaticallyCorrectTestDataGenerator tdg = new GrammaticallyCorrectTestDataGenerator();
+		tdg.readFiles();
 	}
 
-	public void populateNGrams() {
-
-		File folder = new File(Constants.FEEDING_TO_SQL);
+	public void readFiles() throws InterruptedException {
+		File folder = new File(Constants.FOR_INPUT_TEST_DATA);
 		File[] files = folder.listFiles();
 
 		List<File> lemmaFiles = new ArrayList<>();
@@ -42,22 +38,25 @@ public class NGramPopulator {
 				wordFiles.add(f);
 		}
 
+		List<FileNGramGenerator> ts = new ArrayList<>();
 		for (int ngramSize = 2; ngramSize <= 7; ngramSize++) {
 
-			NGramPopulatorThread t = new NGramPopulatorThread(wordFiles, posFiles, lemmaFiles, ngramSize);
+			FileNGramGenerator t = new FileNGramGenerator(wordFiles, posFiles, lemmaFiles, ngramSize);
+			ts.add(t);
 			t.start();
 		}
 	}
+
 }
 
-class NGramPopulatorThread extends Thread {
+class FileNGramGenerator extends Thread {
 
 	List<File> wordFiles;
 	List<File> posFiles;
 	List<File> lemmaFiles;
 	private int ngramSize;
 
-	public NGramPopulatorThread(List<File> wordFiles, List<File> posFiles, List<File> lemmaFiles, int ngramSize) {
+	public FileNGramGenerator(List<File> wordFiles, List<File> posFiles, List<File> lemmaFiles, int ngramSize) {
 		this.wordFiles = wordFiles;
 		this.posFiles = posFiles;
 		this.lemmaFiles = lemmaFiles;
@@ -69,9 +68,6 @@ class NGramPopulatorThread extends Thread {
 		BufferedReader sourceLemmasReader;
 		BufferedReader sourceSentencesReader;
 		BufferedReader sourceTagsReader;
-
-		NGramDao ngramDao = DaoManager.getNGramDao(ngramSize);
-		POS_NGram_Indexer indexer = DaoManager.getIndexer(ngramSize);
 
 		try {
 			for (int n = 0; n < lemmaFiles.size(); n++) {
@@ -103,23 +99,48 @@ class NGramPopulatorThread extends Thread {
 					String[] pArr = p.split(" ");
 
 					for (int i = 0; i + ngramSize - 1 < sArr.length; i++) {
-						String words = ArrayToStringConverter.convert(Arrays.copyOfRange(sArr, i, i + ngramSize));
-						String lemmas = ArrayToStringConverter.convert(Arrays.copyOfRange(lArr, i, i + ngramSize));
+						String[] ngramWords = Arrays.copyOfRange(sArr, i, i + ngramSize);
+						String words = ArrayToStringConverter.convert(ngramWords);
+						String[] ngramLemmas = Arrays.copyOfRange(lArr, i, i + ngramSize);
+						String lemmas = ArrayToStringConverter.convert(ngramLemmas);
 						String[] ngramPos = Arrays.copyOfRange(pArr, i, i + ngramSize);
 						String pos = ArrayToStringConverter.convert(ngramPos);
 
-						int id = ngramDao.add(words, lemmas, pos);
-						indexer.add(ngramPos, id);
+						writeToFile(words, lemmas, pos, ngramSize);
 					}
 				}
 			}
-
-		} catch (IOException | SQLException e)
+			System.out.println(ngramSize + " Done");
+		} catch (IOException e)
 
 		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
+	}
+
+	public void writeToFile(String words, String lemmas, String pos, int ngramSize) throws IOException {
+		File folder = new File(Constants.FOR_NGRAM_TEST_DATA);
+		File fileWord = new File(folder.getPath() + "/" + ngramSize + "_words.txt");
+		File fileTag = new File(folder.getPath() + "/" + ngramSize + "_tags.txt");
+		File fileLemm = new File(folder.getPath() + "/" + ngramSize + "_lemmas.txt");
+		System.out.println(fileWord.getPath());
+		if (!fileWord.exists())
+			fileWord.createNewFile();
+		if (!fileTag.exists())
+			fileTag.createNewFile();
+		if (!fileLemm.exists())
+			fileLemm.createNewFile();
+		words = words + "\n";
+		lemmas = lemmas + "\n";
+		pos = pos + "\n";
+		try {
+			Files.write(Paths.get(fileWord.getPath()), words.getBytes(), StandardOpenOption.APPEND);
+			Files.write(Paths.get(fileTag.getPath()), pos.getBytes(), StandardOpenOption.APPEND);
+			Files.write(Paths.get(fileLemm.getPath()), lemmas.getBytes(), StandardOpenOption.APPEND);
+		} catch (IOException e) {
+			// exception handling left as an exercise for the reader
+		}
 	}
 }
