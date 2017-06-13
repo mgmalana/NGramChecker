@@ -36,7 +36,7 @@ public class GrammarChecker {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		try {
-			GrammarChecker grammarChecker = new GrammarChecker(true, true, 5);
+			GrammarChecker grammarChecker = new GrammarChecker(false, true, 5);
 
 			for(String sugg: grammarChecker.getGrammarSuggestions(args[0])){
 				System.out.println(sugg);
@@ -138,33 +138,21 @@ public class GrammarChecker {
 
 		List<Suggestion> topSuggestions = new ArrayList<>();
 
+		int size = Constants.NGRAM_SIZE_UPPER;
 
 		if(this.nGramSizeToGet >= Constants.NGRAM_SIZE_LOWER && this.nGramSizeToGet <= Constants.NGRAM_SIZE_UPPER){
-
-			for (int ngramSize = this.nGramSizeToGet; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
-				if(isVerbose) {
-					System.out.println("N-gram = " + ngramSize);
-				}
-				this.writeToFile("N-gram = " + ngramSize);
-
-				topSuggestions.addAll(getNgramSuggestions(ngramSize, testError));
-
-				if(topSuggestions.size() > 0){
-					break;
-				}
-			}
-		} else {
-			topSuggestions = new ArrayList<>();
-
-			for (int ngramSize = Constants.NGRAM_SIZE_UPPER; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
-				if(isVerbose) {
-					System.out.println("N-gram = " + ngramSize);
-				}
-				this.writeToFile("N-gram = " + ngramSize);
-
-				topSuggestions.addAll(getNgramSuggestions(ngramSize, testError));
-			}
+			size = nGramSizeToGet;
 		}
+
+		for (int ngramSize = size; ngramSize >= Constants.NGRAM_SIZE_LOWER; ngramSize--) {
+			if(isVerbose) {
+				System.out.println("N-gram = " + ngramSize);
+			}
+			this.writeToFile("N-gram = " + ngramSize);
+
+			topSuggestions.addAll(getNgramSuggestions(ngramSize, testError));
+		}
+
 
 		if(isGenerateTextFile) {
 			fm.close();
