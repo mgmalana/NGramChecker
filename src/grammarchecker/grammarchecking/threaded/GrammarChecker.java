@@ -37,17 +37,18 @@ public class GrammarChecker {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		// 0, 4, 11, 14 - working
 		// 5 - not
-		GrammarChecker grammarChecker = new GrammarChecker();
-//
-		Input testError = testErrorsProvider.getTestErrors().get(0);
-		List<Suggestion> suggestions = grammarChecker.checkGrammar(testError);
 
+		try {
+			GrammarChecker grammarChecker = new GrammarChecker(true, true, 5);
 
-		grammarChecker = new GrammarChecker(true, true, 5);
-
-		for(String sugg: grammarChecker.getGrammarSuggestions("kikumpara ang babae")){
-			System.out.println(sugg);
+			for(String sugg: grammarChecker.getGrammarSuggestions(args[0])){
+				System.out.println(sugg);
+			}
+		} catch (ArrayIndexOutOfBoundsException e){
+			System.out.println("Please add the sentence argument to runnable jar");
 		}
+
+
 	}
 
 	public GrammarChecker(){
