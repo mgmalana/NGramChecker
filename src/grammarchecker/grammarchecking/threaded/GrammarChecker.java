@@ -35,9 +35,6 @@ public class GrammarChecker {
 	private FileManager fm;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		// 0, 4, 11, 14 - working
-		// 5 - not
-
 		try {
 			GrammarChecker grammarChecker = new GrammarChecker(true, true, 5);
 
