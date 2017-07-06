@@ -40,14 +40,10 @@ public class GrammarChecker {
 
 		while(true){
 			System.out.println("Please enter your sentence: ");
+			String sentence = sc.nextLine();
 
 			GrammarChecker grammarChecker = new GrammarChecker(true, true, 5);
-
-			System.out.println("Suggestions: ");
-
-			for(String sugg: grammarChecker.getGrammarSuggestions(sc.nextLine())){
-				System.out.println(sugg);
-			}
+			grammarChecker.printGrammarSuggestions(sentence);
 		}
 
 
@@ -63,10 +59,17 @@ public class GrammarChecker {
 		this.nGramSizeToGet = nGramSizeToGet;
 	}
 
+	public void printGrammarSuggestions(String words) throws IOException, InterruptedException {
+		for(String sugg: getGrammarSuggestions(words)){
+			System.out.println(sugg);
+		}
+	}
+
 	public String[] getGrammarSuggestions(String words) throws IOException, InterruptedException {
 		List <Suggestion> suggestions = checkGrammar(words);
 		List <String> stringSuggs = new ArrayList<>();
 
+		System.out.println("Suggestions: ");
 		for (Suggestion s: suggestions){
 			for (SuggestionToken sugg : s.getSuggestions()){
 				stringSuggs.add(sugg.getSuggestionString());
