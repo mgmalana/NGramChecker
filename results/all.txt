@@ -1,14 +1,222 @@
-Full: kikumpara ang babae 
-? DTC NNC
-? ang babae 3
+Full: kikumpara ng babae 
+? CCB NNC
+? ng babae 3
 N-gram = 5
 N-gram = 4
 N-gram = 3
 ...............................
 
-Orig N-gram:kikumpara ang babae
-ED: 0.65 Freq: 1
-Replace "Kinukumpara" in "kikumpara" Edit Distance:0.65
-Sugg: VBTR ang babae
+Orig N-gram:kikumpara ng babae
+ED: 1.0 Freq: 454
+Replace "pangalan" in "kikumpara" Edit Distance:1.0
+Sugg: NNC ng babae
+Orig N-gram:kikumpara ng babae
+ED: 1.0 Freq: 53
+Replace "Pinipili" in "kikumpara" Edit Distance:1.0
+Sugg: VBTR ng babae
+Orig N-gram:kikumpara ng babae
+ED: 1.0 Freq: 29
+Replace "naglaan" in "kikumpara" Edit Distance:1.0
+Sugg: VBTS ng babae
+Orig N-gram:kikumpara ng babae
+ED: 1.0 Freq: 22
+Replace "network" in "kikumpara" Edit Distance:1.0
+Sugg: FW ng babae
+Orig N-gram:kikumpara ng babae
+ED: 1.0 Freq: 20
+Replace "Sa_ilalim" in "kikumpara" Edit Distance:1.0
+Sugg: RBL ng babae
+...............................
+
+N-gram = 2
+...............................
+
+Orig N-gram:kikumpara ng
+ED: 1.0 Freq: 997
+Replace "milya" in "kikumpara" Edit Distance:1.0
+Sugg: NNC ng
+Orig N-gram:kikumpara ng
+ED: 1.0 Freq: 156
+Replace "Hinihikayat" in "kikumpara" Edit Distance:1.0
+Sugg: VBTR ng
+Orig N-gram:kikumpara ng
+ED: 1.0 Freq: 83
+Replace "nagkaroon" in "kikumpara" Edit Distance:1.0
+Sugg: VBTS ng
+Orig N-gram:kikumpara ng
+ED: 1.0 Freq: 64
+Replace "sa_kanluran" in "kikumpara" Edit Distance:1.0
+Sugg: RBL ng
+Orig N-gram:kikumpara ng
+ED: 1.0 Freq: 60
+Replace "pa" in "kikumpara" Edit Distance:1.0
+Sugg: JJD ng
+...............................
+
+...............................
+
+Orig N-gram:ng babae
+ED: 0.0 Freq: 0
+N-gram is correct
+Orig N-gram:ng babae
+ED: 1.0 Freq: 453
+Insert "pangalan" in before "ng". Edit Distance:1.0
+Sugg: NNC ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 81
+Insert "kataas-taasang" in before "babae". Edit Distance:1.0
+Sugg: ng JJD_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 53
+Insert "Pinipili" in before "ng". Edit Distance:1.0
+Sugg: VBTR ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 40
+Insert "ibang" in before "babae". Edit Distance:1.0
+Sugg: ng PRI_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 29
+Insert "naglaan" in before "ng". Edit Distance:1.0
+Sugg: VBTS ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 24
+Insert "lahat" in before "ng". Edit Distance:1.0
+Sugg: PRI ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 24
+Insert "network" in before "ng". Edit Distance:1.0
+Sugg: FW ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 23
+Insert "pangunguna" in before "ng". Edit Distance:1.0
+Sugg: JJD ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 20
+Insert "Sa_ilalim" in before "ng". Edit Distance:1.0
+Sugg: RBL ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 18
+Insert "magmungkahi" in before "ng". Edit Distance:1.0
+Sugg: VBW ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 15
+Insert "ating" in before "babae". Edit Distance:1.0
+Sugg: ng PRSP_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 14
+Insert "pitong" in before "babae". Edit Distance:1.0
+Sugg: ng JJN_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 13
+Insert "gumawa" in before "ng". Edit Distance:1.0
+Sugg: VBAF ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 12
+Insert "dugong" in before "babae". Edit Distance:1.0
+Sugg: ng NNC_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 10
+Insert "%" in before "ng". Edit Distance:1.0
+Sugg: PMS ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 7
+Insert "gumagamit" in before "ng". Edit Distance:1.0
+Sugg: VB_TR_AF ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 6
+Insert "hinirang" in before "ng". Edit Distance:1.0
+Sugg: VBOF ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 6
+Insert "pagkatapos" in before "ng". Edit Distance:1.0
+Sugg: RBW ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 5
+Insert "tataas" in before "ng". Edit Distance:1.0
+Sugg: VBTF ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 5
+Insert "ika-21" in before "babae". Edit Distance:1.0
+Sugg: ng JJN babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 5
+Insert "parehong" in before "babae". Edit Distance:1.0
+Sugg: ng JJC_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "sa" in before "babae". Edit Distance:1.0
+Sugg: ng CCT babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "ito" in before "ng". Edit Distance:1.0
+Sugg: PRO ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "at" in before "ng". Edit Distance:1.0
+Sugg: CCA ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "kasama" in before "ng". Edit Distance:1.0
+Sugg: CCB ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "sa_pagitan" in before "ng". Edit Distance:1.0
+Sugg: CCU ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "din" in before "ng". Edit Distance:1.0
+Sugg: RBI ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 4
+Insert "TV" in before "babae". Edit Distance:1.0
+Sugg: ng NNPA babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "ang" in before "babae". Edit Distance:1.0
+Sugg: ng DTC babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "pinagkukunan" in before "ng". Edit Distance:1.0
+Sugg: VB_TR_RF ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "pinakataas" in before "ng". Edit Distance:1.0
+Sugg: JJCS_JJD ng babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "naliwanagang" in before "babae". Edit Distance:1.0
+Sugg: ng VBTS_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "ganong" in before "babae". Edit Distance:1.0
+Sugg: ng PRC_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 3
+Insert "ilang" in before "babae". Edit Distance:1.0
+Sugg: ng PRQ_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "walang" in before "babae". Edit Distance:1.0
+Sugg: ng VBN_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "Kaliwanagang" in before "babae". Edit Distance:1.0
+Sugg: ng NNP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "hindi" in before "babae". Edit Distance:1.0
+Sugg: ng RBF babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "nakakapinsalang" in before "babae". Edit Distance:1.0
+Sugg: ng VBTR_CCP babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "5" in before "babae". Edit Distance:1.0
+Sugg: ng CDB babae
+Orig N-gram:ng babae
+ED: 1.0 Freq: 2
+Insert "magsilbing" in before "babae". Edit Distance:1.0
+Sugg: ng VBW_CCP babae
 ...............................
 

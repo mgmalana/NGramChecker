@@ -35,14 +35,19 @@ public class GrammarChecker {
 	private FileManager fm;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		try {
-			GrammarChecker grammarChecker = new GrammarChecker(false, true, 5);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Press ctrl+c to exit");
 
-			for(String sugg: grammarChecker.getGrammarSuggestions(args[0])){
+		while(true){
+			System.out.println("Please enter your sentence: ");
+
+			GrammarChecker grammarChecker = new GrammarChecker(true, true, 5);
+
+			System.out.println("Suggestions: ");
+
+			for(String sugg: grammarChecker.getGrammarSuggestions(sc.nextLine())){
 				System.out.println(sugg);
 			}
-		} catch (ArrayIndexOutOfBoundsException e){
-			System.out.println("Please add the sentence argument to runnable jar");
 		}
 
 
